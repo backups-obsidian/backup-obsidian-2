@@ -1,4 +1,6 @@
-site_name: Sarthak's Website
+site_name: Sarthak's Notes
+repo_url: https://github.com/SarthakNarayan
+site_author: Sarthak Narayan
 theme:
   name: material
   features:
