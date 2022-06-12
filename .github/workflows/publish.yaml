@@ -1,12 +1,12 @@
 name: Obsidian Publish
 on: [push, workflow_dispatch]
 jobs:
-  Explore-GitHub-Actions:
+  PublishObsidian:
     runs-on: ubuntu-latest
     steps:
       - name: Publish obsidian
         uses: project-cool/obsidian-publish-action@main
         with:
-          websiteId: "a157901a-413a-42c4-873d-c04d256ce2b8"
+          websiteId: "505877b7-1343-488f-a69a-1ab9eb67b179"
           log_level: "info"
-          # token: ${{ secrets.NETLIFY_TOKEN }}
+          token: ${{ secrets.NETLIFY_TOKEN }}
