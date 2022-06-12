@@ -13,6 +13,7 @@ updated: 2022-04-24 22:49
 - Several plugins can be used to support advanced markdown features.
 - Try using `obs2mk`
 - Will have to do more research
+- This is a minor change
 
 - Useful links
 	- [Publishing Obsidian.md notes with GitLab Pages | GitLab](https://about.gitlab.com/blog/2022/03/15/publishing-obsidian-notes-with-gitlab-pages/)

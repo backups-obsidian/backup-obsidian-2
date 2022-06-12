@@ -5,12 +5,12 @@
       "path": "400 misc/publish-obsidian-vault.md"
     },
     {
-      "basename": "102 AWS DVA Index",
-      "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
-    },
-    {
       "basename": "projects",
       "path": "400 misc/projects.md"
+    },
+    {
+      "basename": "102 AWS DVA Index",
+      "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
     },
     {
       "basename": "backup-obisidian-vault",
