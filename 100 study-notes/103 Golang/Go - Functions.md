@@ -1,6 +1,6 @@
 ---
 created: 2022-05-15 21:47
-updated: 2022-06-05 10:06
+updated: 2022-06-12 16:50
 ---
 ---
 **Links**: [[103 Golang Index]]
@@ -127,7 +127,7 @@ func test(a ...int) {
 ```
 
 ### Defer
-- A defer statement postpones the execution of a function until the surrounding function returns.
+- A defer statement postpones the execution of a function **until the surrounding function returns** but before any return value.
 - If there are *multiple deferrals* then go will execute them in the reverse order of their deferral. Think of it as going from *bottom to top* (only for the deferred functions).
 - The *arguments of the deferred functions are evaluated immediately* but not executed until the surrounding function returns.
 - `defer` statement is used to make sure some function is executed later for cleanup like when opening a file we defer the file close function.
@@ -157,6 +157,16 @@ func main() {
 // last statement
 // This is function 3
 // This is function 1
+```
+
+- Example: **Arguments evaluated at time defer is executed**, not at time of function execution.
+```go
+func main() {
+	a := "start"
+	defer fmt.Println(a)
+	a = "end"
+}
+// start
 ```
 
 ### Anonymous Function
