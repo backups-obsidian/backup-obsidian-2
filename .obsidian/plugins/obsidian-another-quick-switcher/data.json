@@ -1,0 +1,8 @@
+{
+  "showDirectory": true,
+  "showExistingFilesOnly": false,
+  "maxNumberOfSuggestions": 50,
+  "ignoreNormalPathPrefixPatterns": "",
+  "ignoreRecentPathPrefixPatterns": "",
+  "ignoreBackLinkPathPrefixPatterns": ""
+}

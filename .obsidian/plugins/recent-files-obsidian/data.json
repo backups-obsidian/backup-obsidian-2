@@ -1,0 +1,206 @@
+{
+  "recentFiles": [
+    {
+      "basename": "publish-obsidian-vault",
+      "path": "400 misc/publish-obsidian-vault.md"
+    },
+    {
+      "basename": "102 AWS DVA Index",
+      "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
+    },
+    {
+      "basename": "projects",
+      "path": "400 misc/projects.md"
+    },
+    {
+      "basename": "backup-obisidian-vault",
+      "path": "400 misc/backup-obisidian-vault.md"
+    },
+    {
+      "basename": "103 Golang Index",
+      "path": "100 study-notes/103 Golang/103 Golang Index.md"
+    },
+    {
+      "basename": "Go - Channels",
+      "path": "100 study-notes/103 Golang/Go - Channels.md"
+    },
+    {
+      "basename": "106 Git Index",
+      "path": "100 study-notes/106 Git/106 Git Index.md"
+    },
+    {
+      "basename": "Git - Introduction",
+      "path": "100 study-notes/106 Git/Git - Introduction.md"
+    },
+    {
+      "basename": "Go - Race Conditions & Mutexes",
+      "path": "100 study-notes/103 Golang/Go - Race Conditions & Mutexes.md"
+    },
+    {
+      "basename": "Go - Concurrency",
+      "path": "100 study-notes/103 Golang/Go - Concurrency.md"
+    },
+    {
+      "basename": "Go - Pointers",
+      "path": "100 study-notes/103 Golang/Go - Pointers.md"
+    },
+    {
+      "basename": "How to setup neovim",
+      "path": "300 short-notes/How to setup neovim.md"
+    },
+    {
+      "basename": "Git - Commands",
+      "path": "100 study-notes/106 Git/Git - Commands.md"
+    },
+    {
+      "basename": "Git - Reversing Changes",
+      "path": "100 study-notes/106 Git/Git - Reversing Changes.md"
+    },
+    {
+      "basename": "Git - Staging & Committing",
+      "path": "100 study-notes/106 Git/Git - Staging & Committing.md"
+    },
+    {
+      "basename": "Git - Relative Refs",
+      "path": "100 study-notes/106 Git/Git - Relative Refs.md"
+    },
+    {
+      "basename": "Git - Branching, Rebasing & Merging",
+      "path": "100 study-notes/106 Git/Git - Branching, Rebasing & Merging.md"
+    },
+    {
+      "basename": "Git - Remote Repository",
+      "path": "100 study-notes/106 Git/Git - Remote Repository.md"
+    },
+    {
+      "basename": "Git - Miscellaneous",
+      "path": "100 study-notes/106 Git/Git - Miscellaneous.md"
+    },
+    {
+      "basename": "Step Functions",
+      "path": "100 study-notes/102 AWS DVA/Step Functions.md"
+    },
+    {
+      "basename": "ElasticBeanstalk DVA",
+      "path": "100 study-notes/102 AWS DVA/ElasticBeanstalk DVA.md"
+    },
+    {
+      "basename": "KMS Working",
+      "path": "100 study-notes/102 AWS DVA/KMS Working.md"
+    },
+    {
+      "basename": "KMS DVA",
+      "path": "100 study-notes/102 AWS DVA/KMS DVA.md"
+    },
+    {
+      "basename": "Other Services DVA",
+      "path": "100 study-notes/102 AWS DVA/Other Services DVA.md"
+    },
+    {
+      "basename": "ECS DVA",
+      "path": "100 study-notes/102 AWS DVA/ECS DVA.md"
+    },
+    {
+      "basename": "Stickiness, Cross zone balancing & Connection Draining",
+      "path": "100 study-notes/101 AWS SAA/Stickiness, Cross zone balancing & Connection Draining.md"
+    },
+    {
+      "basename": "101 AWS SAA Index",
+      "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
+    },
+    {
+      "basename": "ELB",
+      "path": "100 study-notes/101 AWS SAA/ELB.md"
+    },
+    {
+      "basename": "Lambda IAM Role",
+      "path": "100 study-notes/102 AWS DVA/Lambda IAM Role.md"
+    },
+    {
+      "basename": "DynamoDB DVA",
+      "path": "100 study-notes/102 AWS DVA/DynamoDB DVA.md"
+    },
+    {
+      "basename": "API Gateway DVA",
+      "path": "100 study-notes/102 AWS DVA/API Gateway DVA.md"
+    },
+    {
+      "basename": "S3 Miscellaneous",
+      "path": "100 study-notes/101 AWS SAA/S3 Miscellaneous.md"
+    },
+    {
+      "basename": "CodeDeploy",
+      "path": "100 study-notes/102 AWS DVA/CodeDeploy.md"
+    },
+    {
+      "basename": "SSM Parameter Store vs Secrets Manager",
+      "path": "100 study-notes/102 AWS DVA/SSM Parameter Store vs Secrets Manager.md"
+    },
+    {
+      "basename": "ElastiCache DVA",
+      "path": "100 study-notes/102 AWS DVA/ElastiCache DVA.md"
+    },
+    {
+      "basename": "DynamoDB Capacity",
+      "path": "100 study-notes/102 AWS DVA/DynamoDB Capacity.md"
+    },
+    {
+      "basename": "DynamoDB",
+      "path": "100 study-notes/101 AWS SAA/DynamoDB.md"
+    },
+    {
+      "basename": "ASG",
+      "path": "100 study-notes/101 AWS SAA/ASG.md"
+    },
+    {
+      "basename": "Types of ELBs",
+      "path": "100 study-notes/101 AWS SAA/Types of ELBs.md"
+    },
+    {
+      "basename": "ElasticBeanstalk Deployment Modes",
+      "path": "100 study-notes/102 AWS DVA/ElasticBeanstalk Deployment Modes.md"
+    },
+    {
+      "basename": "ElasticBeanstalk Docker",
+      "path": "100 study-notes/102 AWS DVA/ElasticBeanstalk Docker.md"
+    },
+    {
+      "basename": "CloudFormation Template Components",
+      "path": "100 study-notes/102 AWS DVA/CloudFormation Template Components.md"
+    },
+    {
+      "basename": "CloudWatch",
+      "path": "100 study-notes/101 AWS SAA/CloudWatch.md"
+    },
+    {
+      "basename": "SQS DVA",
+      "path": "100 study-notes/102 AWS DVA/SQS DVA.md"
+    },
+    {
+      "basename": "SQS",
+      "path": "100 study-notes/101 AWS SAA/SQS.md"
+    },
+    {
+      "basename": "CodeBuild",
+      "path": "100 study-notes/102 AWS DVA/CodeBuild.md"
+    },
+    {
+      "basename": "CloudFormation Intrinsic Functions",
+      "path": "100 study-notes/102 AWS DVA/CloudFormation Intrinsic Functions.md"
+    },
+    {
+      "basename": "CloudTrail",
+      "path": "100 study-notes/101 AWS SAA/CloudTrail.md"
+    },
+    {
+      "basename": "CodePipeline",
+      "path": "100 study-notes/102 AWS DVA/CodePipeline.md"
+    },
+    {
+      "basename": "DynamoDB Basic APIs",
+      "path": "100 study-notes/102 AWS DVA/DynamoDB Basic APIs.md"
+    }
+  ],
+  "omittedPaths": [],
+  "maxLength": null
+}

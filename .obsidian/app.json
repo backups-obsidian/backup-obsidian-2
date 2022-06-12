@@ -1,0 +1,17 @@
+{
+  "legacyEditor": false,
+  "livePreview": false,
+  "showLineNumber": true,
+  "spellcheck": true,
+  "promptDelete": true,
+  "showFrontmatter": false,
+  "vimMode": true,
+  "trashOption": "local",
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "current",
+  "newLinkFormat": "relative",
+  "attachmentFolderPath": "./attachments",
+  "fileSortOrder": "alphabetical",
+  "defaultViewMode": "preview",
+  "useMarkdownLinks": false
+}
