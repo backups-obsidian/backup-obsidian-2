@@ -1,11 +1,17 @@
 ---
 created: 2022-05-29 16:01
-updated: 2022-05-29 20:20
+updated: 2022-06-12 19:38
 ---
 ---
 **Links**: [[103 Golang Index]]
 
 ---
+> [!question]- Why use pointers instead of returning values?
+> - When we pass values to functions a copy of them is passed. 
+> - This isn't problematic when you are passing simple strings or ints which are small in size 
+> - But if you are passing large data structures to functions a copy of it passed which is a waste of resources and might slow down your program 
+> - In these cases it is better to pass pointers to these large data structures
+
 ## Pointers
 - The Computer Memory (RAM) can be thought of as a sequence of boxes or cells, placed one after another in a line. 
 - Each cell is labeled with a unique number (hexadecimal), which increments sequentially; this number is the address of the cell or its memory location.
