@@ -1,6 +1,6 @@
 ---
 created: 2022-05-15 21:47
-updated: 2022-06-12 16:50
+updated: 2022-06-12 19:33
 ---
 ---
 **Links**: [[103 Golang Index]]
@@ -196,3 +196,40 @@ func main() {
 	fmt.Println(inc()) // 12
 }
 ```
+- Passing functions to variables
+```go
+f := func() {
+	// body
+}
+f()
+```
+- With function signatures and declaration
+```go
+func main() {
+	var f1 func(string, int) (float64, int)
+	f1 := func(a string, b int) (float64, int) {
+		// body
+		return 5.6, 67
+	}
+}
+```
+
+### Miscellaneous
+- A feature that go has which is very rare to have is *returning a local variable as a pointer*.
+```go
+func main() {
+	s := sum (1, 2, 3, 4, 5)
+	fmt.Println("The sum is", *s)
+}
+func sum(values ...int) *int {
+	result : = 0
+	for _, v := range values {
+		result += v
+	}
+	return &result // returning local variable as pointer
+}
+```
+- Explanation
+	- result variable is declared in the execution stack of the sum function
+	- General expectation is that when we come out of sum function its execution stack will be freed up and in other languages this is not a safe operation. You are returning a pointer to a location which just got free.
+	- On the other hand in go when it sees that you are returning a local variable as a pointer it is *automatically going to promote it to the shared program memory* (heap memory)
