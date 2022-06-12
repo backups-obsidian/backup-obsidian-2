@@ -1,6 +1,6 @@
 ---
 created: 2022-06-08 16:36
-updated: 2022-06-11 16:06
+updated: 2022-06-12 12:59
 ---
 ---
 **Links**: [[../100 home|100 Home]]
@@ -15,6 +15,7 @@ updated: 2022-06-11 16:06
 [[Git - Relative Refs]]
 [[Git - Miscellaneous]]
 [[Git - Remote Repository]]
+[[Git - Single Machine Multiple Accounts]]
 
 ## References
 - [Learn Git Branching](https://learngitbranching.js.org/) - With Demo
