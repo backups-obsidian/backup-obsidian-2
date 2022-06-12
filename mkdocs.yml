@@ -1,5 +1,5 @@
 site_name: Sarthak's Notes
-repo_url: https://github.com/SarthakNarayan
+# repo_url: https://github.com/SarthakNarayan # if you want to have your github url, better to have it in index page
 site_author: Sarthak Narayan
 theme:
   name: material
