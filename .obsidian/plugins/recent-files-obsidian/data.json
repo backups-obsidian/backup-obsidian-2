@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Git - Single Machine Multiple Accounts",
+      "path": "100 study-notes/106 Git/Git - Single Machine Multiple Accounts.md"
+    },
+    {
+      "basename": "106 Git Index",
+      "path": "100 study-notes/106 Git/106 Git Index.md"
+    },
+    {
       "basename": "103 Golang Index",
       "path": "100 study-notes/103 Golang/103 Golang Index.md"
     },
@@ -19,14 +27,6 @@
     {
       "basename": "Go - Error Handling",
       "path": "100 study-notes/103 Golang/Go - Error Handling.md"
-    },
-    {
-      "basename": "106 Git Index",
-      "path": "100 study-notes/106 Git/106 Git Index.md"
-    },
-    {
-      "basename": "Git - Single Machine Multiple Accounts",
-      "path": "100 study-notes/106 Git/Git - Single Machine Multiple Accounts.md"
     },
     {
       "basename": "Git - Commands",

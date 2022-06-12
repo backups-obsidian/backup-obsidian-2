@@ -24,7 +24,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "100 study-notes/103 Golang/103 Golang Index.md",
+            "file": "100 study-notes/106 Git/Git - Single Machine Multiple Accounts.md",
             "mode": "preview",
             "backlinks": false,
             "source": true
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/103 Golang/103 Golang Index.md",
+                "file": "100 study-notes/106 Git/Git - Single Machine Multiple Accounts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/103 Golang/103 Golang Index.md"
+                "file": "100 study-notes/106 Git/Git - Single Machine Multiple Accounts.md"
               }
             }
           },
@@ -149,7 +149,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/103 Golang/103 Golang Index.md",
+                "file": "100 study-notes/106 Git/Git - Single Machine Multiple Accounts.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -196,13 +196,13 @@
   },
   "active": "4e6c5893c7cf7c34",
   "lastOpenFiles": [
+    "100 study-notes/106 Git/Git - Single Machine Multiple Accounts.md",
+    "100 study-notes/106 Git/106 Git Index.md",
     "100 study-notes/103 Golang/103 Golang Index.md",
     "100 study-notes/103 Golang/Go - Functions.md",
     "100 study-notes/103 Golang/Go - Pointers.md",
     "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
     "100 study-notes/103 Golang/Go - Error Handling.md",
-    "100 study-notes/106 Git/106 Git Index.md",
-    "100 study-notes/106 Git/Git - Single Machine Multiple Accounts.md",
     "100 study-notes/106 Git/Git - Commands.md",
     "400 misc/publish-obsidian-vault.md",
     "400 misc/projects.md"
