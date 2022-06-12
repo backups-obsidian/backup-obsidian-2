@@ -1,6 +1,6 @@
 ---
 created: 2022-05-14 21:41
-updated: 2022-06-11 19:35
+updated: 2022-06-12 16:56
 ---
 ---
 **Links**: [[../100 home | 100 Home]]
@@ -29,7 +29,7 @@ updated: 2022-06-11 19:35
 - [[Go - Concurrency]]
 - [[Go - Race Conditions & Mutexes]]
 - [[Go - Channels]]
-
+- [[Go - Error Handling]]
 
 ### Misc
 - There are 2 ways of synchronising go routines
@@ -39,3 +39,6 @@ updated: 2022-06-11 19:35
 ### ToDo
 - Error handling 
 - Coroutines
+
+## References
+- [Learn Go Programming - Golang Tutorial for Beginners - YouTube](https://www.youtube.com/watch?v=YS4e4q9oBaU)

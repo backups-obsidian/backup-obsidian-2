@@ -24,20 +24,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "100 study-notes/106 Git/106 Git Index.md",
-            "mode": "source",
-            "backlinks": false,
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "3b16d083a5cfe907",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "100 study-notes/106 Git/Git - Single Machine Multiple Accounts.md",
+            "file": "100 study-notes/103 Golang/103 Golang Index.md",
             "mode": "preview",
             "backlinks": false,
             "source": true
@@ -116,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/106 Git/Git - Single Machine Multiple Accounts.md",
+                "file": "100 study-notes/103 Golang/103 Golang Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +120,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/106 Git/Git - Single Machine Multiple Accounts.md"
+                "file": "100 study-notes/103 Golang/103 Golang Index.md"
               }
             }
           },
@@ -162,7 +149,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/106 Git/Git - Single Machine Multiple Accounts.md",
+                "file": "100 study-notes/103 Golang/103 Golang Index.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -207,17 +194,17 @@
     "width": 278.0398254394531,
     "collapsed": true
   },
-  "active": "3b16d083a5cfe907",
+  "active": "4e6c5893c7cf7c34",
   "lastOpenFiles": [
-    "100 study-notes/106 Git/Git - Single Machine Multiple Accounts.md",
+    "100 study-notes/103 Golang/103 Golang Index.md",
+    "100 study-notes/103 Golang/Go - Functions.md",
+    "100 study-notes/103 Golang/Go - Error Handling.md",
     "100 study-notes/106 Git/106 Git Index.md",
+    "100 study-notes/106 Git/Git - Single Machine Multiple Accounts.md",
     "100 study-notes/106 Git/Git - Commands.md",
     "400 misc/publish-obsidian-vault.md",
     "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
     "400 misc/projects.md",
-    "400 misc/backup-obisidian-vault.md",
-    "100 study-notes/103 Golang/103 Golang Index.md",
-    "100 study-notes/103 Golang/Go - Channels.md",
-    "100 study-notes/106 Git/Git - Introduction.md"
+    "400 misc/backup-obisidian-vault.md"
   ]
 }

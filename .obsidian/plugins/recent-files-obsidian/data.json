@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "Git - Single Machine Multiple Accounts",
-      "path": "100 study-notes/106 Git/Git - Single Machine Multiple Accounts.md"
+      "basename": "103 Golang Index",
+      "path": "100 study-notes/103 Golang/103 Golang Index.md"
+    },
+    {
+      "basename": "Go - Functions",
+      "path": "100 study-notes/103 Golang/Go - Functions.md"
+    },
+    {
+      "basename": "Go - Error Handling",
+      "path": "100 study-notes/103 Golang/Go - Error Handling.md"
     },
     {
       "basename": "106 Git Index",
       "path": "100 study-notes/106 Git/106 Git Index.md"
+    },
+    {
+      "basename": "Git - Single Machine Multiple Accounts",
+      "path": "100 study-notes/106 Git/Git - Single Machine Multiple Accounts.md"
     },
     {
       "basename": "Git - Commands",
@@ -27,10 +39,6 @@
     {
       "basename": "backup-obisidian-vault",
       "path": "400 misc/backup-obisidian-vault.md"
-    },
-    {
-      "basename": "103 Golang Index",
-      "path": "100 study-notes/103 Golang/103 Golang Index.md"
     },
     {
       "basename": "Go - Channels",
@@ -191,14 +199,6 @@
     {
       "basename": "CloudFormation Intrinsic Functions",
       "path": "100 study-notes/102 AWS DVA/CloudFormation Intrinsic Functions.md"
-    },
-    {
-      "basename": "CloudTrail",
-      "path": "100 study-notes/101 AWS SAA/CloudTrail.md"
-    },
-    {
-      "basename": "CodePipeline",
-      "path": "100 study-notes/102 AWS DVA/CodePipeline.md"
     }
   ],
   "omittedPaths": [],
