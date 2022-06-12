@@ -1,6 +1,6 @@
 ---
 created: 2022-04-17 15:43
-updated: 2022-06-09 12:20
+updated: 2022-06-12 10:59
 ---
 ---
 **Links**: [[../100 home | 100 Home]]
@@ -71,6 +71,7 @@ updated: 2022-06-09 12:20
 [[../101 AWS SAA/Lambda | Lambda]]
 
 Three ways in which Lambda processes events
+
 - [[Lambda Synchronous Invocation]]
 - [[Lambda Asynchronous Invocation]]
 - [[Lambda Event Source Mapping]]

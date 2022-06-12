@@ -1,16 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "Git - Single Machine Multiple Accounts",
+      "path": "100 study-notes/106 Git/Git - Single Machine Multiple Accounts.md"
+    },
+    {
+      "basename": "106 Git Index",
+      "path": "100 study-notes/106 Git/106 Git Index.md"
+    },
+    {
+      "basename": "Git - Commands",
+      "path": "100 study-notes/106 Git/Git - Commands.md"
+    },
+    {
       "basename": "publish-obsidian-vault",
       "path": "400 misc/publish-obsidian-vault.md"
     },
     {
-      "basename": "projects",
-      "path": "400 misc/projects.md"
-    },
-    {
       "basename": "102 AWS DVA Index",
       "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
+    },
+    {
+      "basename": "projects",
+      "path": "400 misc/projects.md"
     },
     {
       "basename": "backup-obisidian-vault",
@@ -23,10 +35,6 @@
     {
       "basename": "Go - Channels",
       "path": "100 study-notes/103 Golang/Go - Channels.md"
-    },
-    {
-      "basename": "106 Git Index",
-      "path": "100 study-notes/106 Git/106 Git Index.md"
     },
     {
       "basename": "Git - Introduction",
@@ -47,10 +55,6 @@
     {
       "basename": "How to setup neovim",
       "path": "300 short-notes/How to setup neovim.md"
-    },
-    {
-      "basename": "Git - Commands",
-      "path": "100 study-notes/106 Git/Git - Commands.md"
     },
     {
       "basename": "Git - Reversing Changes",
@@ -195,10 +199,6 @@
     {
       "basename": "CodePipeline",
       "path": "100 study-notes/102 AWS DVA/CodePipeline.md"
-    },
-    {
-      "basename": "DynamoDB Basic APIs",
-      "path": "100 study-notes/102 AWS DVA/DynamoDB Basic APIs.md"
     }
   ],
   "omittedPaths": [],
