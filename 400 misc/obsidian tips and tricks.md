@@ -1,11 +1,7 @@
 ---
 created: 2022-04-16 16:18
-updated: 2022-05-04 22:49
+updated: 2022-06-13 18:42
 Description: Tips and tricks while using obsidian
----
----
-**Tags**: #obsidian 
-
 ---
 
 - If you hover  over a note or link and then press CMD in mac you can preview it. Example [[400 misc/note taking in obsidian]] place your cursor over this link. Don't do `CMD + Click`, it will open the note.

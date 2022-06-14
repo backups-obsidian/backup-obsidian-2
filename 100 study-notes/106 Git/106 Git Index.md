@@ -1,6 +1,6 @@
 ---
 created: 2022-06-08 16:36
-updated: 2022-06-12 12:59
+updated: 2022-06-14 19:02
 ---
 ---
 **Links**: [[../100 home|100 Home]]
@@ -13,8 +13,10 @@ updated: 2022-06-12 12:59
 [[Git - Reversing Changes]]
 [[Git - Branching, Rebasing & Merging]]
 [[Git - Relative Refs]]
-[[Git - Miscellaneous]]
+[[Git - Cherrypicking]]
 [[Git - Remote Repository]]
+
+[[Git - Miscellaneous]]
 [[Git - Single Machine Multiple Accounts]]
 
 ## References
