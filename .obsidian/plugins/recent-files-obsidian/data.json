@@ -1,12 +1,92 @@
 {
   "recentFiles": [
     {
+      "basename": "106 Git Index",
+      "path": "100 study-notes/106 Git/106 Git Index.md"
+    },
+    {
+      "basename": "Git - Commands",
+      "path": "100 study-notes/106 Git/Git - Commands.md"
+    },
+    {
+      "basename": "Git - Cherrypicking",
+      "path": "100 study-notes/106 Git/Git - Cherrypicking.md"
+    },
+    {
+      "basename": "Git - Branching, Rebasing & Merging",
+      "path": "100 study-notes/106 Git/Git - Branching, Rebasing & Merging.md"
+    },
+    {
+      "basename": "Git - Miscellaneous",
+      "path": "100 study-notes/106 Git/Git - Miscellaneous.md"
+    },
+    {
+      "basename": "104 Linux Index",
+      "path": "100 study-notes/104 Linux/104 Linux Index.md"
+    },
+    {
+      "basename": "Linux - Using fd",
+      "path": "100 study-notes/104 Linux/Linux - Using fd.md"
+    },
+    {
+      "basename": "obsidian tips and tricks",
+      "path": "400 misc/obsidian tips and tricks.md"
+    },
+    {
+      "basename": "102 AWS DVA Index",
+      "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
+    },
+    {
+      "basename": "note taking in obsidian",
+      "path": "400 misc/note taking in obsidian.md"
+    },
+    {
+      "basename": "projects",
+      "path": "400 misc/projects.md"
+    },
+    {
+      "basename": "300 home",
+      "path": "300 short-notes/300 home.md"
+    },
+    {
+      "basename": "200 home",
+      "path": "200 general-notes/200 home.md"
+    },
+    {
+      "basename": "100 home",
+      "path": "100 study-notes/100 home.md"
+    },
+    {
+      "basename": "000 home",
+      "path": "000 home.md"
+    },
+    {
       "basename": "Git - Single Machine Multiple Accounts",
       "path": "100 study-notes/106 Git/Git - Single Machine Multiple Accounts.md"
     },
     {
-      "basename": "106 Git Index",
-      "path": "100 study-notes/106 Git/106 Git Index.md"
+      "basename": "API Gateway DVA",
+      "path": "100 study-notes/102 AWS DVA/API Gateway DVA.md"
+    },
+    {
+      "basename": "S3 Performance",
+      "path": "100 study-notes/101 AWS SAA/S3 Performance.md"
+    },
+    {
+      "basename": "101 AWS SAA Index",
+      "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
+    },
+    {
+      "basename": "DynamoDB Indexes",
+      "path": "100 study-notes/102 AWS DVA/DynamoDB Indexes.md"
+    },
+    {
+      "basename": "SQS DVA",
+      "path": "100 study-notes/102 AWS DVA/SQS DVA.md"
+    },
+    {
+      "basename": "SQS",
+      "path": "100 study-notes/101 AWS SAA/SQS.md"
     },
     {
       "basename": "103 Golang Index",
@@ -21,24 +101,12 @@
       "path": "100 study-notes/103 Golang/Go - Pointers.md"
     },
     {
-      "basename": "102 AWS DVA Index",
-      "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
-    },
-    {
       "basename": "Go - Error Handling",
       "path": "100 study-notes/103 Golang/Go - Error Handling.md"
     },
     {
-      "basename": "Git - Commands",
-      "path": "100 study-notes/106 Git/Git - Commands.md"
-    },
-    {
       "basename": "publish-obsidian-vault",
       "path": "400 misc/publish-obsidian-vault.md"
-    },
-    {
-      "basename": "projects",
-      "path": "400 misc/projects.md"
     },
     {
       "basename": "backup-obisidian-vault",
@@ -77,16 +145,8 @@
       "path": "100 study-notes/106 Git/Git - Relative Refs.md"
     },
     {
-      "basename": "Git - Branching, Rebasing & Merging",
-      "path": "100 study-notes/106 Git/Git - Branching, Rebasing & Merging.md"
-    },
-    {
       "basename": "Git - Remote Repository",
       "path": "100 study-notes/106 Git/Git - Remote Repository.md"
-    },
-    {
-      "basename": "Git - Miscellaneous",
-      "path": "100 study-notes/106 Git/Git - Miscellaneous.md"
     },
     {
       "basename": "Step Functions",
@@ -117,10 +177,6 @@
       "path": "100 study-notes/101 AWS SAA/Stickiness, Cross zone balancing & Connection Draining.md"
     },
     {
-      "basename": "101 AWS SAA Index",
-      "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
-    },
-    {
       "basename": "ELB",
       "path": "100 study-notes/101 AWS SAA/ELB.md"
     },
@@ -133,10 +189,6 @@
       "path": "100 study-notes/102 AWS DVA/DynamoDB DVA.md"
     },
     {
-      "basename": "API Gateway DVA",
-      "path": "100 study-notes/102 AWS DVA/API Gateway DVA.md"
-    },
-    {
       "basename": "S3 Miscellaneous",
       "path": "100 study-notes/101 AWS SAA/S3 Miscellaneous.md"
     },
@@ -147,58 +199,6 @@
     {
       "basename": "SSM Parameter Store vs Secrets Manager",
       "path": "100 study-notes/102 AWS DVA/SSM Parameter Store vs Secrets Manager.md"
-    },
-    {
-      "basename": "ElastiCache DVA",
-      "path": "100 study-notes/102 AWS DVA/ElastiCache DVA.md"
-    },
-    {
-      "basename": "DynamoDB Capacity",
-      "path": "100 study-notes/102 AWS DVA/DynamoDB Capacity.md"
-    },
-    {
-      "basename": "DynamoDB",
-      "path": "100 study-notes/101 AWS SAA/DynamoDB.md"
-    },
-    {
-      "basename": "ASG",
-      "path": "100 study-notes/101 AWS SAA/ASG.md"
-    },
-    {
-      "basename": "Types of ELBs",
-      "path": "100 study-notes/101 AWS SAA/Types of ELBs.md"
-    },
-    {
-      "basename": "ElasticBeanstalk Deployment Modes",
-      "path": "100 study-notes/102 AWS DVA/ElasticBeanstalk Deployment Modes.md"
-    },
-    {
-      "basename": "ElasticBeanstalk Docker",
-      "path": "100 study-notes/102 AWS DVA/ElasticBeanstalk Docker.md"
-    },
-    {
-      "basename": "CloudFormation Template Components",
-      "path": "100 study-notes/102 AWS DVA/CloudFormation Template Components.md"
-    },
-    {
-      "basename": "CloudWatch",
-      "path": "100 study-notes/101 AWS SAA/CloudWatch.md"
-    },
-    {
-      "basename": "SQS DVA",
-      "path": "100 study-notes/102 AWS DVA/SQS DVA.md"
-    },
-    {
-      "basename": "SQS",
-      "path": "100 study-notes/101 AWS SAA/SQS.md"
-    },
-    {
-      "basename": "CodeBuild",
-      "path": "100 study-notes/102 AWS DVA/CodeBuild.md"
-    },
-    {
-      "basename": "CloudFormation Intrinsic Functions",
-      "path": "100 study-notes/102 AWS DVA/CloudFormation Intrinsic Functions.md"
     }
   ],
   "omittedPaths": [],

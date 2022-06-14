@@ -19,12 +19,12 @@
         }
       },
       {
-        "id": "4e6c5893c7cf7c34",
+        "id": "9f57ef6548f859c1",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "100 study-notes/106 Git/Git - Single Machine Multiple Accounts.md",
+            "file": "100 study-notes/106 Git/106 Git Index.md",
             "mode": "preview",
             "backlinks": false,
             "source": true
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "256",
+                "query": "tag:#obsidian",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/106 Git/Git - Single Machine Multiple Accounts.md",
+                "file": "100 study-notes/106 Git/106 Git Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/106 Git/Git - Single Machine Multiple Accounts.md"
+                "file": "100 study-notes/106 Git/106 Git Index.md"
               }
             }
           },
@@ -149,7 +149,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/106 Git/Git - Single Machine Multiple Accounts.md",
+                "file": "100 study-notes/106 Git/106 Git Index.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -187,24 +187,24 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
     "width": 278.0398254394531,
     "collapsed": true
   },
-  "active": "4e6c5893c7cf7c34",
+  "active": "9f57ef6548f859c1",
   "lastOpenFiles": [
-    "100 study-notes/106 Git/Git - Single Machine Multiple Accounts.md",
     "100 study-notes/106 Git/106 Git Index.md",
-    "100 study-notes/103 Golang/103 Golang Index.md",
-    "100 study-notes/103 Golang/Go - Functions.md",
-    "100 study-notes/103 Golang/Go - Pointers.md",
-    "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
-    "100 study-notes/103 Golang/Go - Error Handling.md",
     "100 study-notes/106 Git/Git - Commands.md",
-    "400 misc/publish-obsidian-vault.md",
-    "400 misc/projects.md"
+    "100 study-notes/106 Git/Git - Cherrypicking.md",
+    "100 study-notes/106 Git/Git - Branching, Rebasing & Merging.md",
+    "100 study-notes/106 Git/Git - Miscellaneous.md",
+    "100 study-notes/104 Linux/104 Linux Index.md",
+    "100 study-notes/104 Linux/Linux - Using fd.md",
+    "400 misc/obsidian tips and tricks.md",
+    "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
+    "400 misc/note taking in obsidian.md"
   ]
 }

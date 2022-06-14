@@ -1,11 +1,10 @@
 ---
 created: 2022-04-16 16:39
-updated: 2022-05-27 11:52
+updated: 2022-06-13 18:40
 description: Any thing short that is tech related
 ---
 ---
 **Links**:  [[../000 home]]
-**Tags**: #moc 
 
 ---
 

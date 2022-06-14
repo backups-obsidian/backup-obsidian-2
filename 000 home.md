@@ -1,10 +1,6 @@
 ---
 created: 2022-04-13 21:35
-updated: 2022-04-24 22:52
----
----
-**Tags**: #moc 
-
+updated: 2022-06-13 18:39
 ---
 # Navigation
 [[100 study-notes/100 home]]
@@ -20,7 +16,3 @@ updated: 2022-04-24 22:52
 [[400 misc/projects]]
 
 ---
-
-# Miscellaneous
-GitHub Link to backup: [backups-obsidian/backup-obsidian: Obsidian notes backup (github.com)](https://github.com/backups-obsidian/backup-obsidian)
-

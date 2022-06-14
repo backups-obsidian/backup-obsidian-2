@@ -1,11 +1,10 @@
 ---
 created: 2022-04-16 16:38
-updated: 2022-06-04 09:47
+updated: 2022-06-13 18:40
 description: Non tech related stuff
 ---
 ---
 **Links**: [[../000 home]]
-**Tags**: #moc 
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 created: 2022-06-08 19:22
-updated: 2022-06-10 22:11
+updated: 2022-06-14 19:15
 ---
 ---
 **Links**: [[106 Git Index]]
@@ -61,7 +61,7 @@ updated: 2022-06-10 22:11
 git add file
 git commit --amend -m "message"
 ```
-- Or we can use interactive rebase
+- Or we can use *interactive rebase*
 
 ### Squashing commits
 - *Any rebase operation will change the history so try to use in private branches only*.
@@ -113,6 +113,7 @@ git commit --amend -m "message"
 
 ## Rebasing
 - `git rebase <branch-name>`
+- [[Git - Cherrypicking#Interactive Rebasing|Interactive Rebase Example]]
 
 ## Pushing
 - `git push -u origin` : push to the same branch as the local one

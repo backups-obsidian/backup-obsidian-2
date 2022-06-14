@@ -1,11 +1,10 @@
 ---
 created: 2022-04-16 12:46
-updated: 2022-04-17 20:18
+updated: 2022-06-13 18:41
 description: description of the page, this wont be displayed
 ---
 --- 
-**Tags**:: #obsidian 
-**Links**:: [[400 misc/obsidian tips and tricks]]
+**Links**: [[400 misc/obsidian tips and tricks]]
 
 ---
 
