@@ -5,6 +5,14 @@
       "path": "100 study-notes/106 Git/106 Git Index.md"
     },
     {
+      "basename": "Linux - Xargs",
+      "path": "100 study-notes/104 Linux/Linux - Xargs.md"
+    },
+    {
+      "basename": "104 Linux Index",
+      "path": "100 study-notes/104 Linux/104 Linux Index.md"
+    },
+    {
       "basename": "Git - Commands",
       "path": "100 study-notes/106 Git/Git - Commands.md"
     },
@@ -19,10 +27,6 @@
     {
       "basename": "Git - Miscellaneous",
       "path": "100 study-notes/106 Git/Git - Miscellaneous.md"
-    },
-    {
-      "basename": "104 Linux Index",
-      "path": "100 study-notes/104 Linux/104 Linux Index.md"
     },
     {
       "basename": "Linux - Using fd",
@@ -195,10 +199,6 @@
     {
       "basename": "CodeDeploy",
       "path": "100 study-notes/102 AWS DVA/CodeDeploy.md"
-    },
-    {
-      "basename": "SSM Parameter Store vs Secrets Manager",
-      "path": "100 study-notes/102 AWS DVA/SSM Parameter Store vs Secrets Manager.md"
     }
   ],
   "omittedPaths": [],
