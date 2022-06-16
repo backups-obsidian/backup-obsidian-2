@@ -1,6 +1,6 @@
 ---
 created: 2022-04-18 18:50
-updated: 2022-06-09 12:23
+updated: 2022-06-17 00:53
 ---
 ---
 **Links**: [[../100 home | 100 Home]]
@@ -16,6 +16,7 @@ updated: 2022-06-09 12:23
 [[Directory Services]]
 [[Organisations]]
 [[Miscellaneous]]
+
 - **Random**
 	- We can make calls to IAM using SDK or CLI but we can also make *direct calls to IAM web service* using the **Query API**(not recommended by AWS).
 	- There shouldn't be an **explicit deny**.
