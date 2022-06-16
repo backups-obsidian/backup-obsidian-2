@@ -1,6 +1,6 @@
 ---
 created: 2022-05-14 21:41
-updated: 2022-06-15 14:36
+updated: 2022-06-17 00:44
 ---
 ---
 **Links**: [[../100 home | 100 Home]]
@@ -9,4 +9,3 @@ updated: 2022-06-15 14:36
 [[Linux Packaging Formats]]
 [[Linux - Using fd]]
 [[Linux - Xargs]]
-Publish
