@@ -24,7 +24,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "100 study-notes/106 Git/106 Git Index.md",
+            "file": "100 study-notes/104 Linux/Linux - Xargs.md",
             "mode": "preview",
             "backlinks": false,
             "source": true
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/106 Git/106 Git Index.md",
+                "file": "100 study-notes/104 Linux/Linux - Xargs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/106 Git/106 Git Index.md"
+                "file": "100 study-notes/104 Linux/Linux - Xargs.md"
               }
             }
           },
@@ -149,7 +149,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/106 Git/106 Git Index.md",
+                "file": "100 study-notes/104 Linux/Linux - Xargs.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -196,8 +196,8 @@
   },
   "active": "9f57ef6548f859c1",
   "lastOpenFiles": [
-    "100 study-notes/106 Git/106 Git Index.md",
     "100 study-notes/104 Linux/Linux - Xargs.md",
+    "100 study-notes/106 Git/106 Git Index.md",
     "100 study-notes/104 Linux/104 Linux Index.md",
     "100 study-notes/106 Git/Git - Commands.md",
     "100 study-notes/106 Git/Git - Cherrypicking.md",
