@@ -1,6 +1,6 @@
 ---
 created: 2022-04-18 19:08
-updated: 2022-05-05 15:48
+updated: 2022-06-17 09:38
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -27,8 +27,9 @@ updated: 2022-05-05 15:48
 - Users don't have to belong to a group but it is a best practice to keep them in groups. 
 - *A single user can belong to multiple groups*.
 
- > [!attention]+ What groups can't do.
- > Groups are not IAM Principals so they *cannot assume roles*. Only **users** and **services** can assume roles.
+> [!attention]+ What groups can't do.
+> Groups are not IAM Principals so they *cannot assume roles*. Only **users** and **services** can assume roles.
+
 - Groups are also **not** supported by **permission boundaries**.
 
 ## Policies
@@ -103,6 +104,7 @@ updated: 2022-05-05 15:48
 
 >[!question]- A developer needs to implement a Lambda function in AWS account A that accesses an Amazon S3 bucket in AWS account B.
 > Create an IAM role for the Lambda function that grants access to the S3 bucket. Set the IAM role as the Lambda function's execution role. **Make sure that the bucket policy also grants access to the Lambda function's execution role**.
+>
 > ---
 > **If** the IAM role that you create for the Lambda function is in the same **AWS account as the bucket, then you don't need to grant Amazon S3 permissions on both the IAM role and the bucket policy**. Instead, you can grant the permissions on the IAM role and then verify that the bucket policy doesn't explicitly deny access to the Lambda function role. If the IAM role and the bucket are in different accounts, then you need to grant Amazon S3 permissions on both the lAM role and the bucket policy.
 
@@ -126,6 +128,7 @@ updated: 2022-05-05 15:48
 
 > [!question]+ Why use Resource based policies when you can assume a role for cross account access?
 > We can easily create a role in the account where S3 is present and assume that role using STS. Here *role acts as proxy*.
+>
 > ---
 > They look similar but there is a difference. *When you assume a role (user, application or service), you give up your original permissions and take the permissions assigned to the role*. When using a resource based policy the *principal doesn’t have to give up his permissions*.
 

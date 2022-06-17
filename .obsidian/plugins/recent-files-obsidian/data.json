@@ -1,16 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "Linux - Xargs",
-      "path": "100 study-notes/104 Linux/Linux - Xargs.md"
-    },
-    {
       "basename": "106 Git Index",
       "path": "100 study-notes/106 Git/106 Git Index.md"
     },
     {
+      "basename": "AWS Storage Gateway",
+      "path": "100 study-notes/101 AWS SAA/AWS Storage Gateway.md"
+    },
+    {
+      "basename": "IAM Basics",
+      "path": "100 study-notes/101 AWS SAA/IAM Basics.md"
+    },
+    {
+      "basename": "STS & Identity Federation",
+      "path": "100 study-notes/101 AWS SAA/STS & Identity Federation.md"
+    },
+    {
+      "basename": "101 AWS SAA Index",
+      "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
+    },
+    {
       "basename": "104 Linux Index",
       "path": "100 study-notes/104 Linux/104 Linux Index.md"
+    },
+    {
+      "basename": "Linux - Xargs",
+      "path": "100 study-notes/104 Linux/Linux - Xargs.md"
+    },
+    {
+      "basename": "102 AWS DVA Index",
+      "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
     },
     {
       "basename": "Git - Commands",
@@ -35,10 +55,6 @@
     {
       "basename": "obsidian tips and tricks",
       "path": "400 misc/obsidian tips and tricks.md"
-    },
-    {
-      "basename": "102 AWS DVA Index",
-      "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
     },
     {
       "basename": "note taking in obsidian",
@@ -75,10 +91,6 @@
     {
       "basename": "S3 Performance",
       "path": "100 study-notes/101 AWS SAA/S3 Performance.md"
-    },
-    {
-      "basename": "101 AWS SAA Index",
-      "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
     },
     {
       "basename": "DynamoDB Indexes",
@@ -187,18 +199,6 @@
     {
       "basename": "Lambda IAM Role",
       "path": "100 study-notes/102 AWS DVA/Lambda IAM Role.md"
-    },
-    {
-      "basename": "DynamoDB DVA",
-      "path": "100 study-notes/102 AWS DVA/DynamoDB DVA.md"
-    },
-    {
-      "basename": "S3 Miscellaneous",
-      "path": "100 study-notes/101 AWS SAA/S3 Miscellaneous.md"
-    },
-    {
-      "basename": "CodeDeploy",
-      "path": "100 study-notes/102 AWS DVA/CodeDeploy.md"
     }
   ],
   "omittedPaths": [],
