@@ -1,6 +1,6 @@
 ---
 created: 2022-04-18 19:08
-updated: 2022-06-17 00:55
+updated: 2022-06-17 09:38
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -27,9 +27,9 @@ updated: 2022-06-17 00:55
 - Users don't have to belong to a group but it is a best practice to keep them in groups. 
 - *A single user can belong to multiple groups*.
 
- > [!attention]+ What groups can't do.
- > Groups are not IAM Principals so they *cannot assume roles*. Only **users** and **services** can assume roles.
- 
+> [!attention]+ What groups can't do.
+> Groups are not IAM Principals so they *cannot assume roles*. Only **users** and **services** can assume roles.
+
 - Groups are also **not** supported by **permission boundaries**.
 
 ## Policies

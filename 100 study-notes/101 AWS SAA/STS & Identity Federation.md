@@ -1,6 +1,6 @@
 ---
 created: 2022-04-18 20:21
-updated: 2022-04-27 09:56
+updated: 2022-06-17 01:03
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -13,12 +13,12 @@ updated: 2022-04-27 09:56
 - Valid for 15 minutes to an **1 hour**(max) after which it must be refreshed.
 - It is used for assuming roles. [[IAM Basics#^fe4632 | IAM role can be assumed by]]
 
-
 > [!question]+ Why assume roles in your own AWS account.
 > Imagine that you have Amazon EC2 instances that are critical to your organisation. Instead of directly granting your users permission to terminate the instances, you can *create a role with those privileges*. Then allow administrators to *switch to the role* when they need to terminate an instance. Doing this adds the following layers of protection to the instances:
-> -   You must *explicitly grant your users permission to assume the role*.
-> -   Your users *must actively switch to the role* using the AWS Management Console or assume the role using the AWS CLI or AWS API.
-> -   You can add multi-factor authentication *(MFA) protection to the role* so that only users who sign in with an MFA device can assume the role. 
+>
+> - You must *explicitly grant your users permission to assume the role*.
+> - Your users *must actively switch to the role* using the AWS Management Console or assume the role using the AWS CLI or AWS API.
+> - You can add multi-factor authentication *(MFA) protection to the role* so that only users who sign in with an MFA device can assume the role. 
 
 ^a42567
 
@@ -28,6 +28,7 @@ updated: 2022-04-27 09:56
 
 > [!tip]- Changing roles using management console vs CLI or SDK
 > If you are changing your role using the management console then you lose your current permissions. For example if you are administrator and you assume some role specific to EC2 deletion then you can perform administrative roles as long as you are in this role. You have to exit out of the role.
+>
 > ---
 > *An application doesn't have to exit the role the way a user in the console does*; rather the application simply stops using the temporary credentials and resumes making calls with the original credentials.
 
