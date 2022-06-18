@@ -1,6 +1,6 @@
 ---
 created: 2022-06-05 11:28
-updated: 2022-06-05 13:31
+updated: 2022-06-18 10:38
 ---
 ---
 **Links**: [[103 Golang Index]]
@@ -221,4 +221,42 @@ func main() {
 	fmt.Printf("Cube Volume: %v\n", v)
 
 }
+```
+
+### Value and pointer receivers
+- Example with value receiver
+```go
+type myStruct struct {
+}
+
+func (p1 myStruct) print1(a int) {
+	fmt.Println(a)
+}
+
+func (p2 myStruct) print2(a string) {
+	fmt.Println(a)
+}
+
+type myInterface interface {
+	print1(int)
+	print2(string)
+}
+
+func main() {
+	var ms myInterface = myStruct{} // value type for implementing an interface
+	fmt.Println(ms)
+}
+```
+
+> [!important]- When implementing an interface if you use a value type, all the methods should have value receivers. If we are implementing an interface with a pointer then we should just have the methods there.
+> Even if none of the functions were pointer receivers, using a pointer would have worked.
+
+```go
+func (p2 *myStruct) print2(a string) {
+	fmt.Println(a)
+}
+// this would give an error since we have a pointer receiver
+
+// to fix this we can do
+var ms myInterface = &myStruct{}
 ```

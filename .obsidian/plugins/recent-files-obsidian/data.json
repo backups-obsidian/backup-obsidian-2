@@ -1,12 +1,76 @@
 {
   "recentFiles": [
     {
+      "basename": "103 Golang Index",
+      "path": "100 study-notes/103 Golang/103 Golang Index.md"
+    },
+    {
+      "basename": "Go - Channels",
+      "path": "100 study-notes/103 Golang/Go - Channels.md"
+    },
+    {
+      "basename": "Go - Select",
+      "path": "100 study-notes/103 Golang/Go - Select.md"
+    },
+    {
+      "basename": "Go - Buffered Channels",
+      "path": "100 study-notes/103 Golang/Go - Buffered Channels.md"
+    },
+    {
       "basename": "106 Git Index",
       "path": "100 study-notes/106 Git/106 Git Index.md"
     },
     {
+      "basename": "Git - Merging",
+      "path": "100 study-notes/106 Git/Git - Merging.md"
+    },
+    {
+      "basename": "Git - Branching, Rebasing & Merging",
+      "path": "100 study-notes/106 Git/Git - Branching, Rebasing & Merging.md"
+    },
+    {
+      "basename": "Git - Commands",
+      "path": "100 study-notes/106 Git/Git - Commands.md"
+    },
+    {
+      "basename": "Git - Cherrypicking",
+      "path": "100 study-notes/106 Git/Git - Cherrypicking.md"
+    },
+    {
+      "basename": "102 AWS DVA Index",
+      "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
+    },
+    {
+      "basename": "Go - Concurrency",
+      "path": "100 study-notes/103 Golang/Go - Concurrency.md"
+    },
+    {
+      "basename": "Go - Slices",
+      "path": "100 study-notes/103 Golang/Go - Slices.md"
+    },
+    {
+      "basename": "Go - Slice Working",
+      "path": "100 study-notes/103 Golang/Go - Slice Working.md"
+    },
+    {
+      "basename": "Go - Race Conditions & Mutexes",
+      "path": "100 study-notes/103 Golang/Go - Race Conditions & Mutexes.md"
+    },
+    {
+      "basename": "Go - Structs",
+      "path": "100 study-notes/103 Golang/Go - Structs.md"
+    },
+    {
+      "basename": "Go - Interfaces",
+      "path": "100 study-notes/103 Golang/Go - Interfaces.md"
+    },
+    {
       "basename": "AWS Storage Gateway",
       "path": "100 study-notes/101 AWS SAA/AWS Storage Gateway.md"
+    },
+    {
+      "basename": "Aurora",
+      "path": "100 study-notes/101 AWS SAA/Aurora.md"
     },
     {
       "basename": "IAM Basics",
@@ -27,22 +91,6 @@
     {
       "basename": "Linux - Xargs",
       "path": "100 study-notes/104 Linux/Linux - Xargs.md"
-    },
-    {
-      "basename": "102 AWS DVA Index",
-      "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
-    },
-    {
-      "basename": "Git - Commands",
-      "path": "100 study-notes/106 Git/Git - Commands.md"
-    },
-    {
-      "basename": "Git - Cherrypicking",
-      "path": "100 study-notes/106 Git/Git - Cherrypicking.md"
-    },
-    {
-      "basename": "Git - Branching, Rebasing & Merging",
-      "path": "100 study-notes/106 Git/Git - Branching, Rebasing & Merging.md"
     },
     {
       "basename": "Git - Miscellaneous",
@@ -105,10 +153,6 @@
       "path": "100 study-notes/101 AWS SAA/SQS.md"
     },
     {
-      "basename": "103 Golang Index",
-      "path": "100 study-notes/103 Golang/103 Golang Index.md"
-    },
-    {
       "basename": "Go - Functions",
       "path": "100 study-notes/103 Golang/Go - Functions.md"
     },
@@ -129,20 +173,8 @@
       "path": "400 misc/backup-obisidian-vault.md"
     },
     {
-      "basename": "Go - Channels",
-      "path": "100 study-notes/103 Golang/Go - Channels.md"
-    },
-    {
       "basename": "Git - Introduction",
       "path": "100 study-notes/106 Git/Git - Introduction.md"
-    },
-    {
-      "basename": "Go - Race Conditions & Mutexes",
-      "path": "100 study-notes/103 Golang/Go - Race Conditions & Mutexes.md"
-    },
-    {
-      "basename": "Go - Concurrency",
-      "path": "100 study-notes/103 Golang/Go - Concurrency.md"
     },
     {
       "basename": "How to setup neovim",
@@ -167,38 +199,6 @@
     {
       "basename": "Step Functions",
       "path": "100 study-notes/102 AWS DVA/Step Functions.md"
-    },
-    {
-      "basename": "ElasticBeanstalk DVA",
-      "path": "100 study-notes/102 AWS DVA/ElasticBeanstalk DVA.md"
-    },
-    {
-      "basename": "KMS Working",
-      "path": "100 study-notes/102 AWS DVA/KMS Working.md"
-    },
-    {
-      "basename": "KMS DVA",
-      "path": "100 study-notes/102 AWS DVA/KMS DVA.md"
-    },
-    {
-      "basename": "Other Services DVA",
-      "path": "100 study-notes/102 AWS DVA/Other Services DVA.md"
-    },
-    {
-      "basename": "ECS DVA",
-      "path": "100 study-notes/102 AWS DVA/ECS DVA.md"
-    },
-    {
-      "basename": "Stickiness, Cross zone balancing & Connection Draining",
-      "path": "100 study-notes/101 AWS SAA/Stickiness, Cross zone balancing & Connection Draining.md"
-    },
-    {
-      "basename": "ELB",
-      "path": "100 study-notes/101 AWS SAA/ELB.md"
-    },
-    {
-      "basename": "Lambda IAM Role",
-      "path": "100 study-notes/102 AWS DVA/Lambda IAM Role.md"
     }
   ],
   "omittedPaths": [],

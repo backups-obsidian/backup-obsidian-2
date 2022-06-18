@@ -1,6 +1,6 @@
 ---
 created: 2022-05-29 16:01
-updated: 2022-06-11 11:00
+updated: 2022-06-18 11:42
 ---
 ---
 **Links**: [[103 Golang Index]]
@@ -13,6 +13,7 @@ updated: 2022-06-11 11:00
 - *Concurrency means independently executing processes* or dealing with multiple things at once, **while parallelism is the simultaneous execution of processes** and require multiple core CPUs.
 - **Concurrency means context switching**.
 	- CPU time is divided between different processes.
+- Most languages were designed with a single processor in mind.
 
 ## Goroutines
 - A goroutine is a **lightweight thread of execution** 
@@ -26,10 +27,15 @@ updated: 2022-06-11 11:00
 - Goroutines have **no identity**. There is no notion of identity that is accessible to the programmer.
 
 ### Miscellaneous
-- We can explicitly control the number of threads (logical CPUs) that will be used using `runtime.GOMAXPROCS(0)`
+- We can explicitly control the number of **threads** (logical CPUs) that will be used using `runtime.GOMAXPROCS(0)`
 	- This is the n in `m:n` scheduling
 	- If argument is < 1 then it doesn't change the setting
-	- It is by default equal to the number of logical cpu cores `runtime.NumCPU()`
+	- It is by **default** equal to the number of **logical cpu cores** `runtime.NumCPU()`
+	- *More threads will generally increase performance but a lot can slow it down*.
+
+- If you set `GOMAXPROCS` to 1 then you will have a truly concurrent application.
+
+> [!important] In general if you are developing an application you should start with `GOMAXPROCS > 1` to *find any concurrency or race conditions* in the application. 
 
 ## WaitGroups
 - By default `main` doesn't wait for other go routines to finish. 
@@ -84,6 +90,23 @@ func main() {
 // hello there
 // function 2
 // last line of main
+```
+
+- We can also define `waitgroups` globally and use them in our functions.
+
+```go
+var wg = sync.WaitGroup{}
+
+func p1(a int) {
+	defer wg.Done()
+	fmt.Println(a)
+}
+
+func main() {
+	wg.Add(1)
+	go p1(45)
+	wg.Wait()
+}
 ```
 
 ### Example 

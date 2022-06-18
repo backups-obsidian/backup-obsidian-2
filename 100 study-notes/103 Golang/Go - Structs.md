@@ -1,6 +1,6 @@
 ---
 created: 2022-05-15 21:47
-updated: 2022-05-29 12:38
+updated: 2022-06-18 11:01
 ---
 ---
 **Links**: [[103 Golang Index]]
@@ -35,6 +35,10 @@ book2 := book{title: "abc", author: "drd", year: 1289}
 // order doesnot matter anymore
 ```
 - If we create a struct by omitting some values of fields, they will be assigned default values.
+- We can also create a struct with the default value of its types
+```go
+book3 = book{}
+```
 
 ### Retrieving and updating fields
 - To retrieve fields and update we use the `.` operator
