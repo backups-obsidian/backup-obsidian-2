@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 19:08
-updated: 2022-05-14 09:33
+updated: 2022-06-17 21:03
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -30,6 +30,7 @@ updated: 2022-05-14 09:33
 > - In a DB cluster we have *one master* which supports read and writes
 > - We can have several *read replicas*.
 > - In the event of disaster any of these *read replicas* can be *automatically promoted to the new master*. 
+
 > ---
 > In RDS you have to use multi AZ for automatic failover. Also the standby instances don't take read requests in aurora they do.
 

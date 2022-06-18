@@ -1,6 +1,6 @@
 ---
 created: 2022-06-10 21:08
-updated: 2022-06-14 19:27
+updated: 2022-06-18 15:30
 ---
 ---
 **Links**: [[106 Git Index]]
@@ -29,5 +29,5 @@ updated: 2022-06-14 19:27
 	- I'm trying to track down a bug but it is quite elusive. In order to aid in my detective work, I put in a few debug commands and a few print statements. All of these debugging/print statements are in their own commits. Finally I track down the bug, fix it, and rejoice!
 	- Only problem is that I now need to get my `bugFix` back into the `main` branch. If I simply fast-forwarded `main`, then `main` would get all my debug statements which is undesirable. There has to be another way...
 - In this example could have been done using either interactive rebasing or cherry-picking
-	- ![[attachments/Pasted image 20220614192259.png]]
+	- ![[attachments/Pasted image 20220618152940.png]]
 - Solution : `git checkout main; git cherry-pick c4`

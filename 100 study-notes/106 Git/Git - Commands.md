@@ -1,6 +1,6 @@
 ---
 created: 2022-06-08 19:22
-updated: 2022-06-14 19:15
+updated: 2022-06-18 15:54
 ---
 ---
 **Links**: [[106 Git Index]]
@@ -12,6 +12,8 @@ updated: 2022-06-14 19:15
 	- `git add .` : all the changes
 	- `git add -A` : to stage all the changes
 	- `git add -u` : only stage the files that were updated, it will not stage the files which were newly added.
+	- `git add -p file_name` : use it when you don't want to add the whole file to the staging area and only want to add some changes.
+		- You will be asked which changes you want to stage using the command line prompt of y/n.
 
 ### Discarding local changes (before staging) (tracked)
 - `git restore` : **discard the changes before staging**. It only works if the files have been tracked previously.
@@ -106,6 +108,7 @@ git commit --amend -m "message"
 	- `git branch -D <branch-name>` : To force delete a branch
 - `git merge <branch-name>` : merging the `branch-name` to the branch you are on.
 	- [[Git - Branching, Rebasing & Merging#Merging Examples|Merging Examples]]
+	- Aborting the merge `git merge --abort`
 - `git branch -f <branch-name> <commit/relative-ref/tag>` : Forcefully moving a branch pointer to another commit.
 	- [[Git - Relative Refs#Example Moving Branches|Example Moving Branches]]
 
