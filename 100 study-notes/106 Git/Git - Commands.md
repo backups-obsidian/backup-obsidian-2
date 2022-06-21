@@ -1,6 +1,6 @@
 ---
 created: 2022-06-08 19:22
-updated: 2022-06-18 15:54
+updated: 2022-06-21 19:57
 ---
 ---
 **Links**: [[106 Git Index]]
@@ -86,11 +86,14 @@ git commit --amend -m "message"
 
 ## Tagging
 - Generally used for **tagging versions**.
-- `git tag <tag-name>` : to tag a specific commit
-- If you want to *tag older commits* for reference and easy jumping then `git checkout <hash>`, `git tag <tag-name>`
+- `git tag <tag-name>` : to tag the commit you are on currently
+	- If you want to *tag older commits* for reference and easy jumping then `git checkout <hash>`, `git tag <tag-name>`
+	- or use the below command
+- `git tag <tag-name> <commit-hash>` : tag a specific commit without checking it out.
 	- We can easily jump between commits using tag-names `git checkout <tag-name>`
 - `git tag`: to list all the tags
 - `git tag -d <tag-name>` : to delete that tag
+- [[Git - Tags|Git Tags Example]]
 
 ## Moving files
 - `git mv file destination`
@@ -118,10 +121,19 @@ git commit --amend -m "message"
 - `git rebase <branch-name>`
 - [[Git - Cherrypicking#Interactive Rebasing|Interactive Rebase Example]]
 
+> [!caution]- Do NOT use Interactive Rebase **on commits that you've already pushed/shared on a remote repository**
+> Instead, use it for *cleaning up your local commit history before merging it into a shared team branch*.
+
 ## Pushing
 - `git push -u origin` : push to the same branch as the local one
 
 ## Pulling
+
+## Submodules
+- Adding submodules to our parent repo: `git submodule add <remote-url>`
+- Downloading the submodules for a cloned repo: `git submodule update --init --recursive`
+- The above step can be omitted and can be combined with the the git clone command: `git clone --recursive-submodules <url>`
+- [[Git - Submodules| More about Submodules]]
 
 ## Rough
 
