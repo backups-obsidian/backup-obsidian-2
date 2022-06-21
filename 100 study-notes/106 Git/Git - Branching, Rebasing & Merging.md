@@ -1,6 +1,6 @@
 ---
 created: 2022-06-09 22:14
-updated: 2022-06-18 16:04
+updated: 2022-06-21 19:15
 ---
 ---
 **Links**: [[106 Git Index]]
@@ -35,7 +35,10 @@ updated: 2022-06-18 16:04
 	- ![[attachments/Pasted image 20220609214810.png]]
 	- Since `main` was an ancestor of `bugFix`, git simply moved the `main` branch reference forward in history.
 
-> [!caution] Notice that we have changed commits from `c2` to `c2'` and `c3` to `c3'` since Rebasing changes the commit history.
+> [!caution]+ Notice that we have changed commits from `c2` to `c2'` and `c3` to `c3'` since Rebasing changes the commit history.
+> Even if you try to reword a commit message it will change the whole history after that
+>
+> ![[attachments/Pasted image 20220621191437.png]]
 
 #### Example 2
 - Initial state:

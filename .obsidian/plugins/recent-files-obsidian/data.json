@@ -1,12 +1,40 @@
 {
   "recentFiles": [
     {
+      "basename": "106 Git Index",
+      "path": "100 study-notes/106 Git/106 Git Index.md"
+    },
+    {
+      "basename": "Git - Branching, Rebasing & Merging",
+      "path": "100 study-notes/106 Git/Git - Branching, Rebasing & Merging.md"
+    },
+    {
+      "basename": "Git - Tags",
+      "path": "100 study-notes/106 Git/Git - Tags.md"
+    },
+    {
+      "basename": "Git - Commands",
+      "path": "100 study-notes/106 Git/Git - Commands.md"
+    },
+    {
+      "basename": "Git - Submodules",
+      "path": "100 study-notes/106 Git/Git - Submodules.md"
+    },
+    {
+      "basename": "Git - Cherrypicking",
+      "path": "100 study-notes/106 Git/Git - Cherrypicking.md"
+    },
+    {
+      "basename": "Git - Remote Repository",
+      "path": "100 study-notes/106 Git/Git - Remote Repository.md"
+    },
+    {
       "basename": "103 Golang Index",
       "path": "100 study-notes/103 Golang/103 Golang Index.md"
     },
     {
-      "basename": "Go - Channels",
-      "path": "100 study-notes/103 Golang/Go - Channels.md"
+      "basename": "Go - Error Handling",
+      "path": "100 study-notes/103 Golang/Go - Error Handling.md"
     },
     {
       "basename": "Go - Select",
@@ -17,24 +45,12 @@
       "path": "100 study-notes/103 Golang/Go - Buffered Channels.md"
     },
     {
-      "basename": "106 Git Index",
-      "path": "100 study-notes/106 Git/106 Git Index.md"
+      "basename": "Go - Channels",
+      "path": "100 study-notes/103 Golang/Go - Channels.md"
     },
     {
       "basename": "Git - Merging",
       "path": "100 study-notes/106 Git/Git - Merging.md"
-    },
-    {
-      "basename": "Git - Branching, Rebasing & Merging",
-      "path": "100 study-notes/106 Git/Git - Branching, Rebasing & Merging.md"
-    },
-    {
-      "basename": "Git - Commands",
-      "path": "100 study-notes/106 Git/Git - Commands.md"
-    },
-    {
-      "basename": "Git - Cherrypicking",
-      "path": "100 study-notes/106 Git/Git - Cherrypicking.md"
     },
     {
       "basename": "102 AWS DVA Index",
@@ -161,10 +177,6 @@
       "path": "100 study-notes/103 Golang/Go - Pointers.md"
     },
     {
-      "basename": "Go - Error Handling",
-      "path": "100 study-notes/103 Golang/Go - Error Handling.md"
-    },
-    {
       "basename": "publish-obsidian-vault",
       "path": "400 misc/publish-obsidian-vault.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "Git - Staging & Committing",
       "path": "100 study-notes/106 Git/Git - Staging & Committing.md"
-    },
-    {
-      "basename": "Git - Relative Refs",
-      "path": "100 study-notes/106 Git/Git - Relative Refs.md"
-    },
-    {
-      "basename": "Git - Remote Repository",
-      "path": "100 study-notes/106 Git/Git - Remote Repository.md"
-    },
-    {
-      "basename": "Step Functions",
-      "path": "100 study-notes/102 AWS DVA/Step Functions.md"
     }
   ],
   "omittedPaths": [],

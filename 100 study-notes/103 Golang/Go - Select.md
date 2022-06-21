@@ -1,9 +1,10 @@
 ---
 created: 2022-06-18 20:39
-updated: 2022-06-18 20:40
+updated: 2022-06-19 08:42
 ---
 ---
 **Links**: 
+
 - [[103 Golang Index]]
 - [[Go - Channels]]
 
@@ -37,6 +38,7 @@ func main() {
 	ch <- logEntry{level: logInfo, message: "Info message"}
 }
 ```
+
 - A  better way of doing it would be using a buffered log channel so that we don't have blocking sends and receives.
 - The idea is that you have central logger for logging and it handles the logic for logging.
 - Our application shuts down after the last line of main is executed this means out logger is being torn down forcibly.
@@ -68,6 +70,7 @@ func main() {
 	doneCh <- struct{}{} 
 }
 ```
+
 - In the above example we ensure graceful shutdown of the go routine.
 	- Previously it was torn down while it was in the for loop.
 	- Another way of doing it instead of using the select statement would have been to defer the channel close in main. 
@@ -93,6 +96,7 @@ msg := "hi"
         fmt.Println("no message sent")
 }
 ```
+
 - Here’s a non-blocking receive. If a value is available on `messages` then `select` will take the `<-messages` `case` with that value. If not it will immediately take the `default` case.
 - A non-blocking send works similarly. Here `msg` cannot be sent to the `messages` channel, because the channel has no buffer and there is no receiver. Therefore the `default` case is selected.
 
