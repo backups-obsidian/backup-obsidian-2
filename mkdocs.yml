@@ -1,10 +1,14 @@
-site_name: Sarthak's Notes
-# repo_url: https://github.com/SarthakNarayan # if you want to have your github url, better to have it in index page
 site_author: Sarthak Narayan
+site_name: Sarthak's Notes
 theme:
   name: material
+  logo: assets/favicon.ico
+  favicon: assets/favicon.ico
+
   features:
     - navigation.tabs
+    - navigation.top
+
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -15,8 +19,8 @@ theme:
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: indigo
-      accent: indigo
+      primary: teal
+      accent: teal
       toggle:
         icon: material/lightbulb-outline
         name: Switch to light mode
@@ -33,3 +37,20 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  homepage: https://sarthaknarayan.tech
+  analytics:
+    provider: google
+    property: G-XXXXXXXXXX
+
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/sarthaknarayan/
+    - icon: fontawesome/brands/github
+      link: https://github.com/SarthakNarayan
+
+copyright: Copyright &copy; 2022 Sarthak Narayan
