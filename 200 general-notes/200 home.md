@@ -4,11 +4,10 @@ updated: 2022-06-13 18:40
 description: Non tech related stuff
 ---
 ---
-**Links**: [[../000 home]]
+**Links**: [[../000 home|000 Home]]
 
 ---
 
-[[LinkedIn write up ideas]]
 [[Useful Mac Apps]]
 [[Useful Chrome Extensions]]
 [[Must have Tools]]
