@@ -1,12 +1,13 @@
 ---
 created: 2022-06-08 16:36
-updated: 2022-06-21 19:34
+updated: 2022-06-22 19:43
 ---
 ---
 **Links**: [[../100 home|100 Home]]
 
 ---
 - [[Git - Commands]]
+	- [[Git - Branches - Commands]]
 - [[Git - Introduction]]
 - [[Git - Staging & Committing]]
 - [[Git - Reversing Changes]]

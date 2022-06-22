@@ -4,23 +4,9 @@
     "type": "split",
     "children": [
       {
-        "id": "12fca3be1cbcb731",
-        "type": "leaf",
-        "pinned": true,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
-            "mode": "preview",
-            "backlinks": false,
-            "source": true
-          },
-          "pinned": true
-        }
-      },
-      {
         "id": "9f57ef6548f859c1",
         "type": "leaf",
+        "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
@@ -28,7 +14,8 @@
             "mode": "preview",
             "backlinks": false,
             "source": true
-          }
+          },
+          "pinned": true
         }
       }
     ],
@@ -197,14 +184,14 @@
   "active": "9f57ef6548f859c1",
   "lastOpenFiles": [
     "100 study-notes/106 Git/106 Git Index.md",
+    "200 general-notes/200 home.md",
+    "200 general-notes/LinkedIn write up ideas.md",
+    "100 study-notes/106 Git/Git - Merging.md",
+    "100 study-notes/106 Git/Git - Branches - Commands.md",
     "100 study-notes/106 Git/Git - Branching, Rebasing & Merging.md",
-    "100 study-notes/106 Git/Git - Tags.md",
     "100 study-notes/106 Git/Git - Commands.md",
-    "100 study-notes/106 Git/Git - Submodules.md",
-    "100 study-notes/106 Git/Git - Cherrypicking.md",
-    "100 study-notes/106 Git/Git - Remote Repository.md",
-    "100 study-notes/103 Golang/103 Golang Index.md",
-    "100 study-notes/103 Golang/Go - Error Handling.md",
-    "100 study-notes/103 Golang/Go - Select.md"
+    "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
+    "100 study-notes/106 Git/Git - Tags.md",
+    "100 study-notes/106 Git/Git - Submodules.md"
   ]
 }

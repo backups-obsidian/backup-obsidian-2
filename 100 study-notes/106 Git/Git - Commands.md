@@ -1,6 +1,6 @@
 ---
 created: 2022-06-08 19:22
-updated: 2022-06-21 19:57
+updated: 2022-06-22 19:41
 ---
 ---
 **Links**: [[106 Git Index]]
@@ -102,19 +102,7 @@ git commit --amend -m "message"
 	- The `desitnation/file` file was created.
 - Both facts are staged immediately and ready for a commit. Git status command reports the file has been moved.
 
-## Branches
-- `git branch` : List out all the branches and the current branch you are on.
-- `git branch <branch-name>` : Creating a branch
-- `git checkout <branch-name>` or `git switch <branch-name>` : Moving to a branch
-- `git checkout -b <branch-name>` : Creating and moving to a branch
-- `git branch -d <branch-name>` : Deleting local branches
-	- `git branch -D <branch-name>` : To force delete a branch
-- `git merge <branch-name>` : merging the `branch-name` to the branch you are on.
-	- [[Git - Branching, Rebasing & Merging#Merging Examples|Merging Examples]]
-	- Aborting the merge `git merge --abort`
-- `git branch -f <branch-name> <commit/relative-ref/tag>` : Forcefully moving a branch pointer to another commit.
-	- [[Git - Relative Refs#Example Moving Branches|Example Moving Branches]]
-
+## [[Git - Branches - Commands|Branches]]
 ## Stashing
 
 ## Rebasing

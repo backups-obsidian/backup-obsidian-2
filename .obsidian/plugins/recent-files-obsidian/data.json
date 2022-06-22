@@ -5,16 +5,32 @@
       "path": "100 study-notes/106 Git/106 Git Index.md"
     },
     {
+      "basename": "200 home",
+      "path": "200 general-notes/200 home.md"
+    },
+    {
+      "basename": "Git - Merging",
+      "path": "100 study-notes/106 Git/Git - Merging.md"
+    },
+    {
+      "basename": "Git - Branches - Commands",
+      "path": "100 study-notes/106 Git/Git - Branches - Commands.md"
+    },
+    {
       "basename": "Git - Branching, Rebasing & Merging",
       "path": "100 study-notes/106 Git/Git - Branching, Rebasing & Merging.md"
     },
     {
-      "basename": "Git - Tags",
-      "path": "100 study-notes/106 Git/Git - Tags.md"
-    },
-    {
       "basename": "Git - Commands",
       "path": "100 study-notes/106 Git/Git - Commands.md"
+    },
+    {
+      "basename": "102 AWS DVA Index",
+      "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
+    },
+    {
+      "basename": "Git - Tags",
+      "path": "100 study-notes/106 Git/Git - Tags.md"
     },
     {
       "basename": "Git - Submodules",
@@ -47,14 +63,6 @@
     {
       "basename": "Go - Channels",
       "path": "100 study-notes/103 Golang/Go - Channels.md"
-    },
-    {
-      "basename": "Git - Merging",
-      "path": "100 study-notes/106 Git/Git - Merging.md"
-    },
-    {
-      "basename": "102 AWS DVA Index",
-      "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
     },
     {
       "basename": "Go - Concurrency",
@@ -133,10 +141,6 @@
       "path": "300 short-notes/300 home.md"
     },
     {
-      "basename": "200 home",
-      "path": "200 general-notes/200 home.md"
-    },
-    {
       "basename": "100 home",
       "path": "100 study-notes/100 home.md"
     },
@@ -191,14 +195,6 @@
     {
       "basename": "How to setup neovim",
       "path": "300 short-notes/How to setup neovim.md"
-    },
-    {
-      "basename": "Git - Reversing Changes",
-      "path": "100 study-notes/106 Git/Git - Reversing Changes.md"
-    },
-    {
-      "basename": "Git - Staging & Committing",
-      "path": "100 study-notes/106 Git/Git - Staging & Committing.md"
     }
   ],
   "omittedPaths": [],
