@@ -1,6 +1,6 @@
 ---
 created: 2022-06-08 19:22
-updated: 2022-06-22 19:41
+updated: 2022-06-23 19:25
 ---
 ---
 **Links**: [[106 Git Index]]
@@ -50,7 +50,7 @@ updated: 2022-06-22 19:41
 
 #### Using Reset (incomplete)
 - **Use only in private branches** (branches in which no one else is working) since you will be modifying the history.
-- `git reset --hard <tag/hash/relative-ref>` : this will move the branch you are on to that commit.
+- `git reset --hard <tag/hash/relative-ref>` : this will **move the branch you are on to that commit**.
 	- [[Git - Reversing Changes#Example Hard Reset|Hard Reset Example]]
 - `git reset --mixed <tag/hash/relative-ref>` : *default*, moves the all the changes (from your `HEAD` to hash) to the **unstaged area**.
 - `git reset --soft <tag/hash/relative-ref>` : moves the all the changes (from your `HEAD` to hash) to the **staging area**

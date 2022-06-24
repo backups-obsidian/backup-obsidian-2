@@ -5,6 +5,22 @@
       "path": "100 study-notes/106 Git/106 Git Index.md"
     },
     {
+      "basename": "Git - Remote Repository",
+      "path": "100 study-notes/106 Git/Git - Remote Repository.md"
+    },
+    {
+      "basename": "Git - Commands",
+      "path": "100 study-notes/106 Git/Git - Commands.md"
+    },
+    {
+      "basename": "Git - Branches - Commands",
+      "path": "100 study-notes/106 Git/Git - Branches - Commands.md"
+    },
+    {
+      "basename": "104 Linux Index",
+      "path": "100 study-notes/104 Linux/104 Linux Index.md"
+    },
+    {
       "basename": "200 home",
       "path": "200 general-notes/200 home.md"
     },
@@ -13,16 +29,8 @@
       "path": "100 study-notes/106 Git/Git - Merging.md"
     },
     {
-      "basename": "Git - Branches - Commands",
-      "path": "100 study-notes/106 Git/Git - Branches - Commands.md"
-    },
-    {
       "basename": "Git - Branching, Rebasing & Merging",
       "path": "100 study-notes/106 Git/Git - Branching, Rebasing & Merging.md"
-    },
-    {
-      "basename": "Git - Commands",
-      "path": "100 study-notes/106 Git/Git - Commands.md"
     },
     {
       "basename": "102 AWS DVA Index",
@@ -39,10 +47,6 @@
     {
       "basename": "Git - Cherrypicking",
       "path": "100 study-notes/106 Git/Git - Cherrypicking.md"
-    },
-    {
-      "basename": "Git - Remote Repository",
-      "path": "100 study-notes/106 Git/Git - Remote Repository.md"
     },
     {
       "basename": "103 Golang Index",
@@ -107,10 +111,6 @@
     {
       "basename": "101 AWS SAA Index",
       "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
-    },
-    {
-      "basename": "104 Linux Index",
-      "path": "100 study-notes/104 Linux/104 Linux Index.md"
     },
     {
       "basename": "Linux - Xargs",

@@ -1,6 +1,6 @@
 ---
 created: 2022-06-10 19:25
-updated: 2022-06-19 20:03
+updated: 2022-06-23 19:32
 ---
 ---
 **Links**: [[106 Git Index]]
@@ -61,6 +61,35 @@ updated: 2022-06-19 20:03
 	- ![[attachments/Pasted image 20220619200124.png]]
 
 > [!note] Above is essentially what `git pull` does.
+
+## What happens when you do a `git push`
+- Initial state:
+	- ![[attachments/Pasted image 20220623190045.png]]
+- `git push`: 
+	- The remote received commit `C2`, the branch `main` on the remote was updated to point at `C2`, and our _own_ reflection of the remote (`o/main`) was updated as well.
+	- ![[attachments/Pasted image 20220623190129.png]]
+
+## Diverged state
+- Imagine you clone a repository on Monday and start dabbling on a side feature. By Friday you are ready to publish your feature -- but oh no! Your coworkers have written a bunch of code during the week that's made your feature out of date (and obsolete). They've also published these commits to the shared remote repository, so now _your_ work is based on an _old_ version of the project that's no longer relevant.
+- In this case, the command `git push` is ambiguous. If you run `git push`, should git change the remote repository back to what it was on Monday? Should it try to add your code in while not removing the new code? Or should it totally ignore your changes since they are totally out of date?
+- Because there is so much ambiguity in this situation (where history has diverged), git doesn't allow you to `push` your changes. It actually forces you to incorporate the latest state of the remote before being able to share your work.
+- Example problem
+	- ![[attachments/Pasted image 20220623190444.png]]
+	- `git push` fails because your most recent commit `C3` is based off of the remote at `C1`. The remote has since been updated to `C2` though, so git rejects your push.
+- Solution: using rebase
+	- Initial state: 
+		- ![[attachments/Pasted image 20220623190659.png]]
+	- `git fetch; git rebase origin/main; git push`
+		- First we download the commit C2, now we rebase creating C3\` and then we push the changes.
+		- ![[attachments/Pasted image 20220623190807.png]]
+- Solution: using merge
+	- `git fetch; git merge origin/main; git push`
+		- ![[attachments/Pasted image 20220623191234.png]]
+
+> [!note]- `git pull` is a shorthand for **fetch and merge** and `git pull --rebase` is a shorthand for **fetch and rebase**.
+
+> [!important]+ In order to push new updates to the remote, all you need to do is _incorporate_ the latest changes from the remote. 
+> That means you can either **rebase or merge** in the remote branch (e.g. `origin/main`).
 
 ## Fork (incomplete)
 - Setting upstream
