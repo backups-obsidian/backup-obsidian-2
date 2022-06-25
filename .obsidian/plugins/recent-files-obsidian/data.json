@@ -1,8 +1,44 @@
 {
   "recentFiles": [
     {
+      "basename": "103 Golang Index",
+      "path": "100 study-notes/103 Golang/103 Golang Index.md"
+    },
+    {
+      "basename": "Go - Modules",
+      "path": "100 study-notes/103 Golang/Go - Modules.md"
+    },
+    {
+      "basename": "107 Design Patterns Index",
+      "path": "100 study-notes/107 Design Patterns/107 Design Patterns Index.md"
+    },
+    {
+      "basename": "Design Patterns - UML Diagrams",
+      "path": "100 study-notes/107 Design Patterns/Design Patterns - UML Diagrams.md"
+    },
+    {
+      "basename": "Design Patterns - Pillars of OOP",
+      "path": "100 study-notes/107 Design Patterns/Design Patterns - Pillars of OOP.md"
+    },
+    {
+      "basename": "100 home",
+      "path": "100 study-notes/100 home.md"
+    },
+    {
       "basename": "106 Git Index",
       "path": "100 study-notes/106 Git/106 Git Index.md"
+    },
+    {
+      "basename": "300 home",
+      "path": "300 short-notes/300 home.md"
+    },
+    {
+      "basename": "Git - gitignore",
+      "path": "100 study-notes/106 Git/Git - gitignore.md"
+    },
+    {
+      "basename": "Go - Interfaces",
+      "path": "100 study-notes/103 Golang/Go - Interfaces.md"
     },
     {
       "basename": "Git - Remote Repository",
@@ -49,10 +85,6 @@
       "path": "100 study-notes/106 Git/Git - Cherrypicking.md"
     },
     {
-      "basename": "103 Golang Index",
-      "path": "100 study-notes/103 Golang/103 Golang Index.md"
-    },
-    {
       "basename": "Go - Error Handling",
       "path": "100 study-notes/103 Golang/Go - Error Handling.md"
     },
@@ -87,10 +119,6 @@
     {
       "basename": "Go - Structs",
       "path": "100 study-notes/103 Golang/Go - Structs.md"
-    },
-    {
-      "basename": "Go - Interfaces",
-      "path": "100 study-notes/103 Golang/Go - Interfaces.md"
     },
     {
       "basename": "AWS Storage Gateway",
@@ -137,14 +165,6 @@
       "path": "400 misc/projects.md"
     },
     {
-      "basename": "300 home",
-      "path": "300 short-notes/300 home.md"
-    },
-    {
-      "basename": "100 home",
-      "path": "100 study-notes/100 home.md"
-    },
-    {
       "basename": "000 home",
       "path": "000 home.md"
     },
@@ -179,22 +199,6 @@
     {
       "basename": "Go - Pointers",
       "path": "100 study-notes/103 Golang/Go - Pointers.md"
-    },
-    {
-      "basename": "publish-obsidian-vault",
-      "path": "400 misc/publish-obsidian-vault.md"
-    },
-    {
-      "basename": "backup-obisidian-vault",
-      "path": "400 misc/backup-obisidian-vault.md"
-    },
-    {
-      "basename": "Git - Introduction",
-      "path": "100 study-notes/106 Git/Git - Introduction.md"
-    },
-    {
-      "basename": "How to setup neovim",
-      "path": "300 short-notes/How to setup neovim.md"
     }
   ],
   "omittedPaths": [],

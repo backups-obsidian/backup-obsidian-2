@@ -6,16 +6,14 @@
       {
         "id": "9f57ef6548f859c1",
         "type": "leaf",
-        "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "100 study-notes/106 Git/106 Git Index.md",
+            "file": "100 study-notes/103 Golang/103 Golang Index.md",
             "mode": "preview",
             "backlinks": false,
             "source": true
-          },
-          "pinned": true
+          }
         }
       }
     ],
@@ -90,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/106 Git/106 Git Index.md",
+                "file": "100 study-notes/103 Golang/103 Golang Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/106 Git/106 Git Index.md"
+                "file": "100 study-notes/103 Golang/103 Golang Index.md"
               }
             }
           },
@@ -136,7 +134,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/106 Git/106 Git Index.md",
+                "file": "100 study-notes/103 Golang/103 Golang Index.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -183,15 +181,15 @@
   },
   "active": "9f57ef6548f859c1",
   "lastOpenFiles": [
+    "100 study-notes/103 Golang/103 Golang Index.md",
+    "100 study-notes/103 Golang/Go - Modules.md",
+    "100 study-notes/107 Design Patterns/107 Design Patterns Index.md",
+    "100 study-notes/107 Design Patterns/Design Patterns - UML Diagrams.md",
+    "100 study-notes/107 Design Patterns/Design Patterns - Pillars of OOP.md",
+    "100 study-notes/100 home.md",
     "100 study-notes/106 Git/106 Git Index.md",
-    "100 study-notes/106 Git/Git - Remote Repository.md",
-    "100 study-notes/106 Git/Git - Commands.md",
-    "100 study-notes/106 Git/Git - Branches - Commands.md",
-    "100 study-notes/104 Linux/104 Linux Index.md",
-    "200 general-notes/200 home.md",
-    "200 general-notes/LinkedIn write up ideas.md",
-    "100 study-notes/106 Git/Git - Merging.md",
-    "100 study-notes/106 Git/Git - Branching, Rebasing & Merging.md",
-    "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
+    "999 templates/notes.md",
+    "300 short-notes/300 home.md",
+    "100 study-notes/106 Git/Git - gitignore.md"
   ]
 }
