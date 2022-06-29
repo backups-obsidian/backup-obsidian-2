@@ -1,24 +1,60 @@
 {
   "recentFiles": [
     {
+      "basename": "Design Patterns - SOLID Principles",
+      "path": "100 study-notes/107 Design Patterns/Design Patterns - SOLID Principles.md"
+    },
+    {
+      "basename": "Go - make vs new",
+      "path": "100 study-notes/103 Golang/Go - make vs new.md"
+    },
+    {
       "basename": "103 Golang Index",
       "path": "100 study-notes/103 Golang/103 Golang Index.md"
     },
     {
-      "basename": "Go - Modules",
-      "path": "100 study-notes/103 Golang/Go - Modules.md"
+      "basename": "Go - Interfaces",
+      "path": "100 study-notes/103 Golang/Go - Interfaces.md"
+    },
+    {
+      "basename": "Go - Methods",
+      "path": "100 study-notes/103 Golang/Go - Methods.md"
+    },
+    {
+      "basename": "Go - Constants",
+      "path": "100 study-notes/103 Golang/Go - Constants.md"
     },
     {
       "basename": "107 Design Patterns Index",
       "path": "100 study-notes/107 Design Patterns/107 Design Patterns Index.md"
     },
     {
-      "basename": "Design Patterns - UML Diagrams",
-      "path": "100 study-notes/107 Design Patterns/Design Patterns - UML Diagrams.md"
+      "basename": "Go - Structs",
+      "path": "100 study-notes/103 Golang/Go - Structs.md"
+    },
+    {
+      "basename": "Go - Slices",
+      "path": "100 study-notes/103 Golang/Go - Slices.md"
+    },
+    {
+      "basename": "Useful Chrome Extensions",
+      "path": "200 general-notes/Useful Chrome Extensions.md"
+    },
+    {
+      "basename": "200 home",
+      "path": "200 general-notes/200 home.md"
     },
     {
       "basename": "Design Patterns - Pillars of OOP",
       "path": "100 study-notes/107 Design Patterns/Design Patterns - Pillars of OOP.md"
+    },
+    {
+      "basename": "Design Patterns - UML Diagrams",
+      "path": "100 study-notes/107 Design Patterns/Design Patterns - UML Diagrams.md"
+    },
+    {
+      "basename": "Go - Modules",
+      "path": "100 study-notes/103 Golang/Go - Modules.md"
     },
     {
       "basename": "100 home",
@@ -37,10 +73,6 @@
       "path": "100 study-notes/106 Git/Git - gitignore.md"
     },
     {
-      "basename": "Go - Interfaces",
-      "path": "100 study-notes/103 Golang/Go - Interfaces.md"
-    },
-    {
       "basename": "Git - Remote Repository",
       "path": "100 study-notes/106 Git/Git - Remote Repository.md"
     },
@@ -55,10 +87,6 @@
     {
       "basename": "104 Linux Index",
       "path": "100 study-notes/104 Linux/104 Linux Index.md"
-    },
-    {
-      "basename": "200 home",
-      "path": "200 general-notes/200 home.md"
     },
     {
       "basename": "Git - Merging",
@@ -105,20 +133,12 @@
       "path": "100 study-notes/103 Golang/Go - Concurrency.md"
     },
     {
-      "basename": "Go - Slices",
-      "path": "100 study-notes/103 Golang/Go - Slices.md"
-    },
-    {
       "basename": "Go - Slice Working",
       "path": "100 study-notes/103 Golang/Go - Slice Working.md"
     },
     {
       "basename": "Go - Race Conditions & Mutexes",
       "path": "100 study-notes/103 Golang/Go - Race Conditions & Mutexes.md"
-    },
-    {
-      "basename": "Go - Structs",
-      "path": "100 study-notes/103 Golang/Go - Structs.md"
     },
     {
       "basename": "AWS Storage Gateway",
@@ -179,26 +199,6 @@
     {
       "basename": "S3 Performance",
       "path": "100 study-notes/101 AWS SAA/S3 Performance.md"
-    },
-    {
-      "basename": "DynamoDB Indexes",
-      "path": "100 study-notes/102 AWS DVA/DynamoDB Indexes.md"
-    },
-    {
-      "basename": "SQS DVA",
-      "path": "100 study-notes/102 AWS DVA/SQS DVA.md"
-    },
-    {
-      "basename": "SQS",
-      "path": "100 study-notes/101 AWS SAA/SQS.md"
-    },
-    {
-      "basename": "Go - Functions",
-      "path": "100 study-notes/103 Golang/Go - Functions.md"
-    },
-    {
-      "basename": "Go - Pointers",
-      "path": "100 study-notes/103 Golang/Go - Pointers.md"
     }
   ],
   "omittedPaths": [],

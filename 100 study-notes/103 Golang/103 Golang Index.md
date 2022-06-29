@@ -1,6 +1,6 @@
 ---
 created: 2022-05-14 21:41
-updated: 2022-06-19 11:25
+updated: 2022-06-28 21:37
 ---
 ---
 **Links**: [[../100 home | 100 Home]]
@@ -32,6 +32,9 @@ updated: 2022-06-19 11:25
 	- [[Go - Buffered Channels]]
 	- [[Go - Select]]
 - [[Go - Error Handling]]
+
+## Extra
+- [[Go - make vs new]]
 
 ## References
 - [Learn Go Programming - Golang Tutorial for Beginners - YouTube](https://www.youtube.com/watch?v=YS4e4q9oBaU)

@@ -1,6 +1,6 @@
 ---
 created: 2022-06-25 14:54
-updated: 2022-06-25 15:18
+updated: 2022-06-28 12:01
 ---
 ---
 **Links**: [[107 Design Patterns Index]]
@@ -22,6 +22,13 @@ updated: 2022-06-25 15:18
 ### Encapsulation
 - Encapsulation is the **ability of an object to hide parts of its state** and behaviours from other objects, *exposing only a limited interface* to the rest of the program.
 - To encapsulate something means to make it `private` , and thus accessible only from within of the methods of its own class. 
+
+> [!note]- Encapsulation on a Class Level
+> - Over time you might add more and more responsibilities to a method which used to do a simple thing. 
+> - These added behaviours often come with their *own helper fields and methods that eventually blur the primary responsibility of the containing class*. 
+> - Extracting everything to a new class might make things much more clear and simple.
+>
+> ![[attachments/Pasted image 20220628115954.png]]
 
 ### Inheritance
 - Inheritance is the ability to build new classes on top of existing ones. The main benefit of inheritance is *code reuse*.

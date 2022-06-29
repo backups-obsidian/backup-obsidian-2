@@ -1,6 +1,6 @@
 ---
 created: 2022-06-25 14:46
-updated: 2022-06-25 15:16
+updated: 2022-06-28 12:05
 ---
 ---
 **Links**: [[107 Design Patterns Index]]
