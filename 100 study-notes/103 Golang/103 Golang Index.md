@@ -1,6 +1,6 @@
 ---
 created: 2022-05-14 21:41
-updated: 2022-06-28 21:37
+updated: 2022-06-29 19:26
 ---
 ---
 **Links**: [[../100 home | 100 Home]]
@@ -24,6 +24,7 @@ updated: 2022-06-28 21:37
 - [[Go - Pointers]]
 - [[Go - Methods]]
 - [[Go - Interfaces]]
+	- [[Go - Interfaces - Value & pointer receivers]]
 - [[Go - Packages]]
 - [[Go - Modules]]
 - [[Go - Concurrency]]

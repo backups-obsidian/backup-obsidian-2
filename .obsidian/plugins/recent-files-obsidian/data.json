@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "Design Patterns - SOLID Principles",
-      "path": "100 study-notes/107 Design Patterns/Design Patterns - SOLID Principles.md"
+      "basename": "Go - Interfaces - Value & pointer receivers",
+      "path": "100 study-notes/103 Golang/Go - Interfaces - Value & pointer receivers.md"
     },
     {
-      "basename": "Go - make vs new",
-      "path": "100 study-notes/103 Golang/Go - make vs new.md"
+      "basename": "Go - Methods",
+      "path": "100 study-notes/103 Golang/Go - Methods.md"
     },
     {
       "basename": "103 Golang Index",
@@ -17,8 +17,24 @@
       "path": "100 study-notes/103 Golang/Go - Interfaces.md"
     },
     {
-      "basename": "Go - Methods",
-      "path": "100 study-notes/103 Golang/Go - Methods.md"
+      "basename": "Go - Functions",
+      "path": "100 study-notes/103 Golang/Go - Functions.md"
+    },
+    {
+      "basename": "Go - Modules",
+      "path": "100 study-notes/103 Golang/Go - Modules.md"
+    },
+    {
+      "basename": "Go - Packages",
+      "path": "100 study-notes/103 Golang/Go - Packages.md"
+    },
+    {
+      "basename": "Design Patterns - SOLID Principles",
+      "path": "100 study-notes/107 Design Patterns/Design Patterns - SOLID Principles.md"
+    },
+    {
+      "basename": "Go - make vs new",
+      "path": "100 study-notes/103 Golang/Go - make vs new.md"
     },
     {
       "basename": "Go - Constants",
@@ -51,10 +67,6 @@
     {
       "basename": "Design Patterns - UML Diagrams",
       "path": "100 study-notes/107 Design Patterns/Design Patterns - UML Diagrams.md"
-    },
-    {
-      "basename": "Go - Modules",
-      "path": "100 study-notes/103 Golang/Go - Modules.md"
     },
     {
       "basename": "100 home",
@@ -187,18 +199,6 @@
     {
       "basename": "000 home",
       "path": "000 home.md"
-    },
-    {
-      "basename": "Git - Single Machine Multiple Accounts",
-      "path": "100 study-notes/106 Git/Git - Single Machine Multiple Accounts.md"
-    },
-    {
-      "basename": "API Gateway DVA",
-      "path": "100 study-notes/102 AWS DVA/API Gateway DVA.md"
-    },
-    {
-      "basename": "S3 Performance",
-      "path": "100 study-notes/101 AWS SAA/S3 Performance.md"
     }
   ],
   "omittedPaths": [],

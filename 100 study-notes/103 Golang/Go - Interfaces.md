@@ -1,6 +1,6 @@
 ---
 created: 2022-06-05 11:28
-updated: 2022-06-18 10:38
+updated: 2022-06-29 19:26
 ---
 ---
 **Links**: [[103 Golang Index]]
@@ -12,7 +12,9 @@ updated: 2022-06-18 10:38
 - *Interfaces define the behaviour of an object*.
 - Interfaces can achieve **polymorphism**.
 	- Can take many dynamic forms at runtime
-- Interfaces are just tools to make the code more readable, whether we use them or not is upto us.
+
+> [!note]- *Interfaces are just tools* to make the code more readable, *whether we use them or not is upto us*.
+
 - To implement an interface in Go we just need to implement all the methods in the interface.
 	- Go interfaces are implemented implicitly.
 	- You *don't have to explicitly mention if a named type implements an interface*.
@@ -223,40 +225,4 @@ func main() {
 }
 ```
 
-### Value and pointer receivers
-- Example with value receiver
-```go
-type myStruct struct {
-}
-
-func (p1 myStruct) print1(a int) {
-	fmt.Println(a)
-}
-
-func (p2 myStruct) print2(a string) {
-	fmt.Println(a)
-}
-
-type myInterface interface {
-	print1(int)
-	print2(string)
-}
-
-func main() {
-	var ms myInterface = myStruct{} // value type for implementing an interface
-	fmt.Println(ms)
-}
-```
-
-> [!important]- When implementing an interface if you use a value type, all the methods should have value receivers. If we are implementing an interface with a pointer then we should just have the methods there.
-> Even if none of the functions were pointer receivers, using a pointer would have worked.
-
-```go
-func (p2 *myStruct) print2(a string) {
-	fmt.Println(a)
-}
-// this would give an error since we have a pointer receiver
-
-// to fix this we can do
-var ms myInterface = &myStruct{}
-```
+### [[Go - Interfaces - Value & pointer receivers]]
