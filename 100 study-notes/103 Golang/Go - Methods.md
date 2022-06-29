@@ -1,6 +1,6 @@
 ---
 created: 2022-05-29 16:01
-updated: 2022-06-05 11:31
+updated: 2022-06-29 15:24
 ---
 ---
 **Links**: [[103 Golang Index]]
@@ -8,8 +8,8 @@ updated: 2022-06-05 11:31
 ---
 ## Receiver Functions/Methods
 - Go *doesn't have classes*, but you can **define methods on defined types** (aka **[[Go - DataTypes#Defined Types|Named Types]]**).
-- These functions are known as *receiver functions or methods*.
--  can have functions also called methods (Receiver functions) attached to them.
+	- Methods can be defined of any type and since struct is also a type methods can be defined for structs also.
+- These functions are known as *receiver functions or methods*. 
 - For receiver method names (similar to `self` or `this` in other OOP languages) keep it short. 
 	- Generally it is a convention to have it as the *first letter of type name*
 ```go
@@ -74,9 +74,12 @@ func main(){
 ### Pointer Receiver
 > [!note] Method works on a **copy (pass by value)** except for lists and maps.
 
-- If one of the methods takes a pointer receiver then it is a good idea to make all the methods as pointer receiver.
+> [!caution]- *If one of the methods takes a pointer receiver then it is a good idea to make all the methods as pointer receiver*. 
+
 - Use pointer receivers when you don't want to copy large amounts of value when passing to methods.
-- Remember since struct is also a type we can attach methods to it.
+
+> [!tip]- Since methods often need to modify their receiver, *pointer receivers are more common than value receivers*.
+
 ```go
 type car struct {
 	name  string
@@ -126,6 +129,43 @@ func main() {
 // {test2 20}
 // {test4 40}
 ```
+
+### Method and Pointer Indirection
+```go
+type Vertex struct {
+	X, Y float64
+}
+
+func (v *Vertex) Scale(f float64) { // <--- method
+	v.X = v.X * f
+	v.Y = v.Y * f
+}
+
+func ScaleFunc(v *Vertex, f float64) { // <--- simple function
+	v.X = v.X * f
+	v.Y = v.Y * f
+}
+```
+
+- Functions with a pointer argument must take a pointer
+```go
+var v Vertex
+ScaleFunc(v, 5)  // Compile error!
+ScaleFunc(&v, 5) // OK
+```
+
+- Methods with pointer receivers take either a value or a pointer as the receiver when they are called
+```go
+var v Vertex
+v.Scale(5)  // OK
+p := &v
+p.Scale(10) // OK
+```
+
+- For the statement `v.Scale(5)`, even though `v` is a value and not a pointer, the method with the pointer receiver is called automatically. 
+- That is, as a convenience, Go interprets the statement `v.Scale(5)` as `(&v).Scale(5)` since the `Scale` method has a pointer receiver.
+- Equivalent thing happens in the reverse direction
+	- ![[attachments/Pasted image 20220629152323.png]]
 
 ### Miscellaneous
 > [!caution]- Method declarations are not permitted on named types that are themselves pointer types
