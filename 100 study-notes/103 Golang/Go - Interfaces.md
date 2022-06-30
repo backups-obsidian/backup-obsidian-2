@@ -1,6 +1,6 @@
 ---
 created: 2022-06-05 11:28
-updated: 2022-06-29 19:26
+updated: 2022-06-30 16:07
 ---
 ---
 **Links**: [[103 Golang Index]]
@@ -226,3 +226,34 @@ func main() {
 ```
 
 ### [[Go - Interfaces - Value & pointer receivers]]
+
+### Stringer Interface
+- One of the most ubiquitous interfaces is `stringer` defined by the `fmt` package.
+
+```go
+```type Stringer interface {
+    String() string
+}
+```
+
+- A `Stringer` is a type that can describe itself as a string. The `fmt` package (and many others) look for this interface to print values.
+
+> [!note]- In short `String()` method is what gets called when you do a `fmt.Println()`
+
+```go
+type Person struct {
+	Name string
+	Age  int
+}
+
+func (p Person) String() string { 
+	return fmt.Sprintf("%v (%v years)", p.Name, p.Age)
+}
+
+func main() {
+	a := Person{"Arthur Dent", 42}
+	z := Person{"Zaphod Beeblebrox", 9001}
+	fmt.Println(a, z)
+}
+// Arthur Dent (42 years) Zaphod Beeblebrox (9001 years)
+```
