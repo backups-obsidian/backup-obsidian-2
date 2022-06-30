@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Go - Interfaces",
+      "path": "100 study-notes/103 Golang/Go - Interfaces.md"
+    },
+    {
       "basename": "Go - Interfaces - Value & pointer receivers",
       "path": "100 study-notes/103 Golang/Go - Interfaces - Value & pointer receivers.md"
     },
@@ -11,10 +15,6 @@
     {
       "basename": "103 Golang Index",
       "path": "100 study-notes/103 Golang/103 Golang Index.md"
-    },
-    {
-      "basename": "Go - Interfaces",
-      "path": "100 study-notes/103 Golang/Go - Interfaces.md"
     },
     {
       "basename": "Go - Functions",

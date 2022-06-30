@@ -48,8 +48,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "100 study-notes/103 Golang/Go - Interfaces - Value & pointer receivers.md",
-            "mode": "preview",
+            "file": "100 study-notes/103 Golang/Go - Interfaces.md",
+            "mode": "source",
             "backlinks": false,
             "source": true
           }
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/103 Golang/Go - Interfaces - Value & pointer receivers.md",
+                "file": "100 study-notes/103 Golang/Go - Interfaces.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/103 Golang/Go - Interfaces - Value & pointer receivers.md"
+                "file": "100 study-notes/103 Golang/Go - Interfaces.md"
               }
             }
           },
@@ -172,7 +172,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/103 Golang/Go - Interfaces - Value & pointer receivers.md",
+                "file": "100 study-notes/103 Golang/Go - Interfaces.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -219,10 +219,10 @@
   },
   "active": "c91bb4c69798e0b2",
   "lastOpenFiles": [
+    "100 study-notes/103 Golang/Go - Interfaces.md",
     "100 study-notes/103 Golang/Go - Interfaces - Value & pointer receivers.md",
     "100 study-notes/103 Golang/Go - Methods.md",
     "100 study-notes/103 Golang/103 Golang Index.md",
-    "100 study-notes/103 Golang/Go - Interfaces.md",
     "100 study-notes/103 Golang/Go - Functions.md",
     "100 study-notes/103 Golang/Go - Modules.md",
     "100 study-notes/103 Golang/Go - Packages.md",
