@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "Go - range creates a copy",
+      "path": "100 study-notes/103 Golang/Go - range creates a copy.md"
+    },
+    {
+      "basename": "103 Golang Index",
+      "path": "100 study-notes/103 Golang/103 Golang Index.md"
+    },
+    {
+      "basename": "Design Patterns - SOLID Principles",
+      "path": "100 study-notes/107 Design Patterns/Design Patterns - SOLID Principles.md"
+    },
+    {
+      "basename": "107 Design Patterns Index",
+      "path": "100 study-notes/107 Design Patterns/107 Design Patterns Index.md"
+    },
+    {
       "basename": "Go - Interfaces",
       "path": "100 study-notes/103 Golang/Go - Interfaces.md"
     },
@@ -11,10 +27,6 @@
     {
       "basename": "Go - Methods",
       "path": "100 study-notes/103 Golang/Go - Methods.md"
-    },
-    {
-      "basename": "103 Golang Index",
-      "path": "100 study-notes/103 Golang/103 Golang Index.md"
     },
     {
       "basename": "Go - Functions",
@@ -29,20 +41,12 @@
       "path": "100 study-notes/103 Golang/Go - Packages.md"
     },
     {
-      "basename": "Design Patterns - SOLID Principles",
-      "path": "100 study-notes/107 Design Patterns/Design Patterns - SOLID Principles.md"
-    },
-    {
       "basename": "Go - make vs new",
       "path": "100 study-notes/103 Golang/Go - make vs new.md"
     },
     {
       "basename": "Go - Constants",
       "path": "100 study-notes/103 Golang/Go - Constants.md"
-    },
-    {
-      "basename": "107 Design Patterns Index",
-      "path": "100 study-notes/107 Design Patterns/107 Design Patterns Index.md"
     },
     {
       "basename": "Go - Structs",
@@ -195,10 +199,6 @@
     {
       "basename": "projects",
       "path": "400 misc/projects.md"
-    },
-    {
-      "basename": "000 home",
-      "path": "000 home.md"
     }
   ],
   "omittedPaths": [],

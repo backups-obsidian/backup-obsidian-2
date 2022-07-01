@@ -36,20 +36,20 @@
           "type": "markdown",
           "state": {
             "file": "100 study-notes/103 Golang/103 Golang Index.md",
-            "mode": "preview",
+            "mode": "source",
             "backlinks": false,
             "source": true
           }
         }
       },
       {
-        "id": "c91bb4c69798e0b2",
+        "id": "dc481df15fe70380",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "100 study-notes/103 Golang/Go - Interfaces.md",
-            "mode": "source",
+            "file": "100 study-notes/103 Golang/Go - range creates a copy.md",
+            "mode": "preview",
             "backlinks": false,
             "source": true
           }
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/103 Golang/Go - Interfaces.md",
+                "file": "100 study-notes/103 Golang/Go - range creates a copy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/103 Golang/Go - Interfaces.md"
+                "file": "100 study-notes/103 Golang/Go - range creates a copy.md"
               }
             }
           },
@@ -172,7 +172,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/103 Golang/Go - Interfaces.md",
+                "file": "100 study-notes/103 Golang/Go - range creates a copy.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -217,17 +217,17 @@
     "width": 278.0398254394531,
     "collapsed": true
   },
-  "active": "c91bb4c69798e0b2",
+  "active": "dc481df15fe70380",
   "lastOpenFiles": [
+    "100 study-notes/103 Golang/Go - range creates a copy.md",
+    "100 study-notes/103 Golang/103 Golang Index.md",
+    "100 study-notes/107 Design Patterns/Design Patterns - SOLID Principles.md",
+    "100 study-notes/107 Design Patterns/107 Design Patterns Index.md",
     "100 study-notes/103 Golang/Go - Interfaces.md",
     "100 study-notes/103 Golang/Go - Interfaces - Value & pointer receivers.md",
     "100 study-notes/103 Golang/Go - Methods.md",
-    "100 study-notes/103 Golang/103 Golang Index.md",
     "100 study-notes/103 Golang/Go - Functions.md",
     "100 study-notes/103 Golang/Go - Modules.md",
-    "100 study-notes/103 Golang/Go - Packages.md",
-    "100 study-notes/107 Design Patterns/Design Patterns - SOLID Principles.md",
-    "100 study-notes/103 Golang/Go - make vs new.md",
-    "100 study-notes/103 Golang/Go - Constants.md"
+    "100 study-notes/103 Golang/Go - Packages.md"
   ]
 }
