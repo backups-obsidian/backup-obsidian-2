@@ -1,20 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "Go - range creates a copy",
-      "path": "100 study-notes/103 Golang/Go - range creates a copy.md"
+      "basename": "Design Patterns - SOLID Principles",
+      "path": "100 study-notes/107 Design Patterns/Design Patterns - SOLID Principles.md"
+    },
+    {
+      "basename": "200 home",
+      "path": "200 general-notes/200 home.md"
+    },
+    {
+      "basename": "Useful Websites",
+      "path": "200 general-notes/Useful Websites.md"
+    },
+    {
+      "basename": "300 home",
+      "path": "300 short-notes/300 home.md"
     },
     {
       "basename": "103 Golang Index",
       "path": "100 study-notes/103 Golang/103 Golang Index.md"
     },
     {
-      "basename": "Design Patterns - SOLID Principles",
-      "path": "100 study-notes/107 Design Patterns/Design Patterns - SOLID Principles.md"
-    },
-    {
       "basename": "107 Design Patterns Index",
       "path": "100 study-notes/107 Design Patterns/107 Design Patterns Index.md"
+    },
+    {
+      "basename": "Go - range creates a copy",
+      "path": "100 study-notes/103 Golang/Go - range creates a copy.md"
     },
     {
       "basename": "Go - Interfaces",
@@ -61,10 +73,6 @@
       "path": "200 general-notes/Useful Chrome Extensions.md"
     },
     {
-      "basename": "200 home",
-      "path": "200 general-notes/200 home.md"
-    },
-    {
       "basename": "Design Patterns - Pillars of OOP",
       "path": "100 study-notes/107 Design Patterns/Design Patterns - Pillars of OOP.md"
     },
@@ -79,10 +87,6 @@
     {
       "basename": "106 Git Index",
       "path": "100 study-notes/106 Git/106 Git Index.md"
-    },
-    {
-      "basename": "300 home",
-      "path": "300 short-notes/300 home.md"
     },
     {
       "basename": "Git - gitignore",
@@ -195,10 +199,6 @@
     {
       "basename": "note taking in obsidian",
       "path": "400 misc/note taking in obsidian.md"
-    },
-    {
-      "basename": "projects",
-      "path": "400 misc/projects.md"
     }
   ],
   "omittedPaths": [],

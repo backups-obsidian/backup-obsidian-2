@@ -1,6 +1,6 @@
 ---
 created: 2022-06-28 19:23
-updated: 2022-06-29 16:35
+updated: 2022-07-04 16:26
 ---
 ---
 **Links**: [[107 Design Patterns Index]]
@@ -24,3 +24,8 @@ updated: 2022-06-29 16:35
 > - Enterprise Pattern : Specification
 > - Illustration of Open Closed Principle is very well illustrated with the Specification pattern
 
+- The specification pattern uses a bunch of interfaces
+
+> [!tip] Try to remember the colour specification pattern.
+
+### Liskov Substitution Principle (L)
