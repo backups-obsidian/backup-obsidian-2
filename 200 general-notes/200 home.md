@@ -1,7 +1,6 @@
 ---
 created: 2022-04-16 16:38
-updated: 2022-06-28 19:05
-description: Non tech related stuff
+updated: 2022-07-04 16:27
 ---
 ---
 **Links**: [[../000 home|000 Home]]
@@ -11,4 +10,5 @@ description: Non tech related stuff
 [[Useful Mac Apps]]
 [[Useful Chrome Extensions]]
 [[Must have Tools]]
+[[Useful Websites]]
 
