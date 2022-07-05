@@ -1,6 +1,6 @@
 ---
 created: 2022-04-18 18:45
-updated: 2022-06-25 14:40
+updated: 2022-07-04 20:22
 ---
 ---
 **Links**: [[../000 home | 000 Home]]
@@ -14,3 +14,4 @@ updated: 2022-06-25 14:40
 [[105 Rust/105 Rust Index | Rust]]
 [[106 Git/106 Git Index | Git]]
 [[107 Design Patterns/107 Design Patterns Index| Design Patterns]]
+[[108 Python/108 Python Index | Python]]
