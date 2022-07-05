@@ -1,8 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "Python - Type Hints",
+      "path": "100 study-notes/108 Python/Python - Type Hints.md"
+    },
+    {
+      "basename": "107 Design Patterns Index",
+      "path": "100 study-notes/107 Design Patterns/107 Design Patterns Index.md"
+    },
+    {
       "basename": "Design Patterns - SOLID Principles",
       "path": "100 study-notes/107 Design Patterns/Design Patterns - SOLID Principles.md"
+    },
+    {
+      "basename": "103 Golang Index",
+      "path": "100 study-notes/103 Golang/103 Golang Index.md"
+    },
+    {
+      "basename": "108 Python Index",
+      "path": "100 study-notes/108 Python/108 Python Index.md"
+    },
+    {
+      "basename": "100 home",
+      "path": "100 study-notes/100 home.md"
+    },
+    {
+      "basename": "300 home",
+      "path": "300 short-notes/300 home.md"
     },
     {
       "basename": "200 home",
@@ -11,18 +35,6 @@
     {
       "basename": "Useful Websites",
       "path": "200 general-notes/Useful Websites.md"
-    },
-    {
-      "basename": "300 home",
-      "path": "300 short-notes/300 home.md"
-    },
-    {
-      "basename": "103 Golang Index",
-      "path": "100 study-notes/103 Golang/103 Golang Index.md"
-    },
-    {
-      "basename": "107 Design Patterns Index",
-      "path": "100 study-notes/107 Design Patterns/107 Design Patterns Index.md"
     },
     {
       "basename": "Go - range creates a copy",
@@ -79,10 +91,6 @@
     {
       "basename": "Design Patterns - UML Diagrams",
       "path": "100 study-notes/107 Design Patterns/Design Patterns - UML Diagrams.md"
-    },
-    {
-      "basename": "100 home",
-      "path": "100 study-notes/100 home.md"
     },
     {
       "basename": "106 Git Index",
@@ -191,14 +199,6 @@
     {
       "basename": "Linux - Using fd",
       "path": "100 study-notes/104 Linux/Linux - Using fd.md"
-    },
-    {
-      "basename": "obsidian tips and tricks",
-      "path": "400 misc/obsidian tips and tricks.md"
-    },
-    {
-      "basename": "note taking in obsidian",
-      "path": "400 misc/note taking in obsidian.md"
     }
   ],
   "omittedPaths": [],
