@@ -41,19 +41,6 @@
             "source": true
           }
         }
-      },
-      {
-        "id": "0ca7e3631f31dc93",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "100 study-notes/108 Python/Python - Type Hints.md",
-            "mode": "preview",
-            "backlinks": false,
-            "source": true
-          }
-        }
       }
     ],
     "direction": "vertical"
@@ -127,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/108 Python/Python - Type Hints.md",
+                "file": "100 study-notes/107 Design Patterns/Design Patterns - SOLID Principles.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/108 Python/Python - Type Hints.md"
+                "file": "100 study-notes/107 Design Patterns/Design Patterns - SOLID Principles.md"
               }
             }
           },
@@ -173,7 +160,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/108 Python/Python - Type Hints.md",
+                "file": "100 study-notes/107 Design Patterns/Design Patterns - SOLID Principles.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -218,17 +205,17 @@
     "width": 278.0398254394531,
     "collapsed": true
   },
-  "active": "0ca7e3631f31dc93",
+  "active": "abdb88d07b99e713",
   "lastOpenFiles": [
-    "100 study-notes/108 Python/Python - Type Hints.md",
-    "100 study-notes/107 Design Patterns/107 Design Patterns Index.md",
     "100 study-notes/107 Design Patterns/Design Patterns - SOLID Principles.md",
     "100 study-notes/103 Golang/103 Golang Index.md",
+    "100 study-notes/107 Design Patterns/107 Design Patterns Index.md",
+    "100 study-notes/108 Python/Python - What are wheels.md",
     "100 study-notes/108 Python/108 Python Index.md",
+    "100 study-notes/108 Python/Python - Type Hints.md",
     "100 study-notes/100 home.md",
     "300 short-notes/300 home.md",
     "200 general-notes/200 home.md",
-    "200 general-notes/Useful Websites.md",
-    "100 study-notes/103 Golang/Go - range creates a copy.md"
+    "200 general-notes/Useful Websites.md"
   ]
 }

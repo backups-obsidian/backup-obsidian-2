@@ -1,14 +1,6 @@
 {
   "recentFiles": [
     {
-      "basename": "Python - Type Hints",
-      "path": "100 study-notes/108 Python/Python - Type Hints.md"
-    },
-    {
-      "basename": "107 Design Patterns Index",
-      "path": "100 study-notes/107 Design Patterns/107 Design Patterns Index.md"
-    },
-    {
       "basename": "Design Patterns - SOLID Principles",
       "path": "100 study-notes/107 Design Patterns/Design Patterns - SOLID Principles.md"
     },
@@ -17,8 +9,20 @@
       "path": "100 study-notes/103 Golang/103 Golang Index.md"
     },
     {
+      "basename": "107 Design Patterns Index",
+      "path": "100 study-notes/107 Design Patterns/107 Design Patterns Index.md"
+    },
+    {
+      "basename": "Python - What are wheels",
+      "path": "100 study-notes/108 Python/Python - What are wheels.md"
+    },
+    {
       "basename": "108 Python Index",
       "path": "100 study-notes/108 Python/108 Python Index.md"
+    },
+    {
+      "basename": "Python - Type Hints",
+      "path": "100 study-notes/108 Python/Python - Type Hints.md"
     },
     {
       "basename": "100 home",
@@ -195,10 +199,6 @@
     {
       "basename": "Git - Miscellaneous",
       "path": "100 study-notes/106 Git/Git - Miscellaneous.md"
-    },
-    {
-      "basename": "Linux - Using fd",
-      "path": "100 study-notes/104 Linux/Linux - Using fd.md"
     }
   ],
   "omittedPaths": [],
