@@ -1,6 +1,6 @@
 ---
 created: 2022-04-16 16:38
-updated: 2022-07-04 16:27
+updated: 2022-07-09 09:59
 ---
 ---
 **Links**: [[../000 home|000 Home]]
@@ -11,4 +11,4 @@ updated: 2022-07-04 16:27
 [[Useful Chrome Extensions]]
 [[Must have Tools]]
 [[Useful Websites]]
-
+[[Mac Tips & Tricks]]

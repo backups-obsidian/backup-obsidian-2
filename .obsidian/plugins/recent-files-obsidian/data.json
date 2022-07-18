@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "Design Patterns - SOLID Principles",
-      "path": "100 study-notes/107 Design Patterns/Design Patterns - SOLID Principles.md"
+      "basename": "107 Design Patterns Index",
+      "path": "100 study-notes/107 Design Patterns/107 Design Patterns Index.md"
+    },
+    {
+      "basename": "Mac Tips & Tricks",
+      "path": "200 general-notes/Mac Tips & Tricks.md"
+    },
+    {
+      "basename": "200 home",
+      "path": "200 general-notes/200 home.md"
     },
     {
       "basename": "103 Golang Index",
       "path": "100 study-notes/103 Golang/103 Golang Index.md"
     },
     {
-      "basename": "107 Design Patterns Index",
-      "path": "100 study-notes/107 Design Patterns/107 Design Patterns Index.md"
+      "basename": "Design Patterns - SOLID Principles",
+      "path": "100 study-notes/107 Design Patterns/Design Patterns - SOLID Principles.md"
     },
     {
       "basename": "Python - What are wheels",
@@ -31,10 +39,6 @@
     {
       "basename": "300 home",
       "path": "300 short-notes/300 home.md"
-    },
-    {
-      "basename": "200 home",
-      "path": "200 general-notes/200 home.md"
     },
     {
       "basename": "Useful Websites",
@@ -195,10 +199,6 @@
     {
       "basename": "Linux - Xargs",
       "path": "100 study-notes/104 Linux/Linux - Xargs.md"
-    },
-    {
-      "basename": "Git - Miscellaneous",
-      "path": "100 study-notes/106 Git/Git - Miscellaneous.md"
     }
   ],
   "omittedPaths": [],

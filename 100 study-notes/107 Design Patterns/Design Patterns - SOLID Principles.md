@@ -1,6 +1,6 @@
 ---
 created: 2022-06-28 19:23
-updated: 2022-07-04 16:26
+updated: 2022-07-07 19:12
 ---
 ---
 **Links**: [[107 Design Patterns Index]]
@@ -29,3 +29,10 @@ updated: 2022-07-04 16:26
 > [!tip] Try to remember the colour specification pattern.
 
 ### Liskov Substitution Principle (L)
+- It **primarily deals with inheritance** and is directly not applicable to Go.
+
+### Interface Segregation Principle (I)
+- It is the simplest principle in SOLID.
+
+> [!note]- It states that you shouldn't put too much in an interface.
+> Try to split up the interface.
