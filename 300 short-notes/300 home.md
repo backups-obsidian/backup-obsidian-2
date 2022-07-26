@@ -1,7 +1,6 @@
 ---
 created: 2022-04-16 16:39
-updated: 2022-06-25 12:14
-description: Any thing short that is tech related
+updated: 2022-07-26 18:48
 ---
 ---
 **Links**:  [[../000 home|000 Home]]
@@ -20,3 +19,5 @@ description: Any thing short that is tech related
 [[What is BaaS]]
 [[Difference between REST & HTTP API]]
 [[YAML]]
+[[Strict mode in bash]]
+[[nmap]]
