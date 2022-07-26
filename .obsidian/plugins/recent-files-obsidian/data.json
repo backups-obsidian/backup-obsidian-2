@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "107 Design Patterns Index",
-      "path": "100 study-notes/107 Design Patterns/107 Design Patterns Index.md"
+      "basename": "Strict mode in bash",
+      "path": "300 short-notes/Strict mode in bash.md"
     },
     {
-      "basename": "Mac Tips & Tricks",
-      "path": "200 general-notes/Mac Tips & Tricks.md"
+      "basename": "nmap",
+      "path": "300 short-notes/nmap.md"
+    },
+    {
+      "basename": "Must have Tools",
+      "path": "200 general-notes/Must have Tools.md"
+    },
+    {
+      "basename": "300 home",
+      "path": "300 short-notes/300 home.md"
     },
     {
       "basename": "200 home",
@@ -15,6 +23,14 @@
     {
       "basename": "103 Golang Index",
       "path": "100 study-notes/103 Golang/103 Golang Index.md"
+    },
+    {
+      "basename": "107 Design Patterns Index",
+      "path": "100 study-notes/107 Design Patterns/107 Design Patterns Index.md"
+    },
+    {
+      "basename": "Mac Tips & Tricks",
+      "path": "200 general-notes/Mac Tips & Tricks.md"
     },
     {
       "basename": "Design Patterns - SOLID Principles",
@@ -35,10 +51,6 @@
     {
       "basename": "100 home",
       "path": "100 study-notes/100 home.md"
-    },
-    {
-      "basename": "300 home",
-      "path": "300 short-notes/300 home.md"
     },
     {
       "basename": "Useful Websites",
@@ -187,18 +199,6 @@
     {
       "basename": "IAM Basics",
       "path": "100 study-notes/101 AWS SAA/IAM Basics.md"
-    },
-    {
-      "basename": "STS & Identity Federation",
-      "path": "100 study-notes/101 AWS SAA/STS & Identity Federation.md"
-    },
-    {
-      "basename": "101 AWS SAA Index",
-      "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
-    },
-    {
-      "basename": "Linux - Xargs",
-      "path": "100 study-notes/104 Linux/Linux - Xargs.md"
     }
   ],
   "omittedPaths": [],

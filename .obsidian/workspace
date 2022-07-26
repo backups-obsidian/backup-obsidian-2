@@ -9,21 +9,21 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "100 study-notes/107 Design Patterns/107 Design Patterns Index.md",
-            "mode": "preview",
+            "file": "300 short-notes/300 home.md",
+            "mode": "source",
             "backlinks": false,
             "source": true
           }
         }
       },
       {
-        "id": "9cf723ecbb8d6460",
+        "id": "ed07e1244965748f",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "100 study-notes/103 Golang/103 Golang Index.md",
-            "mode": "preview",
+            "file": "300 short-notes/Strict mode in bash.md",
+            "mode": "source",
             "backlinks": false,
             "source": true
           }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/107 Design Patterns/107 Design Patterns Index.md",
+                "file": "300 short-notes/Strict mode in bash.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/107 Design Patterns/107 Design Patterns Index.md"
+                "file": "300 short-notes/Strict mode in bash.md"
               }
             }
           },
@@ -147,7 +147,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/107 Design Patterns/107 Design Patterns Index.md",
+                "file": "300 short-notes/Strict mode in bash.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -192,17 +192,17 @@
     "width": 278.0398254394531,
     "collapsed": true
   },
-  "active": "9f57ef6548f859c1",
+  "active": "ed07e1244965748f",
   "lastOpenFiles": [
-    "100 study-notes/107 Design Patterns/107 Design Patterns Index.md",
-    "200 general-notes/Mac Tips & Tricks.md",
+    "300 short-notes/nmap.md",
+    "300 short-notes/Strict mode in bash.md",
+    "200 general-notes/Must have Tools.md",
+    "300 short-notes/300 home.md",
     "200 general-notes/200 home.md",
     "100 study-notes/103 Golang/103 Golang Index.md",
+    "100 study-notes/107 Design Patterns/107 Design Patterns Index.md",
+    "200 general-notes/Mac Tips & Tricks.md",
     "100 study-notes/107 Design Patterns/Design Patterns - SOLID Principles.md",
-    "100 study-notes/108 Python/Python - What are wheels.md",
-    "100 study-notes/108 Python/108 Python Index.md",
-    "100 study-notes/108 Python/Python - Type Hints.md",
-    "100 study-notes/100 home.md",
-    "300 short-notes/300 home.md"
+    "100 study-notes/108 Python/Python - What are wheels.md"
   ]
 }

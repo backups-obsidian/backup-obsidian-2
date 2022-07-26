@@ -1,6 +1,6 @@
 ---
 created: 2022-06-03 18:58
-updated: 2022-06-04 19:57
+updated: 2022-07-26 16:23
 ---
 ---
 **Links**: [[200 home]]
@@ -34,3 +34,6 @@ source '/Users/sarthaknarayan/Library/Application Support/ntfy/auto-ntfy-done.sh
 title: Shell Notifications
 ```
 - To the path you get when you run `ntfy -v send "hello there"`
+
+### PDF Compressor
+- [theeko74/pdfc: Simple python script to compress PDF (github.com)](https://github.com/theeko74/pdfc)
