@@ -1,6 +1,6 @@
 ---
 created: 2022-04-16 16:39
-updated: 2022-07-26 18:48
+updated: 2022-08-01 19:44
 ---
 ---
 **Links**:  [[../000 home|000 Home]]
@@ -21,3 +21,5 @@ updated: 2022-07-26 18:48
 [[YAML]]
 [[Strict mode in bash]]
 [[nmap]]
+[[Neovim]]
+[[Development Setup]]
