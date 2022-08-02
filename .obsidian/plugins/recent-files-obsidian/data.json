@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "Development Setup",
+      "path": "300 short-notes/Development Setup.md"
+    },
+    {
+      "basename": "Neovim",
+      "path": "300 short-notes/Neovim.md"
+    },
+    {
       "basename": "Strict mode in bash",
       "path": "300 short-notes/Strict mode in bash.md"
+    },
+    {
+      "basename": "300 home",
+      "path": "300 short-notes/300 home.md"
     },
     {
       "basename": "nmap",
@@ -11,10 +23,6 @@
     {
       "basename": "Must have Tools",
       "path": "200 general-notes/Must have Tools.md"
-    },
-    {
-      "basename": "300 home",
-      "path": "300 short-notes/300 home.md"
     },
     {
       "basename": "200 home",
@@ -191,14 +199,6 @@
     {
       "basename": "AWS Storage Gateway",
       "path": "100 study-notes/101 AWS SAA/AWS Storage Gateway.md"
-    },
-    {
-      "basename": "Aurora",
-      "path": "100 study-notes/101 AWS SAA/Aurora.md"
-    },
-    {
-      "basename": "IAM Basics",
-      "path": "100 study-notes/101 AWS SAA/IAM Basics.md"
     }
   ],
   "omittedPaths": [],

@@ -17,12 +17,25 @@
         }
       },
       {
-        "id": "ed07e1244965748f",
+        "id": "8d20b7e9352e69ca",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "300 short-notes/Strict mode in bash.md",
+            "file": "300 short-notes/Development Setup.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "14e4513313783e01",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "300 short-notes/Neovim.md",
             "mode": "source",
             "backlinks": false,
             "source": true
@@ -101,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "300 short-notes/Strict mode in bash.md",
+                "file": "300 short-notes/Development Setup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "300 short-notes/Strict mode in bash.md"
+                "file": "300 short-notes/Development Setup.md"
               }
             }
           },
@@ -147,7 +160,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "300 short-notes/Strict mode in bash.md",
+                "file": "300 short-notes/Development Setup.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -192,17 +205,17 @@
     "width": 278.0398254394531,
     "collapsed": true
   },
-  "active": "ed07e1244965748f",
+  "active": "8d20b7e9352e69ca",
   "lastOpenFiles": [
-    "300 short-notes/nmap.md",
+    "300 short-notes/Neovim.md",
+    "300 short-notes/Development Setup.md",
     "300 short-notes/Strict mode in bash.md",
-    "200 general-notes/Must have Tools.md",
     "300 short-notes/300 home.md",
+    "300 short-notes/nmap.md",
+    "200 general-notes/Must have Tools.md",
     "200 general-notes/200 home.md",
     "100 study-notes/103 Golang/103 Golang Index.md",
     "100 study-notes/107 Design Patterns/107 Design Patterns Index.md",
-    "200 general-notes/Mac Tips & Tricks.md",
-    "100 study-notes/107 Design Patterns/Design Patterns - SOLID Principles.md",
-    "100 study-notes/108 Python/Python - What are wheels.md"
+    "200 general-notes/Mac Tips & Tricks.md"
   ]
 }
