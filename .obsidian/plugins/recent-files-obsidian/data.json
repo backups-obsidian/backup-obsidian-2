@@ -1,20 +1,56 @@
 {
   "recentFiles": [
     {
-      "basename": "Development Setup",
-      "path": "300 short-notes/Development Setup.md"
+      "basename": "Kubernetes - Logical Components",
+      "path": "100 study-notes/110 Kubernetes/Kubernetes - Logical Components.md"
+    },
+    {
+      "basename": "110 Kubernetes Index",
+      "path": "100 study-notes/110 Kubernetes/110 Kubernetes Index.md"
+    },
+    {
+      "basename": "Kubernetes - Components of k8s & their function",
+      "path": "100 study-notes/110 Kubernetes/Kubernetes - Components of k8s & their function.md"
+    },
+    {
+      "basename": "Kubernetes - Introduction",
+      "path": "100 study-notes/110 Kubernetes/Kubernetes - Introduction.md"
+    },
+    {
+      "basename": "100 home",
+      "path": "100 study-notes/100 home.md"
+    },
+    {
+      "basename": "AWS Self - EKS",
+      "path": "100 study-notes/109 AWS Self Taught/AWS Self - EKS.md"
+    },
+    {
+      "basename": "109 AWS Self Taught Index",
+      "path": "100 study-notes/109 AWS Self Taught/109 AWS Self Taught Index.md"
+    },
+    {
+      "basename": "102 AWS DVA Index",
+      "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
+    },
+    {
+      "basename": "101 AWS SAA Index",
+      "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
+    },
+    {
+      "basename": "300 home",
+      "path": "300 short-notes/300 home.md"
     },
     {
       "basename": "Neovim",
       "path": "300 short-notes/Neovim.md"
     },
     {
-      "basename": "Strict mode in bash",
-      "path": "300 short-notes/Strict mode in bash.md"
+      "basename": "Development Setup",
+      "path": "300 short-notes/Development Setup.md"
     },
     {
-      "basename": "300 home",
-      "path": "300 short-notes/300 home.md"
+      "basename": "Strict mode in bash",
+      "path": "300 short-notes/Strict mode in bash.md"
     },
     {
       "basename": "nmap",
@@ -55,10 +91,6 @@
     {
       "basename": "Python - Type Hints",
       "path": "100 study-notes/108 Python/Python - Type Hints.md"
-    },
-    {
-      "basename": "100 home",
-      "path": "100 study-notes/100 home.md"
     },
     {
       "basename": "Useful Websites",
@@ -153,10 +185,6 @@
       "path": "100 study-notes/106 Git/Git - Branching, Rebasing & Merging.md"
     },
     {
-      "basename": "102 AWS DVA Index",
-      "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
-    },
-    {
       "basename": "Git - Tags",
       "path": "100 study-notes/106 Git/Git - Tags.md"
     },
@@ -171,34 +199,6 @@
     {
       "basename": "Go - Error Handling",
       "path": "100 study-notes/103 Golang/Go - Error Handling.md"
-    },
-    {
-      "basename": "Go - Select",
-      "path": "100 study-notes/103 Golang/Go - Select.md"
-    },
-    {
-      "basename": "Go - Buffered Channels",
-      "path": "100 study-notes/103 Golang/Go - Buffered Channels.md"
-    },
-    {
-      "basename": "Go - Channels",
-      "path": "100 study-notes/103 Golang/Go - Channels.md"
-    },
-    {
-      "basename": "Go - Concurrency",
-      "path": "100 study-notes/103 Golang/Go - Concurrency.md"
-    },
-    {
-      "basename": "Go - Slice Working",
-      "path": "100 study-notes/103 Golang/Go - Slice Working.md"
-    },
-    {
-      "basename": "Go - Race Conditions & Mutexes",
-      "path": "100 study-notes/103 Golang/Go - Race Conditions & Mutexes.md"
-    },
-    {
-      "basename": "AWS Storage Gateway",
-      "path": "100 study-notes/101 AWS SAA/AWS Storage Gateway.md"
     }
   ],
   "omittedPaths": [],
