@@ -1,6 +1,6 @@
 ---
 created: 2022-08-11 19:08
-updated: 2022-08-11 19:36
+updated: 2022-08-28 11:13
 ---
 ---
 **Links**: [[../100 home|100 Home]]
@@ -9,3 +9,5 @@ updated: 2022-08-11 19:36
 [[Kubernetes - Introduction]]
 [[Kubernetes - Components of k8s & their function]]
 [[Kubernetes - Logical Components]]
+[[Kubernetes - Namespaces]]
+[[Kubernetes - Deployments & Services]]
