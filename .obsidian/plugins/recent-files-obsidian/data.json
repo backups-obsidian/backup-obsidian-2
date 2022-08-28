@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "Kubernetes - Logical Components",
-      "path": "100 study-notes/110 Kubernetes/Kubernetes - Logical Components.md"
+      "basename": "Kubernetes - Deployments & Services",
+      "path": "100 study-notes/110 Kubernetes/Kubernetes - Deployments & Services.md"
     },
     {
       "basename": "110 Kubernetes Index",
       "path": "100 study-notes/110 Kubernetes/110 Kubernetes Index.md"
+    },
+    {
+      "basename": "Kubernetes - Namespaces",
+      "path": "100 study-notes/110 Kubernetes/Kubernetes - Namespaces.md"
+    },
+    {
+      "basename": "Kubernetes - Logical Components",
+      "path": "100 study-notes/110 Kubernetes/Kubernetes - Logical Components.md"
     },
     {
       "basename": "Kubernetes - Components of k8s & their function",
@@ -191,14 +199,6 @@
     {
       "basename": "Git - Submodules",
       "path": "100 study-notes/106 Git/Git - Submodules.md"
-    },
-    {
-      "basename": "Git - Cherrypicking",
-      "path": "100 study-notes/106 Git/Git - Cherrypicking.md"
-    },
-    {
-      "basename": "Go - Error Handling",
-      "path": "100 study-notes/103 Golang/Go - Error Handling.md"
     }
   ],
   "omittedPaths": [],

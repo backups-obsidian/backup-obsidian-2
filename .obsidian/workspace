@@ -4,8 +4,9 @@
     "type": "split",
     "children": [
       {
-        "id": "7547e85d600959dc",
+        "id": "d2b192ab78f94e8a",
         "type": "leaf",
+        "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
@@ -13,17 +14,18 @@
             "mode": "source",
             "backlinks": false,
             "source": true
-          }
+          },
+          "pinned": true
         }
       },
       {
-        "id": "0a8e3420845584b5",
+        "id": "270bc263ca9ae780",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "100 study-notes/110 Kubernetes/Kubernetes - Logical Components.md",
-            "mode": "source",
+            "file": "100 study-notes/110 Kubernetes/Kubernetes - Deployments & Services.md",
+            "mode": "preview",
             "backlinks": false,
             "source": true
           }
@@ -101,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/110 Kubernetes/Kubernetes - Logical Components.md",
+                "file": "100 study-notes/110 Kubernetes/Kubernetes - Deployments & Services.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +120,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/110 Kubernetes/Kubernetes - Logical Components.md"
+                "file": "100 study-notes/110 Kubernetes/Kubernetes - Deployments & Services.md"
               }
             }
           },
@@ -147,7 +149,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/110 Kubernetes/Kubernetes - Logical Components.md",
+                "file": "100 study-notes/110 Kubernetes/Kubernetes - Deployments & Services.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -192,17 +194,17 @@
     "width": 278.0398254394531,
     "collapsed": true
   },
-  "active": "0a8e3420845584b5",
+  "active": "270bc263ca9ae780",
   "lastOpenFiles": [
     "100 study-notes/110 Kubernetes/110 Kubernetes Index.md",
+    "100 study-notes/110 Kubernetes/Kubernetes - Namespaces.md",
+    "100 study-notes/110 Kubernetes/Kubernetes - Logical Components.md",
     "100 study-notes/110 Kubernetes/Kubernetes - Components of k8s & their function.md",
     "100 study-notes/110 Kubernetes/Kubernetes - Introduction.md",
     "100 study-notes/100 home.md",
     "100 study-notes/109 AWS Self Taught/AWS Self - EKS.md",
     "100 study-notes/109 AWS Self Taught/109 AWS Self Taught Index.md",
     "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
-    "100 study-notes/101 AWS SAA/101 AWS SAA Index.md",
-    "300 short-notes/300 home.md",
-    "300 short-notes/Neovim.md"
+    "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
   ]
 }
