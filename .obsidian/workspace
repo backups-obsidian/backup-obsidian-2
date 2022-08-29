@@ -11,7 +11,7 @@
           "type": "markdown",
           "state": {
             "file": "100 study-notes/110 Kubernetes/110 Kubernetes Index.md",
-            "mode": "source",
+            "mode": "preview",
             "backlinks": false,
             "source": true
           },
@@ -19,13 +19,13 @@
         }
       },
       {
-        "id": "48d1b17013614055",
+        "id": "de348246f118f308",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "100 study-notes/110 Kubernetes/Kubernetes - Deployments & Services.md",
-            "mode": "preview",
+            "file": "100 study-notes/110 Kubernetes/Kubernetes - Services Deep Dive.md",
+            "mode": "source",
             "backlinks": false,
             "source": true
           }
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/110 Kubernetes/Kubernetes - Deployments & Services.md",
+                "file": "100 study-notes/110 Kubernetes/Kubernetes - Services Deep Dive.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/110 Kubernetes/Kubernetes - Deployments & Services.md"
+                "file": "100 study-notes/110 Kubernetes/Kubernetes - Services Deep Dive.md"
               }
             }
           },
@@ -149,7 +149,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/110 Kubernetes/Kubernetes - Deployments & Services.md",
+                "file": "100 study-notes/110 Kubernetes/Kubernetes - Services Deep Dive.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -194,15 +194,15 @@
     "width": 278.0398254394531,
     "collapsed": true
   },
-  "active": "48d1b17013614055",
+  "active": "de348246f118f308",
   "lastOpenFiles": [
     "100 study-notes/110 Kubernetes/110 Kubernetes Index.md",
+    "100 study-notes/110 Kubernetes/Kubernetes - Logical Components.md",
+    "100 study-notes/110 Kubernetes/Kubernetes - Deployments & Services.md",
     "100 study-notes/110 Kubernetes/Kubernetes - Monitoring.md",
     "100 study-notes/110 Kubernetes/Kubernetes - k8s setup using kind.md",
     "100 study-notes/110 Kubernetes/Kubernetes - Chain of events behind running a pod.md",
-    "100 study-notes/110 Kubernetes/Kubernetes - Deployments & Services.md",
     "100 study-notes/110 Kubernetes/Kubernetes - Namespaces.md",
-    "100 study-notes/110 Kubernetes/Kubernetes - Logical Components.md",
     "100 study-notes/110 Kubernetes/Kubernetes - Components of k8s & their function.md",
     "100 study-notes/110 Kubernetes/Kubernetes - Introduction.md",
     "100 study-notes/100 home.md"
