@@ -1,6 +1,6 @@
 ---
 created: 2022-08-11 19:08
-updated: 2022-08-28 11:13
+updated: 2022-08-29 18:04
 ---
 ---
 **Links**: [[../100 home|100 Home]]
@@ -11,3 +11,8 @@ updated: 2022-08-28 11:13
 [[Kubernetes - Logical Components]]
 [[Kubernetes - Namespaces]]
 [[Kubernetes - Deployments & Services]]
+
+[[Kubernetes - Chain of events behind running a pod]]
+[[Kubernetes - Services Deep Dive]]
+[[Kubernetes - Monitoring]]
+[[Kubernetes - k8s setup using kind]]

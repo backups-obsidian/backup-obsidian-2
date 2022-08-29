@@ -9,6 +9,18 @@
       "path": "100 study-notes/110 Kubernetes/110 Kubernetes Index.md"
     },
     {
+      "basename": "Kubernetes - Monitoring",
+      "path": "100 study-notes/110 Kubernetes/Kubernetes - Monitoring.md"
+    },
+    {
+      "basename": "Kubernetes - k8s setup using kind",
+      "path": "100 study-notes/110 Kubernetes/Kubernetes - k8s setup using kind.md"
+    },
+    {
+      "basename": "Kubernetes - Chain of events behind running a pod",
+      "path": "100 study-notes/110 Kubernetes/Kubernetes - Chain of events behind running a pod.md"
+    },
+    {
       "basename": "Kubernetes - Namespaces",
       "path": "100 study-notes/110 Kubernetes/Kubernetes - Namespaces.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "Git - Merging",
       "path": "100 study-notes/106 Git/Git - Merging.md"
-    },
-    {
-      "basename": "Git - Branching, Rebasing & Merging",
-      "path": "100 study-notes/106 Git/Git - Branching, Rebasing & Merging.md"
-    },
-    {
-      "basename": "Git - Tags",
-      "path": "100 study-notes/106 Git/Git - Tags.md"
-    },
-    {
-      "basename": "Git - Submodules",
-      "path": "100 study-notes/106 Git/Git - Submodules.md"
     }
   ],
   "omittedPaths": [],

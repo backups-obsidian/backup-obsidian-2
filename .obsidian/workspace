@@ -19,7 +19,7 @@
         }
       },
       {
-        "id": "270bc263ca9ae780",
+        "id": "48d1b17013614055",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -194,17 +194,17 @@
     "width": 278.0398254394531,
     "collapsed": true
   },
-  "active": "270bc263ca9ae780",
+  "active": "48d1b17013614055",
   "lastOpenFiles": [
     "100 study-notes/110 Kubernetes/110 Kubernetes Index.md",
+    "100 study-notes/110 Kubernetes/Kubernetes - Monitoring.md",
+    "100 study-notes/110 Kubernetes/Kubernetes - k8s setup using kind.md",
+    "100 study-notes/110 Kubernetes/Kubernetes - Chain of events behind running a pod.md",
+    "100 study-notes/110 Kubernetes/Kubernetes - Deployments & Services.md",
     "100 study-notes/110 Kubernetes/Kubernetes - Namespaces.md",
     "100 study-notes/110 Kubernetes/Kubernetes - Logical Components.md",
     "100 study-notes/110 Kubernetes/Kubernetes - Components of k8s & their function.md",
     "100 study-notes/110 Kubernetes/Kubernetes - Introduction.md",
-    "100 study-notes/100 home.md",
-    "100 study-notes/109 AWS Self Taught/AWS Self - EKS.md",
-    "100 study-notes/109 AWS Self Taught/109 AWS Self Taught Index.md",
-    "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
-    "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
+    "100 study-notes/100 home.md"
   ]
 }
