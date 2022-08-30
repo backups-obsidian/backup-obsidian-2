@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "Kubernetes - Services Deep Dive",
-      "path": "100 study-notes/110 Kubernetes/Kubernetes - Services Deep Dive.md"
-    },
-    {
       "basename": "110 Kubernetes Index",
       "path": "100 study-notes/110 Kubernetes/110 Kubernetes Index.md"
+    },
+    {
+      "basename": "Kubernetes - Difference between ingress & load balancer",
+      "path": "100 study-notes/110 Kubernetes/Kubernetes - Difference between ingress & load balancer.md"
+    },
+    {
+      "basename": "Kubernetes - Using configuration files",
+      "path": "100 study-notes/110 Kubernetes/Kubernetes - Using configuration files.md"
+    },
+    {
+      "basename": "Kubernetes - Services Deep Dive",
+      "path": "100 study-notes/110 Kubernetes/Kubernetes - Services Deep Dive.md"
     },
     {
       "basename": "Kubernetes - Logical Components",
@@ -191,14 +199,6 @@
     {
       "basename": "Git - Commands",
       "path": "100 study-notes/106 Git/Git - Commands.md"
-    },
-    {
-      "basename": "Git - Branches - Commands",
-      "path": "100 study-notes/106 Git/Git - Branches - Commands.md"
-    },
-    {
-      "basename": "104 Linux Index",
-      "path": "100 study-notes/104 Linux/104 Linux Index.md"
     }
   ],
   "omittedPaths": [],

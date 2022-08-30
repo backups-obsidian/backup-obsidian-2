@@ -1,6 +1,6 @@
 ---
 created: 2022-08-29 18:09
-updated: 2022-08-29 18:44
+updated: 2022-08-29 19:03
 ---
 ---
 **Links**: [[110 Kubernetes Index]]
@@ -79,4 +79,42 @@ There are **4** types of services: **NodePort**, **Cluster IP**, **Headless** an
 ## NodePort Service
 - NodePort makes the external traffic accessible through static ports on each worker node.
 	- ![[attachments/Pasted image 20220829184455.png]]
+- Instead of ingress browser request will directly come to the worker node at the port that the service specification defines.
+	- ![[attachments/Pasted image 20220829184657.png]]
+	- nodePort value can only be within the given range.
+- This means nodePort is accessible at `node_ip_address:nodePort` to the browser.
+
+> [!note]- If you observer carefully you will find that we define port and targetPort in the yaml file of the NodePort service. This is because a **ClusterIP service is automatically created when we create a NodePort service**.
+> ![[attachments/Pasted image 20220829184741.png]]
+> This why we have a ClusterIP for a NodePort service
+> 
+> ![[attachments/Pasted image 20220829185216.png]]	
+
+- The *ClusterIP service created by NodePort spans all the worker nodes*.
+	- So if you have 3 pod replicas on 3 different nodes then the service will be able to handle the request coming on any of the worker nodes and forward it to the pod replicas on other worker nodes.
+	- ![[attachments/Pasted image 20220829185327.png]]
+
+> [!caution]- When you create a NodePort service it **creates a hole in all the nodes**
+> - This means you can access the service using the IP address of any of the nodes.
+> - Let's suppose that you have a NodePort service named `mynodeportservice`.
+> - Clients inside the cluster can use the ClusterIP created while creating the NodePort service.
+> - External clients that are outside the cluster can hit that ClusterIP service that exists inside the cluster. Let's say that our 3 K8s host nodes have IPs `10.10.10.1`, `10.10.10.2`, `10.10.10.3`, the Kubernetes service is listening on port 80, and the Nodeport picked at random was 31852.
+> - A client that exists outside of the cluster could visit `10.10.10.1:31852`, `10.10.10.2:31852`, or `10.10.10.3:31852` (as **NodePort is listened for by every Kubernetes Host Node**) Kubeproxy will forward the request to `mynodeportservice's` port 80.
+> - Example video → [https://www.youtube.com/watch?v=MO8N79lQSWU&t=1h12m10s](https://www.youtube.com/watch?v=MO8N79lQSWU&t=1h12m10s)
+
+- If for some reason you are not able to access pods in node 1 by hitting the ip of node 2 while having a NodePort service then you should check your IP forwarding on your node machines. This should never happen while using a cloud provider but may happen when you are setting up your own k8s cluster.
+
+- *NodePort services are not secure* if the nodes are accessible to the internet since we are opening ports on the nodes. 
+
 ## LoadBalancer Service
+- ![[attachments/Pasted image 20220829185916.png]]
+- **Whenever we create a LoadBalancer service NodePort and ClusterIP service are automatically created**.
+	- ![[attachments/Pasted image 20220829185939.png]]
+- When we use a *LoadBalancer service it becomes the entry point*. **It then directs the traffic to nodePort on the worker node which then directs it to the ClusterIP service**.
+	- ![[attachments/Pasted image 20220829190057.png]]
+
+> [!important]- *LoadBalancer Service is an extension of NodePort Service*. *NodePort Service is an extension of ClusterIP Service*.
+
+> [!danger]- **NodePort service is never used in production**, it is generally used for some kind of testing. For production environments we will generally have ingress or LoadBalancer service
+
+- Good Read: [containers - What's the difference between ClusterIP, NodePort and LoadBalancer service types in Kubernetes? - Stack Overflow](https://stackoverflow.com/questions/41509439/whats-the-difference-between-clusterip-nodeport-and-loadbalancer-service-types)
