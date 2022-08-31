@@ -1,6 +1,6 @@
 ---
 created: 2022-08-11 19:08
-updated: 2022-08-29 21:02
+updated: 2022-08-30 23:32
 ---
 ---
 **Links**: [[../100 home|100 Home]]
@@ -18,3 +18,9 @@ updated: 2022-08-29 21:02
 [[Kubernetes - Difference between ingress & load balancer]]
 [[Kubernetes - Monitoring]]
 [[Kubernetes - k8s setup using kind]]
+
+[[Kubernetes - Commands]]
+
+### Playgrounds
+- [Kubernetes 1.25 | Playgrounds | Killercoda](https://killercoda.com/playgrounds/scenario/kubernetes)
+- [Play with Kubernetes (play-with-k8s.com)](https://labs.play-with-k8s.com/)

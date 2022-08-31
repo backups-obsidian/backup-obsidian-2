@@ -1,6 +1,6 @@
 ---
 created: 2022-04-16 16:39
-updated: 2022-08-01 19:44
+updated: 2022-08-30 23:45
 ---
 ---
 **Links**:  [[../000 home|000 Home]]
@@ -23,3 +23,4 @@ updated: 2022-08-01 19:44
 [[nmap]]
 [[Neovim]]
 [[Development Setup]]
+[[How to use jq]]
