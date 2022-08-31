@@ -1,6 +1,6 @@
 ---
 created: 2022-08-29 21:02
-updated: 2022-08-29 21:02
+updated: 2022-08-29 21:08
 ---
 ---
 **Links**: [[110 Kubernetes Index]]

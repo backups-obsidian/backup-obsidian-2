@@ -5,6 +5,18 @@
       "path": "100 study-notes/110 Kubernetes/110 Kubernetes Index.md"
     },
     {
+      "basename": "Kubernetes - Commands",
+      "path": "100 study-notes/110 Kubernetes/Kubernetes - Commands.md"
+    },
+    {
+      "basename": "How to use jq",
+      "path": "300 short-notes/How to use jq.md"
+    },
+    {
+      "basename": "300 home",
+      "path": "300 short-notes/300 home.md"
+    },
+    {
       "basename": "Kubernetes - Difference between ingress & load balancer",
       "path": "100 study-notes/110 Kubernetes/Kubernetes - Difference between ingress & load balancer.md"
     },
@@ -67,10 +79,6 @@
     {
       "basename": "101 AWS SAA Index",
       "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
-    },
-    {
-      "basename": "300 home",
-      "path": "300 short-notes/300 home.md"
     },
     {
       "basename": "Neovim",
@@ -191,14 +199,6 @@
     {
       "basename": "Git - gitignore",
       "path": "100 study-notes/106 Git/Git - gitignore.md"
-    },
-    {
-      "basename": "Git - Remote Repository",
-      "path": "100 study-notes/106 Git/Git - Remote Repository.md"
-    },
-    {
-      "basename": "Git - Commands",
-      "path": "100 study-notes/106 Git/Git - Commands.md"
     }
   ],
   "omittedPaths": [],

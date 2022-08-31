@@ -11,7 +11,7 @@
           "type": "markdown",
           "state": {
             "file": "100 study-notes/110 Kubernetes/110 Kubernetes Index.md",
-            "mode": "source",
+            "mode": "preview",
             "backlinks": false,
             "source": true
           },
@@ -183,15 +183,15 @@
   },
   "active": "d2b192ab78f94e8a",
   "lastOpenFiles": [
-    "100 study-notes/110 Kubernetes/Kubernetes - Difference between ingress & load balancer.md",
+    "100 study-notes/110 Kubernetes/Kubernetes - Commands.md",
     "100 study-notes/110 Kubernetes/110 Kubernetes Index.md",
+    "300 short-notes/How to use jq.md",
+    "300 short-notes/300 home.md",
+    "100 study-notes/110 Kubernetes/Kubernetes - Difference between ingress & load balancer.md",
     "100 study-notes/110 Kubernetes/Kubernetes - Using configuration files.md",
     "100 study-notes/110 Kubernetes/Kubernetes - Services Deep Dive.md",
     "100 study-notes/110 Kubernetes/Kubernetes - Logical Components.md",
     "100 study-notes/110 Kubernetes/Kubernetes - Deployments & Services.md",
-    "100 study-notes/110 Kubernetes/Kubernetes - Monitoring.md",
-    "100 study-notes/110 Kubernetes/Kubernetes - k8s setup using kind.md",
-    "100 study-notes/110 Kubernetes/Kubernetes - Chain of events behind running a pod.md",
-    "100 study-notes/110 Kubernetes/Kubernetes - Namespaces.md"
+    "100 study-notes/110 Kubernetes/Kubernetes - Monitoring.md"
   ]
 }
