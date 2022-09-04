@@ -1,6 +1,6 @@
 ---
 created: 2022-08-11 19:08
-updated: 2022-08-30 23:32
+updated: 2022-09-03 18:53
 ---
 ---
 **Links**: [[../100 home|100 Home]]
@@ -12,6 +12,7 @@ updated: 2022-08-30 23:32
 [[Kubernetes - Namespaces]]
 [[Kubernetes - Deployments & Services]]
 [[Kubernetes - Using configuration files]]
+[[Kubernetes - StatefulSet]]
 
 [[Kubernetes - Chain of events behind running a pod]]
 [[Kubernetes - Services Deep Dive]]

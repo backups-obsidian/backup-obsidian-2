@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "Kubernetes - StatefulSet",
+      "path": "100 study-notes/110 Kubernetes/Kubernetes - StatefulSet.md"
+    },
+    {
       "basename": "110 Kubernetes Index",
       "path": "100 study-notes/110 Kubernetes/110 Kubernetes Index.md"
+    },
+    {
+      "basename": "YAML",
+      "path": "300 short-notes/YAML.md"
     },
     {
       "basename": "Kubernetes - Commands",
@@ -191,14 +199,6 @@
     {
       "basename": "Design Patterns - UML Diagrams",
       "path": "100 study-notes/107 Design Patterns/Design Patterns - UML Diagrams.md"
-    },
-    {
-      "basename": "106 Git Index",
-      "path": "100 study-notes/106 Git/106 Git Index.md"
-    },
-    {
-      "basename": "Git - gitignore",
-      "path": "100 study-notes/106 Git/Git - gitignore.md"
     }
   ],
   "omittedPaths": [],
