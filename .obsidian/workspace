@@ -116,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/110 Kubernetes/Kubernetes - Volumes.md",
+                "file": "100 study-notes/110 Kubernetes/Kubernetes - StatefulSet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/110 Kubernetes/Kubernetes - Volumes.md"
+                "file": "100 study-notes/110 Kubernetes/Kubernetes - StatefulSet.md"
               }
             }
           },
@@ -162,7 +162,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/110 Kubernetes/Kubernetes - Volumes.md",
+                "file": "100 study-notes/110 Kubernetes/Kubernetes - StatefulSet.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -207,11 +207,11 @@
     "width": 278.0398254394531,
     "collapsed": true
   },
-  "active": "7a4113f48d7acd95",
+  "active": "4dd20a4a3c084ad0",
   "lastOpenFiles": [
+    "100 study-notes/110 Kubernetes/Kubernetes - Volumes.md",
     "100 study-notes/110 Kubernetes/Kubernetes - StatefulSet.md",
     "100 study-notes/110 Kubernetes/110 Kubernetes Index.md",
-    "100 study-notes/110 Kubernetes/Kubernetes - Volumes.md",
     "300 short-notes/YAML.md",
     "100 study-notes/110 Kubernetes/Kubernetes - Commands.md",
     "300 short-notes/How to use jq.md",

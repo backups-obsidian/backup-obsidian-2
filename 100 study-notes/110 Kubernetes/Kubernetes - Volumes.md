@@ -1,24 +1,11 @@
 ---
 created: 2022-08-29 18:09
-updated: 2022-09-04 22:41
+updated: 2022-09-04 23:30
 ---
 ---
 **Links**: [[110 Kubernetes Index]]
 
 ---
-## Extra
-- Data is lost if the node dies
-	- ![[attachments/Pasted image 20220903225725.png]]
-- We are using external storage 
-	- ![[attachments/Pasted image 20220903225957.png]]
-	- We no longer rely on the container of the host
-
-> [!note]- Deployments share persisted volumes between pods whereas StatefulSets have their own persisted volume between pods.
-> ![[attachments/Pasted image 20220904101127.png]]
-
-- In case when pods are deleted, pods are deleted but their persistent volume is kept.
-	- ![[attachments/Pasted image 20220904101249.png]]
-
 ## Volumes
 - We persist data in k8s using volumes.
 - There are 3 main components of k8s storage:
@@ -32,7 +19,7 @@ updated: 2022-09-04 22:41
 1. First of all we need a *storage that doesn't depend on the pod's lifecycle*. 
 	- So that if the pod dies and a new pod is created it can read the existing data.
 2. But we don't know on which node the new pod will restart so *our storage must also be available on all nodes*.
-		- ![[attachments/Pasted image 20220904114203.png]]
+	- ![[attachments/Pasted image 20220904114203.png]]
 3. *Storage needs to survive even if the whole cluster crashes*.
 
 - These are the main requirements that our database storage needs to fulfil.
@@ -74,10 +61,13 @@ updated: 2022-09-04 22:41
 > They are accessible to the whole cluster.
 > ![[attachments/Pasted image 20220904120707.png]]
 
-#### Local Volumes
 - Local volumes violates 2nd & 3rd requirement of [[Kubernetes - Volumes#Storage Requirements|Storage Requirements]] i.e. it is *tied only to the a particular node*.
+	- Data is lost if the node dies
+		- ![[attachments/Pasted image 20220903225725.png]]
 
-#### Remote Volumes
+- Using remote storage for PV
+	- ![[attachments/Pasted image 20220903225957.png]]
+	- We no longer rely on the container of the host
 
 #### k8s admin vs user
 - k8s admin sets up and maintains the cluster.
@@ -110,13 +100,11 @@ updated: 2022-09-04 22:41
 	- ![[attachments/Pasted image 20220904223017.png]]
 - If a pod has more than one container we can choose the containers to which we want to mount the volume. 
 
-#### Why so many abstractions
+### Why so many abstractions
 ![[attachments/Pasted image 20220904223257.png]]
-- As a developer we don't need to be concerned where the actual storage is.
-	- We don't have to go through the hassle of setting up the storage.
+- As a developer we **need not to be concerned where the actual storage is**.
+	- We *don't have to go through the hassle of setting up the storage*.
 	- We make a claim for storage using PVC assuming that the cluster has storage.
-
-### Storage Class
 
 ### Special Volume Types
 - **ConfigMap** & **Secret** are special volume types.
@@ -124,5 +112,26 @@ updated: 2022-09-04 22:41
 - We mount ConfigMap & Secret in the same way we mount volumes.
 	- ![[attachments/Pasted image 20220904224237.png]]
 
+> [!note]- We can use multiple volumes of different types simultaneously
+> For example if we have an elastic search app then we can have a separate volume for secret, ConfigMap and another one for database.
+> ![[attachments/Pasted image 20220904224723.png]]
+> ![[attachments/Pasted image 20220904225014.png]]
 
+### Storage Class
+- General process of using storage in k8s
+	- ![[attachments/Pasted image 20220904225158.png]]
+- Now when we are dealing with a lot of applications then depending on the needs a lot of PV have to be created by the admins before deploying the application.
+	- This can be time consuming, tedious and error prone
 
+- To make the process efficient we have storage class.
+	- **Storage class provisions persistent volume dynamically whenever PVC claims it**. 
+- We also create storage class using YAML configuration.
+- Storage class creates persistent volume dynamically in the background.
+- We define the storage backend using the provisioner attribute. In addition to this we also configure the parameters of the storage backend.
+	- ![[attachments/Pasted image 20220904225917.png]]
+
+- Using storage class with PVC
+	- ![[attachments/Pasted image 20220904230017.png]]
+
+> [!note]+ How do pods use storage from storage class
+> ![[attachments/Pasted image 20220904230142.png]]

@@ -1,6 +1,6 @@
 ---
 created: 2022-08-29 18:09
-updated: 2022-09-03 22:56
+updated: 2022-09-04 23:31
 ---
 ---
 **Links**: [[110 Kubernetes Index]]
@@ -55,6 +55,9 @@ updated: 2022-09-03 22:56
 - When a pod dies & gets replaced the persistent pod identifiers makes sure that the storage volume gets reattached to the replacement pod.
 	- Since the storage has the state of the pod.
 	- ![[attachments/Pasted image 20220903193026.png]]
+
+- In case when pods are deleted, pods are deleted but their persistent volume is kept.
+	- ![[attachments/Pasted image 20220904101249.png]]
 
 > [!note]- For the reattachment to work it is important to use remote storage.
 > - Since if the pod gets rescheduled from one node to another then the previous storage must be available on other nodes as well.
