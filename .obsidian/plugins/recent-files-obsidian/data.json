@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Kubernetes - Volumes",
+      "path": "100 study-notes/110 Kubernetes/Kubernetes - Volumes.md"
+    },
+    {
       "basename": "Kubernetes - StatefulSet",
       "path": "100 study-notes/110 Kubernetes/Kubernetes - StatefulSet.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Design Patterns - Pillars of OOP",
       "path": "100 study-notes/107 Design Patterns/Design Patterns - Pillars of OOP.md"
-    },
-    {
-      "basename": "Design Patterns - UML Diagrams",
-      "path": "100 study-notes/107 Design Patterns/Design Patterns - UML Diagrams.md"
     }
   ],
   "omittedPaths": [],
