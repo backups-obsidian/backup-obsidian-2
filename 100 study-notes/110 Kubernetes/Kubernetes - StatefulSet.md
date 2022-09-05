@@ -1,6 +1,6 @@
 ---
 created: 2022-08-29 18:09
-updated: 2022-09-03 19:54
+updated: 2022-09-03 22:56
 ---
 ---
 **Links**: [[110 Kubernetes Index]]
@@ -66,3 +66,10 @@ updated: 2022-09-03 19:54
 	- ![[attachments/Pasted image 20220903195308.png]]
 	- LoadBalancer Service
 	- Individual Service Name
+		- ![[attachments/Pasted image 20220903222425.png]]
+
+> [!note]- Having a fixed endpoint & pod name ensures that pods have sticky identity to retain state & retain role.
+> ![[attachments/Pasted image 20220903222521.png]]
+> ![[attachments/Pasted image 20220903222706.png]]
+
+> [!caution]- Stateful applications not perfect for containerised environments

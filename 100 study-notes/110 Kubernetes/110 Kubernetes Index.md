@@ -1,19 +1,30 @@
 ---
 created: 2022-08-11 19:08
-updated: 2022-09-03 18:53
+updated: 2022-09-04 11:39
 ---
 ---
 **Links**: [[../100 home|100 Home]]
 
 ---
+## Kubernetes
+### Introduction
 [[Kubernetes - Introduction]]
 [[Kubernetes - Components of k8s & their function]]
 [[Kubernetes - Logical Components]]
 [[Kubernetes - Namespaces]]
 [[Kubernetes - Deployments & Services]]
 [[Kubernetes - Using configuration files]]
+
+### StatefulSet
+[[Kubernetes - Volumes]]
 [[Kubernetes - StatefulSet]]
 
+#### References
+- [Kubernetes Volumes explained | Persistent Volume, Persistent Volume Claim & Storage Class - YouTube](https://www.youtube.com/watch?v=0swOh5C3OVM)
+- [Kubernetes StatefulSet simply explained | Deployment vs StatefulSet - YouTube](https://www.youtube.com/watch?v=pPQKAR1pA9U)
+- [Understanding StatefulSets in Kubernetes - YouTube](https://www.youtube.com/watch?v=zj6r_EEhv6s)
+
+### Extra
 [[Kubernetes - Chain of events behind running a pod]]
 [[Kubernetes - Services Deep Dive]]
 [[Kubernetes - Difference between ingress & load balancer]]
