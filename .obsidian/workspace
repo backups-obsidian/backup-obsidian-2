@@ -19,13 +19,13 @@
         }
       },
       {
-        "id": "7a4113f48d7acd95",
+        "id": "806acebe539ae64d",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
             "file": "100 study-notes/110 Kubernetes/Kubernetes - Volumes.md",
-            "mode": "source",
+            "mode": "preview",
             "backlinks": false,
             "source": true
           }
@@ -116,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/110 Kubernetes/Kubernetes - StatefulSet.md",
+                "file": "100 study-notes/110 Kubernetes/Kubernetes - Volumes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/110 Kubernetes/Kubernetes - StatefulSet.md"
+                "file": "100 study-notes/110 Kubernetes/Kubernetes - Volumes.md"
               }
             }
           },
@@ -162,7 +162,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/110 Kubernetes/Kubernetes - StatefulSet.md",
+                "file": "100 study-notes/110 Kubernetes/Kubernetes - Volumes.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -207,17 +207,17 @@
     "width": 278.0398254394531,
     "collapsed": true
   },
-  "active": "4dd20a4a3c084ad0",
+  "active": "806acebe539ae64d",
   "lastOpenFiles": [
+    "100 study-notes/110 Kubernetes/Kubernetes - Commands.md",
     "100 study-notes/110 Kubernetes/Kubernetes - Volumes.md",
     "100 study-notes/110 Kubernetes/Kubernetes - StatefulSet.md",
+    "100 study-notes/110 Kubernetes/Kubernetes - What are containers?.md",
     "100 study-notes/110 Kubernetes/110 Kubernetes Index.md",
+    "100 study-notes/110 Kubernetes/Kubernetes - Services Deep Dive.md",
     "300 short-notes/YAML.md",
-    "100 study-notes/110 Kubernetes/Kubernetes - Commands.md",
     "300 short-notes/How to use jq.md",
     "300 short-notes/300 home.md",
-    "100 study-notes/110 Kubernetes/Kubernetes - Difference between ingress & load balancer.md",
-    "100 study-notes/110 Kubernetes/Kubernetes - Using configuration files.md",
-    "100 study-notes/110 Kubernetes/Kubernetes - Services Deep Dive.md"
+    "100 study-notes/110 Kubernetes/Kubernetes - Difference between ingress & load balancer.md"
   ]
 }

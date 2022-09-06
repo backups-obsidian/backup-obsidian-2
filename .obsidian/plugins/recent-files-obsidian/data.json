@@ -1,24 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "Kubernetes - Volumes",
+      "path": "100 study-notes/110 Kubernetes/Kubernetes - Volumes.md"
+    },
+    {
+      "basename": "Kubernetes - Commands",
+      "path": "100 study-notes/110 Kubernetes/Kubernetes - Commands.md"
+    },
+    {
       "basename": "Kubernetes - StatefulSet",
       "path": "100 study-notes/110 Kubernetes/Kubernetes - StatefulSet.md"
     },
     {
-      "basename": "Kubernetes - Volumes",
-      "path": "100 study-notes/110 Kubernetes/Kubernetes - Volumes.md"
+      "basename": "Kubernetes - What are containers?",
+      "path": "100 study-notes/110 Kubernetes/Kubernetes - What are containers?.md"
     },
     {
       "basename": "110 Kubernetes Index",
       "path": "100 study-notes/110 Kubernetes/110 Kubernetes Index.md"
     },
     {
-      "basename": "YAML",
-      "path": "300 short-notes/YAML.md"
+      "basename": "Kubernetes - Services Deep Dive",
+      "path": "100 study-notes/110 Kubernetes/Kubernetes - Services Deep Dive.md"
     },
     {
-      "basename": "Kubernetes - Commands",
-      "path": "100 study-notes/110 Kubernetes/Kubernetes - Commands.md"
+      "basename": "YAML",
+      "path": "300 short-notes/YAML.md"
     },
     {
       "basename": "How to use jq",
@@ -35,10 +43,6 @@
     {
       "basename": "Kubernetes - Using configuration files",
       "path": "100 study-notes/110 Kubernetes/Kubernetes - Using configuration files.md"
-    },
-    {
-      "basename": "Kubernetes - Services Deep Dive",
-      "path": "100 study-notes/110 Kubernetes/Kubernetes - Services Deep Dive.md"
     },
     {
       "basename": "Kubernetes - Logical Components",
@@ -195,10 +199,6 @@
     {
       "basename": "Useful Chrome Extensions",
       "path": "200 general-notes/Useful Chrome Extensions.md"
-    },
-    {
-      "basename": "Design Patterns - Pillars of OOP",
-      "path": "100 study-notes/107 Design Patterns/Design Patterns - Pillars of OOP.md"
     }
   ],
   "omittedPaths": [],
