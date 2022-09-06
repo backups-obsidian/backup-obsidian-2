@@ -1,6 +1,6 @@
 ---
 created: 2022-08-30 23:33
-updated: 2022-08-31 00:06
+updated: 2022-09-05 22:23
 ---
 ---
 **Links**: [[110 Kubernetes Index]]
@@ -22,3 +22,8 @@ kubectl get nodes -o json | jq ".items[] | {name:.metadata.name} + .status.capac
 ### Describing things
 - `kubectl describe type/name`
 - `kubectl explain type`: to view the definition of a resource type
+
+### Running commands
+- `kubectl exec busybox nslookup kubernetes.default`: run commands in containers
+- `kubectl exec -it busybox /bin/sh`: getting into the pods
+

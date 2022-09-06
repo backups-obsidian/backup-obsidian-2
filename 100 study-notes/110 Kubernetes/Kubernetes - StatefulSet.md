@@ -1,6 +1,6 @@
 ---
 created: 2022-08-29 18:09
-updated: 2022-09-04 23:31
+updated: 2022-09-05 00:11
 ---
 ---
 **Links**: [[110 Kubernetes Index]]
@@ -70,6 +70,8 @@ updated: 2022-09-04 23:31
 	- LoadBalancer Service
 	- Individual Service Name
 		- ![[attachments/Pasted image 20220903222425.png]]
+
+- We need to have a [[Kubernetes - Services Deep Dive#Headless Services|headless service]] with a StatefulSet for individual service name.
 
 > [!note]- Having a fixed endpoint & pod name ensures that pods have sticky identity to retain state & retain role.
 > ![[attachments/Pasted image 20220903222521.png]]

@@ -1,6 +1,6 @@
 ---
 created: 2022-08-29 18:09
-updated: 2022-09-04 23:30
+updated: 2022-09-05 23:52
 ---
 ---
 **Links**: [[110 Kubernetes Index]]
@@ -61,10 +61,20 @@ updated: 2022-09-04 23:30
 > They are accessible to the whole cluster.
 > ![[attachments/Pasted image 20220904120707.png]]
 
+#### Local Volumes
 - Local volumes violates 2nd & 3rd requirement of [[Kubernetes - Volumes#Storage Requirements|Storage Requirements]] i.e. it is *tied only to the a particular node*.
 	- Data is lost if the node dies
 		- ![[attachments/Pasted image 20220903225725.png]]
 
+- There are two types of local volumes. 
+	- One is `emptydir` which is ephemeral and it *attached to the pod’s lifetime*. 
+		- If the pod dies then the data is also lost. 
+	- Other is the `hostpath`
+		- In this case the volume is stored in the worker node and then mounted onto the pod. 
+		- So *if the pod dies and a new pod is created the data will persist*. 
+		- `hostpath` is only good for single worker node clusters since *data is available only on one specific node*.
+
+#### Remote Volumes
 - Using remote storage for PV
 	- ![[attachments/Pasted image 20220903225957.png]]
 	- We no longer rely on the container of the host
@@ -117,9 +127,23 @@ updated: 2022-09-04 23:30
 > ![[attachments/Pasted image 20220904224723.png]]
 > ![[attachments/Pasted image 20220904225014.png]]
 
+> [!important]- We first mount the all volumes to the pod and then mount the required volumes to containers.
+
+- Now you would be thinking what is the need of mapping ConfigMap & Secret to volumes since we are just using key value pairs from them. 
+- Some times applications need configuration files to set them up. This is where mounting ConfigMap & Secret as volume type is used.
+
+> [!caution]+ Different ways of using ConfigMap & Secret
+> ![[attachments/Pasted image 20220905142918.png]]
+
+- **ConfigMap & Secret are Local Volume Types**.
+
+- Demo:
+	- [Kubernetes ConfigMap and Secret as Kubernetes Volumes | Demo - YouTube](https://www.youtube.com/watch?v=FAnQTgr04mU)
+
 ### Storage Class
 - General process of using storage in k8s
 	- ![[attachments/Pasted image 20220904225158.png]]
+- **PV should be pre provisioned** to be used in applications.
 - Now when we are dealing with a lot of applications then depending on the needs a lot of PV have to be created by the admins before deploying the application.
 	- This can be time consuming, tedious and error prone
 
@@ -133,5 +157,14 @@ updated: 2022-09-04 23:30
 - Using storage class with PVC
 	- ![[attachments/Pasted image 20220904230017.png]]
 
+- PVs are created and deleted automatically when we create or delete PVC while using storage class.
+
 > [!note]+ How do pods use storage from storage class
 > ![[attachments/Pasted image 20220904230142.png]]
+
+> [!tip]- Volume connects to persistent volume claim which then connects to either PV (static) or Storage class (dynamic)
+> ![[attachments/Pasted image 20220905235237.png]]
+> The thing that determines the routing is the `StorageClassName`. If we provide one then we use the Storage class
+> ![[attachments/Pasted image 20220905235330.png]]
+> If we don't provide one then we get PV 
+> ![[attachments/Pasted image 20220905235352.png]]
