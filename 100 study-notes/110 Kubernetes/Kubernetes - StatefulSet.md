@@ -1,6 +1,6 @@
 ---
 created: 2022-08-29 18:09
-updated: 2022-09-05 00:11
+updated: 2022-09-06 00:17
 ---
 ---
 **Links**: [[110 Kubernetes Index]]
@@ -78,3 +78,9 @@ updated: 2022-09-05 00:11
 > ![[attachments/Pasted image 20220903222706.png]]
 
 > [!caution]- Stateful applications not perfect for containerised environments
+
+## References
+- [Kubernetes StatefulSet simply explained | Deployment vs StatefulSet - YouTube](https://www.youtube.com/watch?v=pPQKAR1pA9U)
+- [Understanding StatefulSets in Kubernetes - YouTube](https://www.youtube.com/watch?v=zj6r_EEhv6s)
+- Demos:
+	- [[ Kube 21 ] How to use Statefulsets in Kubernetes Cluster - YouTube](https://www.youtube.com/watch?v=r_ZEpPTCcPE)

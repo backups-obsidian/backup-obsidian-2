@@ -1,12 +1,44 @@
 {
   "recentFiles": [
     {
-      "basename": "Kubernetes - Volumes",
-      "path": "100 study-notes/110 Kubernetes/Kubernetes - Volumes.md"
+      "basename": "Kubernetes - Difference between ingress & load balancer",
+      "path": "100 study-notes/110 Kubernetes/Kubernetes - Difference between ingress & load balancer.md"
+    },
+    {
+      "basename": "110 Kubernetes Index",
+      "path": "100 study-notes/110 Kubernetes/110 Kubernetes Index.md"
+    },
+    {
+      "basename": "Kubernetes - Using configuration files",
+      "path": "100 study-notes/110 Kubernetes/Kubernetes - Using configuration files.md"
     },
     {
       "basename": "Kubernetes - Commands",
       "path": "100 study-notes/110 Kubernetes/Kubernetes - Commands.md"
+    },
+    {
+      "basename": "Kubernetes - Deployments & Services",
+      "path": "100 study-notes/110 Kubernetes/Kubernetes - Deployments & Services.md"
+    },
+    {
+      "basename": "Kubernetes - Networking",
+      "path": "100 study-notes/110 Kubernetes/Kubernetes - Networking.md"
+    },
+    {
+      "basename": "109 AWS Self Taught Index",
+      "path": "100 study-notes/109 AWS Self Taught/109 AWS Self Taught Index.md"
+    },
+    {
+      "basename": "AWS Self - ECR",
+      "path": "100 study-notes/109 AWS Self Taught/AWS Self - ECR.md"
+    },
+    {
+      "basename": "Kubernetes - Services Deep Dive",
+      "path": "100 study-notes/110 Kubernetes/Kubernetes - Services Deep Dive.md"
+    },
+    {
+      "basename": "Kubernetes - Volumes",
+      "path": "100 study-notes/110 Kubernetes/Kubernetes - Volumes.md"
     },
     {
       "basename": "Kubernetes - StatefulSet",
@@ -15,14 +47,6 @@
     {
       "basename": "Kubernetes - What are containers?",
       "path": "100 study-notes/110 Kubernetes/Kubernetes - What are containers?.md"
-    },
-    {
-      "basename": "110 Kubernetes Index",
-      "path": "100 study-notes/110 Kubernetes/110 Kubernetes Index.md"
-    },
-    {
-      "basename": "Kubernetes - Services Deep Dive",
-      "path": "100 study-notes/110 Kubernetes/Kubernetes - Services Deep Dive.md"
     },
     {
       "basename": "YAML",
@@ -37,20 +61,8 @@
       "path": "300 short-notes/300 home.md"
     },
     {
-      "basename": "Kubernetes - Difference between ingress & load balancer",
-      "path": "100 study-notes/110 Kubernetes/Kubernetes - Difference between ingress & load balancer.md"
-    },
-    {
-      "basename": "Kubernetes - Using configuration files",
-      "path": "100 study-notes/110 Kubernetes/Kubernetes - Using configuration files.md"
-    },
-    {
       "basename": "Kubernetes - Logical Components",
       "path": "100 study-notes/110 Kubernetes/Kubernetes - Logical Components.md"
-    },
-    {
-      "basename": "Kubernetes - Deployments & Services",
-      "path": "100 study-notes/110 Kubernetes/Kubernetes - Deployments & Services.md"
     },
     {
       "basename": "Kubernetes - Monitoring",
@@ -83,10 +95,6 @@
     {
       "basename": "AWS Self - EKS",
       "path": "100 study-notes/109 AWS Self Taught/AWS Self - EKS.md"
-    },
-    {
-      "basename": "109 AWS Self Taught Index",
-      "path": "100 study-notes/109 AWS Self Taught/109 AWS Self Taught Index.md"
     },
     {
       "basename": "102 AWS DVA Index",
@@ -191,14 +199,6 @@
     {
       "basename": "Go - Structs",
       "path": "100 study-notes/103 Golang/Go - Structs.md"
-    },
-    {
-      "basename": "Go - Slices",
-      "path": "100 study-notes/103 Golang/Go - Slices.md"
-    },
-    {
-      "basename": "Useful Chrome Extensions",
-      "path": "200 general-notes/Useful Chrome Extensions.md"
     }
   ],
   "omittedPaths": [],

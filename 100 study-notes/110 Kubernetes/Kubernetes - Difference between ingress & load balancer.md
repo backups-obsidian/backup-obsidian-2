@@ -1,6 +1,6 @@
 ---
 created: 2022-08-29 21:02
-updated: 2022-08-29 21:08
+updated: 2022-09-09 18:39
 ---
 ---
 **Links**: [[110 Kubernetes Index]]
@@ -15,7 +15,7 @@ updated: 2022-08-29 21:08
 - The big downside is that each service you expose with a LoadBalancer will get its own IP address, and you have to pay for a LoadBalancer per exposed service, which can get expensive!
 
 ## Ingress
-- Ingress is *NOT a type of service*. 
+- Ingress is *NOT a type of service* it is of `kind: Ingress`. 
 - Instead, it sits in front of multiple services and act as a "**smart router**" or *entrypoint into your cluster*.
 - You can do a lot of different things with an Ingress, and there are many types of Ingress controllers that have different capabilities.
 - The default GKE (Google Kubernetes Engine) ingress controller will spin up a HTTP(S) Load Balancer for you. 
@@ -32,4 +32,7 @@ updated: 2022-08-29 21:08
 - **You only pay for one load balancer** if you are using the native GCP integration, and because Ingress is “smart” you can get a lot of features out of the box (like SSL, Auth, Routing, etc)
 
 ## References
+- [Kubernetes Ingress Explained Completely For Beginners - Updated - YouTube](https://www.youtube.com/watch?v=GhZi4DxaxxE)
+- [Kubernetes Ingress in 5 mins - YouTube](https://www.youtube.com/watch?v=NPFbYpb0I7w)
+	- Good explanation of NodePort
 - [Kubernetes NodePort vs LoadBalancer vs Ingress? When should I use what? | by Sandeep Dinesh | Google Cloud - Community | Medium](https://medium.com/google-cloud/kubernetes-nodeport-vs-loadbalancer-vs-ingress-when-should-i-use-what-922f010849e0)
