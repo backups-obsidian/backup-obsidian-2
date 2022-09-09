@@ -1,6 +1,6 @@
 ---
 created: 2022-08-29 18:09
-updated: 2022-09-05 23:52
+updated: 2022-09-06 00:17
 ---
 ---
 **Links**: [[110 Kubernetes Index]]
@@ -157,7 +157,8 @@ updated: 2022-09-05 23:52
 - Using storage class with PVC
 	- ![[attachments/Pasted image 20220904230017.png]]
 
-- PVs are created and deleted automatically when we create or delete PVC while using storage class.
+- When PVCs are deleted depending on the policy PVs are either released, retained or recycled.
+	- A [[Kubernetes - Volumes#Storage Class|Storage Class]] has a default behaviour to delete the volume.
 
 > [!note]+ How do pods use storage from storage class
 > ![[attachments/Pasted image 20220904230142.png]]
@@ -168,3 +169,20 @@ updated: 2022-09-05 23:52
 > ![[attachments/Pasted image 20220905235330.png]]
 > If we don't provide one then we get PV 
 > ![[attachments/Pasted image 20220905235352.png]]
+
+- Once we get a matching PV or SC we form a **bind**.
+- **PVC binds are mutually exclusive** which means we cannot bind 2 PVC to the same PV.
+	- ![[attachments/Pasted image 20220906000601.png]]
+	- But we can use the same PVC in 2 different pods.
+		- ![[attachments/Pasted image 20220906000503.png]]
+
+> [!note]- When none of the static PVs the administrator created matches a user's PVC, the cluster may try to dynamically provision a volume specially for the PVC. This provisioning is based on StorageClasses.
+> - Suppose you have a PVC for 100Gi but you only have PVs of 50Gi and 200Gi. 
+> - If StorageClass is setup then you k8s will give us a 100Gi dynamically provisioned storage using storage class.
+> - Now if you don't have StorageClass setup then k8s might give you 200Gi depending on the settings.
+
+## References
+- [Kubernetes Volumes explained | Persistent Volume, Persistent Volume Claim & Storage Class - YouTube](https://www.youtube.com/watch?v=0swOh5C3OVM)
+- [Kubernetes Volumes 1: emptydir, NFS, YAML, volumes, and intro to Persistent Volume Claims - YouTube](https://www.youtube.com/watch?v=VB7vI9OT-WQ&list=PLqnWYrfCqvm4IG1SAj_6lqpwkKdHrRzRF&index=6)
+- [(2) Kubernetes Volumes 2: Understanding Persistent Volume (PV) and Persistent Volume Claim (PVC) - YouTube](https://www.youtube.com/watch?v=OulmwTYTauI&list=PLqnWYrfCqvm4IG1SAj_6lqpwkKdHrRzRF&index=7)
+- [Kubernetes Volumes 3: How things connect - YouTube](https://www.youtube.com/watch?v=X6Vkz-ny574&list=PLqnWYrfCqvm4IG1SAj_6lqpwkKdHrRzRF&index=7)
