@@ -1,6 +1,6 @@
 ---
 created: 2022-08-11 19:08
-updated: 2022-09-06 00:17
+updated: 2022-09-09 19:08
 ---
 ---
 **Links**: [[../100 home|100 Home]]
@@ -19,7 +19,7 @@ updated: 2022-09-06 00:17
 
 [[Kubernetes - Chain of events behind running a pod]]
 [[Kubernetes - Services Deep Dive]]
-[[Kubernetes - Difference between ingress & load balancer]]
+[[Kubernetes - Ingress]]
 [[Kubernetes - Monitoring]]
 [[Kubernetes - Networking]]
 

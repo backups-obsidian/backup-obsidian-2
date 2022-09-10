@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "Kubernetes - Difference between ingress & load balancer",
-      "path": "100 study-notes/110 Kubernetes/Kubernetes - Difference between ingress & load balancer.md"
-    },
-    {
       "basename": "110 Kubernetes Index",
       "path": "100 study-notes/110 Kubernetes/110 Kubernetes Index.md"
+    },
+    {
+      "basename": "Kubernetes - Ingress",
+      "path": "100 study-notes/110 Kubernetes/Kubernetes - Ingress.md"
     },
     {
       "basename": "Kubernetes - Using configuration files",
