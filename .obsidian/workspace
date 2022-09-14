@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "100 study-notes/110 Kubernetes/110 Kubernetes Index.md",
-            "mode": "source",
+            "mode": "preview",
             "backlinks": false,
             "source": true
           }
@@ -207,10 +207,10 @@
   },
   "active": "d2b192ab78f94e8a",
   "lastOpenFiles": [
-    "100 study-notes/110 Kubernetes/Kubernetes - What are containers.md",
-    "100 study-notes/110 Kubernetes/110 Kubernetes Index.md",
     "100 study-notes/111 KodeCloud/111 KodeCloud Index.md",
     "100 study-notes/111 KodeCloud/KodeCloud - Services.md",
+    "100 study-notes/110 Kubernetes/110 Kubernetes Index.md",
+    "100 study-notes/110 Kubernetes/Kubernetes - What are containers.md",
     "100 study-notes/111 KodeCloud/KodeCloud - Package Management using yum.md",
     "100 study-notes/111 KodeCloud/KodeCloud - WebServers.md",
     "100 study-notes/100 home.md",

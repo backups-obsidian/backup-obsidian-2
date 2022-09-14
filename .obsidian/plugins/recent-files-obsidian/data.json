@@ -5,16 +5,16 @@
       "path": "100 study-notes/110 Kubernetes/110 Kubernetes Index.md"
     },
     {
-      "basename": "Kubernetes - What are containers",
-      "path": "100 study-notes/110 Kubernetes/Kubernetes - What are containers.md"
-    },
-    {
       "basename": "111 KodeCloud Index",
       "path": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md"
     },
     {
       "basename": "KodeCloud - Services",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - Services.md"
+    },
+    {
+      "basename": "Kubernetes - What are containers",
+      "path": "100 study-notes/110 Kubernetes/Kubernetes - What are containers.md"
     },
     {
       "basename": "KodeCloud - Package Management using yum",
