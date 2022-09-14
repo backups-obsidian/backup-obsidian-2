@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/110 Kubernetes/110 Kubernetes Index.md",
+                "file": "100 study-notes/111 KodeCloud/KodeCloud - Services.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/110 Kubernetes/110 Kubernetes Index.md"
+                "file": "100 study-notes/111 KodeCloud/KodeCloud - Services.md"
               }
             }
           },
@@ -160,7 +160,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/110 Kubernetes/110 Kubernetes Index.md",
+                "file": "100 study-notes/111 KodeCloud/KodeCloud - Services.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -205,11 +205,11 @@
     "width": 278.0398254394531,
     "collapsed": true
   },
-  "active": "d2b192ab78f94e8a",
+  "active": "55c37cd3494ae0aa",
   "lastOpenFiles": [
     "100 study-notes/111 KodeCloud/111 KodeCloud Index.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - Services.md",
     "100 study-notes/110 Kubernetes/110 Kubernetes Index.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - Services.md",
     "100 study-notes/110 Kubernetes/Kubernetes - What are containers.md",
     "100 study-notes/111 KodeCloud/KodeCloud - Package Management using yum.md",
     "100 study-notes/111 KodeCloud/KodeCloud - WebServers.md",
