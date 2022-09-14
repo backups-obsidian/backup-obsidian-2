@@ -1,6 +1,6 @@
 ---
 created: 2022-08-11 19:08
-updated: 2022-09-12 22:07
+updated: 2022-09-14 11:15
 ---
 ---
 **Links**: [[../100 home|100 Home]]
@@ -24,7 +24,7 @@ updated: 2022-09-12 22:07
 [[Kubernetes - Networking]]
 
 [[Kubernetes - Commands]]
-[[Kubernetes - What are containers?]]
+[[Kubernetes - What are containers]]
 [[Kubernetes - k8s setup using kind]]
 
 ### Playgrounds
