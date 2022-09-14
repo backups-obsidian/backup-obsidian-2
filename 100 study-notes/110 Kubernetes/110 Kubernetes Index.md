@@ -1,6 +1,6 @@
 ---
 created: 2022-08-11 19:08
-updated: 2022-09-09 19:08
+updated: 2022-09-12 22:07
 ---
 ---
 **Links**: [[../100 home|100 Home]]
@@ -30,3 +30,8 @@ updated: 2022-09-09 19:08
 ### Playgrounds
 - [Kubernetes 1.25 | Playgrounds | Killercoda](https://killercoda.com/playgrounds/scenario/kubernetes)
 - [Play with Kubernetes (play-with-k8s.com)](https://labs.play-with-k8s.com/)
+
+### References
+- [Kubernetes API | Kubernetes](https://kubernetes.io/docs/reference/kubernetes-api/)
+
+## Udemy Course
