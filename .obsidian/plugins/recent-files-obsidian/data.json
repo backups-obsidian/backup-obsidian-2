@@ -1,8 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "KodeCloud - Package Management using yum",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - Package Management using yum.md"
+    },
+    {
+      "basename": "111 KodeCloud Index",
+      "path": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md"
+    },
+    {
+      "basename": "KodeCloud - WebServers",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - WebServers.md"
+    },
+    {
       "basename": "110 Kubernetes Index",
       "path": "100 study-notes/110 Kubernetes/110 Kubernetes Index.md"
+    },
+    {
+      "basename": "100 home",
+      "path": "100 study-notes/100 home.md"
     },
     {
       "basename": "Kubernetes - Ingress",
@@ -87,10 +103,6 @@
     {
       "basename": "Kubernetes - Introduction",
       "path": "100 study-notes/110 Kubernetes/Kubernetes - Introduction.md"
-    },
-    {
-      "basename": "100 home",
-      "path": "100 study-notes/100 home.md"
     },
     {
       "basename": "AWS Self - EKS",
@@ -187,18 +199,6 @@
     {
       "basename": "Go - Packages",
       "path": "100 study-notes/103 Golang/Go - Packages.md"
-    },
-    {
-      "basename": "Go - make vs new",
-      "path": "100 study-notes/103 Golang/Go - make vs new.md"
-    },
-    {
-      "basename": "Go - Constants",
-      "path": "100 study-notes/103 Golang/Go - Constants.md"
-    },
-    {
-      "basename": "Go - Structs",
-      "path": "100 study-notes/103 Golang/Go - Structs.md"
     }
   ],
   "omittedPaths": [],
