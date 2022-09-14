@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "KodeCloud - Package Management using yum",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - Package Management using yum.md"
+      "basename": "KodeCloud - Services",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - Services.md"
     },
     {
       "basename": "111 KodeCloud Index",
       "path": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md"
+    },
+    {
+      "basename": "KodeCloud - Package Management using yum",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - Package Management using yum.md"
     },
     {
       "basename": "KodeCloud - WebServers",
@@ -195,10 +199,6 @@
     {
       "basename": "Go - Modules",
       "path": "100 study-notes/103 Golang/Go - Modules.md"
-    },
-    {
-      "basename": "Go - Packages",
-      "path": "100 study-notes/103 Golang/Go - Packages.md"
     }
   ],
   "omittedPaths": [],
