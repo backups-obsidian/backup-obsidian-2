@@ -1,8 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "KodeCloud - SSL-TLS",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - SSL-TLS.md"
+    },
+    {
       "basename": "111 KodeCloud Index",
       "path": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md"
+    },
+    {
+      "basename": "108 Python Index",
+      "path": "100 study-notes/108 Python/108 Python Index.md"
+    },
+    {
+      "basename": "Python - How to setup python projects",
+      "path": "100 study-notes/108 Python/Python - How to setup python projects.md"
+    },
+    {
+      "basename": "110 Kubernetes Index",
+      "path": "100 study-notes/110 Kubernetes/110 Kubernetes Index.md"
+    },
+    {
+      "basename": "KodeCloud - Databases",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - Databases.md"
     },
     {
       "basename": "KodeCloud - Applications",
@@ -19,10 +39,6 @@
     {
       "basename": "KodeCloud - Linux Services",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - Linux Services.md"
-    },
-    {
-      "basename": "110 Kubernetes Index",
-      "path": "100 study-notes/110 Kubernetes/110 Kubernetes Index.md"
     },
     {
       "basename": "Kubernetes - What are containers",
@@ -173,10 +189,6 @@
       "path": "100 study-notes/108 Python/Python - What are wheels.md"
     },
     {
-      "basename": "108 Python Index",
-      "path": "100 study-notes/108 Python/108 Python Index.md"
-    },
-    {
       "basename": "Python - Type Hints",
       "path": "100 study-notes/108 Python/Python - Type Hints.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "Go - range creates a copy",
       "path": "100 study-notes/103 Golang/Go - range creates a copy.md"
-    },
-    {
-      "basename": "Go - Interfaces",
-      "path": "100 study-notes/103 Golang/Go - Interfaces.md"
-    },
-    {
-      "basename": "Go - Interfaces - Value & pointer receivers",
-      "path": "100 study-notes/103 Golang/Go - Interfaces - Value & pointer receivers.md"
-    },
-    {
-      "basename": "Go - Methods",
-      "path": "100 study-notes/103 Golang/Go - Methods.md"
     }
   ],
   "omittedPaths": [],
