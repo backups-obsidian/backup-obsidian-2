@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "KodeCloud - Services",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - Services.md"
-    },
-    {
       "basename": "111 KodeCloud Index",
       "path": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md"
+    },
+    {
+      "basename": "KodeCloud - Applications",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - Applications.md"
+    },
+    {
+      "basename": "KodeCloud - Networking",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - Networking.md"
+    },
+    {
+      "basename": "How to use jq",
+      "path": "300 short-notes/How to use jq.md"
+    },
+    {
+      "basename": "KodeCloud - Linux Services",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - Linux Services.md"
     },
     {
       "basename": "110 Kubernetes Index",
@@ -71,10 +83,6 @@
     {
       "basename": "YAML",
       "path": "300 short-notes/YAML.md"
-    },
-    {
-      "basename": "How to use jq",
-      "path": "300 short-notes/How to use jq.md"
     },
     {
       "basename": "300 home",
@@ -191,14 +199,6 @@
     {
       "basename": "Go - Methods",
       "path": "100 study-notes/103 Golang/Go - Methods.md"
-    },
-    {
-      "basename": "Go - Functions",
-      "path": "100 study-notes/103 Golang/Go - Functions.md"
-    },
-    {
-      "basename": "Go - Modules",
-      "path": "100 study-notes/103 Golang/Go - Modules.md"
     }
   ],
   "omittedPaths": [],

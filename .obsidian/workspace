@@ -28,19 +28,6 @@
             "source": true
           }
         }
-      },
-      {
-        "id": "55c37cd3494ae0aa",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "100 study-notes/111 KodeCloud/KodeCloud - Services.md",
-            "mode": "source",
-            "backlinks": false,
-            "source": true
-          }
-        }
       }
     ],
     "direction": "vertical"
@@ -114,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/KodeCloud - Services.md",
+                "file": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/KodeCloud - Services.md"
+                "file": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md"
               }
             }
           },
@@ -160,7 +147,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/KodeCloud - Services.md",
+                "file": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -205,17 +192,17 @@
     "width": 278.0398254394531,
     "collapsed": true
   },
-  "active": "55c37cd3494ae0aa",
+  "active": "9894e8bc3a11be26",
   "lastOpenFiles": [
+    "100 study-notes/111 KodeCloud/KodeCloud - Applications.md",
     "100 study-notes/111 KodeCloud/111 KodeCloud Index.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - Networking.md",
+    "300 short-notes/How to use jq.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - Linux Services.md",
     "100 study-notes/110 Kubernetes/110 Kubernetes Index.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - Services.md",
     "100 study-notes/110 Kubernetes/Kubernetes - What are containers.md",
     "100 study-notes/111 KodeCloud/KodeCloud - Package Management using yum.md",
     "100 study-notes/111 KodeCloud/KodeCloud - WebServers.md",
-    "100 study-notes/100 home.md",
-    "100 study-notes/110 Kubernetes/Kubernetes - Ingress.md",
-    "100 study-notes/110 Kubernetes/Kubernetes - Using configuration files.md",
-    "100 study-notes/110 Kubernetes/Kubernetes - Commands.md"
+    "100 study-notes/100 home.md"
   ]
 }
