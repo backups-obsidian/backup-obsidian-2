@@ -1,10 +1,6 @@
 {
   "recentFiles": [
     {
-      "basename": "KodeCloud - SSL-TLS",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - SSL-TLS.md"
-    },
-    {
       "basename": "111 KodeCloud Index",
       "path": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md"
     },
@@ -15,6 +11,14 @@
     {
       "basename": "Python - How to setup python projects",
       "path": "100 study-notes/108 Python/Python - How to setup python projects.md"
+    },
+    {
+      "basename": "YAML",
+      "path": "300 short-notes/YAML.md"
+    },
+    {
+      "basename": "KodeCloud - SSL-TLS",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - SSL-TLS.md"
     },
     {
       "basename": "110 Kubernetes Index",
@@ -95,10 +99,6 @@
     {
       "basename": "Kubernetes - StatefulSet",
       "path": "100 study-notes/110 Kubernetes/Kubernetes - StatefulSet.md"
-    },
-    {
-      "basename": "YAML",
-      "path": "300 short-notes/YAML.md"
     },
     {
       "basename": "300 home",
