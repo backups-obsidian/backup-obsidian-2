@@ -11,7 +11,7 @@
           "type": "markdown",
           "state": {
             "file": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md",
-            "mode": "source",
+            "mode": "preview",
             "backlinks": false,
             "source": true
           },
@@ -183,15 +183,15 @@
   },
   "active": "9894e8bc3a11be26",
   "lastOpenFiles": [
+    "100 study-notes/111 KodeCloud/KodeCloud - Docker Commands.md",
+    "100 study-notes/111 KodeCloud/111 KodeCloud Index.md",
     "100 study-notes/108 Python/108 Python Index.md",
     "100 study-notes/108 Python/Python - How to setup python projects.md",
-    "100 study-notes/111 KodeCloud/111 KodeCloud Index.md",
     "300 short-notes/YAML.md",
     "100 study-notes/111 KodeCloud/KodeCloud - SSL-TLS.md",
     "100 study-notes/110 Kubernetes/110 Kubernetes Index.md",
     "KodeCloud - SSL/TLS.md",
     "100 study-notes/111 KodeCloud/KodeCloud - Databases.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - Applications.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - Networking.md"
+    "100 study-notes/111 KodeCloud/KodeCloud - Applications.md"
   ]
 }

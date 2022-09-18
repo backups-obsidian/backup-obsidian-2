@@ -195,10 +195,6 @@
     {
       "basename": "Useful Websites",
       "path": "200 general-notes/Useful Websites.md"
-    },
-    {
-      "basename": "Go - range creates a copy",
-      "path": "100 study-notes/103 Golang/Go - range creates a copy.md"
     }
   ],
   "omittedPaths": [],
