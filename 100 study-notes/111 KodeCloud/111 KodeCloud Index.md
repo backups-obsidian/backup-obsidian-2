@@ -1,6 +1,6 @@
 ---
 created: 2022-09-13 16:17
-updated: 2022-09-16 19:59
+updated: 2022-09-17 21:07
 ---
 ---
 **Links**: [[../100 home| 100 Home]]
@@ -15,4 +15,4 @@ updated: 2022-09-16 19:59
 [[KodeCloud - Databases]]
 [[KodeCloud - SSL-TLS]]
 
-## Docker 
+## Kubernetes
