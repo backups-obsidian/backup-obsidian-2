@@ -1,6 +1,6 @@
 ---
 created: 2022-08-11 19:08
-updated: 2022-09-14 11:16
+updated: 2022-09-19 11:39
 ---
 ---
 **Links**: [[../100 home|100 Home]]
@@ -34,4 +34,6 @@ updated: 2022-09-14 11:16
 ### References
 - [Kubernetes API | Kubernetes](https://kubernetes.io/docs/reference/kubernetes-api/)
 
-## Udemy Course
+
+---
+[[../111 KodeCloud/KodeCloud - Kubernetes Beginner | KodeCloud - Kubernetes Beginner]] - Use this when you want a quick recap for interviews.

@@ -1,12 +1,40 @@
 {
   "recentFiles": [
     {
+      "basename": "KodeCloud - Kubernetes Beginner",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - Kubernetes Beginner.md"
+    },
+    {
       "basename": "111 KodeCloud Index",
       "path": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md"
     },
     {
+      "basename": "110 Kubernetes Index",
+      "path": "100 study-notes/110 Kubernetes/110 Kubernetes Index.md"
+    },
+    {
+      "basename": "KodeCloud - Linux Services",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - Linux Services.md"
+    },
+    {
+      "basename": "KodeCloud - Package Management using yum",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - Package Management using yum.md"
+    },
+    {
+      "basename": "104 Linux Index",
+      "path": "100 study-notes/104 Linux/104 Linux Index.md"
+    },
+    {
+      "basename": "KodeCloud - WebServers",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - WebServers.md"
+    },
+    {
       "basename": "108 Python Index",
       "path": "100 study-notes/108 Python/108 Python Index.md"
+    },
+    {
+      "basename": "KodeCloud - Applications",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - Applications.md"
     },
     {
       "basename": "Python - How to setup python projects",
@@ -21,16 +49,8 @@
       "path": "100 study-notes/111 KodeCloud/KodeCloud - SSL-TLS.md"
     },
     {
-      "basename": "110 Kubernetes Index",
-      "path": "100 study-notes/110 Kubernetes/110 Kubernetes Index.md"
-    },
-    {
       "basename": "KodeCloud - Databases",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - Databases.md"
-    },
-    {
-      "basename": "KodeCloud - Applications",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - Applications.md"
     },
     {
       "basename": "KodeCloud - Networking",
@@ -41,20 +61,8 @@
       "path": "300 short-notes/How to use jq.md"
     },
     {
-      "basename": "KodeCloud - Linux Services",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - Linux Services.md"
-    },
-    {
       "basename": "Kubernetes - What are containers",
       "path": "100 study-notes/110 Kubernetes/Kubernetes - What are containers.md"
-    },
-    {
-      "basename": "KodeCloud - Package Management using yum",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - Package Management using yum.md"
-    },
-    {
-      "basename": "KodeCloud - WebServers",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - WebServers.md"
     },
     {
       "basename": "100 home",
@@ -191,10 +199,6 @@
     {
       "basename": "Python - Type Hints",
       "path": "100 study-notes/108 Python/Python - Type Hints.md"
-    },
-    {
-      "basename": "Useful Websites",
-      "path": "200 general-notes/Useful Websites.md"
     }
   ],
   "omittedPaths": [],
