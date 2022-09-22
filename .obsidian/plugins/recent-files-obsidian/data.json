@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "KodeCloud - Kubernetes Beginner",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - Kubernetes Beginner.md"
+      "basename": "KodeCloud - CKAD",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD.md"
+    },
+    {
+      "basename": "IAM in Google Cloud",
+      "path": "300 short-notes/IAM in Google Cloud.md"
+    },
+    {
+      "basename": "300 home",
+      "path": "300 short-notes/300 home.md"
     },
     {
       "basename": "111 KodeCloud Index",
       "path": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md"
+    },
+    {
+      "basename": "KodeCloud - Kubernetes Beginner",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - Kubernetes Beginner.md"
     },
     {
       "basename": "110 Kubernetes Index",
@@ -109,10 +121,6 @@
       "path": "100 study-notes/110 Kubernetes/Kubernetes - StatefulSet.md"
     },
     {
-      "basename": "300 home",
-      "path": "300 short-notes/300 home.md"
-    },
-    {
       "basename": "Kubernetes - Logical Components",
       "path": "100 study-notes/110 Kubernetes/Kubernetes - Logical Components.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Design Patterns - SOLID Principles",
       "path": "100 study-notes/107 Design Patterns/Design Patterns - SOLID Principles.md"
-    },
-    {
-      "basename": "Python - What are wheels",
-      "path": "100 study-notes/108 Python/Python - What are wheels.md"
-    },
-    {
-      "basename": "Python - Type Hints",
-      "path": "100 study-notes/108 Python/Python - Type Hints.md"
     }
   ],
   "omittedPaths": [],

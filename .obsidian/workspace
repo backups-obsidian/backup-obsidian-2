@@ -19,12 +19,12 @@
         }
       },
       {
-        "id": "b19ff3c9cf9de74c",
+        "id": "6366b3d92578675f",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "100 study-notes/111 KodeCloud/KodeCloud - Kubernetes Beginner.md",
+            "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD.md",
             "mode": "source",
             "backlinks": false,
             "source": true
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/KodeCloud - Kubernetes Beginner.md",
+                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/KodeCloud - Kubernetes Beginner.md"
+                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD.md"
               }
             }
           },
@@ -149,7 +149,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/KodeCloud - Kubernetes Beginner.md",
+                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -194,17 +194,17 @@
     "width": 278.0398254394531,
     "collapsed": true
   },
-  "active": "b19ff3c9cf9de74c",
+  "active": "6366b3d92578675f",
   "lastOpenFiles": [
+    "300 short-notes/IAM in Google Cloud.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKAD.md",
+    "300 short-notes/300 home.md",
     "100 study-notes/111 KodeCloud/111 KodeCloud Index.md",
     "100 study-notes/111 KodeCloud/KodeCloud - Kubernetes Beginner.md",
     "100 study-notes/110 Kubernetes/110 Kubernetes Index.md",
     "100 study-notes/111 KodeCloud/KodeCloud - Linux Services.md",
     "100 study-notes/111 KodeCloud/KodeCloud - Package Management using yum.md",
     "100 study-notes/104 Linux/104 Linux Index.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - WebServers.md",
-    "100 study-notes/108 Python/108 Python Index.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - Applications.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - Docker Commands.md"
+    "100 study-notes/111 KodeCloud/KodeCloud - WebServers.md"
   ]
 }

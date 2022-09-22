@@ -1,6 +1,6 @@
 ---
 created: 2022-09-13 16:17
-updated: 2022-09-19 11:36
+updated: 2022-09-22 09:50
 ---
 ---
 **Links**: [[../100 home| 100 Home]]
@@ -17,3 +17,4 @@ updated: 2022-09-19 11:36
 
 ## Kubernetes
 [[KodeCloud - Kubernetes Beginner]]
+[[KodeCloud - CKAD]]
