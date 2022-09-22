@@ -1,6 +1,6 @@
 ---
 created: 2022-04-16 16:39
-updated: 2022-08-30 23:45
+updated: 2022-09-22 10:06
 ---
 ---
 **Links**:  [[../000 home|000 Home]]
@@ -24,3 +24,4 @@ updated: 2022-08-30 23:45
 [[Neovim]]
 [[Development Setup]]
 [[How to use jq]]
+[[IAM in Google Cloud]]

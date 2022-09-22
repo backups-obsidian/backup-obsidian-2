@@ -1,6 +1,6 @@
 ---
 created: 2022-09-15 21:09
-updated: 2022-09-21 22:45
+updated: 2022-09-22 01:12
 ---
 ---
 **Links**: [[111 KodeCloud Index]]
@@ -236,9 +236,13 @@ spec:
 	- Each layer can scale and move without impacting communication between various services.
 
 - **Each service gets an IP and name assigned to it and that is the name that should be used by other pods to access the service**.
-- ClusterIP is the default type 
+	- Application code which needs to communicate with other pods in a different service should also use this name.
+	- ![[attachments/Pasted image 20220921225516.png]]
+	- Instead of hardcoding we should be using environment variables.
+- *ClusterIP is the default type*.
 
 - Disadvantage of NodePort
 	- Even if we have pods on only 2 out of 4 nodes they are accessible from the IP addresses of all the nodes.
 	- ![[attachments/Pasted image 20220921224350.png]]
 
+> [!note]- We can bootstrap a k8s cluster from scratch using `kubeadm`
