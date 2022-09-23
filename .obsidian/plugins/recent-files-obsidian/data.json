@@ -1,20 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "KodeCloud - CKAD",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD.md"
+      "basename": "KodeCloud - CKAD - Configuration",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Configuration.md"
     },
     {
-      "basename": "IAM in Google Cloud",
-      "path": "300 short-notes/IAM in Google Cloud.md"
+      "basename": "111 KodeCloud Index",
+      "path": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Misc",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Misc.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Namespaces",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Namespaces.md"
     },
     {
       "basename": "300 home",
       "path": "300 short-notes/300 home.md"
     },
     {
-      "basename": "111 KodeCloud Index",
-      "path": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md"
+      "basename": "IAM in Google Cloud",
+      "path": "300 short-notes/IAM in Google Cloud.md"
     },
     {
       "basename": "KodeCloud - Kubernetes Beginner",
@@ -191,14 +199,6 @@
     {
       "basename": "107 Design Patterns Index",
       "path": "100 study-notes/107 Design Patterns/107 Design Patterns Index.md"
-    },
-    {
-      "basename": "Mac Tips & Tricks",
-      "path": "200 general-notes/Mac Tips & Tricks.md"
-    },
-    {
-      "basename": "Design Patterns - SOLID Principles",
-      "path": "100 study-notes/107 Design Patterns/Design Patterns - SOLID Principles.md"
     }
   ],
   "omittedPaths": [],

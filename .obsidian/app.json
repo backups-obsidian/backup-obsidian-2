@@ -3,7 +3,7 @@
   "livePreview": false,
   "showLineNumber": true,
   "spellcheck": true,
-  "promptDelete": true,
+  "promptDelete": false,
   "showFrontmatter": false,
   "vimMode": true,
   "trashOption": "local",

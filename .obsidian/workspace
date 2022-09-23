@@ -19,12 +19,25 @@
         }
       },
       {
-        "id": "6366b3d92578675f",
+        "id": "6f8cade52c0e689d",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD.md",
+            "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Configuration.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "2135da51e4f9286b",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Misc.md",
             "mode": "source",
             "backlinks": false,
             "source": true
@@ -103,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD.md",
+                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Configuration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD.md"
+                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Configuration.md"
               }
             }
           },
@@ -149,7 +162,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD.md",
+                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Configuration.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -194,17 +207,17 @@
     "width": 278.0398254394531,
     "collapsed": true
   },
-  "active": "6366b3d92578675f",
+  "active": "6f8cade52c0e689d",
   "lastOpenFiles": [
-    "300 short-notes/IAM in Google Cloud.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKAD.md",
-    "300 short-notes/300 home.md",
     "100 study-notes/111 KodeCloud/111 KodeCloud Index.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Misc.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Namespaces.md",
+    "300 short-notes/300 home.md",
+    "300 short-notes/Choosing the right database.md",
+    "300 short-notes/IAM in Google Cloud.md",
     "100 study-notes/111 KodeCloud/KodeCloud - Kubernetes Beginner.md",
     "100 study-notes/110 Kubernetes/110 Kubernetes Index.md",
     "100 study-notes/111 KodeCloud/KodeCloud - Linux Services.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - Package Management using yum.md",
-    "100 study-notes/104 Linux/104 Linux Index.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - WebServers.md"
+    "100 study-notes/111 KodeCloud/KodeCloud - Package Management using yum.md"
   ]
 }
