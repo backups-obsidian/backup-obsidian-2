@@ -1,6 +1,6 @@
 ---
 created: 2022-09-13 16:17
-updated: 2022-09-23 22:15
+updated: 2022-09-24 16:32
 ---
 ---
 **Links**: [[../100 home| 100 Home]]
@@ -20,6 +20,10 @@ updated: 2022-09-23 22:15
 
 [[KodeCloud - CKAD - Misc]]
 [[KodeCloud - CKAD - Namespaces]]
-[[KodeCloud - CKAD - Configuration]]
+[[KodeCloud - CKAD - Commands and Arguments]]
 [[KodeCloud - CKAD - Environment Variables]]
 [[KodeCloud - CKAD - Security Context]]
+[[KodeCloud - CKAD - Resource Requirements]]
+[[KodeCloud - CKAD - Service Accounts]]
+[[KodeCloud - CKAD - Taints and Tolerations]]
+[[KodeCl]]

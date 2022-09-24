@@ -1,6 +1,6 @@
 ---
 created: 2022-09-15 21:09
-updated: 2022-09-23 23:32
+updated: 2022-09-23 23:45
 ---
 ---
 **Links**: [[111 KodeCloud Index]]
@@ -77,4 +77,10 @@ spec:
 		  add: ["MAC_ADMIN"]
 ```
 
+- In security context we have `runAsUser`, `runAsGroup`, `fsGroup`.
+
 > [!caution]- Capabilities are *only supported at the container level and NOT at the pod level*.
+
+- Find the user in the pod: `k exec <pod-name> -- whoami`
+- If you are using a different user inside the container it won't be able to come up with a name and you will get the following output for `whoami`
+	- ![[attachments/Pasted image 20220923234409.png]]
