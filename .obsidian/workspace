@@ -19,13 +19,26 @@
         }
       },
       {
-        "id": "7c2ec6c91db00de1",
+        "id": "24c8eb6050a9cb1b",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Taints and Tolerations.md",
-            "mode": "preview",
+            "file": "300 short-notes/300 home.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "78ff2e41361e5055",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "300 short-notes/Google Cloud Course.md",
+            "mode": "source",
             "backlinks": false,
             "source": true
           }
@@ -116,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Taints and Tolerations.md",
+                "file": "300 short-notes/Google Cloud Course.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Taints and Tolerations.md"
+                "file": "300 short-notes/Google Cloud Course.md"
               }
             }
           },
@@ -162,7 +175,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Taints and Tolerations.md",
+                "file": "300 short-notes/Google Cloud Course.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -207,17 +220,17 @@
     "width": 278.0398254394531,
     "collapsed": true
   },
-  "active": "7c2ec6c91db00de1",
+  "active": "78ff2e41361e5055",
   "lastOpenFiles": [
+    "300 short-notes/300 home.md",
     "100 study-notes/111 KodeCloud/111 KodeCloud Index.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Commands and Arguments.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Node Selectors and Node Affinity.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Taints and Tolerations.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Commands and Arguments.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Service Accounts.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Resource Requirements.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Misc.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Security Context.md",
-    "100 study-notes/104 Linux/104 Linux Index.md",
-    "100 study-notes/104 Linux/Linux - UID & GID.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Environment Variables.md"
+    "100 study-notes/104 Linux/104 Linux Index.md"
   ]
 }

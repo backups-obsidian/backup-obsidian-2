@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "KodeCloud - CKAD - Taints and Tolerations",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Taints and Tolerations.md"
+      "basename": "Google Cloud Course",
+      "path": "300 short-notes/Google Cloud Course.md"
+    },
+    {
+      "basename": "300 home",
+      "path": "300 short-notes/300 home.md"
     },
     {
       "basename": "111 KodeCloud Index",
       "path": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Node Selectors and Node Affinity",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Node Selectors and Node Affinity.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Taints and Tolerations",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Taints and Tolerations.md"
     },
     {
       "basename": "KodeCloud - CKAD - Commands and Arguments",
@@ -43,10 +55,6 @@
     {
       "basename": "KodeCloud - CKAD - Namespaces",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Namespaces.md"
-    },
-    {
-      "basename": "300 home",
-      "path": "300 short-notes/300 home.md"
     },
     {
       "basename": "IAM in Google Cloud",
@@ -191,14 +199,6 @@
     {
       "basename": "101 AWS SAA Index",
       "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
-    },
-    {
-      "basename": "Neovim",
-      "path": "300 short-notes/Neovim.md"
-    },
-    {
-      "basename": "Development Setup",
-      "path": "300 short-notes/Development Setup.md"
     }
   ],
   "omittedPaths": [],
