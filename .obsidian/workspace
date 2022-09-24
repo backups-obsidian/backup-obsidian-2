@@ -19,13 +19,13 @@
         }
       },
       {
-        "id": "6f8cade52c0e689d",
+        "id": "ea8c883efd753be8",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Configuration.md",
-            "mode": "source",
+            "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Security Context.md",
+            "mode": "preview",
             "backlinks": false,
             "source": true
           }
@@ -38,7 +38,7 @@
           "type": "markdown",
           "state": {
             "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Misc.md",
-            "mode": "source",
+            "mode": "preview",
             "backlinks": false,
             "source": true
           }
@@ -116,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Configuration.md",
+                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Security Context.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Configuration.md"
+                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Security Context.md"
               }
             }
           },
@@ -162,7 +162,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Configuration.md",
+                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Security Context.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -207,17 +207,17 @@
     "width": 278.0398254394531,
     "collapsed": true
   },
-  "active": "6f8cade52c0e689d",
+  "active": "ea8c883efd753be8",
   "lastOpenFiles": [
-    "100 study-notes/111 KodeCloud/111 KodeCloud Index.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Misc.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Security Context.md",
+    "100 study-notes/104 Linux/104 Linux Index.md",
+    "100 study-notes/104 Linux/Linux - UID & GID.md",
+    "100 study-notes/111 KodeCloud/111 KodeCloud Index.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Environment Variables.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Configuration.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Namespaces.md",
     "300 short-notes/300 home.md",
-    "300 short-notes/Choosing the right database.md",
-    "300 short-notes/IAM in Google Cloud.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - Kubernetes Beginner.md",
-    "100 study-notes/110 Kubernetes/110 Kubernetes Index.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - Linux Services.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - Package Management using yum.md"
+    "300 short-notes/Choosing the right database.md"
   ]
 }

@@ -1,16 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "KodeCloud - CKAD - Configuration",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Configuration.md"
+      "basename": "KodeCloud - CKAD - Security Context",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Security Context.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Misc",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Misc.md"
+    },
+    {
+      "basename": "104 Linux Index",
+      "path": "100 study-notes/104 Linux/104 Linux Index.md"
+    },
+    {
+      "basename": "Linux - UID & GID",
+      "path": "100 study-notes/104 Linux/Linux - UID & GID.md"
     },
     {
       "basename": "111 KodeCloud Index",
       "path": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md"
     },
     {
-      "basename": "KodeCloud - CKAD - Misc",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Misc.md"
+      "basename": "KodeCloud - CKAD - Environment Variables",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Environment Variables.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Configuration",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Configuration.md"
     },
     {
       "basename": "KodeCloud - CKAD - Namespaces",
@@ -39,10 +55,6 @@
     {
       "basename": "KodeCloud - Package Management using yum",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - Package Management using yum.md"
-    },
-    {
-      "basename": "104 Linux Index",
-      "path": "100 study-notes/104 Linux/104 Linux Index.md"
     },
     {
       "basename": "KodeCloud - WebServers",
@@ -187,18 +199,6 @@
     {
       "basename": "Must have Tools",
       "path": "200 general-notes/Must have Tools.md"
-    },
-    {
-      "basename": "200 home",
-      "path": "200 general-notes/200 home.md"
-    },
-    {
-      "basename": "103 Golang Index",
-      "path": "100 study-notes/103 Golang/103 Golang Index.md"
-    },
-    {
-      "basename": "107 Design Patterns Index",
-      "path": "100 study-notes/107 Design Patterns/107 Design Patterns Index.md"
     }
   ],
   "omittedPaths": [],
