@@ -1,6 +1,6 @@
 ---
 created: 2022-04-16 16:39
-updated: 2022-09-23 10:03
+updated: 2022-09-24 19:27
 ---
 ---
 **Links**:  [[../000 home|000 Home]]
@@ -25,3 +25,4 @@ updated: 2022-09-23 10:03
 [[Development Setup]]
 [[How to use jq]]
 [[IAM in Google Cloud]]
+[[Google Cloud Course]]
