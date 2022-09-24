@@ -1,12 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "KodeCloud - CKAD - Security Context",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Security Context.md"
+      "basename": "KodeCloud - CKAD - Taints and Tolerations",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Taints and Tolerations.md"
+    },
+    {
+      "basename": "111 KodeCloud Index",
+      "path": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Commands and Arguments",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Commands and Arguments.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Service Accounts",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Service Accounts.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Resource Requirements",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Resource Requirements.md"
     },
     {
       "basename": "KodeCloud - CKAD - Misc",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Misc.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Security Context",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Security Context.md"
     },
     {
       "basename": "104 Linux Index",
@@ -17,16 +37,8 @@
       "path": "100 study-notes/104 Linux/Linux - UID & GID.md"
     },
     {
-      "basename": "111 KodeCloud Index",
-      "path": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md"
-    },
-    {
       "basename": "KodeCloud - CKAD - Environment Variables",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Environment Variables.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - Configuration",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Configuration.md"
     },
     {
       "basename": "KodeCloud - CKAD - Namespaces",
@@ -187,18 +199,6 @@
     {
       "basename": "Development Setup",
       "path": "300 short-notes/Development Setup.md"
-    },
-    {
-      "basename": "Strict mode in bash",
-      "path": "300 short-notes/Strict mode in bash.md"
-    },
-    {
-      "basename": "nmap",
-      "path": "300 short-notes/nmap.md"
-    },
-    {
-      "basename": "Must have Tools",
-      "path": "200 general-notes/Must have Tools.md"
     }
   ],
   "omittedPaths": [],

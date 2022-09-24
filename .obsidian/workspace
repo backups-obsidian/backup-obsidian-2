@@ -19,12 +19,12 @@
         }
       },
       {
-        "id": "ea8c883efd753be8",
+        "id": "7c2ec6c91db00de1",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Security Context.md",
+            "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Taints and Tolerations.md",
             "mode": "preview",
             "backlinks": false,
             "source": true
@@ -116,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Security Context.md",
+                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Taints and Tolerations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Security Context.md"
+                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Taints and Tolerations.md"
               }
             }
           },
@@ -162,7 +162,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Security Context.md",
+                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Taints and Tolerations.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -207,17 +207,17 @@
     "width": 278.0398254394531,
     "collapsed": true
   },
-  "active": "ea8c883efd753be8",
+  "active": "7c2ec6c91db00de1",
   "lastOpenFiles": [
+    "100 study-notes/111 KodeCloud/111 KodeCloud Index.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Commands and Arguments.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Taints and Tolerations.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Service Accounts.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Resource Requirements.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Misc.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Security Context.md",
     "100 study-notes/104 Linux/104 Linux Index.md",
     "100 study-notes/104 Linux/Linux - UID & GID.md",
-    "100 study-notes/111 KodeCloud/111 KodeCloud Index.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Environment Variables.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Configuration.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Namespaces.md",
-    "300 short-notes/300 home.md",
-    "300 short-notes/Choosing the right database.md"
+    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Environment Variables.md"
   ]
 }
