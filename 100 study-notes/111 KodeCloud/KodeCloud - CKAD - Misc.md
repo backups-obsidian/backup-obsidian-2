@@ -1,6 +1,6 @@
 ---
 created: 2022-09-23 16:03
-updated: 2022-09-23 16:04
+updated: 2022-09-23 22:12
 ---
 ---
 **Links**: [[111 KodeCloud Index]]
@@ -16,6 +16,7 @@ updated: 2022-09-23 16:04
 
 - Get the yaml file for any resource:
 	- `k get <resource-type> <resource-name> -o yaml > definition.yaml`
+	- This is useful when you have already defined resources in a cluster and you don't have their yaml files.
 
 - Formatting the output:
 	1.  `-o json`: Output a JSON formatted API object.
@@ -23,3 +24,5 @@ updated: 2022-09-23 16:04
 	3.  `-o wide`: Output in the plain-text format with any additional information.
 	4.  `-o yaml`: Output a YAML formatted API object.
 
+- Forcefully apply a file 
+	- `k apply -f --force <file-name>.yaml`
