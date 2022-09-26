@@ -1,14 +1,13 @@
 ---
 created: 2022-09-23 17:15
-updated: 2022-09-26 12:57
+updated: 2022-09-26 13:28
 ---
 ---
 **Links**: [[111 KodeCloud Index]]
 
 ---
-## Readiness Probes
-### Lifecycle of a pod. 
-#### Pod Status
+## Lifecycle of a pod
+### Pod Status
 - A pod has a **Pod Status** and **Pod conditions**.
 	- A *pod status* tells us *where the pod is in its lifecycle*.
 - When a pod is first created it is in a **pending state**.
@@ -23,7 +22,7 @@ updated: 2022-09-26 12:57
 > [!important]- At any point in time in a pod's lifecycle its status can be *only one of these values*.
 > It only gives high level summary of a pod.
 
-#### Pod Conditions
+### Pod Conditions
 - Pod conditions complement pod status.
 - *It is an array of true or false values that tell us the state of the pod*.
 	- ![[attachments/Pasted image 20220926120848.png]]
@@ -37,8 +36,7 @@ updated: 2022-09-26 12:57
 - We can also see the the Ready state of the pod in the output of `k get pods`
 	- ![[attachments/Pasted image 20220926121040.png]]
 
----
-
+## Readiness Probes
 - We are interested in *Ready condition*.
 	- It means that application inside the pod is ready and is ready to accept user traffic.
 - Different containers may take different time to be up depending on the application they are running.
@@ -68,12 +66,12 @@ spec:
 	containers:
 	- name: simple-webapp
 	  image: simple-webapp
-	ports:
-	- containerPort: 8080
-	readinessProbe:
-	  httpGet:
-		path: /api/ready
-		port: 8080
+	  ports:
+	  - containerPort: 8080
+	  readinessProbe:
+	    httpGet:
+		  path: /api/ready
+		  port: 8080
 ```
 
 - Now when the container is created k8s doesn't immediately set the ready condition to true instead it performs a test to see if the API responds positively.
@@ -94,8 +92,8 @@ spec:
 	- This can be avoided if we use readiness probe because now the pod will only be added to service only if readiness probe is true.
 
 ## Liveness Probe
-- When a *container crashes k8s to restart the the container*. 
-- We can have a scenario where the application stops working but the container continues to stay alive.
+- When an *application in a container crashes k8s restarts the the container*. 
+- We can have a scenario where the application stops working (freezes) but the container continues to stay alive.
 	- May be due to a bug in the code the application is stuck in infinite loop.
 - As far as k8s is concerned the container is up so the application is assumed to be up.
 	- We need to restart the container. 
@@ -121,13 +119,16 @@ spec:
 	containers:
 	- name: simple-webapp
 	  image: simple-webapp
-	ports:
-	- containerPort: 8080
-	livenessProbe:
-	  httpGet:
-	    path: /api/heal
+	  ports:
+	  - containerPort: 8080
+	  livenessProbe:
+	    httpGet:
+		  path: /api/heal
+		  port: 8080
 ```
 
 - Liveness probe options
 	- We have the same options as readiness probe
 	- ![[attachments/Pasted image 20220926130603.png]]
+
+> [!caution]- Readiness and Liveness probes are *added at the container level* so that we can have different probes for different containers.

@@ -19,12 +19,25 @@
         }
       },
       {
-        "id": "fdee361a37a39954",
+        "id": "9a77ec84d08c5a9a",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Probes.md",
+            "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Jobs.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "eaad3406917a6ff6",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Labels, Selectors and Annotations.md",
             "mode": "source",
             "backlinks": false,
             "source": true
@@ -128,7 +141,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Probes.md",
+                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Jobs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Probes.md"
+                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Jobs.md"
               }
             }
           },
@@ -174,7 +187,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Probes.md",
+                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Jobs.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -219,17 +232,17 @@
     "width": 278.0398254394531,
     "collapsed": true
   },
-  "active": "fdee361a37a39954",
+  "active": "9a77ec84d08c5a9a",
   "lastOpenFiles": [
-    "300 short-notes/Google Cloud Course.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Probes.md",
     "100 study-notes/111 KodeCloud/111 KodeCloud Index.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Jobs.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - Kubernetes Beginner.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Labels, Selectors and Annotations.md",
+    "300 short-notes/Google Cloud Course.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Misc.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Logging.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Probes.md",
     "100 study-notes/101 AWS SAA/RDS.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Multi Container Pods.md",
-    "300 short-notes/300 home.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Node Selectors and Node Affinity.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Taints and Tolerations.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Commands and Arguments.md"
+    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Multi Container Pods.md"
   ]
 }

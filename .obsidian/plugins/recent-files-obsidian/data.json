@@ -1,20 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "KodeCloud - CKAD - Probes",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Probes.md"
-    },
-    {
-      "basename": "Google Cloud Course",
-      "path": "300 short-notes/Google Cloud Course.md"
+      "basename": "KodeCloud - CKAD - Jobs",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Jobs.md"
     },
     {
       "basename": "111 KodeCloud Index",
       "path": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md"
     },
     {
+      "basename": "KodeCloud - Kubernetes Beginner",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - Kubernetes Beginner.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Labels, Selectors and Annotations",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Labels, Selectors and Annotations.md"
+    },
+    {
+      "basename": "Google Cloud Course",
+      "path": "300 short-notes/Google Cloud Course.md"
+    },
+    {
       "basename": "KodeCloud - CKAD - Misc",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Misc.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Logging",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Logging.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Probes",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Probes.md"
     },
     {
       "basename": "RDS",
@@ -71,10 +87,6 @@
     {
       "basename": "IAM in Google Cloud",
       "path": "300 short-notes/IAM in Google Cloud.md"
-    },
-    {
-      "basename": "KodeCloud - Kubernetes Beginner",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - Kubernetes Beginner.md"
     },
     {
       "basename": "110 Kubernetes Index",
@@ -187,18 +199,6 @@
     {
       "basename": "Kubernetes - Chain of events behind running a pod",
       "path": "100 study-notes/110 Kubernetes/Kubernetes - Chain of events behind running a pod.md"
-    },
-    {
-      "basename": "Kubernetes - Namespaces",
-      "path": "100 study-notes/110 Kubernetes/Kubernetes - Namespaces.md"
-    },
-    {
-      "basename": "Kubernetes - Components of k8s & their function",
-      "path": "100 study-notes/110 Kubernetes/Kubernetes - Components of k8s & their function.md"
-    },
-    {
-      "basename": "Kubernetes - Introduction",
-      "path": "100 study-notes/110 Kubernetes/Kubernetes - Introduction.md"
     }
   ],
   "omittedPaths": [],

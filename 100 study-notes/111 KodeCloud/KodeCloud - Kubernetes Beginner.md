@@ -1,6 +1,6 @@
 ---
 created: 2022-09-15 21:09
-updated: 2022-09-22 01:12
+updated: 2022-09-26 17:27
 ---
 ---
 **Links**: [[111 KodeCloud Index]]
@@ -131,8 +131,12 @@ spec:
 
 - The deployment automatically creates a ReplicaSet
 - Pod naming convention when created by deployment: `<deployment-name>-<replica-set-hash>-<random-hash>`
-- We can see the **status of roll out** using `k rollout status deployment/<deployment-name>`
-- Get the **history and revisions** of the rollout: `k rollout history deployment/<deployment-name>`
+- We can see the **status of roll out** using: 
+	- `k rollout status deployment/<deployment-name>`
+- Get the **history and revisions** of the rollout: 
+	- `k rollout history deployment/<deployment-name>`
+- Get the rollout history of a particular revision: 
+	- `k rollout history deployment/<deployment-name> --revision=3`
 - *Rolling update is the default deployment strategy*.
 - Another deployment strategy is *Recreate* in which all the pods are first destroyed and then the new revision is added.
 
@@ -151,6 +155,8 @@ spec:
 	- This will destroy the pods in the new ReplicaSet and bring the older ones up in the old ReplicaSet.
 	- ![[attachments/Pasted image 20220920000907.png]]
 	- We can notice the difference in ReplicaSets before and after the rollback.
+- Rollback to a particular revision:
+	- `k rollout undo deployment/<deployment-name> --to-revision=1`
 
 - Whenever we apply a deployment file we can record the cause of rollout using the `--record` flag.
 	- `k apply -f deployment.yaml --record`
