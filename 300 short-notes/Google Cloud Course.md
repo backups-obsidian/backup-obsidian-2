@@ -1,6 +1,6 @@
 ---
 created: 2022-09-24 19:30
-updated: 2022-09-24 19:44
+updated: 2022-09-25 23:35
 ---
 ---
 **Links**: [[300 home]]
@@ -23,4 +23,25 @@ updated: 2022-09-24 19:44
 	- The user id/service account, project and region that we want to use.
 - List all the configs:
 	- `gcloud config list`
-- General `gcloud` command syntax: `gcloud <GROUP> <SUBGROUP> ACTION `
+
+## IAM
+- Service accounts don't use passwords, they use private/public RSA key pairs.
+- Service account types:
+	- *Default Service Account*: **Automatically created when some services are used**. 
+		- (NOT RECOMMENDED) since it has Editor role by default
+	- *User Managed*: User created
+		- (RECOMMENDED) *Provides fine grained access control*.
+	- *Google-managed service accounts*: Created and managed by Google
+		- Used by GCP to perform operations on user's behalf
+		- In general, we DO NOT need to worry about them
+
+- We will be mostly making use of default and user managed service accounts
+- When service accounts are attached to cloud resources (like VMs) then *Key generation and use are automatically handled by IAM when we assign a service account to the instance*.
+	- Keys are automatically rotated 
+	- No need to store credentials in config files
+
+- Service accounts and different use case scenarios
+	- ![[attachments/Pasted image 20220925164351.png]]
+	- ![[attachments/Pasted image 20220925164423.png]]
+	- ![[attachments/Pasted image 20220925164322.png]]
+

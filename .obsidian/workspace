@@ -19,12 +19,12 @@
         }
       },
       {
-        "id": "24c8eb6050a9cb1b",
+        "id": "fdee361a37a39954",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "300 short-notes/300 home.md",
+            "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Probes.md",
             "mode": "source",
             "backlinks": false,
             "source": true
@@ -38,7 +38,7 @@
           "type": "markdown",
           "state": {
             "file": "300 short-notes/Google Cloud Course.md",
-            "mode": "source",
+            "mode": "preview",
             "backlinks": false,
             "source": true
           }
@@ -51,7 +51,7 @@
           "type": "markdown",
           "state": {
             "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Misc.md",
-            "mode": "preview",
+            "mode": "source",
             "backlinks": false,
             "source": true
           }
@@ -75,7 +75,7 @@
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": false,
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -107,8 +107,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -129,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "300 short-notes/Google Cloud Course.md",
+                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Probes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "300 short-notes/Google Cloud Course.md"
+                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Probes.md"
               }
             }
           },
@@ -175,7 +174,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "300 short-notes/Google Cloud Course.md",
+                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Probes.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -220,17 +219,17 @@
     "width": 278.0398254394531,
     "collapsed": true
   },
-  "active": "78ff2e41361e5055",
+  "active": "fdee361a37a39954",
   "lastOpenFiles": [
-    "300 short-notes/300 home.md",
+    "300 short-notes/Google Cloud Course.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Probes.md",
     "100 study-notes/111 KodeCloud/111 KodeCloud Index.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Misc.md",
+    "100 study-notes/101 AWS SAA/RDS.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Multi Container Pods.md",
+    "300 short-notes/300 home.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Node Selectors and Node Affinity.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Taints and Tolerations.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Commands and Arguments.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Service Accounts.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Resource Requirements.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Misc.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Security Context.md",
-    "100 study-notes/104 Linux/104 Linux Index.md"
+    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Commands and Arguments.md"
   ]
 }

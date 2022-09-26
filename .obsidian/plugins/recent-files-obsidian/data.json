@@ -1,16 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "KodeCloud - CKAD - Probes",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Probes.md"
+    },
+    {
       "basename": "Google Cloud Course",
       "path": "300 short-notes/Google Cloud Course.md"
     },
     {
-      "basename": "300 home",
-      "path": "300 short-notes/300 home.md"
-    },
-    {
       "basename": "111 KodeCloud Index",
       "path": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Misc",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Misc.md"
+    },
+    {
+      "basename": "RDS",
+      "path": "100 study-notes/101 AWS SAA/RDS.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Multi Container Pods",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Multi Container Pods.md"
+    },
+    {
+      "basename": "300 home",
+      "path": "300 short-notes/300 home.md"
     },
     {
       "basename": "KodeCloud - CKAD - Node Selectors and Node Affinity",
@@ -31,10 +47,6 @@
     {
       "basename": "KodeCloud - CKAD - Resource Requirements",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Resource Requirements.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - Misc",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Misc.md"
     },
     {
       "basename": "KodeCloud - CKAD - Security Context",
@@ -187,18 +199,6 @@
     {
       "basename": "Kubernetes - Introduction",
       "path": "100 study-notes/110 Kubernetes/Kubernetes - Introduction.md"
-    },
-    {
-      "basename": "AWS Self - EKS",
-      "path": "100 study-notes/109 AWS Self Taught/AWS Self - EKS.md"
-    },
-    {
-      "basename": "102 AWS DVA Index",
-      "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
-    },
-    {
-      "basename": "101 AWS SAA Index",
-      "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
     }
   ],
   "omittedPaths": [],
