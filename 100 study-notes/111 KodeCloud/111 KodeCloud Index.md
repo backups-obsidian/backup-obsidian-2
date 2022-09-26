@@ -1,6 +1,6 @@
 ---
 created: 2022-09-13 16:17
-updated: 2022-09-26 11:50
+updated: 2022-09-26 17:20
 ---
 ---
 **Links**: [[../100 home| 100 Home]]
@@ -29,6 +29,9 @@ updated: 2022-09-26 11:50
 [[KodeCloud - CKAD - Node Selectors and Node Affinity]]
 [[KodeCloud - CKAD - Multi Container Pods]]
 [[KodeCloud - CKAD - Probes]]
+[[KodeCloud - CKAD - Logging]]
+[[KodeCloud - CKAD - Labels, Selectors and Annotations]]
+[[KodeCloud - CKAD - Jobs]]
 
 To Do: 
 - [ ] Volume mounts inside pods and containers
