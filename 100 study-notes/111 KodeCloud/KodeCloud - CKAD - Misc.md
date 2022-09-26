@@ -1,6 +1,6 @@
 ---
 created: 2022-09-23 16:03
-updated: 2022-09-23 22:12
+updated: 2022-09-25 16:00
 ---
 ---
 **Links**: [[111 KodeCloud Index]]
@@ -26,3 +26,7 @@ updated: 2022-09-23 22:12
 
 - Forcefully apply a file 
 	- `k apply -f --force <file-name>.yaml`
+
+- Get the logs of a pod:
+	- `k log pod/<podname>`
+	- **It only gets the logs that are printed to stdout by the application**.
