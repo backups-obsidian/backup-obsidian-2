@@ -1,20 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "KodeCloud - CKAD - Jobs",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Jobs.md"
+      "basename": "KodeCloud - CKAD - Labels, Selectors and Annotations",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Labels, Selectors and Annotations.md"
     },
     {
       "basename": "111 KodeCloud Index",
       "path": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md"
-    },
-    {
-      "basename": "KodeCloud - Kubernetes Beginner",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - Kubernetes Beginner.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - Labels, Selectors and Annotations",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Labels, Selectors and Annotations.md"
     },
     {
       "basename": "Google Cloud Course",
@@ -23,6 +15,14 @@
     {
       "basename": "KodeCloud - CKAD - Misc",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Misc.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Jobs",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Jobs.md"
+    },
+    {
+      "basename": "KodeCloud - Kubernetes Beginner",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - Kubernetes Beginner.md"
     },
     {
       "basename": "KodeCloud - CKAD - Logging",

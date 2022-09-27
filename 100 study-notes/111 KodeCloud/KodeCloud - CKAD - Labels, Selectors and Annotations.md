@@ -1,6 +1,6 @@
 ---
 created: 2022-09-26 16:37
-updated: 2022-09-26 16:57
+updated: 2022-09-26 20:01
 ---
 ---
 **Links**: [[111 KodeCloud Index]]
@@ -40,4 +40,20 @@ spec:
 	- `k get all --selector env=prod,bu=finance,tier=frontend`
 
 ## Annotations
-- While labels and selectors are used to group and select objects **annotations are used to record other details for informatory purpose**.
+- While labels and selectors are used to group and select objects whereas annotations are used to attach arbitrary **non-identifying metadata** (k8s doesn't care about this data) to objects.
+	- *Clients such as tools and libraries can retrieve this metadata*.
+
+> [!important]- You can use *either labels or annotations to attach metadata to Kubernetes objects*. Labels can be used to select objects and to find collections of objects that satisfy certain conditions. In contrast, **annotations are not used to identify and select objects**.
+
+- Annotations are also key-value pairs (similar to labels) that can be used to *store the **unstructured information** pertaining to the Kubernetes objects*.
+	- Annotations can be used to add timestamps, commit SHA, issue tracker links, or names/information about users who are responsible for specific objects in an organisation.
+	- Annotations can also be used to *add information about client libraries or tools*.
+
+> [!note]- Labels are for k8s while annotations are for humans.
+> - Labels have some constraints, annotations have no constraints.
+
+> [!caution]- While annotations do not inherently imply semantics to the Kubernetes core, it is still *possible for them to affect operation in some cases*. 
+> - A good example of this is with the NGINX Ingress controller (along with other ones). 
+> - The **NGINX Ingress controller allows you to add Kubernetes annotations onto your ingress objects to affect their behaviour**. 
+> - Most of these map cleanly to the configuration options available in NGINX, and as such, it is a nice way to allow mapping NGINX specific concepts onto your Kubernetes resources.
+> - The *NGINX Ingress controller is then able to read these annotations and apply them as needed*. 
