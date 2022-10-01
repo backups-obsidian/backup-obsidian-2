@@ -1,11 +1,12 @@
 ---
 created: 2022-09-26 16:37
-updated: 2022-09-26 20:01
+updated: 2022-09-26 22:55
 ---
 ---
 **Links**: [[111 KodeCloud Index]]
 
 ---
+## Labels and Selectors
 - *Labels and Selectors* are a *standard method to group things together* and filter them according to your needs.
 	- **Labels are properties attached to each item**.
 		- ![[attachments/Pasted image 20220926163615.png]]
@@ -39,9 +40,13 @@ spec:
 - Specifying multiple selectors:
 	- `k get all --selector env=prod,bu=finance,tier=frontend`
 
+- Instead of `--selector` we can also use `-l`: `k get all -l env=prod`
+
+> [!note]- Labels are limited to 63 characters.
+
 ## Annotations
 - While labels and selectors are used to group and select objects whereas annotations are used to attach arbitrary **non-identifying metadata** (k8s doesn't care about this data) to objects.
-	- *Clients such as tools and libraries can retrieve this metadata*.
+	- **Clients such as tools and libraries can retrieve this metadata and can retrieve it for configuration**. For example ingress controllers.
 
 > [!important]- You can use *either labels or annotations to attach metadata to Kubernetes objects*. Labels can be used to select objects and to find collections of objects that satisfy certain conditions. In contrast, **annotations are not used to identify and select objects**.
 
@@ -57,3 +62,6 @@ spec:
 > - The **NGINX Ingress controller allows you to add Kubernetes annotations onto your ingress objects to affect their behaviour**. 
 > - Most of these map cleanly to the configuration options available in NGINX, and as such, it is a nice way to allow mapping NGINX specific concepts onto your Kubernetes resources.
 > - The *NGINX Ingress controller is then able to read these annotations and apply them as needed*. 
+
+## Reference
+- [kubernetes use cases on job and pod annotations - YouTube](https://www.youtube.com/watch?v=VOfMrWVVUzM)

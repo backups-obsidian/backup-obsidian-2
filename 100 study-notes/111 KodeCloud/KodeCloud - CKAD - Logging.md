@@ -1,6 +1,6 @@
 ---
 created: 2022-09-15 21:09
-updated: 2022-09-26 13:40
+updated: 2022-09-26 22:53
 ---
 ---
 **Links**: [[111 KodeCloud Index]]
@@ -14,5 +14,5 @@ updated: 2022-09-26 13:40
 	- `k logs -f <pod-name>`
 	- `-f` is used to stream the logs live.
 - If we have **multiple containers in the pod then we must specify the name of container explicitly in the command** otherwise it would fail.
-	- `k logs -f <pod-name> <container-name>`
+	- `k logs -f <pod-name> -c <container-name>`
 	- ![[attachments/Pasted image 20220926133356.png]]
