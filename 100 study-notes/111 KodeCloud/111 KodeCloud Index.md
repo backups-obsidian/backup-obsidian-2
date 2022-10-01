@@ -1,6 +1,6 @@
 ---
 created: 2022-09-13 16:17
-updated: 2022-09-26 17:20
+updated: 2022-10-01 19:19
 ---
 ---
 **Links**: [[../100 home| 100 Home]]
@@ -32,6 +32,8 @@ updated: 2022-09-26 17:20
 [[KodeCloud - CKAD - Logging]]
 [[KodeCloud - CKAD - Labels, Selectors and Annotations]]
 [[KodeCloud - CKAD - Jobs]]
+[[KodeCloud - CKAD - Network Policies]]
+[[KodeCloud - CKAD - Ingress]]
 
 To Do: 
 - [ ] Volume mounts inside pods and containers
@@ -66,3 +68,6 @@ spec:
 ```
 - My hunch is that directory location on host is the directory location on pod.
 - In Docker it is simple since we only have the host and the container. 
+
+- Things to do
+	- add readiness or liveness probes

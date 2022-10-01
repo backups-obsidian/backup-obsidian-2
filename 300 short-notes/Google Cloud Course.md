@@ -1,6 +1,6 @@
 ---
 created: 2022-09-24 19:30
-updated: 2022-09-25 23:35
+updated: 2022-09-26 23:57
 ---
 ---
 **Links**: [[300 home]]
@@ -45,3 +45,18 @@ updated: 2022-09-25 23:35
 	- ![[attachments/Pasted image 20220925164423.png]]
 	- ![[attachments/Pasted image 20220925164322.png]]
 
+### ACL
+- ACLs define **who** has access to your buckets and objects, as well as **what level** of access they have 
+
+> [!question]- How is ACL different from IAM?
+> - IAM permissions apply to all objects within a bucket.
+> - **ACLs can be used to customised specific accesses to different objects**.
+
+- User gets access if he is allowed by either IAM or ACL!
+- Use IAM for common permissions to all objects in a bucket
+- Use ACLs if you need to customise access to individual objects
+- Two types of access controls:
+	- Uniform: Uniform bucket level access using IAM
+		- Use Uniform access when all users have same level of access across all objects in a bucket
+	- Fine-grained: Use IAM and ACLs to control access
+		- Fine grained access with ACLs can be used when you need to customise the access at an object level.

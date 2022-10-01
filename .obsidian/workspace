@@ -19,12 +19,12 @@
         }
       },
       {
-        "id": "eaad3406917a6ff6",
+        "id": "d3908eee5940db02",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Labels, Selectors and Annotations.md",
+            "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Ingress.md",
             "mode": "source",
             "backlinks": false,
             "source": true
@@ -32,12 +32,12 @@
         }
       },
       {
-        "id": "78ff2e41361e5055",
+        "id": "2135da51e4f9286b",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "300 short-notes/Google Cloud Course.md",
+            "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Network Policies.md",
             "mode": "preview",
             "backlinks": false,
             "source": true
@@ -45,7 +45,7 @@
         }
       },
       {
-        "id": "2135da51e4f9286b",
+        "id": "38b3641d6d3e944c",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -128,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Labels, Selectors and Annotations.md",
+                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Network Policies.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Labels, Selectors and Annotations.md"
+                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Network Policies.md"
               }
             }
           },
@@ -174,7 +174,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Labels, Selectors and Annotations.md",
+                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Network Policies.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -219,17 +219,17 @@
     "width": 278.0398254394531,
     "collapsed": true
   },
-  "active": "eaad3406917a6ff6",
+  "active": "2135da51e4f9286b",
   "lastOpenFiles": [
+    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Ingress.md",
     "100 study-notes/111 KodeCloud/111 KodeCloud Index.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Labels, Selectors and Annotations.md",
-    "300 short-notes/Google Cloud Course.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Misc.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Jobs.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Network Policies.md",
     "100 study-notes/111 KodeCloud/KodeCloud - Kubernetes Beginner.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Logging.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Probes.md",
-    "100 study-notes/101 AWS SAA/RDS.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Multi Container Pods.md"
+    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Multi Container Pods.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Misc.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Commands and Arguments.md",
+    "300 short-notes/Google Cloud Course.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Labels, Selectors and Annotations.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Logging.md"
   ]
 }

@@ -1,32 +1,48 @@
 {
   "recentFiles": [
     {
-      "basename": "KodeCloud - CKAD - Labels, Selectors and Annotations",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Labels, Selectors and Annotations.md"
+      "basename": "KodeCloud - CKAD - Network Policies",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Network Policies.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Ingress",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Ingress.md"
     },
     {
       "basename": "111 KodeCloud Index",
       "path": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md"
     },
     {
-      "basename": "Google Cloud Course",
-      "path": "300 short-notes/Google Cloud Course.md"
+      "basename": "KodeCloud - Kubernetes Beginner",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - Kubernetes Beginner.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Multi Container Pods",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Multi Container Pods.md"
     },
     {
       "basename": "KodeCloud - CKAD - Misc",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Misc.md"
     },
     {
-      "basename": "KodeCloud - CKAD - Jobs",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Jobs.md"
+      "basename": "KodeCloud - CKAD - Commands and Arguments",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Commands and Arguments.md"
     },
     {
-      "basename": "KodeCloud - Kubernetes Beginner",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - Kubernetes Beginner.md"
+      "basename": "Google Cloud Course",
+      "path": "300 short-notes/Google Cloud Course.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Labels, Selectors and Annotations",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Labels, Selectors and Annotations.md"
     },
     {
       "basename": "KodeCloud - CKAD - Logging",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Logging.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Jobs",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Jobs.md"
     },
     {
       "basename": "KodeCloud - CKAD - Probes",
@@ -35,10 +51,6 @@
     {
       "basename": "RDS",
       "path": "100 study-notes/101 AWS SAA/RDS.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - Multi Container Pods",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Multi Container Pods.md"
     },
     {
       "basename": "300 home",
@@ -51,10 +63,6 @@
     {
       "basename": "KodeCloud - CKAD - Taints and Tolerations",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Taints and Tolerations.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - Commands and Arguments",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Commands and Arguments.md"
     },
     {
       "basename": "KodeCloud - CKAD - Service Accounts",
@@ -191,14 +199,6 @@
     {
       "basename": "Kubernetes - Monitoring",
       "path": "100 study-notes/110 Kubernetes/Kubernetes - Monitoring.md"
-    },
-    {
-      "basename": "Kubernetes - k8s setup using kind",
-      "path": "100 study-notes/110 Kubernetes/Kubernetes - k8s setup using kind.md"
-    },
-    {
-      "basename": "Kubernetes - Chain of events behind running a pod",
-      "path": "100 study-notes/110 Kubernetes/Kubernetes - Chain of events behind running a pod.md"
     }
   ],
   "omittedPaths": [],
