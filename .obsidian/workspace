@@ -32,19 +32,6 @@
         }
       },
       {
-        "id": "2135da51e4f9286b",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Network Policies.md",
-            "mode": "preview",
-            "backlinks": false,
-            "source": true
-          }
-        }
-      },
-      {
         "id": "38b3641d6d3e944c",
         "type": "leaf",
         "state": {
@@ -128,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Network Policies.md",
+                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Ingress.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Network Policies.md"
+                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Ingress.md"
               }
             }
           },
@@ -174,7 +161,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Network Policies.md",
+                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Ingress.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -219,11 +206,11 @@
     "width": 278.0398254394531,
     "collapsed": true
   },
-  "active": "2135da51e4f9286b",
+  "active": "d3908eee5940db02",
   "lastOpenFiles": [
+    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Network Policies.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Ingress.md",
     "100 study-notes/111 KodeCloud/111 KodeCloud Index.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Network Policies.md",
     "100 study-notes/111 KodeCloud/KodeCloud - Kubernetes Beginner.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Multi Container Pods.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Misc.md",

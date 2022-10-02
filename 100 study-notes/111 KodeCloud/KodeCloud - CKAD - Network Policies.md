@@ -1,6 +1,6 @@
 ---
 created: 2022-09-15 21:09
-updated: 2022-10-01 19:46
+updated: 2022-10-01 20:06
 ---
 ---
 **Links**: [[111 KodeCloud Index]]
@@ -59,6 +59,9 @@ spec:
       port: 3306
 ```
 
+- Listing the network policies:
+	- `k get netpol`
+
 - By default only the API pods in the prod namespace can access the database pod in the prod namespace.
 	- API pods with the same labels will not be able to access the database pod unless the following is specified
 	- ![[attachments/Pasted image 20221001192932.png]]
@@ -70,6 +73,11 @@ spec:
 	- It won't be able to access the database pod since it is not a pod within the cluster. So the podSelector and namespaceSelector fields are useless.
 	- *But we can configure the network policy to allow traffic originating from certain IP addresses*.
 	- ![[attachments/Pasted image 20221001193414.png]]
+
+> [!danger]- By default all pods allow ingress and egress traffic on all the ports. **But as soon as we apply a network policy everything gets blocked and we have to manually allow ingress and egress by specifying rules in the network policy definition file**.
+> - If we only have ingress rules as shown in the example yaml file then we will only have ingress traffic and egress traffic will be blocked unless we specify egress rules.
+> - The sample network policy will yield something like this when we describe it
+> ![[attachments/Pasted image 20221001195930.png]]
 
 - If the database pod pushes backup to an external server then we would need egress rules.
 
@@ -93,3 +101,8 @@ spec:
 > - Since it can get traffic from all the pods in the prod namespace.
 > - It can get traffic from all the api pods in other namespaces.
 > ![[attachments/Pasted image 20221001194301.png]]
+
+---
+
+- Sample egress file with multiple destinations (there will be multiple `to` blocks):
+	- ![[attachments/Pasted image 20221001200704.png]]
