@@ -1,6 +1,6 @@
 ---
 created: 2022-09-23 16:03
-updated: 2022-09-26 13:33
+updated: 2022-10-02 10:22
 ---
 ---
 **Links**: [[111 KodeCloud Index]]
@@ -26,3 +26,10 @@ updated: 2022-09-26 13:33
 
 - Forcefully apply a file 
 	- `k apply -f --force <file-name>.yaml`
+
+- Get objects from all the namespaces:
+	- `k get <resource-name> -A`
+	- Example: `k get pods -A`
+	- Get all the objects in all namespaces: `k get all -A `
+
+

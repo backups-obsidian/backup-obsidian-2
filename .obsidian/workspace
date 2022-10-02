@@ -25,7 +25,7 @@
           "type": "markdown",
           "state": {
             "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Ingress.md",
-            "mode": "source",
+            "mode": "preview",
             "backlinks": false,
             "source": true
           }
@@ -208,12 +208,12 @@
   },
   "active": "d3908eee5940db02",
   "lastOpenFiles": [
-    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Network Policies.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Ingress.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Misc.md",
     "100 study-notes/111 KodeCloud/111 KodeCloud Index.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Ingress.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Network Policies.md",
     "100 study-notes/111 KodeCloud/KodeCloud - Kubernetes Beginner.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Multi Container Pods.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Misc.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Commands and Arguments.md",
     "300 short-notes/Google Cloud Course.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Labels, Selectors and Annotations.md",

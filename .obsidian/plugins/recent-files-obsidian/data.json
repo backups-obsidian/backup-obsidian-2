@@ -5,12 +5,16 @@
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Ingress.md"
     },
     {
-      "basename": "KodeCloud - CKAD - Network Policies",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Network Policies.md"
+      "basename": "KodeCloud - CKAD - Misc",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Misc.md"
     },
     {
       "basename": "111 KodeCloud Index",
       "path": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Network Policies",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Network Policies.md"
     },
     {
       "basename": "KodeCloud - Kubernetes Beginner",
@@ -19,10 +23,6 @@
     {
       "basename": "KodeCloud - CKAD - Multi Container Pods",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Multi Container Pods.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - Misc",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Misc.md"
     },
     {
       "basename": "KodeCloud - CKAD - Commands and Arguments",
