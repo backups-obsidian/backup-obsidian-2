@@ -1,6 +1,6 @@
 ---
 created: 2022-09-23 16:03
-updated: 2022-10-02 10:22
+updated: 2022-10-02 22:51
 ---
 ---
 **Links**: [[111 KodeCloud Index]]
@@ -32,4 +32,4 @@ updated: 2022-10-02 10:22
 	- Example: `k get pods -A`
 	- Get all the objects in all namespaces: `k get all -A `
 
-
+- Service full DNS: `<svc-name>.<namespace>.svc.cluster.local`

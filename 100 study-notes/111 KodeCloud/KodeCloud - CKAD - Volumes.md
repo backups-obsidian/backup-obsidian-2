@@ -1,6 +1,6 @@
 ---
 created: 2022-09-15 21:09
-updated: 2022-10-02 21:03
+updated: 2022-10-03 14:17
 ---
 ---
 **Links**: [[111 KodeCloud Index]]
@@ -60,6 +60,8 @@ volumes:
 > Users can select storage from this pool using persistent volume claim (PVC).
 > ![[attachments/Pasted image 20221002162448.png]]
 
+- **Just like the nodes in a cluster, PV is a resource in the cluster**.
+
 - Simple persistent volume yaml file
 ```yaml
 apiVersion: vl
@@ -76,13 +78,18 @@ spec:
 		path: /tmp/data
 ```
 
-- Access modes define how a volume should be mounted on the host. Supported values are:
-	- `ReadOnlyMany`
-	- `ReadWriteMany`
-	- `ReadWriteOnce`
+- Access modes define how a volume should be mounted on the host (node). *Access Modes of your PersistentVolume affect wether all your pods can access the volume concurrently from different Nodes or not*.
+	- `ReadOnlyMany (ROX)`
+	- `ReadWriteMany (RWX)`
+	- `ReadWriteOnce (RWO)`: The volume can be mounted as read-write by a *single node*. ReadWriteOnce access mode *still can allow multiple pods to access the volume when the pods are running on the **same** node*.
+
+> [!note]- All these access modes may not be supported by all the storage classes.
+
 - We can replace the `hostPath` option with `awsElasticBlockStore` or any other supported storage types.
 
 - Listing the persistent volumes: `k get persistentvolume` or `k get pv`
+
+> [!caution]- PVs are not bound to any name space so `k get pv` will list all the PVs.
 
 ## Persistent Volume Claims
 - Once the PVCs are created k8s binds them to the PV.
@@ -90,10 +97,11 @@ spec:
 	- During the binding *k8s tries to find a PV that has sufficient capacity as requested by the PVC and any other request properties like **access modes**, volume mode, storage class etc*.
 	- If there are multiple possible matches for a single claim and we would specifically like to use a specific volume we can use selectors to bind to the right volume.
 
-> [!note]+ A smaller claim may get bound to a larger volume if all the other criteria matches and there are no other options.
+> [!note]+ A *smaller claim may get bound to a larger volume* if all the other criteria matches and there are no other options.
 > There is a 1 to 1 relationship between claims and volumes so no other claims can utilise the remaining capacity in the volume.
 > ![[attachments/Pasted image 20221002164442.png]]
 > ![[attachments/Pasted image 20221002164324.png]]
+> In the above image we see that we only needed the 500Mi but we got 1Gi
 
 - *If there are no volumes available then PVC will remain in a pending state* until newer volumes are made available to the cluster.
 
@@ -162,6 +170,7 @@ spec:
 ## Summary PV, PVC & Pods
 ![[attachments/Pasted image 20221002202326.png]]
 
+
 ## Storage Classes
 - Before PV is created we should have created the storage on some storage platform we are using.
 	- This has to be done every time before we create a PV.
@@ -194,13 +203,107 @@ provisioner: kubernetes.io/gce-pd
 
 - List all the storage classes: `k get sc`
 
-- Local volumes do not currently support dynamic provisioning (so we will have to create a PV for local volume), however a StorageClass should still be created to delay volume binding until Pod scheduling. This is specified by the `WaitForFirstConsumer` volume binding mode.
+## Difference between Volumes and Local PV
+- A `hostPath` volume *mounts a file or directory from the host node's filesystem into your Pod*. This is not something most pods will need.
+	- So, if you have a multi-node cluster, the *pod is restarted for some reasons and assigned to another node*, the new node won't have the old data on the same path. 
+	- That's why we have seen, that hostPath volumes **work well only on single-node clusters**.
+- Here, the Kubernetes `local persistent volumes` help us to overcome the restriction and we **can work in a multi-node environment** with no problems. 
+	- **It remembers which node was used for provisioning the volume**, thus making sure that a restarting POD always will find the data storage in the state it had left it before the reboot.
+- **Once a node has died, the data of both `hostpath` and `local persitent` volumes of that node are lost.**
 
+> [!note]- If we use `hostPath` with glusterfs mount then no need to care about pod rescheduling, wherever pod get reschedule it will get updated data due to glusterfs replication.
+
+- *Both use local disks of the machine*.
+
+> [!caution]- Although `hostPath` is easy it should not be used in production.
+
+- **To use local pv, we must first define the storage class**:
 ```yaml
-apiVersion: storage.k8s.io/v1
 kind: StorageClass
+apiVersion: storage.k8s.io/v1
 metadata:
   name: local-storage
 provisioner: kubernetes.io/no-provisioner
 volumeBindingMode: WaitForFirstConsumer
 ```
+
+- Local volumes do not currently support dynamic provisioning (so we will have to create a PV for local volume), however a StorageClass should still be created to delay volume binding until Pod scheduling. This is specified by the `WaitForFirstConsumer` volume binding mode.
+
+## Difference between emptydir & hostpath
+- An `emptyDir` volume is first created when a Pod is assigned to a Node, and **exists as long as that Pod is running on that node**.
+	- Volume data of hostPath is persisted in the file system of node. Even if POD is deleted, volume data is still stored in Node.
+- *`emptyDir` space can be shared by multiple containers in a pod if needed*.
+
+> [!note]- When a Pod is restarted or removed, the data in the emptyDir is lost forever.
+
+- Some *use cases* for an emptyDir are:
+	- scratch space, for a sort algorithm for example
+	- when a long computation needs to be done in memory
+	- **as a cache**
+	- **Sharing a storage space between containers**.
+
+- emptyDir example
+```yaml
+apiVersion: v1
+kind: Pod
+metadata:
+  name: my-pod
+spec:
+  containers:
+  - image: my-app-image
+    name: my-app
+    volumeMounts:
+    - mountPath: /cache
+      name: cache-volume
+  volumes:
+    - name: cache-volume
+      emptyDir: {}
+```
+
+> [!question]+ Is `emptyDir` different from no volume at all?
+> Yes it is different
+> - One of the main features of the `emptyDir` is that **it can be mounted on multiple containers inside the same Pod**.  This cannot be done by using no volumes.
+> - `emptyDirs` are **preserved when the container inside the pod are restarted but not when the pod is re-scheduled**. No volumes are not preserved when the container crashes.
+> - So if you just want to *preserve the data from container crashes* and not pod rescheduling then you should use emptyDir.
+
+- Sample yaml of 3 containers sharing the same emptyDir volume
+```yaml
+apiVersion: v1
+kind: Pod
+metadata:
+  name: myvolumes-pod
+spec:
+  containers:
+  - image: alpine
+    imagePullPolicy: IfNotPresent
+    name: myvolumes-container-1
+    command: ['sh', '-c', 'echo The Bench Container 1 is Running ; sleep 3600']
+    volumeMounts:
+    - mountPath: /demo1
+      name: demo-volume
+
+  - image: alpine
+    imagePullPolicy: IfNotPresent
+    name: myvolumes-container-2
+    command: ['sh', '-c', 'echo The Bench Container 2 is Running ; sleep 3600']
+    volumeMounts:
+    - mountPath: /demo2
+      name: demo-volume
+
+  - image: alpine
+    imagePullPolicy: IfNotPresent
+    name: myvolumes-container-3
+    command: ['sh', '-c', 'echo The Bench Container 3 is Running ; sleep 3600']
+    volumeMounts:
+    - mountPath: /demo3
+      name: demo-volume
+
+  volumes:
+  - name: demo-volume
+    emptyDir: {}
+```
+- Note all 3 containers refer to the same **name: demo-volume**
+	- All 3 containers mount the **emptyDir** at *different mount points*.
+
+### References 
+- [Kubernetes Volume Basics: emptyDir and PersistentVolume - Alibaba Cloud Community](https://www.alibabacloud.com/blog/kubernetes-volume-basics-emptydir-and-persistentvolume_594834)

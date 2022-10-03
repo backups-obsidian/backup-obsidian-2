@@ -19,26 +19,13 @@
         }
       },
       {
-        "id": "925852d378e6928b",
+        "id": "5ff346451e9a2759",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - StatefulSets.md",
+            "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Security Primitives.md",
             "mode": "source",
-            "backlinks": false,
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "660c272f8da864d9",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "100 study-notes/110 Kubernetes/Kubernetes - StatefulSet.md",
-            "mode": "preview",
             "backlinks": false,
             "source": true
           }
@@ -128,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - StatefulSets.md",
+                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Security Primitives.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - StatefulSets.md"
+                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Security Primitives.md"
               }
             }
           },
@@ -174,7 +161,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - StatefulSets.md",
+                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Security Primitives.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -219,17 +206,17 @@
     "width": 278.0398254394531,
     "collapsed": true
   },
-  "active": "925852d378e6928b",
+  "active": "5ff346451e9a2759",
   "lastOpenFiles": [
-    "100 study-notes/110 Kubernetes/Kubernetes - StatefulSet.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - StatefulSets.md",
-    "100 study-notes/110 Kubernetes/110 Kubernetes Index.md",
     "100 study-notes/111 KodeCloud/111 KodeCloud Index.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Volumes.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - StatefulSets.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Misc.md",
+    "100 study-notes/110 Kubernetes/Kubernetes - StatefulSet.md",
+    "100 study-notes/110 Kubernetes/110 Kubernetes Index.md",
     "100 study-notes/104 Linux/104 Linux Index.md",
     "100 study-notes/111 KodeCloud/KodeCloud - Package Management using yum.md",
     "100 study-notes/111 KodeCloud/KodeCloud - Linux Services.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Misc.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Ingress.md"
   ]
 }

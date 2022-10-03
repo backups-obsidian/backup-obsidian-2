@@ -1,16 +1,8 @@
 {
   "recentFiles": [
     {
-      "basename": "KodeCloud - CKAD - StatefulSets",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - StatefulSets.md"
-    },
-    {
-      "basename": "Kubernetes - StatefulSet",
-      "path": "100 study-notes/110 Kubernetes/Kubernetes - StatefulSet.md"
-    },
-    {
-      "basename": "110 Kubernetes Index",
-      "path": "100 study-notes/110 Kubernetes/110 Kubernetes Index.md"
+      "basename": "KodeCloud - CKAD - Security Primitives",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Security Primitives.md"
     },
     {
       "basename": "111 KodeCloud Index",
@@ -19,6 +11,22 @@
     {
       "basename": "KodeCloud - CKAD - Volumes",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Volumes.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - StatefulSets",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - StatefulSets.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Misc",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Misc.md"
+    },
+    {
+      "basename": "Kubernetes - StatefulSet",
+      "path": "100 study-notes/110 Kubernetes/Kubernetes - StatefulSet.md"
+    },
+    {
+      "basename": "110 Kubernetes Index",
+      "path": "100 study-notes/110 Kubernetes/110 Kubernetes Index.md"
     },
     {
       "basename": "104 Linux Index",
@@ -31,10 +39,6 @@
     {
       "basename": "KodeCloud - Linux Services",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - Linux Services.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - Misc",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Misc.md"
     },
     {
       "basename": "KodeCloud - CKAD - Ingress",
@@ -195,10 +199,6 @@
     {
       "basename": "Kubernetes - Services Deep Dive",
       "path": "100 study-notes/110 Kubernetes/Kubernetes - Services Deep Dive.md"
-    },
-    {
-      "basename": "Kubernetes - Volumes",
-      "path": "100 study-notes/110 Kubernetes/Kubernetes - Volumes.md"
     }
   ],
   "omittedPaths": [],
