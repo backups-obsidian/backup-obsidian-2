@@ -1,9 +1,11 @@
 ---
 created: 2022-09-13 23:57
-updated: 2022-09-14 00:13
+updated: 2022-10-02 12:26
 ---
 ---
-**Links**: [[111 KodeCloud Index]]
+**Links**: 
+- [[../104 Linux/104 Linux Index | 104 Linux Index]]
+- [[111 KodeCloud Index]]
 
 ---
 ## Package Management

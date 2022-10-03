@@ -19,12 +19,25 @@
         }
       },
       {
-        "id": "d3908eee5940db02",
+        "id": "925852d378e6928b",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Ingress.md",
+            "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - StatefulSets.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "660c272f8da864d9",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "100 study-notes/110 Kubernetes/Kubernetes - StatefulSet.md",
             "mode": "preview",
             "backlinks": false,
             "source": true
@@ -32,7 +45,7 @@
         }
       },
       {
-        "id": "38b3641d6d3e944c",
+        "id": "39f6c29ce335d02e",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -115,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Ingress.md",
+                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - StatefulSets.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Ingress.md"
+                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - StatefulSets.md"
               }
             }
           },
@@ -161,7 +174,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Ingress.md",
+                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - StatefulSets.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -206,17 +219,17 @@
     "width": 278.0398254394531,
     "collapsed": true
   },
-  "active": "d3908eee5940db02",
+  "active": "925852d378e6928b",
   "lastOpenFiles": [
-    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Misc.md",
+    "100 study-notes/110 Kubernetes/Kubernetes - StatefulSet.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - StatefulSets.md",
+    "100 study-notes/110 Kubernetes/110 Kubernetes Index.md",
     "100 study-notes/111 KodeCloud/111 KodeCloud Index.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Ingress.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Network Policies.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - Kubernetes Beginner.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Multi Container Pods.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Commands and Arguments.md",
-    "300 short-notes/Google Cloud Course.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Labels, Selectors and Annotations.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Logging.md"
+    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Volumes.md",
+    "100 study-notes/104 Linux/104 Linux Index.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - Package Management using yum.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - Linux Services.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Misc.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Ingress.md"
   ]
 }

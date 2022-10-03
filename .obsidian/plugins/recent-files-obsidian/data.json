@@ -1,16 +1,44 @@
 {
   "recentFiles": [
     {
-      "basename": "KodeCloud - CKAD - Ingress",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Ingress.md"
+      "basename": "KodeCloud - CKAD - StatefulSets",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - StatefulSets.md"
+    },
+    {
+      "basename": "Kubernetes - StatefulSet",
+      "path": "100 study-notes/110 Kubernetes/Kubernetes - StatefulSet.md"
+    },
+    {
+      "basename": "110 Kubernetes Index",
+      "path": "100 study-notes/110 Kubernetes/110 Kubernetes Index.md"
+    },
+    {
+      "basename": "111 KodeCloud Index",
+      "path": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Volumes",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Volumes.md"
+    },
+    {
+      "basename": "104 Linux Index",
+      "path": "100 study-notes/104 Linux/104 Linux Index.md"
+    },
+    {
+      "basename": "KodeCloud - Package Management using yum",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - Package Management using yum.md"
+    },
+    {
+      "basename": "KodeCloud - Linux Services",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - Linux Services.md"
     },
     {
       "basename": "KodeCloud - CKAD - Misc",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Misc.md"
     },
     {
-      "basename": "111 KodeCloud Index",
-      "path": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md"
+      "basename": "KodeCloud - CKAD - Ingress",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Ingress.md"
     },
     {
       "basename": "KodeCloud - CKAD - Network Policies",
@@ -77,10 +105,6 @@
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Security Context.md"
     },
     {
-      "basename": "104 Linux Index",
-      "path": "100 study-notes/104 Linux/104 Linux Index.md"
-    },
-    {
       "basename": "Linux - UID & GID",
       "path": "100 study-notes/104 Linux/Linux - UID & GID.md"
     },
@@ -95,18 +119,6 @@
     {
       "basename": "IAM in Google Cloud",
       "path": "300 short-notes/IAM in Google Cloud.md"
-    },
-    {
-      "basename": "110 Kubernetes Index",
-      "path": "100 study-notes/110 Kubernetes/110 Kubernetes Index.md"
-    },
-    {
-      "basename": "KodeCloud - Linux Services",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - Linux Services.md"
-    },
-    {
-      "basename": "KodeCloud - Package Management using yum",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - Package Management using yum.md"
     },
     {
       "basename": "KodeCloud - WebServers",
@@ -187,18 +199,6 @@
     {
       "basename": "Kubernetes - Volumes",
       "path": "100 study-notes/110 Kubernetes/Kubernetes - Volumes.md"
-    },
-    {
-      "basename": "Kubernetes - StatefulSet",
-      "path": "100 study-notes/110 Kubernetes/Kubernetes - StatefulSet.md"
-    },
-    {
-      "basename": "Kubernetes - Logical Components",
-      "path": "100 study-notes/110 Kubernetes/Kubernetes - Logical Components.md"
-    },
-    {
-      "basename": "Kubernetes - Monitoring",
-      "path": "100 study-notes/110 Kubernetes/Kubernetes - Monitoring.md"
     }
   ],
   "omittedPaths": [],

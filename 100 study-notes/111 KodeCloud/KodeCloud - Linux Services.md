@@ -1,9 +1,11 @@
 ---
 created: 2022-09-14 00:22
-updated: 2022-09-15 08:43
+updated: 2022-10-02 12:25
 ---
 ---
-**Links**: [[111 KodeCloud Index]]
+**Links**: 
+- [[../104 Linux/104 Linux Index | 104 Linux Index]]
+- [[111 KodeCloud Index]]
 
 ---
 ## Linux Services
