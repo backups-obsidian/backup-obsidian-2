@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "KodeCloud - CKAD - Security Primitives",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Security Primitives.md"
+      "basename": "KodeCloud - CKAD - Helm Charts",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Helm Charts.md"
     },
     {
       "basename": "111 KodeCloud Index",
       "path": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - KubeConfig",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - KubeConfig.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Security Primitives",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Security Primitives.md"
     },
     {
       "basename": "KodeCloud - CKAD - Volumes",
@@ -191,14 +199,6 @@
     {
       "basename": "109 AWS Self Taught Index",
       "path": "100 study-notes/109 AWS Self Taught/109 AWS Self Taught Index.md"
-    },
-    {
-      "basename": "AWS Self - ECR",
-      "path": "100 study-notes/109 AWS Self Taught/AWS Self - ECR.md"
-    },
-    {
-      "basename": "Kubernetes - Services Deep Dive",
-      "path": "100 study-notes/110 Kubernetes/Kubernetes - Services Deep Dive.md"
     }
   ],
   "omittedPaths": [],

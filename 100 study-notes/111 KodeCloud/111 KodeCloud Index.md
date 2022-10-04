@@ -1,6 +1,6 @@
 ---
 created: 2022-09-13 16:17
-updated: 2022-10-03 15:55
+updated: 2022-10-03 18:18
 ---
 ---
 **Links**: [[../100 home| 100 Home]]
@@ -36,4 +36,8 @@ updated: 2022-10-03 15:55
 [[KodeCloud - CKAD - Ingress]]
 [[KodeCloud - CKAD - Volumes]]
 [[KodeCloud - CKAD - StatefulSets]]
+[[KodeCloud - CKAD - Helm Charts]]
+
+[[KodeCloud - CKAD - KubeConfig]]
+
 [[KodeCloud - CKAD - Security Primitives]]

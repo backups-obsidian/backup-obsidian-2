@@ -19,13 +19,13 @@
         }
       },
       {
-        "id": "5ff346451e9a2759",
+        "id": "cb6cdf176a8dde15",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Security Primitives.md",
-            "mode": "source",
+            "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Helm Charts.md",
+            "mode": "preview",
             "backlinks": false,
             "source": true
           }
@@ -115,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Security Primitives.md",
+                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Helm Charts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Security Primitives.md"
+                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Helm Charts.md"
               }
             }
           },
@@ -161,7 +161,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Security Primitives.md",
+                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Helm Charts.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -206,17 +206,17 @@
     "width": 278.0398254394531,
     "collapsed": true
   },
-  "active": "5ff346451e9a2759",
+  "active": "cb6cdf176a8dde15",
   "lastOpenFiles": [
     "100 study-notes/111 KodeCloud/111 KodeCloud Index.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - KubeConfig.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Helm Charts.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Security Primitives.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Volumes.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKAD - StatefulSets.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Misc.md",
     "100 study-notes/110 Kubernetes/Kubernetes - StatefulSet.md",
     "100 study-notes/110 Kubernetes/110 Kubernetes Index.md",
-    "100 study-notes/104 Linux/104 Linux Index.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - Package Management using yum.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - Linux Services.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Ingress.md"
+    "100 study-notes/104 Linux/104 Linux Index.md"
   ]
 }

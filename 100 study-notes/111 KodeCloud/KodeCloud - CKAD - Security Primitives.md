@@ -1,6 +1,6 @@
 ---
 created: 2022-10-03 15:58
-updated: 2022-10-03 16:00
+updated: 2022-10-03 16:11
 ---
 ---
 **Links**: [[111 KodeCloud Index]]
@@ -19,3 +19,15 @@ updated: 2022-10-03 16:00
 
 ### Authentication
 - We can different users like admin, developers and machines. 
+- k8s does not manage user accounts natively. It relies on an external source.
+	- We cannot create users in k8s or view the users in k8s.
+- But we can manage and create service accounts.
+
+> [!note]- All user access is managed by the kuber-apiserver.
+> Whether we are using `kubectl` or the API directly. All the requests go through the kubeapi-server.
+> kubeapi-server authenticates the request before processing it.
+> ![[attachments/Pasted image 20221003160444.png]]
+
+- Different authentication mechanisms:
+	- ![[attachments/Pasted image 20221003160524.png]]
+
