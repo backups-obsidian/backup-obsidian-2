@@ -19,6 +19,19 @@
         }
       },
       {
+        "id": "8edbc093df574b24",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Writing helm charts.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": true
+          }
+        }
+      },
+      {
         "id": "cb6cdf176a8dde15",
         "type": "leaf",
         "state": {
@@ -115,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Helm Charts.md",
+                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Writing helm charts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Helm Charts.md"
+                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Writing helm charts.md"
               }
             }
           },
@@ -161,7 +174,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Helm Charts.md",
+                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Writing helm charts.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -206,17 +219,17 @@
     "width": 278.0398254394531,
     "collapsed": true
   },
-  "active": "cb6cdf176a8dde15",
+  "active": "8edbc093df574b24",
   "lastOpenFiles": [
     "100 study-notes/111 KodeCloud/111 KodeCloud Index.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - KubeConfig.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Helm Charts.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Labels, Selectors and Annotations.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - KubeConfig.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Security Primitives.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Volumes.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKAD - StatefulSets.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Misc.md",
     "100 study-notes/110 Kubernetes/Kubernetes - StatefulSet.md",
-    "100 study-notes/110 Kubernetes/110 Kubernetes Index.md",
-    "100 study-notes/104 Linux/104 Linux Index.md"
+    "100 study-notes/110 Kubernetes/110 Kubernetes Index.md"
   ]
 }

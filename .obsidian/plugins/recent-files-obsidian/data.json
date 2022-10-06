@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "KodeCloud - CKAD - Helm Charts",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Helm Charts.md"
+      "basename": "KodeCloud - CKAD - Writing helm charts",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Writing helm charts.md"
     },
     {
       "basename": "111 KodeCloud Index",
       "path": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Helm Charts",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Helm Charts.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Labels, Selectors and Annotations",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Labels, Selectors and Annotations.md"
     },
     {
       "basename": "KodeCloud - CKAD - KubeConfig",
@@ -71,10 +79,6 @@
     {
       "basename": "Google Cloud Course",
       "path": "300 short-notes/Google Cloud Course.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - Labels, Selectors and Annotations",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Labels, Selectors and Annotations.md"
     },
     {
       "basename": "KodeCloud - CKAD - Logging",
@@ -195,10 +199,6 @@
     {
       "basename": "Kubernetes - Networking",
       "path": "100 study-notes/110 Kubernetes/Kubernetes - Networking.md"
-    },
-    {
-      "basename": "109 AWS Self Taught Index",
-      "path": "100 study-notes/109 AWS Self Taught/109 AWS Self Taught Index.md"
     }
   ],
   "omittedPaths": [],

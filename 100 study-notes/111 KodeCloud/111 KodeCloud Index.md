@@ -1,6 +1,6 @@
 ---
 created: 2022-09-13 16:17
-updated: 2022-10-03 18:18
+updated: 2022-10-06 12:14
 ---
 ---
 **Links**: [[../100 home| 100 Home]]
@@ -20,23 +20,31 @@ updated: 2022-10-03 18:18
 
 [[KodeCloud - CKAD - Misc]]
 [[KodeCloud - CKAD - Namespaces]]
+
 [[KodeCloud - CKAD - Commands and Arguments]]
 [[KodeCloud - CKAD - Environment Variables]]
+
 [[KodeCloud - CKAD - Security Context]]
 [[KodeCloud - CKAD - Resource Requirements]]
 [[KodeCloud - CKAD - Service Accounts]]
+
 [[KodeCloud - CKAD - Taints and Tolerations]]
 [[KodeCloud - CKAD - Node Selectors and Node Affinity]]
+
 [[KodeCloud - CKAD - Multi Container Pods]]
 [[KodeCloud - CKAD - Probes]]
 [[KodeCloud - CKAD - Logging]]
+
 [[KodeCloud - CKAD - Labels, Selectors and Annotations]]
 [[KodeCloud - CKAD - Jobs]]
 [[KodeCloud - CKAD - Network Policies]]
 [[KodeCloud - CKAD - Ingress]]
+
 [[KodeCloud - CKAD - Volumes]]
 [[KodeCloud - CKAD - StatefulSets]]
+
 [[KodeCloud - CKAD - Helm Charts]]
+[[KodeCloud - CKAD - Writing helm charts]]
 
 [[KodeCloud - CKAD - KubeConfig]]
 
