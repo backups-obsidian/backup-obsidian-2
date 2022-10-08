@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "KodeCloud - CKAD - Writing helm charts",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Writing helm charts.md"
+      "basename": "KodeCloud - CKAD - Authorisation",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Authorisation.md"
     },
     {
       "basename": "111 KodeCloud Index",
       "path": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - RBAC",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - RBAC.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - API Groups",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - API Groups.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - KubeConfig",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - KubeConfig.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Writing helm charts",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Writing helm charts.md"
     },
     {
       "basename": "KodeCloud - CKAD - Helm Charts",
@@ -15,10 +31,6 @@
     {
       "basename": "KodeCloud - CKAD - Labels, Selectors and Annotations",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Labels, Selectors and Annotations.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - KubeConfig",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - KubeConfig.md"
     },
     {
       "basename": "KodeCloud - CKAD - Security Primitives",
@@ -187,18 +199,6 @@
     {
       "basename": "Kubernetes - Using configuration files",
       "path": "100 study-notes/110 Kubernetes/Kubernetes - Using configuration files.md"
-    },
-    {
-      "basename": "Kubernetes - Commands",
-      "path": "100 study-notes/110 Kubernetes/Kubernetes - Commands.md"
-    },
-    {
-      "basename": "Kubernetes - Deployments & Services",
-      "path": "100 study-notes/110 Kubernetes/Kubernetes - Deployments & Services.md"
-    },
-    {
-      "basename": "Kubernetes - Networking",
-      "path": "100 study-notes/110 Kubernetes/Kubernetes - Networking.md"
     }
   ],
   "omittedPaths": [],
