@@ -1,6 +1,6 @@
 ---
 created: 2022-09-13 16:17
-updated: 2022-10-06 12:14
+updated: 2022-10-08 19:31
 ---
 ---
 **Links**: [[../100 home| 100 Home]]
@@ -49,3 +49,6 @@ updated: 2022-10-06 12:14
 [[KodeCloud - CKAD - KubeConfig]]
 
 [[KodeCloud - CKAD - Security Primitives]]
+[[KodeCloud - CKAD - API Groups]]
+[[KodeCloud - CKAD - Authorisation]]
+[[KodeCloud - CKAD - RBAC]]
