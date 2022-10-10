@@ -1,20 +1,40 @@
 {
   "recentFiles": [
     {
-      "basename": "KodeCloud - CKAD - Authorisation",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Authorisation.md"
+      "basename": "KodeCloud - CKAD - Custom Resource Definition",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Custom Resource Definition.md"
     },
     {
       "basename": "111 KodeCloud Index",
       "path": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md"
     },
     {
-      "basename": "KodeCloud - CKAD - RBAC",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - RBAC.md"
+      "basename": "KodeCloud - CKAD - ApiVersions",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - ApiVersions.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Misc",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Misc.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Admission Controllers",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Admission Controllers.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - ClusterRoles",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - ClusterRoles.md"
     },
     {
       "basename": "KodeCloud - CKAD - API Groups",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - API Groups.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - RBAC",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - RBAC.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Authorisation",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Authorisation.md"
     },
     {
       "basename": "KodeCloud - CKAD - KubeConfig",
@@ -43,10 +63,6 @@
     {
       "basename": "KodeCloud - CKAD - StatefulSets",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - StatefulSets.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - Misc",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Misc.md"
     },
     {
       "basename": "Kubernetes - StatefulSet",
@@ -183,22 +199,6 @@
     {
       "basename": "How to use jq",
       "path": "300 short-notes/How to use jq.md"
-    },
-    {
-      "basename": "Kubernetes - What are containers",
-      "path": "100 study-notes/110 Kubernetes/Kubernetes - What are containers.md"
-    },
-    {
-      "basename": "100 home",
-      "path": "100 study-notes/100 home.md"
-    },
-    {
-      "basename": "Kubernetes - Ingress",
-      "path": "100 study-notes/110 Kubernetes/Kubernetes - Ingress.md"
-    },
-    {
-      "basename": "Kubernetes - Using configuration files",
-      "path": "100 study-notes/110 Kubernetes/Kubernetes - Using configuration files.md"
     }
   ],
   "omittedPaths": [],

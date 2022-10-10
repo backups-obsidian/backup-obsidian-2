@@ -1,6 +1,6 @@
 ---
 created: 2022-09-13 16:17
-updated: 2022-10-08 19:31
+updated: 2022-10-10 12:39
 ---
 ---
 **Links**: [[../100 home| 100 Home]]
@@ -50,5 +50,9 @@ updated: 2022-10-08 19:31
 
 [[KodeCloud - CKAD - Security Primitives]]
 [[KodeCloud - CKAD - API Groups]]
+[[KodeCloud - CKAD - ApiVersions]]
 [[KodeCloud - CKAD - Authorisation]]
 [[KodeCloud - CKAD - RBAC]]
+[[KodeCloud - CKAD - ClusterRoles]]
+[[KodeCloud - CKAD - Admission Controllers]]
+[[KodeCloud - CKAD - Custom Resource Definition]]
