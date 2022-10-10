@@ -1,6 +1,6 @@
 ---
 created: 2022-09-23 16:03
-updated: 2022-10-02 22:51
+updated: 2022-10-08 20:49
 ---
 ---
 **Links**: [[111 KodeCloud Index]]
@@ -33,3 +33,15 @@ updated: 2022-10-02 22:51
 	- Get all the objects in all namespaces: `k get all -A `
 
 - Service full DNS: `<svc-name>.<namespace>.svc.cluster.local`
+- We can remove the headers from the output of any command using: 
+	- `k <command> --no-headers`
+
+> [!caution]+ If we want to get the *short names* or *api version* or *kind* or find out *whether they are namespaced* or not we can use `k api-resources`
+
+> [!question]- What happens when you do `k get pods`
+> - The request goes to the kubeapi-server.
+> - When the request hits the kubeapi-server it goes through an *authentication process and this is done using certificates*.
+> - If the request was sent using kubectl then we know that the kubeconfig file has the required certificates configured.
+> - After authentication the request goes through and authorisation process. This is achieved using RBAC. 
+> - If the user is allowed to list the pods then he will be able to list the pods.
+> ![[attachments/Pasted image 20221008204838.png]]

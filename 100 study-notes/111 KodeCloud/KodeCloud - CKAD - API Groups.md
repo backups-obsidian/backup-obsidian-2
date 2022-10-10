@@ -1,6 +1,6 @@
 ---
 created: 2022-09-15 21:09
-updated: 2022-10-08 19:05
+updated: 2022-10-08 20:42
 ---
 ---
 **Links**: [[111 KodeCloud Index]]
@@ -14,6 +14,7 @@ updated: 2022-10-08 19:05
 - Kubernetes API is grouped into multiple groups.
 	- ![[attachments/Pasted image 20221008184849.png]]
 	- `/api` & `/apis` are responsible for the cluster functionality
+	- We can list all the api groups using `k api-resources`
 - `/api`: **core group**
 	- ![[attachments/Pasted image 20221008184401.png]]
 - `/apis`: **named group**

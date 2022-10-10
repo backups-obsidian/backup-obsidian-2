@@ -1,6 +1,6 @@
 ---
 created: 2022-10-08 19:31
-updated: 2022-10-08 19:46
+updated: 2022-10-08 20:21
 ---
 ---
 **Links**: [[111 KodeCloud Index]]
@@ -19,9 +19,10 @@ updated: 2022-10-08 19:46
 
 - Simple rbac
 ```yaml
-apiVersion:rbac.authorization.k8s.io/v1
+apiVersion: rbac.authorization.k8s.io/v1
 kind: Role
 metadata:
+	namespace: default
 	name: developer
 rules:
 - apiGroups: [""]
@@ -53,6 +54,8 @@ roleRef:
 
 > [!caution]- *Roles and RoleBindings fall under the scope of namespaces*.
 > In the above example the dev user gets access to pods within the default namespace.
+> *If we don't specify the namespace they are created in the default namespace*.
+> ![[attachments/Pasted image 20221008202019.png]]
 
 - View the roles: `k get roles`
 - View the role bindings: `k get rolebindings`
