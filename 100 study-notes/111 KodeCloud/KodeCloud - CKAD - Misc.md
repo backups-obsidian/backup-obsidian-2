@@ -1,6 +1,6 @@
 ---
 created: 2022-09-23 16:03
-updated: 2022-10-08 20:49
+updated: 2022-10-10 22:37
 ---
 ---
 **Links**: [[111 KodeCloud Index]]
@@ -45,3 +45,5 @@ updated: 2022-10-08 20:49
 > - After authentication the request goes through and authorisation process. This is achieved using RBAC. 
 > - If the user is allowed to list the pods then he will be able to list the pods.
 > ![[attachments/Pasted image 20221008204838.png]]
+
+- If the scheduler can't schedule the pod then it will go into PENDING state.
