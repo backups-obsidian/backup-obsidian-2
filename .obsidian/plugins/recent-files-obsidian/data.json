@@ -1,20 +1,92 @@
 {
   "recentFiles": [
     {
-      "basename": "KodeCloud - CKAD - Custom Resource Definition",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Custom Resource Definition.md"
+      "basename": "KodeCloud - CKA - Daemon Sets",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Daemon Sets.md"
     },
     {
       "basename": "111 KodeCloud Index",
       "path": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md"
     },
     {
-      "basename": "KodeCloud - CKAD - ApiVersions",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - ApiVersions.md"
+      "basename": "KodeCloud - CKAD - Resource Limits",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Resource Limits.md"
     },
     {
       "basename": "KodeCloud - CKAD - Misc",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Misc.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Taints and Tolerations",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Taints and Tolerations.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Labels, Selectors and Annotations",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Labels, Selectors and Annotations.md"
+    },
+    {
+      "basename": "KodeCloud - CKA - Kube Scheduler",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Kube Scheduler.md"
+    },
+    {
+      "basename": "KodeCloud - Kubernetes - Networking",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - Kubernetes - Networking.md"
+    },
+    {
+      "basename": "KodeCloud - CKA - Kubeproxy",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Kubeproxy.md"
+    },
+    {
+      "basename": "KodeCloud - CKA - Kubelet",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Kubelet.md"
+    },
+    {
+      "basename": "KodeCloud - CKA - Etcd",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Etcd.md"
+    },
+    {
+      "basename": "KodeCloud - CKA - Api server",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Api server.md"
+    },
+    {
+      "basename": "KodeCloud - CKA - Kube Controller Manager",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Kube Controller Manager.md"
+    },
+    {
+      "basename": "KodeCloud - CKA - Cluster Architecture",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Architecture.md"
+    },
+    {
+      "basename": "KodeCloud - Kubernetes - Deployments",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - Kubernetes - Deployments.md"
+    },
+    {
+      "basename": "KodeCloud - Kubernetes - ReplicaSets",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - Kubernetes - ReplicaSets.md"
+    },
+    {
+      "basename": "KodeCloud - Kubernetes - Pods",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - Kubernetes - Pods.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Deployment Strategies",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Deployment Strategies.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Helm Charts",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Helm Charts.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Operator Framework",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Operator Framework.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Custom Resource Definition",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Custom Resource Definition.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - ApiVersions",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - ApiVersions.md"
     },
     {
       "basename": "KodeCloud - CKAD - Admission Controllers",
@@ -43,14 +115,6 @@
     {
       "basename": "KodeCloud - CKAD - Writing helm charts",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Writing helm charts.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - Helm Charts",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Helm Charts.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - Labels, Selectors and Annotations",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Labels, Selectors and Annotations.md"
     },
     {
       "basename": "KodeCloud - CKAD - Security Primitives",
@@ -93,10 +157,6 @@
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Network Policies.md"
     },
     {
-      "basename": "KodeCloud - Kubernetes Beginner",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - Kubernetes Beginner.md"
-    },
-    {
       "basename": "KodeCloud - CKAD - Multi Container Pods",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Multi Container Pods.md"
     },
@@ -133,72 +193,12 @@
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Node Selectors and Node Affinity.md"
     },
     {
-      "basename": "KodeCloud - CKAD - Taints and Tolerations",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Taints and Tolerations.md"
-    },
-    {
       "basename": "KodeCloud - CKAD - Service Accounts",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Service Accounts.md"
     },
     {
-      "basename": "KodeCloud - CKAD - Resource Requirements",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Resource Requirements.md"
-    },
-    {
       "basename": "KodeCloud - CKAD - Security Context",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Security Context.md"
-    },
-    {
-      "basename": "Linux - UID & GID",
-      "path": "100 study-notes/104 Linux/Linux - UID & GID.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - Environment Variables",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Environment Variables.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - Namespaces",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Namespaces.md"
-    },
-    {
-      "basename": "IAM in Google Cloud",
-      "path": "300 short-notes/IAM in Google Cloud.md"
-    },
-    {
-      "basename": "KodeCloud - WebServers",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - WebServers.md"
-    },
-    {
-      "basename": "108 Python Index",
-      "path": "100 study-notes/108 Python/108 Python Index.md"
-    },
-    {
-      "basename": "KodeCloud - Applications",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - Applications.md"
-    },
-    {
-      "basename": "Python - How to setup python projects",
-      "path": "100 study-notes/108 Python/Python - How to setup python projects.md"
-    },
-    {
-      "basename": "YAML",
-      "path": "300 short-notes/YAML.md"
-    },
-    {
-      "basename": "KodeCloud - SSL-TLS",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - SSL-TLS.md"
-    },
-    {
-      "basename": "KodeCloud - Databases",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - Databases.md"
-    },
-    {
-      "basename": "KodeCloud - Networking",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - Networking.md"
-    },
-    {
-      "basename": "How to use jq",
-      "path": "300 short-notes/How to use jq.md"
     }
   ],
   "omittedPaths": [],
