@@ -1,6 +1,6 @@
 ---
 created: 2022-09-13 16:17
-updated: 2022-10-10 22:40
+updated: 2022-10-11 09:03
 ---
 ---
 **Links**: [[../100 home| 100 Home]]
@@ -65,6 +65,10 @@ updated: 2022-10-10 22:40
 - Scheduling:
 	- [[KodeCloud - CKA - Kube Scheduler]]
 	- [[KodeCloud - CKA - Daemon Sets]]
-	
-[[KodeCloud - CKA - Kubelet]]
+	- [[KodeCloud - CKA - Scheduling Profiles]]
+
+- Kubelet:
+	- [[KodeCloud - CKA - Kubelet]]
+	- [[KodeCloud - CKA - Static Pods]]
+
 [[KodeCloud - CKA - Kubeproxy]]

@@ -1,6 +1,6 @@
 ---
 created: 2022-10-10 19:28
-updated: 2022-10-10 21:52
+updated: 2022-10-11 00:05
 ---
 ---
 **Links**: [[111 KodeCloud Index]]
@@ -21,5 +21,8 @@ updated: 2022-10-10 21:52
 > - It then runs the scheduling algorithm to find the right node for the pod by setting the nodeName property to the name of the node.
 > - It does this by creating a binding object.
 
+- So if don't have a scheduler then one way of scheduling the pods would be specifying the `nodeName`
 - *A pod remains in a PENDING state unless it is scheduled by the scheduler*.
 
+- If for some reason the default scheduler doesn't meet our needs we can write our own scheduler.
+	- When creating a pod or a deployment we can instruct k8s to have pod scheduled by our custom scheduler.

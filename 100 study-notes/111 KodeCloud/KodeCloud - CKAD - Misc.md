@@ -1,6 +1,6 @@
 ---
 created: 2022-09-23 16:03
-updated: 2022-10-10 22:37
+updated: 2022-10-11 00:03
 ---
 ---
 **Links**: [[111 KodeCloud Index]]
@@ -47,3 +47,5 @@ updated: 2022-10-10 22:37
 > ![[attachments/Pasted image 20221008204838.png]]
 
 - If the scheduler can't schedule the pod then it will go into PENDING state.
+
+- Get all the events in a namespace: `k get events`
