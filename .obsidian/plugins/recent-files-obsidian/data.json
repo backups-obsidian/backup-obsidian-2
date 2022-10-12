@@ -1,20 +1,40 @@
 {
   "recentFiles": [
     {
-      "basename": "KodeCloud - CKA - Daemon Sets",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Daemon Sets.md"
-    },
-    {
       "basename": "111 KodeCloud Index",
       "path": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md"
     },
     {
-      "basename": "KodeCloud - CKAD - Resource Limits",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Resource Limits.md"
+      "basename": "KodeCloud - CKAD - Ingress",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Ingress.md"
+    },
+    {
+      "basename": "KodeCloud - CKA - Scheduling Profiles",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Scheduling Profiles.md"
+    },
+    {
+      "basename": "KodeCloud - CKA - Kube Scheduler",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Kube Scheduler.md"
     },
     {
       "basename": "KodeCloud - CKAD - Misc",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Misc.md"
+    },
+    {
+      "basename": "KodeCloud - CKA - Static Pods",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Static Pods.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Commands and Arguments",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Commands and Arguments.md"
+    },
+    {
+      "basename": "KodeCloud - CKA - Daemon Sets",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Daemon Sets.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Resource Limits",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Resource Limits.md"
     },
     {
       "basename": "KodeCloud - CKAD - Taints and Tolerations",
@@ -23,10 +43,6 @@
     {
       "basename": "KodeCloud - CKAD - Labels, Selectors and Annotations",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Labels, Selectors and Annotations.md"
-    },
-    {
-      "basename": "KodeCloud - CKA - Kube Scheduler",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Kube Scheduler.md"
     },
     {
       "basename": "KodeCloud - Kubernetes - Networking",
@@ -149,20 +165,12 @@
       "path": "100 study-notes/111 KodeCloud/KodeCloud - Linux Services.md"
     },
     {
-      "basename": "KodeCloud - CKAD - Ingress",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Ingress.md"
-    },
-    {
       "basename": "KodeCloud - CKAD - Network Policies",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Network Policies.md"
     },
     {
       "basename": "KodeCloud - CKAD - Multi Container Pods",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Multi Container Pods.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - Commands and Arguments",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Commands and Arguments.md"
     },
     {
       "basename": "Google Cloud Course",
@@ -191,14 +199,6 @@
     {
       "basename": "KodeCloud - CKAD - Node Selectors and Node Affinity",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Node Selectors and Node Affinity.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - Service Accounts",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Service Accounts.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - Security Context",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Security Context.md"
     }
   ],
   "omittedPaths": [],
