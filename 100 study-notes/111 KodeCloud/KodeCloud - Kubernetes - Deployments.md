@@ -1,6 +1,6 @@
 ---
 created: 2022-10-10 15:34
-updated: 2022-10-10 15:35
+updated: 2022-10-13 10:50
 ---
 ---
 **Links**: [[111 KodeCloud Index]]
@@ -31,7 +31,7 @@ updated: 2022-10-10 15:35
 - Difference between Recreate & Rolling Update: 
 	- ![[attachments/Pasted image 20220919202752.png]]
 	- See how the ReplicaSet replicas change in Recreate (*reduced to 0*) and Rolling Update (few units at a time)
-- When we apply a deployment definition a new rollout is triggered and a new revision is created.
+- **When we apply a deployment definition a new rollout is triggered and a new revision is created**.
 
 > [!question]- How do upgrades happen in Deployments?
 > - When we upgrade our application *a new ReplicaSet is created under the hood and starts deploying the containers there*. 

@@ -1,6 +1,6 @@
 ---
 created: 2022-09-13 16:17
-updated: 2022-10-11 09:03
+updated: 2022-10-13 12:16
 ---
 ---
 **Links**: [[../100 home| 100 Home]]
@@ -45,7 +45,6 @@ updated: 2022-10-11 09:03
 [[KodeCloud - CKAD - Helm Charts]]
 [[KodeCloud - CKAD - Writing helm charts]]
 [[KodeCloud - CKAD - KubeConfig]]
-[[KodeCloud - CKAD - Security Primitives]]
 [[KodeCloud - CKAD - API Groups]]
 [[KodeCloud - CKAD - ApiVersions]]
 [[KodeCloud - CKAD - Authorisation]]
@@ -57,18 +56,35 @@ updated: 2022-10-11 09:03
 [[KodeCloud - CKAD - Deployment Strategies]]
 
 ### CKA
-[[KodeCloud - CKA - Cluster Architecture]]
-[[KodeCloud - CKA - Etcd]]
-[[KodeCloud - CKA - Api server]]
-[[KodeCloud - CKA - Kube Controller Manager]]
+#### Cluster Architecture
+- [[KodeCloud - CKA - Cluster Architecture]]
+- [[KodeCloud - CKA - Etcd]]
+- [[KodeCloud - CKA - Api server]]
+- [[KodeCloud - CKA - Kube Controller Manager]]
 
-- Scheduling:
-	- [[KodeCloud - CKA - Kube Scheduler]]
-	- [[KodeCloud - CKA - Daemon Sets]]
-	- [[KodeCloud - CKA - Scheduling Profiles]]
+#### Scheduling
+- [[KodeCloud - CKA - Kube Scheduler]]
+- [[KodeCloud - CKA - Daemon Sets]]
 
-- Kubelet:
-	- [[KodeCloud - CKA - Kubelet]]
-	- [[KodeCloud - CKA - Static Pods]]
+#### Kubelet
+- [[KodeCloud - CKA - Kubelet]]
+- [[KodeCloud - CKA - Static Pods]]
 
-[[KodeCloud - CKA - Kubeproxy]]
+#### Networking
+- [[KodeCloud - CKA - Kubeproxy]]
+- Read:
+	- [ ] [Kubernetes network stack fundamentals: How containers inside a pod communicate | Enable Sysadmin (redhat.com)](https://www.redhat.com/sysadmin/kubernetes-pod-network-communications)
+	- [ ] [Kubernetes network stack fundamentals: How pods on different nodes communicate | Enable Sysadmin (redhat.com)](https://www.redhat.com/sysadmin/kubernetes-pods-communicate-nodes)
+	- [ ] [Tracing the path of network traffic in Kubernetes (learnk8s.io)](https://learnk8s.io/kubernetes-network-packets)
+	- [ ] [A Guide to the Kubernetes Networking Model - Kevin Sookocheff](https://sookocheff.com/post/kubernetes/understanding-kubernetes-networking-model/)
+
+#### Cluster Maintenance: NOT DONE
+- [[KodeCloud - CKA - Cluster Maintenance]]
+- [[KodeCloud - CKA - TLS Kubernetes]]
+
+#### Security
+- [[KodeCloud - CKA - Security Primitives and Authentication]]
+
+# Questions
+- [ ] We know any pod and communicate with any other pod on the cluster using IPs. Does each pod have a unique DNS name without a service? 
+	- [ ] I have written something about headless services in statefulsets and pod dns names but I am not clear about it.

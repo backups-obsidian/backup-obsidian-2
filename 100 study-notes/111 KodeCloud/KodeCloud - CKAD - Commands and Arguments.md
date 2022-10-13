@@ -1,13 +1,13 @@
 ---
 created: 2022-09-23 17:15
-updated: 2022-09-23 18:22
+updated: 2022-10-13 10:53
 ---
 ---
 **Links**: [[111 KodeCloud Index]]
 
 ---
 ## Commands & Arguments
-- In case of `ENTRYPOINT` in docker whatever command you specify will get appended to `ENTRYPOINT` command.
+- In case of `ENTRYPOINT` in docker whatever `CMD` you specify, it will get appended to `ENTRYPOINT` command.
 - In case of `CMD` the command line instruction will get replaced entirely whereas in case of `ENTRYPOINT` the command line parameters will get appended.
 	- ![[attachments/Pasted image 20220923173111.png]]
 

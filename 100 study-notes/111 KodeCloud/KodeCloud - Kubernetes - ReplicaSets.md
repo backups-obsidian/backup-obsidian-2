@@ -1,6 +1,6 @@
 ---
 created: 2022-10-10 15:34
-updated: 2022-10-10 15:34
+updated: 2022-10-13 11:00
 ---
 ---
 **Links**: [[111 KodeCloud Index]]
@@ -60,3 +60,5 @@ spec:
 > `k explain <resource-name> | grep VERSION`
 
 - Deleting resources: `k delete <resource-type>/<resource-name>`
+- Kubernetes supports *self-healing applications* through ReplicaSets and Replication Controllers. 
+	- The replication controller helps in ensuring that a POD is re-created automatically when the application within the POD crashes.
