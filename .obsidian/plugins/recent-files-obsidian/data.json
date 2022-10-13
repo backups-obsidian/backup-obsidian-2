@@ -1,20 +1,76 @@
 {
   "recentFiles": [
     {
+      "basename": "KodeCloud - CKA - TLS Kubernetes",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - TLS Kubernetes.md"
+    },
+    {
+      "basename": "KodeCloud - SSL-TLS",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - SSL-TLS.md"
+    },
+    {
       "basename": "111 KodeCloud Index",
       "path": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md"
     },
     {
-      "basename": "KodeCloud - CKAD - Ingress",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Ingress.md"
+      "basename": "KodeCloud - CKA - Security Primitives and Authentication",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Security Primitives and Authentication.md"
     },
     {
-      "basename": "KodeCloud - CKA - Scheduling Profiles",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Scheduling Profiles.md"
+      "basename": "KodeCloud - CKAD - StatefulSets",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - StatefulSets.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Network Policies",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Network Policies.md"
+    },
+    {
+      "basename": "KodeCloud - CKA - Cluster Architecture",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Architecture.md"
+    },
+    {
+      "basename": "KodeCloud - CKA - Kubelet",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Kubelet.md"
+    },
+    {
+      "basename": "KodeCloud - CKA - Cluster Maintenance",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Maintenance.md"
+    },
+    {
+      "basename": "KodeCloud - Kubernetes - ReplicaSets",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - Kubernetes - ReplicaSets.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Multi Container Pods",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Multi Container Pods.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Environment Variables",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Environment Variables.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Commands and Arguments",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Commands and Arguments.md"
+    },
+    {
+      "basename": "KodeCloud - Kubernetes - Deployments",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - Kubernetes - Deployments.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Logging",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Logging.md"
     },
     {
       "basename": "KodeCloud - CKA - Kube Scheduler",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Kube Scheduler.md"
+    },
+    {
+      "basename": "KodeCloud - CKA - Kube Controller Manager",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Kube Controller Manager.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Ingress",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Ingress.md"
     },
     {
       "basename": "KodeCloud - CKAD - Misc",
@@ -23,10 +79,6 @@
     {
       "basename": "KodeCloud - CKA - Static Pods",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Static Pods.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - Commands and Arguments",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Commands and Arguments.md"
     },
     {
       "basename": "KodeCloud - CKA - Daemon Sets",
@@ -53,32 +105,12 @@
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Kubeproxy.md"
     },
     {
-      "basename": "KodeCloud - CKA - Kubelet",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Kubelet.md"
-    },
-    {
       "basename": "KodeCloud - CKA - Etcd",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Etcd.md"
     },
     {
       "basename": "KodeCloud - CKA - Api server",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Api server.md"
-    },
-    {
-      "basename": "KodeCloud - CKA - Kube Controller Manager",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Kube Controller Manager.md"
-    },
-    {
-      "basename": "KodeCloud - CKA - Cluster Architecture",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Architecture.md"
-    },
-    {
-      "basename": "KodeCloud - Kubernetes - Deployments",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - Kubernetes - Deployments.md"
-    },
-    {
-      "basename": "KodeCloud - Kubernetes - ReplicaSets",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - Kubernetes - ReplicaSets.md"
     },
     {
       "basename": "KodeCloud - Kubernetes - Pods",
@@ -133,16 +165,8 @@
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Writing helm charts.md"
     },
     {
-      "basename": "KodeCloud - CKAD - Security Primitives",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Security Primitives.md"
-    },
-    {
       "basename": "KodeCloud - CKAD - Volumes",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Volumes.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - StatefulSets",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - StatefulSets.md"
     },
     {
       "basename": "Kubernetes - StatefulSet",
@@ -165,20 +189,8 @@
       "path": "100 study-notes/111 KodeCloud/KodeCloud - Linux Services.md"
     },
     {
-      "basename": "KodeCloud - CKAD - Network Policies",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Network Policies.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - Multi Container Pods",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Multi Container Pods.md"
-    },
-    {
       "basename": "Google Cloud Course",
       "path": "300 short-notes/Google Cloud Course.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - Logging",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Logging.md"
     },
     {
       "basename": "KodeCloud - CKAD - Jobs",
@@ -187,18 +199,6 @@
     {
       "basename": "KodeCloud - CKAD - Probes",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Probes.md"
-    },
-    {
-      "basename": "RDS",
-      "path": "100 study-notes/101 AWS SAA/RDS.md"
-    },
-    {
-      "basename": "300 home",
-      "path": "300 short-notes/300 home.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - Node Selectors and Node Affinity",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Node Selectors and Node Affinity.md"
     }
   ],
   "omittedPaths": [],

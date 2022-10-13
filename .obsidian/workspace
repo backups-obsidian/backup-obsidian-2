@@ -11,11 +11,24 @@
           "type": "markdown",
           "state": {
             "file": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md",
-            "mode": "preview",
+            "mode": "source",
             "backlinks": false,
             "source": true
           },
           "pinned": true
+        }
+      },
+      {
+        "id": "c109ce2da0f49e52",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "100 study-notes/111 KodeCloud/KodeCloud - CKA - TLS Kubernetes.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": true
+          }
         }
       }
     ],
@@ -35,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "svc",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md",
+                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKA - TLS Kubernetes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md"
+                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKA - TLS Kubernetes.md"
               }
             }
           },
@@ -135,7 +148,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md",
+                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKA - TLS Kubernetes.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -180,17 +193,17 @@
     "width": 278.0398254394531,
     "collapsed": true
   },
-  "active": "9894e8bc3a11be26",
+  "active": "c109ce2da0f49e52",
   "lastOpenFiles": [
-    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Ingress.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - SSL-TLS.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKA - TLS Kubernetes.md",
     "100 study-notes/111 KodeCloud/111 KodeCloud Index.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKA - Scheduling Profiles.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKA - Multiple Schedulers.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKA - Kube Scheduler.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Misc.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKA - Static Pods.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Commands and Arguments.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKA - Daemon Sets.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Resource Limits.md"
+    "100 study-notes/111 KodeCloud/KodeCloud - CKA - Security Primitives and Authentication.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - StatefulSets.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Network Policies.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Architecture.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKA - Kubelet.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Maintenance.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - Kubernetes - ReplicaSets.md"
   ]
 }
