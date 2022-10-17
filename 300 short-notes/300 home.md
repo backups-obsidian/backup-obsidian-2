@@ -1,6 +1,6 @@
 ---
 created: 2022-04-16 16:39
-updated: 2022-09-24 19:27
+updated: 2022-10-16 16:12
 ---
 ---
 **Links**:  [[../000 home|000 Home]]
@@ -25,4 +25,6 @@ updated: 2022-09-24 19:27
 [[Development Setup]]
 [[How to use jq]]
 [[IAM in Google Cloud]]
-[[Google Cloud Course]]
+[[What is an ORM]]
+[[Using GitHub]]
+[[Conventional commits]]
