@@ -1,6 +1,6 @@
 ---
 created: 2022-09-15 21:09
-updated: 2022-09-16 18:39
+updated: 2022-10-13 20:38
 ---
 ---
 **Links**: [[111 KodeCloud Index]]
@@ -38,8 +38,26 @@ updated: 2022-09-16 18:39
 	- When you try to use self signed certificates browser will try to warn you.
 - We need CA (Certificate Authority) to sign and validate our certificates.
 
+### Difference between Certificates and Keys
+> [!question]+ What is the difference between a certificate and a key with respect to SSL? For example we use keys in SSH and certificates in SSL.
+> - A **certificate contains a PUBLIC key**.
+> - The certificate, *in addition to containing the public key*, **contains additional information such as issuer**, *what the certificate is supposed to be used for*, and other types of *metadata*.
+> - Typically, a **certificate is itself signed by a certificate authority (CA) using CA's private key**. This verifies the authenticity of the certificate.
+
+- CSR example:
+	- Let us say company A has a key pair and needs to *publish his public key for public usage* (aka ssl on his web site).
+	- Company A must make a certificate signing request (CSR) to a certification authority (CA) to *get a certificate for its (Company A) key pair*.
+	- **The PUBLIC key, but NOT the private key, of company A's key pair is included as part of the certificate request**.
+	- The CA then uses company A's identity information to determine whether the request meets the CA's criteria for issuing a certificate.
+	- If the CA approves the request, it issues a certificate to company A. 
+	- In brief **CA signs company A's PUBLIC key with his(CA's) PRIVATE key**, which verifies its authenticity.
+	- **So company A's public key signed with a valid CA's private key is called company A's certificate**.
+
+> [!caution]- **A certificate is just a "fancy" public key**, which is related to a private key. 
+> *You can do the same thing with a certificate as you can do with a public key*.
+
 ### How to get your certificate signed by the CA
-- We generate a *CSR (Certificate Signing Request)* using the *public key* we generated earlier and the domain name of the website.
+- We generate a *CSR (Certificate Signing Request)* using the *private key* we generated earlier and the domain name of the website.
 	- ![[attachments/Pasted image 20220916180342.png]]
 - The certificate authorities validate the information and if everything is ok they sign the certificate and send it back to us.
 - We now have a certificate that the browsers trust. 

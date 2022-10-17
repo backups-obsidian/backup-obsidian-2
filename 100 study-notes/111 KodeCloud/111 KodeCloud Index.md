@@ -1,9 +1,11 @@
 ---
 created: 2022-09-13 16:17
-updated: 2022-10-13 12:16
+updated: 2022-10-15 10:17
 ---
 ---
-**Links**: [[../100 home| 100 Home]]
+**Links**: 
+- [[../100 home| 100 Home]]
+- [[../104 Linux/104 Linux Index | Linux Index]]
 
 ---
 ## DevOps Prerequisites 
@@ -14,6 +16,7 @@ updated: 2022-10-13 12:16
 [[KodeCloud - WebServers]]
 [[KodeCloud - Databases]]
 [[KodeCloud - SSL-TLS]]
+[[../104 Linux/Using openssl | Using openssl]]
 
 ## Kubernetes
 ### Beginner
@@ -88,3 +91,5 @@ updated: 2022-10-13 12:16
 # Questions
 - [ ] We know any pod and communicate with any other pod on the cluster using IPs. Does each pod have a unique DNS name without a service? 
 	- [ ] I have written something about headless services in statefulsets and pod dns names but I am not clear about it.
+
+---

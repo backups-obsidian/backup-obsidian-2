@@ -11,7 +11,7 @@
           "type": "markdown",
           "state": {
             "file": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md",
-            "mode": "source",
+            "mode": "preview",
             "backlinks": false,
             "source": true
           },
@@ -25,6 +25,19 @@
           "type": "markdown",
           "state": {
             "file": "100 study-notes/111 KodeCloud/KodeCloud - CKA - TLS Kubernetes.md",
+            "mode": "preview",
+            "backlinks": false,
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "f1628febac971da9",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "100 study-notes/104 Linux/Using openssl.md",
             "mode": "source",
             "backlinks": false,
             "source": true
@@ -102,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKA - TLS Kubernetes.md",
+                "file": "100 study-notes/104 Linux/Using openssl.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKA - TLS Kubernetes.md"
+                "file": "100 study-notes/104 Linux/Using openssl.md"
               }
             }
           },
@@ -148,7 +161,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKA - TLS Kubernetes.md",
+                "file": "100 study-notes/104 Linux/Using openssl.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -185,25 +198,24 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
     "width": 278.0398254394531,
     "collapsed": true
   },
-  "active": "c109ce2da0f49e52",
+  "active": "f1628febac971da9",
   "lastOpenFiles": [
-    "100 study-notes/111 KodeCloud/KodeCloud - SSL-TLS.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKA - TLS Kubernetes.md",
-    "100 study-notes/111 KodeCloud/111 KodeCloud Index.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKA - Security Primitives and Authentication.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - StatefulSets.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Network Policies.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Architecture.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKA - Kubelet.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Maintenance.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - Kubernetes - ReplicaSets.md"
+    "100 study-notes/104 Linux/Using openssl.md",
+    "300 short-notes/nmap.md",
+    "300 short-notes/300 home.md",
+    "300 short-notes/Conventional commits.md",
+    "300 short-notes/Using GitHub.md",
+    "100 study-notes/108 Python/108 Python Index.md",
+    "100 study-notes/108 Python/Python - Dataclasses.md",
+    "108 .md",
+    "108.md"
   ]
 }
