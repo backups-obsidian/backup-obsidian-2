@@ -38,7 +38,33 @@
           "type": "markdown",
           "state": {
             "file": "100 study-notes/104 Linux/Using openssl.md",
+            "mode": "preview",
+            "backlinks": false,
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "bc40c569139d00d8",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "100 study-notes/108 Python/108 Python Index.md",
             "mode": "source",
+            "backlinks": false,
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "22cdc60fb4c361e1",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "100 study-notes/108 Python/Python - Dataclasses.md",
+            "mode": "preview",
             "backlinks": false,
             "source": true
           }
@@ -115,7 +141,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/104 Linux/Using openssl.md",
+                "file": "100 study-notes/108 Python/Python - Dataclasses.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/104 Linux/Using openssl.md"
+                "file": "100 study-notes/108 Python/Python - Dataclasses.md"
               }
             }
           },
@@ -161,7 +187,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/104 Linux/Using openssl.md",
+                "file": "100 study-notes/108 Python/Python - Dataclasses.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -205,17 +231,17 @@
     "width": 278.0398254394531,
     "collapsed": true
   },
-  "active": "f1628febac971da9",
+  "active": "22cdc60fb4c361e1",
   "lastOpenFiles": [
-    "100 study-notes/111 KodeCloud/KodeCloud - CKA - TLS Kubernetes.md",
-    "100 study-notes/104 Linux/Using openssl.md",
-    "300 short-notes/nmap.md",
-    "300 short-notes/300 home.md",
-    "300 short-notes/Conventional commits.md",
-    "300 short-notes/Using GitHub.md",
     "100 study-notes/108 Python/108 Python Index.md",
-    "100 study-notes/108 Python/Python - Dataclasses.md",
-    "108 .md",
-    "108.md"
+    "100 study-notes/108 Python/Python - Type Hints.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - Applications.md",
+    "100 study-notes/108 Python/Python - Setting up pre-commit.md",
+    "100 study-notes/104 Linux/Using openssl.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKA - TLS Kubernetes.md",
+    "100 study-notes/111 KodeCloud/111 KodeCloud Index.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Misc.md",
+    "300 short-notes/Using GitHub.md",
+    "300 short-notes/nmap.md"
   ]
 }
