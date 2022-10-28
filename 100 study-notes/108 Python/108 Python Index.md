@@ -1,6 +1,6 @@
 ---
 created: 2022-07-04 20:22
-updated: 2022-10-22 15:03
+updated: 2022-10-24 20:00
 ---
 ---
 **Links**: [[../100 home| 100 Home]]
@@ -15,5 +15,9 @@ updated: 2022-10-22 15:03
 	- [[Python - How to setup python projects]]
 
 - Types:
-	- [[Python - Type Hints]]
+	- [[Python - Type Hints - Basics]]
 	- [[Python - Dataclasses]]
+	- [[Python - Type Hints - Advanced]]
+
+- Essentials:
+	- [[Python - Everything is an object]]

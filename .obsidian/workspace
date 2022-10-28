@@ -45,25 +45,12 @@
         }
       },
       {
-        "id": "bc40c569139d00d8",
+        "id": "7804c04378f05e2b",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "100 study-notes/108 Python/108 Python Index.md",
-            "mode": "source",
-            "backlinks": false,
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "22cdc60fb4c361e1",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "100 study-notes/108 Python/Python - Dataclasses.md",
+            "file": "100 study-notes/108 Python/Python - asyncio.md",
             "mode": "preview",
             "backlinks": false,
             "source": true
@@ -141,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/108 Python/Python - Dataclasses.md",
+                "file": "100 study-notes/108 Python/Python - asyncio.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/108 Python/Python - Dataclasses.md"
+                "file": "100 study-notes/108 Python/Python - asyncio.md"
               }
             }
           },
@@ -187,7 +174,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/108 Python/Python - Dataclasses.md",
+                "file": "100 study-notes/108 Python/Python - asyncio.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -231,17 +218,17 @@
     "width": 278.0398254394531,
     "collapsed": true
   },
-  "active": "22cdc60fb4c361e1",
+  "active": "7804c04378f05e2b",
   "lastOpenFiles": [
     "100 study-notes/108 Python/108 Python Index.md",
-    "100 study-notes/108 Python/Python - Type Hints.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - Applications.md",
-    "100 study-notes/108 Python/Python - Setting up pre-commit.md",
+    "100 study-notes/108 Python/Python - asyncio.md",
+    "100 study-notes/108 Python/Python - Dataclasses.md",
+    "100 study-notes/108 Python/Python - Everything is an object.md",
+    "100 study-notes/108 Python/Python - How to setup python projects.md",
+    "100 study-notes/108 Python/Python - Type Hints - Advanced.md",
     "100 study-notes/104 Linux/Using openssl.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKA - TLS Kubernetes.md",
     "100 study-notes/111 KodeCloud/111 KodeCloud Index.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Misc.md",
-    "300 short-notes/Using GitHub.md",
-    "300 short-notes/nmap.md"
+    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Commands and Arguments.md"
   ]
 }

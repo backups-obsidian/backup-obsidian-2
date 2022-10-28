@@ -1,24 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "Python - Dataclasses",
-      "path": "100 study-notes/108 Python/Python - Dataclasses.md"
+      "basename": "Python - asyncio",
+      "path": "100 study-notes/108 Python/Python - asyncio.md"
     },
     {
       "basename": "108 Python Index",
       "path": "100 study-notes/108 Python/108 Python Index.md"
     },
     {
-      "basename": "Python - Type Hints",
-      "path": "100 study-notes/108 Python/Python - Type Hints.md"
+      "basename": "Python - Dataclasses",
+      "path": "100 study-notes/108 Python/Python - Dataclasses.md"
     },
     {
-      "basename": "KodeCloud - Applications",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - Applications.md"
+      "basename": "Python - Everything is an object",
+      "path": "100 study-notes/108 Python/Python - Everything is an object.md"
     },
     {
-      "basename": "Python - Setting up pre-commit",
-      "path": "100 study-notes/108 Python/Python - Setting up pre-commit.md"
+      "basename": "Python - How to setup python projects",
+      "path": "100 study-notes/108 Python/Python - How to setup python projects.md"
+    },
+    {
+      "basename": "Python - Type Hints - Advanced",
+      "path": "100 study-notes/108 Python/Python - Type Hints - Advanced.md"
     },
     {
       "basename": "Using openssl",
@@ -31,6 +35,22 @@
     {
       "basename": "111 KodeCloud Index",
       "path": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Commands and Arguments",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Commands and Arguments.md"
+    },
+    {
+      "basename": "Python - Type Hints - Basics",
+      "path": "100 study-notes/108 Python/Python - Type Hints - Basics.md"
+    },
+    {
+      "basename": "KodeCloud - Applications",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - Applications.md"
+    },
+    {
+      "basename": "Python - Setting up pre-commit",
+      "path": "100 study-notes/108 Python/Python - Setting up pre-commit.md"
     },
     {
       "basename": "KodeCloud - CKAD - Misc",
@@ -55,10 +75,6 @@
     {
       "basename": "What is an ORM",
       "path": "300 short-notes/What is an ORM.md"
-    },
-    {
-      "basename": "Python - asyncio",
-      "path": "100 study-notes/108 Python/Python - asyncio.md"
     },
     {
       "basename": "100 home",
@@ -119,10 +135,6 @@
     {
       "basename": "KodeCloud - CKAD - Environment Variables",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Environment Variables.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - Commands and Arguments",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Commands and Arguments.md"
     },
     {
       "basename": "KodeCloud - Kubernetes - Deployments",
@@ -187,18 +199,6 @@
     {
       "basename": "KodeCloud - CKAD - Deployment Strategies",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Deployment Strategies.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - Helm Charts",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Helm Charts.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - Operator Framework",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Operator Framework.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - Custom Resource Definition",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Custom Resource Definition.md"
     }
   ],
   "omittedPaths": [],
