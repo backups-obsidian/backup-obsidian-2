@@ -1,6 +1,6 @@
 ---
 created: 2022-09-15 21:09
-updated: 2022-10-13 20:55
+updated: 2022-10-31 00:32
 ---
 ---
 **Links**: [[111 KodeCloud Index]]
@@ -36,7 +36,7 @@ updated: 2022-10-13 20:55
 ### Generating Certificates for the cluster
 #### CA certificates
 - We will use `openssl` to generate the certificates.
-- We first *create a private key for CA*: `openssl genrsa-out ca.key 2048`
+- We first *create a private key for CA*: `openssl genrsa -out ca.key 2048`
 - We then use the openssl req command with the private key we just created to *generate a CSR* (Certificate Signing Request)
 	- *A CSR is like certificate **with a PUBLIC key** and all other details but no signature*.
 - We then *sign the CSR*.
