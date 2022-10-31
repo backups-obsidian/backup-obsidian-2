@@ -1,12 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "Python - asyncio",
-      "path": "100 study-notes/108 Python/Python - asyncio.md"
+      "basename": "Using openssl",
+      "path": "100 study-notes/104 Linux/Using openssl.md"
     },
     {
       "basename": "108 Python Index",
       "path": "100 study-notes/108 Python/108 Python Index.md"
+    },
+    {
+      "basename": "KodeCloud - CKA - TLS Kubernetes",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - TLS Kubernetes.md"
+    },
+    {
+      "basename": "111 KodeCloud Index",
+      "path": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md"
+    },
+    {
+      "basename": "KodeCloud - SSL-TLS",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - SSL-TLS.md"
+    },
+    {
+      "basename": "Python - Positional and Keyword arguments",
+      "path": "100 study-notes/108 Python/Python - Positional and Keyword arguments.md"
+    },
+    {
+      "basename": "Python - asyncio",
+      "path": "100 study-notes/108 Python/Python - asyncio.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Environment Variables",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Environment Variables.md"
     },
     {
       "basename": "Python - Dataclasses",
@@ -23,18 +47,6 @@
     {
       "basename": "Python - Type Hints - Advanced",
       "path": "100 study-notes/108 Python/Python - Type Hints - Advanced.md"
-    },
-    {
-      "basename": "Using openssl",
-      "path": "100 study-notes/104 Linux/Using openssl.md"
-    },
-    {
-      "basename": "KodeCloud - CKA - TLS Kubernetes",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - TLS Kubernetes.md"
-    },
-    {
-      "basename": "111 KodeCloud Index",
-      "path": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md"
     },
     {
       "basename": "KodeCloud - CKAD - Commands and Arguments",
@@ -97,10 +109,6 @@
       "path": "100 study-notes/111 KodeCloud/KodeCloud - Networking.md"
     },
     {
-      "basename": "KodeCloud - SSL-TLS",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - SSL-TLS.md"
-    },
-    {
       "basename": "KodeCloud - CKA - Security Primitives and Authentication",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Security Primitives and Authentication.md"
     },
@@ -131,10 +139,6 @@
     {
       "basename": "KodeCloud - CKAD - Multi Container Pods",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Multi Container Pods.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - Environment Variables",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Environment Variables.md"
     },
     {
       "basename": "KodeCloud - Kubernetes - Deployments",
@@ -195,10 +199,6 @@
     {
       "basename": "KodeCloud - Kubernetes - Pods",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - Kubernetes - Pods.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - Deployment Strategies",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Deployment Strategies.md"
     }
   ],
   "omittedPaths": [],
