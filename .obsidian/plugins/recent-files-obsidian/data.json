@@ -5,8 +5,20 @@
       "path": "100 study-notes/112 Nginx/112 Nginx Index.md"
     },
     {
+      "basename": "Nginx - Basics",
+      "path": "100 study-notes/112 Nginx/Nginx - Basics.md"
+    },
+    {
+      "basename": "Nginx - Reverse Proxy",
+      "path": "100 study-notes/112 Nginx/Nginx - Reverse Proxy.md"
+    },
+    {
       "basename": "Nginx - Web server",
       "path": "100 study-notes/112 Nginx/Nginx - Web server.md"
+    },
+    {
+      "basename": "Nginx - Load Balancer",
+      "path": "100 study-notes/112 Nginx/Nginx - Load Balancer.md"
     },
     {
       "basename": "108 Python Index",
@@ -187,18 +199,6 @@
     {
       "basename": "KodeCloud - CKA - Daemon Sets",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Daemon Sets.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - Resource Limits",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Resource Limits.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - Taints and Tolerations",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Taints and Tolerations.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - Labels, Selectors and Annotations",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Labels, Selectors and Annotations.md"
     }
   ],
   "omittedPaths": [],
