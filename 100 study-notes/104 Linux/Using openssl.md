@@ -1,36 +1,16 @@
 ---
 created: 2022-10-15 10:10
-updated: 2022-10-31 01:18
+updated: 2022-11-01 00:47
 ---
 ---
 **Links**: 
+
 - [[104 Linux Index]]
 - [[../111 KodeCloud/KodeCloud - SSL-TLS | KodeCloud - SSL - TLS]]
 
 ---
 ## Openssl
 - Get the `openssl` version: `openssl version -a`
----
-
-- Creating self signed certificates.
-	- This command tells openssl to *create a private key* and *a new CSR* at the same time.
-	- If we are using `-x509` option it will *output a certificate instead of a CSR*.
-	- Here 365 days is the validity of the certificate.
-- The private key is encrypted using the passphrase whereas the public key is only base64 encoded. 
-- Displaying the information of a certificate
-	- `openssl x509 -in ca-cert.pem -noout -text`
-
-- Creating a key for the webserver.
-	- We remove the `-x509` option since we are not self signing the key and just creating a CSR.
-	- We also remove the `-days` option since we are generating a CSR and not a certificate.
-	- `openssl req -newkey rsa:4096 -keyout server-key.pem -out server-req.pem -subj "/C=FR/ST=Ile..."`
-	- Here `server-key.pem` is the private key and `server-req.pem` is the CSR.
-
-- Signing server's certificate with CA's private key. We use CA's private as well as public certificate.
-	- `openssl x509 -req -in server-req.pem-CA ca-cert.pem -CAkey ca-key.pem -CAcreateserial -out server-cert.pem`
-	- `-req` and `x509` tells openssl that it is a CSR.
-	- `-CAcreateserial` ensures unique serial number for each CSR.
-	- By default the certificate is only valid for 30 days. We can change it by adding the `-days` option to the signing command.
 
 ### Generating a set of public and private keys
 - `openssl genrsa`: This command will just output the key to the terminal.
@@ -41,6 +21,10 @@ updated: 2022-10-31 01:18
 	- `openssl genrsa -out privatekey.pem`
 - Default key size is generally *2048*. This can be set in the openssl configuration file.
 	- `openssl genrsa -out privatekey.pem 4096`
+- Generating a private key with encryption
+	- `openssl genrsa -aes256 -out privatekey.pem`
+	- This is generally *done for CA keys* since they need to be protected. 
+	- We don't encrypt the server private keys since they are used by the application.
 - **Extracting the public key from the key pair**:
 	- `openssl rsa -in privatekey.pem -pubout -out publickey.pem`
 - The most common format for openssl is `.pem`
@@ -68,7 +52,7 @@ updated: 2022-10-31 01:18
 
 - Generating a CSR from a private key:
 	- `openssl req -new -key privatekey.pem -out CSR.pem`
-	- If we take a look at the contents of the CSR using `cat` it will say 
+	- If we take a look at the contents of the CSR using `cat` it will say `--BEGIN CERTIFICATE REQUEST--`
 - Generating a Self Signed Certificate from a private key:
 	- `openssl req -x509 -key privatekey.pem -out CERT.pem`
 	- If we take a look at the contents of the Certificate using `cat` it will say `--BEGIN CERTIFICATE--` in the beginning.
@@ -86,7 +70,7 @@ updated: 2022-10-31 01:18
 
 - The *details we enter while generating a CSR or a Self Signed Certificate* goes into the **subject field** of the certificate.
 
-> [!important]- In case self signed certificates *issuer* and *subject* will be the same.
+> [!important]- In case of self signed certificates *issuer* and *subject* will be the same.
 > The official definition of self signed certificates is that the issuer field matches the subject field.
 
 - Looking at the *contents of the certificate*:
@@ -107,9 +91,12 @@ updated: 2022-10-31 01:18
 	- For self signed certificates we have `-x509` instead of `-new`
 	- Specifying just the CN to keep it simple.
 
-### How to link a private key file with a particular certificate
+> [!caution]- As we know that `.extension` doesn't mean anything in linux we can name our private key as `private.key`, CSR as `some.csr` and Cert as `some.crt` for easily distinguishing what is what. 
+> openssl doesn't care about the extension it cares about the extension of the file.
+
+### How to find that a private key file belongs to a particular certificate?
 - This is done by matching the public key value in the private key and in the certificate or the CSR.
-	- In particular we match the modulus value
+	- In particular we match the *modulus value*
 
 - Modulus value of a CSR:
 	- `openssl req -in CSR.pem -noout -modulus`
@@ -118,7 +105,16 @@ updated: 2022-10-31 01:18
 - Modulus value of a private key:
 	- `openssl rsa -in privatekey.pem -noout -modulus`
 
+- The above technique won't work for elliptic curve keys.
+
 > [!note]- Notice that we have to use `req` to list the contents of a CSR whereas we use `x509` to list the contents of a certificate.
+
+### Signing CSRs using a root CA private key
+- Signing a CSR using a private key
+	- `openssl x509 -req -days 3650 -in some.csr -CA ca.cert -CAkey ca.key -out some.cert -CAcreateserial`
+	- Here days is the validity of the certificate.
+
+> [!tip]- For the clients to trust the certificates signed by our CA we need to have the CA's public cert in the browser/devices.
 ---
 ### Example
 - Sample certificate of `sarthaknarayan.tech`
@@ -128,4 +124,8 @@ updated: 2022-10-31 01:18
 	- ![[attachments/Pasted image 20221031003751.png]]
 
 ## References
+- [How to create a valid self signed SSL Certificate? - YouTube](https://www.youtube.com/watch?v=VH4gXcvkmOY) - **Must Watch**
+- [ ] [Self signed Kubernetes SSL certificate // easy guide - YouTube](https://www.youtube.com/watch?v=IQ3G8Z1myMw)
 - [Create & sign SSL/TLS certificates with openssl - YouTube](https://www.youtube.com/watch?v=7YgaZIFn7mY)
+- [Using OpenSSL With Ed Harmoush - YouTube](https://www.youtube.com/playlist?list=PLtO_OYBiEo6kzs6dzPQ8CFilqZ6UxZKto)
+	- 1st three videos

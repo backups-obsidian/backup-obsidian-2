@@ -1,6 +1,6 @@
 ---
 created: 2022-09-15 18:05
-updated: 2022-09-15 20:22
+updated: 2022-11-03 10:22
 ---
 ---
 **Links**: [[111 KodeCloud Index]]
@@ -72,3 +72,6 @@ updated: 2022-09-15 20:22
 - It is the domain name that gets appended.
 	- ![[attachments/Pasted image 20220915193624.png]]
 - The host is intelligent enough that if you type `web.company.com` then it won't append  `company.com` to it.
+
+## Must Watch
+- [Docker Networking Crash Course - YouTube](https://www.youtube.com/watch?v=OU6xOM0SE4o) - Great for understanding routing, DNS and docker networking.
