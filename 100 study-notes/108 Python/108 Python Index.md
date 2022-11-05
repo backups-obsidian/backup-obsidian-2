@@ -1,6 +1,6 @@
 ---
 created: 2022-07-04 20:22
-updated: 2022-10-31 01:20
+updated: 2022-11-03 20:32
 ---
 ---
 **Links**: [[../100 home| 100 Home]]
@@ -23,6 +23,4 @@ updated: 2022-10-31 01:20
 	- [[Python - Everything is an object]]
 	- [[Python - Positional and Keyword arguments]]
 
-- [ ] what is ... in python 
-- [ ] what is array expansion python, like spread operator in js
-- [ ] What is md5sum and what is its use cases.
+- [[Python - Miscellaneous]] 

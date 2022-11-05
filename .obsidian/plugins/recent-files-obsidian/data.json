@@ -1,20 +1,48 @@
 {
   "recentFiles": [
     {
-      "basename": "Using openssl",
-      "path": "100 study-notes/104 Linux/Using openssl.md"
+      "basename": "112 Nginx Index",
+      "path": "100 study-notes/112 Nginx/112 Nginx Index.md"
+    },
+    {
+      "basename": "Nginx - Web server",
+      "path": "100 study-notes/112 Nginx/Nginx - Web server.md"
     },
     {
       "basename": "108 Python Index",
       "path": "100 study-notes/108 Python/108 Python Index.md"
     },
     {
+      "basename": "111 KodeCloud Index",
+      "path": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md"
+    },
+    {
       "basename": "KodeCloud - CKA - TLS Kubernetes",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - TLS Kubernetes.md"
     },
     {
-      "basename": "111 KodeCloud Index",
-      "path": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md"
+      "basename": "KodeCloud - CKAD - Volumes",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Volumes.md"
+    },
+    {
+      "basename": "Python - Miscellaneous",
+      "path": "100 study-notes/108 Python/Python - Miscellaneous.md"
+    },
+    {
+      "basename": "Using openssl",
+      "path": "100 study-notes/104 Linux/Using openssl.md"
+    },
+    {
+      "basename": "104 Linux Index",
+      "path": "100 study-notes/104 Linux/104 Linux Index.md"
+    },
+    {
+      "basename": "KodeCloud - Networking",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - Networking.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - ApiVersions",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - ApiVersions.md"
     },
     {
       "basename": "KodeCloud - SSL-TLS",
@@ -101,14 +129,6 @@
       "path": "100 study-notes/104 Linux/Linux - UID & GID.md"
     },
     {
-      "basename": "104 Linux Index",
-      "path": "100 study-notes/104 Linux/104 Linux Index.md"
-    },
-    {
-      "basename": "KodeCloud - Networking",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - Networking.md"
-    },
-    {
       "basename": "KodeCloud - CKA - Security Primitives and Authentication",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Security Primitives and Authentication.md"
     },
@@ -179,26 +199,6 @@
     {
       "basename": "KodeCloud - CKAD - Labels, Selectors and Annotations",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Labels, Selectors and Annotations.md"
-    },
-    {
-      "basename": "KodeCloud - Kubernetes - Networking",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - Kubernetes - Networking.md"
-    },
-    {
-      "basename": "KodeCloud - CKA - Kubeproxy",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Kubeproxy.md"
-    },
-    {
-      "basename": "KodeCloud - CKA - Etcd",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Etcd.md"
-    },
-    {
-      "basename": "KodeCloud - CKA - Api server",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Api server.md"
-    },
-    {
-      "basename": "KodeCloud - Kubernetes - Pods",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - Kubernetes - Pods.md"
     }
   ],
   "omittedPaths": [],
