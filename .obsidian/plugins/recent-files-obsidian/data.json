@@ -5,12 +5,12 @@
       "path": "100 study-notes/112 Nginx/112 Nginx Index.md"
     },
     {
-      "basename": "Nginx - Basics",
-      "path": "100 study-notes/112 Nginx/Nginx - Basics.md"
-    },
-    {
       "basename": "Nginx - Reverse Proxy",
       "path": "100 study-notes/112 Nginx/Nginx - Reverse Proxy.md"
+    },
+    {
+      "basename": "Nginx - Basics",
+      "path": "100 study-notes/112 Nginx/Nginx - Basics.md"
     },
     {
       "basename": "Nginx - Web server",

@@ -1,6 +1,6 @@
 ---
 created: 2022-11-05 15:44
-updated: 2022-11-05 16:09
+updated: 2022-11-07 13:46
 ---
 ---
 **Links**: [[112 Nginx Index]]
@@ -65,6 +65,51 @@ server {
 ### Sidecar proxy
 - ![[attachments/Pasted image 20221105152535.png]]
 - The proxy has a container port exposed on port 0.0.0.0:80 and is available to other pods. The application container has no container pods exposed and will only listen to requests on the loopback device on port 127.0.01:8080.
+
+### proxy_redirect
+- [nginx-reverse-proxy/nginx.conf at main · arkalim/nginx-reverse-proxy (github.com)](https://github.com/arkalim/nginx-reverse-proxy/blob/main/nginx/nginx.conf)
+- If you are having trouble working or understanding the above solution then spin up a simple webserver with nginx reverse proxy and play with it.
+	- Send requests using `curl -v` to the nginx reverse proxy and notice the *Location header in the response* (in case of redirects).
+	- This is what is changed by the `proxy_redirect` directive.
+	- Play with it and regex matching to get what you need.
+
+### Importance of trailing `/` in `proxy_pass`
+
+- Example config: Notice no trailing slash at the end of `proxy_pass`
+```nginx.conf
+location /foo {
+	proxy_pass http://localhost:3200;
+	proxy_redirect     off;
+	proxy_set_header   Host $host;
+}
+```
+- Nginx is running on port 80. 
+	- So in the above case when we go to `http://localhost/foo/bar` then `/foo/bar` is sent to the application.
+
+- One way of solving it is by rewriting the URL.
+```nginx.conf
+location  /foo {
+  rewrite /foo/(.*) /$1  break;
+  proxy_pass         http://localhost:3200;
+  proxy_redirect     off;
+  proxy_set_header   Host $host;
+}
+```
+
+- Using simple prefix matching
+	- Simple location prefix matching works for this without using a rewrite rule as long as you specify a URI in the `proxy_pass` directive
+
+```nginx.conf
+location /foo {
+  proxy_pass http://localhost:3200/;
+}
+```
+
+- **Notice the additional `/` at the end of the `proxy_pass` directive**. 
+	- NGINX will strip the matched prefix `/foo` and pass the remainder to the backend server at the URI `/`. 
+	- Therefore, `http://myserver:80/foo/bar` will post to the backend at `http://localhost:3200/bar`
+
+- [Nginx reverse proxy + URL rewrite - Server Fault](https://serverfault.com/questions/379675/nginx-reverse-proxy-url-rewrite)
 
 ### Features
 - **Load balancing**: Nginx load balance the client request to multiple upstream servers evenly which improve performance and provide redundancy in case of server failure. This helps to keep the application up all the time to serve client requests and provide better SLA for application.
