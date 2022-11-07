@@ -1,6 +1,6 @@
 ---
 created: 2022-11-05 16:13
-updated: 2022-11-05 16:15
+updated: 2022-11-06 10:43
 ---
 ---
 **Links**: [[112 Nginx Index]]
@@ -101,6 +101,51 @@ sudo cat /var/log/nginx/access.log
 	- To make an entry to the error.log, you'll have to make NGINX crash.
 
 > [!note]- For some reason if you are not seeing logs use `nginx -s reopen`
+
+#### Custom logging format
+- Custom logging format can be defined only in the http directive
+```nginx.conf
+events {
+  worker_connections 768;
+  # multi_accept on; 
+}
+
+http {
+
+	log_format json_combined escape=json
+	  '{' 
+	    '"time_local":"$time_local",'
+	    '"remote_addr":"$remote_addr",'
+	    '"remote_user":"$remote_user",'
+	    '"request":"$request",'
+	    '"status": "$status",'
+	    '"body_bytes_sent":"$body_bytes_sent",'
+	    '"http_referrer":"$http_referer",'
+	    '"http_user_agent":"$http_user_agent",'
+	    '"request_time":"$request_time",'
+		'"host": "$host", '
+		'"request_method": "$request_method", '
+		'"http_x_forwarded_for": "$http_x_forwarded_for", '
+		'"http_cf_ray": "$http_cf_ray", '
+		'"server_name": "$server_name", '
+		'"upstream_address": "$upstream_addr", '
+		'"upstream_status": "$upstream_status", '
+		'"upstream_response_time": "$upstream_response_time", '
+		'"request_uri": "$request_uri"'
+	  '}';
+
+  server {
+    listen 80; 
+
+    location / { 
+      access_log /test.log json_combined;
+      proxy_pass http://localhost:3000/;
+    }   
+  }
+}
+```
+
+- [NGINX Access & Error Logs Configuration: Logging Explained - Sematext](https://sematext.com/blog/nginx-logs/)
 
 ### Nginx Performance
 - A rule of thumb in determining the optimal number of worker processes is **number of worker process = number of CPU cores**.
