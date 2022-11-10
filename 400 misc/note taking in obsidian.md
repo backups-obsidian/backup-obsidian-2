@@ -1,6 +1,6 @@
 ---
 created: 2022-04-16 12:46
-updated: 2022-06-13 18:41
+updated: 2022-11-08 19:57
 description: description of the page, this wont be displayed
 ---
 --- 
@@ -34,3 +34,8 @@ description: description of the page, this wont be displayed
 - Obsidian helps you in linking notes rather than organising them.
 - You don't have to use mouse a lot. Everything can be done using the keyboard with the right plugins.
 - I can use vim mode
+
+# Obsidian v1.1 release
+- We have the concept on tabs and panes.
+- CMD + Click to open the link in a different tab.
+- CMD + OPT + Click to open the link in a different (side) pane.

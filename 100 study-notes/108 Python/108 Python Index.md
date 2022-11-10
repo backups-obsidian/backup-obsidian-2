@@ -1,6 +1,6 @@
 ---
 created: 2022-07-04 20:22
-updated: 2022-11-03 20:32
+updated: 2022-11-09 22:12
 ---
 ---
 **Links**: [[../100 home| 100 Home]]
@@ -8,7 +8,6 @@ updated: 2022-11-03 20:32
 ---
 - [[../111 KodeCloud/KodeCloud - Applications#Python| Python Basics]]
 - [[Python - What are wheels]]
-- [[Python - asyncio]]
 
 - Setting up an python project:
 	- [[Python - Setting up pre-commit]]
@@ -22,5 +21,12 @@ updated: 2022-11-03 20:32
 - Essentials:
 	- [[Python - Everything is an object]]
 	- [[Python - Positional and Keyword arguments]]
+
+- Parallel programming:
+	- [[Python - Multiprocessing vs Multithreading]]
+	- [[Python - Multithreading]]
+	- [[Python - Multiprocessing]]
+	- [[Python - Pooling (futures)]]
+	- [[Python - Asyncio]]
 
 - [[Python - Miscellaneous]] 

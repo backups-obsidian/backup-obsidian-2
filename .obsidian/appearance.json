@@ -2,5 +2,8 @@
   "baseFontSize": 16,
   "translucency": false,
   "cssTheme": "LYT Mode",
-  "enabledCssSnippets": []
+  "enabledCssSnippets": [],
+  "accentColor": "",
+  "monospaceFontFamily": "Source Code Pro",
+  "theme": "obsidian"
 }

@@ -92,7 +92,6 @@
   ],
   "obsidian-another-quick-switcher:recent-search": [],
   "obsidian-another-quick-switcher:backlink-search": [],
-  "switcher:open": [],
   "editor:toggle-fold": [
     {
       "modifiers": [
@@ -112,5 +111,15 @@
       ],
       "key": "Enter"
     }
-  ]
+  ],
+  "obsidian-another-quick-switcher:search-command_file-name-search": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "O"
+    }
+  ],
+  "obsidian-another-quick-switcher:grep": [],
+  "switcher:open": []
 }

@@ -4,32 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "9894e8bc3a11be26",
-        "type": "leaf",
-        "pinned": true,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md",
-            "mode": "preview",
-            "backlinks": false,
-            "source": true
+        "id": "99f84dcbb510e911",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d0361bfe8fdf5a74",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100 study-notes/108 Python/108 Python Index.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
+            }
           },
-          "pinned": true
-        }
-      },
-      {
-        "id": "7804c04378f05e2b",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "100 study-notes/108 Python/108 Python Index.md",
-            "mode": "preview",
-            "backlinks": false,
-            "source": true
+          {
+            "id": "a4f99df085b3d06b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100 study-notes/108 Python/Python - Pooling (futures).md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
+            }
           }
-        }
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -62,7 +67,9 @@
             "type": "leaf",
             "state": {
               "type": "file-explorer",
-              "state": {}
+              "state": {
+                "sortOrder": "alphabetical"
+              }
             }
           },
           {
@@ -103,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/108 Python/108 Python Index.md",
+                "file": "100 study-notes/108 Python/Python - Pooling (futures).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/108 Python/108 Python Index.md"
+                "file": "100 study-notes/108 Python/Python - Pooling (futures).md"
               }
             }
           },
@@ -136,20 +143,12 @@
             }
           },
           {
-            "id": "9ae295725d8efd1f",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
             "id": "8629f583543f668d",
             "type": "leaf",
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/108 Python/108 Python Index.md",
+                "file": "100 study-notes/108 Python/Python - Pooling (futures).md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -185,6 +184,14 @@
               "type": "advanced-tables-toolbar",
               "state": {}
             }
+          },
+          {
+            "id": "9871163dc0f24556",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
           }
         ]
       }
@@ -193,17 +200,17 @@
     "width": 278.0398254394531,
     "collapsed": true
   },
-  "active": "7804c04378f05e2b",
+  "active": "a4f99df085b3d06b",
   "lastOpenFiles": [
-    "100 study-notes/108 Python/Python - Asyncio.md",
     "100 study-notes/108 Python/108 Python Index.md",
-    "100 study-notes/108 Python/Python - Multiprocessing and Multithreading examples.md",
-    "100 study-notes/108 Python/Python - Miscellaneous.md",
-    "100 study-notes/108 Python/Python - Positional and Keyword arguments.md",
+    "100 study-notes/108 Python/Python - Asyncio.md",
+    "100 study-notes/108 Python/Python - Pooling (futures).md",
+    "100 study-notes/108 Python/Python - Multithreading.md",
+    "100 study-notes/108 Python/Python - Multiprocessing.md",
     "100 study-notes/108 Python/Python - Multiprocessing vs Multithreading.md",
-    "300 short-notes/300 home.md",
-    "300 short-notes/Importance of Content-Type in http.md",
-    "100 study-notes/112 Nginx/112 Nginx Index.md",
-    "100 study-notes/112 Nginx/Nginx - Reverse Proxy.md"
+    "100 study-notes/108 Python/Python - Type Hints - Advanced.md",
+    "400 misc/note taking in obsidian.md",
+    "400 misc/obsidian tips and tricks.md",
+    "100 study-notes/108 Python/Python - Setting up pre-commit.md"
   ]
 }

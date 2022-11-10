@@ -1,6 +1,6 @@
 ---
 created: 2022-10-29 11:42
-updated: 2022-10-29 12:15
+updated: 2022-11-07 21:49
 ---
 ---
 **Links**: [[108 Python Index]]
@@ -98,6 +98,63 @@ def f(*, only_key_word_args ):
 - Don't work with only positional arguments.
 - Only keyword and positional keyword example but not both
 	- ![[attachments/Pasted image 20221029121317.png]]
+
+### Use of `**` and `*` operator for arguments
+- Argument expansion
+```python
+def some_func(a, b):
+    print(a, b)
+
+some_dict = {"a": 1, "b": 2}
+some_func(**some_dict) # 1 2
+```
+
+> [!note]- Notice there is a subtle difference between above and `**kwargs`. 
+> `**kwargs` are used at the time of function definition whereas `**some_dict` is used at the time of function call.
+> `**kwargs` mean catch all whereas `**some_dict` means send the key value pairs to the function.
+
+- Another example:
+```python
+def some_func(a, b):
+    print(a, b)
+
+some_dict = {"a": 1, "b": 2, "c": 3}
+some_func(**some_dict) # TypeError: some_func() got an unexpected keyword argument 'c'
+```
+
+```python
+def some_func(a, b, **kwargs):
+    print(a, b)
+    print(kwargs)
+
+some_dict = {"a": 1, "b": 2, "c": 3}
+some_func(**some_dict) 
+# 1 2
+# {'c': 3}
+```
+
+- Similarly we can expand list for positional arguments using `*`
+```python
+def some_func(a, b, c):
+    print(a, b, c)
+
+l_l = [1, 2, 3]
+some_func(*l_l) # 1 2 3
+```
+
+- Catching extra variables in args
+```python
+def some_func(a, b, c, *args):
+    print(a, b, c)
+	print(args)
+
+
+l_l = [1, 2, 3, 4]
+some_func(*l_l)
+# 1 2 3
+# (4)
+```
+
 
 ## References
 - [Positional-only and keyword-only arguments in Python - YouTube](https://www.youtube.com/watch?v=R8-oAqCgHag)

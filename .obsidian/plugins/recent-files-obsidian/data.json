@@ -1,6 +1,74 @@
 {
   "recentFiles": [
     {
+      "basename": "Python - Pooling (futures)",
+      "path": "100 study-notes/108 Python/Python - Pooling (futures).md"
+    },
+    {
+      "basename": "108 Python Index",
+      "path": "100 study-notes/108 Python/108 Python Index.md"
+    },
+    {
+      "basename": "Python - Asyncio",
+      "path": "100 study-notes/108 Python/Python - Asyncio.md"
+    },
+    {
+      "basename": "Python - Multithreading",
+      "path": "100 study-notes/108 Python/Python - Multithreading.md"
+    },
+    {
+      "basename": "Python - Multiprocessing",
+      "path": "100 study-notes/108 Python/Python - Multiprocessing.md"
+    },
+    {
+      "basename": "Python - Multiprocessing vs Multithreading",
+      "path": "100 study-notes/108 Python/Python - Multiprocessing vs Multithreading.md"
+    },
+    {
+      "basename": "note taking in obsidian",
+      "path": "400 misc/note taking in obsidian.md"
+    },
+    {
+      "basename": "Python - Type Hints - Advanced",
+      "path": "100 study-notes/108 Python/Python - Type Hints - Advanced.md"
+    },
+    {
+      "basename": "obsidian tips and tricks",
+      "path": "400 misc/obsidian tips and tricks.md"
+    },
+    {
+      "basename": "Python - Setting up pre-commit",
+      "path": "100 study-notes/108 Python/Python - Setting up pre-commit.md"
+    },
+    {
+      "basename": "KodeCloud - Applications",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - Applications.md"
+    },
+    {
+      "basename": "Python - What are wheels",
+      "path": "100 study-notes/108 Python/Python - What are wheels.md"
+    },
+    {
+      "basename": "111 KodeCloud Index",
+      "path": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md"
+    },
+    {
+      "basename": "Python - Miscellaneous",
+      "path": "100 study-notes/108 Python/Python - Miscellaneous.md"
+    },
+    {
+      "basename": "Python - Positional and Keyword arguments",
+      "path": "100 study-notes/108 Python/Python - Positional and Keyword arguments.md"
+    },
+    {
+      "basename": "300 home",
+      "path": "300 short-notes/300 home.md"
+    },
+    {
+      "basename": "Importance of Content-Type in http",
+      "path": "300 short-notes/Importance of Content-Type in http.md"
+    },
+    {
       "basename": "112 Nginx Index",
       "path": "100 study-notes/112 Nginx/112 Nginx Index.md"
     },
@@ -21,24 +89,12 @@
       "path": "100 study-notes/112 Nginx/Nginx - Load Balancer.md"
     },
     {
-      "basename": "108 Python Index",
-      "path": "100 study-notes/108 Python/108 Python Index.md"
-    },
-    {
-      "basename": "111 KodeCloud Index",
-      "path": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md"
-    },
-    {
       "basename": "KodeCloud - CKA - TLS Kubernetes",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - TLS Kubernetes.md"
     },
     {
       "basename": "KodeCloud - CKAD - Volumes",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Volumes.md"
-    },
-    {
-      "basename": "Python - Miscellaneous",
-      "path": "100 study-notes/108 Python/Python - Miscellaneous.md"
     },
     {
       "basename": "Using openssl",
@@ -61,14 +117,6 @@
       "path": "100 study-notes/111 KodeCloud/KodeCloud - SSL-TLS.md"
     },
     {
-      "basename": "Python - Positional and Keyword arguments",
-      "path": "100 study-notes/108 Python/Python - Positional and Keyword arguments.md"
-    },
-    {
-      "basename": "Python - asyncio",
-      "path": "100 study-notes/108 Python/Python - asyncio.md"
-    },
-    {
       "basename": "KodeCloud - CKAD - Environment Variables",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Environment Variables.md"
     },
@@ -85,24 +133,12 @@
       "path": "100 study-notes/108 Python/Python - How to setup python projects.md"
     },
     {
-      "basename": "Python - Type Hints - Advanced",
-      "path": "100 study-notes/108 Python/Python - Type Hints - Advanced.md"
-    },
-    {
       "basename": "KodeCloud - CKAD - Commands and Arguments",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Commands and Arguments.md"
     },
     {
       "basename": "Python - Type Hints - Basics",
       "path": "100 study-notes/108 Python/Python - Type Hints - Basics.md"
-    },
-    {
-      "basename": "KodeCloud - Applications",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - Applications.md"
-    },
-    {
-      "basename": "Python - Setting up pre-commit",
-      "path": "100 study-notes/108 Python/Python - Setting up pre-commit.md"
     },
     {
       "basename": "KodeCloud - CKAD - Misc",
@@ -115,10 +151,6 @@
     {
       "basename": "nmap",
       "path": "300 short-notes/nmap.md"
-    },
-    {
-      "basename": "300 home",
-      "path": "300 short-notes/300 home.md"
     },
     {
       "basename": "Conventional commits",
@@ -167,38 +199,6 @@
     {
       "basename": "KodeCloud - Kubernetes - ReplicaSets",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - Kubernetes - ReplicaSets.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - Multi Container Pods",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Multi Container Pods.md"
-    },
-    {
-      "basename": "KodeCloud - Kubernetes - Deployments",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - Kubernetes - Deployments.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - Logging",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Logging.md"
-    },
-    {
-      "basename": "KodeCloud - CKA - Kube Scheduler",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Kube Scheduler.md"
-    },
-    {
-      "basename": "KodeCloud - CKA - Kube Controller Manager",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Kube Controller Manager.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - Ingress",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Ingress.md"
-    },
-    {
-      "basename": "KodeCloud - CKA - Static Pods",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Static Pods.md"
-    },
-    {
-      "basename": "KodeCloud - CKA - Daemon Sets",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Daemon Sets.md"
     }
   ],
   "omittedPaths": [],
