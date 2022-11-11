@@ -1,6 +1,6 @@
 ---
 created: 2022-07-04 20:22
-updated: 2022-11-09 22:12
+updated: 2022-11-11 10:56
 ---
 ---
 **Links**: [[../100 home| 100 Home]]
@@ -21,12 +21,15 @@ updated: 2022-11-09 22:12
 - Essentials:
 	- [[Python - Everything is an object]]
 	- [[Python - Positional and Keyword arguments]]
+	- [[Python - Generators]]
 
-- Parallel programming:
+- Concurrent and Parallel programming:
 	- [[Python - Multiprocessing vs Multithreading]]
 	- [[Python - Multithreading]]
 	- [[Python - Multiprocessing]]
-	- [[Python - Pooling (futures)]]
+	- [[Python - Using futures]]
 	- [[Python - Asyncio]]
+		- [[Python - Asyncio - Coroutine vs Subroutine]]
+		- [[Python - Asyncio - Event Loop Tasks and coroutines]]
 
 - [[Python - Miscellaneous]] 

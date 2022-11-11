@@ -1,12 +1,19 @@
 ---
 created: 2022-09-16 16:24
-updated: 2022-11-09 18:59
+updated: 2022-11-10 19:09
 ---
 ---
 **Links**: [[108 Python Index]]
 
 ---
 ## Multiprocessing vs Multithreading 
+> [!important]- Difference between concurrency and parallelism
+> *Concurrency* is about **DEALING with a lot of things at same time** (gives the **illusion of simultaneity**) or handling concurrent events essentially hiding latency. 
+> On the contrary, *parallelism* is about **DOING a lot of things at the same time**. 
+
+- In Python **Multiprocessing is parallelism. Multithreading is concurrency**
+	- Multiprocessing is for increasing speed. Multithreading is for hiding latency.
+
 ### What is a process?
 - A **process is an instance of a program**.
 - A process has **its own memory** for code and data.
@@ -30,6 +37,7 @@ updated: 2022-11-09 18:59
 > Both threads and processes can jump around on the physical CPU cores.
 
 - In order **for the thread to execute it must acquire the GIL** (Global interpreter lock) within the process.
+	- ![[attachments/Pasted image 20221110190821.png]]
 	- Only one thread in a process can acquire a GIL at a time.
 	- *By ensuring that only a single thread can execute at one time thread safety is guaranteed in python*. 
 	- Thread safety means there can be no deadlocks.

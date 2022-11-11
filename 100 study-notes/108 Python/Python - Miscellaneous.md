@@ -1,6 +1,6 @@
 ---
 created: 2022-11-03 10:29
-updated: 2022-11-07 16:45
+updated: 2022-11-10 16:16
 ---
 ---
 **Links**: [[108 Python Index]]
@@ -38,4 +38,19 @@ print(e) # [1, 2, 3, 10]
 d = [10]
 d.extend(a)
 print(d) # [10, 1, 2, 3]
+```
+
+## Partial Functions
+```python
+from functools import partial
+
+def adder(a: int, b: int, c: int) -> int:
+    return a + b + c
+
+adder_a = partial(adder, c=12, b=3)
+adder_a_b = partial(adder, c=5)
+
+print(adder_a(10)) # 25
+print(adder_a_b(a=3, b=5)) # 13
+print(adder_a_b(a=3, b=5, c=8)) # 16
 ```
