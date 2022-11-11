@@ -1,10 +1,6 @@
 {
   "recentFiles": [
     {
-      "basename": "Python - Pooling (futures)",
-      "path": "100 study-notes/108 Python/Python - Pooling (futures).md"
-    },
-    {
       "basename": "108 Python Index",
       "path": "100 study-notes/108 Python/108 Python Index.md"
     },
@@ -13,16 +9,44 @@
       "path": "100 study-notes/108 Python/Python - Asyncio.md"
     },
     {
+      "basename": "Python - Asyncio - Event Loop Tasks and coroutines",
+      "path": "100 study-notes/108 Python/Python - Asyncio - Event Loop Tasks and coroutines.md"
+    },
+    {
+      "basename": "Python - Asyncio - Coroutine vs Subroutine",
+      "path": "100 study-notes/108 Python/Python - Asyncio - Coroutine vs Subroutine.md"
+    },
+    {
+      "basename": "Python - Generators",
+      "path": "100 study-notes/108 Python/Python - Generators.md"
+    },
+    {
+      "basename": "To Study",
+      "path": "To Study.md"
+    },
+    {
+      "basename": "000 home",
+      "path": "000 home.md"
+    },
+    {
+      "basename": "Python - Multiprocessing vs Multithreading",
+      "path": "100 study-notes/108 Python/Python - Multiprocessing vs Multithreading.md"
+    },
+    {
+      "basename": "Python - Using futures",
+      "path": "100 study-notes/108 Python/Python - Using futures.md"
+    },
+    {
+      "basename": "Python - Miscellaneous",
+      "path": "100 study-notes/108 Python/Python - Miscellaneous.md"
+    },
+    {
       "basename": "Python - Multithreading",
       "path": "100 study-notes/108 Python/Python - Multithreading.md"
     },
     {
       "basename": "Python - Multiprocessing",
       "path": "100 study-notes/108 Python/Python - Multiprocessing.md"
-    },
-    {
-      "basename": "Python - Multiprocessing vs Multithreading",
-      "path": "100 study-notes/108 Python/Python - Multiprocessing vs Multithreading.md"
     },
     {
       "basename": "note taking in obsidian",
@@ -51,10 +75,6 @@
     {
       "basename": "111 KodeCloud Index",
       "path": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md"
-    },
-    {
-      "basename": "Python - Miscellaneous",
-      "path": "100 study-notes/108 Python/Python - Miscellaneous.md"
     },
     {
       "basename": "Python - Positional and Keyword arguments",
@@ -179,26 +199,6 @@
     {
       "basename": "KodeCloud - CKAD - StatefulSets",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - StatefulSets.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - Network Policies",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Network Policies.md"
-    },
-    {
-      "basename": "KodeCloud - CKA - Cluster Architecture",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Architecture.md"
-    },
-    {
-      "basename": "KodeCloud - CKA - Kubelet",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Kubelet.md"
-    },
-    {
-      "basename": "KodeCloud - CKA - Cluster Maintenance",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Maintenance.md"
-    },
-    {
-      "basename": "KodeCloud - Kubernetes - ReplicaSets",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - Kubernetes - ReplicaSets.md"
     }
   ],
   "omittedPaths": [],
