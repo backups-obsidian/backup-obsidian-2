@@ -1,8 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "To Study",
+      "path": "To Study.md"
+    },
+    {
       "basename": "108 Python Index",
       "path": "100 study-notes/108 Python/108 Python Index.md"
+    },
+    {
+      "basename": "Python - Setting up pre-commit",
+      "path": "100 study-notes/108 Python/Python - Setting up pre-commit.md"
+    },
+    {
+      "basename": "Python - Miscellaneous",
+      "path": "100 study-notes/108 Python/Python - Miscellaneous.md"
+    },
+    {
+      "basename": "Python - Multiprocessing vs Multithreading",
+      "path": "100 study-notes/108 Python/Python - Multiprocessing vs Multithreading.md"
+    },
+    {
+      "basename": "Python - Asyncio - Awaitables Tasks and Futures",
+      "path": "100 study-notes/108 Python/Python - Asyncio - Awaitables Tasks and Futures.md"
     },
     {
       "basename": "Python - Asyncio",
@@ -13,6 +33,10 @@
       "path": "100 study-notes/108 Python/Python - Asyncio - Event Loop Tasks and coroutines.md"
     },
     {
+      "basename": "Python - Using futures",
+      "path": "100 study-notes/108 Python/Python - Using futures.md"
+    },
+    {
       "basename": "Python - Asyncio - Coroutine vs Subroutine",
       "path": "100 study-notes/108 Python/Python - Asyncio - Coroutine vs Subroutine.md"
     },
@@ -21,24 +45,8 @@
       "path": "100 study-notes/108 Python/Python - Generators.md"
     },
     {
-      "basename": "To Study",
-      "path": "To Study.md"
-    },
-    {
       "basename": "000 home",
       "path": "000 home.md"
-    },
-    {
-      "basename": "Python - Multiprocessing vs Multithreading",
-      "path": "100 study-notes/108 Python/Python - Multiprocessing vs Multithreading.md"
-    },
-    {
-      "basename": "Python - Using futures",
-      "path": "100 study-notes/108 Python/Python - Using futures.md"
-    },
-    {
-      "basename": "Python - Miscellaneous",
-      "path": "100 study-notes/108 Python/Python - Miscellaneous.md"
     },
     {
       "basename": "Python - Multithreading",
@@ -61,16 +69,8 @@
       "path": "400 misc/obsidian tips and tricks.md"
     },
     {
-      "basename": "Python - Setting up pre-commit",
-      "path": "100 study-notes/108 Python/Python - Setting up pre-commit.md"
-    },
-    {
       "basename": "KodeCloud - Applications",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - Applications.md"
-    },
-    {
-      "basename": "Python - What are wheels",
-      "path": "100 study-notes/108 Python/Python - What are wheels.md"
     },
     {
       "basename": "111 KodeCloud Index",
@@ -195,10 +195,6 @@
     {
       "basename": "KodeCloud - CKA - Security Primitives and Authentication",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Security Primitives and Authentication.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - StatefulSets",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - StatefulSets.md"
     }
   ],
   "omittedPaths": [],

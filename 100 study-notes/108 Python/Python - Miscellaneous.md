@@ -1,11 +1,16 @@
 ---
 created: 2022-11-03 10:29
-updated: 2022-11-10 16:16
+updated: 2022-11-11 20:28
 ---
 ---
 **Links**: [[108 Python Index]]
 
 ---
+## What are wheels?
+- Wheel is a prebuilt package installable by just unzipping the archive and not running any code.
+- Wheels are fancy zip files that have `whl` as extension
+	- We can unzip them using the `unzip` command: `unzip file_name.whl`
+
 ## Use of ellipsis operator (...)
 - When arguments of the function are of type any.
 

@@ -1,6 +1,6 @@
 ---
 created: 2022-09-16 16:24
-updated: 2022-11-10 19:09
+updated: 2022-11-11 20:27
 ---
 ---
 **Links**: [[108 Python Index]]
@@ -13,6 +13,16 @@ updated: 2022-11-10 19:09
 
 - In Python **Multiprocessing is parallelism. Multithreading is concurrency**
 	- Multiprocessing is for increasing speed. Multithreading is for hiding latency.
+
+- **Asyncio** (*Asynchronous programming*): *Single thread* switching between tasks
+	- ![[attachments/Pasted image 20221111201249.png]]
+- **Multithreading** (*Concurrent programming*): *Multiple threads* but only one can run at a time due to GIL.
+	- ![[attachments/Pasted image 20221111201311.png]]
+- **Multiprocessing** (*Parallel programming*): *Multiple processes* running at the same time.
+	- ![[attachments/Pasted image 20221111201328.png]]
+	- In this example each thread belongs to a different process.
+
+> [!note]- Because of python's GIL, multithreading and asyncio are doing the same thing only difference is that **asyncio uses only 1 thread whereas multithreading is using multiple threads**.
 
 ### What is a process?
 - A **process is an instance of a program**.

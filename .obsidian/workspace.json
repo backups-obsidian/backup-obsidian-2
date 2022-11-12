@@ -10,6 +10,7 @@
           {
             "id": "d0361bfe8fdf5a74",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -17,23 +18,25 @@
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
-              }
+              },
+              "pinned": true
             }
           },
           {
-            "id": "7d58298e91bc331c",
+            "id": "44a1c5f42d653f6c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 study-notes/108 Python/Python - Asyncio.md",
+                "file": "To Study.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -109,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/108 Python/108 Python Index.md",
+                "file": "To Study.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/108 Python/108 Python Index.md"
+                "file": "To Study.md"
               }
             }
           },
@@ -147,7 +150,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/108 Python/108 Python Index.md",
+                "file": "To Study.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -192,24 +195,25 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
     "width": 278.0398254394531,
     "collapsed": true
   },
-  "active": "d0361bfe8fdf5a74",
+  "active": "44a1c5f42d653f6c",
   "lastOpenFiles": [
-    "100 study-notes/108 Python/Python - Asyncio.md",
     "100 study-notes/108 Python/108 Python Index.md",
-    "100 study-notes/108 Python/Python - Asyncio - Event Loop Tasks and coroutines.md",
-    "100 study-notes/108 Python/Python - Asyncio - Coroutine vs Subroutine.md",
-    "100 study-notes/108 Python/Python - Generators.md",
-    "To Study.md",
-    "000 home.md",
+    "100 study-notes/108 Python/Python - Setting up pre-commit.md",
+    "100 study-notes/108 Python/Python - Miscellaneous.md",
+    "100 study-notes/108 Python/Python - What are wheels.md",
     "100 study-notes/108 Python/Python - Multiprocessing vs Multithreading.md",
-    "100 study-notes/108 Python/Python - Using futures.md",
-    "100 study-notes/108 Python/Python - Partial Functions.md"
+    "To Study.md",
+    "100 study-notes/108 Python/Python - Asyncio - Awaitables Tasks and Futures.md",
+    "100 study-notes/108 Python/Python - Asyncio.md",
+    "100 study-notes/108 Python/Python - Asyncio - Event Loop Tasks and coroutines.md",
+    "100 study-notes/108 Python/Python - Using futures.md"
   ]
 }
