@@ -1,6 +1,6 @@
 ---
 created: 2022-11-11 10:56
-updated: 2022-11-11 10:57
+updated: 2022-11-11 18:04
 ---
 ---
 **Links**:
@@ -15,7 +15,8 @@ updated: 2022-11-11 10:57
 	- ![[attachments/Pasted image 20221111104511.png]]
 - **At any one time the event loop can ONLY have ONE Task** actually executing (the processor can still only do one thing at a time, after all), whilst the *other tasks in the loop are all paused*. 
 - The *currently executing task will continue to execute exactly as if it were executing a function in a normal (synchronous) Python program*, right up until it gets to a point where it would have to wait for something to happen before it can continue.
-- Then, **instead of waiting, the code in the Task yields control**. 
+	- Then, **instead of waiting, the code in the Task yields control**. 
+	- **But this can only be done if the task is awaitable**.
 - This means that it asks the event loop to pause the Task it is running in, and wake it up again at a future point once the thing it needs to wait for has happened.
 - The *event loop can then select one of its other sleeping tasks to wake up and become the executing task instead*. 
 	- Or if none of them are able to awaken (because they’re all waiting for things to happen) then it can wait.

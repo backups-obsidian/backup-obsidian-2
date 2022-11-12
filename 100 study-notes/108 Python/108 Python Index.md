@@ -1,13 +1,12 @@
 ---
 created: 2022-07-04 20:22
-updated: 2022-11-11 10:56
+updated: 2022-11-11 20:57
 ---
 ---
 **Links**: [[../100 home| 100 Home]]
 
 ---
 - [[../111 KodeCloud/KodeCloud - Applications#Python| Python Basics]]
-- [[Python - What are wheels]]
 
 - Setting up an python project:
 	- [[Python - Setting up pre-commit]]
@@ -31,5 +30,6 @@ updated: 2022-11-11 10:56
 	- [[Python - Asyncio]]
 		- [[Python - Asyncio - Coroutine vs Subroutine]]
 		- [[Python - Asyncio - Event Loop Tasks and coroutines]]
+		- [[Python - Asyncio - Awaitables Tasks and Futures]]
 
 - [[Python - Miscellaneous]] 
