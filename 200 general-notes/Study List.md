@@ -1,0 +1,30 @@
+---
+created: 2022-11-11 22:04
+updated: 2022-11-12 11:53
+---
+---
+**Links**: 
+- [[200 home]]
+- [[../TODO|TODO]]
+
+---
+## Python
+- [ ] Python packaging: [This Way Up: A Bottom-Up Look At Python Packaging | cloudfit-public-docs (bbc.github.io)](https://bbc.github.io/cloudfit-public-docs/packaging/this_way_up.html)
+- [ ] Python code correctness: [Correctness — Python Anti-Patterns documentation (quantifiedcode.com)](https://docs.quantifiedcode.com/python-anti-patterns/correctness/index.html)
+- [ ]  Pytest tutorial: [Introductory Tutorial on Unit Testing Python Functions with Pytest, Visual Studio Code, Command-line - YouTube](https://www.youtube.com/watch?v=UMgxJvozR5A) - Leisure
+- [ ] Test Driven Development python: [TDD Full Course (Learn Test Driven Development with Python) - YouTube](https://www.youtube.com/watch?v=eAPmXQ0dC7Q) - Leisure
+- [ ] Some articles on python TDD - Leisure
+
+## Random
+- [ ] Difference between SSH and VPN
+- [ ] Difference between VPN and proxy
+- [ ] OpenVPN vs other protocols
+- [x] [How VPN works? - YouTube](https://www.youtube.com/watch?v=IzGEfBm0XNY) ✅ 2022-11-12
+- [x] [how does openvpn work - YouTube](https://www.youtube.com/results?search_query=how+does+openvpn+work) ✅ 2022-11-12
+
+## Videos
+- [ ] [Microservice Architecture and System Design with Python & Kubernetes – Full Course - YouTube](https://www.youtube.com/watch?v=hmkF77F9TLw) -> 5 hours
+
+## Kubernetes
+- [ ] How to setup logging in k8s
+- [ ] Server monitoring using prometheus and grafana

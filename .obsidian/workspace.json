@@ -8,6 +8,21 @@
         "type": "tabs",
         "children": [
           {
+            "id": "544570f1a53f77ac",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TODO.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              },
+              "pinned": true
+            }
+          },
+          {
             "id": "d0361bfe8fdf5a74",
             "type": "leaf",
             "pinned": true,
@@ -23,20 +38,20 @@
             }
           },
           {
-            "id": "44a1c5f42d653f6c",
+            "id": "e7dc753ea1f29f00",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "To Study.md",
-                "mode": "source",
+                "file": "300 short-notes/What is OpenVPN.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -112,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "To Study.md",
+                "file": "300 short-notes/What is OpenVPN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "To Study.md"
+                "file": "300 short-notes/What is OpenVPN.md"
               }
             }
           },
@@ -150,7 +165,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "To Study.md",
+                "file": "300 short-notes/What is OpenVPN.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -174,7 +189,7 @@
                   "linkStrength": 1,
                   "linkDistance": 250,
                   "scale": 1.2083031867738372,
-                  "close": false
+                  "close": true
                 }
               }
             }
@@ -200,20 +215,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 278.0398254394531,
+    "width": 347.5,
     "collapsed": true
   },
-  "active": "44a1c5f42d653f6c",
+  "active": "e7dc753ea1f29f00",
   "lastOpenFiles": [
+    "TODO.md",
+    "200 general-notes/Study List.md",
+    "300 short-notes/What is OpenVPN.md",
+    "100 study-notes/101 AWS SAA/SNS.md",
+    "200 general-notes/Useful Websites.md",
+    "200 general-notes/200 home.md",
+    "300 short-notes/300 home.md",
     "100 study-notes/108 Python/108 Python Index.md",
-    "100 study-notes/108 Python/Python - Setting up pre-commit.md",
-    "100 study-notes/108 Python/Python - Miscellaneous.md",
-    "100 study-notes/108 Python/Python - What are wheels.md",
-    "100 study-notes/108 Python/Python - Multiprocessing vs Multithreading.md",
-    "To Study.md",
-    "100 study-notes/108 Python/Python - Asyncio - Awaitables Tasks and Futures.md",
     "100 study-notes/108 Python/Python - Asyncio.md",
-    "100 study-notes/108 Python/Python - Asyncio - Event Loop Tasks and coroutines.md",
-    "100 study-notes/108 Python/Python - Using futures.md"
+    "200 general-notes/IOT Project Videos.md"
   ]
 }
