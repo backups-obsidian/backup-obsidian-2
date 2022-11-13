@@ -44,7 +44,7 @@
               "type": "markdown",
               "state": {
                 "file": "300 short-notes/What is OpenVPN.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
@@ -70,7 +70,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "convert",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -105,8 +105,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -221,8 +220,8 @@
   "active": "e7dc753ea1f29f00",
   "lastOpenFiles": [
     "TODO.md",
-    "200 general-notes/Study List.md",
     "300 short-notes/What is OpenVPN.md",
+    "200 general-notes/Study List.md",
     "100 study-notes/101 AWS SAA/SNS.md",
     "200 general-notes/Useful Websites.md",
     "200 general-notes/200 home.md",
