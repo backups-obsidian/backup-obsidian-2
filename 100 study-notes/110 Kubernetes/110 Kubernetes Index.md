@@ -1,11 +1,13 @@
 ---
 created: 2022-08-11 19:08
-updated: 2022-09-19 11:39
+updated: 2022-11-13 09:31
 ---
 ---
 **Links**: [[../100 home|100 Home]]
 
 ---
+> [!caution]- This is old content. Find the new and more refined content at [[../111 KodeCloud/111 KodeCloud Index|KodeCloud Index]]
+
 ## Kubernetes
 [[Kubernetes - Introduction]]
 [[Kubernetes - Components of k8s & their function]]
@@ -33,7 +35,3 @@ updated: 2022-09-19 11:39
 
 ### References
 - [Kubernetes API | Kubernetes](https://kubernetes.io/docs/reference/kubernetes-api/)
-
-
----
-[[../111 KodeCloud/KodeCloud - Kubernetes Beginner | KodeCloud - Kubernetes Beginner]] - Use this when you want a quick recap for interviews.

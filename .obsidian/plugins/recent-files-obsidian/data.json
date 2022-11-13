@@ -1,16 +1,44 @@
 {
   "recentFiles": [
     {
-      "basename": "What is OpenVPN",
-      "path": "300 short-notes/What is OpenVPN.md"
-    },
-    {
       "basename": "TODO",
       "path": "TODO.md"
     },
     {
+      "basename": "Python - Tips for writing better code",
+      "path": "100 study-notes/108 Python/Python - Tips for writing better code.md"
+    },
+    {
+      "basename": "108 Python Index",
+      "path": "100 study-notes/108 Python/108 Python Index.md"
+    },
+    {
+      "basename": "Python - Miscellaneous",
+      "path": "100 study-notes/108 Python/Python - Miscellaneous.md"
+    },
+    {
       "basename": "Study List",
       "path": "200 general-notes/Study List.md"
+    },
+    {
+      "basename": "Kubernetes - Logging",
+      "path": "100 study-notes/111 KodeCloud/Kubernetes - Logging.md"
+    },
+    {
+      "basename": "111 KodeCloud Index",
+      "path": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md"
+    },
+    {
+      "basename": "Python - Packaging",
+      "path": "100 study-notes/108 Python/Python - Packaging.md"
+    },
+    {
+      "basename": "110 Kubernetes Index",
+      "path": "100 study-notes/110 Kubernetes/110 Kubernetes Index.md"
+    },
+    {
+      "basename": "What is OpenVPN",
+      "path": "300 short-notes/What is OpenVPN.md"
     },
     {
       "basename": "SNS",
@@ -29,10 +57,6 @@
       "path": "300 short-notes/300 home.md"
     },
     {
-      "basename": "108 Python Index",
-      "path": "100 study-notes/108 Python/108 Python Index.md"
-    },
-    {
       "basename": "Python - Asyncio",
       "path": "100 study-notes/108 Python/Python - Asyncio.md"
     },
@@ -47,10 +71,6 @@
     {
       "basename": "Python - Setting up pre-commit",
       "path": "100 study-notes/108 Python/Python - Setting up pre-commit.md"
-    },
-    {
-      "basename": "Python - Miscellaneous",
-      "path": "100 study-notes/108 Python/Python - Miscellaneous.md"
     },
     {
       "basename": "Python - Multiprocessing vs Multithreading",
@@ -99,10 +119,6 @@
     {
       "basename": "KodeCloud - Applications",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - Applications.md"
-    },
-    {
-      "basename": "111 KodeCloud Index",
-      "path": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md"
     },
     {
       "basename": "Python - Positional and Keyword arguments",
@@ -183,22 +199,6 @@
     {
       "basename": "Python - Type Hints - Basics",
       "path": "100 study-notes/108 Python/Python - Type Hints - Basics.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - Misc",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Misc.md"
-    },
-    {
-      "basename": "Using GitHub",
-      "path": "300 short-notes/Using GitHub.md"
-    },
-    {
-      "basename": "nmap",
-      "path": "300 short-notes/nmap.md"
-    },
-    {
-      "basename": "Conventional commits",
-      "path": "300 short-notes/Conventional commits.md"
     }
   ],
   "omittedPaths": [],

@@ -1,6 +1,6 @@
 ---
 created: 2022-09-13 16:17
-updated: 2022-11-03 19:56
+updated: 2022-11-13 09:29
 ---
 ---
 **Links**: 
@@ -88,9 +88,8 @@ updated: 2022-11-03 19:56
 #### Security
 - [[KodeCloud - CKA - Security Primitives and Authentication]]
 
-# ToDo
-- [ ] Learn NGINX
-	- Example use case: [Run Grafana behind a reverse proxy | Grafana Labs](https://grafana.com/tutorials/run-grafana-behind-a-proxy/)
+### Self
+- [[Kubernetes - Logging]]
 
 # Questions
 - [ ] We know any pod and communicate with any other pod on the cluster using IPs. Does each pod have a unique DNS name without a service? 
