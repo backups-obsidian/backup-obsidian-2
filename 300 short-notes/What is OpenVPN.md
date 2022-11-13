@@ -1,6 +1,6 @@
 ---
 created: 2022-11-12 09:29
-updated: 2022-11-12 22:57
+updated: 2022-11-12 23:46
 ---
 ---
 **Links**: [[300 home]]
@@ -37,15 +37,39 @@ updated: 2022-11-12 22:57
 
 - OpenVPN can use either TCP or UDP.
 - OpenVPN uses OpenSSL for its VPN connections
-- *1194 is the OpenVPN port*.
+- *1194 is the OpenVPN port* but we can use any other port.
 	- You can use port 443 if you using OpenVPN over UDP, it won't conflict with HTTPS (port 443) since it uses TCP.
-- Other VPN protocols:
-	- *WireGuard*: Comparable to OpenVPN.
-	- *PPTP* (Point-to-point tunneling protocol): Insecure as compared to OpenVPN
-	- *L2TP/IPSec* (Layer 2 tunneling protocol): Natively available on most platforms. L2TP on its own offers 0 encryption. That’s why it’s always paired up with IPSec
-	- *IKEv2/IPSec* (Internet key exchange version 2)
+		- It bypasses great firewall of China using this technique.
+	- The ability to use any port means that your VPN traffic can easily be disguised to look like regular browsing. This makes OpenVPN very difficult to flag and block.
+
+### Other VPN protocols:
+- **WireGuard**: 
+	- Comparable to OpenVPN in terms of security.
+	- *Faster than OpenVPN*.
+- **PPTP** (Point-to-point tunneling protocol): 
+	- Insecure, can be easily decrypted.
+	- Don't use it.
+- **L2TP/IPSec** (Layer 2 tunneling protocol): 
+	- *Natively available on most platforms*. 
+	- *L2TP on its own offers 0 encryption. That’s why it’s always paired up with IPSec*.
+	- L2TP/IPSec uses only three ports (UDP 500/4500 and ESP IP Protocol 50), which means the *firewalls will block it left and right*. 
+	- On its own, L2TP uses only UDP 1701. So, if unlocking Netflix or fighting censorship are your main goals, this is not the protocol for you. OpenVPN and WireGuard fit the bill much better here.
+	- *OpenVPN and WireGuard are both faster and require less computing power*.
+- **IKEv2/IPSec** (Internet key exchange version 2):
+	- IKEv2 became extremely popular among *mobile users* due to its sophisticated *reconnection capabilities*.
+- **IPSec** (Internet protocol security):
+	- IPSec is *often paired with other VPN protocols like L2TP to provide encryption*, but it can also be used by itself.
+- A few VPN providers opt to write their own protocols instead of using an existing one. Hotspot Shield’s Catapult Hydra, ExpressVPN’s Lightway, and NordVPN’s NordLynx are a few examples.
+	- Some custom protocols are built from the ground up, but many of them are just forks of open-source protocols. 
+	- NordLynx, for example, is just Wireguard with a double-NAT system to prevent logging of IP addresses.
+
+- Summary
+	- ![[attachments/Pasted image 20221112233813.png]]
+
+> [!note]- The speed of the VPN depends on the VPN protocol and the VPN server that we are using.
 
 - The average user ends up using the OpenVPN protocol through a separate VPN provider who will license the software and charge you their own monthly fees.
+- **OpenVPN is the default protocol among commercial VPN providers**.
 - Generally VPN services support multiple protocols.
 	- For example SurfShark supports OpenVPN, IKEv2, L2TP/IPSec, SSTP, Wireguard and PPTP as options.
 
@@ -59,6 +83,7 @@ updated: 2022-11-12 22:57
 - SSH only works over TCP whereas VPN works over both TCP and UDP.
 
 - *With VPN, your computer becomes part of another network*. 
+	- ![[attachments/Pasted image 20221112230520.png]]
 	- This is done by **creating a virtual network adapter on the system**.
 	- With ssh, you just connect to another host, but you don't become part of the server's network.
 

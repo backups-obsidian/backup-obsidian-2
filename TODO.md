@@ -1,6 +1,6 @@
 ---
 created: 2022-11-11 08:50
-updated: 2022-11-12 09:16
+updated: 2022-11-13 09:27
 ---
 ---
 **Links**: [[200 general-notes/Study List| Study List]]
@@ -37,6 +37,13 @@ not done
 path includes Study List
 heading includes kubernetes
 description does not include leisure
+```
+
+### Leisure
+```tasks
+not done
+path includes Study List
+description includes leisure
 ```
 
 ## Reference

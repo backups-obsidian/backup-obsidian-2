@@ -1,6 +1,6 @@
 ---
 created: 2022-07-04 20:22
-updated: 2022-11-11 20:57
+updated: 2022-11-13 18:56
 ---
 ---
 **Links**: [[../100 home| 100 Home]]
@@ -11,6 +11,7 @@ updated: 2022-11-11 20:57
 - Setting up an python project:
 	- [[Python - Setting up pre-commit]]
 	- [[Python - How to setup python projects]]
+	- [[Python - Packaging]]
 
 - Types:
 	- [[Python - Type Hints - Basics]]
@@ -33,3 +34,4 @@ updated: 2022-11-11 20:57
 		- [[Python - Asyncio - Awaitables Tasks and Futures]]
 
 - [[Python - Miscellaneous]] 
+- [[Python - Tips for writing better code]]
