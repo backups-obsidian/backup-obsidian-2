@@ -180,15 +180,15 @@
   },
   "active": "544570f1a53f77ac",
   "lastOpenFiles": [
-    "100 study-notes/108 Python/Python - Tips for writing better code.md",
-    "100 study-notes/108 Python/108 Python Index.md",
-    "100 study-notes/108 Python/Python - Miscellaneous.md",
-    "TODO.md",
     "200 general-notes/Study List.md",
-    "100 study-notes/111 KodeCloud/Kubernetes - Logging.md",
-    "100 study-notes/111 KodeCloud/111 KodeCloud Index.md",
-    "100 study-notes/108 Python/Python - Packaging.md",
-    "100 study-notes/110 Kubernetes/110 Kubernetes Index.md",
-    "300 short-notes/What is OpenVPN.md"
+    "TODO.md",
+    "100 study-notes/112 Nginx/Nginx - Basics.md",
+    "100 study-notes/112 Nginx/112 Nginx Index.md",
+    "100 study-notes/112 Nginx/Nginx - Reverse Proxy.md",
+    "100 study-notes/108 Python/108 Python Index.md",
+    "100 study-notes/108 Python/Python - Dataclasses.md",
+    "100 study-notes/108 Python/Python - Decorators.md",
+    "100 study-notes/108 Python/Python - Using futures.md",
+    "100 study-notes/108 Python/Python - Multiprocessing vs Multithreading.md"
   ]
 }

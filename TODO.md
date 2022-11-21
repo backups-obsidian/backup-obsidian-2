@@ -1,6 +1,6 @@
 ---
 created: 2022-11-11 08:50
-updated: 2022-11-13 09:27
+updated: 2022-11-17 00:06
 ---
 ---
 **Links**: [[200 general-notes/Study List| Study List]]
@@ -15,19 +15,19 @@ heading includes python
 description does not include leisure
 ```
 
-### Random
+### Networking
 ```tasks
 not done
 path includes Study List
-heading includes random
+heading includes networking
 description does not include leisure
 ```
 
-### Videos
+### Docker
 ```tasks
 not done
 path includes Study List
-heading includes videos
+heading includes docker
 description does not include leisure
 ```
 
@@ -36,6 +36,14 @@ description does not include leisure
 not done
 path includes Study List
 heading includes kubernetes
+description does not include leisure
+```
+
+### Random
+```tasks
+not done
+path includes Study List
+heading includes random
 description does not include leisure
 ```
 
