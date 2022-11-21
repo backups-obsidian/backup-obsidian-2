@@ -1,6 +1,6 @@
 ---
 created: 2022-07-04 20:22
-updated: 2022-11-13 18:56
+updated: 2022-11-14 12:22
 ---
 ---
 **Links**: [[../100 home| 100 Home]]
@@ -22,6 +22,7 @@ updated: 2022-11-13 18:56
 	- [[Python - Everything is an object]]
 	- [[Python - Positional and Keyword arguments]]
 	- [[Python - Generators]]
+	- [[Python - Decorators]]
 
 - Concurrent and Parallel programming:
 	- [[Python - Multiprocessing vs Multithreading]]
