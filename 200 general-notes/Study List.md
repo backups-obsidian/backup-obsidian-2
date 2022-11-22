@@ -1,6 +1,6 @@
 ---
 created: 2022-11-11 22:04
-updated: 2022-11-20 13:17
+updated: 2022-11-21 16:50
 ---
 ---
 **Links**: 
@@ -11,7 +11,8 @@ updated: 2022-11-20 13:17
 ## Python
 - [x] Python packaging: [This Way Up: A Bottom-Up Look At Python Packaging | cloudfit-public-docs (bbc.github.io)](https://bbc.github.io/cloudfit-public-docs/packaging/this_way_up.html) ✅ 2022-11-13
 - [x] Python code correctness: [Correctness — Python Anti-Patterns documentation (quantifiedcode.com)](https://docs.quantifiedcode.com/python-anti-patterns/correctness/index.html) ✅ 2022-11-13
-- [ ] Decorators in python: Links: 1. [Primer on Python Decorators – Real Python](https://realpython.com/primer-on-python-decorators/), 2. [7. Decorators — Python Tips 0.1 documentation](https://book.pythontips.com/en/latest/decorators.html), 3.[Python Decorators – How to Create and Use Decorators in Python With Examples (freecodecamp.org)](https://www.freecodecamp.org/news/python-decorators-explained-with-examples/)
+- [x] Decorators in python: Links: 1. [Primer on Python Decorators – Real Python](https://realpython.com/primer-on-python-decorators/), 2. [7. Decorators — Python Tips 0.1 documentation](https://book.pythontips.com/en/latest/decorators.html), 3.[Python Decorators – How to Create and Use Decorators in Python With Examples (freecodecamp.org)](https://www.freecodecamp.org/news/python-decorators-explained-with-examples/) ✅ 2022-11-21
+- [ ] Working with exceptions, assertions and raising errors.
 - [ ] [FastAPI - A python framework | Full Course - YouTube](https://www.youtube.com/watch?v=7t2alSnE2-I) - Leisure
 - [ ] [Microservice Architecture and System Design with Python & Kubernetes – Full Course - YouTube](https://www.youtube.com/watch?v=hmkF77F9TLw) -> 5 hours - Leisure
 - [ ]  Pytest tutorial: [Introductory Tutorial on Unit Testing Python Functions with Pytest, Visual Studio Code, Command-line - YouTube](https://www.youtube.com/watch?v=UMgxJvozR5A) - Leisure

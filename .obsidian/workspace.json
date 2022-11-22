@@ -21,8 +21,22 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "7f6f1e14c95e1f53",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100 study-notes/108 Python/108 Python Index.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -98,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TODO.md",
+                "file": "100 study-notes/108 Python/108 Python Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TODO.md"
+                "file": "100 study-notes/108 Python/108 Python Index.md"
               }
             }
           },
@@ -125,7 +139,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "TODO.md",
+                "file": "100 study-notes/108 Python/108 Python Index.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -178,17 +192,17 @@
     "width": 347.5,
     "collapsed": true
   },
-  "active": "544570f1a53f77ac",
+  "active": "7f6f1e14c95e1f53",
   "lastOpenFiles": [
-    "200 general-notes/Study List.md",
-    "TODO.md",
-    "100 study-notes/112 Nginx/Nginx - Basics.md",
-    "100 study-notes/112 Nginx/112 Nginx Index.md",
-    "100 study-notes/112 Nginx/Nginx - Reverse Proxy.md",
+    "100 study-notes/108 Python/Python - Exception Handling.md",
     "100 study-notes/108 Python/108 Python Index.md",
-    "100 study-notes/108 Python/Python - Dataclasses.md",
+    "TODO.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - Applications.md",
+    "100 study-notes/108 Python/Python - Generators.md",
+    "100 study-notes/108 Python/Python - Multiprocessing vs Multithreading.md",
     "100 study-notes/108 Python/Python - Decorators.md",
-    "100 study-notes/108 Python/Python - Using futures.md",
-    "100 study-notes/108 Python/Python - Multiprocessing vs Multithreading.md"
+    "200 general-notes/Study List.md",
+    "100 study-notes/112 Nginx/Nginx - Basics.md",
+    "100 study-notes/112 Nginx/112 Nginx Index.md"
   ]
 }

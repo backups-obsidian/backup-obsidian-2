@@ -1,8 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "108 Python Index",
+      "path": "100 study-notes/108 Python/108 Python Index.md"
+    },
+    {
+      "basename": "Python - Exception Handling",
+      "path": "100 study-notes/108 Python/Python - Exception Handling.md"
+    },
+    {
       "basename": "TODO",
       "path": "TODO.md"
+    },
+    {
+      "basename": "KodeCloud - Applications",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - Applications.md"
+    },
+    {
+      "basename": "Python - Generators",
+      "path": "100 study-notes/108 Python/Python - Generators.md"
+    },
+    {
+      "basename": "Python - Multiprocessing vs Multithreading",
+      "path": "100 study-notes/108 Python/Python - Multiprocessing vs Multithreading.md"
+    },
+    {
+      "basename": "Python - Decorators",
+      "path": "100 study-notes/108 Python/Python - Decorators.md"
     },
     {
       "basename": "Study List",
@@ -21,24 +45,12 @@
       "path": "100 study-notes/112 Nginx/Nginx - Reverse Proxy.md"
     },
     {
-      "basename": "108 Python Index",
-      "path": "100 study-notes/108 Python/108 Python Index.md"
-    },
-    {
       "basename": "Python - Dataclasses",
       "path": "100 study-notes/108 Python/Python - Dataclasses.md"
     },
     {
-      "basename": "Python - Decorators",
-      "path": "100 study-notes/108 Python/Python - Decorators.md"
-    },
-    {
       "basename": "Python - Using futures",
       "path": "100 study-notes/108 Python/Python - Using futures.md"
-    },
-    {
-      "basename": "Python - Multiprocessing vs Multithreading",
-      "path": "100 study-notes/108 Python/Python - Multiprocessing vs Multithreading.md"
     },
     {
       "basename": "Python - Tips for writing better code",
@@ -113,10 +125,6 @@
       "path": "100 study-notes/108 Python/Python - Asyncio - Coroutine vs Subroutine.md"
     },
     {
-      "basename": "Python - Generators",
-      "path": "100 study-notes/108 Python/Python - Generators.md"
-    },
-    {
       "basename": "Python - Multithreading",
       "path": "100 study-notes/108 Python/Python - Multithreading.md"
     },
@@ -135,10 +143,6 @@
     {
       "basename": "obsidian tips and tricks",
       "path": "400 misc/obsidian tips and tricks.md"
-    },
-    {
-      "basename": "KodeCloud - Applications",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - Applications.md"
     },
     {
       "basename": "Python - Positional and Keyword arguments",
@@ -195,10 +199,6 @@
     {
       "basename": "Python - How to setup python projects",
       "path": "100 study-notes/108 Python/Python - How to setup python projects.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - Commands and Arguments",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Commands and Arguments.md"
     }
   ],
   "omittedPaths": [],
