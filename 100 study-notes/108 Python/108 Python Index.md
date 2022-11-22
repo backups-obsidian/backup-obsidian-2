@@ -1,6 +1,6 @@
 ---
 created: 2022-07-04 20:22
-updated: 2022-11-14 12:22
+updated: 2022-11-21 18:18
 ---
 ---
 **Links**: [[../100 home| 100 Home]]
@@ -23,6 +23,7 @@ updated: 2022-11-14 12:22
 	- [[Python - Positional and Keyword arguments]]
 	- [[Python - Generators]]
 	- [[Python - Decorators]]
+	- [[Python - Exception Handling]]
 
 - Concurrent and Parallel programming:
 	- [[Python - Multiprocessing vs Multithreading]]
