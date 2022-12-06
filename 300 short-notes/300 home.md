@@ -1,6 +1,6 @@
 ---
 created: 2022-04-16 16:39
-updated: 2022-11-12 09:29
+updated: 2022-11-28 22:20
 ---
 ---
 **Links**:  [[../000 home|000 Home]]
@@ -19,6 +19,7 @@ updated: 2022-11-12 09:29
 [[What is BaaS]]
 [[Difference between REST & HTTP API]]
 [[YAML]]
+[[Bash Scripting]]
 [[Strict mode in bash]]
 [[nmap]]
 [[Neovim]]
@@ -30,3 +31,4 @@ updated: 2022-11-12 09:29
 [[Conventional commits]]
 [[Importance of Content-Type in http]]
 [[What is OpenVPN]]
+[[CloudFlare Workers]]

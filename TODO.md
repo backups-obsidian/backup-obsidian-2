@@ -1,12 +1,20 @@
 ---
 created: 2022-11-11 08:50
-updated: 2022-11-17 00:06
+updated: 2022-11-28 23:51
 ---
 ---
 **Links**: [[200 general-notes/Study List| Study List]]
 
 ---
 ## Study List
+### DevOps
+```tasks
+not done
+path includes Study List
+heading includes devops
+description does not include leisure
+```
+
 ### Python
 ```tasks
 not done

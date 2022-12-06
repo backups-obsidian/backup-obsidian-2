@@ -1,6 +1,6 @@
 ---
 created: 2022-11-13 15:52
-updated: 2022-11-21 20:03
+updated: 2022-11-21 21:43
 ---
 ---
 **Links**: [[108 Python Index]]
@@ -119,3 +119,6 @@ except AssertionError as error:
 
 > [!caution]- Don't use assertions as your only line of defence as they can be turned of using `python -O main.py`
 > Use exceptions
+
+## References
+- [python try except and best practices (beginner - intermediate) anthony explains #359 - YouTube](https://www.youtube.com/watch?v=tIh42X0oGQc)

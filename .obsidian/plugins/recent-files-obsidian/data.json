@@ -1,16 +1,52 @@
 {
   "recentFiles": [
     {
+      "basename": "Python - Miscellaneous",
+      "path": "100 study-notes/108 Python/Python - Miscellaneous.md"
+    },
+    {
       "basename": "108 Python Index",
       "path": "100 study-notes/108 Python/108 Python Index.md"
     },
     {
-      "basename": "Python - Exception Handling",
-      "path": "100 study-notes/108 Python/Python - Exception Handling.md"
-    },
-    {
       "basename": "TODO",
       "path": "TODO.md"
+    },
+    {
+      "basename": "Study List",
+      "path": "200 general-notes/Study List.md"
+    },
+    {
+      "basename": "Python - Dataclasses",
+      "path": "100 study-notes/108 Python/Python - Dataclasses.md"
+    },
+    {
+      "basename": "Python - Type Hints - Basics",
+      "path": "100 study-notes/108 Python/Python - Type Hints - Basics.md"
+    },
+    {
+      "basename": "CloudFlare Workers",
+      "path": "300 short-notes/CloudFlare Workers.md"
+    },
+    {
+      "basename": "300 home",
+      "path": "300 short-notes/300 home.md"
+    },
+    {
+      "basename": "Bash Scripting",
+      "path": "300 short-notes/Bash Scripting.md"
+    },
+    {
+      "basename": "Strict mode in bash",
+      "path": "300 short-notes/Strict mode in bash.md"
+    },
+    {
+      "basename": "104 Linux Index",
+      "path": "100 study-notes/104 Linux/104 Linux Index.md"
+    },
+    {
+      "basename": "Python - Exception Handling",
+      "path": "100 study-notes/108 Python/Python - Exception Handling.md"
     },
     {
       "basename": "KodeCloud - Applications",
@@ -29,10 +65,6 @@
       "path": "100 study-notes/108 Python/Python - Decorators.md"
     },
     {
-      "basename": "Study List",
-      "path": "200 general-notes/Study List.md"
-    },
-    {
       "basename": "Nginx - Basics",
       "path": "100 study-notes/112 Nginx/Nginx - Basics.md"
     },
@@ -45,20 +77,12 @@
       "path": "100 study-notes/112 Nginx/Nginx - Reverse Proxy.md"
     },
     {
-      "basename": "Python - Dataclasses",
-      "path": "100 study-notes/108 Python/Python - Dataclasses.md"
-    },
-    {
       "basename": "Python - Using futures",
       "path": "100 study-notes/108 Python/Python - Using futures.md"
     },
     {
       "basename": "Python - Tips for writing better code",
       "path": "100 study-notes/108 Python/Python - Tips for writing better code.md"
-    },
-    {
-      "basename": "Python - Miscellaneous",
-      "path": "100 study-notes/108 Python/Python - Miscellaneous.md"
     },
     {
       "basename": "Kubernetes - Logging",
@@ -91,10 +115,6 @@
     {
       "basename": "200 home",
       "path": "200 general-notes/200 home.md"
-    },
-    {
-      "basename": "300 home",
-      "path": "300 short-notes/300 home.md"
     },
     {
       "basename": "Python - Asyncio",
@@ -173,32 +193,12 @@
       "path": "100 study-notes/104 Linux/Using openssl.md"
     },
     {
-      "basename": "104 Linux Index",
-      "path": "100 study-notes/104 Linux/104 Linux Index.md"
-    },
-    {
       "basename": "KodeCloud - Networking",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - Networking.md"
     },
     {
       "basename": "KodeCloud - CKAD - ApiVersions",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - ApiVersions.md"
-    },
-    {
-      "basename": "KodeCloud - SSL-TLS",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - SSL-TLS.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - Environment Variables",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Environment Variables.md"
-    },
-    {
-      "basename": "Python - Everything is an object",
-      "path": "100 study-notes/108 Python/Python - Everything is an object.md"
-    },
-    {
-      "basename": "Python - How to setup python projects",
-      "path": "100 study-notes/108 Python/Python - How to setup python projects.md"
     }
   ],
   "omittedPaths": [],
