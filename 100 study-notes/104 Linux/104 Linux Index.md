@@ -1,6 +1,6 @@
 ---
 created: 2022-05-14 21:41
-updated: 2022-10-15 10:16
+updated: 2022-11-21 22:36
 ---
 ---
 **Links**: 
@@ -18,8 +18,9 @@ updated: 2022-10-15 10:16
 [[../111 KodeCloud/KodeCloud - Package Management using yum | KodeCloud - Package Management using yum]]
 [[../111 KodeCloud/KodeCloud - Networking | KodeCloud - Networking Basics]]
 
-[Linux Essentials (notion.site)](https://sarthaknarayan.notion.site/Linux-Essentials-9cc9dc1d928a474fb6458b019a0d576e)
-[Networking (notion.site)](https://sarthaknarayan.notion.site/Networking-f2f75f5807624e99b08e0d4c821559b6)
+- [Linux Essentials (notion.site)](https://sarthaknarayan.notion.site/Linux-Essentials-9cc9dc1d928a474fb6458b019a0d576e)
+- [Networking (notion.site)](https://sarthaknarayan.notion.site/Networking-f2f75f5807624e99b08e0d4c821559b6)
+	- Using a forward proxy to mask the IP: [Tinyproxy](http://tinyproxy.github.io/)
 
 ## Articles
 - Using command line arguments - [Parse Command Line Arguments in Bash | Baeldung on Linux](https://www.baeldung.com/linux/bash-parse-command-line-arguments)
