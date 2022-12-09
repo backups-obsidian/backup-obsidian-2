@@ -1,6 +1,6 @@
 ---
 created: 2022-11-03 10:29
-updated: 2022-12-06 16:52
+updated: 2022-12-06 17:02
 ---
 ---
 **Links**: [[108 Python Index]]
@@ -77,6 +77,34 @@ print(f"{text:-^20}") # centre allignment
 	- ![[attachments/Pasted image 20221206163418.png]]
 
 ## `is` vs `==`
-- `is` is for instance comparison whereas `==` is for value comparison.
-	- If you want to compare values like `a == b` use `==`
-	- If you want to compare 
+- If you want to **compare values** use `==`. Eg: `a == b`
+- If you want to **compare instances** use `is`. Eg: `a is True`
+
+- Sometimes:
+```python
+a = 1000
+b = 1000
+
+print(a is b)
+# this might result as True since python assigns them the same id to save space.
+```
+
+- Example:
+```python
+class A:
+	def __init__(self):
+		pass
+
+test_a = A()
+test_b = B()
+
+print(test_a == test_b) # False
+print(test_a is test_b) # True
+
+# test_a and test_b are two separate instances but they have the same value
+``` 
+
+### References
+- [THE CRUCIAL DIFFERENCE BETWEEN "is" & "\==" IN PYTHON 2022 - YouTube](https://www.youtube.com/watch?v=vlno3M-Nrp8)
+
+

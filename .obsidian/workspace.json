@@ -28,15 +28,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 study-notes/108 Python/Python - Miscellaneous.md",
+                "file": "100 study-notes/108 Python/108 Python Index.md",
                 "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "59e0ff222a121c31",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100 study-notes/108 Python/Python - Using name equals to main.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -112,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/108 Python/Python - Miscellaneous.md",
+                "file": "100 study-notes/108 Python/Python - Using name equals to main.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/108 Python/Python - Miscellaneous.md"
+                "file": "100 study-notes/108 Python/Python - Using name equals to main.md"
               }
             }
           },
@@ -139,7 +152,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/108 Python/Python - Miscellaneous.md",
+                "file": "100 study-notes/108 Python/Python - Using name equals to main.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -192,17 +205,17 @@
     "width": 347.5,
     "collapsed": true
   },
-  "active": "bb24f88b76b60508",
+  "active": "59e0ff222a121c31",
   "lastOpenFiles": [
     "100 study-notes/108 Python/108 Python Index.md",
+    "100 study-notes/108 Python/Python - Tips for writing better code.md",
+    "100 study-notes/108 Python/Python - Miscellaneous.md",
+    "100 study-notes/108 Python/Python - Useful videos.md",
     "TODO.md",
     "200 general-notes/Study List.md",
     "100 study-notes/108 Python/Python - Dataclasses.md",
     "100 study-notes/108 Python/Python - Type Hints - Basics.md",
     "300 short-notes/CloudFlare Workers.md",
-    "300 short-notes/300 home.md",
-    "300 short-notes/Bash Scripting.md",
-    "300 short-notes/Strict mode in bash.md",
-    "100 study-notes/104 Linux/104 Linux Index.md"
+    "300 short-notes/300 home.md"
   ]
 }

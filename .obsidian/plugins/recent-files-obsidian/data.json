@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "Python - Miscellaneous",
-      "path": "100 study-notes/108 Python/Python - Miscellaneous.md"
+      "basename": "Python - Using name equals to main",
+      "path": "100 study-notes/108 Python/Python - Using name equals to main.md"
     },
     {
       "basename": "108 Python Index",
       "path": "100 study-notes/108 Python/108 Python Index.md"
+    },
+    {
+      "basename": "Python - Tips for writing better code",
+      "path": "100 study-notes/108 Python/Python - Tips for writing better code.md"
+    },
+    {
+      "basename": "Python - Miscellaneous",
+      "path": "100 study-notes/108 Python/Python - Miscellaneous.md"
+    },
+    {
+      "basename": "Python - Useful videos",
+      "path": "100 study-notes/108 Python/Python - Useful videos.md"
     },
     {
       "basename": "TODO",
@@ -79,10 +91,6 @@
     {
       "basename": "Python - Using futures",
       "path": "100 study-notes/108 Python/Python - Using futures.md"
-    },
-    {
-      "basename": "Python - Tips for writing better code",
-      "path": "100 study-notes/108 Python/Python - Tips for writing better code.md"
     },
     {
       "basename": "Kubernetes - Logging",
@@ -191,14 +199,6 @@
     {
       "basename": "Using openssl",
       "path": "100 study-notes/104 Linux/Using openssl.md"
-    },
-    {
-      "basename": "KodeCloud - Networking",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - Networking.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - ApiVersions",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - ApiVersions.md"
     }
   ],
   "omittedPaths": [],
