@@ -1,6 +1,6 @@
 ---
 created: 2022-11-11 22:04
-updated: 2022-12-05 12:51
+updated: 2022-12-06 22:41
 ---
 ---
 **Links**: 
@@ -26,6 +26,7 @@ updated: 2022-12-05 12:51
 - [ ] [The Ultimate Guide to Writing Functions - YouTube](https://www.youtube.com/watch?v=yatgY4NpZXE) -> Note down all the tips from this video.
 - [ ] gRPC Python
 - [ ] Private variables in python and what evaluation of class and instance variables: [Every Python dev falls for this - YouTube](https://www.youtube.com/watch?v=0hrEaA3N3lk)
+- [ ] map, filter and lambda in python
 
 ## Random
 - [x] Try out forward proxy: [Tinyproxy](http://tinyproxy.github.io/) ✅ 2022-11-21
