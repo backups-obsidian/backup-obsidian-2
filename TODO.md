@@ -1,12 +1,20 @@
 ---
 created: 2022-11-11 08:50
-updated: 2022-11-28 23:51
+updated: 2022-12-15 17:06
 ---
 ---
 **Links**: [[200 general-notes/Study List| Study List]]
 
 ---
 ## Study List
+### Linux
+```tasks
+not done
+path includes Study List
+heading includes linux
+description does not include leisure
+```
+
 ### DevOps
 ```tasks
 not done
@@ -47,11 +55,35 @@ heading includes kubernetes
 description does not include leisure
 ```
 
+### Software Engineering
+```tasks
+not done
+path includes Study List
+heading includes software
+description does not include leisure
+```
+
 ### Random
 ```tasks
 not done
 path includes Study List
 heading includes random
+description does not include leisure
+```
+
+### Projects
+```tasks
+not done
+path includes Study List
+heading includes projects
+description does not include leisure
+```
+
+### Writeups
+```tasks
+not done
+path includes Study List
+heading includes writeups
 description does not include leisure
 ```
 

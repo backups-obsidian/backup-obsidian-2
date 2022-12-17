@@ -1,12 +1,44 @@
 {
   "recentFiles": [
     {
-      "basename": "Python - Using name equals to main",
-      "path": "100 study-notes/108 Python/Python - Using name equals to main.md"
+      "basename": "Python - imports",
+      "path": "100 study-notes/108 Python/Python - imports.md"
     },
     {
       "basename": "108 Python Index",
       "path": "100 study-notes/108 Python/108 Python Index.md"
+    },
+    {
+      "basename": "Python - Exception Handling",
+      "path": "100 study-notes/108 Python/Python - Exception Handling.md"
+    },
+    {
+      "basename": "TODO",
+      "path": "TODO.md"
+    },
+    {
+      "basename": "Study List",
+      "path": "200 general-notes/Study List.md"
+    },
+    {
+      "basename": "Linux - Globbing",
+      "path": "100 study-notes/104 Linux/Linux - Globbing.md"
+    },
+    {
+      "basename": "104 Linux Index",
+      "path": "100 study-notes/104 Linux/104 Linux Index.md"
+    },
+    {
+      "basename": "Using openssl",
+      "path": "100 study-notes/104 Linux/Using openssl.md"
+    },
+    {
+      "basename": "Python - Correct way of running modules",
+      "path": "100 study-notes/108 Python/Python - Correct way of running modules.md"
+    },
+    {
+      "basename": "Python - Using name equals to main",
+      "path": "100 study-notes/108 Python/Python - Using name equals to main.md"
     },
     {
       "basename": "Python - Tips for writing better code",
@@ -19,14 +51,6 @@
     {
       "basename": "Python - Useful videos",
       "path": "100 study-notes/108 Python/Python - Useful videos.md"
-    },
-    {
-      "basename": "TODO",
-      "path": "TODO.md"
-    },
-    {
-      "basename": "Study List",
-      "path": "200 general-notes/Study List.md"
     },
     {
       "basename": "Python - Dataclasses",
@@ -51,14 +75,6 @@
     {
       "basename": "Strict mode in bash",
       "path": "300 short-notes/Strict mode in bash.md"
-    },
-    {
-      "basename": "104 Linux Index",
-      "path": "100 study-notes/104 Linux/104 Linux Index.md"
-    },
-    {
-      "basename": "Python - Exception Handling",
-      "path": "100 study-notes/108 Python/Python - Exception Handling.md"
     },
     {
       "basename": "KodeCloud - Applications",
@@ -183,22 +199,6 @@
     {
       "basename": "Nginx - Web server",
       "path": "100 study-notes/112 Nginx/Nginx - Web server.md"
-    },
-    {
-      "basename": "Nginx - Load Balancer",
-      "path": "100 study-notes/112 Nginx/Nginx - Load Balancer.md"
-    },
-    {
-      "basename": "KodeCloud - CKA - TLS Kubernetes",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - TLS Kubernetes.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - Volumes",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Volumes.md"
-    },
-    {
-      "basename": "Using openssl",
-      "path": "100 study-notes/104 Linux/Using openssl.md"
     }
   ],
   "omittedPaths": [],

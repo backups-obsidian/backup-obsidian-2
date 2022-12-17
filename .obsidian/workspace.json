@@ -23,7 +23,7 @@
             }
           },
           {
-            "id": "bb24f88b76b60508",
+            "id": "ce8288b75319262b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -36,13 +36,13 @@
             }
           },
           {
-            "id": "59e0ff222a121c31",
+            "id": "bb001bc7f71649dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 study-notes/108 Python/Python - Using name equals to main.md",
-                "mode": "preview",
+                "file": "100 study-notes/108 Python/Python - imports.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/108 Python/Python - Using name equals to main.md",
+                "file": "100 study-notes/108 Python/Python - imports.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/108 Python/Python - Using name equals to main.md"
+                "file": "100 study-notes/108 Python/Python - imports.md"
               }
             }
           },
@@ -152,7 +152,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/108 Python/Python - Using name equals to main.md",
+                "file": "100 study-notes/108 Python/Python - imports.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -205,17 +205,17 @@
     "width": 347.5,
     "collapsed": true
   },
-  "active": "59e0ff222a121c31",
+  "active": "bb001bc7f71649dc",
   "lastOpenFiles": [
     "100 study-notes/108 Python/108 Python Index.md",
-    "100 study-notes/108 Python/Python - Tips for writing better code.md",
-    "100 study-notes/108 Python/Python - Miscellaneous.md",
-    "100 study-notes/108 Python/Python - Useful videos.md",
+    "100 study-notes/108 Python/Python - Exception Handling.md",
     "TODO.md",
     "200 general-notes/Study List.md",
-    "100 study-notes/108 Python/Python - Dataclasses.md",
-    "100 study-notes/108 Python/Python - Type Hints - Basics.md",
-    "300 short-notes/CloudFlare Workers.md",
-    "300 short-notes/300 home.md"
+    "100 study-notes/104 Linux/Linux - Globbing.md",
+    "100 study-notes/104 Linux/104 Linux Index.md",
+    "100 study-notes/104 Linux/Using openssl.md",
+    "100 study-notes/108 Python/Python - Correct way of running modules.md",
+    "100 study-notes/108 Python/Python - Using name equals to main.md",
+    "100 study-notes/108 Python/Python - Tips for writing better code.md"
   ]
 }
