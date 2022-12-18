@@ -1,6 +1,6 @@
 ---
 created: 2022-07-04 20:22
-updated: 2022-12-14 21:37
+updated: 2022-12-17 16:51
 ---
 ---
 **Links**: [[../100 home| 100 Home]]
@@ -20,12 +20,13 @@ updated: 2022-12-14 21:37
 
 - Essentials:
 	- [[Python - Everything is an object]]
+	- [[Python - Using name equals to main]]
+	- [[Python - Namespaces]]
+	- [[Python - Modules and Packages]]
 	- [[Python - Positional and Keyword arguments]]
 	- [[Python - Generators]]
 	- [[Python - Decorators]]
 	- [[Python - Exception Handling]]
-	- [[Python - Using name equals to main]]
-	- [[Python - imports]]
 	- [[Python - Correct way of running modules]]
 
 - Concurrent and Parallel programming:

@@ -1,6 +1,6 @@
 ---
 created: 2022-12-08 13:23
-updated: 2022-12-09 09:40
+updated: 2022-12-18 10:29
 ---
 ---
 **Links**: [[108 Python Index]]
@@ -8,6 +8,9 @@ updated: 2022-12-09 09:40
 ---
 ## Why use `__name__ == '__main__'`
 > [!caution]- When you import a package in python it runs all the code in that file.
+
+- Using `__name__ == '__main__'` is used to distinguish between when the file is loaded as a module and when it is run as a standalone script.
+	- Modules are often designed with the capability to run as a standalone script for purposes of testing the functionality that is contained within the module.
 
 ### Example 1
 - Example for the above statement. In this example `main.py` and `some_package.py` are in the same folder.

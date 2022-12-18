@@ -23,33 +23,20 @@
             }
           },
           {
-            "id": "ce8288b75319262b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100 study-notes/108 Python/108 Python Index.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
             "id": "bb001bc7f71649dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 study-notes/108 Python/Python - imports.md",
-                "mode": "source",
+                "file": "100 study-notes/108 Python/108 Python Index.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -103,8 +90,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -125,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/108 Python/Python - imports.md",
+                "file": "100 study-notes/108 Python/108 Python Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/108 Python/Python - imports.md"
+                "file": "100 study-notes/108 Python/108 Python Index.md"
               }
             }
           },
@@ -152,7 +138,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/108 Python/Python - imports.md",
+                "file": "100 study-notes/108 Python/108 Python Index.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -207,15 +193,15 @@
   },
   "active": "bb001bc7f71649dc",
   "lastOpenFiles": [
-    "100 study-notes/108 Python/108 Python Index.md",
-    "100 study-notes/108 Python/Python - Exception Handling.md",
+    "100 study-notes/108 Python/Python - Modules and Packages.md",
     "TODO.md",
+    "100 study-notes/108 Python/Python - Using name equals to main.md",
+    "100 study-notes/108 Python/108 Python Index.md",
+    "100 study-notes/108 Python/Python - Everything is an object.md",
+    "100 study-notes/108 Python/Python - Namespaces.md",
+    "100 study-notes/108 Python/Python - Exception Handling.md",
     "200 general-notes/Study List.md",
     "100 study-notes/104 Linux/Linux - Globbing.md",
-    "100 study-notes/104 Linux/104 Linux Index.md",
-    "100 study-notes/104 Linux/Using openssl.md",
-    "100 study-notes/108 Python/Python - Correct way of running modules.md",
-    "100 study-notes/108 Python/Python - Using name equals to main.md",
-    "100 study-notes/108 Python/Python - Tips for writing better code.md"
+    "100 study-notes/104 Linux/104 Linux Index.md"
   ]
 }

@@ -1,20 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "Python - imports",
-      "path": "100 study-notes/108 Python/Python - imports.md"
-    },
-    {
       "basename": "108 Python Index",
       "path": "100 study-notes/108 Python/108 Python Index.md"
     },
     {
-      "basename": "Python - Exception Handling",
-      "path": "100 study-notes/108 Python/Python - Exception Handling.md"
+      "basename": "Python - Modules and Packages",
+      "path": "100 study-notes/108 Python/Python - Modules and Packages.md"
     },
     {
       "basename": "TODO",
       "path": "TODO.md"
+    },
+    {
+      "basename": "Python - Using name equals to main",
+      "path": "100 study-notes/108 Python/Python - Using name equals to main.md"
+    },
+    {
+      "basename": "Python - Everything is an object",
+      "path": "100 study-notes/108 Python/Python - Everything is an object.md"
+    },
+    {
+      "basename": "Python - Namespaces",
+      "path": "100 study-notes/108 Python/Python - Namespaces.md"
+    },
+    {
+      "basename": "Python - Exception Handling",
+      "path": "100 study-notes/108 Python/Python - Exception Handling.md"
     },
     {
       "basename": "Study List",
@@ -35,10 +47,6 @@
     {
       "basename": "Python - Correct way of running modules",
       "path": "100 study-notes/108 Python/Python - Correct way of running modules.md"
-    },
-    {
-      "basename": "Python - Using name equals to main",
-      "path": "100 study-notes/108 Python/Python - Using name equals to main.md"
     },
     {
       "basename": "Python - Tips for writing better code",
@@ -191,14 +199,6 @@
     {
       "basename": "Python - Positional and Keyword arguments",
       "path": "100 study-notes/108 Python/Python - Positional and Keyword arguments.md"
-    },
-    {
-      "basename": "Importance of Content-Type in http",
-      "path": "300 short-notes/Importance of Content-Type in http.md"
-    },
-    {
-      "basename": "Nginx - Web server",
-      "path": "100 study-notes/112 Nginx/Nginx - Web server.md"
     }
   ],
   "omittedPaths": [],
