@@ -1,6 +1,6 @@
 ---
 created: 2022-07-04 20:22
-updated: 2022-12-17 16:51
+updated: 2022-12-18 18:37
 ---
 ---
 **Links**: [[../100 home| 100 Home]]
@@ -17,17 +17,18 @@ updated: 2022-12-17 16:51
 	- [[Python - Type Hints - Basics]]
 	- [[Python - Dataclasses]]
 	- [[Python - Type Hints - Advanced]]
+	- [[Python - Protocols]]
 
 - Essentials:
 	- [[Python - Everything is an object]]
 	- [[Python - Using name equals to main]]
 	- [[Python - Namespaces]]
 	- [[Python - Modules and Packages]]
+	- [[Python - Correct way of running modules]]
 	- [[Python - Positional and Keyword arguments]]
 	- [[Python - Generators]]
 	- [[Python - Decorators]]
 	- [[Python - Exception Handling]]
-	- [[Python - Correct way of running modules]]
 
 - Concurrent and Parallel programming:
 	- [[Python - Multiprocessing vs Multithreading]]

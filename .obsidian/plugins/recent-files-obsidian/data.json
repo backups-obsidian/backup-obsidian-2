@@ -1,16 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "Python - Protocols",
+      "path": "100 study-notes/108 Python/Python - Protocols.md"
+    },
+    {
       "basename": "108 Python Index",
       "path": "100 study-notes/108 Python/108 Python Index.md"
+    },
+    {
+      "basename": "TODO",
+      "path": "TODO.md"
+    },
+    {
+      "basename": "Study List",
+      "path": "200 general-notes/Study List.md"
     },
     {
       "basename": "Python - Modules and Packages",
       "path": "100 study-notes/108 Python/Python - Modules and Packages.md"
     },
     {
-      "basename": "TODO",
-      "path": "TODO.md"
+      "basename": "Python - Correct way of running modules",
+      "path": "100 study-notes/108 Python/Python - Correct way of running modules.md"
     },
     {
       "basename": "Python - Using name equals to main",
@@ -29,10 +41,6 @@
       "path": "100 study-notes/108 Python/Python - Exception Handling.md"
     },
     {
-      "basename": "Study List",
-      "path": "200 general-notes/Study List.md"
-    },
-    {
       "basename": "Linux - Globbing",
       "path": "100 study-notes/104 Linux/Linux - Globbing.md"
     },
@@ -43,10 +51,6 @@
     {
       "basename": "Using openssl",
       "path": "100 study-notes/104 Linux/Using openssl.md"
-    },
-    {
-      "basename": "Python - Correct way of running modules",
-      "path": "100 study-notes/108 Python/Python - Correct way of running modules.md"
     },
     {
       "basename": "Python - Tips for writing better code",
@@ -195,10 +199,6 @@
     {
       "basename": "obsidian tips and tricks",
       "path": "400 misc/obsidian tips and tricks.md"
-    },
-    {
-      "basename": "Python - Positional and Keyword arguments",
-      "path": "100 study-notes/108 Python/Python - Positional and Keyword arguments.md"
     }
   ],
   "omittedPaths": [],
