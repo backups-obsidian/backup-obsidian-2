@@ -1,6 +1,6 @@
 ---
 created: 2022-09-16 16:24
-updated: 2022-10-27 14:09
+updated: 2022-12-18 10:24
 ---
 ---
 **Links**: [[108 Python Index]]
@@ -13,7 +13,8 @@ updated: 2022-10-27 14:09
 	- ![[attachments/Pasted image 20221024190210.png]]
 	- We see that all the entities are instantiated from a class which means all of them are objects.
 
-> [!important]- We can list out all the attributes and methods of an object by using the `dir()` method.
+> [!important]+ We can list out all the attributes and methods of an object by using the `dir()` method.
+> Another usage of `dir()` -> [[Python - Modules and Packages#Using `dir()`|Listing objects in namespaces]]
 
 - In Python, **every object has an id for identity**. 
 	- The id of an object is always *unique and constant* for this object during its lifetime.
