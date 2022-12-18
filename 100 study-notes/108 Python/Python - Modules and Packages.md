@@ -1,6 +1,6 @@
 ---
 created: 2022-12-17 11:52
-updated: 2022-12-18 10:59
+updated: 2022-12-18 17:35
 ---
 ---
 **Links**: [[108 Python Index]]
@@ -11,8 +11,9 @@ updated: 2022-12-18 10:59
 - *Functions*, *modules* and *packages* are all constructs in Python that promote code modularisation*.
 
 >[!important]+ `.py` files which are not executed directly are known as modules and a collection of modules is known as a package.
-> **Packages** allow for a hierarchical structuring of the module namespace using **dot notation**. 
-> In the same way that **modules** *help avoid collisions between global variable names*, **packages** help avoid collisions between module names.
+> - **Packages** allow for a hierarchical structuring of the module namespace using **dot notation**. 
+> - In the same way that **modules** *help avoid collisions between global variable names*, **packages** help avoid collisions between module names.
+> - This means *we can have modules with the same name in different packages*.
 
 - Three different ways to define modules in python:
 	- A module can be written in Python itself.
@@ -261,3 +262,4 @@ pprint(dir(some_package))
 
 ## References
 - [Python Modules and Packages – An Introduction – Real Python](https://realpython.com/python-modules-packages/)
+- [Python's Import System - Module object|Regular/Namespace Packages|Finders & Loaders|Relative imports - YouTube](https://www.youtube.com/watch?v=QCSz0j8tGmI)

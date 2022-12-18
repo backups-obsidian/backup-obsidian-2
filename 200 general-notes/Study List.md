@@ -1,6 +1,6 @@
 ---
 created: 2022-11-11 22:04
-updated: 2022-12-17 11:50
+updated: 2022-12-18 18:34
 ---
 ---
 **Links**: 
@@ -29,14 +29,14 @@ updated: 2022-12-17 11:50
 - [ ]  Pytest tutorial: [Introductory Tutorial on Unit Testing Python Functions with Pytest, Visual Studio Code, Command-line - YouTube](https://www.youtube.com/watch?v=UMgxJvozR5A) - Leisure
 - [ ] Test Driven Development python: [TDD Full Course (Learn Test Driven Development with Python) - YouTube](https://www.youtube.com/watch?v=eAPmXQ0dC7Q) - Leisure
 - [ ] Some articles on python TDD - Leisure
-- [ ] Read about Python imports: https://realpython.com/search?q=imports
-- [ ] Go through python import videos in python workona
+- [x] Read about Python imports: https://realpython.com/search?q=imports ✅ 2022-12-18
+- [x] Go through python import videos in python workona ✅ 2022-12-18
 - [ ] Protocol Class Python and its usage
 - [ ] [The Ultimate Guide to Writing Functions - YouTube](https://www.youtube.com/watch?v=yatgY4NpZXE) -> Note down all the tips from this video.
-- [ ] gRPC Python
+- [ ] gRPC Python - Leisure
 - [ ] Private variables in python and what evaluation of class and instance variables: [Every Python dev falls for this - YouTube](https://www.youtube.com/watch?v=0hrEaA3N3lk)
 - [ ] map, filter and lambda in python
-- [ ] Python namespaces
+- [x] Python namespaces ✅ 2022-12-18
 
 ## Software Engineering
 - [x] What is consistent hashing? ✅ 2022-12-16
