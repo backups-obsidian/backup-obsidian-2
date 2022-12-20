@@ -1,6 +1,6 @@
 ---
 created: 2022-11-11 22:04
-updated: 2022-12-18 18:34
+updated: 2022-12-19 20:05
 ---
 ---
 **Links**: 
@@ -31,11 +31,11 @@ updated: 2022-12-18 18:34
 - [ ] Some articles on python TDD - Leisure
 - [x] Read about Python imports: https://realpython.com/search?q=imports ✅ 2022-12-18
 - [x] Go through python import videos in python workona ✅ 2022-12-18
-- [ ] Protocol Class Python and its usage
-- [ ] [The Ultimate Guide to Writing Functions - YouTube](https://www.youtube.com/watch?v=yatgY4NpZXE) -> Note down all the tips from this video.
+- [x] Protocol Class Python and its usage ✅ 2022-12-18
+- [x] [The Ultimate Guide to Writing Functions - YouTube](https://www.youtube.com/watch?v=yatgY4NpZXE) -> Note down all the tips from this video. ✅ 2022-12-18
 - [ ] gRPC Python - Leisure
-- [ ] Private variables in python and what evaluation of class and instance variables: [Every Python dev falls for this - YouTube](https://www.youtube.com/watch?v=0hrEaA3N3lk)
-- [ ] map, filter and lambda in python
+- [x] Private variables in python and what evaluation of class and instance variables: [Every Python dev falls for this - YouTube](https://www.youtube.com/watch?v=0hrEaA3N3lk) ✅ 2022-12-18
+- [x] map, filter and lambda in python ✅ 2022-12-19
 - [x] Python namespaces ✅ 2022-12-18
 
 ## Software Engineering
@@ -48,17 +48,17 @@ updated: 2022-12-18 18:34
 - [x] OpenVPN vs other protocols ✅ 2022-11-13
 - [x] [How VPN works? - YouTube](https://www.youtube.com/watch?v=IzGEfBm0XNY) ✅ 2022-11-12
 - [x] [how does openvpn work - YouTube](https://www.youtube.com/results?search_query=how+does+openvpn+work) ✅ 2022-11-12
-- [ ] Bash strict mode
+- [x] Bash strict mode ✅ 2022-12-19
 - [x] Explore options between netlify functions and cloudflare workers/pages etc. ✅ 2022-11-28
 - [x] Check cloudflare workers cron and kv store. ✅ 2022-11-28
 - [x] CloudFlare worker series: [⛅ Getting Started with Serverless Cloudflare Workers on The Edge (lesson 1) - YouTube](https://www.youtube.com/watch?v=WFlDSL7Nrzw&t=0s) ✅ 2022-12-15
 - [x] Explore about JAM stack databases and build the application for randomly assigning URL from the 4 URLs. ✅ 2022-12-15
 - [ ] Use gum for enhancing your bash scripts. It is just an executable so in all of your bash scripts check if it present. If not present then just curl it. [Let's build a conventional commit helper script with Gum! - YouTube](https://www.youtube.com/watch?v=vtCwt-4tIto)
-- [ ] [what are disk partitions linux - YouTube](https://www.youtube.com/results?search_query=what+are+disk+partitions+linux)
+- [ ] [what are disk partitions linux - YouTube](https://www.youtube.com/results?search_query=what+are+disk+partitions+linux) - Leisure
 - [ ] Convert nvim-lsp installer config to mason.nvim: [Make Neovim BETTER than VSCode! - YouTube](https://www.youtube.com/watch?v=lpQMeFph1RE), 
 - [ ] Watch neovim config video: [Neovim RC - From Scratch - YouTube](https://www.youtube.com/watch?v=w7i4amO_zaE) - Leisure
 - [ ] Neovim as IDE - [Effective Neovim: Instant IDE - YouTube](https://www.youtube.com/watch?v=stqUbv-5u2s) - Leisure
-- [ ] Strict mode print hack: [why I use the colon (:) command (intermediate) anthony explains #505 - YouTube](https://www.youtube.com/watch?v=onkNf1AKSgg)
+- [x] Strict mode print hack: [why I use the colon (:) command (intermediate) anthony explains #505 - YouTube](https://www.youtube.com/watch?v=onkNf1AKSgg) ✅ 2022-12-19
 
 ## Kubernetes
 - [x] How to setup logging in k8s ✅ 2022-11-13
