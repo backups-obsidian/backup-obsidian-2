@@ -1,6 +1,6 @@
 ---
 created: 2022-07-04 20:22
-updated: 2022-12-18 18:37
+updated: 2022-12-19 21:16
 ---
 ---
 **Links**: [[../100 home| 100 Home]]
@@ -29,6 +29,7 @@ updated: 2022-12-18 18:37
 	- [[Python - Generators]]
 	- [[Python - Decorators]]
 	- [[Python - Exception Handling]]
+	- [[Python - map, filter and lambda]]
 
 - Concurrent and Parallel programming:
 	- [[Python - Multiprocessing vs Multithreading]]
@@ -42,4 +43,5 @@ updated: 2022-12-18 18:37
 
 - [[Python - Miscellaneous]] 
 - [[Python - Tips for writing better code]]
+- [[Python - Tips for writing better functions]]
 - [[Python - Useful videos]]

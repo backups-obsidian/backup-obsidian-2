@@ -1,20 +1,60 @@
 {
   "recentFiles": [
     {
-      "basename": "Python - Protocols",
-      "path": "100 study-notes/108 Python/Python - Protocols.md"
+      "basename": "TODO",
+      "path": "TODO.md"
     },
     {
       "basename": "108 Python Index",
       "path": "100 study-notes/108 Python/108 Python Index.md"
     },
     {
-      "basename": "TODO",
-      "path": "TODO.md"
+      "basename": "Python - map, filter and lambda",
+      "path": "100 study-notes/108 Python/Python - map, filter and lambda.md"
+    },
+    {
+      "basename": "104 Linux Index",
+      "path": "100 study-notes/104 Linux/104 Linux Index.md"
     },
     {
       "basename": "Study List",
       "path": "200 general-notes/Study List.md"
+    },
+    {
+      "basename": "Linux - Bash strict mode",
+      "path": "100 study-notes/104 Linux/Linux - Bash strict mode.md"
+    },
+    {
+      "basename": "Linux - Bash strict mode - issues and solutions",
+      "path": "100 study-notes/104 Linux/Linux - Bash strict mode - issues and solutions.md"
+    },
+    {
+      "basename": "Linux - Bash strict mode - set commands",
+      "path": "100 study-notes/104 Linux/Linux - Bash strict mode - set commands.md"
+    },
+    {
+      "basename": "113 Leetcode Index",
+      "path": "100 study-notes/113 Leetcode/113 Leetcode Index.md"
+    },
+    {
+      "basename": "112 Nginx Index",
+      "path": "100 study-notes/112 Nginx/112 Nginx Index.md"
+    },
+    {
+      "basename": "Linux - Bash strict mode - understanding IFS",
+      "path": "100 study-notes/104 Linux/Linux - Bash strict mode - understanding IFS.md"
+    },
+    {
+      "basename": "Python - Tips for writing better functions",
+      "path": "100 study-notes/108 Python/Python - Tips for writing better functions.md"
+    },
+    {
+      "basename": "Python - Tips for writing better code",
+      "path": "100 study-notes/108 Python/Python - Tips for writing better code.md"
+    },
+    {
+      "basename": "Python - Protocols",
+      "path": "100 study-notes/108 Python/Python - Protocols.md"
     },
     {
       "basename": "Python - Modules and Packages",
@@ -45,16 +85,8 @@
       "path": "100 study-notes/104 Linux/Linux - Globbing.md"
     },
     {
-      "basename": "104 Linux Index",
-      "path": "100 study-notes/104 Linux/104 Linux Index.md"
-    },
-    {
       "basename": "Using openssl",
       "path": "100 study-notes/104 Linux/Using openssl.md"
-    },
-    {
-      "basename": "Python - Tips for writing better code",
-      "path": "100 study-notes/108 Python/Python - Tips for writing better code.md"
     },
     {
       "basename": "Python - Miscellaneous",
@@ -107,10 +139,6 @@
     {
       "basename": "Nginx - Basics",
       "path": "100 study-notes/112 Nginx/Nginx - Basics.md"
-    },
-    {
-      "basename": "112 Nginx Index",
-      "path": "100 study-notes/112 Nginx/112 Nginx Index.md"
     },
     {
       "basename": "Nginx - Reverse Proxy",
@@ -171,34 +199,6 @@
     {
       "basename": "Python - Asyncio - Awaitables Tasks and Futures",
       "path": "100 study-notes/108 Python/Python - Asyncio - Awaitables Tasks and Futures.md"
-    },
-    {
-      "basename": "Python - Asyncio - Event Loop Tasks and coroutines",
-      "path": "100 study-notes/108 Python/Python - Asyncio - Event Loop Tasks and coroutines.md"
-    },
-    {
-      "basename": "Python - Asyncio - Coroutine vs Subroutine",
-      "path": "100 study-notes/108 Python/Python - Asyncio - Coroutine vs Subroutine.md"
-    },
-    {
-      "basename": "Python - Multithreading",
-      "path": "100 study-notes/108 Python/Python - Multithreading.md"
-    },
-    {
-      "basename": "Python - Multiprocessing",
-      "path": "100 study-notes/108 Python/Python - Multiprocessing.md"
-    },
-    {
-      "basename": "note taking in obsidian",
-      "path": "400 misc/note taking in obsidian.md"
-    },
-    {
-      "basename": "Python - Type Hints - Advanced",
-      "path": "100 study-notes/108 Python/Python - Type Hints - Advanced.md"
-    },
-    {
-      "basename": "obsidian tips and tricks",
-      "path": "400 misc/obsidian tips and tricks.md"
     }
   ],
   "omittedPaths": [],

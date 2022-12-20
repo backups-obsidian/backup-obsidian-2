@@ -23,33 +23,32 @@
             }
           },
           {
-            "id": "1d0040cf187ad81d",
+            "id": "1e3778100707e5bc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "100 study-notes/108 Python/108 Python Index.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
             }
           },
           {
-            "id": "d8afbd5dae331171",
+            "id": "25f66d3d06c7275b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 study-notes/108 Python/Python - Protocols.md",
-                "mode": "source",
+                "file": "100 study-notes/108 Python/Python - map, filter and lambda.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -103,7 +102,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/108 Python/Python - Protocols.md",
+                "file": "TODO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/108 Python/Python - Protocols.md"
+                "file": "TODO.md"
               }
             }
           },
@@ -151,7 +151,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/108 Python/Python - Protocols.md",
+                "file": "TODO.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -204,17 +204,17 @@
     "width": 347.5,
     "collapsed": true
   },
-  "active": "d8afbd5dae331171",
+  "active": "2f0967eceee1fc48",
   "lastOpenFiles": [
     "100 study-notes/108 Python/108 Python Index.md",
-    "100 study-notes/108 Python/Python - Protocols.md",
+    "100 study-notes/108 Python/Python - map, filter and lambda.md",
+    "100 study-notes/104 Linux/104 Linux Index.md",
     "TODO.md",
     "200 general-notes/Study List.md",
-    "100 study-notes/108 Python/Python - Modules and Packages.md",
-    "100 study-notes/108 Python/Python - Correct way of running modules.md",
-    "100 study-notes/108 Python/Python - Using name equals to main.md",
-    "100 study-notes/108 Python/Python - Everything is an object.md",
-    "100 study-notes/108 Python/Python - Namespaces.md",
-    "100 study-notes/108 Python/Python - Exception Handling.md"
+    "100 study-notes/104 Linux/Linux - Bash strict mode.md",
+    "100 study-notes/104 Linux/Linux - Bash strict mode - issues and solutions.md",
+    "100 study-notes/104 Linux/Linux - Bash strict mode - set commands.md",
+    "100 study-notes/113 Leetcode/113 Leetcode Index.md",
+    "100 study-notes/112 Nginx/112 Nginx Index.md"
   ]
 }

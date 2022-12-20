@@ -1,6 +1,6 @@
 ---
 created: 2022-05-14 21:41
-updated: 2022-12-16 22:10
+updated: 2022-12-18 22:19
 ---
 ---
 **Links**: 
@@ -14,6 +14,7 @@ updated: 2022-12-16 22:10
 [[Linux - UID & GID]]
 [[Using openssl]]
 [[Linux - Globbing]]
+[[Linux - Bash strict mode]]
 
 [[../111 KodeCloud/KodeCloud - Linux Services | KodeCloud - Linux Services]]
 [[../111 KodeCloud/KodeCloud - Package Management using yum | KodeCloud - Package Management using yum]]
