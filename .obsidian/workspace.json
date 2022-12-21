@@ -29,26 +29,27 @@
               "type": "markdown",
               "state": {
                 "file": "100 study-notes/108 Python/108 Python Index.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
             }
           },
           {
-            "id": "25f66d3d06c7275b",
+            "id": "de0c7ba070089424",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 study-notes/108 Python/Python - map, filter and lambda.md",
-                "mode": "preview",
+                "file": "100 study-notes/108 Python/Python - Descriptors.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -124,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TODO.md",
+                "file": "100 study-notes/108 Python/Python - Descriptors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TODO.md"
+                "file": "100 study-notes/108 Python/Python - Descriptors.md"
               }
             }
           },
@@ -151,7 +152,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "TODO.md",
+                "file": "100 study-notes/108 Python/Python - Descriptors.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -204,17 +205,17 @@
     "width": 347.5,
     "collapsed": true
   },
-  "active": "2f0967eceee1fc48",
+  "active": "de0c7ba070089424",
   "lastOpenFiles": [
     "100 study-notes/108 Python/108 Python Index.md",
-    "100 study-notes/108 Python/Python - map, filter and lambda.md",
-    "100 study-notes/104 Linux/104 Linux Index.md",
     "TODO.md",
     "200 general-notes/Study List.md",
-    "100 study-notes/104 Linux/Linux - Bash strict mode.md",
-    "100 study-notes/104 Linux/Linux - Bash strict mode - issues and solutions.md",
-    "100 study-notes/104 Linux/Linux - Bash strict mode - set commands.md",
-    "100 study-notes/113 Leetcode/113 Leetcode Index.md",
-    "100 study-notes/112 Nginx/112 Nginx Index.md"
+    "200 general-notes/Study List - Writeups.md",
+    "200 general-notes/Study List - Projects.md",
+    "200 general-notes/Study List - Networking.md",
+    "200 general-notes/Study List - Docker.md",
+    "200 general-notes/Study List - Kubernetes.md",
+    "200 general-notes/Study List - Random.md",
+    "200 general-notes/Study List - Software Engineering.md"
   ]
 }

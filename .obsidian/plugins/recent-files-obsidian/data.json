@@ -1,12 +1,60 @@
 {
   "recentFiles": [
     {
-      "basename": "TODO",
-      "path": "TODO.md"
+      "basename": "Python - Descriptors",
+      "path": "100 study-notes/108 Python/Python - Descriptors.md"
     },
     {
       "basename": "108 Python Index",
       "path": "100 study-notes/108 Python/108 Python Index.md"
+    },
+    {
+      "basename": "TODO",
+      "path": "TODO.md"
+    },
+    {
+      "basename": "Study List",
+      "path": "200 general-notes/Study List.md"
+    },
+    {
+      "basename": "Study List - Writeups",
+      "path": "200 general-notes/Study List - Writeups.md"
+    },
+    {
+      "basename": "Study List - Projects",
+      "path": "200 general-notes/Study List - Projects.md"
+    },
+    {
+      "basename": "Study List - Networking",
+      "path": "200 general-notes/Study List - Networking.md"
+    },
+    {
+      "basename": "Study List - Docker",
+      "path": "200 general-notes/Study List - Docker.md"
+    },
+    {
+      "basename": "Study List - Kubernetes",
+      "path": "200 general-notes/Study List - Kubernetes.md"
+    },
+    {
+      "basename": "Study List - Random",
+      "path": "200 general-notes/Study List - Random.md"
+    },
+    {
+      "basename": "Study List - Software Engineering",
+      "path": "200 general-notes/Study List - Software Engineering.md"
+    },
+    {
+      "basename": "Study List - Python",
+      "path": "200 general-notes/Study List - Python.md"
+    },
+    {
+      "basename": "Study List - DevOps",
+      "path": "200 general-notes/Study List - DevOps.md"
+    },
+    {
+      "basename": "Study List - Linux",
+      "path": "200 general-notes/Study List - Linux.md"
     },
     {
       "basename": "Python - map, filter and lambda",
@@ -15,10 +63,6 @@
     {
       "basename": "104 Linux Index",
       "path": "100 study-notes/104 Linux/104 Linux Index.md"
-    },
-    {
-      "basename": "Study List",
-      "path": "200 general-notes/Study List.md"
     },
     {
       "basename": "Linux - Bash strict mode",
@@ -155,50 +199,6 @@
     {
       "basename": "111 KodeCloud Index",
       "path": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md"
-    },
-    {
-      "basename": "Python - Packaging",
-      "path": "100 study-notes/108 Python/Python - Packaging.md"
-    },
-    {
-      "basename": "110 Kubernetes Index",
-      "path": "100 study-notes/110 Kubernetes/110 Kubernetes Index.md"
-    },
-    {
-      "basename": "What is OpenVPN",
-      "path": "300 short-notes/What is OpenVPN.md"
-    },
-    {
-      "basename": "SNS",
-      "path": "100 study-notes/101 AWS SAA/SNS.md"
-    },
-    {
-      "basename": "Useful Websites",
-      "path": "200 general-notes/Useful Websites.md"
-    },
-    {
-      "basename": "200 home",
-      "path": "200 general-notes/200 home.md"
-    },
-    {
-      "basename": "Python - Asyncio",
-      "path": "100 study-notes/108 Python/Python - Asyncio.md"
-    },
-    {
-      "basename": "IOT Project Videos",
-      "path": "200 general-notes/IOT Project Videos.md"
-    },
-    {
-      "basename": "000 home",
-      "path": "000 home.md"
-    },
-    {
-      "basename": "Python - Setting up pre-commit",
-      "path": "100 study-notes/108 Python/Python - Setting up pre-commit.md"
-    },
-    {
-      "basename": "Python - Asyncio - Awaitables Tasks and Futures",
-      "path": "100 study-notes/108 Python/Python - Asyncio - Awaitables Tasks and Futures.md"
     }
   ],
   "omittedPaths": [],

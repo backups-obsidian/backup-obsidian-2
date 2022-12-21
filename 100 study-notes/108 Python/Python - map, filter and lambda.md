@@ -1,6 +1,6 @@
 ---
 created: 2022-12-17 11:52
-updated: 2022-12-19 21:42
+updated: 2022-12-19 21:52
 ---
 ---
 **Links**: [[108 Python Index]]
@@ -12,6 +12,17 @@ updated: 2022-12-19 21:42
 - Syntax: `lambda arg1, arg2, ... : arg1 + arg2 + ...` - any action on arguments that can be done in one line and will be returned.
 - Using lambda without `filter` or `map` doesn't make sense since we can use `def` for defining functions.
 	- ![[attachments/Pasted image 20221219213315.png]]
+
+- Sorting using lambda functions
+
+```python
+some_dict = {"key1": 10, "key2": 5, "key3": 22}
+
+sorted_dict = sorted(some_dict.items(), key=lambda item: item[1])
+# using item[1] sorts the dictionary based on values
+# using item[0] would have sorted the dictionary based on keys
+print(dict(sorted_dict))
+```
 
 ## `filter`
 - It takes **2 arguments**: *a function and an iterable*. 
