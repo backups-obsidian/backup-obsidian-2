@@ -1,6 +1,6 @@
 ---
 created: 2022-07-04 20:22
-updated: 2022-12-19 21:16
+updated: 2022-12-20 19:14
 ---
 ---
 **Links**: [[../100 home| 100 Home]]
@@ -30,6 +30,7 @@ updated: 2022-12-19 21:16
 	- [[Python - Decorators]]
 	- [[Python - Exception Handling]]
 	- [[Python - map, filter and lambda]]
+	- [[Python - Descriptors]]
 
 - Concurrent and Parallel programming:
 	- [[Python - Multiprocessing vs Multithreading]]
