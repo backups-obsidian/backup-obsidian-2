@@ -1,20 +1,40 @@
 {
   "recentFiles": [
     {
-      "basename": "Python - Descriptors",
-      "path": "100 study-notes/108 Python/Python - Descriptors.md"
+      "basename": "Python - subprocess",
+      "path": "100 study-notes/108 Python/Python - subprocess.md"
     },
     {
       "basename": "108 Python Index",
       "path": "100 study-notes/108 Python/108 Python Index.md"
     },
     {
-      "basename": "TODO",
-      "path": "TODO.md"
+      "basename": "Python - Pytest",
+      "path": "100 study-notes/108 Python/Python - Pytest.md"
+    },
+    {
+      "basename": "Study List - Python",
+      "path": "200 general-notes/Study List - Python.md"
     },
     {
       "basename": "Study List",
       "path": "200 general-notes/Study List.md"
+    },
+    {
+      "basename": "TODO",
+      "path": "TODO.md"
+    },
+    {
+      "basename": "104 Linux Index",
+      "path": "100 study-notes/104 Linux/104 Linux Index.md"
+    },
+    {
+      "basename": "Linux - Bash strict mode",
+      "path": "100 study-notes/104 Linux/Linux - Bash strict mode.md"
+    },
+    {
+      "basename": "Python - Descriptors",
+      "path": "100 study-notes/108 Python/Python - Descriptors.md"
     },
     {
       "basename": "Study List - Writeups",
@@ -45,10 +65,6 @@
       "path": "200 general-notes/Study List - Software Engineering.md"
     },
     {
-      "basename": "Study List - Python",
-      "path": "200 general-notes/Study List - Python.md"
-    },
-    {
       "basename": "Study List - DevOps",
       "path": "200 general-notes/Study List - DevOps.md"
     },
@@ -59,14 +75,6 @@
     {
       "basename": "Python - map, filter and lambda",
       "path": "100 study-notes/108 Python/Python - map, filter and lambda.md"
-    },
-    {
-      "basename": "104 Linux Index",
-      "path": "100 study-notes/104 Linux/104 Linux Index.md"
-    },
-    {
-      "basename": "Linux - Bash strict mode",
-      "path": "100 study-notes/104 Linux/Linux - Bash strict mode.md"
     },
     {
       "basename": "Linux - Bash strict mode - issues and solutions",
@@ -191,14 +199,6 @@
     {
       "basename": "Python - Using futures",
       "path": "100 study-notes/108 Python/Python - Using futures.md"
-    },
-    {
-      "basename": "Kubernetes - Logging",
-      "path": "100 study-notes/111 KodeCloud/Kubernetes - Logging.md"
-    },
-    {
-      "basename": "111 KodeCloud Index",
-      "path": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md"
     }
   ],
   "omittedPaths": [],

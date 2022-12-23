@@ -1,6 +1,6 @@
 ---
 created: 2022-07-04 20:22
-updated: 2022-12-20 19:14
+updated: 2022-12-22 22:35
 ---
 ---
 **Links**: [[../100 home| 100 Home]]
@@ -42,7 +42,11 @@ updated: 2022-12-20 19:14
 		- [[Python - Asyncio - Event Loop Tasks and coroutines]]
 		- [[Python - Asyncio - Awaitables Tasks and Futures]]
 
-- [[Python - Miscellaneous]] 
-- [[Python - Tips for writing better code]]
-- [[Python - Tips for writing better functions]]
+- Other:
+	- [[Python - Pytest]]
+	- [[Python - subprocess]]
+	- [[Python - Miscellaneous]] 
+	- [[Python - Tips for writing better code]]
+	- [[Python - Tips for writing better functions]]
+
 - [[Python - Useful videos]]
