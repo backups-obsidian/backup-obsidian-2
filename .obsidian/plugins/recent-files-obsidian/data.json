@@ -1,28 +1,72 @@
 {
   "recentFiles": [
     {
-      "basename": "Python - subprocess",
-      "path": "100 study-notes/108 Python/Python - subprocess.md"
+      "basename": "Terraform - Introduction",
+      "path": "100 study-notes/113 Terraform/Terraform - Introduction.md"
     },
     {
-      "basename": "108 Python Index",
-      "path": "100 study-notes/108 Python/108 Python Index.md"
+      "basename": "113 Terraform Index",
+      "path": "100 study-notes/113 Terraform/113 Terraform Index.md"
     },
     {
-      "basename": "Python - Pytest",
-      "path": "100 study-notes/108 Python/Python - Pytest.md"
+      "basename": "Rough",
+      "path": "600 rough/Rough.md"
     },
     {
-      "basename": "Study List - Python",
-      "path": "200 general-notes/Study List - Python.md"
+      "basename": "TODO",
+      "path": "TODO.md"
     },
     {
       "basename": "Study List",
       "path": "200 general-notes/Study List.md"
     },
     {
-      "basename": "TODO",
-      "path": "TODO.md"
+      "basename": "Study List - Random",
+      "path": "200 general-notes/Study List - Random.md"
+    },
+    {
+      "basename": "108 Python Index",
+      "path": "100 study-notes/108 Python/108 Python Index.md"
+    },
+    {
+      "basename": "Python - subprocess",
+      "path": "100 study-notes/108 Python/Python - subprocess.md"
+    },
+    {
+      "basename": "Python - map, filter and lambda",
+      "path": "100 study-notes/108 Python/Python - map, filter and lambda.md"
+    },
+    {
+      "basename": "Python - Pytest",
+      "path": "100 study-notes/108 Python/Python - Pytest.md"
+    },
+    {
+      "basename": "Study List - Projects",
+      "path": "200 general-notes/Study List - Projects.md"
+    },
+    {
+      "basename": "Study List - Writeups",
+      "path": "200 general-notes/Study List - Writeups.md"
+    },
+    {
+      "basename": "Python - Must use packages",
+      "path": "100 study-notes/108 Python/Python - Must use packages.md"
+    },
+    {
+      "basename": "Python - OOP",
+      "path": "100 study-notes/108 Python/Python - OOP.md"
+    },
+    {
+      "basename": "Python - Design Principles",
+      "path": "100 study-notes/108 Python/Python - Design Principles.md"
+    },
+    {
+      "basename": "Python - Tips for writing better code",
+      "path": "100 study-notes/108 Python/Python - Tips for writing better code.md"
+    },
+    {
+      "basename": "Study List - Python",
+      "path": "200 general-notes/Study List - Python.md"
     },
     {
       "basename": "104 Linux Index",
@@ -37,14 +81,6 @@
       "path": "100 study-notes/108 Python/Python - Descriptors.md"
     },
     {
-      "basename": "Study List - Writeups",
-      "path": "200 general-notes/Study List - Writeups.md"
-    },
-    {
-      "basename": "Study List - Projects",
-      "path": "200 general-notes/Study List - Projects.md"
-    },
-    {
       "basename": "Study List - Networking",
       "path": "200 general-notes/Study List - Networking.md"
     },
@@ -55,10 +91,6 @@
     {
       "basename": "Study List - Kubernetes",
       "path": "200 general-notes/Study List - Kubernetes.md"
-    },
-    {
-      "basename": "Study List - Random",
-      "path": "200 general-notes/Study List - Random.md"
     },
     {
       "basename": "Study List - Software Engineering",
@@ -73,20 +105,12 @@
       "path": "200 general-notes/Study List - Linux.md"
     },
     {
-      "basename": "Python - map, filter and lambda",
-      "path": "100 study-notes/108 Python/Python - map, filter and lambda.md"
-    },
-    {
       "basename": "Linux - Bash strict mode - issues and solutions",
       "path": "100 study-notes/104 Linux/Linux - Bash strict mode - issues and solutions.md"
     },
     {
       "basename": "Linux - Bash strict mode - set commands",
       "path": "100 study-notes/104 Linux/Linux - Bash strict mode - set commands.md"
-    },
-    {
-      "basename": "113 Leetcode Index",
-      "path": "100 study-notes/113 Leetcode/113 Leetcode Index.md"
     },
     {
       "basename": "112 Nginx Index",
@@ -99,10 +123,6 @@
     {
       "basename": "Python - Tips for writing better functions",
       "path": "100 study-notes/108 Python/Python - Tips for writing better functions.md"
-    },
-    {
-      "basename": "Python - Tips for writing better code",
-      "path": "100 study-notes/108 Python/Python - Tips for writing better code.md"
     },
     {
       "basename": "Python - Protocols",
@@ -179,26 +199,6 @@
     {
       "basename": "Python - Generators",
       "path": "100 study-notes/108 Python/Python - Generators.md"
-    },
-    {
-      "basename": "Python - Multiprocessing vs Multithreading",
-      "path": "100 study-notes/108 Python/Python - Multiprocessing vs Multithreading.md"
-    },
-    {
-      "basename": "Python - Decorators",
-      "path": "100 study-notes/108 Python/Python - Decorators.md"
-    },
-    {
-      "basename": "Nginx - Basics",
-      "path": "100 study-notes/112 Nginx/Nginx - Basics.md"
-    },
-    {
-      "basename": "Nginx - Reverse Proxy",
-      "path": "100 study-notes/112 Nginx/Nginx - Reverse Proxy.md"
-    },
-    {
-      "basename": "Python - Using futures",
-      "path": "100 study-notes/108 Python/Python - Using futures.md"
     }
   ],
   "omittedPaths": [],

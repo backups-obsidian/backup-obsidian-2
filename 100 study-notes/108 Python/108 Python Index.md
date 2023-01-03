@@ -1,6 +1,6 @@
 ---
 created: 2022-07-04 20:22
-updated: 2022-12-22 22:35
+updated: 2022-12-25 00:54
 ---
 ---
 **Links**: [[../100 home| 100 Home]]
@@ -31,6 +31,7 @@ updated: 2022-12-22 22:35
 	- [[Python - Exception Handling]]
 	- [[Python - map, filter and lambda]]
 	- [[Python - Descriptors]]
+	- [[Python - OOP]]
 
 - Concurrent and Parallel programming:
 	- [[Python - Multiprocessing vs Multithreading]]
@@ -45,8 +46,11 @@ updated: 2022-12-22 22:35
 - Other:
 	- [[Python - Pytest]]
 	- [[Python - subprocess]]
-	- [[Python - Miscellaneous]] 
+	- [[Python - Miscellaneous]]
 	- [[Python - Tips for writing better code]]
 	- [[Python - Tips for writing better functions]]
+	- [[Python - Design Principles]]
+	- [[Python - Must use packages]]
+	
 
 - [[Python - Useful videos]]

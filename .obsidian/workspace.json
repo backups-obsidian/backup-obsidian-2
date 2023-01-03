@@ -25,10 +25,25 @@
           {
             "id": "ba8af9005c7ee5da",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 study-notes/108 Python/108 Python Index.md",
+                "file": "600 rough/Rough.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "3eaed7602cfbfe34",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100 study-notes/113 Terraform/113 Terraform Index.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -36,20 +51,20 @@
             }
           },
           {
-            "id": "47eb920a8f9bfd83",
+            "id": "9f0bbb063623b56b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 study-notes/108 Python/Python - subprocess.md",
-                "mode": "preview",
+                "file": "100 study-notes/113 Terraform/Terraform - Introduction.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -125,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/108 Python/Python - subprocess.md",
+                "file": "100 study-notes/113 Terraform/Terraform - Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/108 Python/Python - subprocess.md"
+                "file": "100 study-notes/113 Terraform/Terraform - Introduction.md"
               }
             }
           },
@@ -152,7 +167,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/108 Python/Python - subprocess.md",
+                "file": "100 study-notes/113 Terraform/Terraform - Introduction.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -205,17 +220,17 @@
     "width": 347.5,
     "collapsed": true
   },
-  "active": "47eb920a8f9bfd83",
+  "active": "9f0bbb063623b56b",
   "lastOpenFiles": [
-    "100 study-notes/108 Python/108 Python Index.md",
-    "100 study-notes/108 Python/Python - Pytest.md",
-    "200 general-notes/Study List - Python.md",
-    "200 general-notes/Study List.md",
+    "100 study-notes/113 Terraform/113 Terraform Index.md",
+    "100 study-notes/113 Terraform/Terraform - Introduction.md",
+    "600 rough/Rough.md",
     "TODO.md",
-    "100 study-notes/104 Linux/104 Linux Index.md",
-    "100 study-notes/104 Linux/Linux - Bash strict mode.md",
-    "100 study-notes/108 Python/Python - Descriptors.md",
-    "200 general-notes/Study List - Writeups.md",
-    "200 general-notes/Study List - Projects.md"
+    "200 general-notes/Study List.md",
+    "200 general-notes/Study List - Random.md",
+    "100 study-notes/108 Python/108 Python Index.md",
+    "100 study-notes/108 Python/Python - subprocess.md",
+    "100 study-notes/108 Python/Python - map, filter and lambda.md",
+    "100 study-notes/108 Python/Python - Pytest.md"
   ]
 }

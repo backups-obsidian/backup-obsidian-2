@@ -1,11 +1,14 @@
 ---
 created: 2022-04-17 15:43
-updated: 2022-06-01 20:01
+updated: 2023-01-02 14:50
 ---
----
-**Links**: [[../000 home]]
-**Recommended Reads**: 
-**Description**:
+- terraform
+- jenkins
+- gitops: argocd
 
 ---
-> [!note]- dfs
+- k3d and kind
+- 3 types of data: metrics, traces and logs
+	- Don't log metrics as logs?
+	- Instrumentation is code's ability to emit logs, metrics, and traces
+	- instrumenting code with logs metrics and traces
