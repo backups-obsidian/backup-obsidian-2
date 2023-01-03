@@ -1,6 +1,6 @@
 ---
 created: 2022-12-20 09:43
-updated: 2022-12-20 09:43
+updated: 2023-01-02 16:13
 ---
 ---
 **Links**: 
@@ -21,9 +21,12 @@ updated: 2022-12-20 09:43
 - [x] Check cloudflare workers cron and kv store. ✅ 2022-11-28
 - [x] CloudFlare worker series: [⛅ Getting Started with Serverless Cloudflare Workers on The Edge (lesson 1) - YouTube](https://www.youtube.com/watch?v=WFlDSL7Nrzw&t=0s) ✅ 2022-12-15
 - [x] Explore about JAM stack databases and build the application for randomly assigning URL from the 4 URLs. ✅ 2022-12-15
-- [ ] Use gum for enhancing your bash scripts. It is just an executable so in all of your bash scripts check if it present. If not present then just curl it. [Let's build a conventional commit helper script with Gum! - YouTube](https://www.youtube.com/watch?v=vtCwt-4tIto)
 - [ ] [what are disk partitions linux - YouTube](https://www.youtube.com/results?search_query=what+are+disk+partitions+linux) - Leisure
 - [ ] Convert nvim-lsp installer config to mason.nvim: [Make Neovim BETTER than VSCode! - YouTube](https://www.youtube.com/watch?v=lpQMeFph1RE) - Leisure
 - [ ] Watch neovim config video: [Neovim RC - From Scratch - YouTube](https://www.youtube.com/watch?v=w7i4amO_zaE) - Leisure
 - [ ] Neovim as IDE - [Effective Neovim: Instant IDE - YouTube](https://www.youtube.com/watch?v=stqUbv-5u2s) - Leisure
 - [x] Strict mode print hack: [why I use the colon (:) command (intermediate) anthony explains #505 - YouTube](https://www.youtube.com/watch?v=onkNf1AKSgg) ✅ 2022-12-19
+- [ ] Tracing vs logging: [tracing vs logging - YouTube](https://www.youtube.com/results?search_query=tracing+vs+logging)
+- [ ] Logging vs tracing vs metrics for a distributed application.
+- [ ] Tracing depicts a single user’s journey through an application stack in many cases. Its goal isn’t to be reactive but rather to be proactive. Developers can detect bottlenecks and increase performance by tracing across a stack. - How to do this?
+- [ ] Opentelemetry using python - [Getting Started with OpenTelemetry and Distributed Tracing in Python - YouTube](https://www.youtube.com/watch?v=0ANtbk5fNbI)

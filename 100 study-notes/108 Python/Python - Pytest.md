@@ -1,6 +1,6 @@
 ---
 created: 2022-12-20 19:13
-updated: 2022-12-22 22:12
+updated: 2022-12-25 21:09
 ---
 ---
 **Links**: [[108 Python Index]]
@@ -18,7 +18,11 @@ updated: 2022-12-22 22:12
 - Just running `pytest` will execute all the tests. 
 	- Executing a specific test file: `pytest tests/test_specific.py`
 	- Executing a specific function in a test file: `pytest tests/test_specific.py::function_name`
+
+- **Commands**:
 	- Running in verbose mode `pytest -v`
+	- If you have a lot of tests to run and want less output `pytest -q`
+	- Show actual values of local variables in the traceback `pytest -l`
 
 - By default pytest only prints something when the tests fail. 
 	- But if we want pytest to print something then we use `pytest -s` 
@@ -89,10 +93,58 @@ def disable_network_calls(monkeypatch):
 - By placing `disable_network_calls()` in `conftest.py` and adding the `autouse=True` option, you ensure that network calls will be disabled in every test across the suite.
 	- Any test that executes code calling `requests.get()` will raise a `RuntimeError` indicating that an unexpected network call would have occurred.
 
-## Not Done
-- Markers.
-- Test parameterisation.
-- Skipping tests.
+### Different ways of running tests
+- Run **all** tests: `pytest`
+- Run *tests in a module*: `pytest test_mod.py` 
+- Run *tests in a directory*: `pytest testing/`
+- Run a specific test in a module: `pytest test_mod.py::test_func`
+
+#### Using marker expressions
+- Run tests with *marker expressions*: `pytest -m slow`
+	- Will run all tests which are decorated with the `@pytest.mark.slow` decorator
+	- Skipping tests: `@pytest.mark.skip`
+- For using custom markers we need to define them in `pytest.ini` file.
+
+```python
+# sample code
+import pytest
+
+
+@pytest.mark.login
+def test_regression():
+    print("Test_regression")
+
+
+@pytest.mark.login
+def test_sanity():
+    print("Test_sanity")
+
+
+@pytest.mark.login
+def test_release():
+    print("Test_release")
+
+
+@pytest.mark.settings
+def test_api():
+    print("Test_api")
+
+
+@pytest.mark.login
+@pytest.mark.settings
+def test_api1():
+    print("Test_api1")
+```
+
+```python
+# pytest.ini file
+[pytest]
+markers =
+    login 
+    settings
+```
+
+- Reference: [How to mark test functions with attributes — pytest documentation](https://docs.pytest.org/en/stable/how-to/mark.html)
 
 ## References
 - [Effective Python Testing With Pytest – Real Python](https://realpython.com/pytest-python-testing/)
