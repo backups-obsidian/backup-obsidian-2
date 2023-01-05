@@ -1,16 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "Terraform - Introduction",
-      "path": "100 study-notes/113 Terraform/Terraform - Introduction.md"
+      "basename": "Rough",
+      "path": "600 rough/Rough.md"
+    },
+    {
+      "basename": "Terraform - Basics",
+      "path": "100 study-notes/113 Terraform/Terraform - Basics.md"
+    },
+    {
+      "basename": "Terraform - HCL",
+      "path": "100 study-notes/113 Terraform/Terraform - HCL.md"
     },
     {
       "basename": "113 Terraform Index",
       "path": "100 study-notes/113 Terraform/113 Terraform Index.md"
     },
     {
-      "basename": "Rough",
-      "path": "600 rough/Rough.md"
+      "basename": "Python - Pytest",
+      "path": "100 study-notes/108 Python/Python - Pytest.md"
+    },
+    {
+      "basename": "Terraform - Introduction",
+      "path": "100 study-notes/113 Terraform/Terraform - Introduction.md"
     },
     {
       "basename": "TODO",
@@ -35,10 +47,6 @@
     {
       "basename": "Python - map, filter and lambda",
       "path": "100 study-notes/108 Python/Python - map, filter and lambda.md"
-    },
-    {
-      "basename": "Python - Pytest",
-      "path": "100 study-notes/108 Python/Python - Pytest.md"
     },
     {
       "basename": "Study List - Projects",
@@ -191,14 +199,6 @@
     {
       "basename": "Strict mode in bash",
       "path": "300 short-notes/Strict mode in bash.md"
-    },
-    {
-      "basename": "KodeCloud - Applications",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - Applications.md"
-    },
-    {
-      "basename": "Python - Generators",
-      "path": "100 study-notes/108 Python/Python - Generators.md"
     }
   ],
   "omittedPaths": [],
