@@ -51,35 +51,9 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "1ec696653c0d09f9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100 study-notes/113 Terraform/Terraform - HCL.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "65008103c19165b3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100 study-notes/113 Terraform/Terraform - Basics.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
-              }
-            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -155,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "600 rough/Rough.md",
+                "file": "100 study-notes/113 Terraform/113 Terraform Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "600 rough/Rough.md"
+                "file": "100 study-notes/113 Terraform/113 Terraform Index.md"
               }
             }
           },
@@ -182,7 +156,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "600 rough/Rough.md",
+                "file": "100 study-notes/113 Terraform/113 Terraform Index.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -235,17 +209,17 @@
     "width": 347.5,
     "collapsed": true
   },
-  "active": "ba8af9005c7ee5da",
+  "active": "fd1a12d3f36e68ba",
   "lastOpenFiles": [
-    "100 study-notes/113 Terraform/Terraform - Basics.md",
-    "100 study-notes/113 Terraform/Terraform - HCL.md",
+    "100 study-notes/113 Terraform/Terraform - Working with terraform.md",
     "100 study-notes/113 Terraform/113 Terraform Index.md",
-    "100 study-notes/108 Python/Python - Pytest.md",
-    "100 study-notes/113 Terraform/Terraform - Introduction.md",
-    "600 rough/Rough.md",
     "TODO.md",
+    "200 general-notes/Study List - Python.md",
     "200 general-notes/Study List.md",
-    "200 general-notes/Study List - Random.md",
-    "100 study-notes/108 Python/108 Python Index.md"
+    "100 study-notes/113 Terraform/Terraform - Basics.md",
+    "100 study-notes/113 Terraform/Terraform - HCL - Commands.md",
+    "100 study-notes/113 Terraform/Terraform - State.md",
+    "600 rough/Rough.md",
+    "100 study-notes/108 Python/Python - Pytest.md"
   ]
 }

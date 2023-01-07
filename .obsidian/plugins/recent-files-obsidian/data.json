@@ -1,20 +1,40 @@
 {
   "recentFiles": [
     {
-      "basename": "Rough",
-      "path": "600 rough/Rough.md"
+      "basename": "113 Terraform Index",
+      "path": "100 study-notes/113 Terraform/113 Terraform Index.md"
+    },
+    {
+      "basename": "Terraform - Working with terraform",
+      "path": "100 study-notes/113 Terraform/Terraform - Working with terraform.md"
+    },
+    {
+      "basename": "TODO",
+      "path": "TODO.md"
+    },
+    {
+      "basename": "Study List - Python",
+      "path": "200 general-notes/Study List - Python.md"
+    },
+    {
+      "basename": "Study List",
+      "path": "200 general-notes/Study List.md"
     },
     {
       "basename": "Terraform - Basics",
       "path": "100 study-notes/113 Terraform/Terraform - Basics.md"
     },
     {
-      "basename": "Terraform - HCL",
-      "path": "100 study-notes/113 Terraform/Terraform - HCL.md"
+      "basename": "Terraform - HCL - Commands",
+      "path": "100 study-notes/113 Terraform/Terraform - HCL - Commands.md"
     },
     {
-      "basename": "113 Terraform Index",
-      "path": "100 study-notes/113 Terraform/113 Terraform Index.md"
+      "basename": "Terraform - State",
+      "path": "100 study-notes/113 Terraform/Terraform - State.md"
+    },
+    {
+      "basename": "Rough",
+      "path": "600 rough/Rough.md"
     },
     {
       "basename": "Python - Pytest",
@@ -23,14 +43,6 @@
     {
       "basename": "Terraform - Introduction",
       "path": "100 study-notes/113 Terraform/Terraform - Introduction.md"
-    },
-    {
-      "basename": "TODO",
-      "path": "TODO.md"
-    },
-    {
-      "basename": "Study List",
-      "path": "200 general-notes/Study List.md"
     },
     {
       "basename": "Study List - Random",
@@ -71,10 +83,6 @@
     {
       "basename": "Python - Tips for writing better code",
       "path": "100 study-notes/108 Python/Python - Tips for writing better code.md"
-    },
-    {
-      "basename": "Study List - Python",
-      "path": "200 general-notes/Study List - Python.md"
     },
     {
       "basename": "104 Linux Index",
@@ -191,14 +199,6 @@
     {
       "basename": "300 home",
       "path": "300 short-notes/300 home.md"
-    },
-    {
-      "basename": "Bash Scripting",
-      "path": "300 short-notes/Bash Scripting.md"
-    },
-    {
-      "basename": "Strict mode in bash",
-      "path": "300 short-notes/Strict mode in bash.md"
     }
   ],
   "omittedPaths": [],
