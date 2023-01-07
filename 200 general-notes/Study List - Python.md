@@ -1,6 +1,6 @@
 ---
 created: 2022-12-20 09:41
-updated: 2022-12-22 21:44
+updated: 2023-01-07 09:43
 ---
 ---
 **Links**: 
@@ -30,3 +30,4 @@ updated: 2022-12-22 21:44
 - [x] What are class descriptors. https://www.linkedin.com/posts/yousefrabi_python-descriptors-activity-7010728791266267136-qaPw?utm_source=share&utm_medium=member_android ✅ 2022-12-20
 - [ ] Another TDD example: [Build a Hash Table in Python With TDD – Real Python](https://realpython.com/python-hash-table/) - Leisure
 - [ ] Using pytest-bdd gherkin - Leisure
+- [ ] Try out grpc with an example
