@@ -45,7 +45,7 @@
               "type": "markdown",
               "state": {
                 "file": "100 study-notes/113 Terraform/113 Terraform Index.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               },
@@ -211,15 +211,15 @@
   },
   "active": "fd1a12d3f36e68ba",
   "lastOpenFiles": [
-    "100 study-notes/113 Terraform/Terraform - Remote State.md",
+    "100 study-notes/100 home.md",
     "100 study-notes/113 Terraform/113 Terraform Index.md",
+    "000 home.md",
+    "600 rough/Rough.md",
+    "TODO.md",
+    "100 study-notes/113 Terraform/Terraform - Remote State.md",
     "100 study-notes/113 Terraform/Terraform - Provisioner.md",
     "100 study-notes/113 Terraform/Terraform - State.md",
     "200 general-notes/Googling like a pro.md",
-    "TODO.md",
-    "200 general-notes/Study List - Python.md",
-    "100 study-notes/113 Terraform/Terraform - AWS.md",
-    "300 short-notes/Difference between sharding and partitioning.md",
-    "100 study-notes/113 Terraform/Terraform - Working with terraform.md"
+    "200 general-notes/Study List - Python.md"
   ]
 }

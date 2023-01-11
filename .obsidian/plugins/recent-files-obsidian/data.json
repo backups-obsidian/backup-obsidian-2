@@ -5,6 +5,22 @@
       "path": "100 study-notes/113 Terraform/113 Terraform Index.md"
     },
     {
+      "basename": "100 home",
+      "path": "100 study-notes/100 home.md"
+    },
+    {
+      "basename": "000 home",
+      "path": "000 home.md"
+    },
+    {
+      "basename": "Rough",
+      "path": "600 rough/Rough.md"
+    },
+    {
+      "basename": "TODO",
+      "path": "TODO.md"
+    },
+    {
       "basename": "Terraform - Remote State",
       "path": "100 study-notes/113 Terraform/Terraform - Remote State.md"
     },
@@ -21,10 +37,6 @@
       "path": "200 general-notes/Googling like a pro.md"
     },
     {
-      "basename": "TODO",
-      "path": "TODO.md"
-    },
-    {
       "basename": "Study List - Python",
       "path": "200 general-notes/Study List - Python.md"
     },
@@ -39,10 +51,6 @@
     {
       "basename": "Terraform - Working with terraform",
       "path": "100 study-notes/113 Terraform/Terraform - Working with terraform.md"
-    },
-    {
-      "basename": "Rough",
-      "path": "600 rough/Rough.md"
     },
     {
       "basename": "Study List",
@@ -191,14 +199,6 @@
     {
       "basename": "Python - Everything is an object",
       "path": "100 study-notes/108 Python/Python - Everything is an object.md"
-    },
-    {
-      "basename": "Python - Namespaces",
-      "path": "100 study-notes/108 Python/Python - Namespaces.md"
-    },
-    {
-      "basename": "Python - Exception Handling",
-      "path": "100 study-notes/108 Python/Python - Exception Handling.md"
     }
   ],
   "omittedPaths": [],
