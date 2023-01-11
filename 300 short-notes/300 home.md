@@ -1,6 +1,6 @@
 ---
 created: 2022-04-16 16:39
-updated: 2022-11-28 22:20
+updated: 2023-01-09 11:06
 ---
 ---
 **Links**:  [[../000 home|000 Home]]
@@ -32,3 +32,4 @@ updated: 2022-11-28 22:20
 [[Importance of Content-Type in http]]
 [[What is OpenVPN]]
 [[CloudFlare Workers]]
+[[Difference between sharding and partitioning]]
