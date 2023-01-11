@@ -1,6 +1,6 @@
 ---
 created: 2022-04-18 18:45
-updated: 2022-09-13 16:18
+updated: 2023-01-11 18:57
 ---
 ---
 **Links**: [[../000 home | 000 Home]]
@@ -19,3 +19,5 @@ updated: 2022-09-13 16:18
 [[108 Python/108 Python Index | Python]]
 [[110 Kubernetes/110 Kubernetes Index| Kubernetes]]
 [[111 KodeCloud/111 KodeCloud Index| KodeCloud]]
+[[112 Nginx/112 Nginx Index | Nginx]]
+[[113 Terraform/113 Terraform Index | Terraform]]
