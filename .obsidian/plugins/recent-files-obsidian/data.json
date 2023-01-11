@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "113 Terraform Index",
+      "path": "100 study-notes/113 Terraform/113 Terraform Index.md"
+    },
+    {
       "basename": "Terraform - Remote State",
       "path": "100 study-notes/113 Terraform/Terraform - Remote State.md"
     },
     {
-      "basename": "Googling like a pro",
-      "path": "200 general-notes/Googling like a pro.md"
+      "basename": "Terraform - Provisioner",
+      "path": "100 study-notes/113 Terraform/Terraform - Provisioner.md"
     },
     {
-      "basename": "113 Terraform Index",
-      "path": "100 study-notes/113 Terraform/113 Terraform Index.md"
+      "basename": "Terraform - State",
+      "path": "100 study-notes/113 Terraform/Terraform - State.md"
+    },
+    {
+      "basename": "Googling like a pro",
+      "path": "200 general-notes/Googling like a pro.md"
     },
     {
       "basename": "TODO",
@@ -31,10 +39,6 @@
     {
       "basename": "Terraform - Working with terraform",
       "path": "100 study-notes/113 Terraform/Terraform - Working with terraform.md"
-    },
-    {
-      "basename": "Terraform - State",
-      "path": "100 study-notes/113 Terraform/Terraform - State.md"
     },
     {
       "basename": "Rough",
@@ -195,10 +199,6 @@
     {
       "basename": "Python - Exception Handling",
       "path": "100 study-notes/108 Python/Python - Exception Handling.md"
-    },
-    {
-      "basename": "Linux - Globbing",
-      "path": "100 study-notes/104 Linux/Linux - Globbing.md"
     }
   ],
   "omittedPaths": [],

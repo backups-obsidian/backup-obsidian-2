@@ -1,6 +1,6 @@
 ---
 created: 2023-01-05 13:23
-updated: 2023-01-06 09:30
+updated: 2023-01-11 11:19
 ---
 ---
 **Links**: [[113 Terraform Index]]
@@ -44,3 +44,5 @@ updated: 2023-01-06 09:30
 	- *`init` doesn't refresh the state but `plan` and `apply` refresh the state*.
 - Since there can be multiple developers working with terraform and it acts as a source of truth it is **recommended to save the terraform file in a remote location** so that state can be shared between all the members of the team at the same time.
 	- Some examples of remote state stores are: AWS S3, GC Storage, HashiCorp Consul, Terraform Cloud.
+
+## [[Terraform - Remote State#Terraform state manipulation | Terraform State Manipulation]]
