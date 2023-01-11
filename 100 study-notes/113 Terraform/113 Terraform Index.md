@@ -1,6 +1,6 @@
 ---
 created: 2023-01-02 19:26
-updated: 2023-01-11 18:16
+updated: 2023-01-11 18:26
 ---
 ---
 **Links**: [[../100 home|100 Home]]
@@ -14,8 +14,3 @@ updated: 2023-01-11 18:16
 [[Terraform - AWS]]
 [[Terraform - Remote State]]
 [[Terraform - Provisioner]]
-
-changes
-hello
-testing the latest version
-Testing version 1.3
