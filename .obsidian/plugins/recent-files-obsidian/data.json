@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "113 Terraform Index",
-      "path": "100 study-notes/113 Terraform/113 Terraform Index.md"
+      "basename": "Terraform - Remote State",
+      "path": "100 study-notes/113 Terraform/Terraform - Remote State.md"
     },
     {
-      "basename": "Terraform - Working with terraform",
-      "path": "100 study-notes/113 Terraform/Terraform - Working with terraform.md"
+      "basename": "Googling like a pro",
+      "path": "200 general-notes/Googling like a pro.md"
+    },
+    {
+      "basename": "113 Terraform Index",
+      "path": "100 study-notes/113 Terraform/113 Terraform Index.md"
     },
     {
       "basename": "TODO",
@@ -17,16 +21,16 @@
       "path": "200 general-notes/Study List - Python.md"
     },
     {
-      "basename": "Study List",
-      "path": "200 general-notes/Study List.md"
+      "basename": "Terraform - AWS",
+      "path": "100 study-notes/113 Terraform/Terraform - AWS.md"
     },
     {
-      "basename": "Terraform - Basics",
-      "path": "100 study-notes/113 Terraform/Terraform - Basics.md"
+      "basename": "Difference between sharding and partitioning",
+      "path": "300 short-notes/Difference between sharding and partitioning.md"
     },
     {
-      "basename": "Terraform - HCL - Commands",
-      "path": "100 study-notes/113 Terraform/Terraform - HCL - Commands.md"
+      "basename": "Terraform - Working with terraform",
+      "path": "100 study-notes/113 Terraform/Terraform - Working with terraform.md"
     },
     {
       "basename": "Terraform - State",
@@ -37,20 +41,52 @@
       "path": "600 rough/Rough.md"
     },
     {
-      "basename": "Python - Pytest",
-      "path": "100 study-notes/108 Python/Python - Pytest.md"
+      "basename": "Study List",
+      "path": "200 general-notes/Study List.md"
     },
     {
-      "basename": "Terraform - Introduction",
-      "path": "100 study-notes/113 Terraform/Terraform - Introduction.md"
+      "basename": "Python - Must use packages",
+      "path": "100 study-notes/108 Python/Python - Must use packages.md"
+    },
+    {
+      "basename": "108 Python Index",
+      "path": "100 study-notes/108 Python/108 Python Index.md"
+    },
+    {
+      "basename": "Study List - Projects",
+      "path": "200 general-notes/Study List - Projects.md"
+    },
+    {
+      "basename": "300 home",
+      "path": "300 short-notes/300 home.md"
+    },
+    {
+      "basename": "200 home",
+      "path": "200 general-notes/200 home.md"
     },
     {
       "basename": "Study List - Random",
       "path": "200 general-notes/Study List - Random.md"
     },
     {
-      "basename": "108 Python Index",
-      "path": "100 study-notes/108 Python/108 Python Index.md"
+      "basename": "Python - Pytest",
+      "path": "100 study-notes/108 Python/Python - Pytest.md"
+    },
+    {
+      "basename": "YAML",
+      "path": "300 short-notes/YAML.md"
+    },
+    {
+      "basename": "Terraform - Basics",
+      "path": "100 study-notes/113 Terraform/Terraform - Basics.md"
+    },
+    {
+      "basename": "Terraform - HCL - Commands",
+      "path": "100 study-notes/113 Terraform/Terraform - HCL - Commands.md"
+    },
+    {
+      "basename": "Terraform - Introduction",
+      "path": "100 study-notes/113 Terraform/Terraform - Introduction.md"
     },
     {
       "basename": "Python - subprocess",
@@ -61,16 +97,8 @@
       "path": "100 study-notes/108 Python/Python - map, filter and lambda.md"
     },
     {
-      "basename": "Study List - Projects",
-      "path": "200 general-notes/Study List - Projects.md"
-    },
-    {
       "basename": "Study List - Writeups",
       "path": "200 general-notes/Study List - Writeups.md"
-    },
-    {
-      "basename": "Python - Must use packages",
-      "path": "100 study-notes/108 Python/Python - Must use packages.md"
     },
     {
       "basename": "Python - OOP",
@@ -171,34 +199,6 @@
     {
       "basename": "Linux - Globbing",
       "path": "100 study-notes/104 Linux/Linux - Globbing.md"
-    },
-    {
-      "basename": "Using openssl",
-      "path": "100 study-notes/104 Linux/Using openssl.md"
-    },
-    {
-      "basename": "Python - Miscellaneous",
-      "path": "100 study-notes/108 Python/Python - Miscellaneous.md"
-    },
-    {
-      "basename": "Python - Useful videos",
-      "path": "100 study-notes/108 Python/Python - Useful videos.md"
-    },
-    {
-      "basename": "Python - Dataclasses",
-      "path": "100 study-notes/108 Python/Python - Dataclasses.md"
-    },
-    {
-      "basename": "Python - Type Hints - Basics",
-      "path": "100 study-notes/108 Python/Python - Type Hints - Basics.md"
-    },
-    {
-      "basename": "CloudFlare Workers",
-      "path": "300 short-notes/CloudFlare Workers.md"
-    },
-    {
-      "basename": "300 home",
-      "path": "300 short-notes/300 home.md"
     }
   ],
   "omittedPaths": [],

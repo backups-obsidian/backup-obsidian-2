@@ -51,9 +51,35 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "1b80779669ed7b96",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100 study-notes/113 Terraform/Terraform - Remote State.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "9a215206e673a897",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "200 general-notes/Googling like a pro.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -129,7 +155,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/113 Terraform/113 Terraform Index.md",
+                "file": "100 study-notes/113 Terraform/Terraform - Remote State.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/113 Terraform/113 Terraform Index.md"
+                "file": "100 study-notes/113 Terraform/Terraform - Remote State.md"
               }
             }
           },
@@ -156,7 +182,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/113 Terraform/113 Terraform Index.md",
+                "file": "100 study-notes/113 Terraform/Terraform - Remote State.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -209,17 +235,17 @@
     "width": 347.5,
     "collapsed": true
   },
-  "active": "fd1a12d3f36e68ba",
+  "active": "1b80779669ed7b96",
   "lastOpenFiles": [
-    "100 study-notes/113 Terraform/Terraform - Working with terraform.md",
+    "200 general-notes/Googling like a pro.md",
+    "100 study-notes/113 Terraform/Terraform - Remote State.md",
     "100 study-notes/113 Terraform/113 Terraform Index.md",
     "TODO.md",
     "200 general-notes/Study List - Python.md",
-    "200 general-notes/Study List.md",
-    "100 study-notes/113 Terraform/Terraform - Basics.md",
-    "100 study-notes/113 Terraform/Terraform - HCL - Commands.md",
+    "100 study-notes/113 Terraform/Terraform - AWS.md",
+    "300 short-notes/Difference between sharding and partitioning.md",
+    "100 study-notes/113 Terraform/Terraform - Working with terraform.md",
     "100 study-notes/113 Terraform/Terraform - State.md",
-    "600 rough/Rough.md",
-    "100 study-notes/108 Python/Python - Pytest.md"
+    "600 rough/Rough.md"
   ]
 }

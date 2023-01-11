@@ -1,6 +1,6 @@
 ---
 created: 2022-12-20 09:43
-updated: 2023-01-02 16:13
+updated: 2023-01-09 10:53
 ---
 ---
 **Links**: 
@@ -29,4 +29,7 @@ updated: 2023-01-02 16:13
 - [ ] Tracing vs logging: [tracing vs logging - YouTube](https://www.youtube.com/results?search_query=tracing+vs+logging)
 - [ ] Logging vs tracing vs metrics for a distributed application.
 - [ ] Tracing depicts a single user’s journey through an application stack in many cases. Its goal isn’t to be reactive but rather to be proactive. Developers can detect bottlenecks and increase performance by tracing across a stack. - How to do this?
-- [ ] Opentelemetry using python - [Getting Started with OpenTelemetry and Distributed Tracing in Python - YouTube](https://www.youtube.com/watch?v=0ANtbk5fNbI)
+- [ ] Opentelemetry using python - [Getting Started with OpenTelemetry and Distributed Tracing in Python - YouTube](https://www.youtube.com/watch?v=0ANtbk5fNbI) - Leisure
+- [ ] What is sharding and partitioning: [Database Sharding and Partitioning - YouTube](https://www.youtube.com/watch?v=wXvljefXyEo). Read in detail, multiple articles.
+- [ ] Explore ml model Trinity by applying to some problems: Image present as sub point
+	- ![[attachments/Pasted image 20230109105237.png]]
