@@ -45,15 +45,14 @@
               "type": "markdown",
               "state": {
                 "file": "100 study-notes/113 Terraform/113 Terraform Index.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               },
               "pinned": true
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -129,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/113 Terraform/113 Terraform Index.md",
+                "file": "TODO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/113 Terraform/113 Terraform Index.md"
+                "file": "TODO.md"
               }
             }
           },
@@ -156,7 +155,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/113 Terraform/113 Terraform Index.md",
+                "file": "TODO.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -209,17 +208,17 @@
     "width": 347.5,
     "collapsed": true
   },
-  "active": "fd1a12d3f36e68ba",
+  "active": "2f0967eceee1fc48",
   "lastOpenFiles": [
-    "100 study-notes/100 home.md",
-    "100 study-notes/113 Terraform/113 Terraform Index.md",
-    "000 home.md",
-    "600 rough/Rough.md",
+    "200 general-notes/Study List - Python.md",
+    "200 general-notes/Study List.md",
     "TODO.md",
-    "100 study-notes/113 Terraform/Terraform - Remote State.md",
-    "100 study-notes/113 Terraform/Terraform - Provisioner.md",
-    "100 study-notes/113 Terraform/Terraform - State.md",
-    "200 general-notes/Googling like a pro.md",
-    "200 general-notes/Study List - Python.md"
+    "600 rough/Rough.md",
+    "100 study-notes/113 Terraform/113 Terraform Index.md",
+    "100 study-notes/113 Terraform/Terraform - Import.md",
+    "100 study-notes/113 Terraform/Terraform - Taints, Logging.md",
+    "100 study-notes/113 Terraform/Terraform - Debugging.md",
+    "300 short-notes/300 home.md",
+    "300 short-notes/Packer.md"
   ]
 }

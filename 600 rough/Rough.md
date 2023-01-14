@@ -1,13 +1,11 @@
 ---
 created: 2022-04-17 15:43
-updated: 2023-01-05 09:00
+updated: 2023-01-13 14:50
 ---
 - terraform
-- jenkins
 - gitops: argocd
 
 ---
-- Using jenkins to run ansible to always have logs.
 
 ---
 - k3d and kind

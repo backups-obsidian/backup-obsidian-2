@@ -1,8 +1,44 @@
 {
   "recentFiles": [
     {
+      "basename": "TODO",
+      "path": "TODO.md"
+    },
+    {
+      "basename": "Study List - Python",
+      "path": "200 general-notes/Study List - Python.md"
+    },
+    {
+      "basename": "Study List",
+      "path": "200 general-notes/Study List.md"
+    },
+    {
+      "basename": "Rough",
+      "path": "600 rough/Rough.md"
+    },
+    {
       "basename": "113 Terraform Index",
       "path": "100 study-notes/113 Terraform/113 Terraform Index.md"
+    },
+    {
+      "basename": "Terraform - Import",
+      "path": "100 study-notes/113 Terraform/Terraform - Import.md"
+    },
+    {
+      "basename": "Terraform - Taints, Logging",
+      "path": "100 study-notes/113 Terraform/Terraform - Taints, Logging.md"
+    },
+    {
+      "basename": "300 home",
+      "path": "300 short-notes/300 home.md"
+    },
+    {
+      "basename": "Packer",
+      "path": "300 short-notes/Packer.md"
+    },
+    {
+      "basename": "Study List - Random",
+      "path": "200 general-notes/Study List - Random.md"
     },
     {
       "basename": "100 home",
@@ -11,14 +47,6 @@
     {
       "basename": "000 home",
       "path": "000 home.md"
-    },
-    {
-      "basename": "Rough",
-      "path": "600 rough/Rough.md"
-    },
-    {
-      "basename": "TODO",
-      "path": "TODO.md"
     },
     {
       "basename": "Terraform - Remote State",
@@ -37,10 +65,6 @@
       "path": "200 general-notes/Googling like a pro.md"
     },
     {
-      "basename": "Study List - Python",
-      "path": "200 general-notes/Study List - Python.md"
-    },
-    {
       "basename": "Terraform - AWS",
       "path": "100 study-notes/113 Terraform/Terraform - AWS.md"
     },
@@ -51,10 +75,6 @@
     {
       "basename": "Terraform - Working with terraform",
       "path": "100 study-notes/113 Terraform/Terraform - Working with terraform.md"
-    },
-    {
-      "basename": "Study List",
-      "path": "200 general-notes/Study List.md"
     },
     {
       "basename": "Python - Must use packages",
@@ -69,16 +89,8 @@
       "path": "200 general-notes/Study List - Projects.md"
     },
     {
-      "basename": "300 home",
-      "path": "300 short-notes/300 home.md"
-    },
-    {
       "basename": "200 home",
       "path": "200 general-notes/200 home.md"
-    },
-    {
-      "basename": "Study List - Random",
-      "path": "200 general-notes/Study List - Random.md"
     },
     {
       "basename": "Python - Pytest",
@@ -187,18 +199,6 @@
     {
       "basename": "Python - Modules and Packages",
       "path": "100 study-notes/108 Python/Python - Modules and Packages.md"
-    },
-    {
-      "basename": "Python - Correct way of running modules",
-      "path": "100 study-notes/108 Python/Python - Correct way of running modules.md"
-    },
-    {
-      "basename": "Python - Using name equals to main",
-      "path": "100 study-notes/108 Python/Python - Using name equals to main.md"
-    },
-    {
-      "basename": "Python - Everything is an object",
-      "path": "100 study-notes/108 Python/Python - Everything is an object.md"
     }
   ],
   "omittedPaths": [],
