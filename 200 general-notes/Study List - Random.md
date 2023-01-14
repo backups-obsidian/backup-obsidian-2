@@ -1,6 +1,6 @@
 ---
 created: 2022-12-20 09:43
-updated: 2023-01-09 10:53
+updated: 2023-01-13 09:40
 ---
 ---
 **Links**: 
@@ -33,3 +33,8 @@ updated: 2023-01-09 10:53
 - [ ] What is sharding and partitioning: [Database Sharding and Partitioning - YouTube](https://www.youtube.com/watch?v=wXvljefXyEo). Read in detail, multiple articles.
 - [ ] Explore ml model Trinity by applying to some problems: Image present as sub point
 	- ![[attachments/Pasted image 20230109105237.png]]
+- [ ] Design of APIs: watch youtube videos (Links in subpoints) , read some books
+	- [Oktane17: Designing Beautiful REST + JSON APIs - YouTube](https://www.youtube.com/watch?v=MiOSzpfP1Ww)
+	- [Designing Quality APIs (Cloud Next '18) - YouTube](https://www.youtube.com/watch?v=P0a7PwRNLVU)
+	- [Best practices for REST API design - Stack Overflow Blog](https://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design/)
+- 

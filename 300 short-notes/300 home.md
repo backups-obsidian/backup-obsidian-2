@@ -1,6 +1,6 @@
 ---
 created: 2022-04-16 16:39
-updated: 2023-01-09 11:06
+updated: 2023-01-13 14:31
 ---
 ---
 **Links**:  [[../000 home|000 Home]]
@@ -33,3 +33,4 @@ updated: 2023-01-09 11:06
 [[What is OpenVPN]]
 [[CloudFlare Workers]]
 [[Difference between sharding and partitioning]]
+[[Packer]]

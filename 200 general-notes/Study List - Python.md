@@ -1,6 +1,6 @@
 ---
 created: 2022-12-20 09:41
-updated: 2023-01-10 23:06
+updated: 2023-01-14 09:27
 ---
 ---
 **Links**: 
@@ -30,5 +30,6 @@ updated: 2023-01-10 23:06
 - [x] What are class descriptors. https://www.linkedin.com/posts/yousefrabi_python-descriptors-activity-7010728791266267136-qaPw?utm_source=share&utm_medium=member_android ✅ 2022-12-20
 - [ ] Another TDD example: [Build a Hash Table in Python With TDD – Real Python](https://realpython.com/python-hash-table/) - Leisure
 - [ ] Using pytest-bdd gherkin - Leisure
+- [ ] [A Deep Dive Into Iterators and Itertools in Python - YouTube](https://www.youtube.com/watch?v=aumxFs2DO5o)
 - [ ] Try out grpc with an example - Have 2 docker containers and communicate between them using grpc. This makes the communication between services easy eliminating the need for having an API server for each.
 - [ ] Learn typer for building CLI applications
