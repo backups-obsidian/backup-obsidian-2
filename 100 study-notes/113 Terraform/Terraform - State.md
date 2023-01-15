@@ -1,6 +1,6 @@
 ---
 created: 2023-01-05 13:23
-updated: 2023-01-11 11:19
+updated: 2023-01-14 19:17
 ---
 ---
 **Links**: [[113 Terraform Index]]
@@ -11,6 +11,8 @@ updated: 2023-01-11 11:19
 
 > [!note]- `terraform.tfstate` file is not created unless `terraform apply` command is run atleast once.
 > `plan` refreshes the state but state file is only created by `apply`.
+
+- **DOUBT**: IF THERE IS NO STATE FILE THEN I GUESS PLAN WILL ALSO CREATE A STATE FILE.
 
 - *State file is a json data structure* that *maps the real world infrastructure to the resource definition in the configuration files*.
 	- This allows terraform to create execution plans when a drift is identified between the resource configuration files and the state.
