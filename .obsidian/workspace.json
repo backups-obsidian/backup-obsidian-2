@@ -45,14 +45,15 @@
               "type": "markdown",
               "state": {
                 "file": "100 study-notes/113 Terraform/113 Terraform Index.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               },
               "pinned": true
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -128,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TODO.md",
+                "file": "100 study-notes/113 Terraform/113 Terraform Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TODO.md"
+                "file": "100 study-notes/113 Terraform/113 Terraform Index.md"
               }
             }
           },
@@ -155,7 +156,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "TODO.md",
+                "file": "100 study-notes/113 Terraform/113 Terraform Index.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -208,17 +209,17 @@
     "width": 347.5,
     "collapsed": true
   },
-  "active": "2f0967eceee1fc48",
+  "active": "fd1a12d3f36e68ba",
   "lastOpenFiles": [
+    "100 study-notes/113 Terraform/Terraform - Functions and Conditional Expressions.md",
+    "100 study-notes/113 Terraform/113 Terraform Index.md",
+    "100 study-notes/113 Terraform/Terraform - Modules.md",
+    "100 study-notes/113 Terraform/Terraform - State.md",
+    "999 templates/new-page-template.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - SSL-TLS.md",
+    "TODO.md",
     "200 general-notes/Study List - Python.md",
     "200 general-notes/Study List.md",
-    "TODO.md",
-    "600 rough/Rough.md",
-    "100 study-notes/113 Terraform/113 Terraform Index.md",
-    "100 study-notes/113 Terraform/Terraform - Import.md",
-    "100 study-notes/113 Terraform/Terraform - Taints, Logging.md",
-    "100 study-notes/113 Terraform/Terraform - Debugging.md",
-    "300 short-notes/300 home.md",
-    "300 short-notes/Packer.md"
+    "600 rough/Rough.md"
   ]
 }

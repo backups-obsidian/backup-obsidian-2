@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "113 Terraform Index",
+      "path": "100 study-notes/113 Terraform/113 Terraform Index.md"
+    },
+    {
+      "basename": "Terraform - Functions and Conditional Expressions",
+      "path": "100 study-notes/113 Terraform/Terraform - Functions and Conditional Expressions.md"
+    },
+    {
+      "basename": "Terraform - Modules",
+      "path": "100 study-notes/113 Terraform/Terraform - Modules.md"
+    },
+    {
+      "basename": "Terraform - State",
+      "path": "100 study-notes/113 Terraform/Terraform - State.md"
+    },
+    {
+      "basename": "new-page-template",
+      "path": "999 templates/new-page-template.md"
+    },
+    {
+      "basename": "KodeCloud - SSL-TLS",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - SSL-TLS.md"
+    },
+    {
       "basename": "TODO",
       "path": "TODO.md"
     },
@@ -15,10 +39,6 @@
     {
       "basename": "Rough",
       "path": "600 rough/Rough.md"
-    },
-    {
-      "basename": "113 Terraform Index",
-      "path": "100 study-notes/113 Terraform/113 Terraform Index.md"
     },
     {
       "basename": "Terraform - Import",
@@ -55,10 +75,6 @@
     {
       "basename": "Terraform - Provisioner",
       "path": "100 study-notes/113 Terraform/Terraform - Provisioner.md"
-    },
-    {
-      "basename": "Terraform - State",
-      "path": "100 study-notes/113 Terraform/Terraform - State.md"
     },
     {
       "basename": "Googling like a pro",
@@ -183,22 +199,6 @@
     {
       "basename": "112 Nginx Index",
       "path": "100 study-notes/112 Nginx/112 Nginx Index.md"
-    },
-    {
-      "basename": "Linux - Bash strict mode - understanding IFS",
-      "path": "100 study-notes/104 Linux/Linux - Bash strict mode - understanding IFS.md"
-    },
-    {
-      "basename": "Python - Tips for writing better functions",
-      "path": "100 study-notes/108 Python/Python - Tips for writing better functions.md"
-    },
-    {
-      "basename": "Python - Protocols",
-      "path": "100 study-notes/108 Python/Python - Protocols.md"
-    },
-    {
-      "basename": "Python - Modules and Packages",
-      "path": "100 study-notes/108 Python/Python - Modules and Packages.md"
     }
   ],
   "omittedPaths": [],
