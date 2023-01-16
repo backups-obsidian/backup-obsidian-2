@@ -44,27 +44,14 @@
               "type": "markdown",
               "state": {
                 "file": "300 short-notes/300 home.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "e16f5104f2fc4890",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "300 short-notes/GitHub CLI.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -140,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "300 short-notes/GitHub CLI.md",
+                "file": "300 short-notes/300 home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "300 short-notes/GitHub CLI.md"
+                "file": "300 short-notes/300 home.md"
               }
             }
           },
@@ -167,7 +154,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "300 short-notes/GitHub CLI.md",
+                "file": "300 short-notes/300 home.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -220,8 +207,9 @@
     "width": 347.5,
     "collapsed": true
   },
-  "active": "e16f5104f2fc4890",
+  "active": "1ff92888c237c7c5",
   "lastOpenFiles": [
+    "300 short-notes/GitHub CLI.md",
     "300 short-notes/300 home.md",
     "100 study-notes/101 AWS SAA/101 AWS SAA Index.md",
     "100 study-notes/101 AWS SAA/NACLs.md",
@@ -230,7 +218,6 @@
     "100 study-notes/101 AWS SAA/CloudWatch.md",
     "100 study-notes/101 AWS SAA/EventBridge.md",
     "100 study-notes/101 AWS SAA/CloudTrail.md",
-    "100 study-notes/101 AWS SAA/Config.md",
-    "100 study-notes/101 AWS SAA/Shield.md"
+    "100 study-notes/101 AWS SAA/Config.md"
   ]
 }
