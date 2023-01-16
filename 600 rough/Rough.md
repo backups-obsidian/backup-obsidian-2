@@ -6,10 +6,4 @@ updated: 2023-01-13 14:50
 - gitops: argocd
 
 ---
-
----
 - k3d and kind
-- 3 types of data: metrics, traces and logs
-	- Don't log metrics as logs?
-	- Instrumentation is code's ability to emit logs, metrics, and traces
-	- instrumenting code with logs metrics and traces

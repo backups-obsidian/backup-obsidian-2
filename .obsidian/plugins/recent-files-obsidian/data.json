@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Rough",
+      "path": "600 rough/Rough.md"
+    },
+    {
       "basename": "300 home",
       "path": "300 short-notes/300 home.md"
     },
@@ -187,10 +191,6 @@
     {
       "basename": "EC2 EBS",
       "path": "100 study-notes/101 AWS SAA/EC2 EBS.md"
-    },
-    {
-      "basename": "Rough",
-      "path": "600 rough/Rough.md"
     },
     {
       "basename": "113 Terraform Index",

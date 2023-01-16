@@ -51,7 +51,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -127,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "300 short-notes/300 home.md",
+                "file": "600 rough/Rough.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "300 short-notes/300 home.md"
+                "file": "600 rough/Rough.md"
               }
             }
           },
@@ -154,7 +154,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "300 short-notes/300 home.md",
+                "file": "600 rough/Rough.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -207,10 +207,10 @@
     "width": 347.5,
     "collapsed": true
   },
-  "active": "1ff92888c237c7c5",
+  "active": "ba8af9005c7ee5da",
   "lastOpenFiles": [
-    "300 short-notes/GitHub CLI.md",
     "300 short-notes/300 home.md",
+    "300 short-notes/GitHub CLI.md",
     "100 study-notes/101 AWS SAA/101 AWS SAA Index.md",
     "100 study-notes/101 AWS SAA/NACLs.md",
     "100 study-notes/101 AWS SAA/VPC Internet Access.md",
