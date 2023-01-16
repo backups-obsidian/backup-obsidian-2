@@ -24,4 +24,3 @@ updated: 2023-01-15 19:55
 
 ## References
 - [New GitHub CLI Crash Course - First Look - YouTube](https://www.youtube.com/watch?v=BRAG1Kj4-Ss)
-- 
