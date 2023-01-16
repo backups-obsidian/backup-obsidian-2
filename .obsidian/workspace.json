@@ -38,18 +38,16 @@
             }
           },
           {
-            "id": "fd1a12d3f36e68ba",
+            "id": "8d63cde2f32e5655",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 study-notes/113 Terraform/113 Terraform Index.md",
+                "file": "100 study-notes/101 AWS SAA/NACLs.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
-              },
-              "pinned": true
+              }
             }
           }
         ],
@@ -129,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/113 Terraform/113 Terraform Index.md",
+                "file": "100 study-notes/101 AWS SAA/NACLs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/113 Terraform/113 Terraform Index.md"
+                "file": "100 study-notes/101 AWS SAA/NACLs.md"
               }
             }
           },
@@ -156,7 +154,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/113 Terraform/113 Terraform Index.md",
+                "file": "100 study-notes/101 AWS SAA/NACLs.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -209,17 +207,17 @@
     "width": 347.5,
     "collapsed": true
   },
-  "active": "fd1a12d3f36e68ba",
+  "active": "8d63cde2f32e5655",
   "lastOpenFiles": [
-    "100 study-notes/113 Terraform/Terraform - Functions and Conditional Expressions.md",
-    "100 study-notes/113 Terraform/113 Terraform Index.md",
-    "100 study-notes/113 Terraform/Terraform - Modules.md",
-    "100 study-notes/113 Terraform/Terraform - State.md",
-    "999 templates/new-page-template.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - SSL-TLS.md",
-    "TODO.md",
-    "200 general-notes/Study List - Python.md",
-    "200 general-notes/Study List.md",
-    "600 rough/Rough.md"
+    "100 study-notes/101 AWS SAA/101 AWS SAA Index.md",
+    "100 study-notes/101 AWS SAA/VPC Internet Access.md",
+    "100 study-notes/101 AWS SAA/VPC & Subnets.md",
+    "100 study-notes/101 AWS SAA/CloudWatch.md",
+    "100 study-notes/101 AWS SAA/EventBridge.md",
+    "100 study-notes/101 AWS SAA/CloudTrail.md",
+    "100 study-notes/101 AWS SAA/Config.md",
+    "100 study-notes/101 AWS SAA/Shield.md",
+    "100 study-notes/101 AWS SAA/KMS.md",
+    "100 study-notes/101 AWS SAA/API Gateway.md"
   ]
 }

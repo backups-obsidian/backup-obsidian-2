@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-05-04 10:32
+updated: 2023-01-15 15:01
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -13,7 +13,7 @@ updated: 2022-05-04 10:32
 	- **great for joins**
 
 -   **NoSQL database** 
-	- `DynamoDB` (~]SON), `ElastiCache` (key / value pairs) 
+	- `DynamoDB` (~JSON), `ElastiCache` (key / value pairs) 
 	- no joins, no SQL.
 
 -   **Object Store** 
@@ -26,7 +26,7 @@ updated: 2022-05-04 10:32
 	- `Redshift` (OLAP), `Athena`
 
 -   **Search**  
-	- `ElasticSearch` (]SON) 
+	- `ElasticSearch` (JSON) 
 	- **free text, unstructured searches**
 
 -   **Graphs** 

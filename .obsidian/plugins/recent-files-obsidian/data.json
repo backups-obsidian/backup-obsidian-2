@@ -1,204 +1,204 @@
 {
   "recentFiles": [
     {
-      "basename": "113 Terraform Index",
-      "path": "100 study-notes/113 Terraform/113 Terraform Index.md"
+      "basename": "NACLs",
+      "path": "100 study-notes/101 AWS SAA/NACLs.md"
     },
     {
-      "basename": "Terraform - Functions and Conditional Expressions",
-      "path": "100 study-notes/113 Terraform/Terraform - Functions and Conditional Expressions.md"
+      "basename": "101 AWS SAA Index",
+      "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
     },
     {
-      "basename": "Terraform - Modules",
-      "path": "100 study-notes/113 Terraform/Terraform - Modules.md"
+      "basename": "VPC Internet Access",
+      "path": "100 study-notes/101 AWS SAA/VPC Internet Access.md"
     },
     {
-      "basename": "Terraform - State",
-      "path": "100 study-notes/113 Terraform/Terraform - State.md"
+      "basename": "VPC & Subnets",
+      "path": "100 study-notes/101 AWS SAA/VPC & Subnets.md"
     },
     {
-      "basename": "new-page-template",
-      "path": "999 templates/new-page-template.md"
+      "basename": "CloudWatch",
+      "path": "100 study-notes/101 AWS SAA/CloudWatch.md"
     },
     {
-      "basename": "KodeCloud - SSL-TLS",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - SSL-TLS.md"
+      "basename": "EventBridge",
+      "path": "100 study-notes/101 AWS SAA/EventBridge.md"
     },
     {
-      "basename": "TODO",
-      "path": "TODO.md"
+      "basename": "CloudTrail",
+      "path": "100 study-notes/101 AWS SAA/CloudTrail.md"
     },
     {
-      "basename": "Study List - Python",
-      "path": "200 general-notes/Study List - Python.md"
+      "basename": "Config",
+      "path": "100 study-notes/101 AWS SAA/Config.md"
     },
     {
-      "basename": "Study List",
-      "path": "200 general-notes/Study List.md"
+      "basename": "Shield",
+      "path": "100 study-notes/101 AWS SAA/Shield.md"
+    },
+    {
+      "basename": "KMS",
+      "path": "100 study-notes/101 AWS SAA/KMS.md"
+    },
+    {
+      "basename": "API Gateway",
+      "path": "100 study-notes/101 AWS SAA/API Gateway.md"
+    },
+    {
+      "basename": "Lambda",
+      "path": "100 study-notes/101 AWS SAA/Lambda.md"
+    },
+    {
+      "basename": "ECR & EKS",
+      "path": "100 study-notes/101 AWS SAA/ECR & EKS.md"
+    },
+    {
+      "basename": "ECS",
+      "path": "100 study-notes/101 AWS SAA/ECS.md"
+    },
+    {
+      "basename": "Event Processing",
+      "path": "100 study-notes/101 AWS SAA/Event Processing.md"
+    },
+    {
+      "basename": "Amazon MQ",
+      "path": "100 study-notes/101 AWS SAA/Amazon MQ.md"
+    },
+    {
+      "basename": "SQS",
+      "path": "100 study-notes/101 AWS SAA/SQS.md"
+    },
+    {
+      "basename": "SNS",
+      "path": "100 study-notes/101 AWS SAA/SNS.md"
+    },
+    {
+      "basename": "Global Accelerator",
+      "path": "100 study-notes/101 AWS SAA/Global Accelerator.md"
+    },
+    {
+      "basename": "CloudFront",
+      "path": "100 study-notes/101 AWS SAA/CloudFront.md"
+    },
+    {
+      "basename": "S3 Miscellaneous",
+      "path": "100 study-notes/101 AWS SAA/S3 Miscellaneous.md"
+    },
+    {
+      "basename": "S3 Performance",
+      "path": "100 study-notes/101 AWS SAA/S3 Performance.md"
+    },
+    {
+      "basename": "S3 Lifecycle Rules",
+      "path": "100 study-notes/101 AWS SAA/S3 Lifecycle Rules.md"
+    },
+    {
+      "basename": "S3 Storage Classes",
+      "path": "100 study-notes/101 AWS SAA/S3 Storage Classes.md"
+    },
+    {
+      "basename": "S3 Replication",
+      "path": "100 study-notes/101 AWS SAA/S3 Replication.md"
+    },
+    {
+      "basename": "S3 Encryption",
+      "path": "100 study-notes/101 AWS SAA/S3 Encryption.md"
+    },
+    {
+      "basename": "EC2 Lifecycle states",
+      "path": "100 study-notes/101 AWS SAA/EC2 Lifecycle states.md"
+    },
+    {
+      "basename": "S3",
+      "path": "100 study-notes/101 AWS SAA/S3.md"
+    },
+    {
+      "basename": "Route53 Routing Policies",
+      "path": "100 study-notes/101 AWS SAA/Route53 Routing Policies.md"
+    },
+    {
+      "basename": "Route53",
+      "path": "100 study-notes/101 AWS SAA/Route53.md"
+    },
+    {
+      "basename": "Aurora",
+      "path": "100 study-notes/101 AWS SAA/Aurora.md"
+    },
+    {
+      "basename": "Other Databases",
+      "path": "100 study-notes/101 AWS SAA/Other Databases.md"
+    },
+    {
+      "basename": "RDS Security",
+      "path": "100 study-notes/101 AWS SAA/RDS Security.md"
+    },
+    {
+      "basename": "RDS Read Replica & Multi AZ",
+      "path": "100 study-notes/101 AWS SAA/RDS Read Replica & Multi AZ.md"
+    },
+    {
+      "basename": "RDS",
+      "path": "100 study-notes/101 AWS SAA/RDS.md"
+    },
+    {
+      "basename": "Stickiness, Cross zone balancing & Connection Draining",
+      "path": "100 study-notes/101 AWS SAA/Stickiness, Cross zone balancing & Connection Draining.md"
+    },
+    {
+      "basename": "Types of ELBs",
+      "path": "100 study-notes/101 AWS SAA/Types of ELBs.md"
+    },
+    {
+      "basename": "ELB",
+      "path": "100 study-notes/101 AWS SAA/ELB.md"
+    },
+    {
+      "basename": "Scaling Policies",
+      "path": "100 study-notes/101 AWS SAA/Scaling Policies.md"
+    },
+    {
+      "basename": "EC2 Metadata",
+      "path": "100 study-notes/101 AWS SAA/EC2 Metadata.md"
+    },
+    {
+      "basename": "EC2 AMI",
+      "path": "100 study-notes/101 AWS SAA/EC2 AMI.md"
+    },
+    {
+      "basename": "ASG",
+      "path": "100 study-notes/101 AWS SAA/ASG.md"
+    },
+    {
+      "basename": "Instance store",
+      "path": "100 study-notes/101 AWS SAA/Instance store.md"
+    },
+    {
+      "basename": "EFS",
+      "path": "100 study-notes/101 AWS SAA/EFS.md"
+    },
+    {
+      "basename": "EC2 EBS",
+      "path": "100 study-notes/101 AWS SAA/EC2 EBS.md"
     },
     {
       "basename": "Rough",
       "path": "600 rough/Rough.md"
     },
     {
-      "basename": "Terraform - Import",
-      "path": "100 study-notes/113 Terraform/Terraform - Import.md"
+      "basename": "113 Terraform Index",
+      "path": "100 study-notes/113 Terraform/113 Terraform Index.md"
     },
     {
-      "basename": "Terraform - Taints, Logging",
-      "path": "100 study-notes/113 Terraform/Terraform - Taints, Logging.md"
+      "basename": "EC2 Hibernate",
+      "path": "100 study-notes/101 AWS SAA/EC2 Hibernate.md"
     },
     {
-      "basename": "300 home",
-      "path": "300 short-notes/300 home.md"
+      "basename": "EC2 ENI",
+      "path": "100 study-notes/101 AWS SAA/EC2 ENI.md"
     },
     {
-      "basename": "Packer",
-      "path": "300 short-notes/Packer.md"
-    },
-    {
-      "basename": "Study List - Random",
-      "path": "200 general-notes/Study List - Random.md"
-    },
-    {
-      "basename": "100 home",
-      "path": "100 study-notes/100 home.md"
-    },
-    {
-      "basename": "000 home",
-      "path": "000 home.md"
-    },
-    {
-      "basename": "Terraform - Remote State",
-      "path": "100 study-notes/113 Terraform/Terraform - Remote State.md"
-    },
-    {
-      "basename": "Terraform - Provisioner",
-      "path": "100 study-notes/113 Terraform/Terraform - Provisioner.md"
-    },
-    {
-      "basename": "Googling like a pro",
-      "path": "200 general-notes/Googling like a pro.md"
-    },
-    {
-      "basename": "Terraform - AWS",
-      "path": "100 study-notes/113 Terraform/Terraform - AWS.md"
-    },
-    {
-      "basename": "Difference between sharding and partitioning",
-      "path": "300 short-notes/Difference between sharding and partitioning.md"
-    },
-    {
-      "basename": "Terraform - Working with terraform",
-      "path": "100 study-notes/113 Terraform/Terraform - Working with terraform.md"
-    },
-    {
-      "basename": "Python - Must use packages",
-      "path": "100 study-notes/108 Python/Python - Must use packages.md"
-    },
-    {
-      "basename": "108 Python Index",
-      "path": "100 study-notes/108 Python/108 Python Index.md"
-    },
-    {
-      "basename": "Study List - Projects",
-      "path": "200 general-notes/Study List - Projects.md"
-    },
-    {
-      "basename": "200 home",
-      "path": "200 general-notes/200 home.md"
-    },
-    {
-      "basename": "Python - Pytest",
-      "path": "100 study-notes/108 Python/Python - Pytest.md"
-    },
-    {
-      "basename": "YAML",
-      "path": "300 short-notes/YAML.md"
-    },
-    {
-      "basename": "Terraform - Basics",
-      "path": "100 study-notes/113 Terraform/Terraform - Basics.md"
-    },
-    {
-      "basename": "Terraform - HCL - Commands",
-      "path": "100 study-notes/113 Terraform/Terraform - HCL - Commands.md"
-    },
-    {
-      "basename": "Terraform - Introduction",
-      "path": "100 study-notes/113 Terraform/Terraform - Introduction.md"
-    },
-    {
-      "basename": "Python - subprocess",
-      "path": "100 study-notes/108 Python/Python - subprocess.md"
-    },
-    {
-      "basename": "Python - map, filter and lambda",
-      "path": "100 study-notes/108 Python/Python - map, filter and lambda.md"
-    },
-    {
-      "basename": "Study List - Writeups",
-      "path": "200 general-notes/Study List - Writeups.md"
-    },
-    {
-      "basename": "Python - OOP",
-      "path": "100 study-notes/108 Python/Python - OOP.md"
-    },
-    {
-      "basename": "Python - Design Principles",
-      "path": "100 study-notes/108 Python/Python - Design Principles.md"
-    },
-    {
-      "basename": "Python - Tips for writing better code",
-      "path": "100 study-notes/108 Python/Python - Tips for writing better code.md"
-    },
-    {
-      "basename": "104 Linux Index",
-      "path": "100 study-notes/104 Linux/104 Linux Index.md"
-    },
-    {
-      "basename": "Linux - Bash strict mode",
-      "path": "100 study-notes/104 Linux/Linux - Bash strict mode.md"
-    },
-    {
-      "basename": "Python - Descriptors",
-      "path": "100 study-notes/108 Python/Python - Descriptors.md"
-    },
-    {
-      "basename": "Study List - Networking",
-      "path": "200 general-notes/Study List - Networking.md"
-    },
-    {
-      "basename": "Study List - Docker",
-      "path": "200 general-notes/Study List - Docker.md"
-    },
-    {
-      "basename": "Study List - Kubernetes",
-      "path": "200 general-notes/Study List - Kubernetes.md"
-    },
-    {
-      "basename": "Study List - Software Engineering",
-      "path": "200 general-notes/Study List - Software Engineering.md"
-    },
-    {
-      "basename": "Study List - DevOps",
-      "path": "200 general-notes/Study List - DevOps.md"
-    },
-    {
-      "basename": "Study List - Linux",
-      "path": "200 general-notes/Study List - Linux.md"
-    },
-    {
-      "basename": "Linux - Bash strict mode - issues and solutions",
-      "path": "100 study-notes/104 Linux/Linux - Bash strict mode - issues and solutions.md"
-    },
-    {
-      "basename": "Linux - Bash strict mode - set commands",
-      "path": "100 study-notes/104 Linux/Linux - Bash strict mode - set commands.md"
-    },
-    {
-      "basename": "112 Nginx Index",
-      "path": "100 study-notes/112 Nginx/112 Nginx Index.md"
+      "basename": "EC2 Placement Groups",
+      "path": "100 study-notes/101 AWS SAA/EC2 Placement Groups.md"
     }
   ],
   "omittedPaths": [],

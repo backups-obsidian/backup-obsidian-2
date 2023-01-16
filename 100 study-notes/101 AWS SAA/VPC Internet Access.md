@@ -1,6 +1,6 @@
 ---
 created: 2022-04-29 20:22
-updated: 2022-05-06 19:04
+updated: 2023-01-15 18:49
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -12,7 +12,7 @@ updated: 2022-05-06 19:04
 - It must be **created separately from a VPC**.
 -  **One VPC** can only be attached to **one IGW** and vice versa
 -   **IGW on their own do not allow internet access** the *route tables must also be edited*.
-- When you create and IGW it will be in detached state attach it to the VPC.
+- When you create an IGW it will be in detached state attach it to the VPC.
 - For instances in the *public subnet* with access to internet *NAT is performed by Internet Gateway*.
 
 ## Route Tables
