@@ -1,6 +1,6 @@
 ---
 created: 2022-04-16 16:39
-updated: 2023-01-13 14:31
+updated: 2023-01-15 19:25
 ---
 ---
 **Links**:  [[../000 home|000 Home]]
@@ -34,3 +34,4 @@ updated: 2023-01-13 14:31
 [[CloudFlare Workers]]
 [[Difference between sharding and partitioning]]
 [[Packer]]
+[[GitHub CLI]]
