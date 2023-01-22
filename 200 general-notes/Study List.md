@@ -1,6 +1,6 @@
 ---
 created: 2022-11-11 22:04
-updated: 2022-12-20 09:45
+updated: 2023-01-20 22:22
 ---
 ---
 **Links**: 
@@ -18,3 +18,4 @@ updated: 2022-12-20 09:45
 ## [[Study List - Kubernetes]]
 ## [[Study List - Docker]]
 ## [[Study List - Networking]]
+## [[Study List - Fun]]

@@ -1,6 +1,6 @@
 ---
 created: 2022-11-11 08:50
-updated: 2022-12-15 17:06
+updated: 2023-01-20 22:24
 ---
 ---
 **Links**: [[200 general-notes/Study List| Study List]]
@@ -84,6 +84,14 @@ description does not include leisure
 not done
 path includes Study List
 heading includes writeups
+description does not include leisure
+```
+
+### Fun
+```tasks
+not done
+path includes Study List
+heading includes Fun
 description does not include leisure
 ```
 

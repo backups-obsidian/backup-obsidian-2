@@ -1,6 +1,6 @@
 ---
 created: 2022-12-20 19:13
-updated: 2022-12-25 21:09
+updated: 2023-01-21 13:03
 ---
 ---
 **Links**: [[108 Python Index]]
@@ -32,6 +32,8 @@ updated: 2022-12-25 21:09
 
 - **Each test is quite small and self-contained**. 
 	- This is common you’ll *see long function names and NOT a lot going on within a function*.
+		- The idea is that the function should describe what the test is trying to test.
+		- ![[attachments/Pasted image 20230121130140.png]]
 	- This serves mainly to *keep your tests isolated from each other, so if something breaks, you know exactly where the problem is*. 
 	- A nice side effect is that the labelling is much better in the output.
 

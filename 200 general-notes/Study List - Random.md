@@ -1,6 +1,6 @@
 ---
 created: 2022-12-20 09:43
-updated: 2023-01-13 09:40
+updated: 2023-01-21 09:43
 ---
 ---
 **Links**: 
@@ -22,9 +22,6 @@ updated: 2023-01-13 09:40
 - [x] CloudFlare worker series: [⛅ Getting Started with Serverless Cloudflare Workers on The Edge (lesson 1) - YouTube](https://www.youtube.com/watch?v=WFlDSL7Nrzw&t=0s) ✅ 2022-12-15
 - [x] Explore about JAM stack databases and build the application for randomly assigning URL from the 4 URLs. ✅ 2022-12-15
 - [ ] [what are disk partitions linux - YouTube](https://www.youtube.com/results?search_query=what+are+disk+partitions+linux) - Leisure
-- [ ] Convert nvim-lsp installer config to mason.nvim: [Make Neovim BETTER than VSCode! - YouTube](https://www.youtube.com/watch?v=lpQMeFph1RE) - Leisure
-- [ ] Watch neovim config video: [Neovim RC - From Scratch - YouTube](https://www.youtube.com/watch?v=w7i4amO_zaE) - Leisure
-- [ ] Neovim as IDE - [Effective Neovim: Instant IDE - YouTube](https://www.youtube.com/watch?v=stqUbv-5u2s) - Leisure
 - [x] Strict mode print hack: [why I use the colon (:) command (intermediate) anthony explains #505 - YouTube](https://www.youtube.com/watch?v=onkNf1AKSgg) ✅ 2022-12-19
 - [ ] Tracing vs logging: [tracing vs logging - YouTube](https://www.youtube.com/results?search_query=tracing+vs+logging)
 - [ ] Logging vs tracing vs metrics for a distributed application.
@@ -37,4 +34,4 @@ updated: 2023-01-13 09:40
 	- [Oktane17: Designing Beautiful REST + JSON APIs - YouTube](https://www.youtube.com/watch?v=MiOSzpfP1Ww)
 	- [Designing Quality APIs (Cloud Next '18) - YouTube](https://www.youtube.com/watch?v=P0a7PwRNLVU)
 	- [Best practices for REST API design - Stack Overflow Blog](https://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design/)
-- 
+- [ ] [Learn Tailwind CSS – Course for Beginners - YouTube](https://www.youtube.com/watch?v=ft30zcMlFao) - Good to know for basic UI - Leisure
