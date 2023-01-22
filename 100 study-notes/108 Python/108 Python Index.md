@@ -1,6 +1,6 @@
 ---
 created: 2022-07-04 20:22
-updated: 2022-12-25 00:54
+updated: 2023-01-21 12:55
 ---
 ---
 **Links**: [[../100 home| 100 Home]]
@@ -20,6 +20,7 @@ updated: 2022-12-25 00:54
 	- [[Python - Protocols]]
 
 - Essentials:
+	- [[Python - Naming Conventions]]
 	- [[Python - Everything is an object]]
 	- [[Python - Using name equals to main]]
 	- [[Python - Namespaces]]

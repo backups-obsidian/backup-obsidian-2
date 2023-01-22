@@ -1,6 +1,6 @@
 ---
 created: 2022-04-16 16:38
-updated: 2023-01-09 10:56
+updated: 2023-01-21 18:31
 ---
 ---
 **Links**: [[../000 home|000 Home]]
@@ -15,3 +15,4 @@ updated: 2023-01-09 10:56
 [[Study List]]
 [[IOT Project Videos]]
 [[Googling like a pro]]
+[[Obsidian Searching]]

@@ -21,4 +21,4 @@ jobs:
           subject: GitHub Actions for publishing obsidian blog has failed
           body: ${{ github.job }} job in worflow ${{ github.workflow }} of ${{ github.repository }} has ${{ job.status }}
           to: sarthak.narayan.nitt@gmail.com
-          from: Test Account
+          from: GitHub Actions

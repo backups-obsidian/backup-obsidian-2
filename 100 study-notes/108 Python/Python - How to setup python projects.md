@@ -1,6 +1,6 @@
 ---
 created: 2022-09-16 16:24
-updated: 2022-09-16 23:55
+updated: 2023-01-16 10:59
 ---
 ---
 **Links**: [[108 Python Index]]
@@ -54,7 +54,7 @@ updated: 2022-09-16 23:55
 - `poetry env use /full/path/to/python` - We can tell poetry which environment to use.
 	- We can do this after creating the virtual environment using venv.
 - `poetry env info` - *List the virtualenv and system python versions and locations*.
-- Show installed packages:
+- Show installed packages and their dependencies:
 	- `poetry show`
 	- `poetry show --tree`
 
