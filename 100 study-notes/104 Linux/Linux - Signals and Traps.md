@@ -1,6 +1,6 @@
 ---
 created: 2023-01-22 11:47
-updated: 2023-01-22 16:00
+updated: 2023-01-22 17:17
 ---
 ---
 **Links**: [[104 Linux Index]]
@@ -20,8 +20,10 @@ updated: 2023-01-22 16:00
 
 - **`SIGINT`**: *Interrupt* signal.
 	- We can do this using `CTRL + C`
-- **`SIGTSTP`**: *Suspend* the current job.
-	- We can do this using `CTRL + Z`
+- **`SIGTSTP`**: *Stopping* the current process
+	- We can do this using `CTRL + Z` for foreground processes
+	- For background processes we use `kill -SIGTSTP <pid>`
+	- If `SIGTSTP` doesn't work we can stop a 
 - **`SIGKILL`**: *Kill* the current process
 	- We can do this using `kill -9 <process-pid>`
 	- We use `-9` since `SIGKILL` has a value of 9. 
@@ -29,8 +31,15 @@ updated: 2023-01-22 16:00
 - **`SIGTERM`**: *Terminate* a process *gracefully*
 	- We can do this using `kill -15 <process-pid>`
 	- This is the *default signal* for `kill`.
+- **`SIGHUP`**: A `SIGHUP` signal is sent to a process *when its controlling terminal is closed*.
+	- `nohup` prevents the process from getting a `SIGHUP` signal.
+	- `nohup sleep 1000`
 - Some other signals
 	- ![[attachments/Pasted image 20230122115232.png]]
+
+> [!tip]- We can kill processes using process names instead of pid by using `pkill`.
+> All the processes with the name will be killed.
+> ![[attachments/Pasted image 20230122171446.png]]
 
 > [!caution]- killing a parent process *DOES NOT* kill the children processes.
 > - So interrupting a process using signals won't interrupt the subprocesses spawned by that process.
@@ -41,11 +50,16 @@ updated: 2023-01-22 16:00
 > - `Ctrl-C` at your terminal typically sends `SIGINT` to **all processes in the foreground process group**. 
 > - Both your parent and your child process are in this process group.
 > - This also means that if some process is in the background then it won't be stopped by `CTRL-C`
+> - ![[attachments/Pasted image 20230122165947.png]]
 
 - Difference between `SIGKILL` and `SIGTERM`
-	- ![[attachments/Pasted image 20230122153623.png]]
+	- ![[attachments/Pasted image 20230122162208.png]]
+	- Notice that `SIGTERM` kills all the child processes also.
 	
-- Killing a process group using `SIGTERM`: `kill -15 -<pid>`
+- Killing a **process group** using `SIGTERM`: `kill -15 -<pid>`
+	- ![[attachments/Pasted image 20230122165148.png]]
+- Both foreground and background processes are removed when we send a `SIGTERM` to the process group.
+	- ![[attachments/Pasted image 20230122170326.png]]
 
 ## Traps
 - Signals can interrupt the execution of our script.
@@ -92,13 +106,14 @@ trap my_fun 15 2
 	- Remember `SIGKILL` cannot be trapped so this won't work in case user passed `SIGKILL`.
 
 - Suppose a script is doing something and it is waiting for a specific process to complete and it receives as `SIGTERM` then the *trap won't be executed until and unless that process finishes*.
-- Examples
-	- ![[attachments/Pasted image 20230122144250.png]]
-	- ![[attachments/Pasted image 20230122144430.png]]
-	- Different Trap functions for different signals
-		- ![[attachments/Pasted image 20230122144738.png]]
-		- ![[attachments/Pasted image 20230122145022.png]]
+
+### Examples
+- ![[attachments/Pasted image 20230122144250.png]]
+- ![[attachments/Pasted image 20230122144430.png]]
+- *Different Trap functions for different signals*.
+	- ![[attachments/Pasted image 20230122162411.png]]
 
 ## References
+- [signals and traps in shell scripting | trap command | ctrl + C on a shell script | trap handlers - YouTube](https://www.youtube.com/watch?v=HhGqMFU6W5k)
 - [Bash trap Command Explained {With Examples} (phoenixnap.com)](https://phoenixnap.com/kb/bash-trap-command)
 - [What is SIGTERM? What's the difference between SIGKILL & SIGTERM? (linuxhandbook.com)](https://linuxhandbook.com/sigterm-vs-sigkill/) 
