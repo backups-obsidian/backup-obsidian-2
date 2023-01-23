@@ -1,6 +1,6 @@
 ---
 created: 2023-01-14 18:33
-updated: 2023-01-21 09:44
+updated: 2023-01-22 17:09
 ---
 ---
 **Links**: 
@@ -16,3 +16,4 @@ updated: 2023-01-21 09:44
 - [ ] Watch neovim config video: [Neovim RC - From Scratch - YouTube](https://www.youtube.com/watch?v=w7i4amO_zaE)
 - [ ] Neovim as IDE - [Effective Neovim: Instant IDE - YouTube](https://www.youtube.com/watch?v=stqUbv-5u2s)
 - [ ] Revamp neovim as IDE
+- [ ] Create a whole neovim package which can be used in docker containers or any system. Everything should happen via a single curl command and a github gist.

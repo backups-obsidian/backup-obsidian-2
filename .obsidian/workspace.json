@@ -38,46 +38,19 @@
             }
           },
           {
-            "id": "53d3ff3aaf9255b6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100 study-notes/104 Linux/Linux - Use of exec.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
             "id": "831ae30c94cd9221",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 study-notes/104 Linux/104 Linux Index.md",
+                "file": "100 study-notes/108 Python/108 Python Index.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
             }
-          },
-          {
-            "id": "76ad32d6748bc436",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100 study-notes/104 Linux/Linux - Signals and Traps.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -152,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/104 Linux/Linux - Use of exec.md",
+                "file": "TODO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/104 Linux/Linux - Use of exec.md"
+                "file": "TODO.md"
               }
             }
           },
@@ -179,7 +152,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/104 Linux/Linux - Use of exec.md",
+                "file": "TODO.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -232,17 +205,17 @@
     "width": 347.5,
     "collapsed": true
   },
-  "active": "53d3ff3aaf9255b6",
+  "active": "2f0967eceee1fc48",
   "lastOpenFiles": [
-    "TODO.md",
     "600 rough/Rough.md",
-    "100 study-notes/104 Linux/Linux - Use of exec.md",
-    "100 study-notes/104 Linux/Linux - Signals and Traps.md",
-    "100 study-notes/104 Linux/104 Linux Index.md",
     "100 study-notes/108 Python/108 Python Index.md",
+    "100 study-notes/100 home.md",
+    "100 study-notes/104 Linux/104 Linux Index.md",
+    "TODO.md",
     "100 study-notes/104 Linux/Linux - Miscellaneous.md",
-    "200 general-notes/Obsidian Searching.md",
-    "200 general-notes/200 home.md",
-    "100 study-notes/108 Python/Python - Naming Conventions.md"
+    "100 study-notes/104 Linux/Linux - Signals.md",
+    "100 study-notes/104 Linux/Linux - Signals and Traps.md",
+    "200 general-notes/Study List - Fun.md",
+    "200 general-notes/Study List.md"
   ]
 }

@@ -1,10 +1,6 @@
 {
   "recentFiles": [
     {
-      "basename": "Linux - Use of exec",
-      "path": "100 study-notes/104 Linux/Linux - Use of exec.md"
-    },
-    {
       "basename": "TODO",
       "path": "TODO.md"
     },
@@ -13,20 +9,36 @@
       "path": "600 rough/Rough.md"
     },
     {
-      "basename": "Linux - Signals and Traps",
-      "path": "100 study-notes/104 Linux/Linux - Signals and Traps.md"
+      "basename": "108 Python Index",
+      "path": "100 study-notes/108 Python/108 Python Index.md"
+    },
+    {
+      "basename": "100 home",
+      "path": "100 study-notes/100 home.md"
     },
     {
       "basename": "104 Linux Index",
       "path": "100 study-notes/104 Linux/104 Linux Index.md"
     },
     {
-      "basename": "108 Python Index",
-      "path": "100 study-notes/108 Python/108 Python Index.md"
-    },
-    {
       "basename": "Linux - Miscellaneous",
       "path": "100 study-notes/104 Linux/Linux - Miscellaneous.md"
+    },
+    {
+      "basename": "Linux - Signals and Traps",
+      "path": "100 study-notes/104 Linux/Linux - Signals and Traps.md"
+    },
+    {
+      "basename": "Study List - Fun",
+      "path": "200 general-notes/Study List - Fun.md"
+    },
+    {
+      "basename": "Study List",
+      "path": "200 general-notes/Study List.md"
+    },
+    {
+      "basename": "Linux - Use of exec",
+      "path": "100 study-notes/104 Linux/Linux - Use of exec.md"
     },
     {
       "basename": "Obsidian Searching",
@@ -51,14 +63,6 @@
     {
       "basename": "Study List - Random",
       "path": "200 general-notes/Study List - Random.md"
-    },
-    {
-      "basename": "Study List",
-      "path": "200 general-notes/Study List.md"
-    },
-    {
-      "basename": "Study List - Fun",
-      "path": "200 general-notes/Study List - Fun.md"
     },
     {
       "basename": "Linux - Bash strict mode - set commands",
@@ -195,10 +199,6 @@
     {
       "basename": "S3 Storage Classes",
       "path": "100 study-notes/101 AWS SAA/S3 Storage Classes.md"
-    },
-    {
-      "basename": "S3 Replication",
-      "path": "100 study-notes/101 AWS SAA/S3 Replication.md"
     }
   ],
   "omittedPaths": [],
