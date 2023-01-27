@@ -1,6 +1,6 @@
 ---
 created: 2022-12-20 09:41
-updated: 2023-01-22 19:36
+updated: 2023-01-27 09:11
 ---
 ---
 **Links**: 
@@ -31,5 +31,6 @@ updated: 2023-01-22 19:36
 - [ ] Another TDD example: [Build a Hash Table in Python With TDD – Real Python](https://realpython.com/python-hash-table/) - Leisure
 - [ ] Using pytest-bdd gherkin - Leisure
 - [x] [A Deep Dive Into Iterators and Itertools in Python - YouTube](https://www.youtube.com/watch?v=aumxFs2DO5o) ✅ 2023-01-22
+- [x] Makefiles in python ✅ 2023-01-27
 - [ ] Try out grpc with an example - Have 2 docker containers and communicate between them using grpc. This makes the communication between services easy eliminating the need for having an API server for each.
 - [ ] Learn typer for building CLI applications

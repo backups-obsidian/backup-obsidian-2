@@ -1,20 +1,60 @@
 {
   "recentFiles": [
     {
+      "basename": "Linux - Chapter 1",
+      "path": "700 books/701 How Linux Works/Linux - Chapter 1.md"
+    },
+    {
+      "basename": "701 How Linux Works Index",
+      "path": "700 books/701 How Linux Works/701 How Linux Works Index.md"
+    },
+    {
+      "basename": "101 AWS SAA Index",
+      "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
+    },
+    {
+      "basename": "700 home",
+      "path": "700 books/700 home.md"
+    },
+    {
+      "basename": "100 home",
+      "path": "100 study-notes/100 home.md"
+    },
+    {
+      "basename": "000 home",
+      "path": "000 home.md"
+    },
+    {
       "basename": "TODO",
       "path": "TODO.md"
+    },
+    {
+      "basename": "Study List - Python",
+      "path": "200 general-notes/Study List - Python.md"
+    },
+    {
+      "basename": "Study List",
+      "path": "200 general-notes/Study List.md"
+    },
+    {
+      "basename": "Study List - DevOps",
+      "path": "200 general-notes/Study List - DevOps.md"
     },
     {
       "basename": "Rough",
       "path": "600 rough/Rough.md"
     },
     {
+      "basename": "Python - OOP",
+      "path": "100 study-notes/108 Python/Python - OOP.md"
+    },
+    {
       "basename": "108 Python Index",
       "path": "100 study-notes/108 Python/108 Python Index.md"
     },
     {
-      "basename": "100 home",
-      "path": "100 study-notes/100 home.md"
+      "basename": "Study List - Fun",
+      "path": "200 general-notes/Study List - Fun.md"
     },
     {
       "basename": "104 Linux Index",
@@ -27,14 +67,6 @@
     {
       "basename": "Linux - Signals and Traps",
       "path": "100 study-notes/104 Linux/Linux - Signals and Traps.md"
-    },
-    {
-      "basename": "Study List - Fun",
-      "path": "200 general-notes/Study List - Fun.md"
-    },
-    {
-      "basename": "Study List",
-      "path": "200 general-notes/Study List.md"
     },
     {
       "basename": "Linux - Use of exec",
@@ -105,10 +137,6 @@
       "path": "300 short-notes/GitHub CLI.md"
     },
     {
-      "basename": "101 AWS SAA Index",
-      "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
-    },
-    {
       "basename": "NACLs",
       "path": "100 study-notes/101 AWS SAA/NACLs.md"
     },
@@ -171,34 +199,6 @@
     {
       "basename": "SQS",
       "path": "100 study-notes/101 AWS SAA/SQS.md"
-    },
-    {
-      "basename": "SNS",
-      "path": "100 study-notes/101 AWS SAA/SNS.md"
-    },
-    {
-      "basename": "Global Accelerator",
-      "path": "100 study-notes/101 AWS SAA/Global Accelerator.md"
-    },
-    {
-      "basename": "CloudFront",
-      "path": "100 study-notes/101 AWS SAA/CloudFront.md"
-    },
-    {
-      "basename": "S3 Miscellaneous",
-      "path": "100 study-notes/101 AWS SAA/S3 Miscellaneous.md"
-    },
-    {
-      "basename": "S3 Performance",
-      "path": "100 study-notes/101 AWS SAA/S3 Performance.md"
-    },
-    {
-      "basename": "S3 Lifecycle Rules",
-      "path": "100 study-notes/101 AWS SAA/S3 Lifecycle Rules.md"
-    },
-    {
-      "basename": "S3 Storage Classes",
-      "path": "100 study-notes/101 AWS SAA/S3 Storage Classes.md"
     }
   ],
   "omittedPaths": [],

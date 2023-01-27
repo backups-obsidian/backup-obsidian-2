@@ -1,6 +1,6 @@
 ---
 created: 2022-12-25 00:17
-updated: 2022-12-25 00:22
+updated: 2023-01-23 09:32
 ---
 ---
 **Links**: [[108 Python Index]]
@@ -20,6 +20,9 @@ updated: 2022-12-25 00:22
 	- *Static method*: 
 		- It is a general utility method that *performs a task in isolation*. 
 		- Inside this method, we don’t use instance or class variable because this static method **doesn’t take any parameters like `self` and `cls`**.
+
+> [!note]- Python manages separate dictionary-like objects to track the members/attributes of any instance and class. 
+> So, when we access the variable from the instance, Python checks if the variable exists in the instance’s dictionary-like object and if *it does not exist then it checks the class’s dict-object*.
 
 ### What is the use of class methods?
 - Class methods are used when we are **dealing with factory methods**. 
@@ -57,3 +60,49 @@ jessa.show()
 joy = Student.calculate_age("Joy", 1995)
 joy.show()
 ```
+
+### PEP-0526
+- According to PEP 526, **class variables that are defined directly on the class would be considered instance variables if they were annotated with a type**.
+- The purpose of PEP 526 is to introduce a syntax for variable annotations in Python, which allows developers to explicitly indicate the type of a variable. 
+- When using this syntax, *a variable defined directly on a class would be **considered an instance variable if it is annotated with a type**, rather than a class variable*.
+
+```python
+class MyClass:
+    class_variable: str = "I am a class variable"
+    def __init__(self, value):
+        self.instance_variable = value
+```
+
+- This variable will be considered an instance variable according to the PEP 526, even though it is defined directly on the class and is shared among all instances of the class.
+- The above style is consistent with dataclasses.
+
+```python
+class Foo:
+    x: Union[int, str]
+
+    def __init__(self, an_int: int) -> None:
+        self.x = an_int
+
+# This is same as the one below
+
+class Foo:
+    def __init__(self, an_int: int) -> None:
+        self.x: Union[int, str] = an_int
+```
+
+```python
+class Foo:
+    x: int
+```
+
+- We are not actually annotating a _class variable_. 
+	- At this point, **x has no value, so doesn't actually exist as a variable**.
+- The only thing you're creating is an _annotation_, which is just **pure metadata and distinct from the variable itself**.
+- But if we do:
+
+```python
+class Foo:
+    x: int = 3
+```
+
+- We are *now creating both a class variable and an annotation*. 

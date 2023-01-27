@@ -1,6 +1,6 @@
 ---
 created: 2022-04-13 21:35
-updated: 2022-11-11 22:04
+updated: 2023-01-27 14:21
 ---
 # Navigation
 [[100 study-notes/100 home]]
@@ -16,5 +16,7 @@ updated: 2022-11-11 22:04
 [[400 misc/projects]]
 
 ---
+
+[[700 books/700 home]]
 
 [[TODO]]

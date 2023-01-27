@@ -1,6 +1,6 @@
 ---
 created: 2023-01-14 18:33
-updated: 2023-01-22 17:09
+updated: 2023-01-22 22:17
 ---
 ---
 **Links**: 
@@ -17,3 +17,4 @@ updated: 2023-01-22 17:09
 - [ ] Neovim as IDE - [Effective Neovim: Instant IDE - YouTube](https://www.youtube.com/watch?v=stqUbv-5u2s)
 - [ ] Revamp neovim as IDE
 - [ ] Create a whole neovim package which can be used in docker containers or any system. Everything should happen via a single curl command and a github gist.
+- [ ] Build a debug gist containing binaries of the important debugging tools (gdu, fd, neovim, duf, nslookup, ripgrep, curl, fzf). 
