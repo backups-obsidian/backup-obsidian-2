@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "Linux - Chapter 1",
-      "path": "700 books/701 How Linux Works/Linux - Chapter 1.md"
+      "basename": "Rough",
+      "path": "600 rough/Rough.md"
+    },
+    {
+      "basename": "Python - Decorators",
+      "path": "100 study-notes/108 Python/Python - Decorators.md"
     },
     {
       "basename": "701 How Linux Works Index",
       "path": "700 books/701 How Linux Works/701 How Linux Works Index.md"
+    },
+    {
+      "basename": "HLW - Chapter 1",
+      "path": "700 books/701 How Linux Works/HLW - Chapter 1.md"
     },
     {
       "basename": "101 AWS SAA Index",
@@ -39,10 +47,6 @@
     {
       "basename": "Study List - DevOps",
       "path": "200 general-notes/Study List - DevOps.md"
-    },
-    {
-      "basename": "Rough",
-      "path": "600 rough/Rough.md"
     },
     {
       "basename": "Python - OOP",
@@ -195,10 +199,6 @@
     {
       "basename": "Amazon MQ",
       "path": "100 study-notes/101 AWS SAA/Amazon MQ.md"
-    },
-    {
-      "basename": "SQS",
-      "path": "100 study-notes/101 AWS SAA/SQS.md"
     }
   ],
   "omittedPaths": [],

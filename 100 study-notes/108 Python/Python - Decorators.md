@@ -1,6 +1,6 @@
 ---
 created: 2022-11-14 12:22
-updated: 2022-11-21 17:11
+updated: 2023-01-27 15:50
 ---
 ---
 **Links**: [[108 Python Index]]
@@ -284,6 +284,72 @@ print(some_function.__name__)
 ```
 
 > [!caution]- The arguments shift down one level.
+
+- *Specific arguments to the decorator*
+
+```python
+import functools
+
+class say_hi:
+	# usig age and value specifically in the decorator
+    def __init__(self, age: int, value: int) -> None:
+        self.age = age
+        self.value = value
+
+    def __call__(self, original_func):
+        @functools.wraps(original_func)
+        def inner_function(*original_args, **original_kwargs):
+            print("hello there")
+            print(self.age)
+            print(self.value)
+            result = original_func(*original_args, **original_kwargs)
+            return result
+
+        return inner_function
+
+
+@say_hi(age=10, value=10)
+def some_function(a: int, b: int) -> int:
+    return a * b
+
+
+print(some_function(a=10, b=20))
+print(some_function.__name__)
+
+# hello there
+# 10
+# 10
+# 200
+# some_function
+```
+
+- *Using above example for simple decorators where I don't need arguments*.
+
+```python
+import functools
+
+
+class say_hi:
+    def __init__(self) -> None:
+        ...
+
+    def __call__(self, original_func):
+        @functools.wraps(original_func)
+        def inner_function(*original_args, **original_kwargs):
+            print("hello there")
+            result = original_func(*original_args, **original_kwargs)
+            return result
+
+        return inner_function
+
+
+@say_hi()
+def some_function(a: int, b: int) -> int:
+    return a * b
+
+
+print(some_function(a=10, b=20))
+```
 
 ## Summary
 ![[attachments/Pasted image 20221121162725.png]]

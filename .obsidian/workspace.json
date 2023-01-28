@@ -23,32 +23,6 @@
             }
           },
           {
-            "id": "394b629278fef984",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "700 books/701 How Linux Works/701 How Linux Works Index.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "ac22bf1f1ee3542a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "700 books/701 How Linux Works/Linux - Chapter 1.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
             "id": "ba8af9005c7ee5da",
             "type": "leaf",
             "pinned": true,
@@ -64,7 +38,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -140,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "700 books/701 How Linux Works/Linux - Chapter 1.md",
+                "file": "600 rough/Rough.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "700 books/701 How Linux Works/Linux - Chapter 1.md"
+                "file": "600 rough/Rough.md"
               }
             }
           },
@@ -167,7 +141,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "700 books/701 How Linux Works/Linux - Chapter 1.md",
+                "file": "600 rough/Rough.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -220,17 +194,17 @@
     "width": 347.5,
     "collapsed": true
   },
-  "active": "ac22bf1f1ee3542a",
+  "active": "ba8af9005c7ee5da",
   "lastOpenFiles": [
+    "100 study-notes/108 Python/Python - Decorators.md",
     "700 books/701 How Linux Works/701 How Linux Works Index.md",
-    "700 books/701 How Linux Works/Linux - Chapter 1.md",
+    "600 rough/Rough.md",
+    "700 books/701 How Linux Works/HLW - Chapter 1.md",
     "100 study-notes/101 AWS SAA/101 AWS SAA Index.md",
     "700 books/700 home.md",
     "100 study-notes/100 home.md",
     "000 home.md",
     "TODO.md",
-    "200 general-notes/Study List - Python.md",
-    "200 general-notes/Study List.md",
-    "200 general-notes/Study List - DevOps.md"
+    "200 general-notes/Study List - Python.md"
   ]
 }
