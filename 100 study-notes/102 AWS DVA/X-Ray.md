@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 12:39
-updated: 2022-05-19 16:53
+updated: 2023-01-30 16:28
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -67,7 +67,7 @@ updated: 2022-05-19 16:53
 - *Metadata*: *Key Value pairs*, **not indexed**, not used for searching
 
 > [!important]- The X-Ray daemon/agent has a **config to send traces cross account**
-> - Make sure the *IAM permissions* are correct the agent will assume the role
+> - Make sure the *IAM permissions* are correct, the agent will assume the role
 > - This allows to have a *central account for all your application tracing*
 > ---
 > Create an IAM role in the central account, then create IAM roles in the other accounts to assume this IAM role.
