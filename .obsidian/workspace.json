@@ -36,9 +36,24 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "feb0d890d3e4962e",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              },
+              "pinned": true
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -114,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "600 rough/Rough.md",
+                "file": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "600 rough/Rough.md"
+                "file": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
               }
             }
           },
@@ -141,7 +156,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "600 rough/Rough.md",
+                "file": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -194,17 +209,17 @@
     "width": 347.5,
     "collapsed": true
   },
-  "active": "ba8af9005c7ee5da",
+  "active": "feb0d890d3e4962e",
   "lastOpenFiles": [
-    "100 study-notes/108 Python/Python - Decorators.md",
-    "700 books/701 How Linux Works/701 How Linux Works Index.md",
-    "600 rough/Rough.md",
-    "700 books/701 How Linux Works/HLW - Chapter 1.md",
-    "100 study-notes/101 AWS SAA/101 AWS SAA Index.md",
-    "700 books/700 home.md",
-    "100 study-notes/100 home.md",
-    "000 home.md",
-    "TODO.md",
-    "200 general-notes/Study List - Python.md"
+    "300 short-notes/Designing Idempotent APIs.md",
+    "300 short-notes/300 home.md",
+    "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
+    "100 study-notes/102 AWS DVA/Step Functions.md",
+    "100 study-notes/102 AWS DVA/CDK.md",
+    "100 study-notes/102 AWS DVA/SAM.md",
+    "100 study-notes/102 AWS DVA/Other Services DVA.md",
+    "100 study-notes/102 AWS DVA/Kinesis DVA.md",
+    "100 study-notes/101 AWS SAA/Kinesis.md",
+    "100 study-notes/101 AWS SAA/SNS.md"
   ]
 }

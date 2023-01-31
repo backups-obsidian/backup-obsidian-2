@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 12:39
-updated: 2022-06-07 15:30
+updated: 2023-01-30 18:59
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -10,7 +10,7 @@ updated: 2022-06-07 15:30
 ### Capacity Modes
 - **Provisioned mode**:
 	- You choose the number of shards provisioned, scale manually or using API
-	- Each shard gets *I MB/s in* (or 1000 records per second)
+	- Each shard gets *1 MB/s in* (or 1000 records per second)
 	- Each shard gets *2MB/s out* (classic or enhanced fan-out consumer)
 	- You *pay per shard provisioned per hour*
 

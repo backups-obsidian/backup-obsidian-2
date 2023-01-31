@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 12:39
-updated: 2022-06-09 14:53
+updated: 2023-01-30 15:37
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -53,7 +53,7 @@ updated: 2022-06-09 14:53
 
 ## Outputs 
 - The Outputs section declares **optional** outputs values that we **can import into other stacks** (if you *export them first*)!
-- You can also view the outputs in the AWS Console or In using the AWS CLI
+- You can also view the outputs in the AWS Console or using the AWS CLI
 - They're very useful for example if you define a network CloudFormation, and output the variables such as VPC ID and your Subnet IDs
 - It's the best way to perform some *collaboration cross stack*, as you let expert handle their own part of the stack
 - Example: *Exporting* a value

@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-04-24 11:57
+updated: 2023-01-30 11:36
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -19,7 +19,7 @@ updated: 2022-04-24 11:57
 
 - You create an application which generate the CloudFront signed URL using the SDK and then return it to the user. Now the user can access the content.
 
-> [!caution] If you *bucket is not public* then CloudFront Signed URL is the only way to distribute cached premium content.
+> [!caution] If your *bucket is not public* then CloudFront Signed URL is the only way to distribute cached premium content.
 
 - S3 pre signed URLs have a limited lifetime, CloudFront Signed URLs can be valid for years.
 

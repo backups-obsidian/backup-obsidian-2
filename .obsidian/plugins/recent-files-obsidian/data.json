@@ -1,204 +1,204 @@
 {
   "recentFiles": [
     {
-      "basename": "Rough",
-      "path": "600 rough/Rough.md"
+      "basename": "102 AWS DVA Index",
+      "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
     },
     {
-      "basename": "Python - Decorators",
-      "path": "100 study-notes/108 Python/Python - Decorators.md"
-    },
-    {
-      "basename": "701 How Linux Works Index",
-      "path": "700 books/701 How Linux Works/701 How Linux Works Index.md"
-    },
-    {
-      "basename": "HLW - Chapter 1",
-      "path": "700 books/701 How Linux Works/HLW - Chapter 1.md"
-    },
-    {
-      "basename": "101 AWS SAA Index",
-      "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
-    },
-    {
-      "basename": "700 home",
-      "path": "700 books/700 home.md"
-    },
-    {
-      "basename": "100 home",
-      "path": "100 study-notes/100 home.md"
-    },
-    {
-      "basename": "000 home",
-      "path": "000 home.md"
-    },
-    {
-      "basename": "TODO",
-      "path": "TODO.md"
-    },
-    {
-      "basename": "Study List - Python",
-      "path": "200 general-notes/Study List - Python.md"
-    },
-    {
-      "basename": "Study List",
-      "path": "200 general-notes/Study List.md"
-    },
-    {
-      "basename": "Study List - DevOps",
-      "path": "200 general-notes/Study List - DevOps.md"
-    },
-    {
-      "basename": "Python - OOP",
-      "path": "100 study-notes/108 Python/Python - OOP.md"
-    },
-    {
-      "basename": "108 Python Index",
-      "path": "100 study-notes/108 Python/108 Python Index.md"
-    },
-    {
-      "basename": "Study List - Fun",
-      "path": "200 general-notes/Study List - Fun.md"
-    },
-    {
-      "basename": "104 Linux Index",
-      "path": "100 study-notes/104 Linux/104 Linux Index.md"
-    },
-    {
-      "basename": "Linux - Miscellaneous",
-      "path": "100 study-notes/104 Linux/Linux - Miscellaneous.md"
-    },
-    {
-      "basename": "Linux - Signals and Traps",
-      "path": "100 study-notes/104 Linux/Linux - Signals and Traps.md"
-    },
-    {
-      "basename": "Linux - Use of exec",
-      "path": "100 study-notes/104 Linux/Linux - Use of exec.md"
-    },
-    {
-      "basename": "Obsidian Searching",
-      "path": "200 general-notes/Obsidian Searching.md"
-    },
-    {
-      "basename": "200 home",
-      "path": "200 general-notes/200 home.md"
-    },
-    {
-      "basename": "Python - Naming Conventions",
-      "path": "100 study-notes/108 Python/Python - Naming Conventions.md"
-    },
-    {
-      "basename": "Python - Pytest",
-      "path": "100 study-notes/108 Python/Python - Pytest.md"
-    },
-    {
-      "basename": "Python - Miscellaneous",
-      "path": "100 study-notes/108 Python/Python - Miscellaneous.md"
-    },
-    {
-      "basename": "Study List - Random",
-      "path": "200 general-notes/Study List - Random.md"
-    },
-    {
-      "basename": "Linux - Bash strict mode - set commands",
-      "path": "100 study-notes/104 Linux/Linux - Bash strict mode - set commands.md"
-    },
-    {
-      "basename": "Study List - Writeups",
-      "path": "200 general-notes/Study List - Writeups.md"
-    },
-    {
-      "basename": "Study List - Projects",
-      "path": "200 general-notes/Study List - Projects.md"
-    },
-    {
-      "basename": "Linux - Bash strict mode",
-      "path": "100 study-notes/104 Linux/Linux - Bash strict mode.md"
-    },
-    {
-      "basename": "Study List - Docker",
-      "path": "200 general-notes/Study List - Docker.md"
-    },
-    {
-      "basename": "Study List - Linux",
-      "path": "200 general-notes/Study List - Linux.md"
-    },
-    {
-      "basename": "Difference between sharding and partitioning",
-      "path": "300 short-notes/Difference between sharding and partitioning.md"
+      "basename": "Designing Idempotent APIs",
+      "path": "300 short-notes/Designing Idempotent APIs.md"
     },
     {
       "basename": "300 home",
       "path": "300 short-notes/300 home.md"
     },
     {
-      "basename": "Python - How to setup python projects",
-      "path": "100 study-notes/108 Python/Python - How to setup python projects.md"
+      "basename": "Step Functions",
+      "path": "100 study-notes/102 AWS DVA/Step Functions.md"
     },
     {
-      "basename": "GitHub CLI",
-      "path": "300 short-notes/GitHub CLI.md"
+      "basename": "CDK",
+      "path": "100 study-notes/102 AWS DVA/CDK.md"
     },
     {
-      "basename": "NACLs",
-      "path": "100 study-notes/101 AWS SAA/NACLs.md"
+      "basename": "SAM",
+      "path": "100 study-notes/102 AWS DVA/SAM.md"
     },
     {
-      "basename": "VPC Internet Access",
-      "path": "100 study-notes/101 AWS SAA/VPC Internet Access.md"
+      "basename": "Other Services DVA",
+      "path": "100 study-notes/102 AWS DVA/Other Services DVA.md"
     },
     {
-      "basename": "VPC & Subnets",
-      "path": "100 study-notes/101 AWS SAA/VPC & Subnets.md"
+      "basename": "Kinesis DVA",
+      "path": "100 study-notes/102 AWS DVA/Kinesis DVA.md"
     },
     {
-      "basename": "CloudWatch",
-      "path": "100 study-notes/101 AWS SAA/CloudWatch.md"
+      "basename": "Kinesis",
+      "path": "100 study-notes/101 AWS SAA/Kinesis.md"
     },
     {
-      "basename": "EventBridge",
-      "path": "100 study-notes/101 AWS SAA/EventBridge.md"
+      "basename": "SNS",
+      "path": "100 study-notes/101 AWS SAA/SNS.md"
+    },
+    {
+      "basename": "SQS DVA",
+      "path": "100 study-notes/102 AWS DVA/SQS DVA.md"
+    },
+    {
+      "basename": "SQS",
+      "path": "100 study-notes/101 AWS SAA/SQS.md"
+    },
+    {
+      "basename": "101 AWS SAA Index",
+      "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
     },
     {
       "basename": "CloudTrail",
       "path": "100 study-notes/101 AWS SAA/CloudTrail.md"
     },
     {
-      "basename": "Config",
-      "path": "100 study-notes/101 AWS SAA/Config.md"
+      "basename": "X-Ray Advanced",
+      "path": "100 study-notes/102 AWS DVA/X-Ray Advanced.md"
     },
     {
-      "basename": "Shield",
-      "path": "100 study-notes/101 AWS SAA/Shield.md"
+      "basename": "X-Ray",
+      "path": "100 study-notes/102 AWS DVA/X-Ray.md"
     },
     {
-      "basename": "KMS",
-      "path": "100 study-notes/101 AWS SAA/KMS.md"
+      "basename": "EventBridge",
+      "path": "100 study-notes/101 AWS SAA/EventBridge.md"
     },
     {
-      "basename": "API Gateway",
-      "path": "100 study-notes/101 AWS SAA/API Gateway.md"
+      "basename": "CloudWatch",
+      "path": "100 study-notes/101 AWS SAA/CloudWatch.md"
     },
     {
-      "basename": "Lambda",
-      "path": "100 study-notes/101 AWS SAA/Lambda.md"
+      "basename": "CloudFormation Advanced",
+      "path": "100 study-notes/102 AWS DVA/CloudFormation Advanced.md"
     },
     {
-      "basename": "ECR & EKS",
-      "path": "100 study-notes/101 AWS SAA/ECR & EKS.md"
+      "basename": "CloudFormation RollBacks",
+      "path": "100 study-notes/102 AWS DVA/CloudFormation RollBacks.md"
+    },
+    {
+      "basename": "CloudFormation Intrinsic Functions",
+      "path": "100 study-notes/102 AWS DVA/CloudFormation Intrinsic Functions.md"
+    },
+    {
+      "basename": "CloudFormation Template Components",
+      "path": "100 study-notes/102 AWS DVA/CloudFormation Template Components.md"
+    },
+    {
+      "basename": "CloudFormation",
+      "path": "100 study-notes/102 AWS DVA/CloudFormation.md"
+    },
+    {
+      "basename": "CodeGuru",
+      "path": "100 study-notes/102 AWS DVA/CodeGuru.md"
+    },
+    {
+      "basename": "CodeArtifact",
+      "path": "100 study-notes/102 AWS DVA/CodeArtifact.md"
+    },
+    {
+      "basename": "CodeStar",
+      "path": "100 study-notes/102 AWS DVA/CodeStar.md"
+    },
+    {
+      "basename": "CodeDeploy",
+      "path": "100 study-notes/102 AWS DVA/CodeDeploy.md"
+    },
+    {
+      "basename": "CodeBuild",
+      "path": "100 study-notes/102 AWS DVA/CodeBuild.md"
+    },
+    {
+      "basename": "CodePipeline",
+      "path": "100 study-notes/102 AWS DVA/CodePipeline.md"
+    },
+    {
+      "basename": "100 home",
+      "path": "100 study-notes/100 home.md"
+    },
+    {
+      "basename": "109 AWS Self Taught Index",
+      "path": "100 study-notes/109 AWS Self Taught/109 AWS Self Taught Index.md"
+    },
+    {
+      "basename": "AWS Self - EKS",
+      "path": "100 study-notes/109 AWS Self Taught/AWS Self - EKS.md"
+    },
+    {
+      "basename": "CodeCommit",
+      "path": "100 study-notes/102 AWS DVA/CodeCommit.md"
+    },
+    {
+      "basename": "ElasticBeanstalk Docker",
+      "path": "100 study-notes/102 AWS DVA/ElasticBeanstalk Docker.md"
+    },
+    {
+      "basename": "ElasticBeanstalk Deployment Modes",
+      "path": "100 study-notes/102 AWS DVA/ElasticBeanstalk Deployment Modes.md"
+    },
+    {
+      "basename": "ElasticBeanstalk DVA",
+      "path": "100 study-notes/102 AWS DVA/ElasticBeanstalk DVA.md"
+    },
+    {
+      "basename": "ElasticBeanstalk",
+      "path": "100 study-notes/101 AWS SAA/ElasticBeanstalk.md"
+    },
+    {
+      "basename": "ECS DVA",
+      "path": "100 study-notes/102 AWS DVA/ECS DVA.md"
     },
     {
       "basename": "ECS",
       "path": "100 study-notes/101 AWS SAA/ECS.md"
     },
     {
-      "basename": "Event Processing",
-      "path": "100 study-notes/101 AWS SAA/Event Processing.md"
+      "basename": "CloudFront DVA",
+      "path": "100 study-notes/102 AWS DVA/CloudFront DVA.md"
     },
     {
-      "basename": "Amazon MQ",
-      "path": "100 study-notes/101 AWS SAA/Amazon MQ.md"
+      "basename": "CloudFront Advanced",
+      "path": "100 study-notes/101 AWS SAA/CloudFront Advanced.md"
+    },
+    {
+      "basename": "S3 Websites",
+      "path": "100 study-notes/101 AWS SAA/S3 Websites.md"
+    },
+    {
+      "basename": "CloudFront",
+      "path": "100 study-notes/101 AWS SAA/CloudFront.md"
+    },
+    {
+      "basename": "AWS Limits",
+      "path": "100 study-notes/102 AWS DVA/AWS Limits.md"
+    },
+    {
+      "basename": "CLI",
+      "path": "100 study-notes/102 AWS DVA/CLI.md"
+    },
+    {
+      "basename": "ElastiCache DVA",
+      "path": "100 study-notes/102 AWS DVA/ElastiCache DVA.md"
+    },
+    {
+      "basename": "ElastiCache",
+      "path": "100 study-notes/101 AWS SAA/ElastiCache.md"
+    },
+    {
+      "basename": "ElasticCache Replication",
+      "path": "100 study-notes/102 AWS DVA/ElasticCache Replication.md"
+    },
+    {
+      "basename": "Rough",
+      "path": "600 rough/Rough.md"
+    },
+    {
+      "basename": "TODO",
+      "path": "TODO.md"
     }
   ],
   "omittedPaths": [],

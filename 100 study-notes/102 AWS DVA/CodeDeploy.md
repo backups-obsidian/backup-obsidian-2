@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 12:39
-updated: 2022-06-09 15:16
+updated: 2023-01-30 15:20
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -43,10 +43,10 @@ updated: 2022-06-09 15:16
 - Updates the instances in the deployment group with the latest application revisions. During a deployment, *each instance will be briefly taken offline for its update*.
 	- ![[attachments/Pasted image 20220517100439.png]]
 
-> [!tip] If we only have EC2 instances and no ASG then we cannot use Blue/Green deployment.
+> [!tip] If we only have EC2 instances and no ASG then we CANNOT use Blue/Green deployment.
 
 #### Blue/Green Deployment
-- Supports **EC2 instances only**, **AWS Lambda**, and **Amazon ECS**
+- Supports **EC2 instances (with ASG)**, **AWS Lambda**, and **Amazon ECS**
 - Replaces the instances in the deployment group with *new instances* and deploys the latest application revision to them. After instances in the replacement environment are registered with load balancer, *instances from the original environment are deregistered and can be terminated*. 
 	- ![[attachments/Pasted image 20220517100450.png]]
 - Must have an *ASG* and *Load Balancer*.

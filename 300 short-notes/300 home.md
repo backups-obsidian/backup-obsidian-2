@@ -1,6 +1,6 @@
 ---
 created: 2022-04-16 16:39
-updated: 2023-01-15 19:25
+updated: 2023-01-30 21:04
 ---
 ---
 **Links**:  [[../000 home|000 Home]]
@@ -35,3 +35,4 @@ updated: 2023-01-15 19:25
 [[Difference between sharding and partitioning]]
 [[Packer]]
 [[GitHub CLI]]
+[[Designing Idempotent APIs]]
