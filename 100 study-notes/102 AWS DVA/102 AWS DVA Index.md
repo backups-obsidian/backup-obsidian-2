@@ -1,6 +1,6 @@
 ---
 created: 2022-04-17 15:43
-updated: 2022-06-12 10:59
+updated: 2023-01-31 21:48
 ---
 ---
 **Links**: [[../100 home | 100 Home]]
@@ -136,7 +136,11 @@ Three ways in which Lambda processes events
 - Typical 3 tier architecture
 	- ![[attachments/Pasted image 20220514121352.png]]
 	- *Data subnet* is also a *private subnet*.
+- IAM roles vs Resource based policies
+	- ![[attachments/Pasted image 20230131213839.png]]
 
 ## Exam Tips
 - There are **very very few trick questions**
 - If a solution seems feasible but *highly complicated, it's probably wrong*
+
+## [[DVA - Questions]]

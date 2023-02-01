@@ -5,16 +5,92 @@
       "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
     },
     {
+      "basename": "Step Functions",
+      "path": "100 study-notes/102 AWS DVA/Step Functions.md"
+    },
+    {
+      "basename": "Cognito",
+      "path": "100 study-notes/102 AWS DVA/Cognito.md"
+    },
+    {
+      "basename": "Lambda Performance",
+      "path": "100 study-notes/102 AWS DVA/Lambda Performance.md"
+    },
+    {
+      "basename": "Lambda Configuration & Deployments",
+      "path": "100 study-notes/102 AWS DVA/Lambda Configuration & Deployments.md"
+    },
+    {
+      "basename": "Lambda",
+      "path": "100 study-notes/101 AWS SAA/Lambda.md"
+    },
+    {
+      "basename": "Lambda IAM Role",
+      "path": "100 study-notes/102 AWS DVA/Lambda IAM Role.md"
+    },
+    {
+      "basename": "Lambda Destinations",
+      "path": "100 study-notes/102 AWS DVA/Lambda Destinations.md"
+    },
+    {
+      "basename": "Lambda Event Source Mapping",
+      "path": "100 study-notes/102 AWS DVA/Lambda Event Source Mapping.md"
+    },
+    {
+      "basename": "DVA - Questions",
+      "path": "100 study-notes/102 AWS DVA/DVA - Questions.md"
+    },
+    {
+      "basename": "Lambda Asynchronous Invocation",
+      "path": "100 study-notes/102 AWS DVA/Lambda Asynchronous Invocation.md"
+    },
+    {
+      "basename": "Lambda Synchronous Invocation",
+      "path": "100 study-notes/102 AWS DVA/Lambda Synchronous Invocation.md"
+    },
+    {
+      "basename": "Rough",
+      "path": "600 rough/Rough.md"
+    },
+    {
+      "basename": "TODO",
+      "path": "TODO.md"
+    },
+    {
+      "basename": "Study List - Projects",
+      "path": "200 general-notes/Study List - Projects.md"
+    },
+    {
+      "basename": "Project - note-reminder",
+      "path": "400 misc/Project - note-reminder.md"
+    },
+    {
+      "basename": "Project - publish-obsidian-vault",
+      "path": "400 misc/Project - publish-obsidian-vault.md"
+    },
+    {
+      "basename": "Projects",
+      "path": "400 misc/Projects.md"
+    },
+    {
+      "basename": "Project - backup-obisidian-vault",
+      "path": "400 misc/Project - backup-obisidian-vault.md"
+    },
+    {
+      "basename": "notion-read-replica",
+      "path": "400 misc/notion-read-replica.md"
+    },
+    {
+      "basename": "Study List",
+      "path": "200 general-notes/Study List.md"
+    },
+    {
       "basename": "Designing Idempotent APIs",
       "path": "300 short-notes/Designing Idempotent APIs.md"
     },
     {
       "basename": "300 home",
       "path": "300 short-notes/300 home.md"
-    },
-    {
-      "basename": "Step Functions",
-      "path": "100 study-notes/102 AWS DVA/Step Functions.md"
     },
     {
       "basename": "CDK",
@@ -123,82 +199,6 @@
     {
       "basename": "109 AWS Self Taught Index",
       "path": "100 study-notes/109 AWS Self Taught/109 AWS Self Taught Index.md"
-    },
-    {
-      "basename": "AWS Self - EKS",
-      "path": "100 study-notes/109 AWS Self Taught/AWS Self - EKS.md"
-    },
-    {
-      "basename": "CodeCommit",
-      "path": "100 study-notes/102 AWS DVA/CodeCommit.md"
-    },
-    {
-      "basename": "ElasticBeanstalk Docker",
-      "path": "100 study-notes/102 AWS DVA/ElasticBeanstalk Docker.md"
-    },
-    {
-      "basename": "ElasticBeanstalk Deployment Modes",
-      "path": "100 study-notes/102 AWS DVA/ElasticBeanstalk Deployment Modes.md"
-    },
-    {
-      "basename": "ElasticBeanstalk DVA",
-      "path": "100 study-notes/102 AWS DVA/ElasticBeanstalk DVA.md"
-    },
-    {
-      "basename": "ElasticBeanstalk",
-      "path": "100 study-notes/101 AWS SAA/ElasticBeanstalk.md"
-    },
-    {
-      "basename": "ECS DVA",
-      "path": "100 study-notes/102 AWS DVA/ECS DVA.md"
-    },
-    {
-      "basename": "ECS",
-      "path": "100 study-notes/101 AWS SAA/ECS.md"
-    },
-    {
-      "basename": "CloudFront DVA",
-      "path": "100 study-notes/102 AWS DVA/CloudFront DVA.md"
-    },
-    {
-      "basename": "CloudFront Advanced",
-      "path": "100 study-notes/101 AWS SAA/CloudFront Advanced.md"
-    },
-    {
-      "basename": "S3 Websites",
-      "path": "100 study-notes/101 AWS SAA/S3 Websites.md"
-    },
-    {
-      "basename": "CloudFront",
-      "path": "100 study-notes/101 AWS SAA/CloudFront.md"
-    },
-    {
-      "basename": "AWS Limits",
-      "path": "100 study-notes/102 AWS DVA/AWS Limits.md"
-    },
-    {
-      "basename": "CLI",
-      "path": "100 study-notes/102 AWS DVA/CLI.md"
-    },
-    {
-      "basename": "ElastiCache DVA",
-      "path": "100 study-notes/102 AWS DVA/ElastiCache DVA.md"
-    },
-    {
-      "basename": "ElastiCache",
-      "path": "100 study-notes/101 AWS SAA/ElastiCache.md"
-    },
-    {
-      "basename": "ElasticCache Replication",
-      "path": "100 study-notes/102 AWS DVA/ElasticCache Replication.md"
-    },
-    {
-      "basename": "Rough",
-      "path": "600 rough/Rough.md"
-    },
-    {
-      "basename": "TODO",
-      "path": "TODO.md"
     }
   ],
   "omittedPaths": [],

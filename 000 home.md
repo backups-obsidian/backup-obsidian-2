@@ -1,6 +1,6 @@
 ---
 created: 2022-04-13 21:35
-updated: 2023-01-27 14:21
+updated: 2023-01-30 23:29
 ---
 # Navigation
 [[100 study-notes/100 home]]
@@ -13,7 +13,7 @@ updated: 2023-01-27 14:21
 
 ---
 [[400 misc/ideas]]
-[[400 misc/projects]]
+[[400 misc/Projects]]
 
 ---
 
