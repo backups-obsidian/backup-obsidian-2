@@ -1,6 +1,6 @@
 ---
 created: 2022-05-24 10:24
-updated: 2022-05-24 16:49
+updated: 2023-01-31 22:14
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -47,7 +47,7 @@ updated: 2022-05-24 16:49
 - To *deploy lambda in our VPC*:
 	- You must define the *VPC ID*, the *Subnets* and the *Security Groups*
 	- **Lambda will create an ENI** (Elastic Network Interface) in your subnets
-	- `AWSLambdaVPCAccessExecutionRole` is required.
+	- `AWSLambdaVPCAccessExecutionRole` needs to be assigned to the lambda function.
 	- ![[attachments/Pasted image 20220524110228.png]]
 - Example: 
 	- ![[attachments/Pasted image 20220524104601.png]]

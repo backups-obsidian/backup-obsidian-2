@@ -1,6 +1,6 @@
 ---
 created: 2022-05-30 12:29
-updated: 2022-06-10 15:34
+updated: 2023-01-31 23:12
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -81,7 +81,7 @@ updated: 2022-06-10 15:34
 	- `States.Timeout`: Task *ran longer* than `TimeoutSeconds` or no heartbeat received
 	- `States.TaskFailed`: *execution failure*
 	- `States.Permissions`: insufficient privileges to execute code
-- The state may report is own errors
+- The state may report its own errors
 
 #### Retry 
 - **Evaluated from top to bottom**

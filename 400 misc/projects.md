@@ -1,18 +1,17 @@
 ---
 created: 2022-04-16 19:20
 updated: 2022-06-13 18:40
-description: A place where you can write about your projects
 ---
 ---
-**Links**: [[../000 home|000 Home]] 
+**Links**: [[../000 home|000 Home | 000 Home]] 
 
 ---
 
-# #status/doing 
 
-# #status/done
-[[backup-obisidian-vault]]
+## Done
+[[Project - backup-obisidian-vault]]
+[[Project - publish-obsidian-vault]]
 
-# #status/planning
+## Ideation
+[[Project - note-reminder]]
 [[notion-read-replica]]
-[[publish-obsidian-vault]]
