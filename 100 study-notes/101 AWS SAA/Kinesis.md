@@ -1,6 +1,6 @@
 ---
 created: 2022-04-25 16:24
-updated: 2022-05-20 19:38
+updated: 2023-02-09 09:02
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -54,7 +54,11 @@ updated: 2022-05-20 19:38
 - Kinesis data streams takes care of deduplication and ordering.
 - It is *not serverless* whereas kinesis firehose is. When you need to load data into something go for firehose.
 
-> [!note] Keywords: *real-time*, *replay*, *deduplication*, *clickstream*
+> [!note] Keywords: 
+> - *real-time*: **KDF is near real time so if the question mentions realtime then go for KDS**.
+> - *replay* 
+> - *deduplication*
+> - *clickstream*
 
 ## Kinesis Data Firehose
 - **Load streaming data** into AWS data stores and analytics tools.

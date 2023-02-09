@@ -1,6 +1,6 @@
 ---
 created: 2022-12-20 09:43
-updated: 2023-01-30 09:47
+updated: 2023-02-07 09:42
 ---
 ---
 **Links**: 
@@ -36,3 +36,4 @@ updated: 2023-01-30 09:47
 	- [Designing Quality APIs (Cloud Next '18) - YouTube](https://www.youtube.com/watch?v=P0a7PwRNLVU)
 	- [Best practices for REST API design - Stack Overflow Blog](https://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design/)
 - [ ] [Learn Tailwind CSS – Course for Beginners - YouTube](https://www.youtube.com/watch?v=ft30zcMlFao) - Good to know for basic UI - Leisure
+- [ ] Wireshark TUT - [Hands-On Traffic Analysis with Wireshark - Let's practice! - YouTube](https://www.youtube.com/watch?v=5PKAa6TI82U) - Leisure

@@ -1,6 +1,6 @@
 ---
 created: 2022-05-25 12:27
-updated: 2022-06-09 15:06
+updated: 2023-02-01 09:39
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -33,7 +33,7 @@ updated: 2022-06-09 15:06
 - Example:
 	- 10 Strongly Consistent Reads per second, with item size 4 KB: `10 RCUs`
 	- 16 Eventually Consistent Reads per second, with item size 12 KB: `24 RCUs`
-	- 10 Strongly Consistent Reads per second, with item size 6 KB: `20 RCUs` (6KB is rounded to 4KB)
+	- 10 Strongly Consistent Reads per second, with item size 6 KB: `20 RCUs` (6KB is rounded to 8KB)
 
 ## DynamoDB Partitions Internal
 - **Data is stored in partitions**

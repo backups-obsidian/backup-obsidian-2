@@ -1,8 +1,15 @@
 ---
 created: 2022-04-17 15:43
-updated: 2023-01-21 18:45
+updated: 2023-02-08 12:59
 ---
-- gitops: argocd
+- Target:
+	- DevOps lead
+	- AWS solutions architect in canada
+	- DevOps recruiter
+	- Cloud recruiter
+	- Cloud lead
+	- SRE
+	- Platform engineering
+	- 
 
----
-- k3d and kind
+

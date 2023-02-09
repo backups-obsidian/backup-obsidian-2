@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-05-25 17:04
+updated: 2023-02-01 09:35
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -124,4 +124,4 @@ updated: 2022-05-25 17:04
 - These indexes allow us to query items on attributes other than the primary key.
 - The optimal usage of a table's provisioned throughput depends not only on the workload patterns of individual items, but also on the *partition-key design*.
 	- More the *distinct partition key values* that your workload accesses, the more those requests will be spread across the partitioned space. 
-	- Use of *partition keys with high-cardinality attributes*, which have a **large number of distinct values** for each item.
+	- Use *partition keys with high-cardinality attributes*, which have a **large number of distinct values** for each item.

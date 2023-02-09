@@ -1,11 +1,13 @@
 ---
 created: 2022-05-30 09:35
-updated: 2022-06-01 15:06
+updated: 2023-02-06 22:38
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
 
 ---
+> [!tip]- To remember: Manager rotates.
+
 ## Difference
 - Secrets Manager:
 	- *More Expensive* 

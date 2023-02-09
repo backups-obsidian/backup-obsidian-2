@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 12:39
-updated: 2022-06-09 12:15
+updated: 2023-02-01 09:49
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -22,16 +22,17 @@ updated: 2022-06-09 12:15
 ## Reading Data
 - `GetItem`
 	- Read **based on Primary key**
+	- **Gets only a single item**.
 	- Primary Key can be HASH or HASH+RANGE
 	- *Eventually Consistent Read (default)*
 	- Option to use *Strongly Consistent Reads* (*more RCU*, *might take longer*)
-	- `ProjectionExpression` can be specified to **retrieve only certain attributes**
+	- `ProjectionExpression` can be specified to **retrieve only certain attributes (columns)**
 		- A projection expression is *a string that identifies the attributes you want*. 
 		- To retrieve a single attribute, specify its name. 
 		- For multiple attributes, the names must be comma-separated.
 
 ### Query
-- Query returns items based on:
+- Query **returns items (rows)** based on:
 	- **KeyConditionExpression**: (`--query`)
 		- *Partition Key value* (must be `=` operator): **required**
 		- *Sort Key value* (=, <, <=, >, >=, Between, Begins with): **Optionally**, you can provide a sort key attribute and use a comparison operator to *refine the search results*.
