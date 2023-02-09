@@ -1,6 +1,6 @@
 ---
 created: 2022-05-30 09:35
-updated: 2023-02-01 16:12
+updated: 2023-02-09 14:25
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -37,6 +37,13 @@ updated: 2023-02-01 16:12
 	- Expiration date
 
 ## IAM Advanced
+### IAM Policy Variables:
+- Instead of creating individual policies for each user, you can **use policy variables and create a single policy that applies to multiple users** (a group policy). 
+	- Policy variables act as *placeholders*. 
+	- When you make a request to AWS, the placeholder is replaced by a value from the request when the policy is evaluated.
+- As an example, the following policy gives each of the users in the group full programmatic access to a user-specific object (their own "home directory") in Amazon S3.
+	- ![[attachments/Pasted image 20230209142405.png]]
+
 ### IAM Policies & S3 Bucket Policies
 - IAM Policies are attached to users, roles, groups
 - S3 Bucket Policies are attached to buckets

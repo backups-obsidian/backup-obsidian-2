@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 19:08
-updated: 2022-05-27 09:39
+updated: 2023-02-09 13:06
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -75,6 +75,9 @@ updated: 2022-05-27 09:39
 - Leverages **Sig v4** capability where IAM credential are in headers
 
 ### Lambda/Custom Authoriser
+- There are 2 types of lambda authoriser:
+	- Token-based
+	- Request parameter-based
 - **Token-based authoriser** (bearer token) ex JWT (SON Web Token) or Oauth
 - *Authentication = External* | *Authorisation = Lambda function*
 - Uses **AWS Lambda** to **validate the token** in header being passed

@@ -1,6 +1,6 @@
 ---
 created: 2022-06-01 11:42
-updated: 2022-06-10 15:16
+updated: 2023-02-09 09:25
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -10,7 +10,7 @@ updated: 2022-06-10 15:16
 ### Basic Encrypt and Decrypt
 - KMS *Encrypt and Decrypt API* call has a limit of **4 KB**
 	- ![[attachments/Pasted image 20220601095331.png]]
-	- We choose the CMK with which we want to encrypt the data, KMS checks if we have the right permissions and then performs the encryption for us.
+	- We choose the CMK with which we want to encrypt the data, *KMS checks if we have the right permissions* and then performs the encryption for us.
 - If you want to *encrypt > 4 KB*, we need to use **Envelope Encryption**
 
 ### Envelope encryption
@@ -19,7 +19,7 @@ updated: 2022-06-10 15:16
 - **Symmetric encryption** process.
 - The main API that will help us is the **GenerateDataKey** API
 - *Encryption Process*:
-	- We call the GenerateDataKey API with the CMK with which we want to encrypt the data, KMS checks if we have the appropriate permission.
+	- We call the GenerateDataKey API with the CMK with which we want to encrypt the data, *KMS checks if we have the appropriate permission*.
 	- We will be sent a plain text DataKey and an encrypted DataKey
 	- We encrypt the big file client side using the DataKey to get the encrypted file
 	- We build an envelope around the encrypted file and put the encrypted version of DataKey inside it.

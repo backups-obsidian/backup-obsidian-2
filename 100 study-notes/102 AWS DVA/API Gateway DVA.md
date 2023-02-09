@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 16:54
-updated: 2022-06-09 15:29
+updated: 2023-02-09 14:46
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -56,7 +56,7 @@ updated: 2022-06-09 15:29
 - Once imported API will be created from the JSON/YAML document.
 
 ## Usage Plans & API Keys
-- If you want to *make an API available as an offering ($) to your customers*
+- We can use **API Gateway usage plans** if we want to *make an API available as an offering ($) to your customers*.
 - **Usage Plan**:
 	- *Who can access* one or more deployed API stages and methods
 	- *How much and how fast* they can access them

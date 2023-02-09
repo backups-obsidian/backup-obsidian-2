@@ -1,6 +1,6 @@
 ---
 created: 2022-04-25 14:13
-updated: 2022-06-09 14:38
+updated: 2023-02-09 14:29
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -19,9 +19,12 @@ updated: 2022-06-09 14:38
 - There are *2 types of queue*.
 
 ## Types of Queues
+> [!note]- You can't change the queue type after you create it and you can't convert an existing standard queue into a FIFO queue.
+
 ### Standard Queue
 - **Unlimited throughput** and **messages** in queue
 - **Default** retention period of messages is **4** days and **maximum** is **14** days. After 14 days they are **automatically deleted**.
+	- Controlled by **`MessageRetentionPeriod`**.
 - Low latency (<10 ms)
 - **Size limit** of the messages is **256KB**.
 - We **can have duplicate messages** in the queue and this has to be taken care at the application level.

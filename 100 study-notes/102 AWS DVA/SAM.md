@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 12:39
-updated: 2022-05-27 13:37
+updated: 2023-02-09 14:43
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -24,9 +24,9 @@ updated: 2022-05-27 13:37
 - **Transform Header** indicates it's SAM template:
 	- Transform: `AWS::Serverless-2016-10-31`
 - Write Code
-	- `AWS::Serverless::Function`
-	- `AWS::Serverless::Api`
-	- `AWS::Serverless::SimpleTable`
+	- **`AWS::Serverless::Function`**
+	- **`AWS::Serverless::Api`**
+	- **`AWS::Serverless::SimpleTable`**
 - **Package & Deploy**:
 	- `aws cloudformation package` / `sam package`
 	- `aws cloudformation deploy` / `sam deploy`

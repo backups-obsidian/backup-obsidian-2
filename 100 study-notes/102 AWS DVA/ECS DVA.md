@@ -1,6 +1,6 @@
 ---
 created: 2022-05-15 11:30
-updated: 2022-06-09 15:35
+updated: 2023-02-09 14:53
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -60,6 +60,7 @@ updated: 2022-06-09 15:35
 
 ## ECS Task Definitions
 - Task definitions are metadata in **JSON** form to tell ECS *how to run a Docker container*
+	- It is *like a docker compose file* for running one or more containers in a task.
 - It contains *crucial formation, such as*: 
 	- *Image Name*
 	- *Port Binding for Container and Host* 

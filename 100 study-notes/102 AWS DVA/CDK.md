@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 12:39
-updated: 2022-05-27 16:19
+updated: 2023-02-09 13:09
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -8,7 +8,7 @@ updated: 2022-05-27 16:19
 ---
 ## CDK
 - Stands for **Cloud Development Kit**.
-- Define your cloud infrastructure using a familiar language:
+- Define your cloud infrastructure using a familiar **language**:
 	- JavaScript/TypeScript, Python, Java, and .NET
 	- ![[attachments/Pasted image 20220527161406.png]]
 - Contains high level components called constructs
@@ -22,14 +22,22 @@ updated: 2022-05-27 16:19
 
 > [!note] In CDK there is something known as **constructs**
 
+### Development using CDK
+- Create an app
+- Add code
+- Build the app (optional)
+- *Synthesise one or more stacks in the app to create an AWS CloudFormation template*. 
+	- The synthesis step catches logical errors in defining your AWS resources.
+- Deploy: `cdk deploy`
+
 ### CDK vs SAM
 - *SAM*:
 	- **Serverless focused**
 	- Write your template declaratively In JSON or YAML
 	- Great for quickly getting started with Lambda
-	- Leverages CloudFormation
+	- **Leverages CloudFormation**
 - *CDK*:
 	- **All AWS services**
 	- Write infra in a programming language JavaScript/TypeScript, Python, Java, and .NET
-	- Leverages CloudFormation
+	- **Leverages CloudFormation**
 

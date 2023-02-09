@@ -1,6 +1,6 @@
 ---
 created: 2022-05-18 20:06
-updated: 2022-05-18 20:14
+updated: 2023-02-09 14:39
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -25,10 +25,14 @@ updated: 2022-05-18 20:14
 
 ### Difference between cross and nested stacks
 - Cross Stacks
-	- Helpful when stacks have different lifecycles
+	- Helpful when stacks have *different lifecycles*.
 	- Use Outputs Export and `Fn::ImportValue`
 	- When you need to **pass export values** to many stacks (VPC Id, etc...)
 	- ![[attachments/Pasted image 20220518200814.png]]
+
+> [!caution]- You **CAN'T create cross-stack references across regions**. 
+> You can use the intrinsic function `Fn::ImportValue` to import only values that have been exported **within the same region**.
+
 - Nested Stacks
 	- Helpful when components must be **re-used**
 	- Ex: re-use how to properly configure an Application Load Balancer

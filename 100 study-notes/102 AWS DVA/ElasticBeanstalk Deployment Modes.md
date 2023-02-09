@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 11:56
-updated: 2022-05-16 15:38
+updated: 2023-02-09 15:02
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -50,6 +50,7 @@ updated: 2022-05-16 15:38
 - *Longest deployment*.
 - **Quick rollback in case of failures** (just terminate new ASG)
 - **Great for production**.
+- **New ASG is created**.
 
 ### Blue/Green
 - **Not a direct feature** of Elastic Beanstalk
@@ -79,3 +80,5 @@ updated: 2022-05-16 15:38
 
 ## Summary
 ![[attachments/Pasted image 20220516122709.png]]
+
+> [!note]- Deployment modes of **immutable** and **traffic splitting** (blue/green or canary) are very expensive.

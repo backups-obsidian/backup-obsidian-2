@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-06-01 15:12
+updated: 2023-02-09 10:11
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -36,6 +36,10 @@ updated: 2022-06-01 15:12
 	- **Customer Managed CMK**: *$1/Month*
 		- We can only manage the customer managed CMK and not AWS managed default CMK.
 	- **User Imported keys** (AES 256) (not recommended): *$1/month*
+
+- Difference between the 3 keys
+	- ![[attachments/Pasted image 20230209100836.png]]
+	- Customer managed CMK provides the most flexibility.
 
 - We *pay for API calls to KMS* 0.03$ / 10,000 calls.
 - We can use KMS keys when we want to share sensitive information.

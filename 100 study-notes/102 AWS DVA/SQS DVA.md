@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 12:39
-updated: 2022-06-07 15:17
+updated: 2023-02-09 14:48
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -12,7 +12,8 @@ updated: 2022-06-07 15:17
 	- ![[attachments/Pasted image 20220519203156.png]]
 
 ## Must Know API
-- `CreateQueue(MessageRetentionPeriod)`, `DeleteQueue`
+- `CreateQueue(MessageRetentionPeriod)`: Create a new queue with the specified retention time for messages. (*max 14 days*)
+- `DeleteQueue`: delete the queue with the messages.
 - `PurgeQueue`: delete all the messages in queue
 - `SendMessage(Delay Seconds)`, `ReceiveMessage`, `DeleteMessage`
 - `MaxNumberOfMessages`: default 1, **max 10** (for `ReceiveMessage` API)

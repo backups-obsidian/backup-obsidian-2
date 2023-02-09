@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 12:39
-updated: 2023-01-30 15:37
+updated: 2023-02-09 14:31
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -22,7 +22,7 @@ updated: 2023-01-30 15:37
 - Parameters are extremely powerful, controlled, and can prevent errors from happening in your templates thanks to **types**.
 	- ![[attachments/Pasted image 20220518151809.png]]
 
-### Referencing a parameter
+### Referencing a parameter (`!Ref`)
 - The `Fn:Ref` function can be leveraged to *reference parameters*
 - Parameters can be used anywhere in a template.
 - The **shorthand** for this in YAML is `!Ref`
@@ -32,11 +32,13 @@ updated: 2023-01-30 15:37
 > [!caution] `!Ref` can be used to refer **parameters** as well as **resources**.
 
 ### Pseudo Parameters
-- AWS offers us pseudo parameters in any CloudFormation template.
+- Pseudo parameters are **parameters that are predefined by AWS CloudFormation**. 
+	- You do not declare them in your template. 
+	- **Use them the same way as you would a parameter**, as the argument for the Ref function.
 - These can be *used at any time and are enabled by default*.
-	- Example: `AWS::AccountId`
+	- Example: **`AWS::AccountId`**
 
-## Mappings
+## Mappings (`!FindInMap`)
 - Mappings are *fixed variables* within your CloudFormation Template.
 - They're very handy to *differentiate between different environments* (dev vs prod), regions (AWS regions), AMI types, etc
 	- ![[attachments/Pasted image 20220518152430.png]]
@@ -52,7 +54,8 @@ updated: 2023-01-30 15:37
 > Here `AWS::Region` is a **pseudo parameter**.
 
 ## Outputs 
-- The Outputs section declares **optional** outputs values that we **can import into other stacks** (if you *export them first*)!
+- The Outputs section declares **optional** outputs values that we **can import into other stacks**.
+	- **Outputs cannot be imported if they are not exported**.
 - You can also view the outputs in the AWS Console or using the AWS CLI
 - They're very useful for example if you define a network CloudFormation, and output the variables such as VPC ID and your Subnet IDs
 - It's the best way to perform some *collaboration cross stack*, as you let expert handle their own part of the stack
@@ -67,11 +70,18 @@ updated: 2023-01-30 15:37
 
 > [!note] Whenever question mentions about *linking CloudFormation templates* go with outputs.
 
-> [!caution] Exported output names must be *unique within your region*
+> [!caution] **Exported output names** must be **unique within a single region**.
+
+- Use cases for outputs:
+	- Declares output values that you can *import into other stacks* (to create cross-stack references), 
+	- Return in response (to describe stack calls)
+	- *View on the AWS CloudFormation console*
 
 ## Conditions
 - Conditions are used to _control the creation of **resources or outputs**_ based on a condition.
-	- You *cannot* use conditions with *parameters*.
+
+> [!caution]- You **CANNOT** use conditions with **parameters**.
+
 - Conditions can be whatever you want them to be, but common ones are:
 	- *Environment* (dev / test / prod)
 	- AWS *Region*

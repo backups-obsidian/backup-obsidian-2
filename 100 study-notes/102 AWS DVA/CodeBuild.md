@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 16:54
-updated: 2022-06-09 14:42
+updated: 2023-02-09 14:13
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -20,7 +20,9 @@ updated: 2022-06-09 14:42
 - **Build Projects can be defined within CodePipeline or CodeBuild**
 - CodeBuild **uses containers** to run the environments.
 - You can use a list of supported environments for building your code and if your environment is not there then you *can use docker*.
-- CodeBuild can be run locally by using docker and CodeBuild Agent. This is good for troubleshooting beyond logs.
+- **CodeBuild can be run locally by using docker and CodeBuild Agent**. 
+	- This is good for *troubleshooting beyond logs*.
+- We have **Codebuild timeouts** to terminate builds queued for a long time.
 - **Uses**: 
 	- *Build Code*
 	- Run some *automated tests* before deployment.

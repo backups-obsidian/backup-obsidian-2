@@ -1,6 +1,6 @@
 ---
 created: 2022-05-26 16:04
-updated: 2022-05-26 16:12
+updated: 2023-02-09 10:13
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -35,7 +35,7 @@ updated: 2022-05-26 16:12
 
 ## Mapping Templates
 - So *mapping templates* can only be used if we use HTTP/AWS services **without proxy**.
-- Mapping templates can be *used to modify request/responses*
+- Mapping templates can be used to **modify request/responses**
 - Type of modification that can be done:
 	- *Rename/Modify query string parameters*
 	- Modify body content

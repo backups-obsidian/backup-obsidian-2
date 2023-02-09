@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 12:39
-updated: 2023-01-30 15:20
+updated: 2023-02-09 13:03
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -42,6 +42,8 @@ updated: 2023-01-30 15:20
 - Supports **EC2/On-Premises**
 - Updates the instances in the deployment group with the latest application revisions. During a deployment, *each instance will be briefly taken offline for its update*.
 	- ![[attachments/Pasted image 20220517100439.png]]
+
+> [!note]- In place deployment is a deployment type whereas *half at a time is one of the deployment strategies*.
 
 > [!tip] If we only have EC2 instances and no ASG then we CANNOT use Blue/Green deployment.
 
