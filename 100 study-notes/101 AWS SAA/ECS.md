@@ -1,6 +1,6 @@
 ---
 created: 2022-04-25 20:00
-updated: 2022-05-15 15:03
+updated: 2023-02-09 14:56
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -17,9 +17,12 @@ updated: 2022-05-15 15:03
 - ECS *services* and *cluster*
 	- `Container → Task → Service → Cluster`
 	- Suppose we have an *ECS cluster with EC2 launch type*.
+	- We **can have multiple containers in a task**. Like sidecar containers. 
+		- A task is similar to a pod in k8s.
 	- In a **service we can have multiple tasks** spread across EC2 instances.
 	-  If we wanted to **expose these tasks** then we could create an **ALB**.
 	- We can have **multiple services** in an *ECS cluster*.
+ 
 
 - You can use **CloudWatch Events** to *run Amazon ECS tasks* when certain AWS events occur. 
 

@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 10:21
-updated: 2022-06-10 15:20
+updated: 2023-02-09 14:07
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -31,6 +31,9 @@ updated: 2022-06-10 15:20
 - You **can create multiple environments** (dev, test, prod, etc) **in one application version**. 
 - If you want multiple application versions running at the same time then you have to create multiple applications.
 
+> [!note]+ In summary, an *application is a collection of components*, a *version is a specific release of code*, and an *environment is a deployed version of the code on a **set of resources**.
+> You can have multiple environments running at the same time in a single application in Amazon Elastic Beanstalk. 
+
 ## Lifecycle policy
 - Elastic Beanstalk can store at most **1000** application versions
 - If you don't remove old versions, you won't be able to deploy anymore
@@ -48,7 +51,7 @@ updated: 2022-06-10 15:20
 - Requirements:
 	- In the `.ebextensions/` directory in the *root of source code*
 	- *YAML / JSON* format
-	- Even though they are in YAML/JSON the file must with `.config` extension (example: logging.config)
+	- **Even though they are in YAML/JSON the file must with `.config`** extension (example: logging.config)
 - We can *modify some default settings* using: `option_settings`
 - **Ability to add any resource** such as RDS, *ElastiCache*, DynamoDB, etc *which cannot be added using the UI*.
 
@@ -80,7 +83,7 @@ updated: 2022-06-10 15:20
 ### Decoupling RDS
 - RDS can be provisioned with Beanstalk, which is *great for dev/test*
 - This is **not great for prod** as the *database lifecycle is tied to the Beanstalk environment lifecycle*
-- The best for prod is to *separately create an RDS database* and provide your EB application with the connection string.
+- The best for prod is to **separately create an RDS database** and refer it using environment variables.
 - **Decoupling RDS**:
 	- Create a snapshot of RDS DB (as a safeguard)
 	- Go to the RDS console and **protect the RDS database from deletion**

@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-05-01 21:43
+updated: 2023-02-09 14:18
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -44,7 +44,7 @@ updated: 2022-05-01 21:43
 - Keys are **handled** and **managed** by **customer outside** of AWS
 - Objects are encrypted on the **server side**.
 - AWS *doesn’t store the encryption key*.
-- *HTTPS is mandatory*.
+- **HTTPS is mandatory**.
 - **Encryption key** must be **provided** in the **HTTPS headers** for **every request**.
 - Since you are managing the keys you would need to provide the key when you are requesting and file from S3 so that AWS can decrypt the object
 - To use it we have to use **AWS CLI**, **AWS SDK** or **AWS S3 rest endpoint**. We **cannot use** the **web client**.

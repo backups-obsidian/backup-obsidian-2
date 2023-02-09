@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 12:39
-updated: 2023-01-30 16:28
+updated: 2023-02-09 10:23
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -31,6 +31,9 @@ updated: 2023-01-30 16:28
 - Tracing is made of *segments and sub segments*
 - *Service map is computed* from all the segments and traces 
 - X-Ray is *graphical*, so even non technical people can help troubleshoot
+- We CANNOT use CloudTrail to debug and trace **data** across accounts. X-Ray is suitable for this purpose.
+
+> [!note]- We can use X-Ray to **collect data across AWS Accounts**.
 
 ### How to enable X-Ray
 - Your code (Java, Python, Go, Node.js, .NET) **must import the AWS X-Ray SDK**

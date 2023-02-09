@@ -1,6 +1,6 @@
 ---
 created: 2022-05-30 09:35
-updated: 2022-05-30 12:26
+updated: 2023-02-09 14:16
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -43,6 +43,7 @@ updated: 2022-05-30 12:26
 ### Cognito Identity Pools (Federated Identity)
 - Get identities for users so they **obtain temporary AWS credentials**
 	- We don't want to create IAM users for these users since there are so many of them and it can be a security risk.
+- **For AWS S3 and DynamoDB**.
 - Your identity pool (e.g identity source) can include:
 	- *Public Providers* (Login with Amazon, Facebook, Google, Apple)
 	- Users in an Amazon *Cognito user pool*

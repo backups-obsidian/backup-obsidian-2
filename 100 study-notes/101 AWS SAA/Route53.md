@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-05-01 11:57
+updated: 2023-02-09 10:44
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -96,7 +96,7 @@ updated: 2022-05-01 11:57
 
 > [!caution] You cannot set ALIAS record for *EC2 DNS* name
 
-> [!note]- CNAME over ALIAS
+> [!note]- CNAME over ALIAS for **3rd party** applications.
 >  So, if you register the DNS name `covid19survey.com`, the zone apex is `covid19survey.com`. You *can't create a CNAME record* for `covid19survey.com`, but you can create an **alias record** for `covid19survey.com` that routes traffic to `www.covid19survey.com`.
 > 
 > An alias record *can only redirect queries to selected AWS resources* such as S3 buckets, CloudFront distributions, and another record in the same Route 53 hosted zone; however a *CNAME record can redirect DNS queries to any DNS record*. So, you can **create a CNAME** record that redirects queries from `app.covid19survey.com` to `app.covid19survey.net`.

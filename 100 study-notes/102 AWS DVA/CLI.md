@@ -1,6 +1,6 @@
 ---
 created: 2022-05-14 15:43
-updated: 2022-05-14 17:23
+updated: 2023-02-09 11:10
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -9,7 +9,7 @@ updated: 2022-05-14 17:23
 ## CLI
 ### Basics
 - Some AWS CLI commands (such as EC2) can become expensive if they succeed, say if we wanted to try to create an EC2 Instance.
-- Some AWS CLI commands (**not all**) contain a `--dry-run` option to simulate API calls
+	- Some AWS CLI commands (**not all**) contain a **`--dry-run`** option to **simulate API calls**.
 - When you run API calls and they *fail*, you can get a long *error message* this error message can be *decoded using the STS command line*:
 	- `aws sts decode-authorization-message --encoded-message actual_long_message`
 	- We need to have access to sts's `DecodeAuthorisationMessage` API.
@@ -33,30 +33,11 @@ updated: 2022-05-14 17:23
 
 > [!tip] If you don't specify any profile then the default profile is used.
 
-### MFA with CLI
-- You will first need to assign an MFA device by going to the security credentials section in IAM. 
-- You will get an ARN of the MFA device after successfully adding it. This will be needed for making the API call.
-- To use MFA with the CLI, you **must create a temporary session**.
-- To do so, you must run the `aws sts get-session-token` API call.
-	- ![[attachments/Pasted image 20220514162420.png]]
-- If the API call is successful you will get an `AccessKeyId`, `SecretAccessKey` and a `SessionToken`. These are short lived and have an expiration.
-	- ![[attachments/Pasted image 20220514163322.png]]
-
-> [!important]- How to use the credentials from the `get-session-token` API call
-> - We can configure a new aws profile with the `AccessKeyId` and `SecretAccessKey` we got just now. 
-> - After configuring the profile paste the `SessionToken` in the credentials (`~/.aws/credentials`) file. 
-> - The `AccessKeyId` and `SecretAccessKey` will already be there since we entered it while configuring the profile.
-> ---
-> ![[attachments/Pasted image 20220514163718.png]]
-
-- Now any time you do a call using the above profile you will be having mfa access till the tokens expire.
-
-> [!note] For exam we only need to know that we used **get-session-token**
-
 ## Credentials
 ### Credentials Provider Chain
 - *command line options* → *environment variables* → *CLI credentials file* → *CLI config file* → *container credentials* → *EC2 instance profile credentials* 
 	- ![[attachments/Pasted image 20220514165940.png]]
+	 - **`--region`**, **`--output`**, **`--profile`**
 - SDK default chain
 	- ![[attachments/Pasted image 20220514170020.png]]
 
