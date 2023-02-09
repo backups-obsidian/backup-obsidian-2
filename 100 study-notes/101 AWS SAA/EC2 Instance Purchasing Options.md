@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 11:14
-updated: 2022-05-05 16:02
+updated: 2023-02-09 08:44
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -54,14 +54,29 @@ updated: 2022-05-05 16:02
 - With dedicated hosts you have *additional control and visibility on how instances are placed* on the server.
 - With Dedicated Host the physical server is basically yours. It does not change, **it's always the same physical machine for as long as you are paying.**
 
+> [!tip]+ Keywords: 
+> - *Compliance*, 
+> - *software license* (BYOL), 
+> - *3 year*, 
+> - *same physical machine*, 
+> - *visibility and control*.
+
 ## Dedicated Instances
 - Instances running on hardware dedicated to you.
-- Dedicated instances may share hardware with other instances from the same AWS account that are not dedicated instances. Dedicated instances *cannot be used for existing server-bound software licenses*.
+- Dedicated instances *may share hardware with other instances from the same AWS account that are not dedicated instances*. 
+- Dedicated instances *CANNOT be used for existing server-bound software licenses*.
 - Billing per instance.
 - *Automatic instance placement*.
 - Your instance runs on some dedicated hardware. **Its not lockdown to you**. If you stop/start instance, you can get some other hardware somewhere else. Basically, the hardware is "yours" (*you are not sharing it with others) for the time your instance is running*. You stop/start it, you may get different physical machine later on (maybe older, maybe newer, maybe its specs will be a bit different), and so on. **So your instance is moved around on different physical servers - whichever is not occupied by others at the time.**
-- If you see keyword **single tenancy** in questions then go for dedicated instances. Dedicated hosts also offers single tenancy but it is more expensive. So unless there is a demand for licensing go for dedicated instances.
-	- In short dedicated instances are the *most cost effective way of achieving single tenancy*.
+- If you see keyword **single tenancy** in questions then go for dedicated instances. 
+
+> [!important]+ **Dedicated hosts** also offers single tenancy but it is **MORE expensive**.  [DVA - 1]
+> - So unless there is a demand for licensing go for dedicated instances. 
+> - In short dedicated instances are the **most cost effective way of achieving single tenancy**.
+
+> [!tip]+ Keywords: 
+> - *Single tenancy*
+> - *Cheaper* than dedicated hosts
 
 ## Tenancy Options
 ![[attachments/Pasted image 20220501114513.png]]

@@ -1,6 +1,6 @@
 ---
 created: 2022-05-30 12:29
-updated: 2022-06-01 15:28
+updated: 2023-02-01 16:39
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -41,7 +41,7 @@ updated: 2022-06-01 15:28
 - You can encrypt CloudWatch logs with KMS keys
 - **Encryption is enabled at the log group level**, by associating a CMK with a log group, *either when you create the log group or after it exists*.
 
-> [!note]- You *cannot* associate a CMK with a log group using the CloudWatch *console*.
+> [!note]- You *CANNOT* associate a CMK with a log group using the CloudWatch *console*.
 
 - You **must use** the CloudWatch Logs **API**:
 	- **`associate-kms-key`** : if the *log group already exists*
@@ -49,4 +49,4 @@ updated: 2022-06-01 15:28
 
 - Also for Logs to be encrypted the *key policy must be updated* so that CloudWatch logs service can use KMS to encrypt and decrypt the logs.
 	- ![[attachments/Pasted image 20220601151248.png]]
-	- This just means our key can be used by the logs service.
+	- This just means our key can be used by CloudWatch logs.

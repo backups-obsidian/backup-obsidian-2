@@ -1,6 +1,6 @@
 ---
 created: 2022-05-30 09:35
-updated: 2022-05-31 09:37
+updated: 2023-02-01 16:12
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -14,7 +14,7 @@ updated: 2022-05-31 09:37
 	- Return credentials for users logged with an IdP (Facebook Login, Google Login, OIDC compatible)
 	- AWS recommends against using this, and using Cognito Identity Pools instead
 - **GetSessionToken**: *for MFA*, from a user or AWS account root user
-- GetFederation Token: obtain temporary credentials for a federated user
+- GetFederationToken: obtain temporary credentials for a federated user
 - **GetCallerldentity**: return details about the IAM user or role used in the API call
 - **DecodeAuthorizationMessage**: *decode error message* when an AWS API is denied
 
@@ -62,7 +62,7 @@ updated: 2022-05-31 09:37
 
 ### Dynamic Policies
 - How do you assign each user a `/home/<user>` folder in an S3 bucket?
-	- Option I:
+	- Option 1:
 		- Create an IAM policy allowing Georges to have access to `/home/georges`
 		- Create an AM policy allowing Sarah to have access to `/home/sarah`
 		- Create an lAM policy allowing Matt to have access to `/home/matt`

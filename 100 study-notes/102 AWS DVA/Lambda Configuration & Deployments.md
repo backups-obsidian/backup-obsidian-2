@@ -1,6 +1,6 @@
 ---
 created: 2022-05-24 10:24
-updated: 2023-01-31 22:14
+updated: 2023-02-09 08:53
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -124,8 +124,8 @@ updated: 2023-01-31 22:14
 ### Versions
 - When you work on a Lambda function, we work on `$LATEST`
 - When we're *ready to publish a Lambda function*, we **create a version**
-- **Versions are immutable**
-- Version = *code + configuration* (nothing can be changed - immutable)
+- **Versions are IMMUTABLE**
+	- **Version = code + configuration** (*nothing can be changed* - immutable)
 - Immutable means you *cannot the change the code* or *env variables*.
 - Versions have increasing version numbers
 - Versions *get their own ARN* (Amazon Resource Name)
@@ -140,7 +140,7 @@ updated: 2023-01-31 22:14
 - Aliases enable *stable configuration of our event triggers/destinations*
 - Aliases *have their own ARNs*
 
-> [!caution] Aliases *cannot reference aliases*
+> [!caution] Aliases **cannot reference aliases**
 
 ## Lambda & CodeDeploy
 - CodeDeploy can help you **automate traffic shift for Lambda aliases**

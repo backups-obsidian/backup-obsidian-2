@@ -1,6 +1,6 @@
 ---
 created: 2022-04-17 15:43
-updated: 2023-01-31 21:48
+updated: 2023-02-09 08:59
 ---
 ---
 **Links**: [[../100 home | 100 Home]]
@@ -143,4 +143,22 @@ Three ways in which Lambda processes events
 - There are **very very few trick questions**
 - If a solution seems feasible but *highly complicated, it's probably wrong*
 
-## [[DVA - Questions]]
+[[DVA - Questions]]
+[[DVA - Question Areas]]
+
+## ToDo learning
+- Know what services are in SAM
+- Get more clarity about stages in API gateway
+- Deployment strategies
+
+## Todo exam wise
+- Download sample test from AWS website.
+- Go through exam website on AWS website.
+- Exam tips from AWS
+	- [How to prepare for AWS Developer Associate Exam in 7 Weeks! Recommended courses and preparation tips - YouTube](https://www.youtube.com/watch?v=iTMClgY1heA) - starting part
+- I can get an AWS practice exam for free since I have previously cleared an AWS exam. 
+
+---
+[[../101 AWS SAA/NACLs | NACLs]]
+[[../101 AWS SAA/EC2 Instance Purchasing Options | EC2 Instance Purchasing Options]]
+

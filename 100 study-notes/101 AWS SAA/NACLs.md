@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-05-14 11:30
+updated: 2023-02-09 08:56
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -46,7 +46,7 @@ updated: 2022-05-14 11:30
 
 ### Ephemeral ports
 -   For any two endpoints to establish connection, they must use ports. **Clients connect to a defined port**, and **expect a response on an ephemeral port.**
-	- When a client connects to a server, a random port from the ephemeral port range (1024-65535) becomes the client's source port.
+	- When a client connects to a server, a random port from the ephemeral port range (**1024-65535**) becomes the client's source port.
 	- ![[attachments/Pasted image 20220430090243.png]]
 
 - Different Operating Systems use *different port ranges for ephemeral ports*, examples:

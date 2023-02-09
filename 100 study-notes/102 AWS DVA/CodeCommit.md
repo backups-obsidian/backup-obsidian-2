@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 12:39
-updated: 2022-05-17 13:56
+updated: 2023-02-09 09:04
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -17,9 +17,11 @@ updated: 2022-05-17 13:56
 - You can setup **SNS/Lambda** to do a *code analysis after each commit*.
 
 ## Security
-- **Authentication**:
-	- *SSH Keys*: AWS Users can configure SSH keys in their IAM Console
-	- *HTTPS*: with *AWS CLI Credential helper* or Git Credentials for lAM user
+- **Authentication**: **3 ways** (2 HTTPS, 1 SSH)
+	- **Git credentials**: These are *IAM-generated user name and password pair* you can use to communicate with CodeCommit repositories over **HTTPS**.
+	- **SSH Keys**: Are locally generated public-private key pair that you can associate with your IAM user to communicate with CodeCommit repositories over SSH.
+	- **AWS access keys**: You can use these keys with the credential helper included with the AWS CLI to communicate with CodeCommit repositories over **HTTPS**.
+ 
 - **Authorization**:
 	- *IAM policies* to manage users/roles permissions to repositories
 - **Encryption**:
