@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 12:39
-updated: 2023-02-09 14:31
+updated: 2023-02-09 19:26
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -37,6 +37,24 @@ updated: 2023-02-09 14:31
 	- **Use them the same way as you would a parameter**, as the argument for the Ref function.
 - These can be *used at any time and are enabled by default*.
 	- Example: **`AWS::AccountId`**
+
+### Parameter Types
+- Main ones: 
+	- `String` – A literal string
+	- `Number` – An integer or float
+	- `List<Number>` – An array of integers or floats
+	- `CommaDelimitedList` – An array of literal strings that are separated by commas
+
+- Others:
+```
+AWS::EC2::KeyPair::KeyName – An Amazon EC2 key pair name
+AWS::EC2::SecurityGroup::Id – A security group ID
+AWS::EC2::Subnet::Id – A subnet ID
+AWS::EC2::VPC::Id – A VPC ID
+List<AWS::EC2::VPC::Id> – An array of VPC IDs
+List<AWS::EC2::SecurityGroup::Id> – An array of security group IDs
+List<AWS::EC2::Subnet::Id> – An array of subnet IDs
+```
 
 ## Mappings (`!FindInMap`)
 - Mappings are *fixed variables* within your CloudFormation Template.

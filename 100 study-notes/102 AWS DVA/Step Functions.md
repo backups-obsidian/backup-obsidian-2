@@ -1,12 +1,12 @@
 ---
 created: 2022-05-30 12:29
-updated: 2023-01-31 23:12
+updated: 2023-02-09 19:27
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
 
 ---
-> [!note] Keywords: state machines, multiple lambdas
+> [!note] Keywords: *state machines*, *multiple lambdas*, *inventory management*, order *tracking*.
 
 ## Step Functions
 - It allows us to **model our workflow as state machines**.
@@ -33,6 +33,9 @@ updated: 2023-01-31 23:12
 	- Activities poll the Step functions for work
 	- Activities send results back to Step Functions
 	- ![[attachments/Pasted image 20220530123526.png]]
+
+> [!note]- A Task state (`"Type": "Task"`) *represents a single unit of work performed by a state machine*.
+> - **All work in your state machine is done by the type Task**.
 
 #### Information Flow
 - A *Step Functions execution receives a JSON text as input* and passes that input to the first state in the workflow. 
@@ -104,6 +107,7 @@ updated: 2023-01-31 23:12
 	- ![[attachments/Pasted image 20220530130227.png]]
 
 ### Standard vs Express Workflow
-- *Express workflows* are *cheaper*, *run for shorter duration*(**5 minutes**) and *don't have an execution history*.
+- **Express workflows** are **cheaper**, **run for shorter duration**(**5 minutes**) and *don't have an execution history*.
+	- **Standard workflows** can run upto **1 year**.
 	- ![[attachments/Pasted image 20220530141934.png]]
 

@@ -1,11 +1,14 @@
 ---
 created: 2022-05-16 16:54
-updated: 2023-02-09 14:13
+updated: 2023-02-09 18:30
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
 
 ---
+## CodeBuild
+- **Fully managed**.
+	- No servers to provision.
 - **Alternative to Jenkins**.
 - **Source**: 
 	- *CodeCommit* 
@@ -13,7 +16,9 @@ updated: 2023-02-09 14:13
 	- Bitbucket 
 	- *GitHub*
 - **Build instructions**: Code file `buildspec.yml` (at the **root** of the source code) or insert *manually in CodeBuild console*.
-- *Output logs* can be stored in Amazon *S3* & *CloudWatch Logs*
+- **Output logs** can be stored in:
+	- **S3**
+	- **CloudWatch Logs**
 - Use CloudWatch Metrics to monitor build statistics
 - Use *CloudWatch Events to detect failed builds* and trigger notifications
 - Use *CloudWatch Alarms to notify if you need thresholds* for failures

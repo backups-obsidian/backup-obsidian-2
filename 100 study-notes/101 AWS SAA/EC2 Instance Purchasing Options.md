@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 11:14
-updated: 2023-02-09 08:44
+updated: 2023-02-09 19:16
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -15,6 +15,8 @@ updated: 2023-02-09 08:44
 - For monetary benefit you can use **capacity reservation with savings plan**.
 - If you want to *make reservations in multiple AZs* then you need to file *multiple reservation requests*.
 - The main benefit of capacity reservation over reserved instances is there is no need of 1 or 3 years of commitment.
+
+> [!note]- We can do a capacity reservation in zonal reserved instances but NOT in regional reserved instances.
 
 ## Reserved Instances
 - Reserved Instances are *not physical instances*, but *rather a billing discount applied to the use of On Demand* Instances in your account.

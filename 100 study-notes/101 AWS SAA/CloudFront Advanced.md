@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2023-01-30 11:36
+updated: 2023-02-09 19:57
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -9,6 +9,7 @@ updated: 2023-01-30 11:36
 ## CloudFront Signed URL/Cookies
 - **Use Case**: Give *access to premium shared content* to people all over the world.
 - **Signed URL** gives **access** to only **one file**. One URL per file.
+	- If you want to share *only one file* then prefer Signed URL over Signed Cookies.
 - **Signed Cookies** give access to **multiple files**. One signed cookie for many files.
 - For *signed cookies* you *don’t have to change URL*.
 

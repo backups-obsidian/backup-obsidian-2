@@ -1,16 +1,18 @@
 ---
 created: 2022-05-16 16:54
-updated: 2023-02-09 14:46
+updated: 2023-02-09 19:40
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
 
 ---
-- The mean reason for using API Gateway over ALB for invoking Lambda's from HTTP endpoints are the features (like caching and all) offered by the API Gateway.
+- The main reason for using API Gateway over ALB for invoking Lambda's from HTTP endpoints are the features (like caching and all) offered by the API Gateway.
 
 ## Deployment Stages
-- Making changes in the API Gateway does not mean they're effective. You need to make a *deployment for them to be in effect*.
-- **Changes are deployed to Stages** (as many as you want)
+- *Making changes in the API Gateway does not mean they're effective*. 
+	- We need to **deploy or redeploy them (to a new or existing stage)**.
+- **Staging refers to the process of deploying the API**.
+- **Changes are deployed to Stages** (as many as you want). 
 	- Use the naming you like for stages (dev, test, prod)
 	- Each *stage has its own configuration parameters*
 	- *Stages can be rolled back* as a history of deployments is kept

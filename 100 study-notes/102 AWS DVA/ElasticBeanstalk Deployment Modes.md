@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 11:56
-updated: 2023-02-09 15:02
+updated: 2023-02-09 19:52
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -51,6 +51,8 @@ updated: 2023-02-09 15:02
 - **Quick rollback in case of failures** (just terminate new ASG)
 - **Great for production**.
 - **New ASG is created**.
+
+> [!tip]- If asked to choose between *immutable* and *rolling with additional batches* deployment type for *production* then **select immutable since roll back is quick**.
 
 ### Blue/Green
 - **Not a direct feature** of Elastic Beanstalk
