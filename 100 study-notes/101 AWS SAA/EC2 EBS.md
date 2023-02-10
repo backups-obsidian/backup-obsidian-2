@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 10:04
-updated: 2022-05-05 16:12
+updated: 2023-02-09 18:34
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -99,7 +99,7 @@ updated: 2022-05-05 16:12
 - General purpose SSD volume that balances price and performance.
 - gp3 is the newer version of gp2.
 - For **gp3 IOPS and throughput can be scaled independently of each other**.
-- For **gp2 IOPS and volume are linked**. **3 IOPS per GB** and we can have a maximum of 16000 IOPS so 5334 GB.
+- For **gp2 IOPS and volume are linked**. **3 IOPS per GB** and we can have a maximum of 16000 IOPS so **5334 GB** (**5.3 TiB**).
 - Whenever you see terms like **cost effective storage** in questions go for the gp family.
 - It uses a bucket and credit model for calculating IOPS.
 

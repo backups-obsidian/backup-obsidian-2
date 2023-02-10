@@ -1,6 +1,6 @@
 ---
 created: 2022-05-24 10:24
-updated: 2023-02-09 08:53
+updated: 2023-02-09 18:37
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -13,6 +13,10 @@ updated: 2023-02-09 08:53
 - Lambda Service adds its own system environment variables as well
 - Helpful to store **secrets** (*encrypted by KMS*)
 	- Secrets can be encrypted by the *Lambda service key, or your own CMK*
+
+> [!note]- Lambda environment variables can have a **maximum size of 4 KB**.
+> Additionally, the direct *Encrypt API of KMS also has an upper limit of 4 KB* for the data payload. 
+> To *encrypt 1 MB*, you need to *use the Encryption SDK and pack the encrypted file with the lambda function*.
 
 ## Logging & Tracing
 - **CloudWatch Logs**:
@@ -72,7 +76,7 @@ updated: 2023-02-09 08:53
 - You need to **install the packages alongside your code** and **zip it together**
 	- For `Node.js`, use `npm` & *node_modules* directory
 	- For `Python`, use `pip --target` options
-	- For `Java`, include the relevant jar files
+	- For `Java`, *include the relevant jar files*
 - Upload the **zip straight to Lambda if less than 50MB**, *else to S3 first*
 - *Native libraries* work: they *need to be compiled on Amazon Linux*
 
@@ -110,7 +114,7 @@ updated: 2023-02-09 08:53
 	- ![[attachments/Pasted image 20220524155737.png]]
 
 ## Lambda Container Images
-- Deploy *Lambda function as container images* of up to 10GB from ECR
+- Deploy *Lambda function as container images* of up to **10GB** from ECR
 - *Pack complex dependencies*, large dependencies in a container
 - Base images are available for Python, Node.js, Java, NET, Go, Ruby
 - Can *create your own image/custom runtime* as long as *base image* implements the **Lambda Runtime API**
@@ -119,6 +123,7 @@ updated: 2023-02-09 08:53
 	- ![[attachments/Pasted image 20220524160426.png]]
 - Test the containers locally using the Lambda Runtime Interface Emulator
 - Unified workflow to build apps
+- You must **create the Lambda function from the same account as the container registry in Amazon ECR** to ensure there are no permission issues.
 
 ## Lambda Version & Aliases
 ### Versions

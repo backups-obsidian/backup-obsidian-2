@@ -1,6 +1,6 @@
 ---
 created: 2022-06-01 11:42
-updated: 2023-02-09 09:25
+updated: 2023-02-09 18:10
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -52,6 +52,8 @@ updated: 2023-02-09 09:25
 - GenerateRandom: Returns a random byte string
 
 > [!note] If you don't need to perform envelope encryption immediately then use *GenerateDataKeyWithoutPlaintext*
+
+> [!important]- For encrypting EBS we need access to 2 APIs: `GenerateDataKeyWithoutPlaintext` and `Decrypt`
 
 ## SSE KMS Deep Dive
 - SSE-KMS leverages the *GenerateDataKey* & *Decrypt* KMS API calls

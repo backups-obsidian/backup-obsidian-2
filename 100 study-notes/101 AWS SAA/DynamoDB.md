@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2023-02-01 09:35
+updated: 2023-02-09 19:45
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -43,6 +43,8 @@ updated: 2023-02-01 09:35
 	- There is *no option to enable or disable encryption* for new or existing tables. 
 	- By *default*, all tables are encrypted *under an AWS owned customer master key (CMK)* in the DynamoDB service account. 
 	- However, you *can select* an option to encrypt some or all of your tables under a *customer-managed CMK* or the *AWS managed CMK* for DynamoDB in your account.
+- DynamoDB has *two built-in backup methods* (On-demand, Point-in-time recovery) that **write to Amazon S3** 
+	- We do not have access to the S3 buckets that are used for these backups.
 
 ## Read and Write Capacity Modes
 - *Control* how you manage your **table’s capacity** (*read/write throughput*)

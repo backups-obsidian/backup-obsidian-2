@@ -1,6 +1,6 @@
 ---
 created: 2022-04-17 15:43
-updated: 2023-02-08 12:59
+updated: 2023-02-09 20:08
 ---
 - Target:
 	- DevOps lead
@@ -10,6 +10,5 @@ updated: 2023-02-08 12:59
 	- Cloud lead
 	- SRE
 	- Platform engineering
-	- 
 
 

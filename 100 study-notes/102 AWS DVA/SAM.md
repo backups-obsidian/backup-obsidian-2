@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 12:39
-updated: 2023-02-09 14:43
+updated: 2023-02-09 19:46
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -63,7 +63,7 @@ updated: 2023-02-09 14:43
 
 ## SAM Exam Summary
 - SAM is **built on CloudFormation**
-- SAM requires the **Transform** and **Resources** sections
+- SAM requires the **Transform** and **Resources** section in its template.
 - Commands to know:
 	- `sam build`: fetch dependencies and create local deployment artifacts
 	- `sam package`: package and *upload to Amazon S3*, generate CF template

@@ -1,6 +1,6 @@
 ---
 created: 2023-02-06 22:18
-updated: 2023-02-09 14:59
+updated: 2023-02-09 19:58
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -36,3 +36,19 @@ updated: 2023-02-09 14:59
 	- Permission boundary defines the max permission that can be given to a user.
 	- SCPs define the maximum permissions for account members of an organisation or organisational unit (OU).
 
+- EBS volumes are AZ locked.
+- Anything you create with Management Console might NOT have everything. For eg:
+	- When you use management console to create an ASG using a launch configuration then EC2 instances won't have detailed monitoring enabled by default.
+	- For CLI it is always more. For eg: **Detailed monitoring is enabled by default when you create a launch configuration using the AWS CLI or an SDK**.
+- In general, when your object size reaches *100 MB*, you should consider using *multipart uploads* instead of uploading the object in a single operation.
+	- Multipart uploads can also be useful if you have spotty connection.
+- IOPS calculation:
+	- io1/io2 is *50:1*: 50 IOPS per GB.
+	- gp2 is *3:1*
+
+> [!question]- The development team at a HealthCare company has deployed *EC2* instances in AWS *Account A*. These instances need to access patient data with Personally Identifiable Information (PII) on multiple *S3* buckets in another AWS *Account B*.
+> - Create an *IAM role with S3 access in Account B* and set **Account A as a trusted entity**. 
+> - Account A needs to be set as the trusted entity for the role in Account B since *only trusted entities can assume a role*.
+> - Create another role (instance profile) in Account A and attach it to the EC2 instances in Account A and add an inline policy to this role to assume the role from Account B.
+
+- RDS **Postgres** and **MySQL** IAM database authentication.

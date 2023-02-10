@@ -1,6 +1,6 @@
 ---
 created: 2022-05-14 15:43
-updated: 2023-02-09 11:10
+updated: 2023-02-09 19:42
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -67,8 +67,8 @@ updated: 2023-02-09 11:10
 > - Here, it's about creating a dedicated IAM user for the application, as using your own personal IAM credentials would blur the lines between actual users and application
 
 ## Signing AWS API Requests
-- When you call the AWS HTTP API, you *sign the request* so that AWS can identify you, *using your AWS credentials* (access key & secret key)
-- If you use the **SDK or CLI**, the **HTTP requests are automatically signed** for you
+- When you call the **AWS HTTP API** (sending HTTP requests to an AWS service), you *sign the request* so that AWS can identify you, *using your AWS credentials* (access key & secret key)
+	- If you use the **SDK or CLI**, the **HTTP requests are automatically signed** for you
 - If you are *not using the SDK or CLI* then you need to use Signature v4 (**SigV4**) protocol to sign them. It is extremely complicated.
 
 > [!tip]- At a high level remember that *SigV4* is for *signing your requests to AWS*

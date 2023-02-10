@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 12:39
-updated: 2023-02-01 09:49
+updated: 2023-02-09 19:17
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -13,10 +13,11 @@ updated: 2023-02-01 09:49
 
 - `UpdateItem`
 	- *Edits an existing item's attributes* or *adds a new item if it doesn't exist*
+		- Like **Upsert**.
 	- Can be used to implement **Atomic Counters** a numeric attribute that's unconditionally incremented
 	
 - `ConditionalWrites`
-	- Accept a write/update/delete only if conditions are met, otherwise returns an error
+	- Accept a *write/update/delete* (`PutItem/UpdateItem/DeleteItem`) only if conditions are met, otherwise returns an error.
 	- Helps with **concurrent access** to items
 
 ## Reading Data
@@ -74,8 +75,10 @@ updated: 2023-02-01 09:49
 	- Up to **25** `PutItem` and/or `DeleteItem` in one call
 	- Up to **16 MB** of data written, up to 400 KB of data per item
 	- **Can't update items** (use `UpdateItem`)
+
+> [!caution]- We **DON'T** have batch operations for **updating items** (`UpdateItem`).
+
 - `BatchGetItem`
 	- Return *items from one or more tables*
 	- Up to *100 items*, up to **16 MB** of data
 	- Items are retrieved in *parallel to minimise latency*
-

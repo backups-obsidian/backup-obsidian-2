@@ -1,6 +1,6 @@
 ---
 created: 2022-04-29 20:22
-updated: 2023-01-15 18:49
+updated: 2023-02-09 17:05
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -28,6 +28,8 @@ updated: 2023-01-15 18:49
 - In cases where your **EC2 instance cannot be accessed from the Internet (or vice versa)**, you usually have to check two things:
     - **Does it have an EIP or public IP address**?
     - Is the route table properly configured?
+
+> [!note]- A subnet can only be associated with one route table at a time.
 
 ## Bastion Hosts
 - If we create an EC2 instance in the private subnet we won’t be able to SSH into it since no internet access it allowed.

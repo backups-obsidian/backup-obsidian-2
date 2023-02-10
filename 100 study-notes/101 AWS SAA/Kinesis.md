@@ -1,6 +1,6 @@
 ---
 created: 2022-04-25 16:24
-updated: 2023-02-09 09:02
+updated: 2023-02-09 19:21
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -24,7 +24,9 @@ updated: 2023-02-09 09:02
 - By default, the *2MB/second/shard output* is *shared between all of the applications consuming data from the stream*. You should use built in **enhanced fan-out** if you have *multiple consumers retrieving data from a stream in parallel*. With enhanced fan out developers can register stream consumers to use enhanced fan-out and *receive their own 2MB/second pipe of read throughput per shard*.
 
 > [!tip]+ If you want to *increase the performance* then try to *increase the number of shards* or go for *enhanced fan out*. 
-> **Enhanced fan out** is used when you are getting performance hit because of **multiple consumers**. 
+> - **Enhanced fan out** is used when you are getting performance hit because of **multiple consumers**. 
+> - Using enhanced fan-out will not help address the `ProvisionedThroughputExceeded exception` as the constraint is the capacity limit of the Kinesis Data Stream.
+> - One solution is to do exponential backoff.
 
 - *Billing* is based on *per shard provisioned*.
 - We have a **retention period** of **1 day (default)** to **365 days**. Because of this we can reprocess the data. **Replay**.

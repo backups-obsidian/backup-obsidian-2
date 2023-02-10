@@ -1,6 +1,6 @@
 ---
 created: 2022-05-15 08:57
-updated: 2023-02-09 11:33
+updated: 2023-02-09 20:00
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -51,11 +51,12 @@ updated: 2023-02-09 11:33
 ## CloudFront Signed URL Process
 - More about [[../101 AWS SAA/CloudFront Advanced#CloudFront Signed URL Cookies | CloudFront Signed URLs]]
 - *Two types of signers*:
-	- **Trusted key group** (*recommended*)
+	- **Trusted key groups** (*recommended*)
 		- Can leverage APIs to create and rotate keys (and IAM for API security)
 	- An AWS Account that contains a *CloudFront Key Pair*
 		- Need to *manage keys using the root account* and the AWS console
 		- **Not recommended** since **only the root user can create CloudFront key pairs**.
+		- When you use the *root user* to manage CloudFront key pairs, you can **only** have up to **two active CloudFront key pairs** per AWS account.
 - You **generate your own public / private key** 
 	- The *private key* is used by your *applications* (e.g. EC2) to *sign URLs*
 	- The *public key* (uploaded) is used by *CloudFront to verify URLs* 

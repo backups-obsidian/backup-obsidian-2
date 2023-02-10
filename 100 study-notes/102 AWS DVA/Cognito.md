@@ -1,6 +1,6 @@
 ---
 created: 2022-05-30 09:35
-updated: 2023-02-09 14:16
+updated: 2023-02-09 18:31
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -86,7 +86,7 @@ updated: 2023-02-09 14:16
 - Replaced by **AppSync**
 - _Store preferences, configuration, state of **app**_
 - *Cross device* synchronisation (any platform iOS, Android, etc...)
-- *Offline capability* (synchronisation when back online)
+- **Offline capability** (synchronisation when back online)
 - Store data in datasets (up to 1MB), up to 20 datasets to synchronise
 - **Push Sync**: silently *notify across all devices* when identity data changes
 - **Cognito Stream**: stream data from *Cognito into Kinesis*
