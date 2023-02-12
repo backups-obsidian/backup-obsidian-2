@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 10:04
-updated: 2023-02-09 18:34
+updated: 2023-02-11 16:09
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -68,6 +68,8 @@ updated: 2023-02-09 18:34
 - To prevent manual snapshots we can use **Amazon Data Lifecycle Manager** (Amazon DLM) to *automate the creation, retention, and deletion of snapshots*.
 - EBS **snapshots are incremental**. This means only the blocks that have been changed since the last snapshot are saved in the new snapshot.
 - Although EBS volumes are incremental you can *delete previous EBS snapshots* to clear up space and *AWS will make sure that no data is lost*.
+- *EBS snapshot archive*:
+	- Move a snapshot to **archive tier** that is 75% cheaper.
 
 #### Amazon DLM
 - Amazon Data Lifecycle Manager (**Amazon DLM**) automates the **creation**, **retention**, and **deletion of snapshots** taken to back up your Amazon EBS volumes.

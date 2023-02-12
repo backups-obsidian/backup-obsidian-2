@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 16:54
-updated: 2023-02-09 19:40
+updated: 2023-02-10 10:26
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -12,6 +12,7 @@ updated: 2023-02-09 19:40
 - *Making changes in the API Gateway does not mean they're effective*. 
 	- We need to **deploy or redeploy them (to a new or existing stage)**.
 - **Staging refers to the process of deploying the API**.
+- *API stages are included in the URL* that you use to invoke the API.
 - **Changes are deployed to Stages** (as many as you want). 
 	- Use the naming you like for stages (dev, test, prod)
 	- Each *stage has its own configuration parameters*
@@ -88,7 +89,7 @@ updated: 2023-02-09 19:40
 - REST APIs
 	- All features (**except Native OpenID Connect / OAuth 2.0**)
 
-> [!note]- For exam perspective just remember 
+> [!note]- For exam perspective just remember: **HTTP API bad**
 > - HTTP API is a *low cost alternative* 
 > - It *only supports proxy integrations* 
 > - There is no such thing as usage plan and API keys.
@@ -104,7 +105,7 @@ updated: 2023-02-09 19:40
 - If you using a *lambda proxy or a HTTP proxy* you will need to have `Access-Control-Allow-Origin` header in your backend code since it is the one responding when there is a preflights request.
 	- ![[attachments/Pasted image 20220527092332.png]]
 
-> [!tip]- CORS is used to restrict access to your APIs from other domains
+> [!tip]- CORS is used to *restrict access* to your APIs from **other domains**
 > You team maintains a public API Gateway that is *accessed by clients from another domain*. Usage has been consistent for the last few months but recently it has more than doubled. As a result, your costs have gone up and would like to prevent other unauthorised domains from accessing your API. 
 > Restrict access using CORS.
 

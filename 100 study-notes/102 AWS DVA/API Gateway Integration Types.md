@@ -1,37 +1,37 @@
 ---
 created: 2022-05-26 16:04
-updated: 2023-02-09 10:13
+updated: 2023-02-10 09:41
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
 
 ---
 ## Integration Types
-- Integration Type **MOCK**
-	- API Gateway *returns a response without sending the request to the backend*
-	- Just for *development and testing*
+### MOCK
+- API Gateway *returns a response without sending the request to the backend*
+- Just for *development and testing*
 
-- Integration Type **HTTP/AWS (Lambda & AWS Services)**
-	- We must configure both the *integration request* and *integration response*
-	- We can setup data mapping using **mapping templates** to modify the request & response.
-		- This means we will be able to change the request made to the backed and change the response received from the backend before sending it to the client.
-		- Example: mapping the REST API to an API call on SQS Queue *so that SQS queue can understand the API call made by the API Gateway*.
-		- ![[attachments/Pasted image 20220526155102.png]]
+### HTTP/AWS (Lambda & AWS Services)
+- We must configure both the *integration request* and *integration response*
+- We can setup data mapping using **mapping templates** to modify the request & response.
+	- This means we will be able to change the request made to the backed and change the response received from the backend before sending it to the client.
+	- Example: mapping the REST API to an API call on SQS Queue *so that SQS queue can understand the API call made by the API Gateway*.
+	- ![[attachments/Pasted image 20220526155102.png]]
 
-- Integration Type **AWS_PROXY (Lambda Proxy)**
-	- Incoming request from the client is the input to Lambda
-	- The **function is responsible for the logic of request/response**. 
-	- *All the work is done on the backend* and API Gateway is there just to proxy the request.
-	- *No mapping template*, headers, query string parameters, etc are *passed as arguments*
-		- ![[attachments/Pasted image 20220526155343.png]]
-		- ![[attachments/Pasted image 20220526155113.png]]
+### AWS_PROXY (Lambda Proxy)
+- Incoming request from the client is the input to Lambda
+- The **function is responsible for the logic of request/response**. 
+- *All the work is done on the backend* and API Gateway is there just to proxy the request.
+- *No mapping template*, headers, query string parameters, etc are *passed as arguments*
+	- ![[attachments/Pasted image 20220526155343.png]]
+	- ![[attachments/Pasted image 20220526155113.png]]
 
-- Integration Type **HTTP_PROXY**
-	- *No mapping template*
-	- The HTTP request is passed to the backend
-	- The HTTP response from the backend is forwarded by API Gateway
-	- API Gateway is used just to proxy the request
-		- ![[attachments/Pasted image 20220526155619.png]]
+### HTTP_PROXY
+- *No mapping template*
+- The HTTP request is passed to the backend
+- The **HTTP response from the backend is forwarded by API Gateway**
+- API Gateway is used just to proxy the request
+	- ![[attachments/Pasted image 20220526155619.png]]
 
 ## Mapping Templates
 - So *mapping templates* can only be used if we use HTTP/AWS services **without proxy**.

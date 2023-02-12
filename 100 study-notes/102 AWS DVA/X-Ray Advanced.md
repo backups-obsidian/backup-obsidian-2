@@ -1,6 +1,6 @@
 ---
 created: 2022-05-19 15:50
-updated: 2022-05-19 16:54
+updated: 2023-02-10 08:52
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -21,6 +21,8 @@ updated: 2022-05-19 16:54
 - We can also specify the **matching criteria** which determines *what requests to match*.
 
 > [!note] You can very quickly change the sampling rules from the X-Ray console and there is *no need of restarting the application*. Daemon knows how to fetch the new sampling rules.
+
+> [!tip]- If you are *getting a huge AWS bill* for AWS X-Ray then try *enabling sampling*.
 
 ## X-Ray APIs
 ### X-Ray Write APIs 
