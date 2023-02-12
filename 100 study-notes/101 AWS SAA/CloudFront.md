@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 10:02
-updated: 2023-02-11 19:01
+updated: 2023-02-11 19:32
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -44,6 +44,8 @@ updated: 2023-02-11 19:01
 > [!caution] All the CloudFront origins must be **publicly** accessible.
 
 - Remember there are *2 main origins*, HTTP and S3.
+
+> [!note]- CloudFront can be **configured with multiple origins** to serve both static and dynamic content at low latency to global users.
 
 ### S3 Origin
 - For the edge location to access the S3 bucket it uses an **OAI (origin access identity)**. It is an *IAM role for the CloudFront origin*.

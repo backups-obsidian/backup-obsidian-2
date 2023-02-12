@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 12:39
-updated: 2023-02-10 10:38
+updated: 2023-02-11 20:11
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -8,10 +8,10 @@ updated: 2023-02-10 10:38
 
 ---
 - *Visual Workflow* to **orchestrate your CICD**
-- **Sources**:
-	- *CodeCommit* 
+- *Sources*:
+	- **CodeCommit** 
 	- *ECR* 
-	- *S3*
+	- **S3**
 	- *GitHub*
 
 - *Build*: *CodeBuild*, Jenkins, CloudBees, TeamCity

@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-06-09 15:01
+updated: 2023-02-11 21:56
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -66,6 +66,10 @@ updated: 2022-06-09 15:01
 		- *Instances in a peered VPC*.
 		- AWS *resources that are addressable by IP address and port*.
 		- *On-premises resources linked to AWS* through **Direct Connect** or a **VPN connection**.
+
+> [!important]- Specifying targets based on **instance IDs** and **IP addresses**.
+> - If you specify targets using an **instance ID**, traffic is routed to instances using the **primary private IP** address specified in the primary network interface for the instance.
+> - If you specify targets using **IP addresses**, you can route traffic to an instance using **ANY private IP address** from one or more network interfaces. *This enables multiple applications on an instance to use the same port*.
 
 - Target groups **status codes**:
 	- *HTTP 500* - Internal server error: *network connectivity*.

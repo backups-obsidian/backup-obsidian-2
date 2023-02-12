@@ -1,6 +1,6 @@
 ---
 created: 2022-05-24 10:24
-updated: 2023-02-09 18:37
+updated: 2023-02-12 11:09
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -81,6 +81,9 @@ updated: 2023-02-09 18:37
 - *Native libraries* work: they *need to be compiled on Amazon Linux*
 
 > [!note]- AWS *SDK comes by default* with every Lambda function
+
+> [!question]- Your Lambda function must use the Node.js drivers to connect to your RDS PostgreSQL database in your VPC. How do you bundle your Lambda function to add the dependencies?
+> Put the function and the dependencies in one folder and **zip them together**.
 
 ## Lambda with CloudFormation
 - **Inline**: 

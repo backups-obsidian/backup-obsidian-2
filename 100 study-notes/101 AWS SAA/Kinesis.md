@@ -1,6 +1,6 @@
 ---
 created: 2022-04-25 16:24
-updated: 2023-02-10 10:27
+updated: 2023-02-11 19:31
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -42,7 +42,11 @@ updated: 2023-02-10 10:27
 - **Producers**:
 	- *AWS SDK*
 	- *Kinesis Producer Library* (KPL)
-	- *Kinesis Agent*
+	- *Kinesis Agent*:
+		- Standalone Java application that offers an **easy way** to collect and send data to Kinesis Data Streams.
+		- It does a lot of things like log file rotation, retry upon failures, pre process the records before sending etc. 
+
+> [!tip] Ease of usage: **Kinesis Agent** > KPL > AWS SDK.
 
 - **Consumers**:
 	- *Write your own*: 

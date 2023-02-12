@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 12:39
-updated: 2023-02-09 14:48
+updated: 2023-02-11 20:09
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -41,3 +41,9 @@ updated: 2023-02-09 14:48
 - This is useful when you don't need ordering of all the messages but want ordering of messages for a particular ID.
 
 > [!important] You can have **as many consumers as MessageGroupID** for your SQS FIFO queues.
+
+## Miscellaneous
+> [!question]- An Amazon Simple Queue Service (SQS) has to be configured between two AWS accounts for shared access to the queue. AWS account *A has the SQS queue* in its account and AWS account *B has to be given access to this queue*.
+> - The account A administrator creates an IAM role and attaches a permissions policy—that grants permissions on resources in account A—to the role.
+> - The *account A administrator attaches a trust policy to the role that identifies account B as the principal* who can assume the role.
+> - The account *B administrator delegates the permission to assume the role to any users in account B*. This allows users in account B to create or access queues in account A.
