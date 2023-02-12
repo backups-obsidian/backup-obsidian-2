@@ -1,13 +1,12 @@
 ---
 created: 2022-05-30 12:29
-updated: 2023-02-09 19:27
+updated: 2023-02-10 10:41
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
+**Keywords**: *state machines*, *multiple lambdas*, *inventory management*, order *tracking*, *decisions*, *steps*.
 
 ---
-> [!note] Keywords: *state machines*, *multiple lambdas*, *inventory management*, order *tracking*.
-
 ## Step Functions
 - It allows us to **model our workflow as state machines**.
 - Use cases:
@@ -111,3 +110,4 @@ updated: 2023-02-09 19:27
 	- **Standard workflows** can run upto **1 year**.
 	- ![[attachments/Pasted image 20220530141934.png]]
 
+> [!note] If you need **human approval** then go for **Standard workflows**.

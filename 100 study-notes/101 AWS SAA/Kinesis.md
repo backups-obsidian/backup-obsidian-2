@@ -1,6 +1,6 @@
 ---
 created: 2022-04-25 16:24
-updated: 2023-02-09 19:21
+updated: 2023-02-10 10:27
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -58,9 +58,10 @@ updated: 2023-02-09 19:21
 
 > [!note] Keywords: 
 > - *real-time*: **KDF is near real time so if the question mentions realtime then go for KDS**.
-> - *replay* 
+> - *replay* (data retention in days)
 > - *deduplication*
 > - *clickstream*
+> - *downstream systems*
 
 ## Kinesis Data Firehose
 - **Load streaming data** into AWS data stores and analytics tools.

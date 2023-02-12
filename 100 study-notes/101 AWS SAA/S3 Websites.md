@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-04-23 10:53
+updated: 2023-02-10 10:12
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -54,3 +54,6 @@ updated: 2022-04-23 10:53
 	- ![[attachments/Pasted image 20220423105230.png]]
 - We can allow a specific origin or all the origins (\*)
 - The CORS headers have to be **defined on the cross origin bucket** and not the website bucket.
+
+ > [!question]- A digital marketing company has its *website* hosted on an Amazon S3 *bucket A*. The development team notices that the *web fonts* that are hosted on another S3 *bucket B* are not loading on the website.
+ > Configure **CORS on the bucket B** that is hosting the web fonts *to allow Bucket A origin to make the requests*.

@@ -1,6 +1,6 @@
 ---
 created: 2022-04-17 15:43
-updated: 2022-05-14 11:05
+updated: 2023-02-10 08:54
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -28,3 +28,5 @@ updated: 2022-05-14 11:05
 	- 500 shards with single master
 	- 250 shards with master and replica. Since 250 x 2
 	- 83 shards with one master and 5 replicas. Since 83 x 6 = 498
+
+> [!note]- If the cluster mentions *high availability* then go with *cluster mode*.

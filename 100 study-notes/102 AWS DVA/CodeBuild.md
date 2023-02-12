@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 16:54
-updated: 2023-02-09 18:30
+updated: 2023-02-10 08:47
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -9,6 +9,7 @@ updated: 2023-02-09 18:30
 ## CodeBuild
 - **Fully managed**.
 	- No servers to provision.
+- CodeBuild **scales automatically**, the organisation does not have to do anything for scaling or for parallel builds.
 - **Alternative to Jenkins**.
 - **Source**: 
 	- *CodeCommit* 

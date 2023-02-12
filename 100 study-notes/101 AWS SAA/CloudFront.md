@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 10:02
-updated: 2022-05-15 11:18
+updated: 2023-02-11 19:01
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -36,8 +36,8 @@ updated: 2022-05-15 11:18
 	- CloudFront can be used as an ingress (to upload files to S3)
 
 - **Custom Origin (HTTP)**
-	- Application Load Balancer
-	- EC2 instance
+	- **Application Load Balancer**
+	- **EC2 instance**
 	- *S3 website* (must first enable the bucket as a static S3 website)
 	- *Any HTTP backend you want*. It can also point to **on premises server**.
 

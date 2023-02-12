@@ -1,12 +1,13 @@
 ---
 created: 2022-04-19 19:08
-updated: 2022-05-14 09:41
+updated: 2023-02-10 09:34
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
 **Recommended Reads**: [[../102 AWS DVA/ElastiCache DVA | ElastiCache DVA]]
 
 ---
+> [!tip]- Amazon ElastiCache can be used to **significantly improve latency and throughput for many read-heavy application workloads** (such as social networking, gaming, media sharing, and Q&A portals) or **compute-intensive workloads** (such as a recommendation engine).
 
 ## Introduction
 - It is **managed Redis** or **memcached**.

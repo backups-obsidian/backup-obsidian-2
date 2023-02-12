@@ -1,9 +1,10 @@
 ---
 created: 2022-05-16 12:39
-updated: 2022-05-17 14:00
+updated: 2023-02-10 10:38
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
+**Keywords**: *Manual approval*, *orchestration*
 
 ---
 - *Visual Workflow* to **orchestrate your CICD**

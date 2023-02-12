@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-06-09 14:51
+updated: 2023-02-10 10:50
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -53,6 +53,10 @@ updated: 2022-06-09 14:51
 - Important: CloudWatch Accepts metric data points **two weeks in the past** and **two hours in the future** (make sure to configure your EC2 instance time correctly)
 
 > [!note] To remember *Normal Metrics*: **Detailed (1 m)**, *Custom Metrics*: **Resolution (1 s)**, *Alarms*: **Resolution (10 s)**
+
+> [!question]- A telecommunications company that provides internet service for mobile device users maintains over 100 c4.large instances in the us-east-1 region. The EC2 instances run complex algorithms. The manager would like to track CPU utilisation of the EC2 instances as frequently as every 10 seconds.
+> *Create a high-resolution custom metric and push the data* using a script triggered every 10 seconds.
+> A high resolution custom metric has to be created since detailed monitoring can only happen at 1 minute intervals.
 
 ## Dashboards
 - We can create custom dashboards for quick access to key metrics and alarms.

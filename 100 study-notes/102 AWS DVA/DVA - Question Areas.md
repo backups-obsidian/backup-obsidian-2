@@ -1,18 +1,12 @@
 ---
 created: 2023-02-06 22:18
-updated: 2023-02-09 19:58
+updated: 2023-02-11 19:06
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
 
 ---
 ## Question Areas
-- EC2 - Instance purchasing options
-- Elastic Load Balancer - For extent check in video
-- NACLs and SGs
-- IAM
-- Scaling policies
-- Health checks load balancers and ASG
 
 ## Extra Notes
 - Elastic Load balancer *cannot balance between regions*.
@@ -52,3 +46,27 @@ updated: 2023-02-09 19:58
 > - Create another role (instance profile) in Account A and attach it to the EC2 instances in Account A and add an inline policy to this role to assume the role from Account B.
 
 - RDS **Postgres** and **MySQL** IAM database authentication.
+- Scalable solution to make the application tier stateless and outsource the session information - ElastiCache
+- *Long-lived TCP connections* between clients and instances cause *uneven traffic load distribution by design*.
+- **S3 Object Ownership** is an Amazon S3 bucket setting that you can use to control *ownership of new objects that are uploaded to your buckets*. 
+	- **By default**, when other AWS accounts upload objects to your bucket, the objects remain owned by the **uploading account**. 
+	- With **S3 Object Ownership**, any new objects that are written by other accounts with the `bucket-owner-full-control` canned access control list (ACL) *automatically become owned by the bucket owner*, who then has full control of the objects.
+	- S3 Object Ownership has *two settings*: 
+		- **Object writer** – The **uploading account** will own the object. 
+		- **Bucket owner preferred** – The **bucket owner** will own the object if the object is uploaded with the `bucket-owner-full-control` canned ACL. 
+		- *Without this setting and canned ACL, the object is uploaded and remains owned by the uploading account*.
+- We can use SSM parameter store if we don't want to redeploy the application and just to change some environment variables.
+- Use **CloudWatch Events + Lambda** for running **periodic jobs**.
+
+> [!note]- **Adding read replicas will NOT help in reducing latency** when compared to a caching solution.
+
+- *Lambda*, *IAM* and *Cognito* services are all available as HTTP APIs in API Gateway.
+	- AWS Web Application Firewall (AWS WAF) however, is only available in REST APIs.
+
+- For RDS **automated backups** are limited to a **single AWS Region** while **manual snapshots** and **Read Replicas** are supported across **multiple Regions**.
+
+- Customers may use four mechanisms for controlling access to Amazon S3 resources:
+	- IAM policies
+	- Bucket policies
+	- ACLs
+	- **Query string authentication (presigning URLS)**

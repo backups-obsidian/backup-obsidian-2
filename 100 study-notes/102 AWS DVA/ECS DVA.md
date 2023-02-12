@@ -1,6 +1,6 @@
 ---
 created: 2022-05-15 11:30
-updated: 2023-02-09 14:53
+updated: 2023-02-10 10:21
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -8,7 +8,10 @@ updated: 2023-02-09 14:53
 
 ---
 ## Miscellaneous
-- If you *terminate a container instance* while it is in the *STOPPED* state, that container instance *isn't automatically removed from the cluster*. You will need to remove your container instance in the STOPPED state by using the Amazon ECS console or AWS Command Line Interface. 
+- If you *terminate a container instance* while it is in the 
+	- **STOPPED** state, that container instance **ISN'T automatically removed from the cluster**. 
+		- You will need to remove your container instance in the STOPPED state by using the Amazon ECS console or AWS Command Line Interface. 
+	- **RUNNING** state that container instance is **automatically removed**, or deregistered, from the cluster. 
 
 > [!question]- Question related to *cluster name parameter*
 > You are working for a shipping company that is automating the creation of ECS clusters with an Auto Scaling Group using an AWS CloudFormation template that accepts cluster name as its parameters. *Initially*, you launch the template with *input value 'MainCluster'*, which deployed five instances across two availability zones. The *second time, you launch the template with an input value 'SecondCluster'*. However, the instances created in the second run *were also launched in 'MainCluster'* even after specifying a different cluster name. What is the root cause of this issue?
@@ -17,6 +20,8 @@ updated: 2023-02-09 14:53
 > - In the `ecs.config` file you have to configure the parameter `ECS_CLUSTER=your_cluster_name` to *register the container instance with a cluster named your_cluster_name*.
 
 - Logging into ECR: `$(aws ecr get-login--no-include-email)` 
+- Location of the config file `/etc/ecs/ecs.config`
+	- We can configure the parameter `ECS_CLUSTER='your_cluster_name'` to register the container instance with a cluster named `'your_cluster_name'`
 
 ## ECS Tasks and Services 
 - When we create an *ECS cluster* we specify the *launch types* (by default fargate is selected), VPC and subnets to be used.

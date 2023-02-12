@@ -1,6 +1,6 @@
 ---
 created: 2022-05-30 14:40
-updated: 2023-02-09 18:32
+updated: 2023-02-11 19:09
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -28,6 +28,9 @@ updated: 2023-02-09 18:32
 	- `OPENID_CONNECT`: OpenID Connect provider / *JSON Web Token*
 	- `AMAZON_COGNITO_USER_POOLS`
 - For *custom domain & **HTTPS, use CloudFront** in front of AppSync*
+
+## DataSync
+![[../101 AWS SAA/DataSync & Backup#DataSync]]
 
 ## Amplify
 - It is used to **create mobile and web applications**.

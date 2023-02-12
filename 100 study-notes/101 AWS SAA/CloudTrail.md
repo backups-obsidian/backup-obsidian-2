@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-06-09 12:22
+updated: 2023-02-10 09:23
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -61,6 +61,6 @@ updated: 2022-06-09 12:22
 - *Insights also generates events* like management and data events.
 
 ## Organisational Trails
-- You can create a CloudTrail trail in the *management account with the organisation trails option enabled* and this will create the trail in all AWS accounts within the organisation.
+- You can create a CloudTrail trail in the *management account with the organisation trails option enabled* and this **will create the trail in all AWS accounts** within the organisation.
 - Member accounts _**can see the organisation trail** but can't modify or delete it_. 
-- By *default, member accounts don't have access to the log files* for the organisation trail in the Amazon S3 bucket.
+- By **default, member accounts don't have access to the log files** for the organisation trail in the Amazon S3 bucket.

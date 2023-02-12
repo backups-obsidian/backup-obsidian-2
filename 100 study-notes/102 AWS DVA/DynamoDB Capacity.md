@@ -1,12 +1,15 @@
 ---
 created: 2022-05-25 12:27
-updated: 2023-02-01 09:39
+updated: 2023-02-10 10:31
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
 
 ---
 - For different capacity modes read [[../101 AWS SAA/DynamoDB#Read and Write Capacity Modes|capacity modes]].
+
+> [!important] RCU and WCU are **specific to a table**.
+
 ## WCU Calculation
 - One Write Capacity Unit (WCU) represents **one write per second for an item up to 1 KB** in size.
 - If the items are larger than KB, more WCUs are consumed

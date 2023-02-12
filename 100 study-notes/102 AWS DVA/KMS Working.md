@@ -1,6 +1,6 @@
 ---
 created: 2022-06-01 11:42
-updated: 2023-02-09 18:10
+updated: 2023-02-10 10:36
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -54,6 +54,9 @@ updated: 2023-02-09 18:10
 > [!note] If you don't need to perform envelope encryption immediately then use *GenerateDataKeyWithoutPlaintext*
 
 > [!important]- For encrypting EBS we need access to 2 APIs: `GenerateDataKeyWithoutPlaintext` and `Decrypt`
+
+> [!question]- A development team has created a new IAM user that has `s3:putObject` permission to write to an S3 bucket. This S3 bucket uses server-side encryption with AWS KMS managed keys (SSE-KMS) as the default encryption. Using the access key ID and the secret access key of the IAM user, the application received an access denied error when calling the `PutObject` API.
+> Correct the policy of the IAM user to allow the `kms:GenerateDataKey` action.
 
 ## SSE KMS Deep Dive
 - SSE-KMS leverages the *GenerateDataKey* & *Decrypt* KMS API calls

@@ -1,15 +1,58 @@
 ---
 created: 2022-04-17 15:43
-updated: 2023-02-09 19:56
+updated: 2023-02-11 19:07
 ---
 ---
 **Links**: [[../100 home | 100 Home]]
 **Recommended Reads**: [[../101 AWS SAA/101 AWS SAA Index | AWS SAA Index]]
 
 ---
+## IAM
+[[../101 AWS SAA/Miscellaneous | IAM Miscellaneous]]
+[[../101 AWS SAA/IAM Basics | IAM Basics]]
+
+## EC2
+[[../101 AWS SAA/EC2 Basics | EC2 Basics]]
+[[../101 AWS SAA/EC2 Instance Purchasing Options | EC2 Instance Purchasing Options]]
+[[../101 AWS SAA/EC2 EBS | EC2 EBS]] - IOPS calculation is important
+[[../101 AWS SAA/EC2 AMI | EC2 AMI]]
+[[../101 AWS SAA/Instance store | Instance Store]]
+[[../101 AWS SAA/EFS | EFS]]
+
+## ASG
+[[../101 AWS SAA/ASG | ASG]]
+[[../101 AWS SAA/Scaling Policies | ASG Scaling Policies]]
+
+## ELB
+[[../101 AWS SAA/ELB | ELB]]
+[[../101 AWS SAA/Types of ELBs | Types of ELBs]]
+[[../101 AWS SAA/Stickiness, Cross zone balancing & Connection Draining | Stickiness, Cross zone balancing and Connection Draining]]
+
 ## Databases
+[[../101 AWS SAA/RDS | RDS]]
+[[../101 AWS SAA/RDS Read Replica & Multi AZ | RDS Read Replica and Multi AZ]]
+[[../101 AWS SAA/RDS Security | RDS Security]]
+[[../101 AWS SAA/Aurora | Aurora]]
+[[../101 AWS SAA/ElastiCache | ElastiCache]]
 [[ElastiCache DVA]]
 [[ElasticCache Replication]]
+
+## Route53
+[[../101 AWS SAA/Route53 | Route53]]
+[[../101 AWS SAA/Route53 Routing Policies | Route53 Routing Policies]]
+[[../101 AWS SAA/Route53 Health Checks | Route53 Health Checks]]
+
+## VPC
+[[../101 AWS SAA/VPC Internet Access | VPC Internet Access]]
+[[../101 AWS SAA/NACLs | NACLs]]
+[[../101 AWS SAA/VPC Peering and Endpoints | VPC Peering and Endpoints]]
+
+- Summary:
+	- ![[attachments/Pasted image 20230211180311.png]]
+
+## S3
+![[../101 AWS SAA/101 AWS SAA Index#S3]]
+[[S3 Access Points]]
 
 ## Extra
 [[CLI]]
@@ -25,6 +68,7 @@ updated: 2023-02-09 19:56
 [[ECS DVA]]
 
 ## ElasticBeanstalk
+[[../101 AWS SAA/ElasticBeanstalk | ElasticBeanstalk]]
 [[ElasticBeanstalk DVA]]
 [[ElasticBeanstalk Deployment Modes]]
 [[ElasticBeanstalk Docker]]
@@ -89,6 +133,7 @@ Three ways in which Lambda processes events
 [[Lambda Performance]]
 
 ### Miscellaneous
+- We use *DLQs/Destinations* with Lambda in **asynchronous** and **event source mapping**.
 - For *logging*:
 	- For *each lambda a log group* is created. 
 	- The logs are then grouped into streams. We can find the logs if we go inside a particular stream.
@@ -166,19 +211,4 @@ Three ways in which Lambda processes events
 - Exam tips from AWS
 	- [How to prepare for AWS Developer Associate Exam in 7 Weeks! Recommended courses and preparation tips - YouTube](https://www.youtube.com/watch?v=iTMClgY1heA) - starting part
 - I can get an AWS practice exam for free since I have previously cleared an AWS exam. 
-
----
-[[../101 AWS SAA/NACLs | NACLs]]
-[[../101 AWS SAA/EC2 Instance Purchasing Options | EC2 Instance Purchasing Options]]
-[[../101 AWS SAA/Miscellaneous | IAM Miscellaneous]]
-[[../101 AWS SAA/IAM Basics | IAM Basics]]
-[[../101 AWS SAA/Route53 | Route53]]
-[[../101 AWS SAA/EC2 Basics | EC2 Basics]]
-[[../101 AWS SAA/Route53 Routing Policies | Route53 Routing Policies]]
-[[../101 AWS SAA/S3 Encryption | S3 Encryption]]
-[[../101 AWS SAA/ELB | ELB]]
-[[../101 AWS SAA/VPC Internet Access | VPC Internet Access]]
-[[../101 AWS SAA/EC2 EBS | EC2 EBS]] - IOPS calculation.
-[[../101 AWS SAA/ASG | ASG]]
-[[../101 AWS SAA/VPC Flow Logs | VPC Flow Logs]]
-[[../101 AWS SAA/VPC Peering and Endpoints | VPC Peering and Endpoints]]
+- [AWS-Certified-Developer-Associate_Exam-Guide_C02.pdf (awsstatic.com)](https://d1.awsstatic.com/training-and-certification/docs-dev-associate/AWS-Certified-Developer-Associate_Exam-Guide_C02.pdf)
