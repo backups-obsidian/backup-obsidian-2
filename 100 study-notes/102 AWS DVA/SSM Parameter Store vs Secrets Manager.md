@@ -1,6 +1,6 @@
 ---
 created: 2022-05-30 09:35
-updated: 2023-02-09 09:08
+updated: 2023-02-11 22:41
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -24,6 +24,7 @@ updated: 2023-02-09 09:08
 	- Simple API
 	- No secret rotation (*can enable rotation using Lambda triggered by CW Events*)
 	- **KMS encryption is optional**
+	- Encrypted secrets using **SecureString**.
 	- *Can pull a Secrets Manager secret using the SSM Parameter Store API*
 
 - Both of these services can integrate with CloudFormation

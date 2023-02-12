@@ -1,6 +1,6 @@
 ---
 created: 2022-04-17 15:43
-updated: 2023-02-11 19:07
+updated: 2023-02-11 19:23
 ---
 ---
 **Links**: [[../100 home | 100 Home]]
@@ -54,7 +54,7 @@ updated: 2023-02-11 19:07
 ![[../101 AWS SAA/101 AWS SAA Index#S3]]
 [[S3 Access Points]]
 
-## Extra
+## CLI and AWS Limits
 [[CLI]]
 [[AWS Limits]]
 

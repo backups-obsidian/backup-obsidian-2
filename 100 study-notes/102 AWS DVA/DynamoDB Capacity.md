@@ -1,6 +1,6 @@
 ---
 created: 2022-05-25 12:27
-updated: 2023-02-10 10:31
+updated: 2023-02-11 21:31
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -31,7 +31,9 @@ updated: 2023-02-10 10:31
 	- **slightly higher latency**.
 
 ### RCU Calculation
-- **One** Read Capacity Unit (RCU) represents *one Strongly Consistent Read per second*, or *two Eventually Consistent Reads per second*, for an item up to **4 KB** in size
+- **1** Read Capacity Unit (RCU) represents 
+	- **1 Strongly Consistent** Read per second, or 
+	- **2 Eventually Consistent** Reads per second, for an item up to **4 KB** in size
 - If the *items are larger than 4 KB*, more RCUs are consumed *rounded up to the next multiple of 4 KB*.
 - Example:
 	- 10 Strongly Consistent Reads per second, with item size 4 KB: `10 RCUs`

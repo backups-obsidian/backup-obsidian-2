@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 12:39
-updated: 2022-05-25 17:22
+updated: 2023-02-11 22:56
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -10,7 +10,8 @@ updated: 2022-05-25 17:22
 - **Alternative Sort Key** for your table (**same Partition Key** as that of base table)
 - The Sort Key consists of one scalar attribute (String, Number, or Binary)
 - *Up to 5 Local Secondary Indexes* per table
-- **Must be defined at table creation time**
+- **Must be defined at table creation time**.
+	- To remember this remember global can be created any time hence global.
 - *Attribute Projections* - can contain *some or all the attributes of the base table* (KEYS_ONLY, INCLUDE, ALL)
 
 > [!example]- Example:

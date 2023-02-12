@@ -66,9 +66,22 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "e44c92049672c929",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100 study-notes/102 AWS DVA/ElastiCache DVA.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -87,7 +100,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "path:saa \"DataSync\"",
+                "query": "path:dva \"deploy\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -143,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/102 AWS DVA/DVA - Question Areas.md",
+                "file": "100 study-notes/102 AWS DVA/ElastiCache DVA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/102 AWS DVA/DVA - Question Areas.md"
+                "file": "100 study-notes/102 AWS DVA/ElastiCache DVA.md"
               }
             }
           },
@@ -170,7 +183,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/102 AWS DVA/DVA - Question Areas.md",
+                "file": "100 study-notes/102 AWS DVA/ElastiCache DVA.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -236,17 +249,17 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "a1e9959ebdb79815",
+  "active": "e44c92049672c929",
   "lastOpenFiles": [
-    "100 study-notes/102 AWS DVA/Other Services DVA.md",
     "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
-    "100 study-notes/101 AWS SAA/101 AWS SAA Index.md",
-    "100 study-notes/102 AWS DVA/DVA - Question Areas.md",
-    "100 study-notes/101 AWS SAA/DataSync & Backup.md",
-    "100 study-notes/101 AWS SAA/Miscellaneous.md",
-    "100 study-notes/101 AWS SAA/CloudFront.md",
-    "100 study-notes/102 AWS DVA/CloudFront DVA.md",
-    "100 study-notes/101 AWS SAA/CloudFront Advanced.md",
-    "100 study-notes/101 AWS SAA/S3.md"
+    "100 study-notes/102 AWS DVA/Lambda Configuration & Deployments.md",
+    "600 rough/Rough.md",
+    "100 study-notes/102 AWS DVA/DynamoDB Indexes.md",
+    "100 study-notes/102 AWS DVA/SSM Parameter Store vs Secrets Manager.md",
+    "100 study-notes/102 AWS DVA/ElasticCache Replication.md",
+    "100 study-notes/101 AWS SAA/Types of ELBs.md",
+    "100 study-notes/101 AWS SAA/ELB.md",
+    "100 study-notes/102 AWS DVA/DynamoDB Capacity.md",
+    "100 study-notes/102 AWS DVA/CodePipeline.md"
   ]
 }
