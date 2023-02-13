@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 12:39
-updated: 2023-02-09 09:05
+updated: 2023-02-12 18:38
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -15,6 +15,9 @@ updated: 2023-02-09 09:05
 - Security (encrypted, access control, etc)
 - Integrated with Jenkins, AWS CodeBuild, and other CI tools
 - You can setup **SNS/Lambda** to do a *code analysis after each commit*.
+
+> [!question]- Your organisation has developers that merge code changes regularly to an AWS CodeCommit repository. Your pipeline has AWS CodeCommit as the source and you would like to configure a rule that reacts to changes in CodeCommit.
+> Use CloudWatch Event rules 
 
 ## Security
 - **Authentication**: **3 ways** (2 HTTPS, 1 SSH)

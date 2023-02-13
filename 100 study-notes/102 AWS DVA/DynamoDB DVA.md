@@ -1,6 +1,6 @@
 ---
 created: 2022-05-25 10:53
-updated: 2022-06-08 16:30
+updated: 2023-02-12 17:25
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -80,10 +80,12 @@ updated: 2022-06-08 16:30
 	- `--max-items`: max number of items to fetch (returns `NextToken`)
 		- If you want to retrieve only 25 items from a table of 100 items we use `--max-items`. 
 		- ![[attachments/Pasted image 20220525160538.png]]
-	- `--starting-token`: specify the last `NextToken` to *retrieve the next set of items*
-		- Once we have the `NextToken` we use it as an argument to `--starting-token` along with `--max-items`
+	- `--starting-token`: specify the last NextToken to *retrieve the next set of items*
+		- Once we have the NextToken we use it as an argument to `--starting-token` along with `--max-items`
 		- If we don't have any next token then this means we are at the end.
 		- ![[attachments/Pasted image 20220525160838.png]]
+
+> [!note]- For pagination we can either use `--page-size` or **use `--max-items` with `--starting-token`**.
 
 ## DynamoDB Transactions
 - Coordinated, **all-or-nothing operations** (add/update/delete) to multiple items across one or more tables.

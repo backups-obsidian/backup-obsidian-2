@@ -1,14 +1,18 @@
 ---
 created: 2022-04-23 10:36
-updated: 2022-05-02 15:21
+updated: 2023-02-12 19:22
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
 
 ---
 ## Strongly consistent
-- All S3 *GET, PUT, and LIST* operations, as well as operations that change object tags, ACLs, or metadata, are *strongly consistent*. **What you write is what you will read**, and the results of a LIST will be an accurate reflection of what’s in the bucket.
+- All S3 *GET, PUT, DELETE, and LIST* (**object** level) operations, as well as operations that change object tags, ACLs, or metadata, are *strongly consistent*. 
+	- **What you write is what you will read**, and the results of a LIST will be an accurate reflection of what’s in the bucket.
 - For example:  A process replaces an existing object and immediately tries to read it. Amazon S3 always returns the latest version of the object.
+
+> [!caution]- **Bucket configurations have an eventual consistency model**. 
+> If you delete a bucket and immediately list all buckets, the deleted bucket might still appear in the list.
 
 ## Scaling Requests
 - Your application can achieve **at least 3,500 PUT/COPY/POST/DELETE** and **5,500 GET/HEAD requests per second per prefix in a bucket**.

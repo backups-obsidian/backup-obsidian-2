@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 12:39
-updated: 2023-01-30 18:59
+updated: 2023-02-12 18:28
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -51,6 +51,9 @@ updated: 2023-01-30 18:59
 > - Use **highly distributed partition key** to avoid hot partition. For example using browsers as partition keys is not a good choice since a lot of people use Google Chrome this would overwhelm a particular shard.
 > ---
 > ![[attachments/Pasted image 20220520160144.png]]
+
+> [!question]- What happens if the capacity limits of an Amazon Kinesis data stream are exceeded while the data producer adds data to the data stream?
+> The put data calls will be rejected with a `ProvisionedThroughputExceeded` exception.
 
 - Solutions for `ProvisionedThroughputExceeded`
 	- Use **highly distributed partition key**

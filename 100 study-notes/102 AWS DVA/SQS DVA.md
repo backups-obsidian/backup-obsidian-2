@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 12:39
-updated: 2023-02-11 20:09
+updated: 2023-02-12 11:47
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -41,6 +41,9 @@ updated: 2023-02-11 20:09
 - This is useful when you don't need ordering of all the messages but want ordering of messages for a particular ID.
 
 > [!important] You can have **as many consumers as MessageGroupID** for your SQS FIFO queues.
+
+> [!question]- You are using AWS SQS FIFO queues to get the ordering of messages on a per `user_id` basis. As a developer, which message parameter should you set the value of `user_id` to guarantee the ordering?
+> `MessageGroupID`
 
 ## Miscellaneous
 > [!question]- An Amazon Simple Queue Service (SQS) has to be configured between two AWS accounts for shared access to the queue. AWS account *A has the SQS queue* in its account and AWS account *B has to be given access to this queue*.

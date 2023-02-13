@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 10:21
-updated: 2023-02-09 14:07
+updated: 2023-02-12 17:19
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -14,7 +14,7 @@ updated: 2023-02-09 14:07
 
 - We have a CLI specific to BeanStalk known as *EB CLI*. It can be helpful to automate the deployments.
 	- It helps us increase our efficiency when compared to the normal AWS CLI.
-- You can run cron jobs in EB by defining a `cron.yaml` file and using the [[../101 AWS SAA/ElasticBeanstalk#Web vs Worker Tier|Worker Environment]] 
+- You can run **cron jobs** in EB by defining a **`cron.yaml`** file and using the [[../101 AWS SAA/ElasticBeanstalk#Web vs Worker Tier|Worker Environment]] 
 
 > [!caution] All the *source bundles* (code *zip files* for deployment) are stored in **S3**.
 
@@ -103,9 +103,9 @@ updated: 2023-02-09 14:07
 
 ## Using HTTPS
 ### Beanstalk with HTTPS
-- Idea: *Load the SSL certificate onto the Load Balancer*
+- Idea: **Load the SSL certificate onto the Load Balancer**
 - Can be done from the Console (EB console, load balancer configuration)
-- Can be done from the code: `.ebextensions/securelistener-alb.config`
+- Can be done from the code: **`.ebextensions/securelistener-alb.config`**
 - SSL Certificate *can be provisioned using ACM* (AWS Certificate Manager) or CLI
 - Must *configure a security group rule to allow incoming port 443* (HTTPS port)
 
