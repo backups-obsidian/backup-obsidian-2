@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 16:54
-updated: 2023-02-10 08:47
+updated: 2023-02-12 11:26
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -52,7 +52,7 @@ updated: 2023-02-10 08:47
 - We can define *env variables* either in *plain text* or we can use either *SSM Parameter Store* or *Secrets Manager*.
 - **phases**: specify **commands** to run. *install*, *pre_build*, *Build*, *post_build*.
 - **artifacts**: what to *upload to S3* 
-- *Encryption of artifacts with KMS*:
+- **Encryption of artifacts with KMS**:
 	- For AWS CodeBuild to encrypt its build output artifacts, it needs access to an AWS KMS customer master key (CMK). 
 	- By default, AWS CodeBuild uses the AWS-managed CMK for Amazon S3 in your AWS account. 
 	- To use encryption the following *environment variable* should be used: `CODEBUILD_KMS_KEY_ID`. 

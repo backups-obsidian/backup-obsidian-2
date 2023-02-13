@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2023-02-11 21:56
+updated: 2023-02-12 19:02
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -72,10 +72,12 @@ updated: 2023-02-11 21:56
 > - If you specify targets using **IP addresses**, you can route traffic to an instance using **ANY private IP address** from one or more network interfaces. *This enables multiple applications on an instance to use the same port*.
 
 - Target groups **status codes**:
-	- *HTTP 500* - Internal server error: *network connectivity*.
+	- *HTTP 403* - **Forbidden error**: *WAF* 
+	- *HTTP 500* - **Internal server error**: *network connectivity*.
 	- *HTTP 501* - Not implemented: *header with and unsupported value*.
 	- *HTTP 502* - Bad gateway: *TCP connection was closed*.
-	- *HTTP 503* - Service unavailable: *Target groups* have no registered targets
+	- **HTTP 503** - Service unavailable: *Target groups* have **no registered targets**
+	- *HTTP 504* - Gateway timeout:  
 
 ## Network Load Balancer
 

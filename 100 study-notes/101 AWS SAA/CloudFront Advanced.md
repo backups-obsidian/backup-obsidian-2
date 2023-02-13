@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2023-02-09 19:57
+updated: 2023-02-12 18:48
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -38,7 +38,11 @@ updated: 2023-02-09 19:57
 	- ![[attachments/Pasted image 20220424115007.png]]
 
 ## CloudFront Origin Failover
-- You can also set up CloudFront with *automatic origin failover* for scenarios that require high availability. An origin group may contain **two origins**: a primary and a secondary. If the primary origin is unavailable or returns specific HTTP response status codes that indicate a failure, CloudFront automatically switches to the secondary origin.
+- You can also set up CloudFront with *automatic origin failover* for scenarios that require high availability. 
+- An origin group may contain **two origins**: a primary and a secondary. 
+	- If the primary origin is unavailable or returns specific HTTP response status codes that indicate a failure, CloudFront automatically switches to the secondary origin.
+- CloudFront fails over to the *secondary origin* only when the HTTP method of the viewer request is **GET, HEAD, or OPTIONS**. 
+	- CloudFront *DOES NOT failover* when the viewer sends a different HTTP method (for example *POST, PUT, and so on*).
 
 > [!tip] To set up *origin failover*, you must have a distribution with **at least two origins**.
 

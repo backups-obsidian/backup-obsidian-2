@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2023-02-09 19:45
+updated: 2023-02-12 19:17
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -127,3 +127,12 @@ updated: 2023-02-09 19:45
 - The optimal usage of a table's provisioned throughput depends not only on the workload patterns of individual items, but also on the *partition-key design*.
 	- More the *distinct partition key values* that your workload accesses, the more those requests will be spread across the partitioned space. 
 	- Use *partition keys with high-cardinality attributes*, which have a **large number of distinct values** for each item.
+
+## Cross Account Access
+- DynamoDB **DOESN'T** have resource policies.
+
+> [!question]- The development team at a retail organisation wants to allow a *Lambda* function in its AWS Account *A* to access a *DynamoDB* table in another AWS Account *B*.
+> - You need to create an *execution role in Account A* that gives the Lambda function permission to do its work. 
+> - Then you need to create a *role in account B that the Lambda function in account A assumes to gain access to the cross-account DynamoDB table*. 
+> - Make sure that you *modify the trust policy of the role in Account B* to allow the execution role of Lambda to assume this role. 
+> - Finally, *update the Lambda function code to add the AssumeRole API call*.
