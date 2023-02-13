@@ -1,6 +1,6 @@
 ---
 created: 2022-05-25 10:53
-updated: 2023-02-12 17:25
+updated: 2023-02-13 16:35
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -86,6 +86,9 @@ updated: 2023-02-12 17:25
 		- ![[attachments/Pasted image 20220525160838.png]]
 
 > [!note]- For pagination we can either use `--page-size` or **use `--max-items` with `--starting-token`**.
+
+> [!question]- A company has a large Amazon DynamoDB table which they scan periodically so they can analyse several attributes. The scans are consuming a lot of provisioned throughput. What technique can a Developer use to *minimise the impact of the scan* on the table's provisioned throughput?
+> Set a **smaller page size** for the scan.
 
 ## DynamoDB Transactions
 - Coordinated, **all-or-nothing operations** (add/update/delete) to multiple items across one or more tables.

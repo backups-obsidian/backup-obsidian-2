@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 12:39
-updated: 2023-02-12 11:38
+updated: 2023-02-13 16:11
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -58,6 +58,9 @@ updated: 2023-02-12 11:38
 	- Increases the throughput and RCU consumed
 	- Limit the impact of parallel scans just like you would for Scans
 - Can use *ProjectionExpression* & *FilterExpression* (no changes to RCU)
+
+> [!question]- How to *scan* the whole table in the shortest possible time whilst ensuring the normal workload is not affected.
+> Use the **Parallel Scan API** operation and **limit** the rate.
 
 ## Deleting Data
 - `DeleteItem`

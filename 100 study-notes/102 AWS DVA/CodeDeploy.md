@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 12:39
-updated: 2023-02-09 13:03
+updated: 2023-02-13 15:59
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -40,6 +40,7 @@ updated: 2023-02-09 13:03
 
 #### In-place Deployment
 - Supports **EC2/On-Premises**
+	- **Not available for AWS Lambda and ECS**.
 - Updates the instances in the deployment group with the latest application revisions. During a deployment, *each instance will be briefly taken offline for its update*.
 	- ![[attachments/Pasted image 20220517100439.png]]
 
@@ -52,6 +53,9 @@ updated: 2023-02-09 13:03
 - Replaces the instances in the deployment group with *new instances* and deploys the latest application revision to them. After instances in the replacement environment are registered with load balancer, *instances from the original environment are deregistered and can be terminated*. 
 	- ![[attachments/Pasted image 20220517100450.png]]
 - Must have an *ASG* and *Load Balancer*.
+
+> [!question]- A Developer is setting up a code update to Amazon **ECS** using AWS CodeDeploy. The Developer needs to complete the code update quickly. Which of the following deployment types should the Developer use?
+> *Blue/Green* since we cannot use in-place for ECS.
 
 ### Permissions
 - **IAM Instance Profile**: give *EC2 instances* the permissions to *access both S3/GitHub*

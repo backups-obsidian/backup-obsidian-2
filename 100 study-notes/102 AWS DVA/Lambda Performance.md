@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 12:39
-updated: 2022-06-08 15:43
+updated: 2023-02-13 15:55
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -39,6 +39,11 @@ updated: 2022-06-08 15:43
 
 ## Concurrency
 - **Concurrency limit**: up to *1000* concurrent executions **for all the functions** in the per region.
+
+> [!note]- Concurrency calculations
+> To calculate the concurrency requirements for the Lambda function simply multiply the **number of executions per second** (20) by the **time it takes to complete the execution** (20).
+> Therefore, for this scenario, the calculation is 20 x 20 = 400.
+
 - We can set our own *limit* to the number of concurrent executions known as **reserved concurrency** at the function level.
 	- Each *invocation over the concurrency limit will trigger a Throttle*
 - Throttle behaviour:

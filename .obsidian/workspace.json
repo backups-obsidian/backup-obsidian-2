@@ -73,15 +73,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 study-notes/102 AWS DVA/DynamoDB Capacity.md",
-                "mode": "preview",
+                "file": "100 study-notes/102 AWS DVA/DynamoDB DVA.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -156,7 +155,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/102 AWS DVA/DynamoDB Capacity.md",
+                "file": "TODO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/102 AWS DVA/DynamoDB Capacity.md"
+                "file": "TODO.md"
               }
             }
           },
@@ -183,7 +182,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/102 AWS DVA/DynamoDB Capacity.md",
+                "file": "TODO.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -249,17 +248,17 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "d5e20fac0e6cca18",
+  "active": "2f0967eceee1fc48",
   "lastOpenFiles": [
+    "200 general-notes/Study List - Docker.md",
+    "200 general-notes/Study List.md",
+    "TODO.md",
+    "200 general-notes/Study List - DevOps.md",
+    "100 study-notes/102 AWS DVA/DynamoDB DVA.md",
     "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
-    "100 study-notes/102 AWS DVA/API Gateway Integration Types.md",
-    "100 study-notes/101 AWS SAA/CloudWatch.md",
-    "100 study-notes/102 AWS DVA/KMS Working.md",
-    "100 study-notes/102 AWS DVA/KMS DVA.md",
-    "100 study-notes/101 AWS SAA/Lambda.md",
-    "100 study-notes/101 AWS SAA/101 AWS SAA Index.md",
-    "100 study-notes/101 AWS SAA/CloudFront Advanced.md",
-    "100 study-notes/102 AWS DVA/Lambda Configuration & Deployments.md",
-    "600 rough/Rough.md"
+    "100 study-notes/102 AWS DVA/DynamoDB Basic APIs.md",
+    "100 study-notes/102 AWS DVA/ECS DVA.md",
+    "100 study-notes/101 AWS SAA/ECS.md",
+    "100 study-notes/102 AWS DVA/DVA - Question Areas.md"
   ]
 }

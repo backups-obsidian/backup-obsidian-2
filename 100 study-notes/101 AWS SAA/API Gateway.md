@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 19:08
-updated: 2023-02-09 13:06
+updated: 2023-02-13 15:43
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -90,6 +90,8 @@ updated: 2023-02-09 13:06
 
 ### Cognito User Pools
 - **Cognito fully manages user lifecycle**
+- Users can sign in either *directly through a user pool* or *federate through a third-party* identity provider **(IdP)**. 
+	- The user pool manages the overhead of handling the tokens that are returned from social sign-in through Facebook, Google, Amazon, and Apple, and from **OpenID Connect (OIDC)** and **SAML IdPs**.
 - *First the call is to cognito* user pools to authenticate and get the token. Once the token is returned it is sent along with the REST API request.
 	- Cognito has a direct integration with API Gateway so the token sent with the REST request is evaluated.
 	- ![[attachments/Pasted image 20220427095926.png]]
@@ -97,3 +99,6 @@ updated: 2023-02-09 13:06
 - **No custom implementation required**
 - *Authentication = Cognito User Pools* | *Authorisation = API Gateway Methods*
 	- Cognito **only** helps with **authentication**, **not authorisation**.
+
+> [!question]- An organisation developed an application that uses a set of APIs that are being served through Amazon API Gateway. The API calls must be authenticated based on *OpenID identity providers* such as Amazon, Google, or Facebook. The APIs should allow access based on a *custom authorisation model*.
+> Use Amazon *Cognito user pools* **and** a *custom authoriser* to authenticate and authorise users based on JSON Web Tokens.
