@@ -1,12 +1,14 @@
 ---
 created: 2023-02-06 22:18
-updated: 2023-02-11 19:06
+updated: 2023-02-13 09:12
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
 
 ---
 ## Question Areas
+- Guard duty
+- WAF
 
 ## Extra Notes
 - Elastic Load balancer *cannot balance between regions*.

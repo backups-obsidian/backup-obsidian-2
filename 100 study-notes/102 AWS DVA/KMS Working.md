@@ -1,6 +1,6 @@
 ---
 created: 2022-06-01 11:42
-updated: 2023-02-10 10:36
+updated: 2023-02-13 11:52
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -48,6 +48,7 @@ updated: 2023-02-10 10:36
 - **GenerateDataKeyWithoutPlaintext**:
 	- Generate a DEK to use at some point (**not immediately**)
 	- DEK that is encrypted under the CMK that you specify (must use Decrypt later)
+	- To remember: *Longer means Later*.
 - *Decrypt*: decrypt up to *4 KB* of data (including Data Encryption Keys)
 - GenerateRandom: Returns a random byte string
 
