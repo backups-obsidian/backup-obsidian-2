@@ -1,6 +1,6 @@
 ---
 created: 2022-05-30 12:29
-updated: 2023-02-10 10:41
+updated: 2023-02-13 15:22
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -57,7 +57,7 @@ updated: 2023-02-10 10:41
 - Use `ResultPath` to *control which combination of these is passed to the state output*.
 - `OutputPath` enables you to **select a portion of the state output to pass to the next state**. 
 	- This enables you to filter out unwanted information, and pass only the portion of JSON that you care about.
-- Out of these field filters, the `ResultPath` field filter is the only one that can control input values and its previous results to be passed to the state output. 
+- Out of these field filters, the **`ResultPath` field filter is the only one that can control input values and its previous results to be passed to the state output**. 
 
 #### States
 - *Choice State*: *Test for a condition* to send to a branch (or default branch)

@@ -1,6 +1,6 @@
 ---
 created: 2023-02-06 22:18
-updated: 2023-02-13 09:12
+updated: 2023-02-13 15:31
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -72,3 +72,6 @@ updated: 2023-02-13 09:12
 	- Bucket policies
 	- ACLs
 	- **Query string authentication (presigning URLS)**
+
+- DynamoDB can also be used for handling sessions *but the latency will not be as low as ElastiCache*.
+- S3 websites cannot have HTTPS. Must be behind a CloudFront origin. 

@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 11:56
-updated: 2023-02-09 19:52
+updated: 2023-02-13 15:53
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -31,7 +31,7 @@ updated: 2023-02-09 19:52
 - **No additional cost**.
 
 ### Rolling with additional batches
-- In this update application will be running **at capacity** during the update.
+- In this update application will be running **at (full) capacity** during the update.
 	- ![[attachments/Pasted image 20220516120807.png]]
 - In this also we *can set the bucket size*.
 - During *some point* in the update the application will be **running both versions simultaneously**.
@@ -39,6 +39,8 @@ updated: 2023-02-09 19:52
 - Additional batch is removed at the end of the deployment.
 - *Longer deployment*.
 - **Good for production**.
+
+> [!tip] If the question mentions **full capacity** then go with *rolling with additional batches* over rolling deployment.
 
 ### Immutable
 - New Code is deployed to *new instances* on a temporary ASG.

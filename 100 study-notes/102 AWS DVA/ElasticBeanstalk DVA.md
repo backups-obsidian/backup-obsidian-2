@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 10:21
-updated: 2023-02-12 17:19
+updated: 2023-02-13 15:19
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -20,6 +20,11 @@ updated: 2023-02-12 17:19
 
 > [!note]- We cannot configure Amazon Athena, **AWS Lambda**, and **Amazon CloudFront** on ElasticBeanstalk.
 > We can configure *EC2*, *Load Balancers* and *CloudWatch*.
+
+- When you use the AWS Elastic Beanstalk console to *deploy a new application* or an application version, you'll need to **upload a source bundle**. Your source bundle must meet the following requirements:
+	  - Consist of a **single ZIP file** or WAR file (you can include multiple WAR files inside your ZIP file)
+	  - **NOT exceed 512 MB**
+	  - **NOT include a parent folder** or top-level directory (subdirectories are fine)
 
 ## Components
 - **Application**: An Elastic Beanstalk _application_ is a logical collection of Elastic Beanstalk components, including _environments_, _versions_, and _environment configurations_. In Elastic Beanstalk an application is conceptually similar to a folder.

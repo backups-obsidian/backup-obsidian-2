@@ -1,6 +1,6 @@
 ---
 created: 2022-05-23 16:28
-updated: 2022-05-24 16:31
+updated: 2023-02-13 15:38
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -15,6 +15,8 @@ updated: 2022-05-24 16:31
 	- *Simple Notification Service* (SNS)
 	- *Cloud Watch Events*/EventBridge 
 	- There are more services which make use of asynchronous processing but it is not important for exam.
+
+> [!tip]- We can invoke Lambda at regular intervals using CloudWatch Events. Completely serverless.
 
 > [!note]- The above services can invoke the lambda because of lambda's **resource based policy**.
 > ![[attachments/Pasted image 20220523165610.png]] 

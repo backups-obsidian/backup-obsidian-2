@@ -1,6 +1,6 @@
 ---
 created: 2022-05-30 14:40
-updated: 2023-02-11 19:09
+updated: 2023-02-13 15:39
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -8,6 +8,7 @@ updated: 2023-02-11 19:09
 ---
 ## AppSync
 - AppSync is a managed service that **uses GraphQL**
+	- *Single endpoint*.
 - GraphQL makes it easy for applications to get exactly the data they need.
 - This includes **combining data from one or more sources**
 	- NoSQL data stores, Relational databases, *HTTP APIs*, etc

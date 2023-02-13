@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-06-01 11:54
+updated: 2023-02-13 16:06
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -54,6 +54,7 @@ updated: 2022-06-01 11:54
 - The memory limit is from **128MB** to **10GB** with **increments** of **1MB**. 
 - **Maximum** execution time is **15 minutes**. Not suitable for long running tasks.
 - **Environment Variables** limit is **4KB**
+	- We can use env variables for *storing database connection strings*.
 - We can have **1000 concurrent executions (lambdas)** *per AWS account in a region*. This can be increased on request.
 - We can have **disk capacity of 512 MB** in */tmp* in the function container.
 - Size of the compressed zip should be *50 MB* and uncompressed (code + dependencies) zip should be *250 MB*.
