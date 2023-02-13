@@ -1,12 +1,14 @@
 ---
 created: 2022-05-26 16:04
-updated: 2023-02-10 09:41
+updated: 2023-02-13 12:38
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
 
 ---
 ## Integration Types
+> [!note] In *proxy integration* types we *DONT* use mapping templates.
+
 ### MOCK
 - API Gateway *returns a response without sending the request to the backend*
 - Just for *development and testing*
@@ -22,12 +24,12 @@ updated: 2023-02-10 09:41
 - Incoming request from the client is the input to Lambda
 - The **function is responsible for the logic of request/response**. 
 - *All the work is done on the backend* and API Gateway is there just to proxy the request.
-- *No mapping template*, headers, query string parameters, etc are *passed as arguments*
+- **NO mapping template**, headers, query string parameters, etc are *passed as arguments*
 	- ![[attachments/Pasted image 20220526155343.png]]
 	- ![[attachments/Pasted image 20220526155113.png]]
 
 ### HTTP_PROXY
-- *No mapping template*
+- **NO mapping template**
 - The HTTP request is passed to the backend
 - The **HTTP response from the backend is forwarded by API Gateway**
 - API Gateway is used just to proxy the request

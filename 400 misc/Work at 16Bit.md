@@ -1,6 +1,6 @@
 ---
 created: 2023-02-06 15:34
-updated: 2023-02-06 15:40
+updated: 2023-02-13 10:16
 ---
 ---
 **Links**: [[../000 home | 000 Home]]
@@ -13,6 +13,7 @@ updated: 2023-02-06 15:40
 - Wrote automation tests making sure tests are automated and not prone to human error.
 	- Medical company.
 	- Stringent test procedure.
+	- Saved 3 hours each sprint. 
 - Worked on automatic install and update scripts of the product.
 - Managed Dev tooling
 - Mentored 3 interns
