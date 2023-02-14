@@ -1,6 +1,6 @@
 ---
 created: 2022-05-26 20:09
-updated: 2022-05-26 20:13
+updated: 2023-02-14 18:08
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -16,15 +16,20 @@ updated: 2022-05-26 20:13
 - *Enable tracing* to get extra information about requests in API Gateway
 - *X-Ray API Gateway + AWS Lambda* gives you the full picture 
 
-
 ### CloudWatch Metrics
 - Metrics are by stage, Possibility to enable detailed metrics
+- There are two types of *API logging* in CloudWatch: **execution logging** and **access logging**.
 - `CacheHitCount` & `CacheMissCount`: *efficiency of the cache*
 - **Count**: The *total number API requests* in a given period.
 - **IntegrationLatency**: The time between when API Gateway *relays a request to the backend and when it receives a response from the backend*.
 - **Latency**: The time between when API Gateway receives a request from a client and when it returns a response to the client. 
 	- The latency includes the *integration latency and other API Gateway overhead*.
 	- `Latency > IntegrationLatency`
+
+> [!note]- How to differentiate between integration latency and latency?
+> - **Client** present means *latency*. 
+> - **Relays** present means integration *latency*.
+
 - 4XXError (client-side) & 5XXError (server-side)
 	
 > [!caution] The maximum amount of time an API Gateway can perform any request is **29s** so if *Latency or IntegrationLatency is > 29s* then we will see a **timeout** from API Gateway

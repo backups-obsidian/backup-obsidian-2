@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 16:54
-updated: 2023-02-10 10:26
+updated: 2023-02-14 13:14
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -80,6 +80,9 @@ updated: 2023-02-10 10:26
 
 > [!note] Callers of the API must supply an assigned API key In the `x-api-key` header in requests to the API
 
+> [!question]- A company maintains a REST API service using Amazon API Gateway with native API key validation. The company recently launched a new registration page, which allows users to sign up for the service. The registration page creates a new API key using *CreateApiKey* and sends the new key to the user. When the user attempts to call the API using this key, the user receives a *403 Forbidden error*. Existing users are unaffected and can still call the API. What code updates will grant these new users’ access to the API?
+> The *createUsagePlanKey* method must be called to associate the newly created API key with the correct usage plan.
+
 ## HTTP API vs REST API
 - HTTP APIs
 	- **low-latency**, **cost-effective** AWS Lambda proxy, HTTP proxy APIs and private integration (no data mapping). **Only proxies**.
@@ -132,6 +135,9 @@ updated: 2023-02-10 10:26
 	- ![[attachments/Pasted image 20220527095410.png]]
 
 > [!note] For exam perspective remember routing is there to *route to a specific backend* based on the routing expression
+
+> [!question]- A Developer is building a WebSocket API using Amazon API Gateway. The payload sent to this API is JSON that includes an action key which can have multiple values. The Developer must integrate with different routes based on the value of the action key of the incoming JSON payload.
+> Set the value of the route selection expression to `$request.body.action`.
 
 ## Architecture Example
 - Create a **single interface for all the microservices** in your company

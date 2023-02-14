@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2023-02-12 17:16
+updated: 2023-02-14 17:55
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -37,6 +37,8 @@ updated: 2023-02-12 17:16
 
 - After and before the bucket policy
 	- ![[attachments/Pasted image 20220423104800.png]]
+
+- Upload an **index document** and enter the name of the index document when enabling static website hosting.
 
 ## CORS
 - CORS stands for **cross origin resource sharing** which means you want to get resources from other origins

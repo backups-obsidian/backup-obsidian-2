@@ -1,6 +1,6 @@
 ---
 created: 2023-02-06 15:34
-updated: 2023-02-13 10:16
+updated: 2023-02-14 11:50
 ---
 ---
 **Links**: [[../000 home | 000 Home]]
@@ -17,5 +17,6 @@ updated: 2023-02-13 10:16
 - Worked on automatic install and update scripts of the product.
 - Managed Dev tooling
 - Mentored 3 interns
+	- Lead a team.
 
 **Worked with**: FastAPI, Python, AWS, GCP, Kubernetes, DevOps, Automated Tests, Scripting, Docker, Docker Compose, Ansible, 

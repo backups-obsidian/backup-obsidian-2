@@ -73,14 +73,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 study-notes/102 AWS DVA/DynamoDB DVA.md",
-                "mode": "source",
+                "file": "100 study-notes/101 AWS SAA/API Gateway.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -99,7 +100,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "path:dva \"GenerateDataKeyWithoutPlainText\"",
+                "query": "path:dva \"latency\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -155,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TODO.md",
+                "file": "100 study-notes/101 AWS SAA/API Gateway.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TODO.md"
+                "file": "100 study-notes/101 AWS SAA/API Gateway.md"
               }
             }
           },
@@ -182,7 +183,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "TODO.md",
+                "file": "100 study-notes/101 AWS SAA/API Gateway.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -248,17 +249,17 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "2f0967eceee1fc48",
+  "active": "d5e20fac0e6cca18",
   "lastOpenFiles": [
-    "200 general-notes/Study List - Docker.md",
-    "200 general-notes/Study List.md",
-    "TODO.md",
-    "200 general-notes/Study List - DevOps.md",
-    "100 study-notes/102 AWS DVA/DynamoDB DVA.md",
     "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
-    "100 study-notes/102 AWS DVA/DynamoDB Basic APIs.md",
-    "100 study-notes/102 AWS DVA/ECS DVA.md",
-    "100 study-notes/101 AWS SAA/ECS.md",
-    "100 study-notes/102 AWS DVA/DVA - Question Areas.md"
+    "100 study-notes/102 AWS DVA/API Gateway DVA.md",
+    "100 study-notes/101 AWS SAA/API Gateway.md",
+    "100 study-notes/102 AWS DVA/CloudFormation Advanced.md",
+    "100 study-notes/102 AWS DVA/DVA - Question Areas.md",
+    "100 study-notes/102 AWS DVA/CloudFormation RollBacks.md",
+    "100 study-notes/102 AWS DVA/CloudFormation Template Components.md",
+    "100 study-notes/102 AWS DVA/CloudFormation.md",
+    "100 study-notes/102 AWS DVA/X-Ray Advanced.md",
+    "100 study-notes/102 AWS DVA/API Gateway Monitoring.md"
   ]
 }

@@ -1,6 +1,6 @@
 ---
 created: 2022-05-15 08:57
-updated: 2023-02-09 20:00
+updated: 2023-02-14 12:51
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -47,6 +47,9 @@ updated: 2023-02-09 20:00
 	- Or Match Viewer: (HTTP => HTTP & HTTPS => HTTPS)
 
 > [!note] [[../101 AWS SAA/S3 Websites#Websites| S3 Websites]] don't support HTTPS but if you put your S3 website behind a CloudFront distribution then it will be secured by HTTPS.
+
+> [!question]- A company runs a popular website behind an Amazon CloudFront distribution that uses an Application Load Balancer as the origin. The Developer wants to set up custom HTTP responses to 404 errors for content that has been removed from the origin that redirects the users to another page. The Developer wants to use an AWS Lambda@Edge function that is associated with the current CloudFront distribution to accomplish this goal. The solution must use a minimum amount of resources. Which CloudFront event type should the Developer use to invoke the Lambda@Edge function that contains the redirect logic?
+> Origin Response.
 
 ## CloudFront Signed URL Process
 - More about [[../101 AWS SAA/CloudFront Advanced#CloudFront Signed URL Cookies | CloudFront Signed URLs]]

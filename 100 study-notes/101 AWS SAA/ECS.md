@@ -1,6 +1,6 @@
 ---
 created: 2022-04-25 20:00
-updated: 2023-02-09 14:56
+updated: 2023-02-14 13:05
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -77,6 +77,11 @@ updated: 2023-02-09 14:56
 > - Task Role is defined in the task definition. 
 > ---
 > ![[attachments/Pasted image 20220425201355.png]]
+
+
+> [!question]- A company is developing a new online game that will run on top of Amazon ECS. *Four distinct Amazon ECS services* will be part of the architecture, *each requiring specific permissions* to various AWS services. The company wants to optimise the use of the underlying Amazon EC2 instances by *bin packing* the containers based on memory reservation. Which configuration would allow the Development team to meet these requirements *MOST securely*?
+> - Create *four distinct IAM roles*, each containing the required permissions for the associated ECS services, then *configure each ECS task definition* to reference the associated IAM role.
+> - It is a **best practice** to **use IAM roles for tasks** instead of assigning the roles to the *container instances*.
 
 ## ECS Data Volumes
 - ECS has an integration with **EFS file system**. We can easily share data between ECS tasks *between AZs*.

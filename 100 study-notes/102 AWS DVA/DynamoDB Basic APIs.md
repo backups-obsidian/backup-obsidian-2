@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 12:39
-updated: 2023-02-13 16:11
+updated: 2023-02-14 18:00
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -17,8 +17,10 @@ updated: 2023-02-13 16:11
 	- Can be used to implement **Atomic Counters** a numeric attribute that's unconditionally incremented
 	
 - `ConditionalWrites`
+	- By *default*, the DynamoDB write operations (PutItem, UpdateItem, DeleteItem) are *unconditional*.
 	- Accept a *write/update/delete* (`PutItem/UpdateItem/DeleteItem`) only if conditions are met, otherwise returns an error.
 	- Helps with **concurrent access** to items
+	- **Prevents overwriting**.
 
 ## Reading Data
 - `GetItem`
@@ -26,7 +28,8 @@ updated: 2023-02-13 16:11
 	- **Gets only a single item**.
 	- Primary Key can be HASH or HASH+RANGE
 	- *Eventually Consistent Read (default)*
-	- Option to use *Strongly Consistent Reads* (*more RCU*, *might take longer*)
+	- Option to use **Strongly Consistent Reads** (*more RCU*, *might take longer*, *higher latency*)
+		- For consistent reads Set the `ConsistentRead` parameter to true when calling `GetItem`.
 	- **ProjectionExpression** (`--projection-expression`):  can be specified to **retrieve only certain attributes (columns)**
 		- A projection expression is *a string that identifies the attributes you want*. 
 		- To retrieve a single attribute, specify its name. 

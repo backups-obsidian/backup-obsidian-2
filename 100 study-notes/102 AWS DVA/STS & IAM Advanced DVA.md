@@ -1,6 +1,6 @@
 ---
 created: 2022-05-30 09:35
-updated: 2023-02-09 14:25
+updated: 2023-02-14 13:10
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -24,6 +24,7 @@ updated: 2023-02-09 14:25
 - Use AWS STS (Security Token Service) to retrieve credentials and impersonate the IAM Role you have access to (**AssumeRole** API)
 	- ![[attachments/Pasted image 20220531090004.png]]
 - Temporary credentials can be valid between 15 minutes to 1 hour
+- `aws sts assume-role`
 
 ### STS with MFA
 - Use **GetSessionToken** from STS 

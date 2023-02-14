@@ -1,6 +1,6 @@
 ---
 created: 2022-04-17 15:43
-updated: 2023-02-11 19:23
+updated: 2023-02-14 18:48
 ---
 ---
 **Links**: [[../100 home | 100 Home]]
@@ -91,12 +91,6 @@ updated: 2023-02-11 19:23
 [[CloudFormation Intrinsic Functions]]
 [[CloudFormation RollBacks]]
 [[CloudFormation Advanced]]
-
-### Miscellaneous
-- Services that use CloudFormation
-	- *ElasticBeanStalk* 
-	- *SAM*
-	- *CodePipeline*
 
 ## Monitoring, Troubleshooting & Auditing
 - AWS CloudWatch offer us: 

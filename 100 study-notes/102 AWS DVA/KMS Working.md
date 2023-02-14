@@ -1,6 +1,6 @@
 ---
 created: 2022-06-01 11:42
-updated: 2023-02-13 11:52
+updated: 2023-02-14 12:55
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -58,6 +58,9 @@ updated: 2023-02-13 11:52
 
 > [!question]- A development team has created a new IAM user that has `s3:putObject` permission to write to an S3 bucket. This S3 bucket uses server-side encryption with AWS KMS managed keys (SSE-KMS) as the default encryption. Using the access key ID and the secret access key of the IAM user, the application received an access denied error when calling the `PutObject` API.
 > Correct the policy of the IAM user to allow the `kms:GenerateDataKey` action.
+
+> [!question]- A new AWS Lambda function processes data and sends it to another service. The data is around *1 MB in size*. A developer has been asked to update the function so it *encrypts the data before sending it on to the other service*. Which API call is required to perform the encryption?
+> Issue the AWS KMS **GenerateDataKey** API to return an encryption key
 
 ## SSE KMS Deep Dive
 - SSE-KMS leverages the *GenerateDataKey* & *Decrypt* KMS API calls
