@@ -1,6 +1,6 @@
 ---
 created: 2022-05-19 15:50
-updated: 2023-02-10 08:52
+updated: 2023-02-14 18:12
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -56,6 +56,12 @@ updated: 2023-02-10 08:52
 > ---
 > ![[attachments/Pasted image 20220519161509.png]]
 > Because of linking the containers value of `xray-daemon` can be resolved.
+
+> [!tip]- When using X-Ray with ECS we can **only** deploy x-ray **as a container**. 
+> Depending on the ECS type it can be either daemon or side car.
+> ---
+> A Developer is deploying an application using Docker containers running on the Amazon Elastic Container Service (ECS). The Developer is testing application latency and wants to capture trace information between the microservices. Which solution will meet these requirements?
+> Create a Docker image that runs the X-Ray daemon, upload it to a Docker image repository, and then deploy it to the Amazon ECS cluster.
 
 ### ECS Cluster with EC2
 - X-Ray **Container as a Daemon**

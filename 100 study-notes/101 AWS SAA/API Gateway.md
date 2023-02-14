@@ -19,6 +19,10 @@ updated: 2023-02-13 15:43
 
 - So API Gateway *supports stateless RESTful APIs* as well as **stateful WebSocket APIs**
 
+> [!question]- A new application will be hosted on the domain name dctlabs.com using an Amazon API Gateway REST API front end. The Developer needs to configure the API with a path to *`dctlabs.com/products`* that will be accessed using the HTTP *GET* verb. How MUST the Developer configure the API?
+> - Create a `/products` resource
+> - Create a `GET` method
+
 ## Features
 - **API Gateway + Lambda** = **No infrastructure** to manage.
 - You pay only for the *API calls you receive* and the *amount of data transferred out*.

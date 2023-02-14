@@ -1,6 +1,6 @@
 ---
 created: 2022-05-18 20:06
-updated: 2023-02-09 14:39
+updated: 2023-02-14 18:49
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -53,3 +53,12 @@ updated: 2023-02-09 14:39
 - CloudFormation allows you to create infrastructure
 - But it *doesn't protect you against manual configuration changes*
 - How do we *know if our resources have drifted*? We can use CloudFormation drift!
+
+## Miscellaneous
+- Services that use CloudFormation
+	- *ElasticBeanStalk* 
+	- *SAM*
+	- *CodePipeline*
+
+> [!question]- A developer received the following error message during an AWS CloudFormation deployment: DELETE_FAILED (The following resource(s) failed to delete: (sg-11223344).) Which action should the developer take to resolve this error?
+> Modify the CloudFormation template to *retain the security group resource*. Then *manually delete the resource after deployment of the CloudFormation template.*

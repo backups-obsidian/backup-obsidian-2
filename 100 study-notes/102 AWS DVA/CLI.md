@@ -1,6 +1,6 @@
 ---
 created: 2022-05-14 15:43
-updated: 2023-02-09 19:42
+updated: 2023-02-14 09:39
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -10,9 +10,9 @@ updated: 2023-02-09 19:42
 ### Basics
 - Some AWS CLI commands (such as EC2) can become expensive if they succeed, say if we wanted to try to create an EC2 Instance.
 	- Some AWS CLI commands (**not all**) contain a **`--dry-run`** option to **simulate API calls**.
-- When you run API calls and they *fail*, you can get a long *error message* this error message can be *decoded using the STS command line*:
+- When you run API calls and they *fail*, you can get a long *error message* this error message can be *decoded using the **STS** command line*:
 	- `aws sts decode-authorization-message --encoded-message actual_long_message`
-	- We need to have access to sts's `DecodeAuthorisationMessage` API.
+	- We need to have access to **sts's (not IAMs)**  `DecodeAuthorisationMessage` API.
 	- I didn't have to do it on my instance though.
 
 > [!caution] If no region is specified in `aws configure` then the default region is **us-east-1**.

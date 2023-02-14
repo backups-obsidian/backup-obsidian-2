@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 12:39
-updated: 2023-02-09 19:46
+updated: 2023-02-14 17:58
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -24,12 +24,13 @@ updated: 2023-02-09 19:46
 - **Transform Header** indicates it's SAM template:
 	- Transform: `AWS::Serverless-2016-10-31`
 - Write Code
-	- **`AWS::Serverless::Function`**
-	- **`AWS::Serverless::Api`**
-	- **`AWS::Serverless::SimpleTable`**
+	- `AWS::Serverless::Function`: *Lambda*
+	- `AWS::Serverless::Api`: *API Gateway*
+	- `AWS::Serverless::SimpleTable`: *DynamoDB*
+	- `AWS::Serverless::Application`: *SAR*
 - **Package & Deploy**:
-	- `aws cloudformation package` / `sam package`
-	- `aws cloudformation deploy` / `sam deploy`
+	- **`aws cloudformation package` / `sam package`**
+	- **`aws cloudformation deploy` / `sam deploy`**
 
 ### CLI Debugging
 - *Locally build, test, and debug your serverless applications* that are defined using AWS SAM templates

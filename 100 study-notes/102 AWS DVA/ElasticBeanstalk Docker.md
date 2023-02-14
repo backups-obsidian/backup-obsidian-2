@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 15:13
-updated: 2022-05-16 15:20
+updated: 2023-02-14 09:07
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -23,6 +23,6 @@ updated: 2022-05-16 15:20
 	- EC2 instances, configured to use the ECS Cluster
 	- *Load Balancer* (in high availability mode)
 	- Task definitions and execution
-- Requires a config `Dockerrun.aws.json (v2)` at the *root of source code*
+- Requires a config `Dockerrun.aws.json (v2)` at the **root of source code**
 - `Dockerrun.aws.json` is used to *generate the ECS task definition*. 
 - Your **Docker images must be pre-built** and stored in ECR for example.

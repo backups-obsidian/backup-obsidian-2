@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2023-02-09 10:11
+updated: 2023-02-14 13:32
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -29,13 +29,17 @@ updated: 2023-02-09 10:11
 		- Although AWS owned CMKs are *not in your AWS account*, an AWS service can use its AWS owned CMKs to protect the resources in your account. Like *SSE-S3*.
 		- Generally used if the user wants encryption and doesn't want to managed the keys.
 	- **AWS Managed Service Default CMK**: *free*. 
-		- Gets *created during the integration of AWS services*. Like the key you use in S3 SSE-KMS.
+		- Gets created during the **integration of AWS services**. Like the key you use in S3 SSE-KMS.
 		- It rotates every 3 years.
 		- They will start with `aws/` prefix
 			- ![[attachments/Pasted image 20220531193937.png]]
 	- **Customer Managed CMK**: *$1/Month*
 		- We can only manage the customer managed CMK and not AWS managed default CMK.
 	- **User Imported keys** (AES 256) (not recommended): *$1/month*
+
+> [!question]- An application running on Amazon EC2 generates a large number of small files (1KB each) containing personally identifiable information that must be converted to ciphertext. The data will be stored on a proprietary network-attached file system. What is the SAFEST way to encrypt the data using AWS KMS?
+> - Encrypt the data directly with a *customer managed customer master key*.
+> - In this example the Amazon EC2 instance is saving files on a *proprietary network-attached file system* and this *will not have support for AWS managed CMKs*.
 
 - Difference between the 3 keys
 	- ![[attachments/Pasted image 20230209100836.png]]
