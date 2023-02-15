@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 12:39
-updated: 2023-02-13 16:09
+updated: 2023-02-15 08:43
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -21,7 +21,7 @@ updated: 2023-02-13 16:09
 - **Consists of stages**:
 	- Each stage can have **multiple sequential actions and/or parallel actions**
 	- Example stages: Build (CodeBuild)  → Test (CodeBuild) → Deploy (CodeDeploy) → Load → Testing
-- **Manual approval** can be defined at any stage
+- **Manual approval action** can be defined at any stage.
 - If any of the stages fail before deploying the code then it won't deploy the code. Like if some tests fail in CodeBuild.
 
 > [!tip]- Stages can have **multiple action groups**.

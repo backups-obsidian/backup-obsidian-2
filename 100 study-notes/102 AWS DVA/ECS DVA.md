@@ -1,6 +1,6 @@
 ---
 created: 2022-05-15 11:30
-updated: 2023-02-10 10:21
+updated: 2023-02-15 09:45
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -143,6 +143,14 @@ updated: 2023-02-10 10:21
 - Example: `instanceld`, `attribute:ecs.availability-zone` (this ensures HA)
 
 ### Task Placement Constraints
-- `distinctInstance`: place *each task on a different container instance*
+- `distinctInstance`: place **each task on a different container instance**
 - `memberOf`: places task on instances that satisfy an **expression**
-	- Uses the *Cluster Query Language* (advanced)
+	- Uses the *Cluster Query Language* for grouping (advanced)
+
+> [!question]- A Developer is creating a service on Amazon ECS and needs to ensure that *each task is placed on a different container instance*. How can this be achieved?
+> - Use task placement constraint of distinctInstance.
+> - We cannot use task placement strategies since they are just task placement algorithms. Spread does not guarantee that each task is placed in a different EC2 instance.
+
+> [!question]- A Developer is deploying an application using Docker containers on Amazon ECS. One of the containers runs a database and *should be placed on instances in the “databases” task group*. What should the Developer use to control the placement of the database task?
+> Task placement constraint: `memberOf`
+> ![[attachments/Pasted image 20230215094507.png]]

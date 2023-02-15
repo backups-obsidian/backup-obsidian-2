@@ -1,6 +1,6 @@
 ---
 created: 2022-04-17 15:43
-updated: 2023-02-11 22:08
+updated: 2023-02-15 09:11
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -8,6 +8,8 @@ updated: 2023-02-11 22:08
 
 ---
 - There are 2 types of ElastiCache replication
+- *Cluster mode* is just used for *scaling writes*. 
+	- If you want a *fault tolerant multi AZ cheap solution we can use Cluster mode disable*.
 
 > [!note]- **Both modes** use **asynchronous** replication.
 

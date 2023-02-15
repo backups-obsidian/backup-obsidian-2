@@ -1,6 +1,6 @@
 ---
 created: 2022-05-25 10:53
-updated: 2023-02-14 19:04
+updated: 2023-02-15 08:40
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -157,5 +157,5 @@ updated: 2023-02-14 19:04
 	- Using Web Identity Federation or *Cognito Identity Pools*, each user gets AWS credentials
 	- You can assign an lAM Role to these users with a **Condition** to *limit their API access to DynamoDB*
 		- ![[attachments/Pasted image 20220525170645.png]]
-	- *LeadingKeys limit row-level access* for users on the Primary Key
+	- **LeadingKeys limit row-level access** for users on the **Primary Key**
 

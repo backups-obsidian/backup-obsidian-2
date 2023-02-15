@@ -1,6 +1,6 @@
 ---
 created: 2022-05-23 16:28
-updated: 2023-02-13 15:38
+updated: 2023-02-15 09:02
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -31,6 +31,11 @@ updated: 2023-02-13 15:38
 - Can **define a DLQ** (dead-letter queue) **SNS or SQS** for failed processing (*need correct IAM permissions*). Or we can use [[Lambda Destinations]].
 	- We will need to modify the execution role of the lambda and include SQS permission. 
 	- ![[attachments/Pasted image 20220523163231.png]]
+
+> [!question]- An application uses AWS Lambda to process many files. The Lambda function takes approximately 3 minutes to process each file and *does not return any important data*. A Developer has written a script that will invoke the function using the AWS CLI. What is the FASTEST way to process all the files?
+> Invoke the Lambda function asynchronously with the **invocation type `Event`** and process the files in parallel.
+> ---
+> **`RequestResponse`** is used for synchronous invocations
 
 ### CloudWatch with Lambda
 - Two ways

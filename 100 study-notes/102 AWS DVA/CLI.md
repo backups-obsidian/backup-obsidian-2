@@ -1,6 +1,6 @@
 ---
 created: 2022-05-14 15:43
-updated: 2023-02-14 09:39
+updated: 2023-02-15 08:50
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -40,6 +40,9 @@ updated: 2023-02-14 09:39
 	 - **`--region`**, **`--output`**, **`--profile`**
 - SDK default chain
 	- ![[attachments/Pasted image 20220514170020.png]]
+
+> [!question]- An application running on a fleet of EC2 instances use the AWS SDK for Java to copy files into several AWS buckets using access keys stored in environment variables. A Developer has modified the instances to use an assumed IAM role with a more restrictive policy that allows access to only one bucket. However, *after applying the change the Developer logs into one of the instances and is still able to write to all buckets*. What is the MOST likely explanation for this situation?
+> The *AWS credential provider looks for instance profile credentials last*.
 
 > [!note] Environment variables have a higher precedence over aws configure credentials.
 
