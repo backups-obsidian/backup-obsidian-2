@@ -1,6 +1,6 @@
 ---
 created: 2022-05-30 09:35
-updated: 2023-02-14 19:37
+updated: 2023-02-15 09:06
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -10,7 +10,7 @@ updated: 2023-02-14 19:37
 
 ## Difference
 ### Secrets Manager
-- *More Expensive* 
+- **More Expensive** 
 - **Automatic rotation** of secrets with AWS Lambda
 	- Lambda function is provided for **RDS**, **Redshift**, **DocumentDB** (built in integration)
 - **KMS encryption is mandatory**

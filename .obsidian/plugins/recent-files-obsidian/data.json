@@ -1,12 +1,76 @@
 {
   "recentFiles": [
     {
-      "basename": "Other Services DVA",
-      "path": "100 study-notes/102 AWS DVA/Other Services DVA.md"
+      "basename": "CloudFront DVA",
+      "path": "100 study-notes/102 AWS DVA/CloudFront DVA.md"
     },
     {
       "basename": "102 AWS DVA Index",
       "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
+    },
+    {
+      "basename": "DVA - Question Areas",
+      "path": "100 study-notes/102 AWS DVA/DVA - Question Areas.md"
+    },
+    {
+      "basename": "API Gateway Integration Types",
+      "path": "100 study-notes/102 AWS DVA/API Gateway Integration Types.md"
+    },
+    {
+      "basename": "ECS DVA",
+      "path": "100 study-notes/102 AWS DVA/ECS DVA.md"
+    },
+    {
+      "basename": "Cognito",
+      "path": "100 study-notes/102 AWS DVA/Cognito.md"
+    },
+    {
+      "basename": "ElasticBeanstalk DVA",
+      "path": "100 study-notes/102 AWS DVA/ElasticBeanstalk DVA.md"
+    },
+    {
+      "basename": "ElasticCache Replication",
+      "path": "100 study-notes/102 AWS DVA/ElasticCache Replication.md"
+    },
+    {
+      "basename": "SSM Parameter Store vs Secrets Manager",
+      "path": "100 study-notes/102 AWS DVA/SSM Parameter Store vs Secrets Manager.md"
+    },
+    {
+      "basename": "Lambda Asynchronous Invocation",
+      "path": "100 study-notes/102 AWS DVA/Lambda Asynchronous Invocation.md"
+    },
+    {
+      "basename": "Lambda",
+      "path": "100 study-notes/101 AWS SAA/Lambda.md"
+    },
+    {
+      "basename": "Lambda Configuration & Deployments",
+      "path": "100 study-notes/102 AWS DVA/Lambda Configuration & Deployments.md"
+    },
+    {
+      "basename": "CLI",
+      "path": "100 study-notes/102 AWS DVA/CLI.md"
+    },
+    {
+      "basename": "ElasticBeanstalk Docker",
+      "path": "100 study-notes/102 AWS DVA/ElasticBeanstalk Docker.md"
+    },
+    {
+      "basename": "ElasticBeanstalk",
+      "path": "100 study-notes/101 AWS SAA/ElasticBeanstalk.md"
+    },
+    {
+      "basename": "CodePipeline",
+      "path": "100 study-notes/102 AWS DVA/CodePipeline.md"
+    },
+    {
+      "basename": "DynamoDB DVA",
+      "path": "100 study-notes/102 AWS DVA/DynamoDB DVA.md"
+    },
+    {
+      "basename": "Other Services DVA",
+      "path": "100 study-notes/102 AWS DVA/Other Services DVA.md"
     },
     {
       "basename": "SAM",
@@ -15,10 +79,6 @@
     {
       "basename": "DynamoDB Indexes",
       "path": "100 study-notes/102 AWS DVA/DynamoDB Indexes.md"
-    },
-    {
-      "basename": "DVA - Question Areas",
-      "path": "100 study-notes/102 AWS DVA/DVA - Question Areas.md"
     },
     {
       "basename": "ElastiCache DVA",
@@ -33,20 +93,8 @@
       "path": "100 study-notes/101 AWS SAA/VPC Flow Logs.md"
     },
     {
-      "basename": "Lambda Configuration & Deployments",
-      "path": "100 study-notes/102 AWS DVA/Lambda Configuration & Deployments.md"
-    },
-    {
-      "basename": "Lambda",
-      "path": "100 study-notes/101 AWS SAA/Lambda.md"
-    },
-    {
       "basename": "CodeDeploy",
       "path": "100 study-notes/102 AWS DVA/CodeDeploy.md"
-    },
-    {
-      "basename": "ECS DVA",
-      "path": "100 study-notes/102 AWS DVA/ECS DVA.md"
     },
     {
       "basename": "CloudWatch",
@@ -73,20 +121,12 @@
       "path": "100 study-notes/101 AWS SAA/API Gateway.md"
     },
     {
-      "basename": "SSM Parameter Store vs Secrets Manager",
-      "path": "100 study-notes/102 AWS DVA/SSM Parameter Store vs Secrets Manager.md"
-    },
-    {
       "basename": "API Gateway Caching",
       "path": "100 study-notes/102 AWS DVA/API Gateway Caching.md"
     },
     {
       "basename": "API Gateway DVA",
       "path": "100 study-notes/102 AWS DVA/API Gateway DVA.md"
-    },
-    {
-      "basename": "DynamoDB DVA",
-      "path": "100 study-notes/102 AWS DVA/DynamoDB DVA.md"
     },
     {
       "basename": "DynamoDB",
@@ -159,46 +199,6 @@
     {
       "basename": "Study List - Random",
       "path": "200 general-notes/Study List - Random.md"
-    },
-    {
-      "basename": "Study List",
-      "path": "200 general-notes/Study List.md"
-    },
-    {
-      "basename": "CloudFront DVA",
-      "path": "100 study-notes/102 AWS DVA/CloudFront DVA.md"
-    },
-    {
-      "basename": "Step Functions",
-      "path": "100 study-notes/102 AWS DVA/Step Functions.md"
-    },
-    {
-      "basename": "Work at 16Bit",
-      "path": "400 misc/Work at 16Bit.md"
-    },
-    {
-      "basename": "CLI",
-      "path": "100 study-notes/102 AWS DVA/CLI.md"
-    },
-    {
-      "basename": "Lambda Asynchronous Invocation",
-      "path": "100 study-notes/102 AWS DVA/Lambda Asynchronous Invocation.md"
-    },
-    {
-      "basename": "ElasticBeanstalk Docker",
-      "path": "100 study-notes/102 AWS DVA/ElasticBeanstalk Docker.md"
-    },
-    {
-      "basename": "ElasticBeanstalk DVA",
-      "path": "100 study-notes/102 AWS DVA/ElasticBeanstalk DVA.md"
-    },
-    {
-      "basename": "Study List - Docker",
-      "path": "200 general-notes/Study List - Docker.md"
-    },
-    {
-      "basename": "Study List - DevOps",
-      "path": "200 general-notes/Study List - DevOps.md"
     }
   ],
   "omittedPaths": [],

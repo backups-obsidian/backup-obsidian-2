@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2023-02-13 16:06
+updated: 2023-02-15 08:58
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -98,3 +98,9 @@ updated: 2023-02-13 16:06
 > Although Lambda encrypts the environment variables in your function by default, the *sensitive information would still be visible to other users who have access to the Lambda console*. This is because Lambda uses a default KMS key to encrypt the variables, which is usually accessible by other users. The *best option in this scenario is to use encryption helpers to secure your environment variables*.
 >
 > Env variables must be decrypted in the application, also the lambda must have permission to use KMS *Decrypt API*.
+
+> [!question]- A serverless application is used to process customer information and outputs a JSON file to an Amazon S3 bucket. AWS Lambda is used for processing the data. The *data* is sensitive and *should be encrypted*. How can a Developer modify the Lambda function to *ensure the data is encrypted before it is uploaded to the S3 bucket*?
+> Use the `GenerateDataKey` API, then use the data key to encrypt the file using the Lambda code.
+> ---
+> "Enable server-side encryption on the S3 bucket and create a policy to enforce encryption" is *incorrect*. This *would not encrypt data before it is uploaded as S3* would only encrypt the data as it is written to storage.
+

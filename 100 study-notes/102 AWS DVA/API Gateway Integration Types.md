@@ -1,6 +1,6 @@
 ---
 created: 2022-05-26 16:04
-updated: 2023-02-13 12:38
+updated: 2023-02-15 09:55
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -13,14 +13,15 @@ updated: 2023-02-13 12:38
 - API Gateway *returns a response without sending the request to the backend*
 - Just for *development and testing*
 
-### HTTP/AWS (Lambda & AWS Services)
+### HTTP/AWS (*Lambda* & *AWS Services*)
+- For *custom integration* (HTTP), *lambdas and other AWS services* (AWS).
 - We must configure both the *integration request* and *integration response*
 - We can setup data mapping using **mapping templates** to modify the request & response.
 	- This means we will be able to change the request made to the backed and change the response received from the backend before sending it to the client.
 	- Example: mapping the REST API to an API call on SQS Queue *so that SQS queue can understand the API call made by the API Gateway*.
 	- ![[attachments/Pasted image 20220526155102.png]]
 
-### AWS_PROXY (Lambda Proxy)
+### AWS_PROXY (**Lambda Proxy**)
 - Incoming request from the client is the input to Lambda
 - The **function is responsible for the logic of request/response**. 
 - *All the work is done on the backend* and API Gateway is there just to proxy the request.

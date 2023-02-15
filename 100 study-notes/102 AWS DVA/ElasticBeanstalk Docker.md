@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 15:13
-updated: 2023-02-14 09:07
+updated: 2023-02-15 08:47
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -24,5 +24,6 @@ updated: 2023-02-14 09:07
 	- *Load Balancer* (in high availability mode)
 	- Task definitions and execution
 - Requires a config `Dockerrun.aws.json (v2)` at the **root of source code**
+	- It should be a JSON file only it cannot be a YAML file.
 - `Dockerrun.aws.json` is used to *generate the ECS task definition*. 
 - Your **Docker images must be pre-built** and stored in ECR for example.

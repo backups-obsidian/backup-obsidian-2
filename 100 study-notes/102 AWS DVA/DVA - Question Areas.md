@@ -1,6 +1,6 @@
 ---
 created: 2023-02-06 22:18
-updated: 2023-02-14 20:10
+updated: 2023-02-15 09:58
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -76,17 +76,31 @@ updated: 2023-02-14 20:10
 
 - DynamoDB can also be used for handling sessions *but the latency will not be as low as ElastiCache*.
 
-> [!question]- **Guest users in cognito**. 
-> A company has an application that provides access to objects in Amazon S3 based on the type of user. The user types are registered user and guest user. The company has 30,000 users. Information is read from an S3 bucket depending on the user type. Which approaches are recommended to provide access to both user types MOST efficiently?
-> ---
-> - Use Amazon Cognito to provide access *using authenticated and unauthenticated roles*.
-> - Use the AWS IAM service and let the application assume different roles depending on the type of user.
-
-- **Adaptive authentication cognito**:
-	- With adaptive authentication, you can configure your user pool to *block suspicious sign-ins* or add second factor authentication in response to an increased risk level.
-
 > [!question]- A company uses an Amazon S3 bucket to store a large number of sensitive files relating to eCommerce transactions. *The company has a policy that states that all data written to the S3 bucket must be encrypted*. How can a Developer ensure compliance with this policy?
 > Create an S3 *bucket policy* that *denies any S3 Put request* that does not include the `x-amz-server-side-encryption`.
 
 - We can customise the Amazon Cognito hosted web Ul and add the company logo.
 - Go for customer managed AWS policies over AWS managed AWS policies for more security and fine grained control.
+
+> [!question]- A web application has been deployed on AWS. A developer is concerned about exposure to common exploits that could affect application availability or compromise security. Which AWS service can protect from these threats?
+> AWS WAF.
+
+- Even if you are doing an upsert using indirectly using `dynamodb:UpdateItem` you need `dynamodb:PutItem` permission.
+- API Gateway resource policies:
+	- *API Gateway supports resource policies*, which are used to *control access to API Gateway resources such as REST APIs, WebSocket APIs,* and resources within those APIs such as methods, stages, and deployment. 
+	- Resource policies are similar to IAM policies in that they are JSON documents that specify who can access the resource and what actions they can perform.
+	- Resource policies can be used to *provide fine-grained control over access to API Gateway resources*, and they can be used in conjunction with IAM roles and policies to provide comprehensive access control. 
+	- For example, you can use resource policies to:
+		- *Restrict access to specific API methods based on the IP address* or the AWS account of the caller.
+		- Grant read-only access to a specific stage of an API to a particular IAM user or role.
+		- **Allow anonymous access to certain API methods while requiring authentication for others**.
+	- Resource policies are typically *used in scenarios where you need to provide access to API Gateway resources to **external entities** that don't have an IAM role or user*. 
+		- For example, you might use a resource policy to allow a third-party API gateway to access your API, or to *allow access from a partner organisation that doesn't have an AWS account*.
+- **Canary**: Traffic is shifted in two increments.
+	- Use when traffic has to be shifted quickly.
+- **Linear**: Traffic is shifted in equal increments with an equal number of minutes between each increment.
+- *Create standalone policies* instead of using inline policies.
+- Create an **AWS CloudTrail trail and apply it to all regions**, configure logging to a single S3 bucket
+
+> [!question]- A team of Developers require access to an AWS account that is a member account in AWS Organisations. The administrator of the master account needs to restrict the AWS services, resources, and API actions that can be accessed by the users in the account. What should the administrator create?
+> A **service control policy**.
