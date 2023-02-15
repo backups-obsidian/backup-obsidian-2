@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 12:39
-updated: 2023-02-11 22:56
+updated: 2023-02-14 21:02
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -22,6 +22,7 @@ updated: 2023-02-11 22:56
 
 ## Global Secondary Index
 - **Alternative Primary Key** (*HASH - partition key* or *HASH+RANGE - partition key + sort key*) from the base table
+	- This means we can have *different partition and sort keys*. In LSI we could only change the sort key.
 - *Speed up queries on non-key attributes*
 - The Index Key consists of scalar attributes (String, Number, or Binary)
 - *Attribute Projections* - *some or all the attributes* of the base table (KEYS_ONLY, INCLUDE, ALL)

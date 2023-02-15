@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 12:39
-updated: 2022-05-26 16:24
+updated: 2023-02-14 19:36
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -8,12 +8,15 @@ updated: 2022-05-26 16:24
 ---
 ## Caching
 - Caching reduces the number of calls made to the backend
-- **Default TTL** is **300s** (min: 0s, max: 3600s)
+- **Default TTL** is **300s** (min: 0s, max: **3600s**)
+	- TTL of **0** means **NO caching (caching is disabled)**.
 - **Caches are defined per stage**
 - Possible to *override cache settings per method*
 - Cache *encryption option*
 - Cache capacity between 0.5GB to 237GB
-- Cache is **expensive**, *makes sense in production*, may not make sense in dev / test
+- Cache is **expensive** 
+	- *Makes sense in production, may not make sense in dev / test*
+	- Enable cache for dev/test only when required.
 
 ### Cache Invalidation
 - Able to flush the entire cache (invalidate it) immediately using the console.

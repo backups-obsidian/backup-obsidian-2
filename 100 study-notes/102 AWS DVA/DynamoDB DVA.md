@@ -1,6 +1,6 @@
 ---
 created: 2022-05-25 10:53
-updated: 2023-02-13 16:35
+updated: 2023-02-14 19:04
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -149,6 +149,8 @@ updated: 2023-02-13 16:35
 
 ## Miscellaneous Features
 - Encryption *at rest using AWS KMS* and *in-transit using SSL/TLS*
+- In addition to encryption at rest, which is a *server-side encryption* feature, AWS provides the Amazon **DynamoDB Encryption Client**. 
+	- This is a *client-side encryption* library that enables us to *protect your table data before submitting it to DynamoDB*.
 - For backup and restore we have **Point-in-time Recovery (PITR)** just like RDS
 - For migrating data to and from DynamoDB we use DMS.
 - *Fine grained access control* for users:

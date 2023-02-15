@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 12:39
-updated: 2023-02-14 17:58
+updated: 2023-02-14 21:07
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -30,6 +30,7 @@ updated: 2023-02-14 17:58
 	- `AWS::Serverless::Application`: *SAR*
 - **Package & Deploy**:
 	- **`aws cloudformation package` / `sam package`**
+		- The command *uploads local artifacts to an S3 bucket*. 
 	- **`aws cloudformation deploy` / `sam deploy`**
 
 ### CLI Debugging

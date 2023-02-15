@@ -1,6 +1,6 @@
 ---
 created: 2022-04-17 15:43
-updated: 2022-06-09 15:12
+updated: 2023-02-14 18:55
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -37,6 +37,7 @@ updated: 2022-06-09 15:12
 	- *Missing Data until it is added / updated in the DB*. 
 	- So *nothing will be done if there is a cache miss*. 
 	- Mitigation is to implement Lazy Loading strategy as well for cache miss scenario.
+	- The **cache will become large and expensive** because the infrequently requested data is also written to the cache. 
 
 - Python pseudocode
 	- ![[attachments/Pasted image 20220514104053.png]]

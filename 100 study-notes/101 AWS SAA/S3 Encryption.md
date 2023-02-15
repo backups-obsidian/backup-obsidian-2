@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2023-02-09 14:18
+updated: 2023-02-14 19:27
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -42,6 +42,7 @@ updated: 2023-02-09 14:18
 
 ### SSE - C
 - Keys are **handled** and **managed** by **customer outside** of AWS
+	- Use SSE-C over SSE-KMS when customer wants to have *control over the keys*.
 - Objects are encrypted on the **server side**.
 - AWS *doesn’t store the encryption key*.
 - **HTTPS is mandatory**.
