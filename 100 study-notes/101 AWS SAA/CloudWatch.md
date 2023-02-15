@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2023-02-10 10:50
+updated: 2023-02-14 20:00
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -11,12 +11,17 @@ updated: 2023-02-10 10:50
 - **Metric** is a **variable** to monitor (eg: CPU Utilisation, Network in/out)
 - Metrics belong to **namespaces**.
 	- These namespaces were created automatically.
+	- Namespaces are isolated from each other. 
+	- We can create *custom namespaces*.
 - **Dimension** is an **attribute of a metric** (instance id, environment, etc...).
 	- We can use dimensions to segment our metrics. Like instance.id or environment.name.
 - We can choose upto **10 dimensions per metric**.
 - Metrics have **timestamps**.
 - We can create CloudWatch **dashboard from metrics**.
 - Metrics exist **only in the Region** in which they are created.
+
+> [!question]- A Development team has deployed several applications running on an Auto Scaling fleet of Amazon EC2 instances. The Operations team have asked for a *display that shows a key performance metric for each application on a single screen for monitoring purposes*. What steps should a Developer take to deliver this capability using Amazon CloudWatch?
+> **Create a custom namespace** with a unique metric name for each application.
 
 ## EC2 Monitoring
 - We get EC2 instance metrics every **5 minutes**.
@@ -47,6 +52,11 @@ updated: 2023-02-10 10:50
     - **Standard** custom metric: *1 minute (60 seconds)*. Values pushed every 1 minute.
     - **High Resolution** custom metric: *1/5/10/30 second(s)* **Higher cost**
 
+> [!question]- A Developer is configuring an Amazon ECS Service with Auto Scaling. The tasks should scale based on user load in the previous *20 seconds*. How can the Developer enable the scaling?
+> Create a *high-resolution custom* Amazon CloudWatch metric for user activity data, then publish data *every 10 seconds*.
+> ---
+> Create a high-resolution custom Amazon CloudWatch metric for user activity data, then publish data *every 5 seconds is incorrect* as the resolution is higher than required which will *cost more*. We need the resolution to be 20 seconds so that means publishing in 10 second intervals with 2 data points. At 5 second intervals there would be 4 data points which will incur additional costs.
+
 > [!important]- For getting custom metrics we need to install CloudWatch agent on EC2.
 > Behind the scenes the agent also uses `PutMetricData` API.
 
@@ -62,6 +72,7 @@ updated: 2023-02-10 10:50
 - We can create custom dashboards for quick access to key metrics and alarms.
 - **Dashboards are global**.
 - Dashboards can include graphs from **different AWS accounts and regions**
+	- This can be done by creating a *cross-account cross-Region dashboards*, which summarise your CloudWatch data from multiple AWS accounts and multiple Regions into one dashboard.
 - Dashboards **can be shared with people who don't have an AWS account** (public, email address, 3rd party SO provider through Amazon Cognito)
 - Pricing:
     -   **3 dashboards** (up to 50 metrics) for **free**

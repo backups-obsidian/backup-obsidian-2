@@ -1,6 +1,6 @@
 ---
 created: 2022-04-17 15:43
-updated: 2023-02-14 18:48
+updated: 2023-02-14 20:50
 ---
 ---
 **Links**: [[../100 home | 100 Home]]
@@ -46,6 +46,7 @@ updated: 2023-02-14 18:48
 [[../101 AWS SAA/VPC Internet Access | VPC Internet Access]]
 [[../101 AWS SAA/NACLs | NACLs]]
 [[../101 AWS SAA/VPC Peering and Endpoints | VPC Peering and Endpoints]]
+[[../101 AWS SAA/VPC Flow Logs | VPC Flow Logs]]
 
 - Summary:
 	- ![[attachments/Pasted image 20230211180311.png]]

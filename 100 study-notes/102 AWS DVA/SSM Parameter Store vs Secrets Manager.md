@@ -1,6 +1,6 @@
 ---
 created: 2022-05-30 09:35
-updated: 2023-02-13 15:33
+updated: 2023-02-14 19:37
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -22,7 +22,8 @@ updated: 2023-02-13 15:33
 ### SSM Parameter Store:
 - *Less expensive*
 - Simple API
-- No secret rotation (*can enable rotation using Lambda triggered by CW Events*)
+- **NO automatic secret rotation** 
+	- We *can enable rotation using Lambda triggered by CW Events*
 - **KMS encryption is optional** but secrets can be encrypted using KMS.
 - Encrypted secrets using **SecureString**.
 - *Can pull a Secrets Manager secret using the SSM Parameter Store API*

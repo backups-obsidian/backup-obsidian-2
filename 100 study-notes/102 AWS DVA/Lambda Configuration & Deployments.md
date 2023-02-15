@@ -1,6 +1,6 @@
 ---
 created: 2022-05-24 10:24
-updated: 2023-02-12 11:09
+updated: 2023-02-14 20:08
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -21,7 +21,9 @@ updated: 2023-02-12 11:09
 ## Logging & Tracing
 - **CloudWatch Logs**:
 	- AWS *Lambda execution logs are stored in AWS CloudWatch Logs*
-	- Make sure your AWS Lambda function has an execution role with an IAM policy that authorises writes to Cloud Watch Logs
+	- Make sure your AWS Lambda function has an *execution role with an IAM policy that authorises writes to Cloud Watch Logs*.
+		- It can take 5-10 minutes for logs to show up after a function invocation.
+		- If you do not see the logs after this period then it means your lambda is missing execution role.
 
 - **CloudWatch Metrics**: 
 	- AWS Lambda *metrics* are displayed in AWS Cloud Watch Metrics
@@ -154,10 +156,10 @@ updated: 2023-02-12 11:09
 - CodeDeploy can help you **automate traffic shift for Lambda aliases**
 	- ![[attachments/Pasted image 20220524161935.png]]
 - Feature is *integrated within the SAM framework*
-- **Linear**: *grow traffic every N minutes until 100%*
+- **Linear**: *grow traffic every N minutes until 100%*. There can be *n steps*.
 	- `Linear10PercentEvery3Minutes`
 	- `Linear10PercentEvery10Minutes`
-- **Canary**: *try X percent then 100%*
+- **Canary**: *try X percent then 100%*. There are **only 2 steps**.
 	- `Canary10Percent5Minutes`
 	- `Canary10Percent30Minutes`
 - **AllAtOnce**: *immediate and risky*

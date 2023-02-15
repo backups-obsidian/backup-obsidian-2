@@ -1,6 +1,6 @@
 ---
 created: 2022-05-30 12:29
-updated: 2023-02-01 16:39
+updated: 2023-02-14 19:58
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -10,10 +10,14 @@ updated: 2023-02-01 16:39
 - When you exceed a request quota, you get a **ThrottlingException**
 - For cryptographic operations (like encrypt, decrypt, GenerateDateKey etc) , they *share a quota*. 
 	- This includes *requests made by AWS services on your behalf* (ex: SSE-KMS)
-- How to deal with KMS limits:
+- **How to deal with KMS limits**:
 	- Use *exponential backoff* (backoff and retry)
-	- *For GenerateDataKey*, consider using *DEK caching* from the Encryption SDK
+	- *For GenerateDataKey*, consider using **DEK caching** from the *Encryption SDK*.
 	- You can request a *Request Quotas increase through API or AWS support* 
+
+> [!question]- An application that processes financial transactions receives thousands of transactions each second. The transactions require end-to-end encryption, and the application implements this by using the AWS KMS GenerateDataKey operation. During operation the application receives the following error message: *You have exceeded the rate at which you may call KMS. Reduce the frequency of your calls.*
+> Create a *local cache* using the *AWS Encryption SDK* and the LocalCryptoMaterialsCache feature.
+> Create a case in the *AWS Support Center to increase the quota* for the account.
 
 ## S3 & KMS
 ### Forcing S3 SSL and KMS

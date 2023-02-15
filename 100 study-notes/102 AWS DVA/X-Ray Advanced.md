@@ -1,6 +1,6 @@
 ---
 created: 2022-05-19 15:50
-updated: 2023-02-14 18:12
+updated: 2023-02-14 19:52
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -40,6 +40,7 @@ updated: 2023-02-14 18:12
 	- ![[attachments/Pasted image 20220519160333.png]]
 - **BatchGetTraces**: Retrieves a *list of traces specified by ID*. Each trace is a collection of segment documents that originates from a single request.
 - **GetTraceSummaries**: Retrieves *IDs and annotations for traces* available for a specified time frame using an optional filter. *To get the full traces, pass the trace IDs to BatchGet Traces*.
+	- We filter on annotations by using this.
 - **GetTraceGraph**: Retrieves a *service graph for one or more specific trace IDs*.
 
 ## X-Ray with BeanStalk

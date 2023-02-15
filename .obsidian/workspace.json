@@ -73,8 +73,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 study-notes/101 AWS SAA/API Gateway.md",
-                "mode": "preview",
+                "file": "100 study-notes/102 AWS DVA/Other Services DVA.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
@@ -100,7 +100,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "path:dva \"latency\"",
+                "query": "path:dva \"linear\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -156,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/101 AWS SAA/API Gateway.md",
+                "file": "100 study-notes/102 AWS DVA/Other Services DVA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/101 AWS SAA/API Gateway.md"
+                "file": "100 study-notes/102 AWS DVA/Other Services DVA.md"
               }
             }
           },
@@ -183,7 +183,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/101 AWS SAA/API Gateway.md",
+                "file": "100 study-notes/102 AWS DVA/Other Services DVA.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -252,14 +252,14 @@
   "active": "d5e20fac0e6cca18",
   "lastOpenFiles": [
     "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
-    "100 study-notes/102 AWS DVA/API Gateway DVA.md",
-    "100 study-notes/101 AWS SAA/API Gateway.md",
-    "100 study-notes/102 AWS DVA/CloudFormation Advanced.md",
+    "100 study-notes/102 AWS DVA/SAM.md",
+    "100 study-notes/102 AWS DVA/DynamoDB Indexes.md",
     "100 study-notes/102 AWS DVA/DVA - Question Areas.md",
-    "100 study-notes/102 AWS DVA/CloudFormation RollBacks.md",
-    "100 study-notes/102 AWS DVA/CloudFormation Template Components.md",
-    "100 study-notes/102 AWS DVA/CloudFormation.md",
-    "100 study-notes/102 AWS DVA/X-Ray Advanced.md",
-    "100 study-notes/102 AWS DVA/API Gateway Monitoring.md"
+    "100 study-notes/102 AWS DVA/ElastiCache DVA.md",
+    "100 study-notes/102 AWS DVA/Lambda Event Source Mapping.md",
+    "100 study-notes/101 AWS SAA/VPC Flow Logs.md",
+    "100 study-notes/102 AWS DVA/Lambda Configuration & Deployments.md",
+    "100 study-notes/101 AWS SAA/Lambda.md",
+    "100 study-notes/102 AWS DVA/CodeDeploy.md"
   ]
 }

@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 19:08
-updated: 2023-02-13 15:43
+updated: 2023-02-14 19:48
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -91,6 +91,12 @@ updated: 2023-02-13 15:43
 
 - Helps to use OAuth / SAML / **3rd party type of authentication**
 - Lambda **must return an IAM policy for the user**. Very flexible in what IAM policy is returned.
+- A lambda authoriser can reference a DynamoDB authorisation table.
+
+> [!question]- A company needs to provide additional security for their APIs deployed on Amazon API Gateway. They would like to be able to *authenticate their customers with a token*. What is the SAFEST way to do this?
+> Create an API Gateway Lambda authoriser.
+> ---
+> "Setup usage plans and distribute API keys to the customers" is incorrect as this is not the most secure (safest) option. *AWS recommends that you don't rely on API keys as your only means of authentication and authorisation for your APIs*.
 
 ### Cognito User Pools
 - **Cognito fully manages user lifecycle**

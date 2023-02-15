@@ -1,6 +1,6 @@
 ---
 created: 2023-02-06 22:18
-updated: 2023-02-14 09:30
+updated: 2023-02-14 20:10
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -75,4 +75,18 @@ updated: 2023-02-14 09:30
 	- **Query string authentication (presigning URLS)**
 
 - DynamoDB can also be used for handling sessions *but the latency will not be as low as ElastiCache*.
-- S3 websites cannot have HTTPS. Must be behind a CloudFront origin. 
+
+> [!question]- **Guest users in cognito**. 
+> A company has an application that provides access to objects in Amazon S3 based on the type of user. The user types are registered user and guest user. The company has 30,000 users. Information is read from an S3 bucket depending on the user type. Which approaches are recommended to provide access to both user types MOST efficiently?
+> ---
+> - Use Amazon Cognito to provide access *using authenticated and unauthenticated roles*.
+> - Use the AWS IAM service and let the application assume different roles depending on the type of user.
+
+- **Adaptive authentication cognito**:
+	- With adaptive authentication, you can configure your user pool to *block suspicious sign-ins* or add second factor authentication in response to an increased risk level.
+
+> [!question]- A company uses an Amazon S3 bucket to store a large number of sensitive files relating to eCommerce transactions. *The company has a policy that states that all data written to the S3 bucket must be encrypted*. How can a Developer ensure compliance with this policy?
+> Create an S3 *bucket policy* that *denies any S3 Put request* that does not include the `x-amz-server-side-encryption`.
+
+- We can customise the Amazon Cognito hosted web Ul and add the company logo.
+- Go for customer managed AWS policies over AWS managed AWS policies for more security and fine grained control.
