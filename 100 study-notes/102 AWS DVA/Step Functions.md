@@ -1,10 +1,10 @@
 ---
 created: 2022-05-30 12:29
-updated: 2023-02-13 15:22
+updated: 2023-02-16 08:32
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
-**Keywords**: *state machines*, *multiple lambdas*, *inventory management*, order *tracking*, *decisions*, *steps*.
+**Keywords**: *state machines*, *multiple lambdas*, *inventory management*, order *tracking*, *decisions*, *steps*, *workflows*.
 
 ---
 ## Step Functions
@@ -13,6 +13,7 @@ updated: 2023-02-13 15:22
 	- Order fulfilment, Data processing
 	- Web applications, Any workflow 
 - Written in **JSON**
+	- **Amazon states language**.
 - Visualisation of the workflow and the execution of the workflow, as well as **history** (useful for debugging)
 - Start workflow with *SDK call*, *API Gateway*, *Event Bridge* (CloudWatch Event)
 

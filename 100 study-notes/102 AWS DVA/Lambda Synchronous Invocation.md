@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 12:39
-updated: 2022-06-08 15:10
+updated: 2023-02-16 08:48
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -22,6 +22,9 @@ updated: 2022-06-08 15:10
 		- AWS *Step Functions*
 		- *Kinesis Data Firehose*
 	- CLI/SDK can be used for both synchronous and asynchronous invocations
+		- ![[attachments/Pasted image 20230216084734.png]]
+
+
 
 ### Lambda with ALB
 - To expose a **Lambda function as an HTTPS endpoint** we can use the *Application Load Balancer* or an *API Gateway*.

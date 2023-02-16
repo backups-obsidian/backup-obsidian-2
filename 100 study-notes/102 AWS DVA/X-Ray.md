@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 12:39
-updated: 2023-02-09 10:23
+updated: 2023-02-16 09:26
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -67,6 +67,7 @@ updated: 2023-02-09 10:23
 - *Trace*: *segments collected together* to form an end-to-end trace
 - *Sampling*: decrease the *amount of requests sent to X-Ray*, reduce cost
 - *Annotations*: *Key Value pairs* used to **index traces** and use with *filters*
+	- Upto *50 annotations* per trace.
 - *Metadata*: *Key Value pairs*, **not indexed**, not used for searching
 
 > [!important]- The X-Ray daemon/agent has a **config to send traces cross account**

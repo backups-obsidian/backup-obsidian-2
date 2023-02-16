@@ -1,6 +1,6 @@
 ---
 created: 2022-04-17 15:43
-updated: 2023-02-14 18:55
+updated: 2023-02-16 09:51
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -15,8 +15,9 @@ updated: 2023-02-14 18:55
 
 ### Lazy Loading / Cache-Aside / Lazy Population
 - Lazy loading *loads data into cache only when necessary* i.e. when there is a cache miss.
-- Only requested data is cached (the cache isn't filled up with unused data)
+- **Only requested data is cached** (the cache isn't filled up with unused data)
 	- ![[attachments/Pasted image 20220514103230.png]]
+- *Cost effective* as compared to write through since only requested data is cached.
 - Cons
 	- *Cache miss penalty that results in 2 round trips*, noticeable delay for that request. This means there is a **read penalty**.
 	- **Stale data**: data can be updated in the database and outdated in the cache

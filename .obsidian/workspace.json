@@ -73,8 +73,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 study-notes/102 AWS DVA/CloudFront DVA.md",
-                "mode": "preview",
+                "file": "100 study-notes/102 AWS DVA/Lambda Event Source Mapping.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
@@ -100,7 +100,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "path:dva \"linear\"",
+                "query": "path:dva \"Cloud9\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -156,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/102 AWS DVA/CloudFront DVA.md",
+                "file": "100 study-notes/102 AWS DVA/Lambda Event Source Mapping.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/102 AWS DVA/CloudFront DVA.md"
+                "file": "100 study-notes/102 AWS DVA/Lambda Event Source Mapping.md"
               }
             }
           },
@@ -183,7 +183,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/102 AWS DVA/CloudFront DVA.md",
+                "file": "100 study-notes/102 AWS DVA/Lambda Event Source Mapping.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -252,14 +252,14 @@
   "active": "d5e20fac0e6cca18",
   "lastOpenFiles": [
     "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
-    "100 study-notes/102 AWS DVA/DVA - Question Areas.md",
-    "100 study-notes/102 AWS DVA/API Gateway Integration Types.md",
-    "100 study-notes/102 AWS DVA/ECS DVA.md",
-    "100 study-notes/102 AWS DVA/Cognito.md",
-    "100 study-notes/102 AWS DVA/ElasticBeanstalk DVA.md",
-    "100 study-notes/102 AWS DVA/CloudFront DVA.md",
-    "100 study-notes/102 AWS DVA/ElasticCache Replication.md",
-    "100 study-notes/102 AWS DVA/SSM Parameter Store vs Secrets Manager.md",
-    "100 study-notes/102 AWS DVA/Lambda Asynchronous Invocation.md"
+    "100 study-notes/102 AWS DVA/Step Functions.md",
+    "100 study-notes/102 AWS DVA/ElastiCache DVA.md",
+    "100 study-notes/102 AWS DVA/DynamoDB DVA.md",
+    "100 study-notes/102 AWS DVA/CodeDeploy.md",
+    "100 study-notes/101 AWS SAA/RDS Read Replica & Multi AZ.md",
+    "100 study-notes/101 AWS SAA/Kinesis.md",
+    "100 study-notes/102 AWS DVA/KMS Working.md",
+    "100 study-notes/102 AWS DVA/KMS DVA.md",
+    "100 study-notes/102 AWS DVA/DVA - Question Areas.md"
   ]
 }

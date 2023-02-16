@@ -1,12 +1,11 @@
 ---
 created: 2022-04-17 15:43
-updated: 2023-02-09 20:08
+updated: 2023-02-15 16:45
 ---
 - Target:
-	- DevOps lead
+	- DevOps
+	- Recruiters
 	- AWS solutions architect in canada
-	- DevOps recruiter
-	- Cloud recruiter
 	- Cloud lead
 	- SRE
 	- Platform engineering

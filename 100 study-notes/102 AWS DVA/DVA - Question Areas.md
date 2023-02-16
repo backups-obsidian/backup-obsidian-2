@@ -1,6 +1,6 @@
 ---
 created: 2023-02-06 22:18
-updated: 2023-02-15 09:58
+updated: 2023-02-16 09:38
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -9,7 +9,7 @@ updated: 2023-02-15 09:58
 ## Question Areas
 - Guard duty
 - WAF
-- inspector
+- Launch configuration
 
 ## Extra Notes
 - Elastic Load balancer *cannot balance between regions*.
@@ -104,3 +104,30 @@ updated: 2023-02-15 09:58
 
 > [!question]- A team of Developers require access to an AWS account that is a member account in AWS Organisations. The administrator of the master account needs to restrict the AWS services, resources, and API actions that can be accessed by the users in the account. What should the administrator create?
 > A **service control policy**.
+> ---
+> You can configure the SCPs in your organisation to work as either of the following:
+> A **deny list** – actions are allowed by default, and you specify what services and actions are prohibited
+> An **allow list** – actions are prohibited by default, and you specify what services and actions are allowed
+
+- In the scenario the Lambda function will be invoked 40 times per second and run for 100 seconds. Therefore, there can be up to 4,000 executions running concurrently which is above the default per-region limit of 1,000 concurrent executions.
+	- This can be easily rectified by contacting AWS support and requesting the concurrent execution limit to be increased.
+- If your access keys have been compromised delete them.
+
+> [!question]- An application is running on a fleet of EC2 instances running behind an Elastic Load Balancer (ELB). The EC2 instances session data in a shared Amazon S3 bucket. Security policy mandates that *data must be encrypted in transit*. How can the Developer ensure that all data that is sent to the S3 bucket is encrypted in transit?
+> Create an *S3 bucket policy* that denies traffic where **SecureTransport is false**.
+
+> [!question]- A developer has a user account in the Development AWS account. He has been asked to *modify resources in a Production AWS account*. What is the MOST secure way to provide temporary access to the developer?
+> Create a cross-account access role, and use `sts:AssumeRole` API to get short-lived credentials
+
+> [!question]- A company needs to encrypt a large quantity of data. The data encryption keys must be generated from a *dedicated, tamper-resistant hardware device*. To deliver these requirements, which AWS service should the company use?
+> **AWS CloudHSM**
+> ---
+> We cannot use *AWS KMS* since it *uses shared infrastructure* (multi-tenant) and is therefore not a dedicated HSM.
+
+> [!question]- An application uses Amazon EC2, and Application Load Balancer and Amazon CloudFront to serve content. The security team have reported *malicious activity from a specific range of IP addresses*. How can a Developer prevent the application from being targeted by these addresses again?
+> Add a rule to a Web ACL using **AWS WAF** that *denies the IP address ranges*.
+
+- **Amazon Inspector** is an **automated security assessment service** that helps improve the security and compliance of applications deployed on AWS.
+	- Amazon Inspector automatically *assesses applications for exposure, vulnerabilities, and deviations from best practices*.
+
+- **AWS Cloud9** is an integrated development environment, or **IDE** on the **web**.

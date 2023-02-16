@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2023-02-14 20:00
+updated: 2023-02-16 09:31
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -14,7 +14,14 @@ updated: 2023-02-14 20:00
 	- Namespaces are isolated from each other. 
 	- We can create *custom namespaces*.
 - **Dimension** is an **attribute of a metric** (instance id, environment, etc...).
-	- We can use dimensions to segment our metrics. Like instance.id or environment.name.
+	- We can use dimensions to *segment our metrics*. Like instance.id or environment.name.
+
+> [!question]- A Developer is *publishing custom metrics* for Amazon EC2 using the Amazon CloudWatch CLI. The Developer needs to *add further context to the metrics being published by organising them by EC2 instance and Auto Scaling Group*. What should the Developer add to the CLI command when publishing the metrics using `put-metric-data`?
+> Use `--dimensions` parameter.
+> ---
+> In **custom metrics**, the `--dimensions` parameter is common. A dimension *further clarifies what the metric is* and what data it stores.
+> ![[attachments/Pasted image 20230216093036.png]]
+
 - We can choose upto **10 dimensions per metric**.
 - Metrics have **timestamps**.
 - We can create CloudWatch **dashboard from metrics**.

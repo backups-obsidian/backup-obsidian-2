@@ -1,6 +1,6 @@
 ---
 created: 2022-05-24 10:24
-updated: 2023-02-14 20:08
+updated: 2023-02-16 08:30
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -149,6 +149,7 @@ updated: 2023-02-14 20:08
 	- ![[attachments/Pasted image 20220524161029.png]]
 - Aliases enable *stable configuration of our event triggers/destinations*
 - Aliases *have their own ARNs*
+	- So this means with aliases we can have a *static ARNs which always points to the latest version*.
 
 > [!caution] Aliases **cannot reference aliases**
 

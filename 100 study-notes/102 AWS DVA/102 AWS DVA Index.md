@@ -1,6 +1,6 @@
 ---
 created: 2022-04-17 15:43
-updated: 2023-02-14 20:50
+updated: 2023-02-15 15:43
 ---
 ---
 **Links**: [[../100 home | 100 Home]]
@@ -199,6 +199,7 @@ Three ways in which Lambda processes events
 - Know what services are in SAM
 - Get more clarity about stages in API gateway
 - Deployment strategies
+- KMS DataKey concept
 
 ## Todo exam wise
 - Download sample test from AWS website.
