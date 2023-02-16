@@ -1,6 +1,6 @@
 ---
 created: 2022-05-23 17:00
-updated: 2023-02-13 15:50
+updated: 2023-02-16 10:01
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -40,6 +40,11 @@ updated: 2023-02-13 15:50
 
 #### Error Handling
 - By default, if your function returns an *error*, the **entire batch is reprocessed** until the function succeeds, or the items in the batch expire.
+	- Can result in duplicate error logs even though kinesis guarantees deduplication.
+
+> [!question]- A Developer is creating an AWS Lambda function to process a stream of data from an Amazon Kinesis Data Stream. When the *Lambda function parses the data and encounters a missing field, it exits the function with an error*. The function is generating duplicate records from the Kinesis stream. When the Developer looks at the stream output without the Lambda function, there are no duplicate records. What is the reason for the duplicates?
+> With an *event source mapping* from a stream (Kinesis Data Stream), **Lambda retries the entire batch of items**. Therefore the Lambda function did not handle the error, and the Lambda service attempted to *reprocess the data*.
+
 - To ensure in-order processing, processing for the **affected shard is paused** until the error is resolved
 - You can configure the event source mapping to:
 	- Discard old events

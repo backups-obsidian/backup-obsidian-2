@@ -1,6 +1,6 @@
 ---
 created: 2022-05-25 10:53
-updated: 2023-02-15 08:40
+updated: 2023-02-16 09:49
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -153,9 +153,11 @@ updated: 2023-02-15 08:40
 	- This is a *client-side encryption* library that enables us to *protect your table data before submitting it to DynamoDB*.
 - For backup and restore we have **Point-in-time Recovery (PITR)** just like RDS
 - For migrating data to and from DynamoDB we use DMS.
-- *Fine grained access control* for users:
+- **Fine grained access control** for users:
 	- Using Web Identity Federation or *Cognito Identity Pools*, each user gets AWS credentials
 	- You can assign an lAM Role to these users with a **Condition** to *limit their API access to DynamoDB*
 		- ![[attachments/Pasted image 20220525170645.png]]
 	- **LeadingKeys limit row-level access** for users on the **Primary Key**
 
+> [!question]- A Developer is creating a social networking app for games that uses a single Amazon DynamoDB table. All users’ saved game data is stored in the single table, but users should not be able to view each other’s data. How can the Developer *restrict user access* so they can only view their own data?
+> Restrict access to specific items based on *certain primary key values* (*LeadingKeys*).

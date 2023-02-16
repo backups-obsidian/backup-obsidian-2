@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 12:39
-updated: 2023-02-14 18:00
+updated: 2023-02-16 09:24
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -54,7 +54,7 @@ updated: 2023-02-14 18:00
 > Filtering has to be done on the client side
 
 - Returns up to 1 MB of data use pagination to keep on reading
-- *Consumes a lot of RCU*
+- **Consumes a lot of RCU**
 - Limit impact using **Limit** or reduce the size of the result and pause
 - For *faster performance*, use **Parallel Scan**
 	- *Multiple workers* scan multiple data segments at the same time
@@ -62,7 +62,7 @@ updated: 2023-02-14 18:00
 	- Limit the impact of parallel scans just like you would for Scans
 - Can use *ProjectionExpression* & *FilterExpression* (no changes to RCU)
 
-> [!question]- How to *scan* the whole table in the shortest possible time whilst ensuring the normal workload is not affected.
+> [!question]- How to *scan* the whole table in the *shortest possible time* whilst ensuring the *normal workload is NOT affected*.
 > Use the **Parallel Scan API** operation and **limit** the rate.
 
 ## Deleting Data
@@ -88,3 +88,7 @@ updated: 2023-02-14 18:00
 	- Return *items from one or more tables*
 	- Up to *100 items*, up to **16 MB** of data
 	- Items are retrieved in *parallel to minimise latency*
+
+> [!question]- An application needs to read up to *100 items* at a time from an Amazon DynamoDB. Each item is up to *100 KB* in size and all attributes must be retrieved. What is the BEST way to minimise latency?
+> Use `BatchGetItem`.
+

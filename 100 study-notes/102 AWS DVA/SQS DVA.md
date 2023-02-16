@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 12:39
-updated: 2023-02-12 11:47
+updated: 2023-02-16 08:31
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -19,6 +19,7 @@ updated: 2023-02-12 11:47
 - `MaxNumberOfMessages`: default 1, **max 10** (for `ReceiveMessage` API)
 	- To receive a *batch of messages*.
 - `ReceiveMessageWaitTimeSeconds`: Long Polling
+	- Or call the `ReceiveMessage` API with the `WaitTimeSeconds` parameter set to 20.
 - `ChangeMessageVisibility`: change the message timeout
 - Batch APIs for `SendMessage`, `DeleteMessage`, `ChangeMessageVisibility` helps **decrease your costs**.
 

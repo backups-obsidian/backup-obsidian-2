@@ -1,6 +1,6 @@
 ---
 created: 2022-05-19 15:50
-updated: 2023-02-14 19:52
+updated: 2023-02-16 08:22
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -28,8 +28,8 @@ updated: 2023-02-14 19:52
 ### X-Ray Write APIs 
 - Used by the **X-Ray daemon**
 	- ![[attachments/Pasted image 20220519155927.png]]
-- **PutTraceSegments**: *Uploads segment* documents to AWS X-Ray
-- **PutTelemetryRecords**: Used by the AWS X-Ray daemon to *upload telemetry*.
+- **PutTraceSegments**: *Uploads segment* documents to AWS X-Ray. *Used by developer*.
+- **PutTelemetryRecords**: *Used by the AWS X-Ray daemon* to *upload telemetry*.
 	- SegmentsReceivedCount, SegmentsRejectedCounts, *BackendConnectionErrors*
 - **GetSamplingRules**: *Retrieve all sampling rules* (to know what/when to send)
 - **GetSamplingTargets** & **GetSamplingStatisticSummaries**: advanced

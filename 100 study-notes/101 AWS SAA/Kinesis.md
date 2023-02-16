@@ -1,6 +1,6 @@
 ---
 created: 2022-04-25 16:24
-updated: 2023-02-11 19:31
+updated: 2023-02-16 09:44
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -30,6 +30,10 @@ updated: 2023-02-11 19:31
 
 - *Billing* is based on *per shard provisioned*.
 - We have a **retention period** of **1 day (default)** to **365 days**. Because of this we can reprocess the data. **Replay**.
+
+> [!question]- An Amazon Kinesis Data Stream has recently been configured to receive data from sensors in a manufacturing facility. A consumer EC2 instance is configured to process the data every 48 hours and save processing results to an Amazon RedShift data warehouse. Testing has identified a large amount of data is missing. A review of monitoring logs has identified that the sensors are sending data correctly and the EC2 instance is healthy. What is the MOST likely explanation for this issue?
+> *Records are retained for 24 hours* in the Kinesis Data Stream by **default**.
+
 -  Once the *data* is *inserted* into Kinesis it **cannot be deleted (immutability)**.
 
 - Data is ordered using **partition keys**. Data that shares the *same partition goes to the same shard (ordering)*. So partition key decides to which shard the data will go.
@@ -39,26 +43,33 @@ updated: 2023-02-11 19:31
 
 > [!caution] Data is ordered at the shard level
 
-- **Producers**:
-	- *AWS SDK*
-	- *Kinesis Producer Library* (KPL)
-	- *Kinesis Agent*:
-		- Standalone Java application that offers an **easy way** to collect and send data to Kinesis Data Streams.
-		- It does a lot of things like log file rotation, retry upon failures, pre process the records before sending etc. 
+> [!question]- A Developer has setup an Amazon Kinesis Data Stream with 6 shards to ingest a maximum of 2000 records per second. An AWS Lambda function has been configured to process these records. In which order will these records be processed?
+> Lambda will receive each record in the exact order it was placed into the shard. There is *no guarantee of order across shards*.
+
+### Producers
+- *AWS SDK*
+- *Kinesis Producer Library* (KPL)
+- *Kinesis Agent*:
+	- Standalone Java application that offers an **easy way** to collect and send data to Kinesis Data Streams.
+	- It does a lot of things like log file rotation, retry upon failures, pre process the records before sending etc. 
 
 > [!tip] Ease of usage: **Kinesis Agent** > KPL > AWS SDK.
 
-- **Consumers**:
-	- *Write your own*: 
-		- Kinesis Client Library (KCL) 
-		- AWS SDK
-	- *Managed*: 
-		- Kinesis Data Firehose 
-		- Kinesis Data Analytics
+> [!question]- A monitoring application that keeps track of a large eCommerce website uses Amazon Kinesis for data ingestion. During periods of peak data rates, *the producers are not making best use of the available shards*.   What step will allow the producers to *better utilise the available shards* and increase *write throughput* to the Kinesis data stream?
+> Install the Kinesis Producer Library (**KPL**) *for ingesting data* into the stream.
 
+### Consumers
+- *Write your own*: 
+	- Kinesis Client Library (KCL) 
+	- AWS SDK
+- *Managed*: 
+	- Kinesis Data Firehose 
+	- Kinesis Data Analytics
+
+---
 - Data is **base64 encoded**.
-- Kinesis data streams takes care of deduplication and ordering.
-- It is *not serverless* whereas kinesis firehose is. When you need to load data into something go for firehose.
+- Kinesis data streams takes care of **deduplication** and **ordering**.
+- It is *NOT serverless* whereas kinesis firehose is. When you need to load data into something in a serverless fashion go for firehose.
 
 > [!note] Keywords: 
 > - *real-time*: **KDF is near real time so if the question mentions realtime then go for KDS**.

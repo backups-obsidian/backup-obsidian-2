@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 12:39
-updated: 2023-02-13 15:59
+updated: 2023-02-16 09:47
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -63,14 +63,22 @@ updated: 2023-02-13 15:59
 
 ## `appspec.yml`
 - *files*: how to source and copy from S3/GitHub to filesystem. We have *source* and *destination*.
-- *hooks*: set of *instructions* which correspond to lifecycle events such as (hooks *can have timeouts*) :
+- *hooks*: set of *instructions* which **correspond to lifecycle events** such as (hooks *can have timeouts*) :
+- **Hooks for EC2**:
 	- ApplicationStop
 	- DownloadBundle
 	- Beforelnstall
 	- Install
 	- Afterlnstall
 	- ApplicationStart
-	- **ValidateService**: Run at the end to make sure our service is properly deployed to our EC2 instance.
+	- **ValidateService**: Run at the end to make sure our service is properly deployed to our *EC2 instance*.
+- **Hooks for ECS**:
+	- BeforeInstall 
+	- AfterInstall 
+	- AfterAllowTestTraffic 
+	- BeforeAllowTraffic 
+	- AfterAllowTraffic
+- There is no ValidateService hook in ECS.
 
 ## Deployment Configuration
 ### Deployment Strategies

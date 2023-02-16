@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 12:39
-updated: 2023-02-14 21:07
+updated: 2023-02-16 09:01
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -34,7 +34,7 @@ updated: 2023-02-14 21:07
 	- **`aws cloudformation deploy` / `sam deploy`**
 
 ### CLI Debugging
-- *Locally build, test, and debug your serverless applications* that are defined using AWS SAM templates
+- **Locally build, test, and debug your serverless applications** that are defined using AWS SAM templates
 - Provides a *lambda-like execution environment* locally
 - *SAM CLI + AWS Toolkits* => step-through and debug your code
 - **AWS Toolkits**: *IDE plugins* which allows you to build, test, debug, deploy, and invoke Lambda functions built using AWS SAM
@@ -67,6 +67,7 @@ updated: 2023-02-14 21:07
 - SAM is **built on CloudFormation**
 - SAM requires the **Transform** and **Resources** section in its template.
 - Commands to know:
+	- `sam init`: *initialises* a serverless application with an AWS SAM template
 	- `sam build`: fetch dependencies and create local deployment artifacts
 	- `sam package`: package and *upload to Amazon S3*, generate CF template
 	- `sam deploy`: deploy to CloudFormation

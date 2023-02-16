@@ -1,6 +1,6 @@
 ---
 created: 2022-05-15 11:30
-updated: 2023-02-15 09:45
+updated: 2023-02-16 08:58
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -137,6 +137,7 @@ updated: 2023-02-15 09:45
 
 #### Random
 - Places the task randomly.
+- *Least configuration required*.
 
 #### Spread
 - Place the task evenly based on the specified value

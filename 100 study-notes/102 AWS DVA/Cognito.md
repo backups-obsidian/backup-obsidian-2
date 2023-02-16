@@ -1,6 +1,6 @@
 ---
 created: 2022-05-30 09:35
-updated: 2023-02-15 09:26
+updated: 2023-02-16 09:34
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -99,12 +99,13 @@ updated: 2023-02-15 09:26
 ## Miscellaneous
 - **Adaptive authentication cognito**:
 	- With adaptive authentication, you can configure your user pool to *block suspicious sign-ins* or add second factor authentication in response to an increased risk level.
-- **Authenticated identities cogito**:
-	- With authenticated identities, you can *register and authenticate users via your own existing authentication process*, while still using Amazon *Cognito to synchronise user data* and access AWS resources.
+- **Developer authenticated identities**:
+	- With authenticated identities, you can **register and authenticate users via your own existing authentication process**, while still using Amazon *Cognito to synchronise user data* and access AWS resources.
 - To use an Amazon **Cognito user pool with your API Gateway**, you must first create an **authoriser of the `COGNITO_USER_POOLS`** type and then *configure an API method to use that authoriser*.
 
 > [!question]- **Guest users (unauthenticated) in cognito**. 
 > A company has an application that provides access to objects in Amazon S3 based on the type of user. The user types are registered user and guest user. The company has 30,000 users. Information is read from an S3 bucket depending on the user type. Which approaches are recommended to provide access to both user types MOST efficiently?
 > ---
 > - Use Amazon Cognito to provide access **using authenticated and unauthenticated roles**.
+> - Amazon *Cognito **identity pools** support both authenticated and unauthenticated identities*.
 > - Use the AWS IAM service and let the application assume different roles depending on the type of user.
