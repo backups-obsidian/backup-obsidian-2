@@ -1,6 +1,6 @@
 ---
 created: 2022-04-25 20:00
-updated: 2023-02-14 13:05
+updated: 2023-02-17 12:04
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -78,10 +78,15 @@ updated: 2023-02-14 13:05
 > ---
 > ![[attachments/Pasted image 20220425201355.png]]
 
-
 > [!question]- A company is developing a new online game that will run on top of Amazon ECS. *Four distinct Amazon ECS services* will be part of the architecture, *each requiring specific permissions* to various AWS services. The company wants to optimise the use of the underlying Amazon EC2 instances by *bin packing* the containers based on memory reservation. Which configuration would allow the Development team to meet these requirements *MOST securely*?
 > - Create *four distinct IAM roles*, each containing the required permissions for the associated ECS services, then *configure each ECS task definition* to reference the associated IAM role.
 > - It is a **best practice** to **use IAM roles for tasks** instead of assigning the roles to the *container instances*.
+
+> [!caution]- You cannot assign container instance roles to tasks if fargate is the launch type we will have to assign just IAM roles to the tasks.
+> A developer is building an application that will be hosted in ECS and must be configured to run tasks and services using the *Fargate launch type*. The application will have four different tasks, each of which will access different AWS resources than the others. Which of the following is the MOST efficient solution that can provide your application in ECS access to the required AWS resources?
+> Create **4 different IAM Roles** with the required permissions and attach them to each of the 4 ECS tasks.
+> ---
+> Creating 4 different *Container Instance IAM Roles* with the required permissions and attaching them to each of the 4 ECS tasks is *INCORRECT* because a *Container Instance IAM Role only applies if you are using the EC2 launch type*. Take note that the scenario says that the application will be using a Fargate launch type.
 
 ## ECS Data Volumes
 - ECS has an integration with **EFS file system**. We can easily share data between ECS tasks *between AZs*.

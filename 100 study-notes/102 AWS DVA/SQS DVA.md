@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 12:39
-updated: 2023-02-16 08:31
+updated: 2023-02-17 12:50
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -26,11 +26,14 @@ updated: 2023-02-16 08:31
 ## FIFO Advanced
 ### Message Deduplication
 - De-duplication interval is **5 minutes**. This means that if you send the same message *twice within the 5 minutes* then the second message will be *refused*.
-- Two de-duplication methods:
+- **Two** de-duplication methods:
 	- *Content-based deduplication*: will do a **SHA-256 hash** of the message body
 		- ![[attachments/Pasted image 20220519204755.png]]
 		- ![[attachments/Pasted image 20220519205238.png]]
-	- Explicitly provide a **MessageDeduplicationID**
+	- Explicitly provide a **`MessageDeduplicationID`** in the `SendMessage` API.
+
+> [!question]- An application collects data from sensors in a manufacturing facility. The data is stored in an Amazon SQS Standard queue by an AWS Lambda function and an Amazon EC2 instance processes the data and stores it in an Amazon RedShift data warehouse. A fault in the sensors’ software is causing *occasional duplicate messages to be sent*. Timestamps on the duplicate messages show they are generated within a few seconds of the primary message. How can a Developer prevent duplicate data being stored in the data warehouse?
+> Use a FIFO queue and configure the Lambda function to add a *message deduplication token* to the message body.
 
 ### Message Grouping
 - If you specify the *same value of `MessageGroupID` in an SQS FIFO queue*, you can **only have one consumer**, and *all the messages are in order*.
@@ -39,7 +42,7 @@ updated: 2023-02-16 08:31
 	- *Messages that share a common `MessageGroupID` will be in order within the group*
 	- *Each Group ID can have a different consumer* (**parallel processing**)
 	- **Ordering across groups is not guaranteed**
-- This is useful when you don't need ordering of all the messages but want ordering of messages for a particular ID.
+- This is useful when you don't need ordering of all the messages but *want ordering of messages for a particular ID*.
 
 > [!important] You can have **as many consumers as MessageGroupID** for your SQS FIFO queues.
 

@@ -1,6 +1,6 @@
 ---
 created: 2022-05-19 15:50
-updated: 2023-02-16 08:22
+updated: 2023-02-17 11:49
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -40,7 +40,7 @@ updated: 2023-02-16 08:22
 	- ![[attachments/Pasted image 20220519160333.png]]
 - **BatchGetTraces**: Retrieves a *list of traces specified by ID*. Each trace is a collection of segment documents that originates from a single request.
 - **GetTraceSummaries**: Retrieves *IDs and annotations for traces* available for a specified time frame using an optional filter. *To get the full traces, pass the trace IDs to BatchGet Traces*.
-	- We filter on annotations by using this.
+	- We **filter on annotations** by using this.
 - **GetTraceGraph**: Retrieves a *service graph for one or more specific trace IDs*.
 
 ## X-Ray with BeanStalk
@@ -62,7 +62,7 @@ updated: 2023-02-16 08:22
 > Depending on the ECS type it can be either daemon or side car.
 > ---
 > A Developer is deploying an application using Docker containers running on the Amazon Elastic Container Service (ECS). The Developer is testing application latency and wants to capture trace information between the microservices. Which solution will meet these requirements?
-> Create a Docker image that runs the X-Ray daemon, upload it to a Docker image repository, and then deploy it to the Amazon ECS cluster.
+> **Create a Docker image that runs the X-Ray daemon, upload it to a Docker image repository or ECR**, and then deploy it to the Amazon ECS cluster.
 
 ### ECS Cluster with EC2
 - X-Ray **Container as a Daemon**

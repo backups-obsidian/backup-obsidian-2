@@ -1,6 +1,6 @@
 ---
 created: 2022-05-25 10:53
-updated: 2023-02-16 09:49
+updated: 2023-02-17 11:43
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -33,7 +33,7 @@ updated: 2023-02-16 09:49
 - DynamoDB has a feature called **Conditional Writes**
 - It is *type of concurrency model*.
 - A strategy to *ensure an item hasn't changed before you update/delete it*
-- Each item has an *attribute* that acts as a *version number*
+- Each item has an *attribute* that acts as a **version number**
 	- ![[attachments/Pasted image 20220525150559.png]]
 
 ## DynamoDB Streams

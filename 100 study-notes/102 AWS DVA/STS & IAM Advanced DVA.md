@@ -1,6 +1,6 @@
 ---
 created: 2022-05-30 09:35
-updated: 2023-02-14 13:10
+updated: 2023-02-17 12:57
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -9,11 +9,12 @@ updated: 2023-02-14 13:10
 ## STS
 - Allows to grant *limited and temporary access to AWS resources* (up to 1 hour).
 - **AssumeRole**: *Assume roles* within *your account or cross account*
-- AssumeRoleWithSAML: return credentials for users logged with SAML
-- AssumeRoleWithWebldentity: 
-	- Return credentials for users logged with an IdP (Facebook Login, Google Login, OIDC compatible)
-	- AWS recommends against using this, and using Cognito Identity Pools instead
-- **GetSessionToken**: *for MFA*, from a user or AWS account root user
+- *AssumeRoleWithSAML*: return credentials for *users logged with SAML*
+- *AssumeRoleWithWebldentity*: 
+	- Return credentials for users *logged with an IdP* (Facebook Login, Google Login, OIDC compatible)
+	- AWS *recommends against using this*, and *using Cognito Identity Pools instead*
+- **GetSessionToken**: **for MFA**, from a user or AWS account root user
+	- Primarily used to return a *set of temporary credentials* for an AWS account or IAM user only
 - GetFederationToken: obtain temporary credentials for a federated user
 - **GetCallerldentity**: return details about the IAM user or role used in the API call
 - **DecodeAuthorizationMessage**: *decode error message* when an AWS API is denied

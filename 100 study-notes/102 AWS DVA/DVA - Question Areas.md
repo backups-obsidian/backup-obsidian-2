@@ -1,6 +1,6 @@
 ---
 created: 2023-02-06 22:18
-updated: 2023-02-16 09:38
+updated: 2023-02-17 11:46
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -129,5 +129,22 @@ updated: 2023-02-16 09:38
 
 - **Amazon Inspector** is an **automated security assessment service** that helps improve the security and compliance of applications deployed on AWS.
 	- Amazon Inspector automatically *assesses applications for exposure, vulnerabilities, and deviations from best practices*.
+	- **EC2 instances**.
 
 - **AWS Cloud9** is an integrated development environment, or **IDE** on the **web**.
+- Rotate access keys periodically.
+
+> [!question]- An organisation has encrypted a large quantity of data. To protect their data encryption keys they are planning to use envelope encryption. Which of the following processes is a correct implementation of envelope encryption?
+> Encrypt plaintext data with a data key and then *encrypt the data key with a top-level **plaintext** master key*.
+> ---
+> *Envelope encryption* is the practice of *encrypting plaintext data with a data key*, and *then encrypting the data key under another key*.
+> 
+- If you have *resources that are running inside AWS* that need programmatic access to various AWS services, then the best practice is always to use *IAM roles*. 
+	- However, *applications running outside* of an AWS environment will need access keys for *programmatic access* to AWS resources.
+- *SNS* also for *mobile notifications*. 
+- Stage variables are a API Gateway concept.
+- *Memcached* **multithreaded** event-based key/value cache store.
+	- Multiple cores.
+- Lambda @edge is used for low latency 
+
+- For **pagination** so that the CLI doesn't time out if there are a lot of items we use `--page-size` and `--max-items`

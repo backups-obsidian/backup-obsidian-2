@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 10:21
-updated: 2023-02-13 15:19
+updated: 2023-02-17 12:27
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -12,9 +12,11 @@ updated: 2023-02-13 15:19
 
 > [!tip] If the question mentions **Packer** then go for custom platform.
 
-- We have a CLI specific to BeanStalk known as *EB CLI*. It can be helpful to automate the deployments.
+- We have a CLI specific to BeanStalk known as **EB CLI**. It can be helpful to *automate the deployments*.
 	- It helps us increase our efficiency when compared to the normal AWS CLI.
-- You can run **cron jobs** in EB by defining a **`cron.yaml`** file and using the [[../101 AWS SAA/ElasticBeanstalk#Web vs Worker Tier|Worker Environment]] 
+	 - We can package the application as a *zip file* and deploy it using the *`eb deploy`* command.
+- You can run **cron jobs** in EB by defining a **`cron.yaml`** file and using the **[[../101 AWS SAA/ElasticBeanstalk#Web vs Worker Tier|Worker Environment]]**
+	- It should be at the **root of the repository**. NOT inside `.ebextensions`.
 
 > [!caution] All the *source bundles* (code *zip files* for deployment) are stored in **S3**.
 
@@ -75,6 +77,10 @@ updated: 2023-02-13 15:19
 	- *Environment variables*
 - After cloning an environment, you *can change settings*.
 
+## Using environment variables
+- In Elastic Beanstalk, you can include a **YAML formatted environment** manifest in the **root of your application source bundle** to configure the environment name, solution stack and environment links to use when creating your environment.
+	- `env.yaml` 
+
 ## Migrations 
 ### Changing Load Balancer
 - After creating an Elastic Beanstalk environment, you **cannot change the Elastic Load Balancer type** (only the configuration)
@@ -90,10 +96,11 @@ updated: 2023-02-13 15:19
 - This is **not great for prod** as the *database lifecycle is tied to the Beanstalk environment lifecycle*
 - The best for prod is to **separately create an RDS database** and refer it using environment variables.
 - **Decoupling RDS**:
-	- Create a snapshot of RDS DB (as a safeguard)
+	- *Create a snapshot* of RDS DB (as a safeguard)
 	- Go to the RDS console and **protect the RDS database from deletion**
 	- Create a *new Elastic Beanstalk environment, without RDS*, point your application (in the new EB) to existing RDS
 	- Perform a *CAME swap* (blue/green) or Route 53 update, confirm working
+	- Before terminating the old Elastic Beanstalk environment, *remove its security group rule first before proceeding*. If the existing security group rule is not removed then it hinders the deletion of the old environment.
 	- *Terminate the old environment* (**RDS won't be deleted** since we have a delete protection) 
 	- The CloudFormation stack won't be deleted since the RDS was protected from delete. 
 	- *Delete CloudFormation stack* (in DELETE_FAILED state)

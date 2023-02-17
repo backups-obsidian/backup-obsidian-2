@@ -1,6 +1,6 @@
 ---
 created: 2022-05-24 10:24
-updated: 2023-02-16 08:30
+updated: 2023-02-17 12:49
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -13,6 +13,9 @@ updated: 2023-02-16 08:30
 - Lambda Service adds its own system environment variables as well
 - Helpful to store **secrets** (*encrypted by KMS*)
 	- Secrets can be encrypted by the *Lambda service key, or your own CMK*
+
+> [!note]- If you want to *share encrypted secrets* among lambdas then use **SecureString from SSM parameter store**.
+> We CANNOT use *KMS encrypted environment variables* since even though the credentials will be encrypted, *these environment variables will only be used by an individual Lambda function*, and **cannot be shared**.
 
 > [!note]- Lambda environment variables can have a **maximum size of 4 KB**.
 > Additionally, the direct *Encrypt API of KMS also has an upper limit of 4 KB* for the data payload. 
@@ -38,10 +41,10 @@ updated: 2023-02-16 08:30
 - Use AWS **X-Ray SDK in Code**
 - Ensure *Lambda Function has a correct IAM Execution Role*
 	- The managed policy is called `AWSXRayDaemonWriteAccess`
-- *Environment variables* to **communicate with X-Ray**
-	- `_XAMZN_TRACE_ID`: contains the tracing header
-	- `AWS_XRAY_CONTEXT_MISSING`: by default, LOG_ERROR
-	- `AWS_XRAY_DAEMON_ADDRESS`: the *X-Ray Daemon IP_ADDRESS:PORT*
+- *Environment variables* used by lambda to **communicate with X-Ray**
+	- `_X_AMZN_TRACE_ID`: contains the *tracing header*
+	- `AWS_XRAY_CONTEXT_MISSING`: by default, *LOG_ERROR*
+	- `AWS_XRAY_DAEMON_ADDRESS`: the X-Ray Daemon *`IP_ADDRESS:PORT`*
 
 ## Lambda in VPC
 ### Default VPC
@@ -160,8 +163,33 @@ updated: 2023-02-16 08:30
 - **Linear**: *grow traffic every N minutes until 100%*. There can be *n steps*.
 	- `Linear10PercentEvery3Minutes`
 	- `Linear10PercentEvery10Minutes`
-- **Canary**: *try X percent then 100%*. There are **only 2 steps**.
+- **Canary**: *try X percent then 100%*. There are **only 2 steps**.  
+	- Traffic should shift from the previous Lambda function to the new version in the *shortest time possible*, but you *still don't want to shift traffic all-at-once immediately*.
 	- `Canary10Percent5Minutes`
 	- `Canary10Percent30Minutes`
 - **AllAtOnce**: *immediate and risky*
 - Can create **Pre & Post Traffic hooks** to check the health of the Lambda function. If anything goes wrong then CodeDeploy can perform a roll back.
+
+## Lambda Errors
+- `InvalidParameterValueException`: This will be returned if *one of the parameters* in the request is *invalid*.
+	- Example if _you provided an IAM role in the_ `CreateFunction` _API which AWS Lambda is unable to assume_.
+- `CodeStorageExceededException`: If you have *exceeded your maximum total code size* per account.
+- `ResourceConflictException`: If the *resource already exists*.
+- `ServiceException`: If the lambda service encountered an *internal error*.
+
+## Lambda Invocations
+- In the `Invoke` API, you have 3 options to choose from for the **InvocationType:**
+	- `RequestResponse` (**default**) - Invoke the function **synchronously**. 
+		- Keep the *connection open until the function returns a response or times out*.
+		- The API response includes the function response and additional data.
+	- `Event` - Invoke the function **asynchronously**. 
+		- Send events that fail multiple times to the function's dead-letter queue (if it's configured). 
+		- The *API response only includes a status code*.
+	- `DryRun` - Validate parameter values and verify that the user or role has permission to invoke the function.
+
+## Lambda Concurrency
+- If you set the concurrent execution limit for a function, *the value is deducted from the unreserved concurrency pool*. 
+	- For example, if your *account's concurrent execution limit is 1000* and you have 10 functions, you can specify a limit on one function at 200 and another function at 100. The remaining 700 will be shared among the other 8 functions.
+
+> [!note]- AWS Lambda will keep the **unreserved concurrency pool at a minimum of 100 concurrent executions**, so that functions that do not have specific limits set can still process requests. So, in practice, *if your total account limit is 1000, you are limited to allocating 900* to individual functions.
+> ![[attachments/Pasted image 20230217124541.png]]

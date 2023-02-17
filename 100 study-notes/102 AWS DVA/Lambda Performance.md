@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 12:39
-updated: 2023-02-13 15:55
+updated: 2023-02-17 11:12
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -24,7 +24,8 @@ updated: 2023-02-13 15:55
 - Great for database connections, HTTP clients, SDK clients, etc.
 - The *execution context is maintained for some time* in anticipation of another Lambda function invocation
 - The next function invocation can **re-use** the *context to execution time and save time in initialising connections objects*.
-- The execution context includes the `/tmp` directory which can be *shared across invocations*.
+- **The execution context includes the `/tmp` directory which can be *shared* across invocations**.
+	- This is great if you have to download file for each invocation.
 	- If your Lambda function needs to *download a big file to work*
 	- If your Lambda function needs *disk space to perform operations*
 	- Max size is **512MB**
@@ -39,6 +40,10 @@ updated: 2023-02-13 15:55
 
 ## Concurrency
 - **Concurrency limit**: up to *1000* concurrent executions **for all the functions** in the per region.
+	- Under sustained load, your function's concurrency bursts to an initial level between *500 and 3000 concurrent executions that varies per region*. 
+	- After the initial burst, the function's capacity increases by an additional 500 concurrent executions each minute until either the load is accommodated, or the total concurrency of all functions in the region hits the limit.
+	- *By default, AWS Lambda limits the total concurrent executions across all functions within a given region to 1000*. 
+	- This **limit can be raised by requesting** for AWS to increase the limit of the concurrent executions of your account.
 
 > [!note]- Concurrency calculations
 > To calculate the concurrency requirements for the Lambda function simply multiply the **number of executions per second** (20) by the **time it takes to complete the execution** (20).
@@ -78,6 +83,7 @@ updated: 2023-02-13 15:55
 	- Maximum *execution time*: 900 seconds (*15 minutes*)
 	- *Environment variables (4 KB)*
 	- *Disk capacity* in the "function container" (in `/tmp`): *512 MB*
+		- Can be increased to 10 GB.
 	- *Concurrency executions: 1000* (can be increased)
 - **Deployment**:
 	- Lambda function deployment size (*compressed .zip*): *50 MB*

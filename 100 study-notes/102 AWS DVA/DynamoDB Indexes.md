@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 12:39
-updated: 2023-02-14 21:02
+updated: 2023-02-17 12:23
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -39,6 +39,12 @@ updated: 2023-02-14 21:02
 > You have an application running for over a year now using a DynamoDB table, with Provisioned RCUs and WCUs, without any throttling issues. There's a requirement for your table to support second type of queries, so you have decided to use the existing Local Secondary Index (LSI) and create a new Global Secondary Index (GSI) to support these queries. One month later, the *table begins to experience throttling issues*. After checking the table's CloudWatch metrics, *you found that you haven't exceeded the table's Provisioned RCU and WCU*. What should you do?
 > 
 > The GSI is throttling so you need to provision more RCU and WCU to the GSI. *Global Secondary Index (GSI) uses an independent amount of RCU and WCU and if they are throttled due to insufficient capacity, then the main table will also be throttled*.
+> To avoid potential throttling, the provisioned write capacity for a global secondary index should be equal or *greater than the write capacity of the base table* since *new updates will write to both the base table and global secondary index*.
+
+> [!question]- A company is building an application to track athlete performance using an Amazon DynamoDB table. Each item in the table is identified by a partition key (user_id) and a sort key (sport_name). The table design is shown below: Partition key: `user_id`, Sort Key: `sport_name`, Attributes: `score`, `score_datetime`. A Developer is asked to write a leaderboard application to display the top performers (`user_id`) based on the score for each `sport_name.` What process will allow the Developer to extract results MOST efficiently from the DynamoDB table?
+> Create a *global secondary index* with a *partition key of sport_name* and a *sort key of score*, and get the results.
+> ---
+> In this case **BOTH the partition key and sort key must be different** which means a Global Secondary index is required. *Partition key: sport_name*, *Sort Key: score*.
 
 ## Throttling
 - Global Secondary Index (GSI):

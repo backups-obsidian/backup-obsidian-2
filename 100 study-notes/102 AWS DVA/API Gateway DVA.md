@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 16:54
-updated: 2023-02-14 13:14
+updated: 2023-02-17 09:57
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -32,7 +32,7 @@ updated: 2023-02-14 13:14
 	- *HTTP Endpoint*
 	- Parameter mapping templates
 - Use cases:
-	- Configure HTTP endpoints your stages talk to (dev, test, prod...)
+	- **Configure HTTP endpoints your stages talk to (dev, test, prod...)**
 	- Pass configuration parameters to AWS Lambda through mapping templates
 - Stage variables are passed to the **context object in AWS Lambda**
 
