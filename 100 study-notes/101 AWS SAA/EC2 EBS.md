@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 10:04
-updated: 2023-02-11 16:09
+updated: 2023-02-17 11:41
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -134,3 +134,7 @@ updated: 2023-02-11 16:09
 - **Lowest cost HDD** volume. Designed for *infrequently accessed workloads*.
 - If you see terms like **infrequent, sequential/large IO** operations then go for sc1.
 
+
+## Miscellaneous
+- New EBS volumes are raw block devices and *do not contain any partition or file system*. 
+	- You need to login to the instance and then format the EBS volume with a file system, and then mount the volume for it to be usable.

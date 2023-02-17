@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 19:08
-updated: 2023-02-14 19:48
+updated: 2023-02-17 12:10
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -79,15 +79,22 @@ updated: 2023-02-14 19:48
 - Leverages **Sig v4** capability where IAM credential are in headers
 
 ### Lambda/Custom Authoriser
-- There are 2 types of lambda authoriser:
-	- Token-based
-	- Request parameter-based
-- **Token-based authoriser** (bearer token) ex JWT (SON Web Token) or Oauth
 - *Authentication = External* | *Authorisation = Lambda function*
-- Uses **AWS Lambda** to **validate the token** in header being passed
-	- A *request parameter-based* Lambda authoriser (headers, query string, stage var)
-	- Retrieves the token from an external provider, uses the lambda authoriser to validate the token with the external provider and then generate the IAM policy.
-	- ![[attachments/Pasted image 20220527093730.png]]
+
+#### Types of lambda authorisers
+- **Token-based**:
+	- **Token-based authoriser** (*bearer token*)
+	- **JWT** (JSON Web Token)  
+	- **Oauth** 
+	- **SAML**
+- **Request parameter-based**
+	- Uses **AWS Lambda** to **validate the token** in header being passed
+		- A **request parameter-based** Lambda authoriser (**headers, query string, stage var, context variables**)
+		- Retrieves the token from an external provider, uses the lambda authoriser to validate the token with the external provider and then generate the IAM policy.
+		- ![[attachments/Pasted image 20220527093730.png]]
+
+> [!tip]- If you see *tokens* in question then go for token based lambda authoriser.
+---
 
 - Helps to use OAuth / SAML / **3rd party type of authentication**
 - Lambda **must return an IAM policy for the user**. Very flexible in what IAM policy is returned.

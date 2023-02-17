@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 12:39
-updated: 2023-02-16 09:47
+updated: 2023-02-17 12:56
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -17,6 +17,9 @@ updated: 2023-02-16 09:47
 - Application + `appspec.yml` (root of the code) is pulled from **GitHub or S3**.
 - EC2 instances will run the *deployment instructions* in `appspec.yml`
 - CodeDeploy Agent will report of success/failure of the deployment
+
+> [!note]- We *DONT* need a CodeDeploy agent for deploying to *ECS and lambda*.
+> It is only needed for *EC2 and on premise instances*.
 
 ## Components
 - *Application*: a unique name functions as a container (revision, deployment configuration, ...)
@@ -72,20 +75,27 @@ updated: 2023-02-16 09:47
 	- Afterlnstall
 	- ApplicationStart
 	- **ValidateService**: Run at the end to make sure our service is properly deployed to our *EC2 instance*.
-- **Hooks for ECS**:
+
+- **Hooks for ECS**: To remember (BA - IA (AI reverse))
 	- BeforeInstall 
 	- AfterInstall 
-	- AfterAllowTestTraffic 
+	- *AfterAllowTestTraffic* 
 	- BeforeAllowTraffic 
 	- AfterAllowTraffic
-- There is no ValidateService hook in ECS.
+- There is *no ValidateService hook in ECS*.
+
+- **Hooks for Lambda**: 
+	- *BeforeAllowTraffic* – Use to run tasks before traffic is shifted to the deployed Lambda function version.
+	- *AfterAllowTraffic* – Use to run tasks after all traffic is shifted to the deployed Lambda function version.
 
 ## Deployment Configuration
-### Deployment Strategies
+### Deployment Strategies for EC2
 - *One At A Time*: one EC2 instance at a time, if one instance fails then deployment stops
 - *Half At A Time*: 50%
 - *All At Once*: quick but no healthy host, **downtime**. Good for **dev**.
 - *Custom*: min healthy host = 75%
+
+### [[Lambda Configuration & Deployments#Lambda & CodeDeploy|Deployment Strategy for Lambda]]
 
 ### Failures
 - EC2 instances stay in "Failed" state

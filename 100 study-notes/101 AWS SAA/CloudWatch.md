@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2023-02-16 09:31
+updated: 2023-02-17 09:49
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -136,6 +136,12 @@ updated: 2023-02-16 09:31
 	- The unified agent enables the collection of logs *from servers running Windows Server*.
 
 ## CloudWatch Alarms
+- When you create an alarm, you specify *three settings* to enable CloudWatch to evaluate when to change the alarm state:
+	- **Period**: is the *length of time to evaluate the metric or expression* to create each individual data point for an alarm. It is expressed in *seconds*. If you choose one minute as the period, there is one datapoint every minute.
+	- **Evaluation Period**: is the *number of the most recent periods*, or data points, to evaluate when determining alarm state.
+	- **Datapoints to Alarm**: is the *number of data points within the evaluation period* that must be breaching to cause the alarm to go to the `ALARM` state. 
+- Triggering in general *Evaluation period* and *datapoints to alarm*.
+ 
 - They are used to **trigger notification from any metric**.
 - Alarm has **3** states:
     - **OK**: not triggered

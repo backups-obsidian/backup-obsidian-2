@@ -1,6 +1,6 @@
 ---
 created: 2022-04-23 10:36
-updated: 2023-02-12 19:22
+updated: 2023-02-17 08:53
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -46,6 +46,11 @@ updated: 2023-02-12 19:22
 
 > [!important]+ When to choose Transfer Acceleration over CloudFront
 > If you have objects that are *smaller than 1GB* or if the data set is less than 1GB in size, you should consider using Amazon CloudFront's PUT/POST commands for optimal performance. If the use case has *data larger than 1GB* then Transfer Acceleration is the better option.
+
+> [!question]- A web application is uploading large files, which are over 4 GB in size, in an S3 bucket called *data.tutorialsdojo.com* every 30 minutes. You want to minimise the time required to upload each file. Which of the following should you do to *minimise upload time*?
+> Multi part upload
+> ---
+> We *CANNOT use transfer acceleration* in this case since the bucket in the scenario won't be able to turn on this feature. Take note that the name of the **bucket used for Transfer Acceleration must be DNS-compliant and must not contain periods (".")**.
 
 ## Byte Range Fetches
 - **Parallelising get requests** by requesting specific byte ranges.

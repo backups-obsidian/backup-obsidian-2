@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2023-02-15 08:58
+updated: 2023-02-17 12:45
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -62,7 +62,9 @@ updated: 2023-02-15 08:58
 > [!caution] A bigger deployment package has *no effect* on your cold start.
 
 ### @Edge
+- Lambda@Edge is a *feature of Amazon CloudFront*.
 - You deploy **Lambda functions alongside your CloudFront CDN.**
+	- **Reduces latency**.
 - This can be useful in **building more responsive applications** or **customise the CDN content**.
 
 > [!important]+ We can use lambda to *change CloudFront requests and responses*. They are of *4 types*.
@@ -83,7 +85,7 @@ updated: 2023-02-15 08:58
 	- Search Engine Optimisation (*SEO*)
 	- Bot Mitigation at the Edge
 	- A/B Testing
-	- User *Authentication and Authorisation*
+	- *Low latency* User *Authentication and Authorisation* along with cognito.
 	- User *Tracking and Analytics*
 
 > [!note] Keywords: *process the data in close geographical proximity to their users*

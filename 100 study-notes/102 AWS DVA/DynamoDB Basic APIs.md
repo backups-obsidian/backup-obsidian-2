@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 12:39
-updated: 2023-02-16 09:24
+updated: 2023-02-17 12:44
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -14,7 +14,8 @@ updated: 2023-02-16 09:24
 - `UpdateItem`
 	- *Edits an existing item's attributes* or *adds a new item if it doesn't exist*
 		- Like **Upsert**.
-	- Can be used to implement **Atomic Counters** a numeric attribute that's unconditionally incremented
+	- Can be used to implement **Atomic Counters** a numeric attribute that's *unconditionally incremented*.
+		- With an atomic counter, the numeric value will increment each time you call `UpdateItem`. 
 	
 - `ConditionalWrites`
 	- By *default*, the DynamoDB write operations (PutItem, UpdateItem, DeleteItem) are *unconditional*.

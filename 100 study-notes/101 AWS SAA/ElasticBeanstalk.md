@@ -1,6 +1,6 @@
 ---
 created: 2022-05-01 11:23
-updated: 2023-02-10 10:10
+updated: 2023-02-17 09:46
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -20,8 +20,10 @@ updated: 2023-02-10 10:10
 - AWS Elastic Beanstalk stores your *application files* and optionally, *server log files* in **S3**.
 
 ### Web vs Worker Tier
-- Web environment scales on the basis of load (connected to **ELB**)
+- **Web environment** scales on the basis of load (connected to **ELB**)
 	- ![[attachments/Pasted image 20220501112838.png]]
-- Worker environment scales on the basis of **SQS messages**
+- **Worker environment** scales on the basis of **SQS messages**
 	- ![[attachments/Pasted image 20220501112910.png]]
 - We can combine the web and worker environment together by *pushing messages from web environment to worker environment*.
+
+> [!note]- *Worker environment* can be used to process *long running tasks asynchronously*.

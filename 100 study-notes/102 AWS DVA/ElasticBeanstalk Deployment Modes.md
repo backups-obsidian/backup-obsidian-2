@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 11:56
-updated: 2023-02-13 15:53
+updated: 2023-02-17 12:25
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -9,7 +9,7 @@ updated: 2023-02-13 15:53
 ## Deployment Modes
 - *Single instance deployment* is great for *development environment* whereas *HA* with load balancer is great for *prod environments*.
 	- ![[attachments/Pasted image 20220516115626.png]]
-- For deployments we *upload zip files*.
+- For deployments we **upload zip files**.
 
 ### All at once
 - Everything is *deployed in one go*.
