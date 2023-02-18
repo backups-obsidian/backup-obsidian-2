@@ -1,6 +1,6 @@
 ---
 created: 2022-05-26 16:04
-updated: 2023-02-17 12:15
+updated: 2023-02-17 15:21
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -38,7 +38,8 @@ updated: 2023-02-17 12:15
 
 ### HTTP_PROXY
 - **NO mapping template**
-- The HTTP request is passed to the backend
+- The HTTP request is passed to the backend. 
+	- It can be any backend. It can be an API running on EBS.
 - The **HTTP response from the backend is forwarded by API Gateway**
 - API Gateway is used just to proxy the request
 	- ![[attachments/Pasted image 20220526155619.png]]

@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 12:39
-updated: 2023-02-17 12:23
+updated: 2023-02-17 15:06
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -19,6 +19,11 @@ updated: 2023-02-17 12:23
 > - We can do a query on `user_id` or `game_id` but we cannot do a query on other attributes.
 > - To do so we will have to do a *scan and then client side filtering*.
 > - If we need to query based on `user_id` and `game_TS` then we need to create a LSI and define the LSI on `game_TS`.
+
+> [!question]- An online forum requires a new table in DynamoDB named `Thread` in which the partition key is `ForumName` and the sort key is `Subject`. For reporting purposes, the application needs to find all of the threads that have been posted in a particular forum within the last three months. Which of the following is the MOST effective solution that you should implement?
+> Add a **local secondary index** while creating the new Thread table. Use the Query operation to utilise the *LastPostDateTime attribute as the sort key* in order to find the data quickly
+> ---
+> *Creating a global secondary index* and using the Query operation to utilise the LastPostDateTime attribute as the sort key is *incorrect* because using a local secondary index is a more appropriate solution to be used in this scenario. Take note that in this scenario, it is **still using the same partition key** (`ForumName`), but with an alternate sort key (`LastPostDateTime`) which warrants the use of a local secondary index.
 
 ## Global Secondary Index
 - **Alternative Primary Key** (*HASH - partition key* or *HASH+RANGE - partition key + sort key*) from the base table

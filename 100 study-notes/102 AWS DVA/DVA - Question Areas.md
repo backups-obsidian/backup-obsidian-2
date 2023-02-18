@@ -1,6 +1,6 @@
 ---
 created: 2023-02-06 22:18
-updated: 2023-02-17 11:46
+updated: 2023-02-17 23:03
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -148,3 +148,12 @@ updated: 2023-02-17 11:46
 - Lambda @edge is used for low latency 
 
 - For **pagination** so that the CLI doesn't time out if there are a lot of items we use `--page-size` and `--max-items`
+- *Query with eventually consistent reads consumes the least amount of RCU*.
+	- As compared to any scan operation or strongly consistent reads combination.
+- In *EBS and Lambda* you can deploy either a **jar or a zip** file.
+- **A subnet can only be associated with one route table at a time.**
+- The **IAM policy simulator** *evaluates the policies* that you choose and *determines the effective permissions* for each of the actions that you specify. 
+	- The simulator uses the same policy evaluation engine that is used during real requests to AWS services.
+- We can use **CloudFormation Parameters** with **System Manager parameters (SSM)**.
+	- CloudFormation will fetch values stored against these keys in Systems Manager in your account and use them for the current stack operation.
+- 

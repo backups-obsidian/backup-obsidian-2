@@ -1,8 +1,56 @@
 {
   "recentFiles": [
     {
+      "basename": "DynamoDB DVA",
+      "path": "100 study-notes/102 AWS DVA/DynamoDB DVA.md"
+    },
+    {
+      "basename": "DynamoDB Basic APIs",
+      "path": "100 study-notes/102 AWS DVA/DynamoDB Basic APIs.md"
+    },
+    {
+      "basename": "DVA - Question Areas",
+      "path": "100 study-notes/102 AWS DVA/DVA - Question Areas.md"
+    },
+    {
       "basename": "102 AWS DVA Index",
       "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
+    },
+    {
+      "basename": "SSM Parameter Store vs Secrets Manager",
+      "path": "100 study-notes/102 AWS DVA/SSM Parameter Store vs Secrets Manager.md"
+    },
+    {
+      "basename": "ElastiCache DVA",
+      "path": "100 study-notes/102 AWS DVA/ElastiCache DVA.md"
+    },
+    {
+      "basename": "SAM",
+      "path": "100 study-notes/102 AWS DVA/SAM.md"
+    },
+    {
+      "basename": "X-Ray",
+      "path": "100 study-notes/102 AWS DVA/X-Ray.md"
+    },
+    {
+      "basename": "API Gateway Integration Types",
+      "path": "100 study-notes/102 AWS DVA/API Gateway Integration Types.md"
+    },
+    {
+      "basename": "CloudWatch",
+      "path": "100 study-notes/101 AWS SAA/CloudWatch.md"
+    },
+    {
+      "basename": "Lambda Configuration & Deployments",
+      "path": "100 study-notes/102 AWS DVA/Lambda Configuration & Deployments.md"
+    },
+    {
+      "basename": "X-Ray Advanced",
+      "path": "100 study-notes/102 AWS DVA/X-Ray Advanced.md"
+    },
+    {
+      "basename": "DynamoDB Indexes",
+      "path": "100 study-notes/102 AWS DVA/DynamoDB Indexes.md"
     },
     {
       "basename": "STS & IAM Advanced DVA",
@@ -17,20 +65,12 @@
       "path": "100 study-notes/102 AWS DVA/SQS DVA.md"
     },
     {
-      "basename": "Lambda Configuration & Deployments",
-      "path": "100 study-notes/102 AWS DVA/Lambda Configuration & Deployments.md"
-    },
-    {
       "basename": "Lambda",
       "path": "100 study-notes/101 AWS SAA/Lambda.md"
     },
     {
       "basename": "AWS Limits",
       "path": "100 study-notes/102 AWS DVA/AWS Limits.md"
-    },
-    {
-      "basename": "DynamoDB Basic APIs",
-      "path": "100 study-notes/102 AWS DVA/DynamoDB Basic APIs.md"
     },
     {
       "basename": "ElasticBeanstalk DVA",
@@ -41,20 +81,8 @@
       "path": "100 study-notes/102 AWS DVA/ElasticBeanstalk Deployment Modes.md"
     },
     {
-      "basename": "DynamoDB Indexes",
-      "path": "100 study-notes/102 AWS DVA/DynamoDB Indexes.md"
-    },
-    {
-      "basename": "DVA - Question Areas",
-      "path": "100 study-notes/102 AWS DVA/DVA - Question Areas.md"
-    },
-    {
       "basename": "Rough",
       "path": "600 rough/Rough.md"
-    },
-    {
-      "basename": "API Gateway Integration Types",
-      "path": "100 study-notes/102 AWS DVA/API Gateway Integration Types.md"
     },
     {
       "basename": "API Gateway",
@@ -71,18 +99,6 @@
     {
       "basename": "ElasticBeanstalk Docker",
       "path": "100 study-notes/102 AWS DVA/ElasticBeanstalk Docker.md"
-    },
-    {
-      "basename": "X-Ray",
-      "path": "100 study-notes/102 AWS DVA/X-Ray.md"
-    },
-    {
-      "basename": "X-Ray Advanced",
-      "path": "100 study-notes/102 AWS DVA/X-Ray Advanced.md"
-    },
-    {
-      "basename": "DynamoDB DVA",
-      "path": "100 study-notes/102 AWS DVA/DynamoDB DVA.md"
     },
     {
       "basename": "EC2 EBS",
@@ -103,10 +119,6 @@
     {
       "basename": "Lambda Synchronous Invocation",
       "path": "100 study-notes/102 AWS DVA/Lambda Synchronous Invocation.md"
-    },
-    {
-      "basename": "CloudWatch",
-      "path": "100 study-notes/101 AWS SAA/CloudWatch.md"
     },
     {
       "basename": "ElasticBeanstalk",
@@ -161,10 +173,6 @@
       "path": "100 study-notes/102 AWS DVA/Step Functions.md"
     },
     {
-      "basename": "ElastiCache DVA",
-      "path": "100 study-notes/102 AWS DVA/ElastiCache DVA.md"
-    },
-    {
       "basename": "RDS Read Replica & Multi AZ",
       "path": "100 study-notes/101 AWS SAA/RDS Read Replica & Multi AZ.md"
     },
@@ -175,10 +183,6 @@
     {
       "basename": "KMS DVA",
       "path": "100 study-notes/102 AWS DVA/KMS DVA.md"
-    },
-    {
-      "basename": "SAM",
-      "path": "100 study-notes/102 AWS DVA/SAM.md"
     },
     {
       "basename": "VPC Peering and Endpoints",
@@ -195,10 +199,6 @@
     {
       "basename": "CodeStar",
       "path": "100 study-notes/102 AWS DVA/CodeStar.md"
-    },
-    {
-      "basename": "WAF & Firewall",
-      "path": "100 study-notes/101 AWS SAA/WAF & Firewall.md"
     }
   ],
   "omittedPaths": [],

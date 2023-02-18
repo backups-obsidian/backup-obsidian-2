@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 12:39
-updated: 2023-02-17 12:44
+updated: 2023-02-17 22:57
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -22,6 +22,8 @@ updated: 2023-02-17 12:44
 	- Accept a *write/update/delete* (`PutItem/UpdateItem/DeleteItem`) only if conditions are met, otherwise returns an error.
 	- Helps with **concurrent access** to items
 	- **Prevents overwriting**.
+
+> [!note]- APIs for writing data: *`PutItem`, `UpdateItem ` and `DeleteItem`*.
 
 ## Reading Data
 - `GetItem`
@@ -93,3 +95,9 @@ updated: 2023-02-17 12:44
 > [!question]- An application needs to read up to *100 items* at a time from an Amazon DynamoDB. Each item is up to *100 KB* in size and all attributes must be retrieved. What is the BEST way to minimise latency?
 > Use `BatchGetItem`.
 
+## Returning WCU consumed
+- For operations *`PutItem`, `UpdateItem` and `DeleteItem`*.
+- To return the number of WCU consumed by any of these operations, set the *`ReturnConsumedCapacity`* parameter to one of the following:
+	- `TOTAL` - returns the **total** number of write capacity units consumed.
+	- `INDEXES` - returns the *total number of WCU consumed, with* **subtotals** for *the table and any secondary indexes* that were affected by the operation.
+	- `NONE` - no write capacity details are returned. (This is the **default**.)

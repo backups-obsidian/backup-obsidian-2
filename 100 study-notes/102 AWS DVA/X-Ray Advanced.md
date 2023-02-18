@@ -1,6 +1,6 @@
 ---
 created: 2022-05-19 15:50
-updated: 2023-02-17 11:49
+updated: 2023-02-17 15:13
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -42,6 +42,9 @@ updated: 2023-02-17 11:49
 - **GetTraceSummaries**: Retrieves *IDs and annotations for traces* available for a specified time frame using an optional filter. *To get the full traces, pass the trace IDs to BatchGet Traces*.
 	- We **filter on annotations** by using this.
 - **GetTraceGraph**: Retrieves a *service graph for one or more specific trace IDs*.
+
+> [!question]- A developer has instrumented an application using the X-Ray SDK to collect all data about the requests that an application serves. There is a new requirement to develop a *custom debug tool which will enable them to view the full traces of their application without using the X-Ray console*. What should the developer do to accomplish this task?
+> Use the **GetTraceSummaries** API to get the *list of trace IDs* of the application and then *retrieve the list of traces* using **BatchGetTraces** API.
 
 ## X-Ray with BeanStalk
 - AWS Elastic Beanstalk platforms **include the X-Ray daemon**

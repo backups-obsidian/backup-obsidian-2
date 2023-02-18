@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 study-notes/102 AWS DVA/STS & IAM Advanced DVA.md",
+                "file": "100 study-notes/102 AWS DVA/DynamoDB DVA.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -81,7 +81,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -100,7 +100,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "path:dva \"GetSessionToken\"",
+                "query": "path:dva \"inline\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -156,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
+                "file": "100 study-notes/102 AWS DVA/DynamoDB DVA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
+                "file": "100 study-notes/102 AWS DVA/DynamoDB DVA.md"
               }
             }
           },
@@ -183,7 +183,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
+                "file": "100 study-notes/102 AWS DVA/DynamoDB DVA.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -249,17 +249,17 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "feb0d890d3e4962e",
+  "active": "d5e20fac0e6cca18",
   "lastOpenFiles": [
-    "100 study-notes/102 AWS DVA/STS & IAM Advanced DVA.md",
-    "100 study-notes/102 AWS DVA/CodeDeploy.md",
-    "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
-    "100 study-notes/102 AWS DVA/SQS DVA.md",
-    "100 study-notes/102 AWS DVA/Lambda Configuration & Deployments.md",
-    "100 study-notes/101 AWS SAA/Lambda.md",
-    "100 study-notes/102 AWS DVA/AWS Limits.md",
     "100 study-notes/102 AWS DVA/DynamoDB Basic APIs.md",
-    "100 study-notes/102 AWS DVA/ElasticBeanstalk DVA.md",
-    "100 study-notes/102 AWS DVA/ElasticBeanstalk Deployment Modes.md"
+    "100 study-notes/102 AWS DVA/DVA - Question Areas.md",
+    "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
+    "100 study-notes/102 AWS DVA/DynamoDB DVA.md",
+    "100 study-notes/102 AWS DVA/SSM Parameter Store vs Secrets Manager.md",
+    "100 study-notes/102 AWS DVA/ElastiCache DVA.md",
+    "100 study-notes/102 AWS DVA/SAM.md",
+    "100 study-notes/102 AWS DVA/X-Ray.md",
+    "100 study-notes/102 AWS DVA/API Gateway Integration Types.md",
+    "100 study-notes/101 AWS SAA/CloudWatch.md"
   ]
 }
