@@ -1,6 +1,6 @@
 ---
 created: 2022-05-24 10:24
-updated: 2023-02-17 12:49
+updated: 2023-02-17 15:16
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -95,7 +95,8 @@ updated: 2023-02-17 12:49
 	- Code is present in the CloudFormation template
 	- For very simple code
 	- *Cannot include dependencies*
-	- Done using `Code.ZipFile` property
+	- Done using **`Code.ZipFile`** property
+		- ![[attachments/Pasted image 20230217151458.png]] 
 - **Through S3**:
 	- You must *store the Lambda zip in S3*
 	- You must *refer the S3 zip location* in the CloudFormation code

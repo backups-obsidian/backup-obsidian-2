@@ -1,6 +1,6 @@
 ---
 created: 2022-04-17 15:43
-updated: 2023-02-16 09:51
+updated: 2023-02-17 22:32
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -62,6 +62,7 @@ updated: 2023-02-16 09:51
 - *Lazy Loading* / Cache aside is *easy to implement* and *works for many situations* as a foundation, especially on the read side.
 - *Write-through is usually combined with Lazy Loading* as targeted for the queries or workloads that benefit from this optimisation.
 - Setting a *TTL* is usually not a bad idea, *except when you're using Write through*. Set it to a *sensible value* for your application
+	- **Use TTL** when the question mentions that the data should be **automatically deleted**.
 - Only *cache the data that makes sense* (user profiles, blogs, etc...). Don't cache thinks like account balance.
 
 > There are only two hard things in Computer Science: cache invalidation and naming things

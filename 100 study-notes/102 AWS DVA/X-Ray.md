@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 12:39
-updated: 2023-02-17 11:52
+updated: 2023-02-17 15:30
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -71,6 +71,7 @@ updated: 2023-02-17 11:52
 - *Annotations*: *Key Value pairs* used to **index traces** and use with *filters*
 	- Upto *50 annotations* per trace.
 - *Metadata*: *Key Value pairs*, **not indexed**, not used for searching
+	- *User defined data* not used for indexing.
 
 > [!note]- Trace > Segments > Sub segments
 
@@ -79,3 +80,8 @@ updated: 2023-02-17 11:52
 > - This allows to have a *central account for all your application tracing*
 > ---
 > Create an IAM role in the central account, then create IAM roles in the other accounts to assume this IAM role.
+
+> [!question]- In order to quickly troubleshoot their systems, your manager instructed you to *record the calls that your application makes to all AWS services and resources*. You developed a custom code that will send the segment documents directly to X-Ray by using the `PutTraceSegments` API. What should you include in your segment document to meet the above requirement?
+> **Subsegments**
+> ---
+> *Subsegments provide more granular timing information* and details about downstream calls that your application made to fulfill the original request. A subsegment can *contain additional details about a call to an AWS service*, an *external HTTP API*, or an SQL database.
