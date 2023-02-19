@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 11:56
-updated: 2023-02-17 12:25
+updated: 2023-02-18 09:02
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -86,3 +86,5 @@ updated: 2023-02-17 12:25
 ![[attachments/Pasted image 20220516122709.png]]
 
 > [!note]- Deployment modes of **immutable** and **traffic splitting** (blue/green or canary) are very expensive.
+
+> [!caution]- Don't use canary for EBS since it is not mentioned in the summary. Canary is more for lambda.

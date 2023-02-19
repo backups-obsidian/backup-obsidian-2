@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 12:39
-updated: 2023-02-15 08:43
+updated: 2023-02-19 09:19
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -41,7 +41,7 @@ updated: 2023-02-15 08:43
 	- You can create events for *cancelled stages*
 
 > [!question]- A company has implemented AWS CodePipeline to automate its release pipelines. The Development team is writing an *AWS Lambda function that will send notifications for state changes* of each of the actions in the stages.
-> Create an Amazon **CloudWatch Events rule** that uses CodePipeline as an event source.
+> Create an Amazon **CloudWatch Events (EventBridge) rule** that uses CodePipeline as an event source.
 
 - If CodePipeline fails a stage, your pipeline stops, and you can *get information in the console*
 - If pipeline *can't perform an action*, make sure the *IAM Service Role* attached does have *enough lAM permissions* (IAM Policy)

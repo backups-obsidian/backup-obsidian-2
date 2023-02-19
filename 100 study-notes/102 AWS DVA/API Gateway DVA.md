@@ -1,12 +1,14 @@
 ---
 created: 2022-05-16 16:54
-updated: 2023-02-17 09:57
+updated: 2023-02-19 09:50
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
 
 ---
 - The main reason for using API Gateway over ALB for invoking Lambda's from HTTP endpoints are the features (like caching and all) offered by the API Gateway.
+- **All** of the APIs created with Amazon API Gateway expose **HTTPS** endpoints **only**. 
+	- *Amazon API Gateway DOES NOT support unencrypted (HTTP) endpoints*.
 
 ## Deployment Stages
 - *Making changes in the API Gateway does not mean they're effective*. 
@@ -26,10 +28,11 @@ updated: 2023-02-17 09:57
 
 ### Stage Variables
 - Stage variables are like **environment variables for API Gateway**
-- Use them to change *often changing configuration values*
+- Use them to change **often changing configuration values**
 - They can be used in:
 	- *Lambda function ARN*
 	- *HTTP Endpoint*
+	- *DynamoDB table*
 	- Parameter mapping templates
 - Use cases:
 	- **Configure HTTP endpoints your stages talk to (dev, test, prod...)**

@@ -73,8 +73,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 study-notes/102 AWS DVA/DynamoDB DVA.md",
-                "mode": "preview",
+                "file": "100 study-notes/102 AWS DVA/X-Ray.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
@@ -100,7 +100,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "path:dva \"inline\"",
+                "query": "path:dva \"AWSXRayDaemonWriteAccess\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -156,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/102 AWS DVA/DynamoDB DVA.md",
+                "file": "100 study-notes/102 AWS DVA/X-Ray.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/102 AWS DVA/DynamoDB DVA.md"
+                "file": "100 study-notes/102 AWS DVA/X-Ray.md"
               }
             }
           },
@@ -183,7 +183,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/102 AWS DVA/DynamoDB DVA.md",
+                "file": "100 study-notes/102 AWS DVA/X-Ray.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -251,15 +251,15 @@
   },
   "active": "d5e20fac0e6cca18",
   "lastOpenFiles": [
-    "100 study-notes/102 AWS DVA/DynamoDB Basic APIs.md",
-    "100 study-notes/102 AWS DVA/DVA - Question Areas.md",
     "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
-    "100 study-notes/102 AWS DVA/DynamoDB DVA.md",
-    "100 study-notes/102 AWS DVA/SSM Parameter Store vs Secrets Manager.md",
-    "100 study-notes/102 AWS DVA/ElastiCache DVA.md",
-    "100 study-notes/102 AWS DVA/SAM.md",
-    "100 study-notes/102 AWS DVA/X-Ray.md",
-    "100 study-notes/102 AWS DVA/API Gateway Integration Types.md",
-    "100 study-notes/101 AWS SAA/CloudWatch.md"
+    "100 study-notes/101 AWS SAA/ASG.md",
+    "100 study-notes/102 AWS DVA/DVA - Question Areas.md",
+    "100 study-notes/102 AWS DVA/Lambda Configuration & Deployments.md",
+    "100 study-notes/102 AWS DVA/ECS DVA.md",
+    "100 study-notes/102 AWS DVA/API Gateway DVA.md",
+    "100 study-notes/102 AWS DVA/DynamoDB Basic APIs.md",
+    "100 study-notes/102 AWS DVA/DynamoDB Indexes.md",
+    "100 study-notes/101 AWS SAA/RDS.md",
+    "100 study-notes/102 AWS DVA/Other Services DVA.md"
   ]
 }

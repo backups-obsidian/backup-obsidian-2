@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2023-02-14 19:27
+updated: 2023-02-18 09:00
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -32,6 +32,8 @@ updated: 2023-02-14 19:27
 - KMS gives us **more control** and an *audit trail*. We can rotate the keys if we want.
 - Objects are encrypted on the **server side**.
 - To use this you must **use** the following **header**: `“x-amz-server-side-encryption”:”aws:kms”`
+- There's also an *optional* `x-amz-server-side-encryption-aws-kms-key-id` header which *specifies the ID of the AWS KMS master encryption key* that was used for the object.
+	- If the *header is not present* in the request, Amazon S3 assumes the *default KMS key*.
 
 > [!tip]- When to go for SSE KMS over SSE S3
 >  We should go for SSE - KMS if the company does not want to spend time managing and rotating the keys, *but it does want to control who can access those keys*.

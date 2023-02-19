@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 12:39
-updated: 2023-02-17 15:30
+updated: 2023-02-19 09:59
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -35,6 +35,9 @@ updated: 2023-02-17 15:30
 
 > [!note]- We can use X-Ray to **collect data across AWS Accounts**.
 
+> [!important]- The AWS X-Ray SDK *DOES NOT send trace data directly to AWS X-Ray*. 
+> To avoid calling the service every time your application serves a request, *the SDK sends the trace data to a daemon*, which *collects segments* for multiple requests, *buffers them* and uploads them in **batches**.
+
 ### How to enable X-Ray
 - Your code (Java, Python, Go, Node.js, .NET) **must import the AWS X-Ray SDK**
 	- Very **little code modification needed**. Many SDKs only require configuration changes.
@@ -65,7 +68,7 @@ updated: 2023-02-17 15:30
 - *Segments*: each application/service will send them
 	- For *services that don't send their own segments like Amazon DynamoDB*, X-Ray uses subsegments to generate *inferred segments*
 - *Subsegments*: if you need **more details in your segment**
-	- Subsegments represent your application's view of a *downstream* call as a client.
+	- Subsegments represent your application's view of a **downstream call as a client**.
 - *Trace*: *segments collected together* to form an end-to-end trace
 - *Sampling*: decrease the *amount of requests sent to X-Ray*, reduce cost
 - *Annotations*: *Key Value pairs* used to **index traces** and use with *filters*
@@ -84,4 +87,4 @@ updated: 2023-02-17 15:30
 > [!question]- In order to quickly troubleshoot their systems, your manager instructed you to *record the calls that your application makes to all AWS services and resources*. You developed a custom code that will send the segment documents directly to X-Ray by using the `PutTraceSegments` API. What should you include in your segment document to meet the above requirement?
 > **Subsegments**
 > ---
-> *Subsegments provide more granular timing information* and details about downstream calls that your application made to fulfill the original request. A subsegment can *contain additional details about a call to an AWS service*, an *external HTTP API*, or an SQL database.
+> *Subsegments provide more granular timing information* and details about downstream calls that your application made to fulfill the original request. A subsegment can **contain additional details about a call to an AWS service**, an **external HTTP API**, or an **SQL database**.

@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2023-02-12 19:17
+updated: 2023-02-18 08:42
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -100,6 +100,12 @@ updated: 2023-02-12 19:17
 - DynamoDB streams is **not enabled by default**.
 - Stream records can be sent to (**3**) : **Lambda**, **Kinesis Data Streams** and **Kinesis Client Library applications**.
 - *Data retention* for up to **24 hours**.
+	- All data in DynamoDB Streams is subject to a *24 hour lifetime*. 
+	- You can retrieve and analyse the last 24 hours of activity for any given table; however, data older than 24 hours is susceptible to trimming (removal) at any moment.
+
+> [!question]- You are designing an online medical appointment system that allows patients to book an appointment with their preferred doctor at medical centers all over the country. The DynamoDB Streams feature is enabled in your DynamoDB database, which allows you to capture information about every modification to data items in your table. *A Lambda function integrated with CloudWatch Events is used to process the data stream every 36 hours then store the results in an S3 bucket*. However, you noticed that there are a lot of *updated data in DynamoDB which are not sent to your S3 bucket* even though there are no errors in the logs.
+> **Decrease the interval of running your function to 24 hours** because in DynamoDB Streams, **data older than 24 hours** is susceptible to trimming (removal) at any moment.
+
 - *Use cases*:
 	- React to changes in real-time (welcome email to users)
 	- Analytics

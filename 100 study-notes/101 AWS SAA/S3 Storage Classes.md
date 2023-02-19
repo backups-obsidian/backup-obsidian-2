@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-05-06 08:28
+updated: 2023-02-18 09:08
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -58,7 +58,7 @@ updated: 2022-05-06 08:28
 - Archives are in **vaults** not buckets.
 - Amazon Glacier *3 retrieval options*:
     -   **Expedited** (1 to 5 minutes)
-    -   Standard (3 to 5 hours)
+    -   **Standard (3 to 5 hours)**
     -   Bulk (5 to 12 hours)
 
 - **Provisioned capacity** ensures that your *retrieval capacity for expedited retrievals is available when you need it*. Each unit of capacity provides that at least three expedited retrievals can be performed every five minutes and provides up to 150 MB/s of retrieval throughput. *You should purchase provisioned retrieval capacity if your workload requires highly reliable and predictable access to a subset of your data in minutes*. Without provisioned capacity Expedited retrievals are accepted, except for rare situations of unusually high demand. However, if you require access to Expedited retrievals under all circumstances, you must purchase provisioned retrieval capacity.

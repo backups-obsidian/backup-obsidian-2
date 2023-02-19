@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 12:39
-updated: 2023-02-17 11:12
+updated: 2023-02-19 09:18
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -15,8 +15,8 @@ updated: 2023-02-17 11:12
 
 > [!tip] If your application is CPU-bound (computation heavy), increase RAM
 
-- **Timeout**: 
-	- *default 3 seconds* 
+- **Timeout**:
+	- **default 3 seconds** 
 	- *maximum* is 900 seconds (**15 minutes**)
 
 ## Execution Context

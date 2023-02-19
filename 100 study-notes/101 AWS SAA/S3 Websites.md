@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2023-02-14 17:55
+updated: 2023-02-18 08:58
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -51,11 +51,25 @@ updated: 2023-02-14 17:55
 - We always do a preflight first to determine if our origin is allowed. If allowed then what methods are allowed.
 	- ![[attachments/Pasted image 20220423104949.png]]
 
+
 ### S3 CORS
+- It is an **XML document**.
 - If a client does a cross origin request on our S3 bucket *we need to enable CORS headers*. If not enabled then the request will not go through.
 	- ![[attachments/Pasted image 20220423105230.png]]
 - We can allow a specific origin or all the origins (\*)
 - The CORS headers have to be **defined on the cross origin bucket** and not the website bucket.
+
+- A CORS configuration is an XML file that contains a series of rules within a `<CORSRule>`.
+	- `AllowedOrigin` - *Specifies domain origins* that you allow to make **cross-domain requests**.
+	- `AllowedMethod` - Specifies a type of *request you allow (GET, PUT, POST, DELETE, HEAD)* in **cross-domain requests**.
+	- `AllowedHeader` - *Specifies the headers* allowed in a **preflight request**.
+
+- Below are some of the `CORSRule` elements: 
+	- `MaxAgeSeconds` - Specifies the *amount of time in seconds* that **the browser caches an Amazon S3 response to a preflight OPTIONS** request for the specified resource. 
+		- By caching the response, the browser does not have to send preflight requests to Amazon S3 if the original request will be repeated.
+	- `ExposeHeader` - *Identifies the response headers  that customers are able to access from their applications*.
+
+- If you allow CORS access to a domain it *allows a user to view, add, remove or update objects (depending on the rule) inside the S3 bucket* from the allowed domain.
 
  > [!question]- A digital marketing company has its *website* hosted on an Amazon S3 *bucket A*. The development team notices that the *web fonts* that are hosted on another S3 *bucket B* are not loading on the website.
  > Configure **CORS on the bucket B** that is hosting the web fonts *to allow Bucket A origin to make the requests*.
