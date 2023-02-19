@@ -1,6 +1,6 @@
 ---
 created: 2022-05-26 20:09
-updated: 2023-02-17 08:40
+updated: 2023-02-18 08:37
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -19,7 +19,9 @@ updated: 2023-02-17 08:40
 ### CloudWatch Metrics
 - Metrics are by stage, Possibility to enable detailed metrics
 - There are two types of *API logging* in CloudWatch: **execution logging** and **access logging**.
-- `CacheHitCount` & `CacheMissCount`: *efficiency of the cache*
+- **CacheHitCount** & **CacheMissCount**: *efficiency of the cache*
+	- *CacheMissCount* tracks the number of *requests served from the backend* in a given period, when *API caching is enabled*. 
+	- *CacheHitCount* track the number of *requests served from the API cache* in a given period.
 - **Count**: The *total number API requests* in a given period.
 - **IntegrationLatency**: The time between when API Gateway *relays a request to the backend and when it receives a response from the backend*.
 - **Latency**: The time between when API Gateway receives a request from a client and when it returns a response to the client. 

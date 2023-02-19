@@ -1,6 +1,6 @@
 ---
 created: 2023-02-06 22:18
-updated: 2023-02-17 23:03
+updated: 2023-02-19 09:58
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -156,4 +156,40 @@ updated: 2023-02-17 23:03
 	- The simulator uses the same policy evaluation engine that is used during real requests to AWS services.
 - We can use **CloudFormation Parameters** with **System Manager parameters (SSM)**.
 	- CloudFormation will fetch values stored against these keys in Systems Manager in your account and use them for the current stack operation.
-- 
+- In DynamoDB if you are getting WCU and RCU exceeded exception then you can try exponential backoffs.
+- Implementing a *DAX cluster* is *expensive* and CANNOT be one of the solutions if your table is getting throttled and you want to do something in the least expensive way. 
+
+> [!note]- Refactor after reading KMS encryption
+> A developer is working on an application that will process files encrypted with a data key generated from a KMS key. The application needs to decrypt the files locally before it can proceed with the processing of the files. Which of the following are valid and secure steps in decrypting data? (Select TWO.)
+> When you encrypt your data, your data is protected, but you have to protect your encryption key. One strategy is to encrypt it. **Envelope encryption** is the practice of encrypting plaintext data with a data key, and then encrypting the data key under another key.
+> You can even encrypt the data encryption key under another encryption key, and encrypt that encryption key under another encryption key. But, eventually, one key must remain in plaintext so you can decrypt the keys and your data. This top-level plaintext key encryption key is known as the _master key_.
+> ![[attachments/Pasted image 20230218085014.png]]
+
+> [!question]- A developer runs a shell script that uses the AWS CLI to upload a large file to an S3 bucket, which includes an AWS KMS key. An `Access Denied` error always shows up whenever the developer uploads a file with a size of 100 GB or more. However, when he tried to upload a smaller file with the KMS key, the upload succeeds.
+> The AWS CLI S3 commands perform a multipart upload when the file is large.
+> The developer **does not have the `kms:Decrypt` permission**.
+> ---
+> To perform a multipart upload with encryption using an AWS Key Management Service (AWS KMS) customer master key (CMK), *the requester must have permission to the `kms:Decrypt` and `kms:GenerateDataKey*` actions on the key*. These permissions are required because Amazon **S3 must decrypt and read data from the encrypted file parts before it completes the multipart upload**.
+> The option that says: *the developer does not have the `kms:Encrypt` permission* is incorrect because the operation is successful if the developer uploads a smaller file, which signifies that the developer already has the `kms:Encrypt` permission.
+
+- **Delete root user access keys** as a recommended security measure.
+- CloudHSM dedicated key management solution.
+- You need a **custom runtime to run C++ code in lambda**.
+
+> [!question]- You work for a software development company where the teams are divided into distinct projects. The management wants to have separation on their AWS resources, which will have a detailed report on the costs of each project. Which of the following options is the recommended way to implement this?
+> Create *separate AWS accounts* for each project and use **consolidated billing**. 
+
+- AWS WAF can be infront of API Gateway or CloudFront.
+	- Can help in protecting from SQL injection attempts.
+
+- KMS question:
+	- ![[attachments/Pasted image 20230219092910.png]]
+	- When you encrypt your data, your data is protected, but you have to protect your encryption key. One strategy is to encrypt it. _Envelope encryption_ is the practice of encrypting plaintext data with a data key, and then encrypting the data key under another key.
+	- You can even encrypt the data encryption key under another encryption key, and encrypt that encryption key under another encryption key. But, eventually, one key must remain in plaintext so you can decrypt the keys and your data. This top-level plaintext encryption key is known as the _master key_. 
+
+- It is recommended that you use the following pattern to **encrypt data locally in your application**:
+	- Use the `GenerateDataKey` operation to get a data encryption key (DEK).
+	- Use the *plaintext data key* (returned in the `Plaintext` field of the response) to *encrypt data locally*, then **erase the plaintext data key from memory**.
+	- *Store the encrypted data key* (returned in the `CiphertextBlob` field of the response) *alongside the locally encrypted data*.
+
+- *AWS OpsWorks*: chef and puppet.

@@ -1,6 +1,6 @@
 ---
 created: 2022-04-23 10:36
-updated: 2023-02-17 08:53
+updated: 2023-02-18 09:32
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -38,6 +38,7 @@ updated: 2023-02-17 08:53
 - We **minimise** the **public internet** and **maximise** the **private AWS network** we go through.
 	- ![[attachments/Pasted image 20220423151313.png]]
 
+- Users are from **different parts of the globe**.
 - For Transfer Acceleration (S3TA), you pay only for transfers that are accelerated. If the acceleration fails you don’t pay for it.
 
 > [!note] Transfer acceleration is the only case where you *pay for data going* into S3.

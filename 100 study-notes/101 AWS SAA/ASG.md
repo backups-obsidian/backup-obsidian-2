@@ -1,14 +1,16 @@
 ---
 created: 2022-04-20 19:15
-updated: 2022-06-09 15:03
+updated: 2023-02-19 09:57
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
 
 ---
-
+## ASG
 - Scale in removing, scale out adding.
 - We can specify the **minimum**, **desired** and **maximum** number of EC2 instances running in an ASG. If desired == maximum then alarms won't add any new EC2 instances.
+- **Desired capacity** can be used to **manually scale** an ASG. 
+	- Minimum and maximum capacity only specify the limits.
 - We can *automatically register new instances to the load balancer*. ASGs and Load Balancers work hand in hand.
 - To launch new instances we provide [[Launch Configuration-Template]]. In this launch configuration/template we provide details like AMI type, volume size etc.
 - ASGs are free to use.

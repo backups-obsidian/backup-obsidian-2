@@ -1,6 +1,6 @@
 ---
 created: 2022-05-24 10:24
-updated: 2023-02-17 15:16
+updated: 2023-02-19 09:55
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -41,6 +41,7 @@ updated: 2023-02-17 15:16
 - Use AWS **X-Ray SDK in Code**
 - Ensure *Lambda Function has a correct IAM Execution Role*
 	- The managed policy is called `AWSXRayDaemonWriteAccess`
+	- The same role is also needed in EC2 and EBS.
 - *Environment variables* used by lambda to **communicate with X-Ray**
 	- `_X_AMZN_TRACE_ID`: contains the *tracing header*
 	- `AWS_XRAY_CONTEXT_MISSING`: by default, *LOG_ERROR*
@@ -114,8 +115,9 @@ updated: 2023-02-17 15:16
 
 ## Lambda Layers
 - **Custom Runtimes**
-	- For example C++ and Rust
+	- For example *C++ and Rust*
 - **Externalise dependencies** to re-use them:
+	- It can help in **reducing the size of deployment**.
 	- It helps in *decreasing the upload time*.
 	- When we upload code we are *not changing code of the libraries* used by our function. 
 	- Lambda layers helps us in *reusing the library dependency layer* removing the need to upload them again and again when only our application source code changes.
@@ -194,3 +196,12 @@ updated: 2023-02-17 15:16
 
 > [!note]- AWS Lambda will keep the **unreserved concurrency pool at a minimum of 100 concurrent executions**, so that functions that do not have specific limits set can still process requests. So, in practice, *if your total account limit is 1000, you are limited to allocating 900* to individual functions.
 > ![[attachments/Pasted image 20230217124541.png]]
+
+> [!caution]+ For Lambda functions that process **Kinesis or DynamoDB streams**, the **number of shards is the unit of concurrency**. 
+> - If your *stream has 100 active shards*, there will be *at most 100 Lambda function invocations running concurrently*.  This is because Lambda processes *each shard’s events in sequence*.
+> ---
+> You are using an AWS Lambda function to process records in an Amazon Kinesis Data Streams stream which has 100 active shards. The Lambda function takes an average of 10 seconds to process the data and the stream is receiving 50 new items per second.
+> **There will be at most 100 Lambda function invocations running concurrently.**
+> - The *Lambda function has 500 concurrent executions* is *INCORRECT* because the **number of concurrent executions for poll-based event sources is different from push-based event sources**. 
+> - This number of concurrent executions would have been correct if the Lambda function is integrated with a *push-based even source such as API Gateway or Amazon S3 Events*. 
+> - Remember that the *Kinesis and Lambda integration is using a poll-based event source, which means that the number of shards is the unit of concurrency for the function*.

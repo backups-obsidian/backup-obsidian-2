@@ -1,6 +1,6 @@
 ---
 created: 2022-04-21 11:18
-updated: 2022-05-05 19:47
+updated: 2023-02-19 09:42
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -62,4 +62,6 @@ updated: 2022-05-05 19:47
 -   **Enhanced Monitoring metrics** are useful when you want to see how **different processes** or **threads on a DB instance use the CPU**.
 -   We can **view the following** in enhanced monitoring: **RDS child processes**, **RDS processes**, **OS processes**.
 
-> [!tip] Whenever you see *processes* and *threads* in question go for RDS Enhanced monitoring.
+> [!tip]- Whenever you see *processes* and *threads* in question go for RDS Enhanced monitoring.
+> A company has an application hosted in an ECS Cluster which is heavily using an RDS database. A developer needs to closely monitor how the different processes on a DB instance use the *CPU* such as the percentage of the CPU bandwidth or the *total memory* consumed by **each process** to ensure application performance. Which of the following is the MOST suitable solution that the developer should implement?
+> Use *Enhanced Monitoring in RDS*.

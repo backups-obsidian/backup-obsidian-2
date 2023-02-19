@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 12:39
-updated: 2023-02-17 22:57
+updated: 2023-02-19 09:48
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -78,7 +78,8 @@ updated: 2023-02-17 22:57
 
 ## Batch Operations
 - Allows you to **save in latency** by *reducing the number of API calls*
-- Operations are done in **parallel** for better efficiency
+	- *Reduces network overhead* of multiple transactions.
+- Operations are done in **parallel** for better efficiency.
 - Part of a batch can fail; in which case we need to try again for the failed items
 - `BatchWriteItem`
 	- Up to **25** `PutItem` and/or `DeleteItem` in one call
@@ -99,5 +100,6 @@ updated: 2023-02-17 22:57
 - For operations *`PutItem`, `UpdateItem` and `DeleteItem`*.
 - To return the number of WCU consumed by any of these operations, set the *`ReturnConsumedCapacity`* parameter to one of the following:
 	- `TOTAL` - returns the **total** number of write capacity units consumed.
-	- `INDEXES` - returns the *total number of WCU consumed, with* **subtotals** for *the table and any secondary indexes* that were affected by the operation.
+	- `INDEXES` - returns the *total number of WCU consumed, with* **subtotals** for **the table and any secondary indexes** that were affected by the operation.
+		- If you see the word **indexes in the question** then go for `INDEXES`. 
 	- `NONE` - no write capacity details are returned. (This is the **default**.)

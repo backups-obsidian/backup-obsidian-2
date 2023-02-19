@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-05-05 19:58
+updated: 2023-02-19 09:01
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -15,7 +15,7 @@ updated: 2022-05-05 19:58
 	- You can *download the root certificate* from AWS and *use it* when connecting to the database.
 	- You cannot use your own self signed certificates.
 
-- **TDE** (Transparent Data Encryption) is possible for **Oracle** and **SQL Server**. This is *for data at rest*. 
+- **TDE** (Transparent Data Encryption) is possible for **Oracle** and **SQL Server**. This is **for data at rest**. 
 - We can *force SSL* connections to out DB instance by 
 	- Setting `rds.force_ssl`(**parameter groups**) to **true** and then rebooting the DB instance *or*
 	- DB can be configured to allow only SSL connections.

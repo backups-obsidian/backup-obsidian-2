@@ -1,6 +1,6 @@
 ---
 created: 2022-05-15 11:30
-updated: 2023-02-16 08:58
+updated: 2023-02-19 09:54
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -137,16 +137,23 @@ updated: 2023-02-16 08:58
 
 #### Random
 - Places the task randomly.
-- *Least configuration required*.
+- **Least configuration required**.
+- It still makes sure that *tasks are scheduled on instances with enough resources to run them*.
 
 #### Spread
 - Place the task evenly based on the specified value
 - Example: `instanceld`, `attribute:ecs.availability-zone` (this ensures HA)
+- By **default**, ECS uses spread with the _ecs.availability-zone_ attribute to place tasks
 
 ### Task Placement Constraints
 - `distinctInstance`: place **each task on a different container instance**
 - `memberOf`: places task on instances that satisfy an **expression**
 	- Uses the *Cluster Query Language* for grouping (advanced)
+
+> [!question]- A developer is designing an application which will be hosted in ECS and uses an EC2 launch type. You need to *group your container instances by certain attributes such as Availability Zone, instance type, or custom metadata*. After you have defined a group of container instances, you will need to customise Amazon ECS to place tasks on container instances based on the group you specified. Which of the following ECS features provides you with **expressions that you can use to group container instances** by a specific attribute?
+> CQL (DOUBTFUL about the answer I think it should be task placement constraints)
+> ---
+> **Task Placement Constraint** is incorrect because it is just a *rule that is considered during task placement*. Although it uses cluster queries when you are placing tasks on container instances based on a specific expression, *it does not provide the actual expressions which are used to group those container instances*.
 
 > [!question]- A Developer is creating a service on Amazon ECS and needs to ensure that *each task is placed on a different container instance*. How can this be achieved?
 > - Use task placement constraint of distinctInstance.

@@ -1,6 +1,6 @@
 ---
 created: 2022-05-30 14:40
-updated: 2023-02-13 15:39
+updated: 2023-02-19 09:39
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -21,6 +21,9 @@ updated: 2023-02-13 15:39
 - It all starts with uploading one GraphQL schema
 
 > [!note] Keywords for AppSync *data synchronisation*, *mobile*, *graphql api*, *real time updates*, *WebSocket*, *offline*.
+
+- Difference between cognito sync and AppSync:
+	- Cognito sync is *not real time*.
 
 ### Security
 - There are *four ways* you can authorise applications to interact with your AWS AppSync GraphQL API:

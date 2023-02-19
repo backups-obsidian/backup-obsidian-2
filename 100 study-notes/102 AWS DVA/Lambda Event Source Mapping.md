@@ -1,6 +1,6 @@
 ---
 created: 2022-05-23 17:00
-updated: 2023-02-16 10:01
+updated: 2023-02-19 09:13
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -11,6 +11,7 @@ updated: 2023-02-16 10:01
 	- **Kinesis Data Streams (KDS)**
 	- **SQS & SQS FIFO queue**
 	- **DynamoDB Streams**
+		- `AWSLambdaDynamoDBExecutionRole` allows Lambda to read from dynamodb tables. 
 - Records need to be **polled** from the source. This means lambda needs to ask the services for some records.
 - Lambda is invoked **synchronously**.
 - Internally an **event source map** is created which is responsible for polling kinesis and getting the results back.
