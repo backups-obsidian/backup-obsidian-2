@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 12:39
-updated: 2023-02-18 09:04
+updated: 2023-02-20 08:42
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -33,6 +33,7 @@ updated: 2023-02-18 09:04
 ### Deployment Groups:
 - A **set of tagged EC2 instances** to which the code will be deployed.
 - You can specify *one or more deployment groups* for a CodeDeploy application
+	- Like have *3 different groups* test, staging and production.
 - Directly to an ASG
 - Mix of ASG / Tags so you can build deployment segments
 - Customisation in scripts with `DEPLOYMENT_GROUP_NAME` environment variables

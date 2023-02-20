@@ -1,6 +1,6 @@
 ---
 created: 2022-05-15 08:57
-updated: 2023-02-15 10:03
+updated: 2023-02-19 13:05
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -26,15 +26,23 @@ updated: 2023-02-15 10:03
 
 - By *default* the S3 content is cached for *1 day*. 
 - We can define the cache policy while creating the distribution or after creating it (behaviours section). We can also make our own caching policy if we don't like the ones predefined by AWS.
-- If you want to **invalidate the cache then go to the invalidations tab and put a wildcard (\*)**.
+
+### Different ways of cache invalidation
+- **Invalidate the file** from edge caches. 
+	- If you want to **invalidate the cache then go to the invalidations tab and put a wildcard (\*)**.
+- **Use file versioning** to serve a different version of the file that has a different name.
+	- When you update existing files in a CloudFront distribution, *AWS recommends that you include some sort of version identifier* either in your *file names* or in your *directory names* to give yourself better control over your content. 
+		- For example, instead of naming a graphic *file* image.jpg, you might call it image_1.jpg. When you want to start serving a new version of the file, you'd name the new file image_2.jpg, and you'd update the links in your web application or website to point to image_2.jpg. 
+		- Alternatively, you might put all graphics in an images_v1 *directory* and, when you want to start serving new versions of one or more graphics, you'd create a new images_v2 directory, and you'd update your links to point to that directory. 
+	- **With versioning, you don't have to wait for an object to expire before CloudFront begins to serve a new version of it, and you don't have to pay for object invalidation**. 
+
+> [!note]- *Invalidating cache* is an **expensive operation** as compared to using *file versioning*.
+> If the question asks for cache invalidation then *prefer file versioning instead of cache invalidation*.
 
 > [!question]- A website is being delivered using Amazon CloudFront and a Developer recently modified some images that are displayed on website pages. Upon testing the changes, the Developer noticed that the new versions of the images are not displaying. What should the Developer do to *force the new images to be displayed*?
 > *Invalidate the old versions* of the images on the edge caches.
-> ---
-> If you need to remove a file from CloudFront edge caches before it expires, you can do one of the following
-> - **Invalidate the file** from edge caches. We use wildcard characters to invalidate the cache.
-> - **Use file versioning** to serve a different version of the file that has a different name.
 
+---
 - Deploying your website using CLI: NOT needed for exam.
 	- `aws s3 cp public/ s3://bucket-name/`
 	- Make sure that while creating the distribution you have specified `index.html` to be used when root path is hit.

@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 12:39
-updated: 2023-02-12 18:38
+updated: 2023-02-20 08:38
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -23,7 +23,7 @@ updated: 2023-02-12 18:38
 - **Authentication**: **3 ways** (2 HTTPS, 1 SSH)
 	- **Git credentials**: These are *IAM-generated user name and password pair* you can use to communicate with CodeCommit repositories over **HTTPS**.
 	- **SSH Keys**: Are locally generated public-private key pair that you can associate with your IAM user to communicate with CodeCommit repositories over SSH.
-	- **AWS access keys**: You can use these keys with the credential helper included with the AWS CLI to communicate with CodeCommit repositories over **HTTPS**.
+	- **AWS access keys**: You can use these keys with the *Git credential helper* included with the AWS CLI to communicate with CodeCommit repositories over **HTTPS**.
  
 - **Authorization**:
 	- *IAM policies* to manage users/roles permissions to repositories

@@ -1,36 +1,112 @@
 {
   "recentFiles": [
     {
-      "basename": "X-Ray",
-      "path": "100 study-notes/102 AWS DVA/X-Ray.md"
+      "basename": "DVA - Extra Notes",
+      "path": "100 study-notes/102 AWS DVA/DVA - Extra Notes.md"
     },
     {
       "basename": "102 AWS DVA Index",
       "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
     },
     {
-      "basename": "ASG",
-      "path": "100 study-notes/101 AWS SAA/ASG.md"
+      "basename": "DVA - Questions",
+      "path": "100 study-notes/102 AWS DVA/DVA - Questions.md"
     },
     {
-      "basename": "DVA - Question Areas",
-      "path": "100 study-notes/102 AWS DVA/DVA - Question Areas.md"
+      "basename": "GuardDuty",
+      "path": "100 study-notes/101 AWS SAA/GuardDuty.md"
     },
     {
-      "basename": "Lambda Configuration & Deployments",
-      "path": "100 study-notes/102 AWS DVA/Lambda Configuration & Deployments.md"
+      "basename": "WAF & Firewall",
+      "path": "100 study-notes/101 AWS SAA/WAF & Firewall.md"
+    },
+    {
+      "basename": "101 AWS SAA Index",
+      "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
+    },
+    {
+      "basename": "DynamoDB DVA",
+      "path": "100 study-notes/102 AWS DVA/DynamoDB DVA.md"
+    },
+    {
+      "basename": "Step Functions",
+      "path": "100 study-notes/102 AWS DVA/Step Functions.md"
+    },
+    {
+      "basename": "X-Ray",
+      "path": "100 study-notes/102 AWS DVA/X-Ray.md"
+    },
+    {
+      "basename": "DynamoDB Basic APIs",
+      "path": "100 study-notes/102 AWS DVA/DynamoDB Basic APIs.md"
+    },
+    {
+      "basename": "Cognito",
+      "path": "100 study-notes/102 AWS DVA/Cognito.md"
+    },
+    {
+      "basename": "CodeDeploy",
+      "path": "100 study-notes/102 AWS DVA/CodeDeploy.md"
+    },
+    {
+      "basename": "CodeCommit",
+      "path": "100 study-notes/102 AWS DVA/CodeCommit.md"
+    },
+    {
+      "basename": "STS & IAM Advanced DVA",
+      "path": "100 study-notes/102 AWS DVA/STS & IAM Advanced DVA.md"
+    },
+    {
+      "basename": "KMS",
+      "path": "100 study-notes/101 AWS SAA/KMS.md"
+    },
+    {
+      "basename": "CLI",
+      "path": "100 study-notes/102 AWS DVA/CLI.md"
+    },
+    {
+      "basename": "CloudFront DVA",
+      "path": "100 study-notes/102 AWS DVA/CloudFront DVA.md"
+    },
+    {
+      "basename": "CloudFront Advanced",
+      "path": "100 study-notes/101 AWS SAA/CloudFront Advanced.md"
+    },
+    {
+      "basename": "CloudFront",
+      "path": "100 study-notes/101 AWS SAA/CloudFront.md"
+    },
+    {
+      "basename": "ElasticBeanstalk Docker",
+      "path": "100 study-notes/102 AWS DVA/ElasticBeanstalk Docker.md"
+    },
+    {
+      "basename": "API Gateway",
+      "path": "100 study-notes/101 AWS SAA/API Gateway.md"
     },
     {
       "basename": "ECS DVA",
       "path": "100 study-notes/102 AWS DVA/ECS DVA.md"
     },
     {
-      "basename": "API Gateway DVA",
-      "path": "100 study-notes/102 AWS DVA/API Gateway DVA.md"
+      "basename": "ECS",
+      "path": "100 study-notes/101 AWS SAA/ECS.md"
     },
     {
-      "basename": "DynamoDB Basic APIs",
-      "path": "100 study-notes/102 AWS DVA/DynamoDB Basic APIs.md"
+      "basename": "Launch Configuration-Template",
+      "path": "100 study-notes/101 AWS SAA/Launch Configuration-Template.md"
+    },
+    {
+      "basename": "ASG",
+      "path": "100 study-notes/101 AWS SAA/ASG.md"
+    },
+    {
+      "basename": "Lambda Configuration & Deployments",
+      "path": "100 study-notes/102 AWS DVA/Lambda Configuration & Deployments.md"
+    },
+    {
+      "basename": "API Gateway DVA",
+      "path": "100 study-notes/102 AWS DVA/API Gateway DVA.md"
     },
     {
       "basename": "DynamoDB Indexes",
@@ -43,10 +119,6 @@
     {
       "basename": "Other Services DVA",
       "path": "100 study-notes/102 AWS DVA/Other Services DVA.md"
-    },
-    {
-      "basename": "Cognito",
-      "path": "100 study-notes/102 AWS DVA/Cognito.md"
     },
     {
       "basename": "KMS Working",
@@ -77,32 +149,12 @@
       "path": "100 study-notes/102 AWS DVA/DynamoDB Capacity.md"
     },
     {
-      "basename": "DynamoDB DVA",
-      "path": "100 study-notes/102 AWS DVA/DynamoDB DVA.md"
-    },
-    {
-      "basename": "GuardDuty",
-      "path": "100 study-notes/101 AWS SAA/GuardDuty.md"
-    },
-    {
-      "basename": "101 AWS SAA Index",
-      "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
-    },
-    {
       "basename": "S3 Performance",
       "path": "100 study-notes/101 AWS SAA/S3 Performance.md"
     },
     {
-      "basename": "API Gateway",
-      "path": "100 study-notes/101 AWS SAA/API Gateway.md"
-    },
-    {
       "basename": "S3 Storage Classes",
       "path": "100 study-notes/101 AWS SAA/S3 Storage Classes.md"
-    },
-    {
-      "basename": "CodeDeploy",
-      "path": "100 study-notes/102 AWS DVA/CodeDeploy.md"
     },
     {
       "basename": "ElasticBeanstalk Deployment Modes",
@@ -147,58 +199,6 @@
     {
       "basename": "API Gateway Integration Types",
       "path": "100 study-notes/102 AWS DVA/API Gateway Integration Types.md"
-    },
-    {
-      "basename": "CloudWatch",
-      "path": "100 study-notes/101 AWS SAA/CloudWatch.md"
-    },
-    {
-      "basename": "STS & IAM Advanced DVA",
-      "path": "100 study-notes/102 AWS DVA/STS & IAM Advanced DVA.md"
-    },
-    {
-      "basename": "SQS DVA",
-      "path": "100 study-notes/102 AWS DVA/SQS DVA.md"
-    },
-    {
-      "basename": "Lambda",
-      "path": "100 study-notes/101 AWS SAA/Lambda.md"
-    },
-    {
-      "basename": "AWS Limits",
-      "path": "100 study-notes/102 AWS DVA/AWS Limits.md"
-    },
-    {
-      "basename": "ElasticBeanstalk DVA",
-      "path": "100 study-notes/102 AWS DVA/ElasticBeanstalk DVA.md"
-    },
-    {
-      "basename": "Rough",
-      "path": "600 rough/Rough.md"
-    },
-    {
-      "basename": "ECS",
-      "path": "100 study-notes/101 AWS SAA/ECS.md"
-    },
-    {
-      "basename": "ElasticBeanstalk Docker",
-      "path": "100 study-notes/102 AWS DVA/ElasticBeanstalk Docker.md"
-    },
-    {
-      "basename": "EC2 EBS",
-      "path": "100 study-notes/101 AWS SAA/EC2 EBS.md"
-    },
-    {
-      "basename": "CloudFront DVA",
-      "path": "100 study-notes/102 AWS DVA/CloudFront DVA.md"
-    },
-    {
-      "basename": "Lambda Synchronous Invocation",
-      "path": "100 study-notes/102 AWS DVA/Lambda Synchronous Invocation.md"
-    },
-    {
-      "basename": "ElasticBeanstalk",
-      "path": "100 study-notes/101 AWS SAA/ElasticBeanstalk.md"
     }
   ],
   "omittedPaths": [],
