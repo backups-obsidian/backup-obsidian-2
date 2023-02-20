@@ -1,6 +1,6 @@
 ---
 created: 2022-04-17 15:43
-updated: 2023-02-16 17:59
+updated: 2023-02-20 09:17
 ---
 ---
 **Links**: [[../100 home | 100 Home]]
@@ -22,6 +22,7 @@ updated: 2023-02-16 17:59
 ## ASG
 [[../101 AWS SAA/ASG | ASG]]
 [[../101 AWS SAA/Scaling Policies | ASG Scaling Policies]]
+[[../101 AWS SAA/Launch Configuration-Template | Launch Configuration vs Launch Template]]
 
 ## ELB
 [[../101 AWS SAA/ELB | ELB]]
@@ -180,6 +181,8 @@ Three ways in which Lambda processes events
 
 ## Other Services
 [[Other Services DVA]]
+[[../101 AWS SAA/GuardDuty | Guard Duty]]
+[[../101 AWS SAA/WAF & Firewall#WAF| WAF]]
 
 ## Miscellaneous
 - Typical 3 tier architecture
@@ -193,19 +196,7 @@ Three ways in which Lambda processes events
 - If a solution seems feasible but *highly complicated, it's probably wrong*
 
 [[DVA - Questions]]
-[[DVA - Question Areas]]
-
-## ToDo learning
-- Know what services are in SAM
-- Get more clarity about stages in API gateway
-	- stage variables.
-- Deployment strategies
-- KMS DataKey concept, envelope encryption
+[[DVA - Extra Notes]]
 
 ## Todo exam wise
 - Download sample test from AWS website.
-- Go through exam website on AWS website.
-- Exam tips from AWS
-	- [How to prepare for AWS Developer Associate Exam in 7 Weeks! Recommended courses and preparation tips - YouTube](https://www.youtube.com/watch?v=iTMClgY1heA) - starting part
-- I can get an AWS practice exam for free since I have previously cleared an AWS exam. 
-- [AWS-Certified-Developer-Associate_Exam-Guide_C02.pdf (awsstatic.com)](https://d1.awsstatic.com/training-and-certification/docs-dev-associate/AWS-Certified-Developer-Associate_Exam-Guide_C02.pdf)

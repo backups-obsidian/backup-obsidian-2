@@ -1,12 +1,12 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-04-30 11:39
+updated: 2023-02-20 09:16
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
 
 ---
-- Amazon GuardDuty offers *threat detection* that enables you to continuously monitor and protect your AWS accounts, workloads, and **data stored in Amazon S3** or *EC2* machines.
+- Amazon GuardDuty offers **threat detection** that enables you to continuously monitor and protect your AWS accounts, workloads, and **data stored in Amazon S3** or *EC2* machines.
 - **Intelligent threat discovery** to protect AWS account.
 - Uses ML algorithms, anomaly detection
 - Input data includes:  

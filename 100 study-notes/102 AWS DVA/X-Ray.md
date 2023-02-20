@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 12:39
-updated: 2023-02-19 09:59
+updated: 2023-02-20 08:58
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -67,12 +67,15 @@ updated: 2023-02-19 09:59
 ### Concepts
 - *Segments*: each application/service will send them
 	- For *services that don't send their own segments like Amazon DynamoDB*, X-Ray uses subsegments to generate *inferred segments*
-- *Subsegments*: if you need **more details in your segment**
+- **Subsegments**: if you need **more details in your segment**
 	- Subsegments represent your application's view of a **downstream call as a client**.
+	- *We can define arbitrary subsegments to instrument specific functions or lines of code in your application*
+		- ![[attachments/Pasted image 20230220084457.png]] 
 - *Trace*: *segments collected together* to form an end-to-end trace
 - *Sampling*: decrease the *amount of requests sent to X-Ray*, reduce cost
-- *Annotations*: *Key Value pairs* used to **index traces** and use with *filters*
+- **Annotations**: *Key Value pairs* used to **index traces** and use with *filters*
 	- Upto *50 annotations* per trace.
+	- Use annotations to *record data* that you want to use to **group traces**. 
 - *Metadata*: *Key Value pairs*, **not indexed**, not used for searching
 	- *User defined data* not used for indexing.
 

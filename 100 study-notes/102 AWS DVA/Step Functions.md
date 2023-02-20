@@ -1,6 +1,6 @@
 ---
 created: 2022-05-30 12:29
-updated: 2023-02-16 08:32
+updated: 2023-02-20 09:00
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -49,7 +49,7 @@ updated: 2023-02-16 08:32
 
 - Both the `InputPath` and `Parameters` fields provide a way to manipulate JSON as it moves through your workflow. 
 	- `InputPath` can limit the input that is passed by *filtering the JSON notation* by using a path. 
-	- The `Parameters` field enables you to *pass a collection of key-value pairs*, where the values are either static values that you define in your state machine definition, or that are selected from the input using a path.
+	- The `Parameters` field enables you to *pass a collection of **key-value** pairs*, where the values are either static values that you define in your state machine definition, or that are selected from the input using a path.
 	- AWS Step Functions **applies the InputPath field first, and then the Parameters field**. You can first filter your raw input to a selection you want using `InputPath`, and then apply `Parameters` to manipulate that input further, or add new values.
 -  The *output of a state* can be 
 	- A copy of its input, 
@@ -64,9 +64,14 @@ updated: 2023-02-16 08:32
 - *Choice State*: *Test for a condition* to send to a branch (or default branch)
 - *Fail or Succeed State*: Stop execution with failure or success
 - Pass State: Simply pass its input to its output or inject some fixed data, without performing work.
+	- *Pass state is generally used for debugging*.
 - Wait State: Provide a delay for a certain amount of time or until a specified time/date.
 - Map State: Dynamically iterate steps
-- **Parallel State**: Begin *parallel branches of execution*.
+- **Task state**: *Do some work* in your state machine
+- **Parallel State**: Begin *parallel branches of execution* **asynchronously**.
+
+> [!note]- Out of all the types of State, *only* the **Task State** and the **Parallel State** can be used to **run processes in the state machine**.
+> Go for *task state over parallel state if you want **synchronous** execution*.
 
 > [!question]- You want to orchestrate multiple Lambda functions and *wait for the result of all of them before making a final decision*. What do you recommend?
 > Step Functions *Parallel States* and then one final Task State
@@ -86,6 +91,8 @@ updated: 2023-02-16 08:32
 	- `States.Permissions`: insufficient privileges to execute code
 - The state may report its own errors
 
+> [!note]- We use `catch` and `retry` *together* for error handling.
+
 #### Retry 
 - **Evaluated from top to bottom**
 	- ![[attachments/Pasted image 20220530125551.png]]
@@ -102,9 +109,12 @@ updated: 2023-02-16 08:32
 	- ![[attachments/Pasted image 20220530125903.png]]
 - *ErrorEquals*: match a specific kind of error
 - *Next*: State to send to
-- **ResultPath**: A path that determines what input is sent to the state specified in the Next field.
-	- ResultPath is how you pass errors from the input to the output 
+- **ResultPath**: A path that determines *what input is sent to the state* specified in the Next field.
+	- ResultPath is how you *pass errors from the input to the output* 
 	- ![[attachments/Pasted image 20220530130227.png]]
+
+> [!question]- A company plans to conduct an online survey to distinguish the users who bought its product from those who didn't. The survey will be processed by Step Functions which comprises four states that will manage the application logic and *error handling* of the state machine. It is required to aggregate all the data that passes through the nodes if the *process fails*. What should the company do to meet the requirements?
+> Include a `Catch` field in the state machine definition to *capture the error*. Then, use `ResultPath` to **include each node's input data with its output**.
 
 ### Standard vs Express Workflow
 - **Express workflows** are **cheaper**, **run for shorter duration**(**5 minutes**) and *don't have an execution history*.

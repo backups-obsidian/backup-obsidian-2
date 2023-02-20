@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 12:39
-updated: 2023-02-19 09:48
+updated: 2023-02-20 08:53
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -67,6 +67,8 @@ updated: 2023-02-19 09:48
 
 > [!question]- How to *scan* the whole table in the *shortest possible time* whilst ensuring the *normal workload is NOT affected*.
 > Use the **Parallel Scan API** operation and **limit** the rate.
+> ---
+> Perform a *rate-limited parallel `scan` operation*.
 
 ## Deleting Data
 - `DeleteItem`

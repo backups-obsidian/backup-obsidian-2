@@ -1,6 +1,6 @@
 ---
 created: 2022-05-30 09:35
-updated: 2023-02-17 13:10
+updated: 2023-02-19 13:33
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -102,11 +102,17 @@ updated: 2023-02-17 13:10
 	- To a Lambda function
 	- To an ECS task
 	- To CodePipeline to allow it to invoke other services
-- For this, you need the lAM permission `iam:PassRole`
+- For this, **you need the lAM permission `iam:PassRole`**
 	- ![[attachments/Pasted image 20220531092059.png]]
 - It often comes with `iam:GetRole` to view the role being passed
 - Example:
 	- ![[attachments/Pasted image 20220531093636.png]]
+
+> [!question]- A team of *developers* needs permission to *launch EC2 instances* with an instance role that will allow them to *update items in a DynamoDB table*. Each developer has access to IAM users that belongs in the same IAM group. Which of the following steps must be done to implement the solution?
+> Create an IAM role with an IAM policy that will allow access to the DynamoDB table. Add the EC2 service to the trust policy of the role. Create a custom policy with the `iam:PassRole` permission. Attach the policy to the IAM group.
+> ---
+> The `PassRole` permission helps you make sure that a *user doesn’t pass a role to an EC2 instance where the role has more permissions than you want the user to have*. 
+> For example, Alice might be allowed to perform only EC2 and S3 actions. If Alice could pass a role to the EC2 instance that allows additional actions, she could log into the instance, get temporary security credentials via the role she passed, and make calls to AWS that you don’t intend.
 
 #### Can a role be passed to any service?
 - **No: Roles can only be passed to what their trust allows**
