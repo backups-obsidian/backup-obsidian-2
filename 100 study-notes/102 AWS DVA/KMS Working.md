@@ -1,6 +1,6 @@
 ---
 created: 2022-06-01 11:42
-updated: 2023-02-17 09:28
+updated: 2023-02-20 10:46
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -73,3 +73,6 @@ updated: 2023-02-17 09:28
 	- If throttling, you can request an increase in KMS limits
 
 > [!important] If you are getting throttling issues in SSE-KMS then the issue is not with S3 but with the limit of KMS that is preventing us from encrypting or decrypting files.
+
+## References
+- [DEMO | AWS KMS | ENVELOPE ENCRYPTION - YouTube](https://www.youtube.com/watch?v=cE-0ANuOMaQ)

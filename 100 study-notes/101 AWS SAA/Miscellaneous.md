@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 09:25
-updated: 2022-05-05 15:49
+updated: 2023-02-21 09:10
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -11,7 +11,7 @@ updated: 2022-05-05 15:49
 - It sets the maximum permissions an [[IAM Basics#^182218|entity]] can get.
 - When you use a policy to set the permissions boundary for a user, it *limits the user's permissions* but does not provide permissions on its own.
 
->[!caution] They are supported for users and roles and **not for groups**.
+>[!caution] They are supported for users and roles and **not for groups** since they are not entities.
 
 - Example evaluation
 	- ![[attachments/Pasted image 20220419092908.png]]

@@ -1,6 +1,6 @@
 ---
 created: 2022-05-23 17:00
-updated: 2023-02-19 09:13
+updated: 2023-02-20 11:51
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -15,7 +15,7 @@ updated: 2023-02-19 09:13
 - Records need to be **polled** from the source. This means lambda needs to ask the services for some records.
 - Lambda is invoked **synchronously**.
 - Internally an **event source map** is created which is responsible for polling kinesis and getting the results back.
-- Once the event source map has data it will invoke the lambda function synchronously for processing.
+- Once the event source map has data it will *invoke the lambda function synchronously for processing*.
 
 > [!question]+ A company is setting up a Lambda function that will process events from a DynamoDB stream. The Lambda function has been created and a stream has been enabled. What else needs to be done for this solution to work?
 > - An *event-source mapping* must be **created on the Lambda side** to associate the DynamoDB stream with the Lambda function.

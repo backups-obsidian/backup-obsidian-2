@@ -17,7 +17,7 @@ updated: 2023-02-09 17:05
 
 ## Route Tables
 - For each VPC we create we get a **default route table**.
-- In the beginning we since we haven't created any route tables for subnets all the subnets are **implicitly attached to the default/main route table**.
+- In the beginning since we haven't created any route tables for subnets all the subnets are **implicitly attached to the default/main route table**.
 - So we create our own route tables and then *explicitly associate them with their respective subnets*. I have created two, one for private subnet and another one for public subnet.
 - Now to make public subnet available to the internet we go to the public route table and edit its route. We say for *any route other than 10.0.0.0/16 send it to the internet gateway*.
 	- ![[attachments/Pasted image 20220430074720.png]]

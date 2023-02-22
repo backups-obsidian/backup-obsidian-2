@@ -1,6 +1,6 @@
 ---
 created: 2022-05-15 08:57
-updated: 2023-02-19 13:05
+updated: 2023-02-20 14:45
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -81,3 +81,10 @@ updated: 2023-02-19 13:05
 	- The *public key* (uploaded) is used by *CloudFront to verify URLs* 
 - After creating the keys we add the public keys in our CloudFront distribution and then add the public keys to key groups.
 - In our CloudFront distribution, we *can create one or more trusted key groups*.
+
+## Real time logs
+- CloudFront provides **real-time logs** that contain *detailed information* about viewer requests and responses served by CloudFront, such as the viewer's IP address, the time and date of the request, the URI of the requested object, the HTTP status code returned to the viewer, and more.
+	- You can use these real-time logs to *gain insights* into your application's usage patterns and *troubleshoot issues* with your CloudFront distribution.
+- CloudFront real-time logs are delivered to the *data stream* of your choice in Amazon **Kinesis Data Streams**. 
+	- You can build your own Kinesis data stream consumer, or **use Amazon Kinesis Data Firehose** to send the log data to *S3*, Redshift, OpenSearch Service *OpenSearch* Service, or a third-party log processing service.
+- Note that enabling *real-time logs* incurs **additional charges for data transfer** and storage, so it's important to monitor and manage your usage to avoid unexpected costs.
