@@ -45,7 +45,7 @@
               "type": "markdown",
               "state": {
                 "file": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               },
@@ -66,9 +66,22 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "a213fa33e11bb701",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100 study-notes/101 AWS SAA/VPC Internet Access.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -143,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/102 AWS DVA/DVA - Extra Notes.md",
+                "file": "100 study-notes/101 AWS SAA/VPC Internet Access.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/102 AWS DVA/DVA - Extra Notes.md"
+                "file": "100 study-notes/101 AWS SAA/VPC Internet Access.md"
               }
             }
           },
@@ -170,7 +183,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/102 AWS DVA/DVA - Extra Notes.md",
+                "file": "100 study-notes/101 AWS SAA/VPC Internet Access.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -236,17 +249,17 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "a1e9959ebdb79815",
+  "active": "a213fa33e11bb701",
   "lastOpenFiles": [
     "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
-    "100 study-notes/102 AWS DVA/DVA - Extra Notes.md",
-    "100 study-notes/102 AWS DVA/DVA - Questions.md",
-    "100 study-notes/101 AWS SAA/GuardDuty.md",
-    "100 study-notes/101 AWS SAA/WAF & Firewall.md",
-    "100 study-notes/101 AWS SAA/101 AWS SAA Index.md",
-    "100 study-notes/102 AWS DVA/DynamoDB DVA.md",
-    "100 study-notes/102 AWS DVA/Step Functions.md",
-    "100 study-notes/102 AWS DVA/X-Ray.md",
-    "100 study-notes/102 AWS DVA/DynamoDB Basic APIs.md"
+    "100 study-notes/101 AWS SAA/Route53 Health Checks.md",
+    "100 study-notes/101 AWS SAA/Route53 Routing Policies.md",
+    "100 study-notes/101 AWS SAA/Route53.md",
+    "100 study-notes/102 AWS DVA/ElasticCache Replication.md",
+    "100 study-notes/102 AWS DVA/ElastiCache DVA.md",
+    "100 study-notes/101 AWS SAA/ElastiCache.md",
+    "100 study-notes/101 AWS SAA/RDS Read Replica & Multi AZ.md",
+    "100 study-notes/101 AWS SAA/RDS Security.md",
+    "100 study-notes/101 AWS SAA/Aurora.md"
   ]
 }

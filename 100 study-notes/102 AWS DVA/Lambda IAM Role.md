@@ -1,6 +1,6 @@
 ---
 created: 2022-05-24 09:54
-updated: 2022-06-09 15:34
+updated: 2023-02-20 11:56
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -17,7 +17,15 @@ updated: 2022-06-09 15:34
 
 - When you use an **event source mapping** to invoke your function, Lambda uses the **execution role to read event data**.
 	- In asynchronous and synchronous invocations lambda was invoked by other services so we didn't need IAM role with specific permissions.
-	- In event source mapping *lambda is the one invoking SQS queue or kinesis* hence it needs an execution policy to read event data.
+	- In event source mapping *lambda is the one invoking SQS queue or kinesis* hence it *needs an execution policy to read event data*.
+	- The *services also need a role to be able to invoke a lambda function*.
+
+> [!question]- You have configured Lambda to pull events from an Amazon DynamoDB stream that contains change logs on a DynamoDB table but it doesn't seem to be working correctly. What role/roles must be granted permission for "pull model" to work successfully?
+> An **execution role** for lambda and an **invocation role** for the dynamodb streams.
+> ---
+> - The Lambda function **execution role** needs permission to read data from the DynamoDB stream. You can add the `dynamodb:GetRecords` *permission to the execution role*.
+> - The *DynamoDB stream* needs permission to **invoke the Lambda function**. You can add the `lambda:InvokeFunction` permission to the **stream's IAM role**.
+ 
 
 > [!note] Best practice: create *one lambda execution role per function*
 

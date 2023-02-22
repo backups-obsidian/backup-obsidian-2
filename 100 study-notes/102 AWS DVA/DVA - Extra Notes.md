@@ -1,6 +1,6 @@
 ---
 created: 2023-02-06 22:18
-updated: 2023-02-20 09:14
+updated: 2023-02-20 14:52
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -209,3 +209,27 @@ updated: 2023-02-20 09:14
 	- We can use lambda URLs for *webhooks* without needing the use of API gateway.
 - Read carefully in the question which ports are exposed by the SG. 
 	- If port 22 is not exposed then we cannot use SSH.
+
+> [!question]- A user has stored data on an encrypted EBS volume. *The volume was encrypted using the EBS default encryption process*, which creates a *AWS-managed KMS key* for the user upon encrypting the volume. Now the *user wants to share the data with another AWS account*. The AWS account needs the data to be decrypted. Which of the choices below can achieve this?
+> *Copy the data to an unencrypted volume* in your account, create a unencrypted snapshot and share access to it.
+> ---
+> "Create a snapshot and share access to it. Then grant access to the AWS-managed KMS key used to encrypt the volume, then the user can decrypt the volume access the data directly" is incorrect since it is *not possible to share access to a volume encrypted in the default process with an AWS-managed KMS key*. The encryption would *need to be done with a custom KMS key* in order to grant access to it to another account.
+
+- We cannot share AWS managed keys cross accounts.
+
+### KMS Notes:
+- For files greater than 4KB we cannot use the CMK to encrypt it. We have to use a data key.
+- We can *generate an encrypted and an unencrypted data key from a CMK*.
+- We use the unencrypted data key (**plaintext**) to encrypt the data and  store the encrypted data key in the database along side the encrypted data.
+	- ![[attachments/Pasted image 20230220104225.png]]
+- To decrypt the data key and then use the CMK and then use the decrypted data key to decrypt the data.
+	- ![[attachments/Pasted image 20230220104251.png]]
+- CMK can be thought of as a key encrypting key and not a data encrypting key. 
+
+- Steps in code:
+	- We first generate a CMK and the use the CMK to generate a datakey.
+	- Now when we generate a datakey we get two types of responses. 
+		- We get a **plaintext version** and a **Ciphertextblob version**.
+		- We store the Ciphertextblob version in the database and *delete the plaintext version after we are done encrypting*. 
+
+- CMK (Customer master key) can be *AWS managed* (aws generated) or *Customer managed* (customer created).

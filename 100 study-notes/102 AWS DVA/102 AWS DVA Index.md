@@ -1,6 +1,6 @@
 ---
 created: 2022-04-17 15:43
-updated: 2023-02-20 09:17
+updated: 2023-02-21 08:44
 ---
 ---
 **Links**: [[../100 home | 100 Home]]
@@ -8,8 +8,8 @@ updated: 2023-02-20 09:17
 
 ---
 ## IAM
-[[../101 AWS SAA/Miscellaneous | IAM Miscellaneous]]
 [[../101 AWS SAA/IAM Basics | IAM Basics]]
+[[../101 AWS SAA/Miscellaneous | IAM Miscellaneous]]
 
 ## EC2
 [[../101 AWS SAA/EC2 Basics | EC2 Basics]]
