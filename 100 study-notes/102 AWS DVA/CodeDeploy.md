@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 12:39
-updated: 2023-02-20 08:42
+updated: 2023-02-22 23:04
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -105,7 +105,7 @@ updated: 2023-02-20 08:42
 - *To rollback, redeploy old deployment or enable automated rollback for failures*.
 
 #### Rollbacks
-- *Rollback*: redeploy a *previously deployed revision* of your application
+- *Rollback*: **redeploy** a *previously deployed revision* of your application
 - Deployments can be rolled back:
 	- *Automatically* rollback when a deployment fails or rollback when a CloudWatch Alarm thresholds are met
 	- *Manually*

@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 12:39
-updated: 2023-02-12 18:28
+updated: 2023-02-23 11:39
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -23,7 +23,7 @@ updated: 2023-02-12 18:28
 > [!note] If you don't know capacity then go for on-demand.
 
 ### Security
-- KDS is *deployed within our VPC*.
+- KDS is *deployed outside our VPC*.
 	- ![[attachments/Pasted image 20220520154912.png]]
 - Control access/authorisation using |AM policies
 - Encryption *in flight using HTTPS* endpoints

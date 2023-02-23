@@ -1,6 +1,6 @@
 ---
 created: 2022-04-25 16:24
-updated: 2023-02-16 09:44
+updated: 2023-02-23 11:30
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -65,6 +65,7 @@ updated: 2023-02-16 09:44
 - *Managed*: 
 	- Kinesis Data Firehose 
 	- Kinesis Data Analytics
+	- Lambda 
 
 ---
 - Data is **base64 encoded**.
@@ -87,7 +88,7 @@ updated: 2023-02-16 09:44
 - **Writing** always takes place in **batches**.
 - It is a **fully managed** service with **automatic scaling** and is **serverless**.
 - We *pay for the data going through firehose*.
-- It is **near real time**
+- It is **near real time** because of **batch writes**.
 	- Kinesis Data Firehose *buffers incoming records before delivering them to your S3 bucket*.
 	- *Buffer interval*: *60 seconds* latency minimum for *non full batches*
 	- *Buffer size*:  minimum 32 MB of data at a time

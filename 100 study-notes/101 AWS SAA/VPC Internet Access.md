@@ -1,6 +1,6 @@
 ---
 created: 2022-04-29 20:22
-updated: 2023-02-09 17:05
+updated: 2023-02-22 08:33
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -29,7 +29,7 @@ updated: 2023-02-09 17:05
     - **Does it have an EIP or public IP address**?
     - Is the route table properly configured?
 
-> [!note]- A subnet can only be associated with one route table at a time.
+> [!note]- A *subnet* can *only* be associated with *one route table* at a time. One the other hand a route table can be associated with many subnets.
 
 ## Bastion Hosts
 - If we create an EC2 instance in the private subnet we won’t be able to SSH into it since no internet access it allowed.

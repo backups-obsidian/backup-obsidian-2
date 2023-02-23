@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 study-notes/101 AWS SAA/VPC Internet Access.md",
+                "file": "100 study-notes/102 AWS DVA/Lambda Destinations.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -156,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/101 AWS SAA/VPC Internet Access.md",
+                "file": "100 study-notes/102 AWS DVA/Lambda Destinations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/101 AWS SAA/VPC Internet Access.md"
+                "file": "100 study-notes/102 AWS DVA/Lambda Destinations.md"
               }
             }
           },
@@ -183,7 +183,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/101 AWS SAA/VPC Internet Access.md",
+                "file": "100 study-notes/102 AWS DVA/Lambda Destinations.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -251,15 +251,15 @@
   },
   "active": "a213fa33e11bb701",
   "lastOpenFiles": [
+    "100 study-notes/102 AWS DVA/Lambda Event Source Mapping.md",
+    "100 study-notes/102 AWS DVA/Lambda Destinations.md",
     "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
-    "100 study-notes/101 AWS SAA/Route53 Health Checks.md",
-    "100 study-notes/101 AWS SAA/Route53 Routing Policies.md",
-    "100 study-notes/101 AWS SAA/Route53.md",
-    "100 study-notes/102 AWS DVA/ElasticCache Replication.md",
-    "100 study-notes/102 AWS DVA/ElastiCache DVA.md",
-    "100 study-notes/101 AWS SAA/ElastiCache.md",
-    "100 study-notes/101 AWS SAA/RDS Read Replica & Multi AZ.md",
-    "100 study-notes/101 AWS SAA/RDS Security.md",
-    "100 study-notes/101 AWS SAA/Aurora.md"
+    "100 study-notes/102 AWS DVA/Lambda Asynchronous Invocation.md",
+    "100 study-notes/102 AWS DVA/Lambda Synchronous Invocation.md",
+    "100 study-notes/101 AWS SAA/Lambda.md",
+    "100 study-notes/102 AWS DVA/Kinesis DVA.md",
+    "100 study-notes/101 AWS SAA/Kinesis.md",
+    "100 study-notes/101 AWS SAA/SNS.md",
+    "100 study-notes/102 AWS DVA/SQS DVA.md"
   ]
 }

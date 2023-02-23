@@ -1,13 +1,13 @@
 ---
 created: 2022-05-24 09:38
-updated: 2023-02-16 08:36
+updated: 2023-02-23 15:18
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
 
 ---
 ## Destinations
-- In case of **asynchronous invocations** and event mappers it was very hard for us to see if they had failed or succeeded.
+- In case of **asynchronous invocations** and **event mappers** it was very hard for us to see if they had failed or succeeded.
 - The idea is to send the *result of an asynchronous invocation* or *failure of an event mapper* somewhere.
 
 ### Asynchronous Invocations
