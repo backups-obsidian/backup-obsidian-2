@@ -1,6 +1,6 @@
 ---
 created: 2022-05-15 11:30
-updated: 2023-02-19 09:54
+updated: 2023-02-22 11:28
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -19,7 +19,7 @@ updated: 2023-02-19 09:54
 > - The **cluster name Parameter has not been updated** in the file `/etc/ecs/ecs.config` during bootstrap
 > - In the `ecs.config` file you have to configure the parameter `ECS_CLUSTER=your_cluster_name` to *register the container instance with a cluster named your_cluster_name*.
 
-- Logging into ECR: `$(aws ecr get-login--no-include-email)` 
+- Logging into ECR: `$(aws ecr get-login --no-include-email)` 
 - Location of the config file `/etc/ecs/ecs.config`
 	- We can configure the parameter `ECS_CLUSTER='your_cluster_name'` to register the container instance with a cluster named `'your_cluster_name'`
 
