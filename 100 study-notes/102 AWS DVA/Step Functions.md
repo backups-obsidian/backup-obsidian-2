@@ -1,6 +1,6 @@
 ---
 created: 2022-05-30 12:29
-updated: 2023-02-20 09:00
+updated: 2023-02-24 10:48
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -93,13 +93,16 @@ updated: 2023-02-20 09:00
 
 > [!note]- We use `catch` and `retry` *together* for error handling.
 
+> [!caution]- `catch` and `retry` are *NOT separate states* but are **inside the Task or Parallel state**.
+
 #### Retry 
 - **Evaluated from top to bottom**
 	- ![[attachments/Pasted image 20220530125551.png]]
-- *ErrorEquals*: match a specific kind of error
-- *IntervalSeconds*: initial delay before retrying
-- *BackoffRate*: multiple the delay after each retry
-- *MaxAttempts*: default to 3, set to 0 for never retried
+- **Fields**:
+	- *ErrorEquals*: match a specific kind of error
+	- *IntervalSeconds*: initial delay before retrying
+	- *BackoffRate*: multiple the delay after each retry
+	- *MaxAttempts*: default to *3*, set to 0 for never retried
 - When **max attempts are reached, the Catch kicks in**
 - In the above example we see that changing the *error handling logic is very easy*.
 	- If all these steps would have been inside the lambda function it might have timed out.
@@ -107,10 +110,11 @@ updated: 2023-02-20 09:00
 #### Catch
 - **Evaluated from top to bottom**
 	- ![[attachments/Pasted image 20220530125903.png]]
-- *ErrorEquals*: match a specific kind of error
-- *Next*: State to send to
-- **ResultPath**: A path that determines *what input is sent to the state* specified in the Next field.
-	- ResultPath is how you *pass errors from the input to the output* 
+- **Fields**:
+	- *ErrorEquals*: match a specific kind of error
+	- *Next*: State to send to
+	- **ResultPath**: A path that determines *what input is sent to the state* specified in the Next field.
+- ResultPath is how you *pass errors from the input to the output* 
 	- ![[attachments/Pasted image 20220530130227.png]]
 
 > [!question]- A company plans to conduct an online survey to distinguish the users who bought its product from those who didn't. The survey will be processed by Step Functions which comprises four states that will manage the application logic and *error handling* of the state machine. It is required to aggregate all the data that passes through the nodes if the *process fails*. What should the company do to meet the requirements?

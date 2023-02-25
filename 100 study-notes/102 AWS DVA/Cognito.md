@@ -1,6 +1,6 @@
 ---
 created: 2022-05-30 09:35
-updated: 2023-02-20 08:48
+updated: 2023-02-24 10:04
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -52,7 +52,7 @@ updated: 2023-02-20 08:48
 	- *Public Providers* (Login with Amazon, Facebook, Google, Apple)
 	- Users in an Amazon **Cognito user pool**
 	- **OpenID Connect** Providers & **SAML** Identity Providers
-	- Developer Authenticated Identities (custom login server)
+	- **Developer Authenticated Identities** (custom login server)
 	- Cognito Identity Pools allow for **unauthenticated (guest) access**
 - *Users can then access AWS services directly or through API Gateway*
 - The **IAM policies** applied to the credentials are defined in Cognito
@@ -112,7 +112,7 @@ updated: 2023-02-20 08:48
 	- Using developer authenticated identities involves *interaction* between the *end-user* device, your *backend for authentication*, and *Amazon Cognito*. 
 
 > [!question]- A company is planning to launch an online cross-platform game that expects millions of users. The developer wants to *use an in-house authentication system for user identification*. Each *user identifier must be kept consistent across devices and platforms*. How can the developer achieve this?
-> 
+> Use *developer authenticated identities*.
 
 - To use an Amazon **Cognito user pool with your API Gateway**, you must first create an **authoriser of the `COGNITO_USER_POOLS`** type and then *configure an API method to use that authoriser*.
 

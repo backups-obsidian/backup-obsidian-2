@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2023-02-14 13:32
+updated: 2023-02-24 11:23
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -58,7 +58,7 @@ updated: 2023-02-14 13:32
 - Keys are **bound to a specific region**.
 	- To copy snapshots across accounts we need a [[KMS#^bd14fe|Custom Key Policy]]
 	- *Steps* on how to copy a snapshot:
-		- Create a Snapshot, encrypted with your own CMK
+		- Create a Snapshot, encrypted with your CMK (either customer managed or AWS managed).
 		- Attach a custom KMS Key Policy to authorise cross-account access
 		- Share the encrypted snapshot
 		- After decrypting the snapshot with the shared key (in target) create a copy of the Snapshot, 
@@ -91,6 +91,8 @@ updated: 2023-02-14 13:32
 > - *To recover the CMK, you can cancel key deletion* before the waiting period ends. 
 > - **After the waiting period ends you cannot cancel key deletion, and AWS KMS deletes the CMK**.
 > - You *cannot recover the key after deletion*.
+
+> [!note]- *AWS managed CMK CANNOT be deleted*, they can be **disabled**.
 
 ### KMS Key Rotation
 - We can **enable key rotation for customer managed CMK** and **not for AWS managed CMK**.

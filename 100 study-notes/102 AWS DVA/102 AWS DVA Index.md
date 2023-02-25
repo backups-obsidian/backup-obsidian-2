@@ -1,6 +1,6 @@
 ---
 created: 2022-04-17 15:43
-updated: 2023-02-21 08:44
+updated: 2023-02-24 15:13
 ---
 ---
 **Links**: [[../100 home | 100 Home]]
@@ -152,6 +152,7 @@ Three ways in which Lambda processes events
 [[DynamoDB Capacity]]
 [[DynamoDB Basic APIs]]
 [[DynamoDB Indexes]]
+[[DynamoDB Locking]]
 [[DynamoDB DVA]]
 
 ## API Gateway
@@ -188,15 +189,8 @@ Three ways in which Lambda processes events
 - Typical 3 tier architecture
 	- ![[attachments/Pasted image 20220514121352.png]]
 	- *Data subnet* is also a *private subnet*.
-- IAM roles vs Resource based policies
-	- ![[attachments/Pasted image 20230131213839.png]]
 
+[[DVA - Extra Notes]]
 ## Exam Tips
 - There are **very very few trick questions**
 - If a solution seems feasible but *highly complicated, it's probably wrong*
-
-[[DVA - Questions]]
-[[DVA - Extra Notes]]
-
-## Todo exam wise
-- Download sample test from AWS website.

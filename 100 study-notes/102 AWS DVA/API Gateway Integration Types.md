@@ -1,6 +1,6 @@
 ---
 created: 2022-05-26 16:04
-updated: 2023-02-17 15:21
+updated: 2023-02-24 09:05
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -14,6 +14,7 @@ updated: 2023-02-17 15:21
 - Just for *development and testing*
 
 ### HTTP/AWS (*Lambda* & *AWS Services*)
+- Only REST API since **HTTP API only supports proxies**.
 - For *custom integration* (HTTP), *lambdas and other AWS services* (AWS).
 - We must configure both the **integration request** and **integration response**
 	- ![[attachments/Pasted image 20230217121247.png]]

@@ -1,16 +1,140 @@
 {
   "recentFiles": [
     {
+      "basename": "102 AWS DVA Index",
+      "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
+    },
+    {
+      "basename": "DVA - Extra Notes",
+      "path": "100 study-notes/102 AWS DVA/DVA - Extra Notes.md"
+    },
+    {
+      "basename": "DynamoDB DVA",
+      "path": "100 study-notes/102 AWS DVA/DynamoDB DVA.md"
+    },
+    {
+      "basename": "DynamoDB Locking",
+      "path": "100 study-notes/102 AWS DVA/DynamoDB Locking.md"
+    },
+    {
+      "basename": "KMS Working",
+      "path": "100 study-notes/102 AWS DVA/KMS Working.md"
+    },
+    {
+      "basename": "KMS DVA",
+      "path": "100 study-notes/102 AWS DVA/KMS DVA.md"
+    },
+    {
+      "basename": "Other Services DVA",
+      "path": "100 study-notes/102 AWS DVA/Other Services DVA.md"
+    },
+    {
+      "basename": "WAF & Firewall",
+      "path": "100 study-notes/101 AWS SAA/WAF & Firewall.md"
+    },
+    {
+      "basename": "GuardDuty",
+      "path": "100 study-notes/101 AWS SAA/GuardDuty.md"
+    },
+    {
+      "basename": "Security Miscellaneous Services",
+      "path": "100 study-notes/102 AWS DVA/Security Miscellaneous Services.md"
+    },
+    {
+      "basename": "SSM Parameter Store vs Secrets Manager",
+      "path": "100 study-notes/102 AWS DVA/SSM Parameter Store vs Secrets Manager.md"
+    },
+    {
+      "basename": "MFA",
+      "path": "100 study-notes/102 AWS DVA/MFA.md"
+    },
+    {
+      "basename": "S3 Encryption",
+      "path": "100 study-notes/101 AWS SAA/S3 Encryption.md"
+    },
+    {
+      "basename": "KMS",
+      "path": "100 study-notes/101 AWS SAA/KMS.md"
+    },
+    {
+      "basename": "STS & IAM Advanced DVA",
+      "path": "100 study-notes/102 AWS DVA/STS & IAM Advanced DVA.md"
+    },
+    {
+      "basename": "Step Functions",
+      "path": "100 study-notes/102 AWS DVA/Step Functions.md"
+    },
+    {
+      "basename": "Cognito",
+      "path": "100 study-notes/102 AWS DVA/Cognito.md"
+    },
+    {
+      "basename": "CDK",
+      "path": "100 study-notes/102 AWS DVA/CDK.md"
+    },
+    {
+      "basename": "SAM",
+      "path": "100 study-notes/102 AWS DVA/SAM.md"
+    },
+    {
+      "basename": "API Gateway Security",
+      "path": "100 study-notes/102 AWS DVA/API Gateway Security.md"
+    },
+    {
+      "basename": "API Gateway Monitoring",
+      "path": "100 study-notes/102 AWS DVA/API Gateway Monitoring.md"
+    },
+    {
+      "basename": "API Gateway Caching",
+      "path": "100 study-notes/102 AWS DVA/API Gateway Caching.md"
+    },
+    {
+      "basename": "API Gateway Integration Types",
+      "path": "100 study-notes/102 AWS DVA/API Gateway Integration Types.md"
+    },
+    {
+      "basename": "API Gateway DVA",
+      "path": "100 study-notes/102 AWS DVA/API Gateway DVA.md"
+    },
+    {
+      "basename": "API Gateway",
+      "path": "100 study-notes/101 AWS SAA/API Gateway.md"
+    },
+    {
+      "basename": "DynamoDB Indexes",
+      "path": "100 study-notes/102 AWS DVA/DynamoDB Indexes.md"
+    },
+    {
+      "basename": "DynamoDB Basic APIs",
+      "path": "100 study-notes/102 AWS DVA/DynamoDB Basic APIs.md"
+    },
+    {
+      "basename": "DynamoDB Capacity",
+      "path": "100 study-notes/102 AWS DVA/DynamoDB Capacity.md"
+    },
+    {
+      "basename": "DynamoDB",
+      "path": "100 study-notes/101 AWS SAA/DynamoDB.md"
+    },
+    {
+      "basename": "Lambda Performance",
+      "path": "100 study-notes/102 AWS DVA/Lambda Performance.md"
+    },
+    {
+      "basename": "Lambda Configuration & Deployments",
+      "path": "100 study-notes/102 AWS DVA/Lambda Configuration & Deployments.md"
+    },
+    {
+      "basename": "Lambda IAM Role",
+      "path": "100 study-notes/102 AWS DVA/Lambda IAM Role.md"
+    },
+    {
       "basename": "Lambda Destinations",
       "path": "100 study-notes/102 AWS DVA/Lambda Destinations.md"
     },
     {
       "basename": "Lambda Event Source Mapping",
       "path": "100 study-notes/102 AWS DVA/Lambda Event Source Mapping.md"
-    },
-    {
-      "basename": "102 AWS DVA Index",
-      "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
     },
     {
       "basename": "Lambda Asynchronous Invocation",
@@ -39,10 +163,6 @@
     {
       "basename": "SQS DVA",
       "path": "100 study-notes/102 AWS DVA/SQS DVA.md"
-    },
-    {
-      "basename": "DVA - Extra Notes",
-      "path": "100 study-notes/102 AWS DVA/DVA - Extra Notes.md"
     },
     {
       "basename": "SQS",
@@ -75,130 +195,6 @@
     {
       "basename": "CloudFormation Advanced",
       "path": "100 study-notes/102 AWS DVA/CloudFormation Advanced.md"
-    },
-    {
-      "basename": "CloudFormation RollBacks",
-      "path": "100 study-notes/102 AWS DVA/CloudFormation RollBacks.md"
-    },
-    {
-      "basename": "CloudFormation Intrinsic Functions",
-      "path": "100 study-notes/102 AWS DVA/CloudFormation Intrinsic Functions.md"
-    },
-    {
-      "basename": "CloudFormation Template Components",
-      "path": "100 study-notes/102 AWS DVA/CloudFormation Template Components.md"
-    },
-    {
-      "basename": "CloudFormation",
-      "path": "100 study-notes/102 AWS DVA/CloudFormation.md"
-    },
-    {
-      "basename": "CodeGuru",
-      "path": "100 study-notes/102 AWS DVA/CodeGuru.md"
-    },
-    {
-      "basename": "CodeArtifact",
-      "path": "100 study-notes/102 AWS DVA/CodeArtifact.md"
-    },
-    {
-      "basename": "CodeStar",
-      "path": "100 study-notes/102 AWS DVA/CodeStar.md"
-    },
-    {
-      "basename": "CodeDeploy",
-      "path": "100 study-notes/102 AWS DVA/CodeDeploy.md"
-    },
-    {
-      "basename": "CodeBuild",
-      "path": "100 study-notes/102 AWS DVA/CodeBuild.md"
-    },
-    {
-      "basename": "CodePipeline",
-      "path": "100 study-notes/102 AWS DVA/CodePipeline.md"
-    },
-    {
-      "basename": "CodeCommit",
-      "path": "100 study-notes/102 AWS DVA/CodeCommit.md"
-    },
-    {
-      "basename": "ElasticBeanstalk DVA",
-      "path": "100 study-notes/102 AWS DVA/ElasticBeanstalk DVA.md"
-    },
-    {
-      "basename": "ElasticBeanstalk Deployment Modes",
-      "path": "100 study-notes/102 AWS DVA/ElasticBeanstalk Deployment Modes.md"
-    },
-    {
-      "basename": "ElasticBeanstalk Docker",
-      "path": "100 study-notes/102 AWS DVA/ElasticBeanstalk Docker.md"
-    },
-    {
-      "basename": "ElasticBeanstalk",
-      "path": "100 study-notes/101 AWS SAA/ElasticBeanstalk.md"
-    },
-    {
-      "basename": "ECS DVA",
-      "path": "100 study-notes/102 AWS DVA/ECS DVA.md"
-    },
-    {
-      "basename": "CloudFront DVA",
-      "path": "100 study-notes/102 AWS DVA/CloudFront DVA.md"
-    },
-    {
-      "basename": "CloudFront Advanced",
-      "path": "100 study-notes/101 AWS SAA/CloudFront Advanced.md"
-    },
-    {
-      "basename": "CloudFront",
-      "path": "100 study-notes/101 AWS SAA/CloudFront.md"
-    },
-    {
-      "basename": "AWS Limits",
-      "path": "100 study-notes/102 AWS DVA/AWS Limits.md"
-    },
-    {
-      "basename": "CLI",
-      "path": "100 study-notes/102 AWS DVA/CLI.md"
-    },
-    {
-      "basename": "S3 Access Points",
-      "path": "100 study-notes/102 AWS DVA/S3 Access Points.md"
-    },
-    {
-      "basename": "S3 Miscellaneous",
-      "path": "100 study-notes/101 AWS SAA/S3 Miscellaneous.md"
-    },
-    {
-      "basename": "S3 Performance",
-      "path": "100 study-notes/101 AWS SAA/S3 Performance.md"
-    },
-    {
-      "basename": "S3 Lifecycle Rules",
-      "path": "100 study-notes/101 AWS SAA/S3 Lifecycle Rules.md"
-    },
-    {
-      "basename": "S3 Storage Classes",
-      "path": "100 study-notes/101 AWS SAA/S3 Storage Classes.md"
-    },
-    {
-      "basename": "VPC Flow Logs",
-      "path": "100 study-notes/101 AWS SAA/VPC Flow Logs.md"
-    },
-    {
-      "basename": "GuardDuty",
-      "path": "100 study-notes/101 AWS SAA/GuardDuty.md"
-    },
-    {
-      "basename": "S3 Replication",
-      "path": "100 study-notes/101 AWS SAA/S3 Replication.md"
-    },
-    {
-      "basename": "S3 Websites",
-      "path": "100 study-notes/101 AWS SAA/S3 Websites.md"
-    },
-    {
-      "basename": "S3 Encryption",
-      "path": "100 study-notes/101 AWS SAA/S3 Encryption.md"
     }
   ],
   "omittedPaths": [],

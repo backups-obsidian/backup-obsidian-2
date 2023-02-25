@@ -1,6 +1,6 @@
 ---
 created: 2022-05-26 20:09
-updated: 2023-02-18 08:37
+updated: 2023-02-24 09:24
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -30,7 +30,7 @@ updated: 2023-02-18 08:37
 
 > [!note]- How to differentiate between integration latency and latency?
 > - **Client** present means *latency*. 
-> - **Relays** present means integration *latency*.
+> - **Relays** present means *integration latency*.
 
 - 4XXError (client-side) & 5XXError (server-side)
 	
@@ -55,6 +55,7 @@ updated: 2023-02-18 08:37
 	- **502**: Bad Gateway Exception, usually for an **incompatible output returned from a Lambda proxy integration** backend and occasionally for out-of-order invocations due to heavy loads.
 		- Like returning XML instead of JSON when using **lambda proxy**.
 	- **503**: *Service Unavailable Exception*. Backend is unavailable.
+		- *No target groups*. 
 	- **504**: *Integration Failure*. 
 		- Example: Endpoint Request Timed-out Exception 
 		- API Gateway requests **time out after 29s maximum**

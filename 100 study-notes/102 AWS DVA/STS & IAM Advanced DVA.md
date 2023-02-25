@@ -1,6 +1,6 @@
 ---
 created: 2022-05-30 09:35
-updated: 2023-02-19 13:33
+updated: 2023-02-24 11:02
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -39,7 +39,7 @@ updated: 2023-02-19 13:33
 	- Expiration date
 
 ## IAM Advanced
-### IAM Policy Variables:
+### IAM Policy Variables
 - Instead of creating individual policies for each user, you can **use policy variables and create a single policy that applies to multiple users** (a group policy). 
 	- Policy variables act as *placeholders*. 
 	- When you make a request to AWS, the placeholder is replaced by a value from the request when the policy is evaluated.
