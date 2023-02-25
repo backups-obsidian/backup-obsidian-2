@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2023-02-24 11:23
+updated: 2023-02-25 09:22
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -111,7 +111,8 @@ updated: 2023-02-24 11:23
 
 - **Previous key should be kept active** so that we can decrypt the old data.
 
-> [!important] Good solution to rotate **CMK that are not eligible for automatic rotation like asymmetric CMK**.
+> [!important]- Good solution to rotate **CMK that are not eligible for automatic rotation like asymmetric CMK**.
+> *Automatic key rotation* is only possible for *symmetric keys*.
 
 ## Types of CMK Keys
 ### Symmetric Keys

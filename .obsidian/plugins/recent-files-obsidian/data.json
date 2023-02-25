@@ -9,6 +9,18 @@
       "path": "100 study-notes/102 AWS DVA/DVA - Extra Notes.md"
     },
     {
+      "basename": "KMS Working",
+      "path": "100 study-notes/102 AWS DVA/KMS Working.md"
+    },
+    {
+      "basename": "KMS",
+      "path": "100 study-notes/101 AWS SAA/KMS.md"
+    },
+    {
+      "basename": "Other Services DVA",
+      "path": "100 study-notes/102 AWS DVA/Other Services DVA.md"
+    },
+    {
       "basename": "DynamoDB DVA",
       "path": "100 study-notes/102 AWS DVA/DynamoDB DVA.md"
     },
@@ -17,16 +29,8 @@
       "path": "100 study-notes/102 AWS DVA/DynamoDB Locking.md"
     },
     {
-      "basename": "KMS Working",
-      "path": "100 study-notes/102 AWS DVA/KMS Working.md"
-    },
-    {
       "basename": "KMS DVA",
       "path": "100 study-notes/102 AWS DVA/KMS DVA.md"
-    },
-    {
-      "basename": "Other Services DVA",
-      "path": "100 study-notes/102 AWS DVA/Other Services DVA.md"
     },
     {
       "basename": "WAF & Firewall",
@@ -51,10 +55,6 @@
     {
       "basename": "S3 Encryption",
       "path": "100 study-notes/101 AWS SAA/S3 Encryption.md"
-    },
-    {
-      "basename": "KMS",
-      "path": "100 study-notes/101 AWS SAA/KMS.md"
     },
     {
       "basename": "STS & IAM Advanced DVA",

@@ -53,18 +53,16 @@
             }
           },
           {
-            "id": "a1e9959ebdb79815",
+            "id": "902134ec8a032a7c",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 study-notes/102 AWS DVA/DVA - Extra Notes.md",
+                "file": "100 study-notes/102 AWS DVA/KMS Working.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
-              },
-              "pinned": true
+              }
             }
           }
         ],
@@ -239,14 +237,14 @@
   "active": "feb0d890d3e4962e",
   "lastOpenFiles": [
     "100 study-notes/102 AWS DVA/DVA - Extra Notes.md",
-    "100 study-notes/102 AWS DVA/DVA - Questions.md",
     "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
+    "100 study-notes/102 AWS DVA/KMS Working.md",
+    "100 study-notes/101 AWS SAA/KMS.md",
+    "100 study-notes/102 AWS DVA/Other Services DVA.md",
+    "100 study-notes/102 AWS DVA/DVA - Questions.md",
     "100 study-notes/102 AWS DVA/DynamoDB DVA.md",
     "100 study-notes/102 AWS DVA/DynamoDB Locking.md",
-    "100 study-notes/102 AWS DVA/KMS Working.md",
     "100 study-notes/102 AWS DVA/KMS DVA.md",
-    "100 study-notes/102 AWS DVA/Other Services DVA.md",
-    "100 study-notes/101 AWS SAA/WAF & Firewall.md",
-    "100 study-notes/101 AWS SAA/GuardDuty.md"
+    "100 study-notes/101 AWS SAA/WAF & Firewall.md"
   ]
 }
