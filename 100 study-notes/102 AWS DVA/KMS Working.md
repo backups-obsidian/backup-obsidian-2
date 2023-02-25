@@ -1,6 +1,6 @@
 ---
 created: 2022-06-01 11:42
-updated: 2023-02-24 15:07
+updated: 2023-02-25 09:27
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -76,6 +76,18 @@ updated: 2023-02-24 15:07
 	- If throttling, you can request an increase in KMS limits
 
 > [!important] If you are getting throttling issues in SSE-KMS then the issue is not with S3 but with the limit of KMS that is preventing us from encrypting or decrypting files.
+
+## Summary of encryption and decryption using envelope encryption
+- It is recommended that you use the following pattern to **encrypt data locally in your application**:
+	- Use the `GenerateDataKey` operation to get a data encryption key (DEK).
+	- Use the *plaintext data key* (returned in the `Plaintext` field of the response) to *encrypt data locally*, then **erase the plaintext data key from memory**.
+	- *Store the encrypted data key* (returned in the `CiphertextBlob` field of the response) *alongside the locally encrypted data*.
+
+- Steps in code:
+	- We first generate a CMK and the use the CMK to generate a datakey.
+	- Now when we generate a datakey we get two types of responses. 
+		- We get a **plaintext version** and a **Ciphertextblob version**.
+		- We store the Ciphertextblob version in the database and *delete the plaintext version after we are done encrypting*. 
 
 ## References
 - [DEMO | AWS KMS | ENVELOPE ENCRYPTION - YouTube](https://www.youtube.com/watch?v=cE-0ANuOMaQ)

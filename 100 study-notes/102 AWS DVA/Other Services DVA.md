@@ -1,6 +1,6 @@
 ---
 created: 2022-05-30 14:40
-updated: 2023-02-19 09:39
+updated: 2023-02-24 19:54
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -77,6 +77,15 @@ updated: 2023-02-19 09:39
 	- *Elastic Load Balancers*
 	- *CloudFront Distributions*
 	- APIs on *API Gateway*
+
+### Difference between ACM and IAM for certificates
+- *AWS Certificate Manager* (ACM) is the *preferred tool* to provision, manage, and deploy server certificates.
+- In a **supported Region**, you can use ACM to manage server certificates from the console or programmatically.
+- *IAM is used as a certificate manager* only when you must support HTTPS connections in a **Region that is not supported by ACM**.
+- *IAM* supports *all regions*.
+ 
+> [!note]- *IAM* supports deploying server certificates in all Regions, but you must **obtain your certificate from an external provider** for use with AWS. 
+> You cannot upload an ACM certificate to IAM.
 
 ## CloudMap
 - A fully managed **resource discovery service**
