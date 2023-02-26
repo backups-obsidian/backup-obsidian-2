@@ -9,12 +9,44 @@
       "path": "100 study-notes/102 AWS DVA/DVA - Extra Notes.md"
     },
     {
-      "basename": "KMS Working",
-      "path": "100 study-notes/102 AWS DVA/KMS Working.md"
+      "basename": "CloudFront DVA",
+      "path": "100 study-notes/102 AWS DVA/CloudFront DVA.md"
+    },
+    {
+      "basename": "ElasticCache Replication",
+      "path": "100 study-notes/102 AWS DVA/ElasticCache Replication.md"
+    },
+    {
+      "basename": "ElastiCache DVA",
+      "path": "100 study-notes/102 AWS DVA/ElastiCache DVA.md"
+    },
+    {
+      "basename": "S3 Encryption",
+      "path": "100 study-notes/101 AWS SAA/S3 Encryption.md"
+    },
+    {
+      "basename": "Aurora",
+      "path": "100 study-notes/101 AWS SAA/Aurora.md"
+    },
+    {
+      "basename": "Lambda Miscellaneous",
+      "path": "100 study-notes/102 AWS DVA/Lambda Miscellaneous.md"
+    },
+    {
+      "basename": "Lambda Event Source Mapping",
+      "path": "100 study-notes/102 AWS DVA/Lambda Event Source Mapping.md"
+    },
+    {
+      "basename": "CodePipeline",
+      "path": "100 study-notes/102 AWS DVA/CodePipeline.md"
     },
     {
       "basename": "KMS",
       "path": "100 study-notes/101 AWS SAA/KMS.md"
+    },
+    {
+      "basename": "KMS Working",
+      "path": "100 study-notes/102 AWS DVA/KMS Working.md"
     },
     {
       "basename": "Other Services DVA",
@@ -51,10 +83,6 @@
     {
       "basename": "MFA",
       "path": "100 study-notes/102 AWS DVA/MFA.md"
-    },
-    {
-      "basename": "S3 Encryption",
-      "path": "100 study-notes/101 AWS SAA/S3 Encryption.md"
     },
     {
       "basename": "STS & IAM Advanced DVA",
@@ -133,10 +161,6 @@
       "path": "100 study-notes/102 AWS DVA/Lambda Destinations.md"
     },
     {
-      "basename": "Lambda Event Source Mapping",
-      "path": "100 study-notes/102 AWS DVA/Lambda Event Source Mapping.md"
-    },
-    {
       "basename": "Lambda Asynchronous Invocation",
       "path": "100 study-notes/102 AWS DVA/Lambda Asynchronous Invocation.md"
     },
@@ -175,26 +199,6 @@
     {
       "basename": "X-Ray Advanced",
       "path": "100 study-notes/102 AWS DVA/X-Ray Advanced.md"
-    },
-    {
-      "basename": "X-Ray",
-      "path": "100 study-notes/102 AWS DVA/X-Ray.md"
-    },
-    {
-      "basename": "EventBridge",
-      "path": "100 study-notes/101 AWS SAA/EventBridge.md"
-    },
-    {
-      "basename": "CloudWatch",
-      "path": "100 study-notes/101 AWS SAA/CloudWatch.md"
-    },
-    {
-      "basename": "ECS",
-      "path": "100 study-notes/101 AWS SAA/ECS.md"
-    },
-    {
-      "basename": "CloudFormation Advanced",
-      "path": "100 study-notes/102 AWS DVA/CloudFormation Advanced.md"
     }
   ],
   "omittedPaths": [],

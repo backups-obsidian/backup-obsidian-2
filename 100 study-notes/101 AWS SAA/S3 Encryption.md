@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2023-02-18 09:00
+updated: 2023-02-25 15:19
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -66,3 +66,4 @@ updated: 2023-02-18 09:00
 > Both the *master keys* and the *unencrypted data* should never be sent to AWS to comply with the strict compliance and regulatory requirements of the company.
 > In this case we use *Client side encryption with client side master key*. If question had only mentioned unencrypted data as the requirement then we could have used Client side encryption with KMS CMK.
 
+> [!note] There is no auditing when we use client side encryption with client keys. If the question mentions auditing then always go for KMS key options.

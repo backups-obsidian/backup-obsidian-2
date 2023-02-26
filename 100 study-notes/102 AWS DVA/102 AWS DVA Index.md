@@ -1,6 +1,6 @@
 ---
 created: 2022-04-17 15:43
-updated: 2023-02-24 19:03
+updated: 2023-02-25 15:53
 ---
 ---
 **Links**: [[../100 home | 100 Home]]
@@ -127,25 +127,7 @@ Three ways in which Lambda processes events
 [[Lambda IAM Role]]
 [[Lambda Configuration & Deployments]]
 [[Lambda Performance]]
-
-### Miscellaneous
-- We use *DLQs/Destinations* with Lambda in **asynchronous** and **event source mapping**.
-- For *logging*:
-	- For *each lambda a log group* is created. 
-	- The logs are then grouped into streams. We can find the logs if we go inside a particular stream.
-- **Best Practices**:
-	- *Perform heavy-duty work outside of your function handler*
-		- Connect to databases outside of your function handler
-		- Initialise the AWS SDK outside of your function handler
-		- Pull in dependencies or datasets outside of your function handler
-	- Use *environment variables* for:
-		- Database Connection Strings, S3 bucket, etc... don't put these values in your code
-		- Passwords, sensitive values, etc can be encrypted using KMS
-	- *Minimise your deployment package size to its runtime necessities*
-		- Break down the function if need be
-		- Remember the AWS Lambda limits
-		- *Use Layers* where necessary
-- **Avoid using recursive code, never have a Lambda function call itself**. This can become very expensive.
+[[Lambda Miscellaneous]]
 
 ## DynamoDB
 [[../101 AWS SAA/DynamoDB|DynamoDB]]
@@ -194,3 +176,7 @@ Three ways in which Lambda processes events
 ## Exam Tips
 - There are **very very few trick questions**
 - If a solution seems feasible but *highly complicated, it's probably wrong*
+- Whenever there is a negative keyword like **NOT** then the chances of the option being the correct answer is very less.
+- Whenever you have questions related to debugging why something is not working then options containing the word *permissions* becomes a potential answer.
+- When you see *automatic retries* think about AWS SDK.
+- If you need to figure out why some service is *slow (performance issues)* just go with *X-Ray*.

@@ -53,13 +53,13 @@
             }
           },
           {
-            "id": "902134ec8a032a7c",
+            "id": "0cdc05ad45e32996",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 study-notes/102 AWS DVA/KMS Working.md",
-                "mode": "preview",
+                "file": "100 study-notes/102 AWS DVA/DVA - Extra Notes.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
@@ -120,7 +120,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -238,13 +239,13 @@
   "lastOpenFiles": [
     "100 study-notes/102 AWS DVA/DVA - Extra Notes.md",
     "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
-    "100 study-notes/102 AWS DVA/KMS Working.md",
-    "100 study-notes/101 AWS SAA/KMS.md",
-    "100 study-notes/102 AWS DVA/Other Services DVA.md",
-    "100 study-notes/102 AWS DVA/DVA - Questions.md",
-    "100 study-notes/102 AWS DVA/DynamoDB DVA.md",
-    "100 study-notes/102 AWS DVA/DynamoDB Locking.md",
-    "100 study-notes/102 AWS DVA/KMS DVA.md",
-    "100 study-notes/101 AWS SAA/WAF & Firewall.md"
+    "100 study-notes/102 AWS DVA/CloudFront DVA.md",
+    "100 study-notes/102 AWS DVA/ElasticCache Replication.md",
+    "100 study-notes/102 AWS DVA/ElastiCache DVA.md",
+    "100 study-notes/101 AWS SAA/S3 Encryption.md",
+    "100 study-notes/101 AWS SAA/Aurora.md",
+    "100 study-notes/102 AWS DVA/Lambda Miscellaneous.md",
+    "100 study-notes/102 AWS DVA/Lambda Event Source Mapping.md",
+    "100 study-notes/102 AWS DVA/CodePipeline.md"
   ]
 }
