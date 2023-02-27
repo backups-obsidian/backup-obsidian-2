@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2023-02-12 19:02
+updated: 2023-02-26 10:02
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -51,9 +51,6 @@ updated: 2023-02-12 19:02
 - **Health checks can fail** for the following reasons:
 	- The *security group* of the EC2 instance does not allow for traffic from the security group of the Application Load Balancer.
 	- The *route* for the health check is *misconfigured*. 
-
-> [!tip]- How to encrypt the traffic between ALB and EC2 since TLS termination happens at ALB
-> Use an Application Load Balancer (ALB) with an **HTTPS listener**, then *install SSL certificates on the ALB and EC2 instances*.
 
 ### Target Groups
 - *Health checks happen at the target group level*.

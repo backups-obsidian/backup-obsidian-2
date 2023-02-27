@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2023-02-25 09:22
+updated: 2023-02-26 19:42
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -36,6 +36,8 @@ updated: 2023-02-25 09:22
 	- **Customer Managed CMK**: *$1/Month*
 		- We can only manage the customer managed CMK and not AWS managed default CMK.
 	- **User Imported keys** (AES 256) (not recommended): *$1/month*
+
+> [!note]- We *CANNOT* **rotate imported keys**. We can *only set expiry*.
 
 > [!question]- An application running on Amazon EC2 generates a large number of small files (1KB each) containing personally identifiable information that must be converted to ciphertext. The data will be stored on a proprietary network-attached file system. What is the SAFEST way to encrypt the data using AWS KMS?
 > - Encrypt the data directly with a *customer managed customer master key*.

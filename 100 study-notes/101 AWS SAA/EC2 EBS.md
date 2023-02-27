@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 10:04
-updated: 2023-02-17 11:41
+updated: 2023-02-26 09:19
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -25,6 +25,7 @@ updated: 2023-02-17 11:41
 - By default on termination *root EBS volumes are destroyed* unless **DeleteOnTermination** is unchecked. This can be done in 2 ways:
 	- *Unchecking* it at the *time of launching the instance*.
 	- Set the `DeleteOnTermination` attribute to False using the **command line**.
+		- This can be done even while the instance is running and when it is stopped or terminated the EBS volume won't be terminated. 
 - Non root volumes are never destroyed
 
 - EBS is *automatically replicated in an AZ* so if the primary one goes down it can be replaced with secondary, without you knowing.
