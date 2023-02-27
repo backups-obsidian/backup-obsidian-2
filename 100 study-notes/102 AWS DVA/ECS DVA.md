@@ -1,6 +1,6 @@
 ---
 created: 2022-05-15 11:30
-updated: 2023-02-22 11:28
+updated: 2023-02-26 17:30
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -142,7 +142,7 @@ updated: 2023-02-22 11:28
 
 #### Spread
 - Place the task evenly based on the specified value
-- Example: `instanceld`, `attribute:ecs.availability-zone` (this ensures HA)
+- Example: `instanceId`, `attribute:ecs.availability-zone` (this ensures HA)
 - By **default**, ECS uses spread with the _ecs.availability-zone_ attribute to place tasks
 
 ### Task Placement Constraints

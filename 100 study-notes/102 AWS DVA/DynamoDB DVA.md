@@ -1,6 +1,6 @@
 ---
 created: 2022-05-25 10:53
-updated: 2023-02-24 15:14
+updated: 2023-02-26 19:50
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -83,7 +83,7 @@ updated: 2023-02-24 15:14
 > [!question]- A company has a large Amazon DynamoDB table which they scan periodically so they can analyse several attributes. The scans are consuming a lot of provisioned throughput. What technique can a Developer use to *minimise the impact of the scan* on the table's provisioned throughput?
 > Set a **smaller page size** for the scan.
 
-## DynamoDB Transactions
+## DynamoDB Transactions (Atomic)
 - Coordinated, **all-or-nothing operations** (add/update/delete) to multiple items across one or more tables.
 	- ![[attachments/Pasted image 20220525162205.png]]
 - Provides Atomicity, Consistency, Isolation, and Durability (**ACID**)
@@ -97,7 +97,7 @@ updated: 2023-02-24 15:14
 - Use cases: *financial transactions*, managing orders, *multiplayer games*
 - **Capacity Computations**:
 	- 3 Transactional writes per second, with item size 5 KB: `3*5*2 = 30WCUs`
-	- 5 Transaction reads per second with item size 5 KB: `5*(8/4)*2 = 20WCUs`
+	- 5 Transaction reads per second with item size 5 KB: `5*(8/4)*2 = 20RCUs`
 
 ## DynamoDB as Session State Cache
 - It's common to use **DynamoDB to store session state**

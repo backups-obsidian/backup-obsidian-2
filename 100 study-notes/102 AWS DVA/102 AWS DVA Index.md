@@ -1,6 +1,6 @@
 ---
 created: 2022-04-17 15:43
-updated: 2023-02-25 15:53
+updated: 2023-02-26 22:45
 ---
 ---
 **Links**: [[../100 home | 100 Home]]
@@ -179,4 +179,6 @@ Three ways in which Lambda processes events
 - Whenever there is a negative keyword like **NOT** then the chances of the option being the correct answer is very less.
 - Whenever you have questions related to debugging why something is not working then options containing the word *permissions* becomes a potential answer.
 - When you see *automatic retries* think about AWS SDK.
+	- *AWS SDK* also implements *exponential backoff*.
 - If you need to figure out why some service is *slow (performance issues)* just go with *X-Ray*.
+- Generally when something is wrong in the application configuration it will give us a big error.

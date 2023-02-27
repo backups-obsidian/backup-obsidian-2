@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2023-02-25 15:19
+updated: 2023-02-26 12:17
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -29,7 +29,8 @@ updated: 2023-02-25 15:19
 	- KMS CMK (Customer Master Keys)
 	- CMK can be customer generated
 
-- KMS gives us **more control** and an *audit trail*. We can rotate the keys if we want.
+- KMS gives us **more control** and an **audit trail**. 
+- We can **rotate the keys** if we want.
 - Objects are encrypted on the **server side**.
 - To use this you must **use** the following **header**: `“x-amz-server-side-encryption”:”aws:kms”`
 - There's also an *optional* `x-amz-server-side-encryption-aws-kms-key-id` header which *specifies the ID of the AWS KMS master encryption key* that was used for the object.
@@ -66,4 +67,5 @@ updated: 2023-02-25 15:19
 > Both the *master keys* and the *unencrypted data* should never be sent to AWS to comply with the strict compliance and regulatory requirements of the company.
 > In this case we use *Client side encryption with client side master key*. If question had only mentioned unencrypted data as the requirement then we could have used Client side encryption with KMS CMK.
 
-> [!note] There is no auditing when we use client side encryption with client keys. If the question mentions auditing then always go for KMS key options.
+> [!note]- There is no auditing when we use client side encryption with client keys. 
+> If the question mentions auditing in client side encryption then go for KMS key.

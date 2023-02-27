@@ -1,6 +1,6 @@
 ---
 created: 2023-02-06 22:18
-updated: 2023-02-25 15:57
+updated: 2023-02-26 21:01
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -168,3 +168,4 @@ updated: 2023-02-25 15:57
 - *Reserved concurrency of the lambda* should be **less** than the number of *database connections*.
 - **DynamoDB Adaptive Capacity** is *available for both provisioned and on-demand capacity modes*, and provides *automatic adjustment of capacity* based on actual usage patterns to improve the scalability and cost-effectiveness of DynamoDB applications.
 - Go for **SSE-KMS over SSE-S3** when the question demands **auditing** features.
+- We for *encryption at rest in kinesis* we can enable *server side encryption*.

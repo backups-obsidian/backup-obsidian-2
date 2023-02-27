@@ -58,8 +58,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 study-notes/102 AWS DVA/DVA - Extra Notes.md",
-                "mode": "source",
+                "file": "100 study-notes/101 AWS SAA/CloudTrail.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
@@ -237,15 +237,15 @@
   },
   "active": "feb0d890d3e4962e",
   "lastOpenFiles": [
-    "100 study-notes/102 AWS DVA/DVA - Extra Notes.md",
+    "100 study-notes/101 AWS SAA/CloudTrail.md",
     "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
-    "100 study-notes/102 AWS DVA/CloudFront DVA.md",
-    "100 study-notes/102 AWS DVA/ElasticCache Replication.md",
-    "100 study-notes/102 AWS DVA/ElastiCache DVA.md",
-    "100 study-notes/101 AWS SAA/S3 Encryption.md",
-    "100 study-notes/101 AWS SAA/Aurora.md",
-    "100 study-notes/102 AWS DVA/Lambda Miscellaneous.md",
-    "100 study-notes/102 AWS DVA/Lambda Event Source Mapping.md",
-    "100 study-notes/102 AWS DVA/CodePipeline.md"
+    "100 study-notes/102 AWS DVA/X-Ray Advanced.md",
+    "100 study-notes/102 AWS DVA/X-Ray.md",
+    "100 study-notes/101 AWS SAA/EventBridge.md",
+    "100 study-notes/101 AWS SAA/CloudWatch.md",
+    "100 study-notes/101 AWS SAA/Stickiness, Cross zone balancing & Connection Draining.md",
+    "100 study-notes/102 AWS DVA/CloudFormation Advanced.md",
+    "100 study-notes/102 AWS DVA/CloudFormation RollBacks.md",
+    "100 study-notes/102 AWS DVA/CloudFormation Intrinsic Functions.md"
   ]
 }

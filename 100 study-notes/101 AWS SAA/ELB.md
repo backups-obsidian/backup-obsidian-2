@@ -1,6 +1,6 @@
 ---
 created: 2022-04-20 15:02
-updated: 2022-04-20 16:15
+updated: 2023-02-26 09:47
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -9,7 +9,7 @@ updated: 2022-04-20 16:15
 ## Introduction
 - **Managed** load balancer by AWS.
 - **Serve multiple AZs in the same region**. For multi region load balancing we need [[Route53]].
-- ELBs handle failures of EC2 instances by not sending them traffic and **provides regular health check of EC2 instances**.
+- ELBs handle failures of EC2 instances **by NOT sending them traffic** and **provides regular health check of EC2 instances**.
 	- The health check is done *on a port and a route*. For example:
 		- ![[attachments/Pasted image 20220420150839.png]]
 	- If the response is *not 200* then the *instance is unhealthy* and *no traffic will be sent to it*.
