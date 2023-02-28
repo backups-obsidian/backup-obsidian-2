@@ -5,6 +5,26 @@
       "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
     },
     {
+      "basename": "Kinesis DVA",
+      "path": "100 study-notes/102 AWS DVA/Kinesis DVA.md"
+    },
+    {
+      "basename": "Kinesis",
+      "path": "100 study-notes/101 AWS SAA/Kinesis.md"
+    },
+    {
+      "basename": "SNS",
+      "path": "100 study-notes/101 AWS SAA/SNS.md"
+    },
+    {
+      "basename": "SQS DVA",
+      "path": "100 study-notes/102 AWS DVA/SQS DVA.md"
+    },
+    {
+      "basename": "SQS",
+      "path": "100 study-notes/101 AWS SAA/SQS.md"
+    },
+    {
       "basename": "CloudTrail",
       "path": "100 study-notes/101 AWS SAA/CloudTrail.md"
     },
@@ -109,10 +129,6 @@
       "path": "100 study-notes/102 AWS DVA/Lambda Event Source Mapping.md"
     },
     {
-      "basename": "Kinesis DVA",
-      "path": "100 study-notes/102 AWS DVA/Kinesis DVA.md"
-    },
-    {
       "basename": "Lambda Asynchronous Invocation",
       "path": "100 study-notes/102 AWS DVA/Lambda Asynchronous Invocation.md"
     },
@@ -153,10 +169,6 @@
       "path": "100 study-notes/102 AWS DVA/Lambda Configuration & Deployments.md"
     },
     {
-      "basename": "SQS DVA",
-      "path": "100 study-notes/102 AWS DVA/SQS DVA.md"
-    },
-    {
       "basename": "Step Functions",
       "path": "100 study-notes/102 AWS DVA/Step Functions.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "S3 Storage Classes",
       "path": "100 study-notes/101 AWS SAA/S3 Storage Classes.md"
-    },
-    {
-      "basename": "S3 Replication",
-      "path": "100 study-notes/101 AWS SAA/S3 Replication.md"
-    },
-    {
-      "basename": "S3 Encryption",
-      "path": "100 study-notes/101 AWS SAA/S3 Encryption.md"
-    },
-    {
-      "basename": "S3",
-      "path": "100 study-notes/101 AWS SAA/S3.md"
     }
   ],
   "omittedPaths": [],
