@@ -1,6 +1,6 @@
 ---
 created: 2022-05-15 08:57
-updated: 2023-02-20 14:45
+updated: 2023-03-01 09:31
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -8,28 +8,52 @@ updated: 2023-02-20 14:45
 
 ---
 ## Caching
-- *Cache* based on:
-	- **Headers**
-	- **Session Cookies**
-	- **Query String Parameters**
-
-- You can't cache based on HTTP Methods.
-- The cache lives at each CloudFront Edge Location
+- The cache lives at each CloudFront Edge Location so there are as many caches as there are CloudFront edge locations.
 - You want to *maximise the cache hit rate to minimise requests on the origin*. In case of cache miss the request is forwarded to the origin.
 	- ![[attachments/Pasted image 20220515090054.png]]
 
-- We use *TTL to control the cache hit*. TTL (0 seconds to year), can be set by the origin using the Cache *Control header*, *Expires header*.
 - We can invalidate a part of the cache using the `CreateInvalidation` API
 - In CloudFront it is common to separate caching of dynamic content from static content. 
 	- For caching of static content we don't use any caching rules to maximise the cache hit. We use these rules for dynamic content.
 	- ![[attachments/Pasted image 20220515090513.png]]
 
 - By *default* the S3 content is cached for *1 day*. 
-- We can define the cache policy while creating the distribution or after creating it (behaviours section). We can also make our own caching policy if we don't like the ones predefined by AWS.
+
+### Cache Key
+- CloudFront *identifies each object* in the cache using the **Cache Key**.
+	- It is a unique identifier for every object in the cache.
+- By default, consists of **hostname + resource portion of the URL**.
+	- ![[attachments/Pasted image 20230301090413.png]]
+
+### Cache Policy
+- *Cache* based on:
+	- **Headers**: None, Whitelist
+	- **Session Cookies**: None, Whitelist, Include All except, All
+	- **Query String Parameters**: None, Whitelist, Include All except, All
+
+- You *can't cache based on HTTP Methods*.
+- We use *TTL to control the cache hit*. TTL (0 seconds to year), can be set by the origin using the Cache *Control header*, *Expires header*.
+- We can define the cache policy while creating the distribution or after creating it (behaviours section). 
+	- We can also make our *own caching policy* if we don't like the ones *predefined by AWS*.
+
+> [!note]- **All** *HTTP headers, cookies, and query strings* that you include in the *Cache Key* are automatically included in origin requests.
+> ![[attachments/Pasted image 20230301091018.png]]
+
+- Using the **origin request policy** we can specify values that you want to *include in origin requests without including them in the Cache Key* (no duplicated cached content)
+
+- Cache policy vs Origin request policy
+	- ![[attachments/Pasted image 20230301091307.png]]
+	- We cache based on the cache policy. 
+	- The origin request policy enhances the request to the origin. 
+	- Caching will not happen based on origin request policy. 
 
 ### Different ways of cache invalidation
+- In case you update the back-end origin, *CloudFront doesn't know about it and will only get the refreshed content after the TTL has expired*.
+	- This is an undesirable behaviour since we would want our cache to get refreshed as soon as our backend gets updated.
 - **Invalidate the file** from edge caches. 
-	- If you want to **invalidate the cache then go to the invalidations tab and put a wildcard (\*)**.
+	- If you want to **invalidate the cache then go to the invalidations tab and put a wildcard (`*`)**.
+	- We can do a *partial cache* invalidation using **`/images/*`**
+	- ![[attachments/Pasted image 20230301091945.png]] 
 - **Use file versioning** to serve a different version of the file that has a different name.
 	- When you update existing files in a CloudFront distribution, *AWS recommends that you include some sort of version identifier* either in your *file names* or in your *directory names* to give yourself better control over your content. 
 		- For example, instead of naming a graphic *file* image.jpg, you might call it image_1.jpg. When you want to start serving a new version of the file, you'd name the new file image_2.jpg, and you'd update the links in your web application or website to point to image_2.jpg. 
@@ -87,4 +111,5 @@ updated: 2023-02-20 14:45
 	- You can use these real-time logs to *gain insights* into your application's usage patterns and *troubleshoot issues* with your CloudFront distribution.
 - CloudFront real-time logs are delivered to the *data stream* of your choice in Amazon **Kinesis Data Streams**. 
 	- You can build your own Kinesis data stream consumer, or **use Amazon Kinesis Data Firehose** to send the log data to *S3*, Redshift, OpenSearch Service *OpenSearch* Service, or a third-party log processing service.
+	- ![[attachments/Pasted image 20230301093015.png]] 
 - Note that enabling *real-time logs* incurs **additional charges for data transfer** and storage, so it's important to monitor and manage your usage to avoid unexpected costs.

@@ -53,20 +53,20 @@
             }
           },
           {
-            "id": "0cdc05ad45e32996",
+            "id": "1ffe29699dd38b82",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 study-notes/102 AWS DVA/Kinesis DVA.md",
-                "mode": "preview",
+                "file": "100 study-notes/102 AWS DVA/Lambda Advanced.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
+                "file": "100 study-notes/102 AWS DVA/Lambda Advanced.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
+                "file": "100 study-notes/102 AWS DVA/Lambda Advanced.md"
               }
             }
           },
@@ -169,7 +169,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
+                "file": "100 study-notes/102 AWS DVA/Lambda Advanced.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -235,17 +235,17 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "feb0d890d3e4962e",
+  "active": "1ffe29699dd38b82",
   "lastOpenFiles": [
-    "100 study-notes/102 AWS DVA/Kinesis DVA.md",
+    "100 study-notes/114 AWS SOA/114 AWS SOA Index.md",
     "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
-    "100 study-notes/101 AWS SAA/Kinesis.md",
-    "100 study-notes/101 AWS SAA/SNS.md",
-    "100 study-notes/102 AWS DVA/SQS DVA.md",
-    "100 study-notes/101 AWS SAA/SQS.md",
-    "100 study-notes/101 AWS SAA/CloudTrail.md",
-    "100 study-notes/102 AWS DVA/X-Ray Advanced.md",
-    "100 study-notes/102 AWS DVA/X-Ray.md",
-    "100 study-notes/101 AWS SAA/EventBridge.md"
+    "100 study-notes/102 AWS DVA/Lambda Advanced.md",
+    "100 study-notes/102 AWS DVA/Lambda Configuration & Deployments.md",
+    "100 study-notes/101 AWS SAA/EventBridge.md",
+    "100 study-notes/101 AWS SAA/CloudWatch.md",
+    "100 study-notes/102 AWS DVA/CloudFormation Advanced.md",
+    "100 study-notes/102 AWS DVA/CodeArtifact.md",
+    "100 study-notes/102 AWS DVA/Copilot.md",
+    "100 study-notes/102 AWS DVA/CloudFront DVA.md"
   ]
 }

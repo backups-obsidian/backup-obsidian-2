@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2023-02-16 08:56
+updated: 2023-03-01 10:17
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -27,3 +27,6 @@ updated: 2023-02-16 08:56
 
 > [!note]- Go for EventBridge over SQS when the question mentions **3rd SaaS party applications**.
 > SQS works well for decoupling applications. It *does not directly integrate with third-party SaaS services*.
+
+- Event bridge can be used for multi account aggregation of events:
+	- ![[attachments/Pasted image 20230301101622.png]]

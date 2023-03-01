@@ -1,8 +1,60 @@
 {
   "recentFiles": [
     {
+      "basename": "Lambda Advanced",
+      "path": "100 study-notes/102 AWS DVA/Lambda Advanced.md"
+    },
+    {
+      "basename": "114 AWS SOA Index",
+      "path": "100 study-notes/114 AWS SOA/114 AWS SOA Index.md"
+    },
+    {
       "basename": "102 AWS DVA Index",
       "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
+    },
+    {
+      "basename": "Lambda Configuration & Deployments",
+      "path": "100 study-notes/102 AWS DVA/Lambda Configuration & Deployments.md"
+    },
+    {
+      "basename": "EventBridge",
+      "path": "100 study-notes/101 AWS SAA/EventBridge.md"
+    },
+    {
+      "basename": "CloudWatch",
+      "path": "100 study-notes/101 AWS SAA/CloudWatch.md"
+    },
+    {
+      "basename": "CloudFormation Advanced",
+      "path": "100 study-notes/102 AWS DVA/CloudFormation Advanced.md"
+    },
+    {
+      "basename": "CodeArtifact",
+      "path": "100 study-notes/102 AWS DVA/CodeArtifact.md"
+    },
+    {
+      "basename": "Copilot",
+      "path": "100 study-notes/102 AWS DVA/Copilot.md"
+    },
+    {
+      "basename": "CloudFront DVA",
+      "path": "100 study-notes/102 AWS DVA/CloudFront DVA.md"
+    },
+    {
+      "basename": "CloudFront Advanced",
+      "path": "100 study-notes/101 AWS SAA/CloudFront Advanced.md"
+    },
+    {
+      "basename": "S3 Object Metadata and Tags",
+      "path": "100 study-notes/102 AWS DVA/S3 Object Metadata and Tags.md"
+    },
+    {
+      "basename": "RDS Proxy",
+      "path": "100 study-notes/102 AWS DVA/RDS Proxy.md"
+    },
+    {
+      "basename": "ASG - Instance Refresh",
+      "path": "100 study-notes/102 AWS DVA/ASG - Instance Refresh.md"
     },
     {
       "basename": "Kinesis DVA",
@@ -37,20 +89,8 @@
       "path": "100 study-notes/102 AWS DVA/X-Ray.md"
     },
     {
-      "basename": "EventBridge",
-      "path": "100 study-notes/101 AWS SAA/EventBridge.md"
-    },
-    {
-      "basename": "CloudWatch",
-      "path": "100 study-notes/101 AWS SAA/CloudWatch.md"
-    },
-    {
       "basename": "Stickiness, Cross zone balancing & Connection Draining",
       "path": "100 study-notes/101 AWS SAA/Stickiness, Cross zone balancing & Connection Draining.md"
-    },
-    {
-      "basename": "CloudFormation Advanced",
-      "path": "100 study-notes/102 AWS DVA/CloudFormation Advanced.md"
     },
     {
       "basename": "CloudFormation RollBacks",
@@ -71,10 +111,6 @@
     {
       "basename": "CodeGuru",
       "path": "100 study-notes/102 AWS DVA/CodeGuru.md"
-    },
-    {
-      "basename": "CodeArtifact",
-      "path": "100 study-notes/102 AWS DVA/CodeArtifact.md"
     },
     {
       "basename": "CodeStar",
@@ -163,42 +199,6 @@
     {
       "basename": "KMS",
       "path": "100 study-notes/101 AWS SAA/KMS.md"
-    },
-    {
-      "basename": "Lambda Configuration & Deployments",
-      "path": "100 study-notes/102 AWS DVA/Lambda Configuration & Deployments.md"
-    },
-    {
-      "basename": "Step Functions",
-      "path": "100 study-notes/102 AWS DVA/Step Functions.md"
-    },
-    {
-      "basename": "Lambda Miscellaneous",
-      "path": "100 study-notes/102 AWS DVA/Lambda Miscellaneous.md"
-    },
-    {
-      "basename": "CloudFront DVA",
-      "path": "100 study-notes/102 AWS DVA/CloudFront DVA.md"
-    },
-    {
-      "basename": "CloudFront Advanced",
-      "path": "100 study-notes/101 AWS SAA/CloudFront Advanced.md"
-    },
-    {
-      "basename": "CloudFront",
-      "path": "100 study-notes/101 AWS SAA/CloudFront.md"
-    },
-    {
-      "basename": "S3 Access Points",
-      "path": "100 study-notes/102 AWS DVA/S3 Access Points.md"
-    },
-    {
-      "basename": "S3 Lifecycle Rules",
-      "path": "100 study-notes/101 AWS SAA/S3 Lifecycle Rules.md"
-    },
-    {
-      "basename": "S3 Storage Classes",
-      "path": "100 study-notes/101 AWS SAA/S3 Storage Classes.md"
     }
   ],
   "omittedPaths": [],
