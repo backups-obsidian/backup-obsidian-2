@@ -1,10 +1,12 @@
 ---
 created: 2022-04-17 15:43
-updated: 2023-02-26 22:45
+updated: 2023-03-01 15:33
 ---
 ---
 **Links**: [[../100 home | 100 Home]]
-**Recommended Reads**: [[../101 AWS SAA/101 AWS SAA Index | AWS SAA Index]]
+**Recommended Reads**: 
+- [[../101 AWS SAA/101 AWS SAA Index | AWS SAA]]
+- [[../114 AWS SOA/114 AWS SOA Index | AWS SOA]]
 
 ---
 ## IAM
@@ -23,6 +25,7 @@ updated: 2023-02-26 22:45
 [[../101 AWS SAA/ASG | ASG]]
 [[../101 AWS SAA/Scaling Policies | ASG Scaling Policies]]
 [[../101 AWS SAA/Launch Configuration-Template | Launch Configuration vs Launch Template]]
+[[ASG - Instance Refresh]]
 
 ## ELB
 [[../101 AWS SAA/ELB | ELB]]
@@ -33,10 +36,15 @@ updated: 2023-02-26 22:45
 [[../101 AWS SAA/RDS | RDS]]
 [[../101 AWS SAA/RDS Read Replica & Multi AZ | RDS Read Replica and Multi AZ]]
 [[../101 AWS SAA/RDS Security | RDS Security]]
+[[RDS Proxy]]
 [[../101 AWS SAA/Aurora | Aurora]]
 [[../101 AWS SAA/ElastiCache | ElastiCache]]
 [[ElastiCache DVA]]
 [[ElasticCache Replication]]
+
+- MemoryDB for Redis
+	- It is a **durable in-memory database service** which is *compatible* with the *Redis API*.
+	- Elasticache for Redis is intended to be used as a cache.
 
 ## Route53
 [[../101 AWS SAA/Route53 | Route53]]
@@ -55,6 +63,7 @@ updated: 2023-02-26 22:45
 ## S3
 ![[../101 AWS SAA/101 AWS SAA Index#S3]]
 [[S3 Access Points]]
+[[S3 Object Metadata and Tags]]
 
 ## CLI and AWS Limits
 [[CLI]]
@@ -68,6 +77,7 @@ updated: 2023-02-26 22:45
 ## ECS
 [[../101 AWS SAA/ECS | ECS]]
 [[ECS DVA]]
+[[Copilot]]
 
 ## ElasticBeanstalk
 [[../101 AWS SAA/ElasticBeanstalk | ElasticBeanstalk]]
@@ -78,6 +88,8 @@ updated: 2023-02-26 22:45
 ## CI/CD
 - Tech Stack
 	- ![[attachments/Pasted image 20220516161339.png]]
+
+> [!note]- **NOTES not present for DVA-C02 material in the CI/CD section**.
 
 [[CodeCommit]]
 [[CodePipeline]]
@@ -127,6 +139,7 @@ Three ways in which Lambda processes events
 [[Lambda IAM Role]]
 [[Lambda Configuration & Deployments]]
 [[Lambda Performance]]
+[[Lambda Advanced]]
 [[Lambda Miscellaneous]]
 
 ## DynamoDB

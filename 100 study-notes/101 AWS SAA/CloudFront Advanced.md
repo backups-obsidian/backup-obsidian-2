@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2023-02-12 18:48
+updated: 2023-03-01 09:24
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -36,6 +36,9 @@ updated: 2023-02-12 18:48
 ## Routing to different origins
 - In CloudFront we *can define multiple origins*. We can *route to different origins* depending on the **content type**.
 	- ![[attachments/Pasted image 20220424115007.png]]
+- When adding additional Cache Behaviours, the *default Cache Behaviour is always the last* to be processed and is **always `/*`**.
+- Sign in page example
+	- ![[attachments/Pasted image 20230301092340.png]]
 
 ## CloudFront Origin Failover
 - You can also set up CloudFront with *automatic origin failover* for scenarios that require high availability. 

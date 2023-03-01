@@ -1,6 +1,6 @@
 ---
 created: 2022-05-18 20:06
-updated: 2023-02-14 18:49
+updated: 2023-03-01 10:08
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -53,6 +53,20 @@ updated: 2023-02-14 18:49
 - CloudFormation allows you to create infrastructure
 - But it *doesn't protect you against manual configuration changes*
 - How do we *know if our resources have drifted*? We can use CloudFormation drift!
+
+## Stack Notifications
+- Send *Stack events to SNS Topic* (Email, Lambda, ...)
+- Enable SNS Integration using Stack Options.
+- We can filter for particular stack notifications using a lambda function.
+	- ![[attachments/Pasted image 20230301100437.png]]
+
+## Stack Policies
+- During a CloudFormation Stack update, *all update actions are allowed on all resources (default)*.
+- A Stack Policy is a **JSON document** that defines the update actions that are allowed on specific resources during Stack updates.
+- **Protect resources from unintentional updates**.
+- When you set a Stack Policy, *all resources in the Stack are protected by default*.
+- Specify an explicit ALLOW for the resources you want to be allowed to be updated
+	- ![[attachments/Pasted image 20230301100725.png]]
 
 ## Miscellaneous
 - Services that use CloudFormation

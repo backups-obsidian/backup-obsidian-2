@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 12:39
-updated: 2022-05-17 13:42
+updated: 2023-03-01 09:50
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -12,7 +12,8 @@ updated: 2022-05-17 13:42
 - CodeArtifact is a **secure,** **scalable**, and **cost-effective artifact management** for software development
 - Works with common dependency management tools such as Maven, Gradle, npm, yarn, twine, pip, and NuGet
 - Developers and CodeBuild can then *retrieve dependencies straight from CodeArtifact*
-- It can be used to **proxy requests** to other 3rd party artifact repositories. Advantages:
+- It can be used to **proxy requests** to other 3rd party artifact repositories.
+- Advantages:
 	- This provides security
 	- Caching 
 	- Even if the repository disappears from the public artifact repository you will have a copy of it.

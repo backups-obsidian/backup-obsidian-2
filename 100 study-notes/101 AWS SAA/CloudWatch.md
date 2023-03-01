@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2023-02-17 09:49
+updated: 2023-03-01 10:15
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -159,3 +159,14 @@ updated: 2023-02-17 09:49
 
 - We can *test the alarm using the CLI*. This is useful if we want to trigger an alarm before its threshold to see if it results in proper actions.
 	- Use `set-alarm-state` in CLI
+
+## Synthetics Canary (DVA)
+- **Configurable script** that *monitor your APIs, URLs, Websites*, etc.
+	- Scripts written in *Node.js* or *Python*.
+- Reproduce what your customers do programmatically to find issues before customers are impacted.
+- Checks the *availability* and *latency* of your endpoints and can store load time data and *screenshots of the UI*.
+- Integration with *CloudWatch Alarms*.
+	- ![[attachments/Pasted image 20230301101509.png]]
+	- If there is some problem then the cloudwatch alarms trigger a lambda which then updates the route53 DNS record to point to a healthy application. 
+- Programmatic access to a *headless Google Chrome browser*.
+- Can run once or on a *regular schedule*.
