@@ -1,6 +1,6 @@
 ---
 created: 2022-04-17 15:43
-updated: 2023-03-01 15:33
+updated: 2023-03-01 19:34
 ---
 ---
 **Links**: [[../100 home | 100 Home]]
@@ -179,6 +179,7 @@ Three ways in which Lambda processes events
 [[Other Services DVA]]
 [[../101 AWS SAA/GuardDuty | Guard Duty]]
 [[../101 AWS SAA/WAF & Firewall#WAF| WAF]]
+[[AppConfig]]
 
 ## Miscellaneous
 - Typical 3 tier architecture

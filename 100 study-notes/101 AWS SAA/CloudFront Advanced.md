@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2023-03-01 09:24
+updated: 2023-03-01 17:43
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -64,5 +64,3 @@ updated: 2023-03-01 09:24
 	- Specify set of *fields in POST requests* that you want to be encrypted (up to 10 fields)
 	- Specify the *public key to encrypt them*
 	- ![[attachments/Pasted image 20220424115442.png]]
-
-

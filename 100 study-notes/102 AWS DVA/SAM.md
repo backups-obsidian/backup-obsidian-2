@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 12:39
-updated: 2023-02-16 09:01
+updated: 2023-03-01 18:13
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -15,6 +15,13 @@ updated: 2023-02-16 09:01
 - *Only two commands to deploy to AWS*
 - SAM can use *CodeDeploy to deploy Lambda functions*
 - SAM can help you to run Lambda, API Gateway, DynamoDB **locally**
+	- `sam local start-lambda`
+		- Starts a local endpoint that emulates AWS Lambda.
+		- We can do automated tests against this endpoint.
+	- `sam local invoke`
+		- Invoke Lambda function with payload *once* and *quit after invocation completes*.
+		- Helpful for generating test cases
+
 - SAM Deployment Process
 	- ![[attachments/Pasted image 20220527111606.png]]
 

@@ -1,6 +1,6 @@
 ---
 created: 2022-05-15 08:57
-updated: 2023-03-01 09:31
+updated: 2023-03-01 17:52
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -113,3 +113,19 @@ updated: 2023-03-01 09:31
 	- You can build your own Kinesis data stream consumer, or **use Amazon Kinesis Data Firehose** to send the log data to *S3*, Redshift, OpenSearch Service *OpenSearch* Service, or a third-party log processing service.
 	- ![[attachments/Pasted image 20230301093015.png]] 
 - Note that enabling *real-time logs* incurs **additional charges for data transfer** and storage, so it's important to monitor and manage your usage to avoid unexpected costs.
+
+## CloudFront functions
+- *Lightweight functions* written in **JavaScript**.
+- For high-scale, latency-sensitive CDN customisations.
+- Sub-ms startup times, **millions of requests/second**.
+	- With lambda@edge we can only have 1000s of requests per second.
+- Used to change **Viewer requests and responses**:
+	- Viewer Request: after CloudFront receives a request from a viewer
+	- Viewer Response: before CloudFront forwards the response to the viewer
+
+> [!caution]+ CloudFront functions CANNOT change origin request and response. 
+> If we want to change origin request and response then we should use [[../101 AWS SAA/Lambda#@Edge | lambda@edge]].
+
+- Native feature of CloudFront (*manage code entirely within CloudFront*)
+- Difference between CloudFront functions and lambda@edge
+	- ![[attachments/Pasted image 20230301175021.png]]
