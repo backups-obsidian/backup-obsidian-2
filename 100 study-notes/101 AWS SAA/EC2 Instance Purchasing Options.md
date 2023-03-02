@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 11:14
-updated: 2023-02-09 19:16
+updated: 2023-03-02 09:45
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -11,35 +11,46 @@ updated: 2023-02-09 19:16
 - More expensive than spot and reserved.
 
 ### Capacity Reservations
-- We can do a **capacity reservation** of *on demand instances*. There is **no monetary benefit** but there is a guarantee that you will have capacity when you need it. This is particularly useful when you know that you will be needing an instances for an uninterrupted workload at a particular time.
-- For monetary benefit you can use **capacity reservation with savings plan**.
-- If you want to *make reservations in multiple AZs* then you need to file *multiple reservation requests*.
+- Reserve capacity in a **specific AZ** for any duration.
+	- If you want to *make reservations in multiple AZs* then you need to file *multiple reservation requests*.
+- We can do a **capacity reservation** of *on demand instances*. 
+- There is **no time commitment** (like 1 or 3 years) and **no monetary benefit** but there is a guarantee that you will have capacity when you need it. 
+	- This is particularly useful when you know that you will be needing an instances for an uninterrupted workload at a particular time.
 - The main benefit of capacity reservation over reserved instances is there is no need of 1 or 3 years of commitment.
+- For monetary benefit you can use **capacity reservation with savings plan**.
 
-> [!note]- We can do a capacity reservation in zonal reserved instances but NOT in regional reserved instances.
+> [!caution] You're charged at On-Demand rate whether you run instances or not.
+
+> [!note] We can do a capacity reservation in zonal reserved instances but NOT in regional reserved instances.
 
 ## Reserved Instances
 - Reserved Instances are *not physical instances*, but *rather a billing discount applied to the use of On Demand* Instances in your account.
 
 ### Standard Reserved
-- **75%** cheaper than on demand.
+- **72%** cheaper than on demand.
 - For stable applications like database.
-- Commitment of **1 (minimum) or 3 years**. For 3 years you get more discounts.
+- Commitment of **1 (minimum) or 3 years**. 
+	- For 3 years you get more discounts.
 - **Payment options** are *no upfront* (no discount), *partial upfront* (discount +) and *full upfront* (discount +++)
 - We reserve a **specific instance type**.
+- **Reserved Instance’s Scope** – *Regional or Zonal* (reserve capacity in an AZ)
 - *Unused* Standard Reserved Instances *can later be sold* at the *Reserved Instance Marketplace*.
 
 ### Convertible Reserved 
 - We can *change the instance type*.
-- Less cost savings as compared to normal reserved.
+- *Less cost savings* as compared to normal reserved.
 
 >[!caution] Convertible unused instances **cannot be sold** in the Reserved instance marketplace.
 
-### Scheduled Reserved
-- Scheduled Reserved Instances (Scheduled Instances) enable you to **purchase capacity reservations that recur on a daily, weekly, or monthly** basis, with a specified start time and duration, for a **one year term**. 
-- Scheduled Instances are a good choice for workloads that *do not run continuously but do run on a regular schedule*. For example, you can use Scheduled Instances for an application that runs during business *hours or for batch processing that runs at the end of the week*.
-
-> [!note]- The main difference between standard and scheduled reserved is that **standard reserved** reserves the instance for **continuous** use.
+## EC2 Savings Plan
+- Get a discount based on long-term usage (up to 72% - same as Reserver instances) 
+- *Commit to a certain type of usage* ($10/hour for 1 or 3 years)
+- *Usage beyond* EC2 Savings Plans is billed at the *On-Demand price*.
+- Locked to a **specific instance family** & **AWS region** (e.g., M5 in us-east-1)
+- *Flexible across*: 
+	- Instance Size (e.g., m5.xlarge, m5.2xlarge)
+	- OS (e.g., Linux, Windows) 
+	- Tenancy (Host, Dedicated, Default)
 
 ## Spot
 - Highest discount **90%** as compared to on demand.
@@ -51,8 +62,10 @@ updated: 2023-02-09 19:16
 
 ## Dedicated Hosts
 - For **compliance** reasons and **server bound software licenses** (complex licensing, BYOL - Bring your own license).
-- **3 year reservation**.
-- Billing per host.
+- *Purchasing options*:
+	- *On-demand* - pay per second for active Dedicated Host
+	- **Reserved** - *1 or 3 years* (No Upfront, Partial Upfront, All Upfront)
+- **Most expensive** option.
 - With dedicated hosts you have *additional control and visibility on how instances are placed* on the server.
 - With Dedicated Host the physical server is basically yours. It does not change, **it's always the same physical machine for as long as you are paying.**
 
@@ -80,12 +93,5 @@ updated: 2023-02-09 19:16
 > - *Single tenancy*
 > - *Cheaper* than dedicated hosts
 
-## Tenancy Options
-![[attachments/Pasted image 20220501114513.png]]
-
-- By **default**, EC2 instances run on a **shared-tenancy** basis.
-- **Dedicated Instances** are Amazon EC2 instances that run in a virtual private cloud (VPC) on hardware that's *dedicated to a single customer*. Dedicated Instances *that belong to different AWS accounts are physically isolated at the hardware level*. However, Dedicated Instances *may share hardware with other instances from the same AWS account* that is not Dedicated Instances.
-- A **Dedicated Host** is also a *physical server* that's dedicated to your use. With a Dedicated Host, you have visibility and control over how instances are placed on the server.
-- Descriptions are similar to the purchasing options.
-
-> [!note] You can only change the tenancy of an instance *from dedicated to host, or from host to dedicated* after you've launched it.
+## Summary
+![[attachments/Pasted image 20230302094432.png]]

@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 19:08
-updated: 2022-05-02 13:01
+updated: 2023-03-02 09:55
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -21,15 +21,24 @@ updated: 2022-05-02 13:01
 
 > [!question]- How to terminate instances in a persistent request?
 > To terminate all the spot instances in a persistent request you must *first cancel the the spot request* and *then terminate the instances*. Since in a persistent request *if you terminate the spot instances first* then the *feedback loop* will see that x number of instances were needed but there are 0 now so it *will start them again*.
+> ---
+> ![[attachments/Pasted image 20230302094916.png]]
 
 ## Spot Fleets
 - Set of **spot instances** + optional **on demand instances**.
 - We define **launch pools**.
 - Spot fleet *stops* when *maximum capacity* is reached *or* *maximum cost* defined by us is reached.
-- Spot fleet allows us to **automatically request instances with the lowest price**.
 - By default, Spot Fleets are set to maintain target capacity by launching replacement instances after Spot Instances in the fleet are terminated.
-- Strategies to launch spot instances: **lowestPrice** (*short workloads*), **diversified**(*long workloads*), **capacityOptimised**.
+- *Strategies* to launch spot instances: 
+	- **lowestPrice**: *short workloads* 
+	- **diversified**: *long workloads*
+	- **capacityOptimised**: optimal capacity
+ 
+> [!note] Spot fleet allows us to **automatically request instances with the lowest price** if we use the **lowestPrice** strategy.
 
-## Spot Block
+- The main *difference* between a *spot request* and a *spot fleet* is that in a spot request *we know exactly the type of instance* we want whereas in spot fleet *handles the selection of instance* based on the strategy.
+
+## Spot Block (Deprecated)
+- Might still be asked in exam.
 - Spot blocks are designed **not to be interrupted** and will run continuously for the duration *you select* (**1 to 6 hours**), *independent of the Spot market price*.
 - Only in rare situations, spot blocks may be interrupted due to Amazon EC2 capacity needs.

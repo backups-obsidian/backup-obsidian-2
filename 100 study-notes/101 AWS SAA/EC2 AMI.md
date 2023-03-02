@@ -1,19 +1,28 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-05-01 16:13
+updated: 2023-03-02 11:46
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
 
 ---
-- Built for a **specific region**. **Can be copied to other regions**.
+## AMI
+- Built for a **specific region**. 
+	- **Can be copied to other regions**.
 	- In case of a DR strategy where EC2 instances have to be booted up from a single AMI make sure that the *AMI has been copied to all the regions*.
+	- We can migrate EC2 instances from one AZ to another.
 - If you have a *custom AMI then the boot time will be faster*. You have to make and maintain you own custom AMIs.
 - AMIs *can be shared* with other AWS accounts.
 - There are 3 options for AMIs: 
 	- *Public*: AWS provided 
 	- *Marketplace*: Made by someone else and potentially sold.
 	- *Custom AMIs*: Made and maintained by us.
+
+- **Process** of creating an AMI:
+	- *Start an EC2 instance* and *customise it*.
+	- *Stop* the instance (for data integrity)
+	- *Build an AMI* - this *will* also *create EBS snapshots*
+	- Launch instances from other AMIs
 - **AMIs are stored in S3** but we cannot view them.
 - We can copy EBS and instance store backed AMIs. 
 - There are *no charges on copying an AMI*. 

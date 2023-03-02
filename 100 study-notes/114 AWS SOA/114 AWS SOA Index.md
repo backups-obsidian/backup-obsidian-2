@@ -1,6 +1,6 @@
 ---
 created: 2023-03-01 15:32
-updated: 2023-03-01 15:55
+updated: 2023-03-02 13:07
 ---
 ---
 **Links**: [[../100 home | 100 Home]]
@@ -9,6 +9,28 @@ updated: 2023-03-01 15:55
 - [[../102 AWS DVA/102 AWS DVA Index | AWS DVA]]
 
 ---
+## EC2
+[[../101 AWS SAA/EC2 Basics | EC2 Basics]]
+[[../101 AWS SAA/EC2 Placement Groups | EC2 Placement Groups]]
+[[EC2 Troubleshooting]]
+[[../101 AWS SAA/EC2 Instance Purchasing Options | EC2 Instance Purchasing Options]]
+[[../101 AWS SAA/EC2 Spot Instances & Fleet | EC2 Spot Instances and Fleet]]
+[[EC2 Burstable Instances]]
+[[EC2 Status Checks]]
+[[../101 AWS SAA/EC2 Hibernate | EC2 Hibernate]]
+[[EC2 - SOA]]
+
+## AMI
+[[../101 AWS SAA/EC2 AMI | EC2 AMI]]
+[[AMI - SOA]]
+
+## Systems Manager (SSM)
+[[Systems Manager (SSM)]]
+
+## ElasticBeanstalk
+
+## Monitoring
+[[../101 AWS SAA/CloudWatch | CloudWatch]]
 
 ## ToDo
 - Buy the practice tests in the wish list.
