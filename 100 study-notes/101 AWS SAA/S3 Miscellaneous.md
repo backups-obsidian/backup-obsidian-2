@@ -1,6 +1,6 @@
 ---
 created: 2022-04-23 15:21
-updated: 2022-06-09 15:18
+updated: 2023-03-01 19:26
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -43,7 +43,7 @@ updated: 2022-06-09 15:18
 - We use **SQL** to query these files.
 - Athena is built on the **Presto engine**.
 - *Reporting* can be done using *Amazon QuickSight*.
-- Use case: *analytics*, *BI*
+- Use case: *analytics*, *BI*, *analyse logs*(VPC flow logs, CloudTrail trails)
 - It is much **cheaper** than Redshift and EMR.
 
 > [!tip] Go for Athena if you see keywords like *cost effective*, *easiest*, *quickly*, *serverless* (minimise operational overhead), *adhoc*

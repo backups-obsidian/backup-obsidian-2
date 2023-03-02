@@ -23,21 +23,6 @@
             }
           },
           {
-            "id": "57ab7beab1dc8238",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "600 rough/Rough.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              },
-              "pinned": true
-            }
-          },
-          {
             "id": "feb0d890d3e4962e",
             "type": "leaf",
             "pinned": true,
@@ -51,22 +36,9 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "1ffe29699dd38b82",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100 study-notes/102 AWS DVA/Lambda Advanced.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +57,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "path:saa \"GuardDuty\"",
+                "query": "path:dva \"edge\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -120,8 +92,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -142,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/102 AWS DVA/Lambda Advanced.md",
+                "file": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +130,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/102 AWS DVA/Lambda Advanced.md"
+                "file": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
               }
             }
           },
@@ -169,7 +140,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/102 AWS DVA/Lambda Advanced.md",
+                "file": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -235,17 +206,17 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "1ffe29699dd38b82",
+  "active": "feb0d890d3e4962e",
   "lastOpenFiles": [
-    "100 study-notes/114 AWS SOA/114 AWS SOA Index.md",
+    "100 study-notes/102 AWS DVA/AppConfig.md",
     "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
+    "100 study-notes/101 AWS SAA/S3 Miscellaneous.md",
+    "100 study-notes/102 AWS DVA/CDK.md",
+    "100 study-notes/102 AWS DVA/SAM.md",
     "100 study-notes/102 AWS DVA/Lambda Advanced.md",
-    "100 study-notes/102 AWS DVA/Lambda Configuration & Deployments.md",
-    "100 study-notes/101 AWS SAA/EventBridge.md",
-    "100 study-notes/101 AWS SAA/CloudWatch.md",
-    "100 study-notes/102 AWS DVA/CloudFormation Advanced.md",
-    "100 study-notes/102 AWS DVA/CodeArtifact.md",
-    "100 study-notes/102 AWS DVA/Copilot.md",
-    "100 study-notes/102 AWS DVA/CloudFront DVA.md"
+    "100 study-notes/101 AWS SAA/Lambda.md",
+    "100 study-notes/102 AWS DVA/Lambda Miscellaneous.md",
+    "100 study-notes/102 AWS DVA/CloudFront DVA.md",
+    "TODO.md"
   ]
 }

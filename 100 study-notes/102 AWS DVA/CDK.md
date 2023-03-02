@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 12:39
-updated: 2023-02-09 13:09
+updated: 2023-03-01 18:22
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -21,6 +21,27 @@ updated: 2023-02-09 13:09
 	- Great for Docker containers in ECS / EKS
 
 > [!note] In CDK there is something known as **constructs**
+
+### Different layers of constructs
+#### L1
+- Can be called **CFN Resources** which represents all resources directly available in CloudFormation.
+- Construct names start with **`Cfn`** (e.g., `CfnBucket`)
+- You must *explicitly configure all resource properties*.
+	- ![[attachments/Pasted image 20230301181820.png]]
+
+#### L2
+- Represents AWS resources but with a *higher level* (**intent-based** API)
+- Similar functionality as L1 but with *convenient defaults and boilerplate*
+	- You don't need to know all the details about the resource properties
+	- ![[attachments/Pasted image 20230301181931.png]]
+
+#### L3 
+- Can be called **Patterns**, which represents multiple related resources.
+- Helps you *complete common tasks in AWS*.
+- Examples:
+	- `aws-apigateway.LambdaRestApi` represents an API Gateway backed by a Lambda function
+	- `aws-ecs-patterns.ApplicationLoadBalancerFargateService` which represents an architecture that includes a Fargate cluster with Application Load Balancer
+	- ![[attachments/Pasted image 20230301182140.png]]
 
 ### Development using CDK
 - Create an app

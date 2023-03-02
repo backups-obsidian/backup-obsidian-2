@@ -1,20 +1,64 @@
 {
   "recentFiles": [
     {
-      "basename": "Lambda Advanced",
-      "path": "100 study-notes/102 AWS DVA/Lambda Advanced.md"
-    },
-    {
-      "basename": "114 AWS SOA Index",
-      "path": "100 study-notes/114 AWS SOA/114 AWS SOA Index.md"
-    },
-    {
       "basename": "102 AWS DVA Index",
       "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
     },
     {
+      "basename": "AppConfig",
+      "path": "100 study-notes/102 AWS DVA/AppConfig.md"
+    },
+    {
+      "basename": "S3 Miscellaneous",
+      "path": "100 study-notes/101 AWS SAA/S3 Miscellaneous.md"
+    },
+    {
+      "basename": "CDK",
+      "path": "100 study-notes/102 AWS DVA/CDK.md"
+    },
+    {
+      "basename": "SAM",
+      "path": "100 study-notes/102 AWS DVA/SAM.md"
+    },
+    {
+      "basename": "Lambda Advanced",
+      "path": "100 study-notes/102 AWS DVA/Lambda Advanced.md"
+    },
+    {
+      "basename": "Lambda",
+      "path": "100 study-notes/101 AWS SAA/Lambda.md"
+    },
+    {
+      "basename": "Lambda Miscellaneous",
+      "path": "100 study-notes/102 AWS DVA/Lambda Miscellaneous.md"
+    },
+    {
+      "basename": "CloudFront DVA",
+      "path": "100 study-notes/102 AWS DVA/CloudFront DVA.md"
+    },
+    {
+      "basename": "TODO",
+      "path": "TODO.md"
+    },
+    {
+      "basename": "Rough",
+      "path": "600 rough/Rough.md"
+    },
+    {
       "basename": "Lambda Configuration & Deployments",
       "path": "100 study-notes/102 AWS DVA/Lambda Configuration & Deployments.md"
+    },
+    {
+      "basename": "Lambda Synchronous Invocation",
+      "path": "100 study-notes/102 AWS DVA/Lambda Synchronous Invocation.md"
+    },
+    {
+      "basename": "CloudFront Advanced",
+      "path": "100 study-notes/101 AWS SAA/CloudFront Advanced.md"
+    },
+    {
+      "basename": "114 AWS SOA Index",
+      "path": "100 study-notes/114 AWS SOA/114 AWS SOA Index.md"
     },
     {
       "basename": "EventBridge",
@@ -35,14 +79,6 @@
     {
       "basename": "Copilot",
       "path": "100 study-notes/102 AWS DVA/Copilot.md"
-    },
-    {
-      "basename": "CloudFront DVA",
-      "path": "100 study-notes/102 AWS DVA/CloudFront DVA.md"
-    },
-    {
-      "basename": "CloudFront Advanced",
-      "path": "100 study-notes/101 AWS SAA/CloudFront Advanced.md"
     },
     {
       "basename": "S3 Object Metadata and Tags",
@@ -163,42 +199,6 @@
     {
       "basename": "Lambda Event Source Mapping",
       "path": "100 study-notes/102 AWS DVA/Lambda Event Source Mapping.md"
-    },
-    {
-      "basename": "Lambda Asynchronous Invocation",
-      "path": "100 study-notes/102 AWS DVA/Lambda Asynchronous Invocation.md"
-    },
-    {
-      "basename": "Miscellaneous",
-      "path": "100 study-notes/101 AWS SAA/Miscellaneous.md"
-    },
-    {
-      "basename": "DVA - Extra Notes",
-      "path": "100 study-notes/102 AWS DVA/DVA - Extra Notes.md"
-    },
-    {
-      "basename": "DynamoDB DVA",
-      "path": "100 study-notes/102 AWS DVA/DynamoDB DVA.md"
-    },
-    {
-      "basename": "DynamoDB Capacity",
-      "path": "100 study-notes/102 AWS DVA/DynamoDB Capacity.md"
-    },
-    {
-      "basename": "S3 Websites",
-      "path": "100 study-notes/101 AWS SAA/S3 Websites.md"
-    },
-    {
-      "basename": "S3 Performance",
-      "path": "100 study-notes/101 AWS SAA/S3 Performance.md"
-    },
-    {
-      "basename": "S3 Miscellaneous",
-      "path": "100 study-notes/101 AWS SAA/S3 Miscellaneous.md"
-    },
-    {
-      "basename": "KMS",
-      "path": "100 study-notes/101 AWS SAA/KMS.md"
     }
   ],
   "omittedPaths": [],
