@@ -1,8 +1,76 @@
 {
   "recentFiles": [
     {
+      "basename": "114 AWS SOA Index",
+      "path": "100 study-notes/114 AWS SOA/114 AWS SOA Index.md"
+    },
+    {
+      "basename": "Systems Manager (SSM)",
+      "path": "100 study-notes/114 AWS SOA/Systems Manager (SSM).md"
+    },
+    {
+      "basename": "AMI - SOA",
+      "path": "100 study-notes/114 AWS SOA/AMI - SOA.md"
+    },
+    {
+      "basename": "EC2 AMI",
+      "path": "100 study-notes/101 AWS SAA/EC2 AMI.md"
+    },
+    {
+      "basename": "101 AWS SAA Index",
+      "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
+    },
+    {
+      "basename": "EC2 Burstable Instances",
+      "path": "100 study-notes/114 AWS SOA/EC2 Burstable Instances.md"
+    },
+    {
+      "basename": "EC2 Troubleshooting",
+      "path": "100 study-notes/114 AWS SOA/EC2 Troubleshooting.md"
+    },
+    {
       "basename": "102 AWS DVA Index",
       "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
+    },
+    {
+      "basename": "EC2 - SOA",
+      "path": "100 study-notes/114 AWS SOA/EC2 - SOA.md"
+    },
+    {
+      "basename": "EC2 Hibernate",
+      "path": "100 study-notes/101 AWS SAA/EC2 Hibernate.md"
+    },
+    {
+      "basename": "EC2 Status Checks",
+      "path": "100 study-notes/114 AWS SOA/EC2 Status Checks.md"
+    },
+    {
+      "basename": "CloudWatch",
+      "path": "100 study-notes/101 AWS SAA/CloudWatch.md"
+    },
+    {
+      "basename": "EC2 Basics",
+      "path": "100 study-notes/101 AWS SAA/EC2 Basics.md"
+    },
+    {
+      "basename": "EC2 ENI",
+      "path": "100 study-notes/101 AWS SAA/EC2 ENI.md"
+    },
+    {
+      "basename": "EC2 Spot Instances & Fleet",
+      "path": "100 study-notes/101 AWS SAA/EC2 Spot Instances & Fleet.md"
+    },
+    {
+      "basename": "EC2 Instance Purchasing Options",
+      "path": "100 study-notes/101 AWS SAA/EC2 Instance Purchasing Options.md"
+    },
+    {
+      "basename": "EC2 Placement Groups",
+      "path": "100 study-notes/101 AWS SAA/EC2 Placement Groups.md"
+    },
+    {
+      "basename": "HPC in AWS",
+      "path": "100 study-notes/101 AWS SAA/HPC in AWS.md"
     },
     {
       "basename": "AppConfig",
@@ -57,16 +125,8 @@
       "path": "100 study-notes/101 AWS SAA/CloudFront Advanced.md"
     },
     {
-      "basename": "114 AWS SOA Index",
-      "path": "100 study-notes/114 AWS SOA/114 AWS SOA Index.md"
-    },
-    {
       "basename": "EventBridge",
       "path": "100 study-notes/101 AWS SAA/EventBridge.md"
-    },
-    {
-      "basename": "CloudWatch",
-      "path": "100 study-notes/101 AWS SAA/CloudWatch.md"
     },
     {
       "basename": "CloudFormation Advanced",
@@ -139,66 +199,6 @@
     {
       "basename": "CloudFormation Template Components",
       "path": "100 study-notes/102 AWS DVA/CloudFormation Template Components.md"
-    },
-    {
-      "basename": "CloudFormation",
-      "path": "100 study-notes/102 AWS DVA/CloudFormation.md"
-    },
-    {
-      "basename": "CodeGuru",
-      "path": "100 study-notes/102 AWS DVA/CodeGuru.md"
-    },
-    {
-      "basename": "CodeStar",
-      "path": "100 study-notes/102 AWS DVA/CodeStar.md"
-    },
-    {
-      "basename": "CodeDeploy",
-      "path": "100 study-notes/102 AWS DVA/CodeDeploy.md"
-    },
-    {
-      "basename": "CodeBuild",
-      "path": "100 study-notes/102 AWS DVA/CodeBuild.md"
-    },
-    {
-      "basename": "CodePipeline",
-      "path": "100 study-notes/102 AWS DVA/CodePipeline.md"
-    },
-    {
-      "basename": "CodeCommit",
-      "path": "100 study-notes/102 AWS DVA/CodeCommit.md"
-    },
-    {
-      "basename": "ElasticBeanstalk Docker",
-      "path": "100 study-notes/102 AWS DVA/ElasticBeanstalk Docker.md"
-    },
-    {
-      "basename": "ElasticBeanstalk Deployment Modes",
-      "path": "100 study-notes/102 AWS DVA/ElasticBeanstalk Deployment Modes.md"
-    },
-    {
-      "basename": "ElasticBeanstalk DVA",
-      "path": "100 study-notes/102 AWS DVA/ElasticBeanstalk DVA.md"
-    },
-    {
-      "basename": "ElasticBeanstalk",
-      "path": "100 study-notes/101 AWS SAA/ElasticBeanstalk.md"
-    },
-    {
-      "basename": "AWS Limits",
-      "path": "100 study-notes/102 AWS DVA/AWS Limits.md"
-    },
-    {
-      "basename": "ECS DVA",
-      "path": "100 study-notes/102 AWS DVA/ECS DVA.md"
-    },
-    {
-      "basename": "ECS",
-      "path": "100 study-notes/101 AWS SAA/ECS.md"
-    },
-    {
-      "basename": "Lambda Event Source Mapping",
-      "path": "100 study-notes/102 AWS DVA/Lambda Event Source Mapping.md"
     }
   ],
   "omittedPaths": [],

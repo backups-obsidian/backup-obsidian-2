@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2023-03-01 10:15
+updated: 2023-03-02 10:43
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -36,10 +36,13 @@ updated: 2023-03-01 10:15
 	- Detailed monitoring can be useful for *scaling ASGs faster*.
 
 - List of things that are **monitored**: 
-	- ***CPU utilisation***
-	- *Network utilisation*
-	- *Disk performance*
-	- *Disk Reads/Writes*
+	- ***CPU utilisation***: CPU utilisation + **credit usage/balance**
+	- *Network utilisation*: Network In/Out
+	- *Disk Reads/Writes*: Only for *instance store*.
+		- If we have an EBS volume then the disk reads and writes will be 0 (will not be populated) in the graph.
+	- *Status checks*
+		- **Instance status**: check the *EC2 VM*
+		- **System status**: check the *underlying hardware*
 
 - Predefined metrics for *target tracking* policy.
 	- `ALBRequestCountPerTarget`
@@ -134,6 +137,20 @@ updated: 2023-03-01 10:15
 	- We can do centralised configuration for all our unified agents using the SSM parameter store.
 	- With *unified agent* we can *get a lot more metrics with more granularity*.
 	- The unified agent enables the collection of logs *from servers running Windows Server*.
+
+> [!note]- Since we are interacting with CloudWatch logs and SSM parameter store we need to make sure the *permissions are correct*.
+> This means we need to have correct IAM permissions attached to the EC2 instance role or to the access keys if we are using the unified agent on premises.
+
+### Unified CloudWatch agent
+- **Default namespace** for metrics collected by the Unified CloudWatch agent is **`CWAgent`** (can be configured/changed)
+- We can collect metrics and **monitor system utilisation of individual processes** using the **`procstat` plugin**.
+	- Supports both Linux and Windows servers
+	- Example: *amount of time the process uses CPU*, amount of memory the process uses etc.
+- Select which processes to monitor by
+	- `pid file`: name of process identification number (*PID*) files they create
+	- `exe`: *process name* that match string you specify (RegEx)
+	- `pattern`: command lines used to start the processes (RegEx)
+- Metrics collected by `procstat` plugin **begins with `procstat` pref** (e.g., procstat_cpu_time, procstat_cpu_usage, etc)
 
 ## CloudWatch Alarms
 - When you create an alarm, you specify *three settings* to enable CloudWatch to evaluate when to change the alarm state:

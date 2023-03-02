@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-05-01 19:30
+updated: 2023-03-02 08:50
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -19,7 +19,8 @@ updated: 2022-05-01 19:30
 - EC2 Enhanced Networking (**SR-IOV**) (**ENA**)
     - **Higher bandwidth**, **higher PPS** (packet per second), **lower latency**
         - Option I: **Elastic Network Adapter (ENA)** up to **100 Gbps**
-        - Option 2: Intel 82599 VF up to 10 Gbps LEGACY
+	        - Works only for newer EC2 instances.
+        - Option 2: *Intel* 82599 *VF* up to 10 Gbps *LEGACY*
 		
 -   Elastic Fabric Adapter (**EFA**)
     - Improved ENA for HPC, **only works for Linux**

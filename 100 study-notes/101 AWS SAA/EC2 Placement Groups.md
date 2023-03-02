@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-05-05 16:08
+updated: 2023-03-02 08:55
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -11,15 +11,18 @@ updated: 2022-05-05 16:08
 -   There is **no charge** for creating a placement group
 
 ## Cluster
-- Low latency and high throughput. Like **HPC**.
+- **Low latency** and *high network throughput*. Like **HPC**.
 - Placed in the **same rack in the same AZ**.
 - All instances are on the same hardware.
+- *Cons*: If the rack fails, all instances fails at the same time.
 
 ## Spread
 - Minimise failure risk.
 - Limited **7 instances per AZ per placement group**. So if you want *15 instances* in spread placement group then you will need *3 AZs*. **Major CON**.
 - Instances are on different hardware in different AZ.
 - **Critical applications**.
+- *Each* EC2 instance is on a *different hardware*
+	- ![[attachments/Pasted image 20230302085403.png]]
 
 ## Partition
 - We have **instances spread across partitions in multiple AZs**.
