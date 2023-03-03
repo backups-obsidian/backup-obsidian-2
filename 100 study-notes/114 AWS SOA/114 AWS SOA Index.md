@@ -1,6 +1,6 @@
 ---
 created: 2023-03-01 15:32
-updated: 2023-03-03 09:14
+updated: 2023-03-03 15:30
 ---
 ---
 **Links**: [[../100 home | 100 Home]]
@@ -57,17 +57,34 @@ updated: 2023-03-03 09:14
 ## CloudFormation
 [[../102 AWS DVA/CloudFormation | CloudFormation]]
 [[../102 AWS DVA/CloudFormation Template Components | CloudFormation Template Components]]
-
+[[../102 AWS DVA/CloudFormation Intrinsic Functions | CloudFormation Intrinsic Functions]]
+[[../102 AWS DVA/CloudFormation RollBacks | CloudFormation Rollbacks]]
+[[../102 AWS DVA/CloudFormation Advanced | CloudFormation Advanced]]
+[[CloudFormation SOA]]
 
 ## Lambda
 [[../101 AWS SAA/Lambda | Lambda]]
+[[../102 AWS DVA/Lambda IAM Role | Lambda Permissions]]
+[[../102 AWS DVA/Lambda Configuration & Deployments#Logging & Tracing | Logging & Tracing]]
+[[../102 AWS DVA/Lambda Configuration & Deployments#Tracing | X-ray tracing]]
+[[../102 AWS DVA/Lambda Performance | Lambda Performance]]
+[[../102 AWS DVA/Lambda Configuration & Deployments#Lambda Concurrency | Lambda Concurrency]]
+[[Lambda Monitoring]]
+
+- EventBridge lambda - Asynchronous, resource based policies
+- S3 Events - Asynchronous, resource based policies
+
+## EBS & EFS
+[[../101 AWS SAA/EC2 EBS | EBS]]
+[[../101 AWS SAA/Instance store | Instance Store]]
+[[EBS SOA]]
+[[../101 AWS SAA/EFS | EFS]]
 
 ## Monitoring
 [[../101 AWS SAA/CloudWatch | CloudWatch]]
 
 ## ToDo
 - Buy the practice tests in the wish list.
-- Consider taking tests with exam labs if the format changes.
 
 ## Resources
 - [AWS Certified Sysops Administrator - Associate Certification (amazon.com)](https://aws.amazon.com/certification/certified-sysops-admin-associate/)

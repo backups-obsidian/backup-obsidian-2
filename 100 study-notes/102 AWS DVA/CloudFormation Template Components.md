@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 12:39
-updated: 2023-02-09 19:26
+updated: 2023-03-03 09:21
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -58,7 +58,7 @@ List<AWS::EC2::Subnet::Id> – An array of subnet IDs
 
 ## Mappings (`!FindInMap`)
 - Mappings are *fixed variables* within your CloudFormation Template.
-- They're very handy to *differentiate between different environments* (dev vs prod), regions (AWS regions), AMI types, etc
+- They're very handy to *differentiate between different environments* (dev vs prod), regions (*AWS regions*), *AMI types*, etc
 	- ![[attachments/Pasted image 20220518152430.png]]
 - All the values are **hardcoded** within the template
 
@@ -105,6 +105,12 @@ List<AWS::EC2::Subnet::Id> – An array of subnet IDs
 	- AWS *Region*
 	- Any *parameter value*
 - Each condition can **reference another condition, parameter value or mapping**.
+- *Logical functions* present for us are:
+	- `Fn::And` or `!And`
+	- `Fn::Equals` or `!Equals`
+	- `Fn::If` or `!If`
+	- `Fn::Not` or `!Not`
+	- `Fn::Or` or `!Or`
 - We define a condition and then reference it
 	- ![[attachments/Pasted image 20220518154208.png]]
 	- ![[attachments/Pasted image 20220518154319.png]]

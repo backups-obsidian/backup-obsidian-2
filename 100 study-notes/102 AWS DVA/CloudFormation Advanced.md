@@ -1,6 +1,6 @@
 ---
 created: 2022-05-18 20:06
-updated: 2023-03-01 10:08
+updated: 2023-03-03 10:07
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -19,27 +19,9 @@ updated: 2023-03-01 10:08
 	- Load Balancer configuration that is *re-used*
 	- Security Group that is *re-used*
 - Nested stacks are **considered best practice**
-- To update a nested stack, always update the parent (root stack)
+- To *update a nested stack*, **always update the parent (root stack)**.
 
 > [!important] Whenever you see the keyword **reused** go for nested stacks.
-
-### Difference between cross and nested stacks
-- Cross Stacks
-	- Helpful when stacks have *different lifecycles*.
-	- Use Outputs Export and `Fn::ImportValue`
-	- When you need to **pass export values** to many stacks (VPC Id, etc...)
-	- ![[attachments/Pasted image 20220518200814.png]]
-
-> [!caution]- You **CAN'T create cross-stack references across regions**. 
-> You can use the intrinsic function `Fn::ImportValue` to import only values that have been exported **within the same region**.
-
-- Nested Stacks
-	- Helpful when components must be **re-used**
-	- Ex: re-use how to properly configure an Application Load Balancer
-	- The nested stack only is important to the higher level stack (it's not shared)
-	- ![[attachments/Pasted image 20220518200821.png]]
-
-> [!important] Go for nested stacks if you see the keyword *pass values*, *import/export* 
 
 ## StackSets
 - Create, update, or delete stacks **across multiple accounts and regions** with a single operation
