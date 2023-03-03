@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "EFS SOA",
+      "path": "100 study-notes/114 AWS SOA/EFS SOA.md"
+    },
+    {
       "basename": "114 AWS SOA Index",
       "path": "100 study-notes/114 AWS SOA/114 AWS SOA Index.md"
+    },
+    {
+      "basename": "EFS",
+      "path": "100 study-notes/101 AWS SAA/EFS.md"
     },
     {
       "basename": "EBS SOA",
@@ -191,14 +199,6 @@
     {
       "basename": "EC2 ENI",
       "path": "100 study-notes/101 AWS SAA/EC2 ENI.md"
-    },
-    {
-      "basename": "EC2 Spot Instances & Fleet",
-      "path": "100 study-notes/101 AWS SAA/EC2 Spot Instances & Fleet.md"
-    },
-    {
-      "basename": "EC2 Instance Purchasing Options",
-      "path": "100 study-notes/101 AWS SAA/EC2 Instance Purchasing Options.md"
     }
   ],
   "omittedPaths": [],

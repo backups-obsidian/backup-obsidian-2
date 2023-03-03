@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 10:04
-updated: 2023-03-03 15:52
+updated: 2023-03-03 16:36
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -53,6 +53,8 @@ updated: 2023-03-03 15:52
 > - Take the unencrypted volume and create a snapshot.
 > - Take the snapshot and create a copy snapshot which can be encrypted.
 > - Create an encrypted volume from the encrypted snapshot.
+> ---
+> Or *we have the option of creating an encrypted volume from an unencrypted snapshot*.
 
 - Volumes can be encrypted using AWS *managed keys by AWS KMS* or using your *own keys in AWS KMS*.
 - If you have encrypted a volume using a custom key then to transfer the snapshots between accounts you need to share the custom key also so unencrypt the snapshots.
@@ -110,6 +112,9 @@ updated: 2023-03-03 15:52
 - For **gp2 IOPS and volume are linked**. **3 IOPS per GB** and we can have a maximum of 16000 IOPS so **5334 GB** (**5.3 TiB**).
 - Whenever you see terms like **cost effective storage** in questions go for the gp family.
 - It uses a bucket and credit model for calculating IOPS.
+
+> [!question]- Your 8 GB *gp2* volume is frequently bursting and quickly *running out of IOPS*. What can you do to increase its performance?
+> Increase the volume size.
 
 #### io1/io2
 - High performance SSD volume used for *low latency high throughput tasks*.
