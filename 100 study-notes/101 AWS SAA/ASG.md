@@ -1,6 +1,6 @@
 ---
 created: 2022-04-20 19:15
-updated: 2023-02-19 09:57
+updated: 2023-03-03 09:10
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -39,6 +39,12 @@ updated: 2023-02-19 09:57
 > Data is *not automatically copied* from existing instances to new instances. You can use lifecycle hooks to copy the data.
 
 ## Health Checks
+- *Health checks* available:
+	- **EC2 Status Checks**
+	- **ELB Health Checks**
+	- **Custom Health Checks**: send instance's health to ASG using AWS CLI or AWS SDK.
+		- `set-instance-health`
+
 - If *using an ELB* it is best to **enable ELB health checks** as otherwise *EC2 status checks may show an instance as being healthy that the ELB has determined is unhealthy*. In this case the *instance will be removed from service by the ELB but will not be terminated by Auto Scaling*.
 	- This can happen when the *Auto Scaling group is using EC2 based health check* and the *Application Load Balancer is using ALB based health check*.
 
@@ -53,11 +59,20 @@ updated: 2023-02-19 09:57
 
 ## Auto Scaling Alarms
 - These alarms trigger scaling.
-- We *can scale ASGs based on CloudWatch alarms*. We need 2 alarms, one for scaling in and other for scaling out. 
-- A monitoring unit for CloudWatch alarms can be CPU usage. *Metrics are the **average** of all the ASG instances*.
-- We can define *better auto scaling rules* that are **directly managed by EC2**. These rules are easier to set than the CloudWatch alarms. Some of these rules include average CPU usage, network in/out etc.
-- We can also auto scale on a **custom metric** (ex no of connected users). We send the parameter of our custom metric to cloud watch alarms via the **PutMetric API**. Now we can create cloud watch alarms with this metric to scale in or out. So *ASG is not just limited to the metrics AWS exposes*.
+- We *can scale ASGs based on CloudWatch alarms*. 
+	- We need *2 alarms*, one for *scaling in* and other for *scaling out*. 
+- A monitoring unit for CloudWatch alarms can be CPU usage. 
+	- *Metrics are the **average** of all the ASG instances*.
+- We can define *better auto scaling rules* that are **directly managed by EC2**.
+	- These rules are easier to set than the CloudWatch alarms. 
+- We can also auto scale on a **custom metric** (ex no of connected users). 
+	- We send the parameter of our custom metric to cloud watch alarms via the **PutMetric API**. 
+	- Now we can create cloud watch alarms with this metric to scale in or out. 
+	- So *ASG is not just limited to the metrics AWS exposes*.
 
+
+---
+**Not Included in SOA and DVA**
 ## Rebalancing and Scaling
 - Actions like explicitly terminating an instance can lead to an *ASG becoming unbalanced across an ASG*.
 - Amazon EC2 Auto Scaling compensates by rebalancing the Availability Zones.

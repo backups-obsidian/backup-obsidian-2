@@ -1,6 +1,6 @@
 ---
 created: 2022-04-20 15:02
-updated: 2023-02-26 09:47
+updated: 2023-03-02 19:52
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -20,12 +20,6 @@ updated: 2023-02-26 09:47
 	- ![[attachments/Pasted image 20220420151342.png]] 
 	- We use port 80 for EC2 instances since TLS termination happens at load balancer.
 
-## Logging
-- **Elastic Load Balancing provides access logs that capture detailed information about requests sent to your load balancer**.
--  Each log contains information such as the time the request was received, the client's IP address, latencies, request paths, and server responses. You can use these access logs to **analyse traffic patterns** and **troubleshoot issues**.
--   Access logging is an optional feature of Elastic Load Balancing that is **disabled by default**.
--   After you enable access logging for your load balancer, Elastic Load Balancing **captures the logs and stores them in the Amazon S3 bucket** that you specify as **compressed files**. You can disable access logging at any time.
-
 ## SSL/TLS
 - Traffic is encrypted between the client and the load balancer.
 - **TLS** is the **newer** version of SSL. To remember T > S. 
@@ -37,6 +31,21 @@ updated: 2023-02-26 09:47
 - **Server name indication**.
 - It solves the critical problem of **loading multiple SSL certs onto one web server**.
 	- ![[attachments/Pasted image 20220420161151.png]]
-- Supported by *ALB* and *NLB*. Not supported by CLB. For SNI in CLB we have to use CloudFront distribution.
-- In order to use SNI, all you need to do is *bind multiple certificates to the same secure listener on your load balancer*. ALB will *automatically choose the optimal TLS certificate* for each client.
-- Wildcard certificates can only handle sub domains and not domains.
+- Supported by **ALB**, **NLB** and **CloudFront**. 
+	- Not supported by CLB. For SNI in CLB we have to use CloudFront distribution.
+- In order to use SNI, all you need to do is *bind multiple certificates to the same secure listener on your load balancer*. 
+	- ALB will *automatically choose the optimal TLS certificate* for each client.
+
+> [!note] *Wildcard certificates* can *only handle sub domains* and NOT domains.
+
+## Health Checks
+- Target Health Statuses
+	- *Initial*: registering the target
+	- Healthy
+	- Unhealthy
+	- *Unused*: *target is not registered*
+	- Draining: de-registering the target
+	- **Unavailable**: **health checks disabled**
+
+> [!note]- If a *target group* contains *only unhealthy targets*, ELB routes requests **across its unhealthy targets**.
+> This is done assuming the health check has been wrongly setup.

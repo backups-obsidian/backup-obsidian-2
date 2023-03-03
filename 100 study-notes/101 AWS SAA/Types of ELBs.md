@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2023-02-26 10:02
+updated: 2023-03-03 08:00
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -67,14 +67,6 @@ updated: 2023-02-26 10:02
 > [!important]- Specifying targets based on **instance IDs** and **IP addresses**.
 > - If you specify targets using an **instance ID**, traffic is routed to instances using the **primary private IP** address specified in the primary network interface for the instance.
 > - If you specify targets using **IP addresses**, you can route traffic to an instance using **ANY private IP address** from one or more network interfaces. *This enables multiple applications on an instance to use the same port*.
-
-- Target groups **status codes**:
-	- *HTTP 403* - **Forbidden error**: *WAF* 
-	- *HTTP 500* - **Internal server error**: *network connectivity*.
-	- *HTTP 501* - Not implemented: *header with and unsupported value*.
-	- *HTTP 502* - Bad gateway: *TCP connection was closed*.
-	- **HTTP 503** - Service unavailable: *Target groups* have **no registered targets**
-	- *HTTP 504* - Gateway timeout:  
 
 ## Network Load Balancer
 

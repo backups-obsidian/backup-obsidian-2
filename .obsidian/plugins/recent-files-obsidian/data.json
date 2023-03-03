@@ -5,8 +5,100 @@
       "path": "100 study-notes/114 AWS SOA/114 AWS SOA Index.md"
     },
     {
+      "basename": "102 AWS DVA Index",
+      "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
+    },
+    {
+      "basename": "CloudFormation Advanced",
+      "path": "100 study-notes/102 AWS DVA/CloudFormation Advanced.md"
+    },
+    {
+      "basename": "CloudFormation",
+      "path": "100 study-notes/102 AWS DVA/CloudFormation.md"
+    },
+    {
+      "basename": "ASG",
+      "path": "100 study-notes/101 AWS SAA/ASG.md"
+    },
+    {
+      "basename": "Termination Policy & Life Cycle Hooks",
+      "path": "100 study-notes/101 AWS SAA/Termination Policy & Life Cycle Hooks.md"
+    },
+    {
+      "basename": "ELB SOA",
+      "path": "100 study-notes/114 AWS SOA/ELB SOA.md"
+    },
+    {
+      "basename": "ASG SOA",
+      "path": "100 study-notes/114 AWS SOA/ASG SOA.md"
+    },
+    {
+      "basename": "Scaling Policies",
+      "path": "100 study-notes/101 AWS SAA/Scaling Policies.md"
+    },
+    {
+      "basename": "101 AWS SAA Index",
+      "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
+    },
+    {
+      "basename": "ELB Monitoring and Troubleshooting",
+      "path": "100 study-notes/114 AWS SOA/ELB Monitoring and Troubleshooting.md"
+    },
+    {
+      "basename": "Types of ELBs",
+      "path": "100 study-notes/101 AWS SAA/Types of ELBs.md"
+    },
+    {
+      "basename": "Lambda",
+      "path": "100 study-notes/101 AWS SAA/Lambda.md"
+    },
+    {
+      "basename": "ElasticBeanstalk SOA",
+      "path": "100 study-notes/114 AWS SOA/ElasticBeanstalk SOA.md"
+    },
+    {
+      "basename": "ElasticBeanstalk",
+      "path": "100 study-notes/101 AWS SAA/ElasticBeanstalk.md"
+    },
+    {
+      "basename": "ELB",
+      "path": "100 study-notes/101 AWS SAA/ELB.md"
+    },
+    {
+      "basename": "Stickiness, Cross zone balancing & Connection Draining",
+      "path": "100 study-notes/101 AWS SAA/Stickiness, Cross zone balancing & Connection Draining.md"
+    },
+    {
+      "basename": "SSM Documents",
+      "path": "100 study-notes/114 AWS SOA/SSM Documents.md"
+    },
+    {
       "basename": "Systems Manager (SSM)",
       "path": "100 study-notes/114 AWS SOA/Systems Manager (SSM).md"
+    },
+    {
+      "basename": "SSM Session Manager",
+      "path": "100 study-notes/114 AWS SOA/SSM Session Manager.md"
+    },
+    {
+      "basename": "SSM Patch Manager",
+      "path": "100 study-notes/114 AWS SOA/SSM Patch Manager.md"
+    },
+    {
+      "basename": "SSM Inventory",
+      "path": "100 study-notes/114 AWS SOA/SSM Inventory.md"
+    },
+    {
+      "basename": "SSM State Manager",
+      "path": "100 study-notes/114 AWS SOA/SSM State Manager.md"
+    },
+    {
+      "basename": "SSM Parameter Store",
+      "path": "100 study-notes/101 AWS SAA/SSM Parameter Store.md"
+    },
+    {
+      "basename": "SSM Automations",
+      "path": "100 study-notes/114 AWS SOA/SSM Automations.md"
     },
     {
       "basename": "AMI - SOA",
@@ -17,20 +109,12 @@
       "path": "100 study-notes/101 AWS SAA/EC2 AMI.md"
     },
     {
-      "basename": "101 AWS SAA Index",
-      "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
-    },
-    {
       "basename": "EC2 Burstable Instances",
       "path": "100 study-notes/114 AWS SOA/EC2 Burstable Instances.md"
     },
     {
       "basename": "EC2 Troubleshooting",
       "path": "100 study-notes/114 AWS SOA/EC2 Troubleshooting.md"
-    },
-    {
-      "basename": "102 AWS DVA Index",
-      "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
     },
     {
       "basename": "EC2 - SOA",
@@ -93,10 +177,6 @@
       "path": "100 study-notes/102 AWS DVA/Lambda Advanced.md"
     },
     {
-      "basename": "Lambda",
-      "path": "100 study-notes/101 AWS SAA/Lambda.md"
-    },
-    {
       "basename": "Lambda Miscellaneous",
       "path": "100 study-notes/102 AWS DVA/Lambda Miscellaneous.md"
     },
@@ -119,86 +199,6 @@
     {
       "basename": "Lambda Synchronous Invocation",
       "path": "100 study-notes/102 AWS DVA/Lambda Synchronous Invocation.md"
-    },
-    {
-      "basename": "CloudFront Advanced",
-      "path": "100 study-notes/101 AWS SAA/CloudFront Advanced.md"
-    },
-    {
-      "basename": "EventBridge",
-      "path": "100 study-notes/101 AWS SAA/EventBridge.md"
-    },
-    {
-      "basename": "CloudFormation Advanced",
-      "path": "100 study-notes/102 AWS DVA/CloudFormation Advanced.md"
-    },
-    {
-      "basename": "CodeArtifact",
-      "path": "100 study-notes/102 AWS DVA/CodeArtifact.md"
-    },
-    {
-      "basename": "Copilot",
-      "path": "100 study-notes/102 AWS DVA/Copilot.md"
-    },
-    {
-      "basename": "S3 Object Metadata and Tags",
-      "path": "100 study-notes/102 AWS DVA/S3 Object Metadata and Tags.md"
-    },
-    {
-      "basename": "RDS Proxy",
-      "path": "100 study-notes/102 AWS DVA/RDS Proxy.md"
-    },
-    {
-      "basename": "ASG - Instance Refresh",
-      "path": "100 study-notes/102 AWS DVA/ASG - Instance Refresh.md"
-    },
-    {
-      "basename": "Kinesis DVA",
-      "path": "100 study-notes/102 AWS DVA/Kinesis DVA.md"
-    },
-    {
-      "basename": "Kinesis",
-      "path": "100 study-notes/101 AWS SAA/Kinesis.md"
-    },
-    {
-      "basename": "SNS",
-      "path": "100 study-notes/101 AWS SAA/SNS.md"
-    },
-    {
-      "basename": "SQS DVA",
-      "path": "100 study-notes/102 AWS DVA/SQS DVA.md"
-    },
-    {
-      "basename": "SQS",
-      "path": "100 study-notes/101 AWS SAA/SQS.md"
-    },
-    {
-      "basename": "CloudTrail",
-      "path": "100 study-notes/101 AWS SAA/CloudTrail.md"
-    },
-    {
-      "basename": "X-Ray Advanced",
-      "path": "100 study-notes/102 AWS DVA/X-Ray Advanced.md"
-    },
-    {
-      "basename": "X-Ray",
-      "path": "100 study-notes/102 AWS DVA/X-Ray.md"
-    },
-    {
-      "basename": "Stickiness, Cross zone balancing & Connection Draining",
-      "path": "100 study-notes/101 AWS SAA/Stickiness, Cross zone balancing & Connection Draining.md"
-    },
-    {
-      "basename": "CloudFormation RollBacks",
-      "path": "100 study-notes/102 AWS DVA/CloudFormation RollBacks.md"
-    },
-    {
-      "basename": "CloudFormation Intrinsic Functions",
-      "path": "100 study-notes/102 AWS DVA/CloudFormation Intrinsic Functions.md"
-    },
-    {
-      "basename": "CloudFormation Template Components",
-      "path": "100 study-notes/102 AWS DVA/CloudFormation Template Components.md"
     }
   ],
   "omittedPaths": [],

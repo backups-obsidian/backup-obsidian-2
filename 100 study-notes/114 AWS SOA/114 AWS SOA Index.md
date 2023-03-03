@@ -1,6 +1,6 @@
 ---
 created: 2023-03-01 15:32
-updated: 2023-03-02 13:07
+updated: 2023-03-03 09:14
 ---
 ---
 **Links**: [[../100 home | 100 Home]]
@@ -26,8 +26,41 @@ updated: 2023-03-02 13:07
 
 ## Systems Manager (SSM)
 [[Systems Manager (SSM)]]
+[[SSM Documents]]
+[[SSM Automations]]
+[[../101 AWS SAA/SSM Parameter Store | SSM Parameter Store]]
+[[SSM Inventory]]
+[[SSM State Manager]]
+[[SSM Patch Manager]]
+[[SSM Session Manager]]
+
+- **OpsWorks** is for using **managed** *chef (Recipes)* or *Puppet (manifests)* on AWS.
+	- It is an alternative to SSM.
+
+## ELB
+[[../101 AWS SAA/ELB | ELB]]
+[[../101 AWS SAA/Types of ELBs | Types of ELBs]]
+[[../101 AWS SAA/Stickiness, Cross zone balancing & Connection Draining | Stickiness, Cross zone balancing & Connection Draining]]
+[[ELB Monitoring and Troubleshooting]]
+[[ELB SOA]]
+
+## ASG
+[[../101 AWS SAA/ASG | ASG]]
+[[../101 AWS SAA/Launch Configuration-Template | Launch Configuration and Template]]
+[[../101 AWS SAA/Scaling Policies | Scaling Policies]]
+[[../101 AWS SAA/Termination Policy & Life Cycle Hooks#Life cycle hooks | Life cycle hooks]]
+[[ASG SOA]]
 
 ## ElasticBeanstalk
+[[ElasticBeanstalk SOA]]
+
+## CloudFormation
+[[../102 AWS DVA/CloudFormation | CloudFormation]]
+[[../102 AWS DVA/CloudFormation Template Components | CloudFormation Template Components]]
+
+
+## Lambda
+[[../101 AWS SAA/Lambda | Lambda]]
 
 ## Monitoring
 [[../101 AWS SAA/CloudWatch | CloudWatch]]
