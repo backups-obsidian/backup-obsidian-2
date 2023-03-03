@@ -1,12 +1,11 @@
 ---
 created: 2022-04-20 19:48
-updated: 2022-05-05 19:21
+updated: 2023-03-03 08:46
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
 
 ---
-
 ## Dynamic Scaling Policies
 - It is of 3 types: **target tracking**, **step** and **simple**
 
@@ -20,6 +19,9 @@ updated: 2022-05-05 19:21
 > [!example] I want the average ASG CPU to stay at around 40%
 
 - If you are scaling based on a utilisation metric that increases or decreases proportionally to the number of instances in an Auto Scaling group, then it is recommended that you use target tracking scaling policies. Otherwise, it is better to use step scaling policies instead.
+
+- Alarms are automatically created by target tracking policy.
+	- One for scaling in and other for scaling out.
 
 ### Step Scaling
 - It increases or decreases the current capacity of the group based on a **set of scaling adjustments**, known as *step adjustments*, that vary based on the size of the alarm breach.
@@ -43,6 +45,7 @@ updated: 2022-05-05 19:21
 ## Forecasted Scaling
 - **ML Driven**
 - **Predictive scaling** to continuously forecast load and schedule scaling ahead.
+- Requires some data initially to start predicting.
 
 ## Scaling Cooldowns
 - There is a **default scaling cool down (300s)** after every scaling event in order to **stabilise the metrics**.
@@ -50,5 +53,7 @@ updated: 2022-05-05 19:21
 
 > [!tip] Use a *ready-to-use AMI* to reduce configuration time in order to be serving request fasters and reduce the cooldown period.
 
-
-
+## Predefined metrics for EC2 scaling
+- **CPUUtilisation**: Average CPU utilisation across your instances
+- **RequestCountPerTarget**: to make sure the *number of requests per EC2* instances is stable.
+- **Average Network In / Out**: if you're application is *network bound*
