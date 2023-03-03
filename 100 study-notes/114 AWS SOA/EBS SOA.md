@@ -1,6 +1,6 @@
 ---
 created: 2023-03-03 15:30
-updated: 2023-03-03 15:49
+updated: 2023-03-03 16:37
 ---
 ---
 **Links**: [[114 AWS SOA Index]]
@@ -14,7 +14,7 @@ updated: 2023-03-03 15:49
 	- There are 3 stages: *modifying, optimising, completed*.
 
 > [!note]- We *CANNOT decrease* the size of an EBS volume.
-> We can create a smaller volume and then migrate the data.
+> We can create a smaller volume and then *migrate* the data.
 
 ## Fast Snapshot Restore (FSR)
 - EBS Snapshots stored in S3

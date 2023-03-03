@@ -1,11 +1,12 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-05-05 16:26
+updated: 2023-03-03 16:38
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
 
 ---
+## EFS
 - It is a **managed** and **shared NFS (network file system)** 
 - It can be **mounted on many EC2 across AZs** (shared component). EBS was locked in a single AZ. This means **EFS is a regional service**.
 - It is quite expensive as compared to EBS volumes. It is *3 times the cost of a gp2 drive*.
@@ -30,20 +31,32 @@ updated: 2022-05-05 16:26
 - Use an *lAM policy* to control access for clients who can mount your file system with the required permissions.
 - Data is *encrypted in transit and at rest*.
 - You can connect to Amazon EFS file systems from EC2 instances in other AWS regions using an inter-region VPC peering connection, and from on-premises servers using an AWS VPN connection
-
-- **Storage tiers**: If the file has not been accessed for **N days** (generally 7) then it will be moved from standard to infrequent access
-	- *Standard*: For frequently accessed file.
-	- Infrequent access (*EFS - IA*): cost to retrieve, lower cost to store.
-
 - EFS can scale to *petabyte storage automatically* and support 1000 NFS clients concurrently.
 
-- **Performance mode**: Set at the time of EFS creation. **Defaults to General Purpose**.
+### Different options for EFS
+#### Storage tiers
+- If the file has not been accessed for **N days** (generally 7) then it will be moved from standard to infrequent access
+- Different storage tiers are:
+	- *Standard*: For frequently accessed file.
+	- Infrequent access (*EFS - IA*): cost to retrieve, lower cost to store.
+		- To use EFS-IA we **must use a lifecycle policy**.
+
+#### Availability and durability
+- *Standard*: *Multi AZ*, great for *prod*.
+- *One Zone*: Only in 1 AZ, *dev*, we get 90% *cost savings*.
+
+#### Performance Mode
+-  Set at the time of EFS creation. 
+- **Defaults to General Purpose**.
+- Different performance modes are: 
 	- *General purpose*: **latency sensitive** use cases. *Web servers*, *CMS*.
-	- *Max IO*: -   **High latency**. 
+	- *Max IO*: **High latency**. 
 		- Max I/O performance mode is used to scale to higher levels of **aggregate throughput** and operations per second. This *scaling is done with a tradeoff of slightly higher latencies* for file metadata operations. **Highly parallelised applications** and workloads, such as **big data analysis, media processing**, and genomic analysis, can benefit from this mode. 
 		- Suitable for *high frequency read and write operations*.
 
-- **Throughput mode**: **Defaults to bursting**.
+#### Throughput mode
+- **Defaults to bursting**
+- Different throughput modes are:
 	- **Bursting**: *File-based workloads* are typically *spiky*, driving high levels of throughput for short periods of time, and low levels of throughput the rest of the time
 	- **Provisioned**: *high frequency reading and writing*, better performance than bursting.
 

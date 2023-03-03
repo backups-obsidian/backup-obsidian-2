@@ -1,6 +1,6 @@
 ---
 created: 2023-03-01 15:32
-updated: 2023-03-03 15:30
+updated: 2023-03-03 16:15
 ---
 ---
 **Links**: [[../100 home | 100 Home]]
@@ -79,6 +79,7 @@ updated: 2023-03-03 15:30
 [[../101 AWS SAA/Instance store | Instance Store]]
 [[EBS SOA]]
 [[../101 AWS SAA/EFS | EFS]]
+[[EFS SOA]]
 
 ## Monitoring
 [[../101 AWS SAA/CloudWatch | CloudWatch]]
