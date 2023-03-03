@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 10:02
-updated: 2022-05-02 13:21
+updated: 2023-03-03 09:35
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -43,6 +43,8 @@ updated: 2022-05-02 13:21
 > [!caution] EC2 User Data script **runs with the root user**. Any command you have in there will have sudo rights.
 
 > [!tip] You need to have the following at the beginning of you script `#!/bin/bash`
+
+> [!note] User data script log is in `/var/log/cloud-init-output.log`
 
 ## Instance Types
 - **7** types of instances

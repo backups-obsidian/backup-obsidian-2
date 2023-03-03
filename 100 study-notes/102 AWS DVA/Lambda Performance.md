@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 12:39
-updated: 2023-02-19 09:18
+updated: 2023-03-03 13:00
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -28,7 +28,8 @@ updated: 2023-02-19 09:18
 	- This is great if you have to download file for each invocation.
 	- If your Lambda function needs to *download a big file to work*
 	- If your Lambda function needs *disk space to perform operations*
-	- Max size is **512MB**
+	- *Default size* is **512MB**
+		- *Max size is 10GB*.
 	- The *directory content remains when the execution context is frozen*, providing **transient cache** that can be used for multiple invocations (helpful to *checkpoint your work*)
 	- For *permanent persistence* of object (non temporary), *use S3*
 

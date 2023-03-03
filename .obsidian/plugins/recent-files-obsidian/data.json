@@ -5,12 +5,76 @@
       "path": "100 study-notes/114 AWS SOA/114 AWS SOA Index.md"
     },
     {
+      "basename": "EBS SOA",
+      "path": "100 study-notes/114 AWS SOA/EBS SOA.md"
+    },
+    {
+      "basename": "EC2 EBS",
+      "path": "100 study-notes/101 AWS SAA/EC2 EBS.md"
+    },
+    {
+      "basename": "Instance store",
+      "path": "100 study-notes/101 AWS SAA/Instance store.md"
+    },
+    {
+      "basename": "101 AWS SAA Index",
+      "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
+    },
+    {
       "basename": "102 AWS DVA Index",
       "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
     },
     {
+      "basename": "Lambda Monitoring",
+      "path": "100 study-notes/114 AWS SOA/Lambda Monitoring.md"
+    },
+    {
+      "basename": "Lambda Configuration & Deployments",
+      "path": "100 study-notes/102 AWS DVA/Lambda Configuration & Deployments.md"
+    },
+    {
+      "basename": "Lambda Performance",
+      "path": "100 study-notes/102 AWS DVA/Lambda Performance.md"
+    },
+    {
+      "basename": "Lambda",
+      "path": "100 study-notes/101 AWS SAA/Lambda.md"
+    },
+    {
+      "basename": "Lambda IAM Role",
+      "path": "100 study-notes/102 AWS DVA/Lambda IAM Role.md"
+    },
+    {
+      "basename": "Lambda Synchronous Invocation",
+      "path": "100 study-notes/102 AWS DVA/Lambda Synchronous Invocation.md"
+    },
+    {
+      "basename": "Lambda Advanced",
+      "path": "100 study-notes/102 AWS DVA/Lambda Advanced.md"
+    },
+    {
+      "basename": "CloudFormation RollBacks",
+      "path": "100 study-notes/102 AWS DVA/CloudFormation RollBacks.md"
+    },
+    {
+      "basename": "CloudFormation SOA",
+      "path": "100 study-notes/114 AWS SOA/CloudFormation SOA.md"
+    },
+    {
       "basename": "CloudFormation Advanced",
       "path": "100 study-notes/102 AWS DVA/CloudFormation Advanced.md"
+    },
+    {
+      "basename": "EC2 Basics",
+      "path": "100 study-notes/101 AWS SAA/EC2 Basics.md"
+    },
+    {
+      "basename": "CloudFormation Intrinsic Functions",
+      "path": "100 study-notes/102 AWS DVA/CloudFormation Intrinsic Functions.md"
+    },
+    {
+      "basename": "CloudFormation Template Components",
+      "path": "100 study-notes/102 AWS DVA/CloudFormation Template Components.md"
     },
     {
       "basename": "CloudFormation",
@@ -37,20 +101,12 @@
       "path": "100 study-notes/101 AWS SAA/Scaling Policies.md"
     },
     {
-      "basename": "101 AWS SAA Index",
-      "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
-    },
-    {
       "basename": "ELB Monitoring and Troubleshooting",
       "path": "100 study-notes/114 AWS SOA/ELB Monitoring and Troubleshooting.md"
     },
     {
       "basename": "Types of ELBs",
       "path": "100 study-notes/101 AWS SAA/Types of ELBs.md"
-    },
-    {
-      "basename": "Lambda",
-      "path": "100 study-notes/101 AWS SAA/Lambda.md"
     },
     {
       "basename": "ElasticBeanstalk SOA",
@@ -133,10 +189,6 @@
       "path": "100 study-notes/101 AWS SAA/CloudWatch.md"
     },
     {
-      "basename": "EC2 Basics",
-      "path": "100 study-notes/101 AWS SAA/EC2 Basics.md"
-    },
-    {
       "basename": "EC2 ENI",
       "path": "100 study-notes/101 AWS SAA/EC2 ENI.md"
     },
@@ -147,58 +199,6 @@
     {
       "basename": "EC2 Instance Purchasing Options",
       "path": "100 study-notes/101 AWS SAA/EC2 Instance Purchasing Options.md"
-    },
-    {
-      "basename": "EC2 Placement Groups",
-      "path": "100 study-notes/101 AWS SAA/EC2 Placement Groups.md"
-    },
-    {
-      "basename": "HPC in AWS",
-      "path": "100 study-notes/101 AWS SAA/HPC in AWS.md"
-    },
-    {
-      "basename": "AppConfig",
-      "path": "100 study-notes/102 AWS DVA/AppConfig.md"
-    },
-    {
-      "basename": "S3 Miscellaneous",
-      "path": "100 study-notes/101 AWS SAA/S3 Miscellaneous.md"
-    },
-    {
-      "basename": "CDK",
-      "path": "100 study-notes/102 AWS DVA/CDK.md"
-    },
-    {
-      "basename": "SAM",
-      "path": "100 study-notes/102 AWS DVA/SAM.md"
-    },
-    {
-      "basename": "Lambda Advanced",
-      "path": "100 study-notes/102 AWS DVA/Lambda Advanced.md"
-    },
-    {
-      "basename": "Lambda Miscellaneous",
-      "path": "100 study-notes/102 AWS DVA/Lambda Miscellaneous.md"
-    },
-    {
-      "basename": "CloudFront DVA",
-      "path": "100 study-notes/102 AWS DVA/CloudFront DVA.md"
-    },
-    {
-      "basename": "TODO",
-      "path": "TODO.md"
-    },
-    {
-      "basename": "Rough",
-      "path": "600 rough/Rough.md"
-    },
-    {
-      "basename": "Lambda Configuration & Deployments",
-      "path": "100 study-notes/102 AWS DVA/Lambda Configuration & Deployments.md"
-    },
-    {
-      "basename": "Lambda Synchronous Invocation",
-      "path": "100 study-notes/102 AWS DVA/Lambda Synchronous Invocation.md"
     }
   ],
   "omittedPaths": [],

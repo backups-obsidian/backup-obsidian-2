@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 10:04
-updated: 2023-02-26 09:19
+updated: 2023-03-03 15:52
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -71,6 +71,11 @@ updated: 2023-02-26 09:19
 - Although EBS volumes are incremental you can *delete previous EBS snapshots* to clear up space and *AWS will make sure that no data is lost*.
 - *EBS snapshot archive*:
 	- Move a snapshot to **archive tier** that is 75% cheaper.
+	- *Takes 24 to 72 hours* to restore from the archive.
+- By default when we delete snapshots they are gone but we can setup a *recycle bin*.
+	- Recycle bin will have all the delete snapshots.
+	- Setup rules to retain deleted snapshots so you can recover them after an accidental deletion
+	- We can specify retention period after which they will be deleted (from 1 day to 1 year)
 
 #### Amazon DLM
 - Amazon Data Lifecycle Manager (**Amazon DLM**) automates the **creation**, **retention**, and **deletion of snapshots** taken to back up your Amazon EBS volumes.
