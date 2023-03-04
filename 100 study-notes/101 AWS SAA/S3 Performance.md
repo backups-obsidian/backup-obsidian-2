@@ -1,6 +1,6 @@
 ---
 created: 2022-04-23 10:36
-updated: 2023-02-18 09:32
+updated: 2023-03-04 09:20
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -28,9 +28,15 @@ updated: 2023-02-18 09:32
 	- There is a KMS quota of number of requests per second per region
 	- We would have to request a quota increase.
 
-## Multi part
--   It is **recommend** to use multi part download for files **over 100mb**. **Mandatory** for files over **5Gb**
--   **Multipart downloads happen in parallel** there by increasing the speed.
+## Multi Part
+- It is **recommend** to use multi part download for files **over 100mb**. **Mandatory** for files over **5Gb**
+- **Multipart downloads happen in parallel** there by increasing the speed.
+- It can be used for **uploads** also.
+	- We can *parallelise the uploads*.
+	- Max parts 10000
+	- *Failures*: restart **uploading ONLY failed parts** (improves performance)
+	- We can use **Lifecycle Policy** to *automate old parts deletion* of unfinished upload after x days.
+	- We can *only use the CLI (`s3api`) or SDK*.
 
 ## Transfer Acceleration
 - **Increase transfer speed** by *sending the file to AWS edge location* and then sending the file to S3 bucket in the target region.
@@ -55,8 +61,8 @@ updated: 2023-02-18 09:32
 
 ## Byte Range Fetches
 - **Parallelising get requests** by requesting specific byte ranges.
-- Can be used to speed up downloads
-- Can be used to *retrieve only partial data* (for example the head of a file)
+- Can be **used to speed up downloads**
+- Can be used to **retrieve only partial data** (for example the head of a file)
 
 > [!note]- You can use *concurrent connections* to Amazon S3 to fetch different byte ranges from within the same object. **No need to go through object one by one**.
 > This means *Create an application that will traverse the S3 bucket, issue a Byte Range Fetch for the first 250 bytes, and store that information in RDS* over *Create an application that will traverse the S3 bucket, read all the files one by one, extract the first 250 bytes, and store that information in RDS*

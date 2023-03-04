@@ -1,6 +1,6 @@
 ---
 created: 2022-04-23 15:21
-updated: 2023-03-01 19:26
+updated: 2023-03-04 09:14
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -18,10 +18,11 @@ updated: 2023-03-01 19:26
 - Whenever we perform some activity on S3 event notifications are generated if enabled. Like object removed, object added etc
 - We can also filter these events for a particular file type.
 - An example **use case** is generating *thumbnails from images when they are uploaded to S3*.
-- The **target listeners** (**only 3**) to these events can be 
+- The **target listeners** (**only 4**) to these events can be 
 	- *SQS* 
 	- *SNS* 
-	- *Lambda functions*.
+	- *Lambda functions*
+	- **Event Bridge**
 
 - Generally the notifications are delivered in a second but sometimes it can take minutes
 
@@ -31,6 +32,34 @@ updated: 2023-03-01 19:26
 > If two writes are made to a single non-versioned object at the same time, it is possible that only a single event notification will be sent. Solution is to enable versioning.
 
 > [!caution] Only normal SQS is allowed. **SQS FIFO is NOT allowed**.
+
+## S3 Inventory
+- **List objects and their corresponding metadata** 
+	- Alternative to S3 List API operation
+- Usage examples: 
+	- *Audit and report on the replication and encryption status of your objects*
+	- Get the *number of objects in an S3 bucket*
+	- Identify the total storage of previous object versions
+- Output files: CSV, ORC, or Apache Parquet
+- We can generate *daily or weekly reports*.
+- You can query all the data using Amazon Athena, Redshift, Presto, Hive, Spark, etc.
+- You can *filter generated report using S3 Select*
+- Use cases: *Business*, *Compliance*, Regulatory needs,
+
+## S3 Batch Operations
+- **Perform bulk operations on existing S3 objects** with a *single request*, example:
+	- Modify object metadata & properties
+	- *Copy objects between S3 buckets*
+	- **Encrypt un-encrypted objects**
+	- Modify ACLs, tags
+	- Restore objects from S3 Glacier
+	- Invoke Lambda function to perform custom action on each object
+
+- A job consists of a list of objects, the *action* to perform, and optional *parameters*.
+- *Why use S3 Batch Operations vs scripting it ourselves*? 
+	- S3 Batch Operations *manages retries*, *tracks progress*, sends completion notifications, generate reports, etc.
+- We use **S3 Inventory to generate a list of objects** and use **S3 Select to filter the objects**.
+	- ![[attachments/Pasted image 20230304084358.png]]
 
 ## Requester Pays
 - In **general** S3 *bucket owners pay for the storage and data transfer costs*.
@@ -52,6 +81,7 @@ updated: 2023-03-01 19:26
 - Adopt a **WORM (write once read many)** model.
 - It is helpful for **compliance** and at **data retention**
 - An object would go in the glacier and you will add a glacier vault lock policy saying that the **object cannot be deleted** and the **policy** itself **cannot be deleted**.
+- More information on [[S3 Storage Classes#Vault policies and Vault lock | Vault Lock]]
 
 > [!note] A vault is a container for *storing archives on Glacier*. Vault Lock is *only for Glacier and not for S3*.
 

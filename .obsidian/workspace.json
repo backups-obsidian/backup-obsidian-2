@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 study-notes/114 AWS SOA/EFS SOA.md",
+                "file": "100 study-notes/101 AWS SAA/S3 Miscellaneous.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -156,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/114 AWS SOA/EFS SOA.md",
+                "file": "100 study-notes/101 AWS SAA/S3 Miscellaneous.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/114 AWS SOA/EFS SOA.md"
+                "file": "100 study-notes/101 AWS SAA/S3 Miscellaneous.md"
               }
             }
           },
@@ -183,7 +183,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/114 AWS SOA/EFS SOA.md",
+                "file": "100 study-notes/101 AWS SAA/S3 Miscellaneous.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -252,14 +252,14 @@
   "active": "29427001f91bc29e",
   "lastOpenFiles": [
     "100 study-notes/114 AWS SOA/114 AWS SOA Index.md",
-    "100 study-notes/101 AWS SAA/EFS.md",
-    "100 study-notes/114 AWS SOA/EBS SOA.md",
-    "100 study-notes/101 AWS SAA/EC2 EBS.md",
-    "100 study-notes/114 AWS SOA/EFS SOA.md",
-    "100 study-notes/101 AWS SAA/Instance store.md",
-    "100 study-notes/101 AWS SAA/101 AWS SAA Index.md",
+    "100 study-notes/101 AWS SAA/S3 Performance.md",
+    "100 study-notes/101 AWS SAA/S3.md",
+    "100 study-notes/101 AWS SAA/S3 Miscellaneous.md",
+    "100 study-notes/101 AWS SAA/S3 Storage Classes.md",
     "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
-    "100 study-notes/114 AWS SOA/Lambda Monitoring.md",
-    "100 study-notes/102 AWS DVA/Lambda Configuration & Deployments.md"
+    "100 study-notes/101 AWS SAA/EventBridge.md",
+    "100 study-notes/101 AWS SAA/S3 Lifecycle Rules.md",
+    "100 study-notes/101 AWS SAA/S3 Replication.md",
+    "100 study-notes/114 AWS SOA/EFS SOA.md"
   ]
 }

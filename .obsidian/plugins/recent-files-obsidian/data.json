@@ -1,12 +1,44 @@
 {
   "recentFiles": [
     {
-      "basename": "EFS SOA",
-      "path": "100 study-notes/114 AWS SOA/EFS SOA.md"
+      "basename": "S3 Miscellaneous",
+      "path": "100 study-notes/101 AWS SAA/S3 Miscellaneous.md"
     },
     {
       "basename": "114 AWS SOA Index",
       "path": "100 study-notes/114 AWS SOA/114 AWS SOA Index.md"
+    },
+    {
+      "basename": "S3 Performance",
+      "path": "100 study-notes/101 AWS SAA/S3 Performance.md"
+    },
+    {
+      "basename": "S3",
+      "path": "100 study-notes/101 AWS SAA/S3.md"
+    },
+    {
+      "basename": "S3 Storage Classes",
+      "path": "100 study-notes/101 AWS SAA/S3 Storage Classes.md"
+    },
+    {
+      "basename": "102 AWS DVA Index",
+      "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
+    },
+    {
+      "basename": "EventBridge",
+      "path": "100 study-notes/101 AWS SAA/EventBridge.md"
+    },
+    {
+      "basename": "S3 Lifecycle Rules",
+      "path": "100 study-notes/101 AWS SAA/S3 Lifecycle Rules.md"
+    },
+    {
+      "basename": "S3 Replication",
+      "path": "100 study-notes/101 AWS SAA/S3 Replication.md"
+    },
+    {
+      "basename": "EFS SOA",
+      "path": "100 study-notes/114 AWS SOA/EFS SOA.md"
     },
     {
       "basename": "EFS",
@@ -27,10 +59,6 @@
     {
       "basename": "101 AWS SAA Index",
       "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
-    },
-    {
-      "basename": "102 AWS DVA Index",
-      "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
     },
     {
       "basename": "Lambda Monitoring",
@@ -171,34 +199,6 @@
     {
       "basename": "EC2 AMI",
       "path": "100 study-notes/101 AWS SAA/EC2 AMI.md"
-    },
-    {
-      "basename": "EC2 Burstable Instances",
-      "path": "100 study-notes/114 AWS SOA/EC2 Burstable Instances.md"
-    },
-    {
-      "basename": "EC2 Troubleshooting",
-      "path": "100 study-notes/114 AWS SOA/EC2 Troubleshooting.md"
-    },
-    {
-      "basename": "EC2 - SOA",
-      "path": "100 study-notes/114 AWS SOA/EC2 - SOA.md"
-    },
-    {
-      "basename": "EC2 Hibernate",
-      "path": "100 study-notes/101 AWS SAA/EC2 Hibernate.md"
-    },
-    {
-      "basename": "EC2 Status Checks",
-      "path": "100 study-notes/114 AWS SOA/EC2 Status Checks.md"
-    },
-    {
-      "basename": "CloudWatch",
-      "path": "100 study-notes/101 AWS SAA/CloudWatch.md"
-    },
-    {
-      "basename": "EC2 ENI",
-      "path": "100 study-notes/101 AWS SAA/EC2 ENI.md"
     }
   ],
   "omittedPaths": [],
