@@ -1,13 +1,13 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-05-06 08:38
+updated: 2023-03-04 08:31
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
 
 ---
 - We can transition between storage classes **but not each and every transition is possible**. Like from glacier we cannot go back to standard IA.
-	- ![[attachments/Pasted image 20220423121619.png]]
+	- ![[attachments/Pasted image 20230304082543.png]]
 	- You can only go down from a level and not up.
 	- Remember *intelligent tiering is between Standard IA and One Zone IA*.
 
@@ -22,12 +22,17 @@ updated: 2022-05-06 08:38
 
 > [!note] Data can be transitioned to *Glacier* **immediately** (0 days)
 
+> [!question]- A rule in your company states that you should be able to recover your deleted S3 objects immediately for 30 days, although this may happen rarely. After this time, and for up to 365 days, deleted objects should be recoverable within 48 hours.
+> - *Enable S3 Versioning* in order to have object versions, so that "deleted objects" are in fact hidden by a "delete marker" and can be recovered.
+> - Transition the "non-current versions" of the object to *Standard IA*
+> - Transition afterwards the "non-current versions" to *Glacier Deep Archive*
+
 
 ## Expiration Action
 - Configure **objects to delete** **after some time**.
 - **Use Cases** 
 	- *log files after 365 days* 
-	- old versions 
+	- *old versions (if versioning is enabled)*
 	- *incomplete multi part uploads*
 - Rules can be **created** for a **certain folder** (prefix). Ex: `s3://mybucket/mp3/*`
 
