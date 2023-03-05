@@ -1,36 +1,72 @@
 {
   "recentFiles": [
     {
-      "basename": "S3 Miscellaneous",
-      "path": "100 study-notes/101 AWS SAA/S3 Miscellaneous.md"
+      "basename": "CloudFront",
+      "path": "100 study-notes/101 AWS SAA/CloudFront.md"
     },
     {
       "basename": "114 AWS SOA Index",
       "path": "100 study-notes/114 AWS SOA/114 AWS SOA Index.md"
     },
     {
-      "basename": "S3 Performance",
-      "path": "100 study-notes/101 AWS SAA/S3 Performance.md"
+      "basename": "AWS FSx",
+      "path": "100 study-notes/101 AWS SAA/AWS FSx.md"
     },
     {
-      "basename": "S3",
-      "path": "100 study-notes/101 AWS SAA/S3.md"
+      "basename": "AWS Storage Gateway SOA",
+      "path": "100 study-notes/114 AWS SOA/AWS Storage Gateway SOA.md"
     },
     {
-      "basename": "S3 Storage Classes",
-      "path": "100 study-notes/101 AWS SAA/S3 Storage Classes.md"
+      "basename": "AWS Storage Gateway",
+      "path": "100 study-notes/101 AWS SAA/AWS Storage Gateway.md"
+    },
+    {
+      "basename": "101 AWS SAA Index",
+      "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
+    },
+    {
+      "basename": "AWS Snow",
+      "path": "100 study-notes/101 AWS SAA/AWS Snow.md"
     },
     {
       "basename": "102 AWS DVA Index",
       "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
     },
     {
-      "basename": "EventBridge",
-      "path": "100 study-notes/101 AWS SAA/EventBridge.md"
+      "basename": "S3",
+      "path": "100 study-notes/101 AWS SAA/S3.md"
+    },
+    {
+      "basename": "S3 Miscellaneous",
+      "path": "100 study-notes/101 AWS SAA/S3 Miscellaneous.md"
+    },
+    {
+      "basename": "S3 Encryption",
+      "path": "100 study-notes/101 AWS SAA/S3 Encryption.md"
+    },
+    {
+      "basename": "S3 Access Points",
+      "path": "100 study-notes/102 AWS DVA/S3 Access Points.md"
+    },
+    {
+      "basename": "S3 Storage Classes",
+      "path": "100 study-notes/101 AWS SAA/S3 Storage Classes.md"
+    },
+    {
+      "basename": "S3 Performance",
+      "path": "100 study-notes/101 AWS SAA/S3 Performance.md"
+    },
+    {
+      "basename": "S3 Websites",
+      "path": "100 study-notes/101 AWS SAA/S3 Websites.md"
     },
     {
       "basename": "S3 Lifecycle Rules",
       "path": "100 study-notes/101 AWS SAA/S3 Lifecycle Rules.md"
+    },
+    {
+      "basename": "EventBridge",
+      "path": "100 study-notes/101 AWS SAA/EventBridge.md"
     },
     {
       "basename": "S3 Replication",
@@ -55,10 +91,6 @@
     {
       "basename": "Instance store",
       "path": "100 study-notes/101 AWS SAA/Instance store.md"
-    },
-    {
-      "basename": "101 AWS SAA Index",
-      "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
     },
     {
       "basename": "Lambda Monitoring",
@@ -167,38 +199,6 @@
     {
       "basename": "Systems Manager (SSM)",
       "path": "100 study-notes/114 AWS SOA/Systems Manager (SSM).md"
-    },
-    {
-      "basename": "SSM Session Manager",
-      "path": "100 study-notes/114 AWS SOA/SSM Session Manager.md"
-    },
-    {
-      "basename": "SSM Patch Manager",
-      "path": "100 study-notes/114 AWS SOA/SSM Patch Manager.md"
-    },
-    {
-      "basename": "SSM Inventory",
-      "path": "100 study-notes/114 AWS SOA/SSM Inventory.md"
-    },
-    {
-      "basename": "SSM State Manager",
-      "path": "100 study-notes/114 AWS SOA/SSM State Manager.md"
-    },
-    {
-      "basename": "SSM Parameter Store",
-      "path": "100 study-notes/101 AWS SAA/SSM Parameter Store.md"
-    },
-    {
-      "basename": "SSM Automations",
-      "path": "100 study-notes/114 AWS SOA/SSM Automations.md"
-    },
-    {
-      "basename": "AMI - SOA",
-      "path": "100 study-notes/114 AWS SOA/AMI - SOA.md"
-    },
-    {
-      "basename": "EC2 AMI",
-      "path": "100 study-notes/101 AWS SAA/EC2 AMI.md"
     }
   ],
   "omittedPaths": [],
