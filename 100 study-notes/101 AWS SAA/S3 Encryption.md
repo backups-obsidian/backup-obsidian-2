@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2023-02-26 12:17
+updated: 2023-03-04 10:12
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -22,6 +22,8 @@ updated: 2023-02-26 12:17
 - To use this you must use the following **header**: `“x-amz-server-side-encryption”:”AES256”`
 - You have no control over the keys or any kind of audit trail.
 
+> [!note]- Enabled by *default for new buckets and new objects*.
+
 ### SSE - KMS
 - Keys are **handled** and **managed** by AWS [[KMS]].
 - We can use the following *keys*:
@@ -42,6 +44,13 @@ updated: 2023-02-26 12:17
 > If you see terms like *audit trail*, *envelope encryption*, *automatic key rotation*. 
 
 > [!caution] **Metadata**, which can be included with the object, is **not encrypted by any encryption method** while being stored on Amazon S3. Therefore, AWS recommends that *customers not place sensitive information in Amazon S3 metadata*.
+
+- **SSE KMS limits**:
+	- If you use SSE-KMS, you may be *impacted by the KMS limits*
+	- When you *upload*, it calls the `GenerateDataKey` KMS API
+	- When you *download*, it calls the `Decrypt` KMS API
+	- **These count towards the KMS quota per second** (5500, 10000, 30000 req/s based on region)
+	- You can request a quota increase using the *Service Quotas Console*
 
 ### SSE - C
 - Keys are **handled** and **managed** by **customer outside** of AWS
@@ -69,3 +78,8 @@ updated: 2023-02-26 12:17
 
 > [!note]- There is no auditing when we use client side encryption with client keys. 
 > If the question mentions auditing in client side encryption then go for KMS key.
+
+## Miscellaneous
+- Optionally, we can *force encryption* using a *bucket policy* and refuse any API call to *PUT an S3 object without encryption headers* (SSE-KMS or SSE-C)
+
+> [!caution]- *Bucket Policies* are evaluated *before Default Encryption*

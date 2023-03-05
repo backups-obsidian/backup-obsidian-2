@@ -1,6 +1,6 @@
 ---
 created: 2022-04-23 15:21
-updated: 2023-03-04 09:14
+updated: 2023-03-04 10:35
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -37,8 +37,8 @@ updated: 2023-03-04 09:14
 - **List objects and their corresponding metadata** 
 	- Alternative to S3 List API operation
 - Usage examples: 
-	- *Audit and report on the replication and encryption status of your objects*
-	- Get the *number of objects in an S3 bucket*
+	- **Audit and report on the replication and encryption status of your objects**
+	- Get the **number of objects in an S3 bucket**
 	- Identify the total storage of previous object versions
 - Output files: CSV, ORC, or Apache Parquet
 - We can generate *daily or weekly reports*.
@@ -72,15 +72,26 @@ updated: 2023-03-04 09:14
 - We use **SQL** to query these files.
 - Athena is built on the **Presto engine**.
 - *Reporting* can be done using *Amazon QuickSight*.
-- Use case: *analytics*, *BI*, *analyse logs*(VPC flow logs, CloudTrail trails)
+- Use case: *analytics*, *BI*, **analyse logs**(VPC flow logs, CloudTrail trails)
 - It is much **cheaper** than Redshift and EMR.
+	- We **pay per TB of data scanned**.
 
 > [!tip] Go for Athena if you see keywords like *cost effective*, *easiest*, *quickly*, *serverless* (minimise operational overhead), *adhoc*
+
+### Athena Performance Improvement
+- Since we pay for per TB of data scanned, we *need to scan less data*.
+	- We use a **columnar data** for cost savings (less scan)
+	- **Apache Parquet** and **ORC** are the *recommended formats*.
+- We can use **glue** to *convert the data* in Apache Parquet or the ORC format.
+- **Compress the data** for smaller retrievals.
+- **Partition datasets** in S3 for easy querying on virtual columns
+	- ![[attachments/Pasted image 20230304094905.png]]
+- **Use larger files** (> 128 MB) to minimise overhead.
 
 ## Glacier Vault Lock
 - Adopt a **WORM (write once read many)** model.
 - It is helpful for **compliance** and at **data retention**
-- An object would go in the glacier and you will add a glacier vault lock policy saying that the **object cannot be deleted** and the **policy** itself **cannot be deleted**.
+- An object would go in the glacier and you will add a glacier vault lock policy saying that the **object CANNOT be deleted** and the **policy** itself **CANNOT be deleted**.
 - More information on [[S3 Storage Classes#Vault policies and Vault lock | Vault Lock]]
 
 > [!note] A vault is a container for *storing archives on Glacier*. Vault Lock is *only for Glacier and not for S3*.
@@ -88,18 +99,20 @@ updated: 2023-03-04 09:14
 ## S3 Object Lock
 - To use this we **must** **enable versioning**
 - It **blocks object version deletion** for a specified amount of time.
+- It is not a lock for the whole bucket, we can *adapt it for each and every object*.
 
 > [!caution] In both the locks you won't be able to upload modified versions of the object. So read the question carefully. Unless and until *compliance* is mentioned don't go for locks.
-
-- **Object Retention Period**:
-	- *Retention Period*: specifies a fixed period
-	- *Legal Hold*: same protection, *no expiry date*
 
 - **Retention Modes**:
 	- *Governance mode*: users can't overwrite or delete an object version or alter its lock settings *unless they have special permissions*.
 	- *Compliance mode*: a protected object version can't be overwritten or deleted by any user, *including the root user* in your AWS account. When an object is locked in compliance mode, its *retention mode can't be changed*, and its *retention period can't be shortened*.
 
 > [!tip] Compliance mode > Governance mode.
+
+- **Object Retention Period**:
+	- *Retention Period*: protect the object for a *fixed period*, it can be extended
+	- **Legal Hold**: **protect the object indefinitely**, independent from retention period or the retention mode.
+		- Can be *freely placed and removed* using the `s3:PutObjectLegalHold` IAM permission
 
 - When you apply a *retention period to an object version explicitly*, you specify a `Retain Until Date` for the object version.
 - *Different versions* of a single object *can have different retention modes and periods*.

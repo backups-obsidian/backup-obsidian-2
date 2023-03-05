@@ -1,6 +1,6 @@
 ---
 created: 2022-04-24 20:22
-updated: 2022-05-06 09:27
+updated: 2023-03-05 11:38
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -28,7 +28,9 @@ updated: 2022-05-06 09:27
 ## Data Transfers
 ### Snowcone
 -   It is a **small** portable rugged computing which can **withstand harsh environments**.
--   The amount of **usable data** that can be stored in it is **8TBs**.
+- Storage options
+	- Snowcone: *8 TB* of *HDD* Storage
+	- Snowcone SSD: *14TB* of *SSD* Storage
 -   It should be *used where Snowball Edge cannot be used due to space constraints*.
 -   We can send it back to **AWS offline** or **connect** it to the internet to send data via **AWS DataSync**.
 
@@ -53,12 +55,13 @@ updated: 2022-05-06 09:27
 - If you are transferring **more the 10 PBs** then you should consider **AWS Snowmobile**.
 
 ## Edge Computing
-- *Process data while it is being created at an Edge Location*. Edge location is anything that is offline and doesn’t have access to the internet.
+- *Process data while it is being created at an Edge Location*. 
+	- Edge location is anything that is offline and doesn’t have access to the internet.
 - **Use Cases**: *Preprocess data*, *Machine learning at Edge*, Transcoding media streams
 - Long term *discounted price for 1 and 3 years*.
 - *Can run EC2 Instances* & *AWS Lambda functions* (using AWS loT Greengrass)
 
-### Snowcone 
+### Snowcone & Snowcone SSD
 - 2 CPUs, 4 GB of memory, wired or wireless access
 - USB-C power using a cord or the optional battery
 

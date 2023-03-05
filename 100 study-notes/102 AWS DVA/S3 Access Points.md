@@ -1,6 +1,6 @@
 ---
 created: 2023-02-11 18:30
-updated: 2023-02-11 18:55
+updated: 2023-03-05 11:23
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -18,7 +18,8 @@ updated: 2023-02-11 18:55
 	- It simplifies security to our bucket.
 - Each *Access Point* has:
 	- Its **own DNS name** (Internet Origin or VPC Origin)
-	- An **access point policy** (*similar to bucket policy*) - manage security at scale 
+	- An **access point policy** (*similar to bucket policy*) - manage security at scale
+- We have **two policies**, *bucket policy* and the *access point policy*.
 
 ### S3 Access Points - VPC Origin
 - We can define the *access point to be accessible only from within the VPC*.
@@ -38,3 +39,10 @@ updated: 2023-02-11 18:55
 		 - ![[attachments/Pasted image 20230211185434.png]]
 	- Converting across data formats, such as converting XML to JSON.
 	- Resizing and watermarking images on the fly **using caller-specific details**, such as the user who requested the object.
+
+### Multi-Region Access Point
+- Provide a **global endpoint** that span S3 buckets in **multiple AWS regions**
+- Dynamically route requests to the *nearest S3 bucket* (**lowest latency**)
+- *Bi-directional S3 bucket replication rules* are created to keep data in sync across regions
+	- ![[attachments/Pasted image 20230305112223.png]]
+- *Failover Controls* - allows you to shift requests across S3 buckets in different AWS regions within minutes (*Active-Active* or *Active-Passive*)

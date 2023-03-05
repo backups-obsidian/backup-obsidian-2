@@ -1,6 +1,6 @@
 ---
 created: 2023-03-01 15:32
-updated: 2023-03-04 08:38
+updated: 2023-03-05 16:49
 ---
 ---
 **Links**: [[../100 home | 100 Home]]
@@ -84,11 +84,25 @@ updated: 2023-03-04 08:38
 ## S3
 [[../101 AWS SAA/S3 | S3]]
 [[../101 AWS SAA/S3 Websites | S3 Websites]]
+[[../101 AWS SAA/S3 Encryption | S3 Encryption]]
 [[../101 AWS SAA/S3 Replication | S3 Replication]]
 [[../101 AWS SAA/S3 Storage Classes | S3 Storage Classes]]
 [[../101 AWS SAA/S3 Lifecycle Rules | S3 Lifecycle Rules]]
 [[../101 AWS SAA/S3 Performance | S3 Performance]]
 [[../101 AWS SAA/S3 Miscellaneous | S3 Miscellaneous]]
+[[../102 AWS DVA/S3 Access Points | S3 Access Points]]
+
+- VPC Endpoint Gateway:
+	- ![[attachments/Pasted image 20230304103959.png]]
+
+## Advanced Storage
+[[../101 AWS SAA/AWS Snow | AWS Snow]]
+[[../101 AWS SAA/AWS FSx | AWS FSx]]
+[[../101 AWS SAA/AWS Storage Gateway | AWS Storage Gateway]]
+[[AWS Storage Gateway SOA]]
+
+## CloudFront
+[[../101 AWS SAA/CloudFront | CloudFront]]
 
 ## Monitoring
 [[../101 AWS SAA/CloudWatch | CloudWatch]]

@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 10:02
-updated: 2022-05-01 16:15
+updated: 2023-03-05 16:38
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -16,19 +16,26 @@ updated: 2022-05-01 16:15
 
 ## File Gateway
 - *Works with both* windows and linux file shares.
+
+> [!tip] Go for file gateway if see keywords like *SMB/NFS*, *cache*, *AD authentication*, *file storage*, *POSIX compliant*.
+
+### S3 file gateway
 - **Configured S3 buckets** are **accessible** using the **SMB** (*FSx windows*) and **NFS**(*EFS*) protocol.
 - Can be **Integrated with Active Directory** for User authentication.
 - Can be used with **windows file servers**.
 - Most **recently used files** are **cached**.
-- Can send to **S3**, **S3 IA**, **S3 one zone IA**. *For glacier you will need lifecycle rules* just like Snow devices.
-	- ![[attachments/Pasted image 20220424213359.png]]
+- Can send to **S3**, **S3 IA**, **S3 one zone IA** and **S3 intelligent tiering**. 
+	- *For glacier you will need lifecycle rules* just like Snow devices.
+	- ![[attachments/Pasted image 20230305134449.png]] 
 - No EBS backup like in volume gateway.
 
-> [!tip] Go for file gateway if see keywords like *SMB/NFS*, *cache*, *AD authentication*, *file storage*.
+> [!note] *S3 Glacier* and *S3 Glacier Deep Archive* are **NOT** covered by S3 file gateway.
 
 ### FSx file gateway
-- Main point is *Local cache for frequently accessed data*.
-- *Everything is same as file gateway* expect for the fact that it has *native access to Amazon FSx for Windows File Server*.
+- Main point is **Local cache for frequently accessed data**.
+- *Everything is same as s3 file gateway* expect for the fact that it has **native access to Amazon FSx for Windows File Server**.
+	- ![[attachments/Pasted image 20230305163153.png]]
+- Windows native compatibility (**SMB**, **NTFS**, Active Directory, etc)
 
 ## Volume Gateway
 - **Block storage** using **iSCSI protocol**. 
@@ -49,6 +56,9 @@ updated: 2022-05-01 16:15
 > [!tip] If question mentions backed by *S3 Glacier*, *tape* then always go for tape gateway.
 
 > [!note] Tape Gateway is the *only way of transferring data stored in tapes to AWS*. You *cannot use DataSync* since it uses SMB or NFS file types.
+
+## Summary
+![[attachments/Pasted image 20230305163643.png]]
 
 ## Required hardware
 > [!caution] **Gateway** has to run on **corporate data centres**.

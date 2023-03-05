@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2023-03-04 09:12
+updated: 2023-03-04 09:55
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -69,7 +69,9 @@ updated: 2023-03-04 09:12
 	- Download Inventory - list of archives in the vault (archive ID, creation date, size, ...)
 - *Glacier Operations*:
 	- Upload - single operation or by parts (MultiPart upload) for larger archives
-	- *Download* - *first initiate a retrieval job for the archive*, Glacier then prepares it for download. User then has a limited time to download the data from staging server.
+	- *Download* - *first initiate a retrieval job for the archive*, Glacier then prepares it for download. 
+		- **User then has a limited time to download the data before the restore link expires**. 
+		- Once the link expires we have to request another one.
 	- Delete - use Glacier Rest API or AWS SDKs by specifying archive ID
 
 ### Vault policies and Vault lock

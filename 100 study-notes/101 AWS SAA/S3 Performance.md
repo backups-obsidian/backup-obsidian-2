@@ -1,6 +1,6 @@
 ---
 created: 2022-04-23 10:36
-updated: 2023-03-04 09:20
+updated: 2023-03-04 09:53
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -37,6 +37,9 @@ updated: 2023-03-04 09:20
 	- *Failures*: restart **uploading ONLY failed parts** (improves performance)
 	- We can use **Lifecycle Policy** to *automate old parts deletion* of unfinished upload after x days.
 	- We can *only use the CLI (`s3api`) or SDK*.
+
+> [!question]- While you're uploading *large files to an S3 bucket using Multi-part Upload*, there are a lot of *unfinished parts stored in the S3 bucket due to network issues*. You are not using the unfinished parts and they cost you money. What is the best approach to remove these unfinished parts?
+> Use an *S3 Lifecycle Policy* to automate old/unfinished parts deletion.
 
 ## Transfer Acceleration
 - **Increase transfer speed** by *sending the file to AWS edge location* and then sending the file to S3 bucket in the target region.
