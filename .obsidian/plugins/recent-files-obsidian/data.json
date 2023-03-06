@@ -1,12 +1,68 @@
 {
   "recentFiles": [
     {
-      "basename": "CloudFront",
-      "path": "100 study-notes/101 AWS SAA/CloudFront.md"
+      "basename": "Aurora",
+      "path": "100 study-notes/101 AWS SAA/Aurora.md"
     },
     {
       "basename": "114 AWS SOA Index",
       "path": "100 study-notes/114 AWS SOA/114 AWS SOA Index.md"
+    },
+    {
+      "basename": "RDS SOA",
+      "path": "100 study-notes/114 AWS SOA/RDS SOA.md"
+    },
+    {
+      "basename": "RDS",
+      "path": "100 study-notes/101 AWS SAA/RDS.md"
+    },
+    {
+      "basename": "RDS Proxy",
+      "path": "100 study-notes/102 AWS DVA/RDS Proxy.md"
+    },
+    {
+      "basename": "RDS Read Replica & Multi AZ",
+      "path": "100 study-notes/101 AWS SAA/RDS Read Replica & Multi AZ.md"
+    },
+    {
+      "basename": "102 AWS DVA Index",
+      "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
+    },
+    {
+      "basename": "CloudFront SOA",
+      "path": "100 study-notes/114 AWS SOA/CloudFront SOA.md"
+    },
+    {
+      "basename": "CloudFront Caching SOA",
+      "path": "100 study-notes/114 AWS SOA/CloudFront Caching SOA.md"
+    },
+    {
+      "basename": "CloudFront DVA",
+      "path": "100 study-notes/102 AWS DVA/CloudFront DVA.md"
+    },
+    {
+      "basename": "CloudFront Advanced",
+      "path": "100 study-notes/101 AWS SAA/CloudFront Advanced.md"
+    },
+    {
+      "basename": "101 AWS SAA Index",
+      "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
+    },
+    {
+      "basename": "TODO",
+      "path": "TODO.md"
+    },
+    {
+      "basename": "Study List - Random",
+      "path": "200 general-notes/Study List - Random.md"
+    },
+    {
+      "basename": "Study List",
+      "path": "200 general-notes/Study List.md"
+    },
+    {
+      "basename": "CloudFront",
+      "path": "100 study-notes/101 AWS SAA/CloudFront.md"
     },
     {
       "basename": "AWS FSx",
@@ -21,16 +77,8 @@
       "path": "100 study-notes/101 AWS SAA/AWS Storage Gateway.md"
     },
     {
-      "basename": "101 AWS SAA Index",
-      "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
-    },
-    {
       "basename": "AWS Snow",
       "path": "100 study-notes/101 AWS SAA/AWS Snow.md"
-    },
-    {
-      "basename": "102 AWS DVA Index",
-      "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
     },
     {
       "basename": "S3",
@@ -151,54 +199,6 @@
     {
       "basename": "ASG",
       "path": "100 study-notes/101 AWS SAA/ASG.md"
-    },
-    {
-      "basename": "Termination Policy & Life Cycle Hooks",
-      "path": "100 study-notes/101 AWS SAA/Termination Policy & Life Cycle Hooks.md"
-    },
-    {
-      "basename": "ELB SOA",
-      "path": "100 study-notes/114 AWS SOA/ELB SOA.md"
-    },
-    {
-      "basename": "ASG SOA",
-      "path": "100 study-notes/114 AWS SOA/ASG SOA.md"
-    },
-    {
-      "basename": "Scaling Policies",
-      "path": "100 study-notes/101 AWS SAA/Scaling Policies.md"
-    },
-    {
-      "basename": "ELB Monitoring and Troubleshooting",
-      "path": "100 study-notes/114 AWS SOA/ELB Monitoring and Troubleshooting.md"
-    },
-    {
-      "basename": "Types of ELBs",
-      "path": "100 study-notes/101 AWS SAA/Types of ELBs.md"
-    },
-    {
-      "basename": "ElasticBeanstalk SOA",
-      "path": "100 study-notes/114 AWS SOA/ElasticBeanstalk SOA.md"
-    },
-    {
-      "basename": "ElasticBeanstalk",
-      "path": "100 study-notes/101 AWS SAA/ElasticBeanstalk.md"
-    },
-    {
-      "basename": "ELB",
-      "path": "100 study-notes/101 AWS SAA/ELB.md"
-    },
-    {
-      "basename": "Stickiness, Cross zone balancing & Connection Draining",
-      "path": "100 study-notes/101 AWS SAA/Stickiness, Cross zone balancing & Connection Draining.md"
-    },
-    {
-      "basename": "SSM Documents",
-      "path": "100 study-notes/114 AWS SOA/SSM Documents.md"
-    },
-    {
-      "basename": "Systems Manager (SSM)",
-      "path": "100 study-notes/114 AWS SOA/Systems Manager (SSM).md"
     }
   ],
   "omittedPaths": [],

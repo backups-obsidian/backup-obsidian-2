@@ -1,6 +1,6 @@
 ---
 created: 2022-12-20 09:43
-updated: 2023-02-14 12:56
+updated: 2023-03-05 18:11
 ---
 ---
 **Links**: 
@@ -38,3 +38,5 @@ updated: 2023-02-14 12:56
 - [ ] [Learn Tailwind CSS – Course for Beginners - YouTube](https://www.youtube.com/watch?v=ft30zcMlFao) - Good to know for basic UI - Leisure
 - [ ] Wireshark TUT - [Hands-On Traffic Analysis with Wireshark - Let's practice! - YouTube](https://www.youtube.com/watch?v=5PKAa6TI82U) - Leisure
 - [ ] Learn ripgrep and fd (I think I already have notes, check for rg also).
+- [ ] Add tracking information for the notes website. 
+- [ ] Learn more about tracking using google analytics, see some videos on how to set it up and how to use it.

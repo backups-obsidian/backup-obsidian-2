@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 10:02
-updated: 2023-02-11 19:32
+updated: 2023-03-05 17:34
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -33,7 +33,9 @@ updated: 2023-02-11 19:32
 - **S3 bucket**
 	- For distributing files and caching them at the edge
 	- Enhanced security with CloudFront **Origin Access Identity (OAI)**
-	- CloudFront can be used as an ingress (to upload files to S3)
+	- CloudFront can be *used as an ingress* (to **upload files to S3**)
+
+> [!note] *Origin Access Control (OAC)* will be replacing OAI.
 
 - **Custom Origin (HTTP)**
 	- **Application Load Balancer**
@@ -48,13 +50,16 @@ updated: 2023-02-11 19:32
 > [!note]- CloudFront can be **configured with multiple origins** to serve both static and dynamic content at low latency to global users.
 
 ### S3 Origin
-- For the edge location to access the S3 bucket it uses an **OAI (origin access identity)**. It is an *IAM role for the CloudFront origin*.
+- For the edge location to access the S3 bucket it uses an **OAI (origin access identity)**. 
+	- It is an *IAM role for the CloudFront origin*.
 - OAI makes sure that S3 bucket is *only accessed from CloudFront* and not using its public URL.
 
-> [!question]- How to make sure that S3 bucket is only accessed from CloudFront and not its public URL?
-> Configure your CloudFront Distribution and create an Origin Access Identity, then *update your S3 Bucket Policy to only accept requests from your CloudFront Distribution OAl user*.
+> [!question]+ How to make sure that S3 bucket is only accessed from CloudFront and not its public URL?
+> Configure your CloudFront Distribution and create an Origin Access Identity, then **update your S3 Bucket Policy to only accept requests from your CloudFront Distribution OAl user**.
+> ---
+> ![[attachments/Pasted image 20230305173422.png]]
 
-- Apart from caching S3 content it also provides HTTPs.
+- Apart from caching S3 content it also *provides HTTPs*.
 	- You can create a static website using Amazon S3 with a custom domain name. However, *you cannot connect to an Amazon S3 static website using HTTPS (only HTTP)* 
 
 ### EC2/ALB as origin

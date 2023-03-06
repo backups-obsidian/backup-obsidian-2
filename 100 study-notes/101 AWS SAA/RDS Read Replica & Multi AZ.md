@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-05-05 19:54
+updated: 2023-03-05 20:02
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -24,7 +24,7 @@ updated: 2022-05-05 19:54
 > [!tip]- Classic use case of Read Replicas
 > **Reporting application** wants to read you data. You create a read replica for it since reading from the main database will effect the performance of production application.
 
-- In AWS there is a *cost when data goes from one AZ to another*. For *RDS read replicas* if its in the *same region then we don’t have to pay this fee*.
+- In AWS there is a *cost when data goes from one AZ to another*. For *RDS read replicas* if its in the *same region then we don’t have to pay this fee* since it is a *managed service*.
 	- ![[attachments/Pasted image 20220421121900.png]]
 	- Read Replicas are *billed as a standard DB Instance and at the same rates*. You are not charged for the data transfer incurred in replicating data between your source DB instance and read replica within the same AWS Region.
 	- Remember inter AZ transfer does cost money but its less when you are using private IPs. In case of RDS Read Replica its nice you don't have to pay for the inter AZ transfer.
@@ -37,10 +37,15 @@ updated: 2022-05-05 19:54
 - Replication is **sync**.
 - We have a **single DNS name** which **switches automatically**(**Automatic failover**) to the standby database in case the primary database becomes unavailable. 
 	- We can say the *CAME record* will be updated to point to the standby DB.
-- Automatic failover takes places in case (**3**) of: 
+- Automatic failover takes places in case of:
 	- Loss of AZ
 	- Storage failure on primary 
 	- Loss of network
+	- OS is undergoing software patching
+	- Modified (e.g., DB instance type changed)
+	- Busy and unresponsive
+
+- We can *initiate a manual failover* of the DB instance using **Reboot with failover**.
 
 > [!important]- The standby database in Multi AZ is *not used for scaling*. **No one can read to it or write to it**. It is just here as a failover.
 > Remember *high-availability feature is not a scaling solution for read-only scenarios*; you cannot use a standby replica to serve read traffic. To service read-only traffic, you should use a Read Replica.
@@ -66,7 +71,7 @@ updated: 2022-05-05 19:54
 > There is **some down time**.
 
 - We can easily *configure a RDS database to be multi AZ* by enabling it in settings. This will *not cause any downtime*.
-- What happens when you *convert a single AZ database to multi AZ*?
+- What happens when you **convert a single AZ database to multi AZ**?
 	- AWS automatically takes a *snapshot of our DB*, 
 	- Creates a *new DB from the snapshot* 
 	- Establishes *sync replication*
