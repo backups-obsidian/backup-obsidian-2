@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-05-02 13:08
+updated: 2023-03-06 14:41
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -102,9 +102,10 @@ updated: 2022-05-02 13:08
 - Create *custom reports* that analyse cost and usage data.
 - Choose an optimal **Savings Plan** (to lower prices on your bill)
 - **Forecast** usage up to 12 months based on previous usage
-- **Compute optimiser** is used to get *EC2 instance type recommendations*. It *doesn't give instance purchase recommendations* like going for reserved instances.
+- **Compute optimiser** is used to get *EC2 instance type recommendations*. 
+	- It *doesn't give instance purchase recommendations* like going for reserved instances.
 
-> [!note] Keywords: **recommendations**, *optimise costs*, *reports*,*forecast*.
+> [!note] Keywords: **recommendations**, **EC2 instances**, *optimise costs*, *reports*,*forecast*.
 
 ## Rekognition
 - Rekognition is simply a service that can *identify the objects, people, text, scenes, and activities*, as well as detect any inappropriate content on your **images or videos**.
