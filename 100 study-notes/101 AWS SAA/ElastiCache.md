@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 19:08
-updated: 2023-02-10 09:34
+updated: 2023-03-05 22:56
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -31,7 +31,7 @@ updated: 2023-02-10 09:34
 
 > [!caution] All caches in elasticache DONT support IAM authentication.
 
-> [!question] Redis use case: **Redis Sorted Sets**.
+> [!tip] Redis key words: **Sets** and **Sorted Sets**.
 
 ## Security
 - We **have SGs** in ElasticCache also.

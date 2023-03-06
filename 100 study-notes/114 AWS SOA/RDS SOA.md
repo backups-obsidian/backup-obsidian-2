@@ -1,6 +1,6 @@
 ---
 created: 2023-03-05 20:07
-updated: 2023-03-05 22:29
+updated: 2023-03-05 22:49
 ---
 ---
 **Links**: [[114 AWS SOA Index]]
@@ -56,6 +56,7 @@ updated: 2023-03-05 22:29
 ## RDS Logs
 - We can send RDS logs to CloudWatch logs, create a metric and then create an alarm form that metric.
 	- ![[attachments/Pasted image 20230305221740.png]]
+- *Audit logs are lost after a certain period* so if we want to save them then we should send them to CloudWatch logs.
 
 ## RDS Performance Insights
 - Visualise your *database performance* and **analyse any issues** that affect it.

@@ -1,6 +1,6 @@
 ---
 created: 2023-03-01 15:32
-updated: 2023-03-05 20:07
+updated: 2023-03-06 08:13
 ---
 ---
 **Links**: [[../100 home | 100 Home]]
@@ -109,15 +109,18 @@ updated: 2023-03-05 20:07
 ## Databases
 [[../101 AWS SAA/RDS | RDS]]
 [[../101 AWS SAA/RDS Read Replica & Multi AZ | RDS Read Replica & Multi AZ]]
+[[../101 AWS SAA/RDS Security | RDS Security]]
 [[../102 AWS DVA/RDS Proxy | RDS Proxy]]
 [[RDS SOA]]
-[[../101 AWS SAA/Aurora | Aurora]]
+[[Aurora SOA]]
+[[../101 AWS SAA/ElastiCache | ElastiCache]]
+[[../102 AWS DVA/ElasticCache Replication | ElastiCache Replication]]
+[[ElastiCache SOA]]
 
 ## Monitoring
 [[../101 AWS SAA/CloudWatch | CloudWatch]]
 
 ## ToDo
-- Buy the practice tests in the wish list.
 
 ## Resources
 - [AWS Certified Sysops Administrator - Associate Certification (amazon.com)](https://aws.amazon.com/certification/certified-sysops-admin-associate/)
