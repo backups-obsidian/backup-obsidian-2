@@ -1,6 +1,6 @@
 ---
 created: 2022-04-21 11:18
-updated: 2023-02-19 09:42
+updated: 2023-03-05 22:26
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -35,8 +35,14 @@ updated: 2023-02-19 09:42
 > Just for reference, snapshots of EBS volumes were also stored in S3.
 
 ### Autoscaling
-- RDS will detect when you are running out of space and will **scale automatically** with zero downtime. This means we don’t have to scale our database manually. 
-- We set a *desired maximum*(since we don't want to scale our DB infinitely) and auto scaling takes care of the rest. 
+- RDS will detect when you are running out of space and will **scale automatically** with zero downtime. 
+	- This means we don’t have to scale our database manually. 
+- We set a **Maximum Storage Threshold** (since we don't want to scale our DB infinitely) and auto scaling takes care of the rest. 
+- It is very useful for applications with **unpredictable workloads**.
+- Automatically modify storage if:
+	- *Free storage is less than 10%* of allocated storage 
+	- Low-storage lasts at least 5 minutes
+	- 6 hours have passed since last modification
 
 > [!caution]+ **Autoscaling** will only work if it is enabled. It is **disabled by default**.
 > If you are running into storage issues make sure that autoscaling is enabled for a simple and easy fix.
@@ -48,8 +54,20 @@ updated: 2023-02-19 09:42
 > Keywords like **minimum** development and database administration maybe mentioned.
 
 ## RDS Monitoring
--   Amazon RDS provides **metrics in real time** for the **operating system (OS) that your DB instance runs on.** This is known as **enhanced monitoring**.
--   You can **view the metrics for your DB instance using the console**(I think CloudWatch console), or **consume** the **Enhanced Monitoring** JSON output from **CloudWatch Logs** in a monitoring system of your choice
+- CloudWatch metrics gathered from the *hypervisor*:
+	- DatabaseConnections
+	- SwapUsage
+	- ReadIOPS / WriteIOPS
+	- ReadLatency / WriteLatency
+	- ReadThroughPut / WriteThroughPut
+	- DiskQueueDepth
+	- FreeStorageSpace
+
+- **Enhanced Monitoring** (gathered from an **agent on the DB instance**)
+	- Useful when you need to see how different **processes or threads** use the CPU
+
+- Example: 
+	- ![[attachments/Pasted image 20230305222457.png]]
 
 > [!question]+ How does CloudWatch metrics and Enhanced Monitoring differ from each other in case of RDS monitoring?
 > -   **CloudWatch gathers metrics about CPU utilisation from the hypervisor for a DB instance**,
