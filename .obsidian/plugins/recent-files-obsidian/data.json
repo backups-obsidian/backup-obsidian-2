@@ -1,8 +1,56 @@
 {
   "recentFiles": [
     {
+      "basename": "Shield, WAF & Firewall",
+      "path": "100 study-notes/101 AWS SAA/Shield, WAF & Firewall.md"
+    },
+    {
       "basename": "114 AWS SOA Index",
       "path": "100 study-notes/114 AWS SOA/114 AWS SOA Index.md"
+    },
+    {
+      "basename": "101 AWS SAA Index",
+      "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
+    },
+    {
+      "basename": "Shared Responsibility Model",
+      "path": "100 study-notes/114 AWS SOA/Shared Responsibility Model.md"
+    },
+    {
+      "basename": "102 AWS DVA Index",
+      "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
+    },
+    {
+      "basename": "AWS Compute Optimiser",
+      "path": "100 study-notes/114 AWS SOA/AWS Compute Optimiser.md"
+    },
+    {
+      "basename": "Account Management",
+      "path": "100 study-notes/114 AWS SOA/Account Management.md"
+    },
+    {
+      "basename": "AWS Budgets",
+      "path": "100 study-notes/114 AWS SOA/AWS Budgets.md"
+    },
+    {
+      "basename": "Other Services",
+      "path": "100 study-notes/101 AWS SAA/Other Services.md"
+    },
+    {
+      "basename": "Organisations",
+      "path": "100 study-notes/101 AWS SAA/Organisations.md"
+    },
+    {
+      "basename": "AWS Service Catalog",
+      "path": "100 study-notes/114 AWS SOA/AWS Service Catalog.md"
+    },
+    {
+      "basename": "Other Services SOA",
+      "path": "100 study-notes/114 AWS SOA/Other Services SOA.md"
+    },
+    {
+      "basename": "AWS Control Tower",
+      "path": "100 study-notes/114 AWS SOA/AWS Control Tower.md"
     },
     {
       "basename": "DataSync & Backup",
@@ -23,14 +71,6 @@
     {
       "basename": "Config",
       "path": "100 study-notes/101 AWS SAA/Config.md"
-    },
-    {
-      "basename": "101 AWS SAA Index",
-      "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
-    },
-    {
-      "basename": "102 AWS DVA Index",
-      "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
     },
     {
       "basename": "ElastiCache SOA",
@@ -155,50 +195,6 @@
     {
       "basename": "S3 Replication",
       "path": "100 study-notes/101 AWS SAA/S3 Replication.md"
-    },
-    {
-      "basename": "EFS SOA",
-      "path": "100 study-notes/114 AWS SOA/EFS SOA.md"
-    },
-    {
-      "basename": "EFS",
-      "path": "100 study-notes/101 AWS SAA/EFS.md"
-    },
-    {
-      "basename": "EBS SOA",
-      "path": "100 study-notes/114 AWS SOA/EBS SOA.md"
-    },
-    {
-      "basename": "EC2 EBS",
-      "path": "100 study-notes/101 AWS SAA/EC2 EBS.md"
-    },
-    {
-      "basename": "Instance store",
-      "path": "100 study-notes/101 AWS SAA/Instance store.md"
-    },
-    {
-      "basename": "Lambda Monitoring",
-      "path": "100 study-notes/114 AWS SOA/Lambda Monitoring.md"
-    },
-    {
-      "basename": "Lambda Configuration & Deployments",
-      "path": "100 study-notes/102 AWS DVA/Lambda Configuration & Deployments.md"
-    },
-    {
-      "basename": "Lambda Performance",
-      "path": "100 study-notes/102 AWS DVA/Lambda Performance.md"
-    },
-    {
-      "basename": "Lambda",
-      "path": "100 study-notes/101 AWS SAA/Lambda.md"
-    },
-    {
-      "basename": "Lambda IAM Role",
-      "path": "100 study-notes/102 AWS DVA/Lambda IAM Role.md"
-    },
-    {
-      "basename": "Lambda Synchronous Invocation",
-      "path": "100 study-notes/102 AWS DVA/Lambda Synchronous Invocation.md"
     }
   ],
   "omittedPaths": [],
