@@ -1,6 +1,6 @@
 ---
 created: 2023-03-01 15:32
-updated: 2023-03-06 08:13
+updated: 2023-03-06 10:36
 ---
 ---
 **Links**: [[../100 home | 100 Home]]
@@ -119,6 +119,18 @@ updated: 2023-03-06 08:13
 
 ## Monitoring
 [[../101 AWS SAA/CloudWatch | CloudWatch]]
+[[../101 AWS SAA/EventBridge | EventBridge]]
+[[../101 AWS SAA/CloudTrail | CloudTrail]]
+[[../101 AWS SAA/Config | Config]]
+
+- Difference between CloudWatch, Config and CloudTrail (Example Load Balancer)
+	- ![[attachments/Pasted image 20230306101317.png]]
+
+## Account Management
+
+
+## Disaster Recovery
+[[../101 AWS SAA/DataSync & Backup | DataSync & Backup]]
 
 ## ToDo
 

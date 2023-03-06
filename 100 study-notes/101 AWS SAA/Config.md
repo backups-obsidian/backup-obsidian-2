@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 19:08
-updated: 2022-05-01 10:53
+updated: 2023-03-06 10:11
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -12,6 +12,7 @@ updated: 2022-05-01 10:53
 - Helps us **record configuration and changes** over time so that we can roll back.
 - AWS config is a **per region service** which can be aggregated across regions and accounts.
 - There is a possibility of **storing the configuration** data into **S3** (analysed by Athena)
+- Not a free service.
 
 > [!question]- Questions solved by AWS config
 > - Is there unrestricted SSH access to my security groups?
@@ -23,12 +24,16 @@ updated: 2022-05-01 10:53
 
 ## Config Rules
 - We can use **AWS managed config rules** (over 75)
-- We can make our own **custom config rules**. It *must be defined in AWS Lambda*.
--   Rules can be evaluated/triggered for:
-    - Each config change
-    - At regular time intervals.
-- AWS **config rules** are **just for compliance** and they **don’t prevent actions from happening**.
+- We can make our own **custom config rules**. 
+	- It *must be defined in AWS Lambda*.
+	- Example: If the EBS disk is of type gp2.
+-   Rules can be evaluated/*triggered* for:
+    - Each *config change*
+    - At *regular time intervals*.
+- AWS **config rules** are **just for compliance** and they **DON'T prevent actions from happening**.
 - We can view the **compliance & configuration** of a resource over time.
+	- ![[attachments/Pasted image 20230306095934.png]]
+- Config can be *linked with CloudTrail* to get a full picture.
 
 ### Remediations
 - *Automate remediation of non-compliant resources* using SSM Automation Documents
@@ -48,3 +53,11 @@ updated: 2022-05-01 10:53
 > - The AWS Config rule can be configured using the *"access-keys-rotated" managed rule* which checks if the active access keys are rotated within the number of days specified in maxAccessKeyAge. 
 > - The rule is NON_COMPLIANT if the access keys have not been rotated for more than maxAccessKeyAge number of days.
 > - *Amazon EventBridge can react to the change of state to NON_COMPLIANT* and trigger an *AWS Lambda function that invalidates and removes the access key*.
+
+## Aggregators (SOA)
+- The aggregator is *created in one central aggregator account*.
+- Aggregates rules, resources, etc **across multiple accounts & regions**
+	- ![[attachments/Pasted image 20230306101052.png]]
+- If using AWS Organisations, no need for individual Authorisation
+- **Rules are created in each individual source AWS account**.
+- Can *deploy rules to multiple target accounts* using *CloudFormation StackSets*.
