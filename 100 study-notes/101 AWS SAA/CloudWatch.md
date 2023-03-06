@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2023-03-02 10:43
+updated: 2023-03-06 10:21
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -13,8 +13,11 @@ updated: 2023-03-02 10:43
 	- These namespaces were created automatically.
 	- Namespaces are isolated from each other. 
 	- We can create *custom namespaces*.
-- **Dimension** is an **attribute of a metric** (instance id, environment, etc...).
+- **Dimension** is an **attribute of a metric (columns)** (instance id, environment, etc...).
 	- We can use dimensions to *segment our metrics*. Like instance.id or environment.name.
+- Example of dimensions:
+	- ![[attachments/Pasted image 20230306084629.png]]
+	- ![[attachments/Pasted image 20230306084714.png]]
 
 > [!question]- A Developer is *publishing custom metrics* for Amazon EC2 using the Amazon CloudWatch CLI. The Developer needs to *add further context to the metrics being published by organising them by EC2 instance and Auto Scaling Group*. What should the Developer add to the CLI command when publishing the metrics using `put-metric-data`?
 > Use `--dimensions` parameter.
@@ -22,7 +25,6 @@ updated: 2023-03-02 10:43
 > In **custom metrics**, the `--dimensions` parameter is common. A dimension *further clarifies what the metric is* and what data it stores.
 > ![[attachments/Pasted image 20230216093036.png]]
 
-- We can choose upto **10 dimensions per metric**.
 - Metrics have **timestamps**.
 - We can create CloudWatch **dashboard from metrics**.
 - Metrics exist **only in the Region** in which they are created.
@@ -57,7 +59,7 @@ updated: 2023-03-02 10:43
 	- *Number of logged in users*
 	- *processes*
 
-- To do this we use API call `PutMetricData`. 
+- To do this we use API call **`put-metric-data`**. 
 - We can define the *resolution of custom metrics* using the **StorageResolution** API. There are two possible value:
     - **Standard** custom metric: *1 minute (60 seconds)*. Values pushed every 1 minute.
     - **High Resolution** custom metric: *1/5/10/30 second(s)* **Higher cost**
@@ -70,7 +72,7 @@ updated: 2023-03-02 10:43
 > [!important]- For getting custom metrics we need to install CloudWatch agent on EC2.
 > Behind the scenes the agent also uses `PutMetricData` API.
 
-- Important: CloudWatch Accepts metric data points **two weeks in the past** and **two hours in the future** (make sure to configure your EC2 instance time correctly)
+> [!important] CloudWatch Accepts metric data points **two weeks in the past** and **two hours in the future** (make sure to configure your EC2 instance time correctly)
 
 > [!note] To remember *Normal Metrics*: **Detailed (1 m)**, *Custom Metrics*: **Resolution (1 s)**, *Alarms*: **Resolution (10 s)**
 
@@ -81,7 +83,7 @@ updated: 2023-03-02 10:43
 ## Dashboards
 - We can create custom dashboards for quick access to key metrics and alarms.
 - **Dashboards are global**.
-- Dashboards can include graphs from **different AWS accounts and regions**
+- Dashboards **can include graphs from different AWS accounts and regions**
 	- This can be done by creating a *cross-account cross-Region dashboards*, which summarise your CloudWatch data from multiple AWS accounts and multiple Regions into one dashboard.
 - Dashboards **can be shared with people who don't have an AWS account** (public, email address, 3rd party SO provider through Amazon Cognito)
 - Pricing:
@@ -91,13 +93,15 @@ updated: 2023-03-02 10:43
 
 ## CloudWatch Logs
 - This is the *best place* to **store logs** in AWS.
-- We group the logs in **log groups**. The name of the group can be anything but is generally related to the application.
--   **Within** each **log group** we have **log streams** which represents instances within the application/log files/containers.
+- We group the logs in **log groups**. 
+	- The name of the group can be anything but is generally related to the application.
+-   **Within** each **log group** we have **log streams** which represents *instances within the application/log files/containers*.
 -   We can define a **log expiration policy** (never, 30 days etc). We are **paying for log storage** on CloudWatch logs.
 - **CloudWatch Logs Insights** enables us to interactively search and *analyse your log data in Amazon CloudWatch Logs*. 
 	- You *can perform queries* to help you quickly and effectively respond to operational issues.
 	- If an issue occurs, you *can use CloudWatch Logs Insights to identify potential causes* and validate deployed fixes.
 	- Using this we can analyse the logs with **minimal effort**.
+	- CloudWatch Logs Insights *can be used add queries to CloudWatch Dashboards*.
 
 > [!important]+ By *default* log expiration policy is **Never Expire**.
 > *Log retention policy* is defined at the *log group level*.
@@ -165,7 +169,8 @@ updated: 2023-03-02 10:43
     - **Insufficient data**
     - **Alarm**: threshold has been breached and the alarm will be triggered.
 
-- Period is the **length of time in seconds to evaluate the metric.** It can be **high resolution** custom metric: **10 sec**, **30 sec** or multiples of **60 sec**
+- Period is the **length of time in seconds to evaluate the metric.** 
+	- It can be **high resolution** custom metric: **10 sec**, **30 sec** or multiples of **60 sec**
 - The alarms have **3 main targets**. 
 	- *EC2* : *Stop*, *Terminate*, *Reboot*, or **Recover** an EC2 Instance. You can directly do these things from CloudWatch alarms, there is no need to use any other services like Lambda in between.
 		- The following things will be **recovered**: 
@@ -177,7 +182,26 @@ updated: 2023-03-02 10:43
 - We can *test the alarm using the CLI*. This is useful if we want to trigger an alarm before its threshold to see if it results in proper actions.
 	- Use `set-alarm-state` in CLI
 
-## Synthetics Canary (DVA)
+### Composite Alarms (SOA)
+- CloudWatch *Alarms are on a single metric*.
+- Composite Alarms are *monitoring the states of multiple other alarms*.
+- **AND** and **OR** conditions.
+- Helpful to reduce "alarm noise" by *creating complex composite alarms*.
+	- We can create complex alarms like if the CPU is high and the memory usage is high then alert me.
+	- ![[attachments/Pasted image 20230306090342.png]]
+
+### Service Quotas with CloudWatch Alarms (SOA)
+- Notify you when you're close to a service quota value threshold
+- Create **CloudWatch Alarms on the Service Quotas console**
+	- Example: Lambda concurrent executions
+		- ![[attachments/Pasted image 20230306093627.png]]
+- *Helps you know if you need to request a quota increase* or shutdown resources before limit is reached
+- It can be used with Trusted Advisor but it is not as good as using it with Service Quotas.
+
+> [!question]- Which AWS services help you to be notified when your service quotas thresholds are approaching?
+> AWS *Service Quota* & AWS *Trusted Advisor*.
+
+## Synthetics Canary (DVA, SOA)
 - **Configurable script** that *monitor your APIs, URLs, Websites*, etc.
 	- Scripts written in *Node.js* or *Python*.
 - Reproduce what your customers do programmatically to find issues before customers are impacted.
@@ -187,3 +211,10 @@ updated: 2023-03-02 10:43
 	- If there is some problem then the cloudwatch alarms trigger a lambda which then updates the route53 DNS record to point to a healthy application. 
 - Programmatic access to a *headless Google Chrome browser*.
 - Can run once or on a *regular schedule*.
+- We can use some existing **blueprints**.
+	- Heartbeat Monitor: load URL, store screenshot and an HTTP archive file
+	- *API Canary*: *test basic read and write functions of REST APIs*
+	- Broken Link Checker: check all links inside the URL that you are testing
+	- Visual Monitoring: compare a screenshot taken during a canary run with a baseline screenshot
+	- Canary Recorder: used with CloudWatch Synthetics Recorder (record your actions on a website and automatically generates a script for that) 
+	- GUI Workflow Builder: verifies that actions can be taken on your webpage (e.g., test a webpage with a login form)

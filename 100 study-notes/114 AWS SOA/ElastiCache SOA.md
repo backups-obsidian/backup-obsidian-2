@@ -1,6 +1,6 @@
 ---
 created: 2023-03-06 08:13
-updated: 2023-03-06 08:26
+updated: 2023-03-06 08:29
 ---
 ---
 **Links**: [[114 AWS SOA Index]]

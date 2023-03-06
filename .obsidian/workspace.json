@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 study-notes/114 AWS SOA/ElastiCache SOA.md",
+                "file": "100 study-notes/101 AWS SAA/DataSync & Backup.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -251,15 +251,15 @@
   },
   "active": "1a369a2bcb8ced60",
   "lastOpenFiles": [
-    "100 study-notes/114 AWS SOA/ElastiCache SOA.md",
+    "100 study-notes/101 AWS SAA/DataSync & Backup.md",
     "100 study-notes/114 AWS SOA/114 AWS SOA Index.md",
-    "100 study-notes/102 AWS DVA/ElasticCache Replication.md",
-    "100 study-notes/101 AWS SAA/ElastiCache.md",
+    "100 study-notes/101 AWS SAA/CloudWatch.md",
+    "100 study-notes/101 AWS SAA/EventBridge.md",
+    "100 study-notes/101 AWS SAA/CloudTrail.md",
+    "100 study-notes/101 AWS SAA/Config.md",
+    "100 study-notes/101 AWS SAA/101 AWS SAA Index.md",
     "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
-    "100 study-notes/114 AWS SOA/Aurora SOA.md",
-    "100 study-notes/101 AWS SAA/Aurora.md",
-    "100 study-notes/114 AWS SOA/RDS SOA.md",
-    "100 study-notes/101 AWS SAA/RDS Security.md",
-    "100 study-notes/101 AWS SAA/RDS.md"
+    "100 study-notes/114 AWS SOA/Service Quotas.md",
+    "100 study-notes/114 AWS SOA/CloudWatch SOA.md"
   ]
 }

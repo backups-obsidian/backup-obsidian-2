@@ -1,6 +1,6 @@
 ---
 created: 2022-04-21 11:18
-updated: 2023-03-05 22:26
+updated: 2023-03-06 08:35
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -34,6 +34,9 @@ updated: 2023-03-05 22:26
 > [!important]- Backups are stored in **S3**.
 > Just for reference, snapshots of EBS volumes were also stored in S3.
 
+> [!question]- Your RDS backups are impacting your production database when they run. What can you do to *improve the performance of your production database when backups are taken*?
+> Enable Multi-AZ.
+
 ### Autoscaling
 - RDS will detect when you are running out of space and will **scale automatically** with zero downtime. 
 	- This means we don’t have to scale our database manually. 
@@ -42,7 +45,7 @@ updated: 2023-03-05 22:26
 - Automatically modify storage if:
 	- *Free storage is less than 10%* of allocated storage 
 	- Low-storage lasts at least 5 minutes
-	- 6 hours have passed since last modification
+	- **6 hours** have passed since last modification
 
 > [!caution]+ **Autoscaling** will only work if it is enabled. It is **disabled by default**.
 > If you are running into storage issues make sure that autoscaling is enabled for a simple and easy fix.
@@ -52,6 +55,9 @@ updated: 2023-03-05 22:26
 
 > [!tip]- Whenever you see RDS instance is running out of storage always go for auto scaling for increasing the disk space instead of manually increasing the disk space in instance settings.
 > Keywords like **minimum** development and database administration maybe mentioned.
+
+> [!question]- You have an application that stores its data in an RDS database. You're expecting your application to receive a large number of writes in the next 24 hours. You have enabled Storage Auto Scaling for your RDS database so your RDS database storage can handle a large number of writes. *Your RDS database has increased storage at 1 P.M, but when it tries to scale again at 3 P.M it fails*. What do you expect the reason for this?
+> You can **only scale up your RDS storage once within 6 hours**.
 
 ## RDS Monitoring
 - CloudWatch metrics gathered from the *hypervisor*:

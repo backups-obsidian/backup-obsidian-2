@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2023-03-01 10:17
+updated: 2023-03-06 09:26
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -21,8 +21,13 @@ updated: 2023-03-01 10:17
     - **Partner event bus** → receive events from SaaS service or applications (Zendesk, DataDog, Segment, Auth0...). This means other services can send events to my AWS account.
     - **Custom event bus** → for our own applications.
 - Event buses can be *accessed from other AWS accounts* as well using **resource based policies** of EventBridge.
+- You *can archive events* (all/filter) sent to an event bus (indefinitely or set period)
+	- Ability to **replay archived events**.
+	- Useful for *debugging* specific events.
 - We create **rules** on **how** we want **to process the events**.
-- **Schema Registry** → know in advance how the data will look like and generate code in advance
+- EventBridge can analyse the events in your bus and *infer the schema*.
+	- The **Schema Registry** allows us to *generate code for our application*, that will know in advance how data is structured in the event bus.
+	- Schema can be versioned
 - The *main difference* between EventBridge and CloudWatch Events are the *buses and schema registry*.
 
 > [!note]- Go for EventBridge over SQS when the question mentions **3rd SaaS party applications**.

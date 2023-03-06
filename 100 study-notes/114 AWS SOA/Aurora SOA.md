@@ -1,6 +1,6 @@
 ---
 created: 2023-03-05 22:42
-updated: 2023-03-05 22:54
+updated: 2023-03-06 08:38
 ---
 ---
 **Links**: [[114 AWS SOA Index]]
@@ -15,7 +15,7 @@ updated: 2023-03-05 22:54
 	- PITR, restore your DB cluster within 5 minutes of the current time
 	- Restore to a *new DB cluster*
 - Aurora **Backtracking**
-	- Rewind the DB cluster back and forth in time (up to 72 hours)
+	- *Rewind the DB cluster back and forth in time* (up to 72 hours)
 	- **DOESN'T create a new DB cluster** (*in-place* restore)
 	- Supports Aurora *MySQL only*
 - Aurora **Database Cloning**
@@ -24,6 +24,9 @@ updated: 2023-03-05 22:54
 	- Example: *create a test environment using your production data*
 
 > [!note] You can migrate an RDS MySQL snapshot to Aurora MySQL Cluster.
+
+> [!question]- You have an Aurora DB Cluster where the automatic backup is enabled with a retention period of 10 days. You're using this Aurora DB Cluster for testing purposes, so you want to *disable automatic backups to reduce costs*. What should you do?
+> You *can't disable Aurora DB Cluster Automatic Backups*.
 
 ## CloudWatch Metrics
 - **`AuroraReplicaLag`**: amount of lag when replicating updates from the primary instance.

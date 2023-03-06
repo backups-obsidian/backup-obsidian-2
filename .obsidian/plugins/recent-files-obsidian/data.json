@@ -5,8 +5,48 @@
       "path": "100 study-notes/114 AWS SOA/114 AWS SOA Index.md"
     },
     {
+      "basename": "DataSync & Backup",
+      "path": "100 study-notes/101 AWS SAA/DataSync & Backup.md"
+    },
+    {
+      "basename": "CloudWatch",
+      "path": "100 study-notes/101 AWS SAA/CloudWatch.md"
+    },
+    {
+      "basename": "EventBridge",
+      "path": "100 study-notes/101 AWS SAA/EventBridge.md"
+    },
+    {
+      "basename": "CloudTrail",
+      "path": "100 study-notes/101 AWS SAA/CloudTrail.md"
+    },
+    {
+      "basename": "Config",
+      "path": "100 study-notes/101 AWS SAA/Config.md"
+    },
+    {
+      "basename": "101 AWS SAA Index",
+      "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
+    },
+    {
+      "basename": "102 AWS DVA Index",
+      "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
+    },
+    {
       "basename": "ElastiCache SOA",
       "path": "100 study-notes/114 AWS SOA/ElastiCache SOA.md"
+    },
+    {
+      "basename": "Aurora SOA",
+      "path": "100 study-notes/114 AWS SOA/Aurora SOA.md"
+    },
+    {
+      "basename": "RDS",
+      "path": "100 study-notes/101 AWS SAA/RDS.md"
+    },
+    {
+      "basename": "RDS SOA",
+      "path": "100 study-notes/114 AWS SOA/RDS SOA.md"
     },
     {
       "basename": "ElasticCache Replication",
@@ -17,28 +57,12 @@
       "path": "100 study-notes/101 AWS SAA/ElastiCache.md"
     },
     {
-      "basename": "102 AWS DVA Index",
-      "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
-    },
-    {
-      "basename": "Aurora SOA",
-      "path": "100 study-notes/114 AWS SOA/Aurora SOA.md"
-    },
-    {
       "basename": "Aurora",
       "path": "100 study-notes/101 AWS SAA/Aurora.md"
     },
     {
-      "basename": "RDS SOA",
-      "path": "100 study-notes/114 AWS SOA/RDS SOA.md"
-    },
-    {
       "basename": "RDS Security",
       "path": "100 study-notes/101 AWS SAA/RDS Security.md"
-    },
-    {
-      "basename": "RDS",
-      "path": "100 study-notes/101 AWS SAA/RDS.md"
     },
     {
       "basename": "RDS Proxy",
@@ -63,10 +87,6 @@
     {
       "basename": "CloudFront Advanced",
       "path": "100 study-notes/101 AWS SAA/CloudFront Advanced.md"
-    },
-    {
-      "basename": "101 AWS SAA Index",
-      "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
     },
     {
       "basename": "TODO",
@@ -133,10 +153,6 @@
       "path": "100 study-notes/101 AWS SAA/S3 Lifecycle Rules.md"
     },
     {
-      "basename": "EventBridge",
-      "path": "100 study-notes/101 AWS SAA/EventBridge.md"
-    },
-    {
       "basename": "S3 Replication",
       "path": "100 study-notes/101 AWS SAA/S3 Replication.md"
     },
@@ -183,22 +199,6 @@
     {
       "basename": "Lambda Synchronous Invocation",
       "path": "100 study-notes/102 AWS DVA/Lambda Synchronous Invocation.md"
-    },
-    {
-      "basename": "Lambda Advanced",
-      "path": "100 study-notes/102 AWS DVA/Lambda Advanced.md"
-    },
-    {
-      "basename": "CloudFormation RollBacks",
-      "path": "100 study-notes/102 AWS DVA/CloudFormation RollBacks.md"
-    },
-    {
-      "basename": "CloudFormation SOA",
-      "path": "100 study-notes/114 AWS SOA/CloudFormation SOA.md"
-    },
-    {
-      "basename": "CloudFormation Advanced",
-      "path": "100 study-notes/102 AWS DVA/CloudFormation Advanced.md"
     }
   ],
   "omittedPaths": [],
