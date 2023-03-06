@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 study-notes/101 AWS SAA/Aurora.md",
+                "file": "100 study-notes/114 AWS SOA/ElastiCache SOA.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -81,7 +81,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -156,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/101 AWS SAA/Aurora.md",
+                "file": "100 study-notes/114 AWS SOA/114 AWS SOA Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/101 AWS SAA/Aurora.md"
+                "file": "100 study-notes/114 AWS SOA/114 AWS SOA Index.md"
               }
             }
           },
@@ -183,7 +183,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/101 AWS SAA/Aurora.md",
+                "file": "100 study-notes/114 AWS SOA/114 AWS SOA Index.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -249,17 +249,17 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "76258124fdb64fa2",
+  "active": "1a369a2bcb8ced60",
   "lastOpenFiles": [
+    "100 study-notes/114 AWS SOA/ElastiCache SOA.md",
     "100 study-notes/114 AWS SOA/114 AWS SOA Index.md",
-    "100 study-notes/114 AWS SOA/RDS SOA.md",
-    "100 study-notes/101 AWS SAA/RDS.md",
-    "100 study-notes/102 AWS DVA/RDS Proxy.md",
-    "100 study-notes/101 AWS SAA/RDS Read Replica & Multi AZ.md",
+    "100 study-notes/102 AWS DVA/ElasticCache Replication.md",
+    "100 study-notes/101 AWS SAA/ElastiCache.md",
     "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
-    "100 study-notes/114 AWS SOA/CloudFront SOA.md",
-    "100 study-notes/114 AWS SOA/CloudFront Caching SOA.md",
-    "100 study-notes/102 AWS DVA/CloudFront DVA.md",
-    "100 study-notes/101 AWS SAA/CloudFront Advanced.md"
+    "100 study-notes/114 AWS SOA/Aurora SOA.md",
+    "100 study-notes/101 AWS SAA/Aurora.md",
+    "100 study-notes/114 AWS SOA/RDS SOA.md",
+    "100 study-notes/101 AWS SAA/RDS Security.md",
+    "100 study-notes/101 AWS SAA/RDS.md"
   ]
 }

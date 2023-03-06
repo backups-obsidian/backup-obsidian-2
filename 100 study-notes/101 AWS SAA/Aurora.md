@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 19:08
-updated: 2022-06-17 21:03
+updated: 2023-03-05 22:40
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -20,7 +20,8 @@ updated: 2022-06-17 21:03
 	- In Aurora also you have to *configure security groups*.
 
 ## High Availability and Read Scaling
-- *High availability is built in Aurora*. For RDS HA you have to use Multi AZ.
+- *High availability is built in Aurora*. 
+	- For RDS HA you have to use Multi AZ.
 - For HA it stores multiple copies (**6**) of you data across AZs.
 - Only one Aurora which is the *master takes write*.
 
@@ -30,11 +31,13 @@ updated: 2022-06-17 21:03
 > - In a DB cluster we have *one master* which supports read and writes
 > - We can have several *read replicas*.
 > - In the event of disaster any of these *read replicas* can be *automatically promoted to the new master*. 
-
 > ---
-> In RDS you have to use multi AZ for automatic failover. Also the standby instances don't take read requests in aurora they do.
+> - In *RDS you have to use multi AZ for automatic failover*. 
+> - Also the standby instances don't take read requests in aurora they do.
 
-- Aurora DB cluster uses a *cluster volume* that manages the data for those DB instances. It is a *virtual database storage volume that spans multiple Availability Zones*, with each Availability Zone having a copy of the DB cluster data. 
+- Aurora DB cluster uses a *cluster volume* that manages the data for those DB instances. 
+	- It is a *virtual database storage volume that spans multiple Availability Zones*, with each Availability Zone having a copy of the DB cluster data.
+		- ![[attachments/Pasted image 20230305223352.png]]
 - This is also known as a **provisioned DB cluster** since you can *choose your DB instance class size* and create Aurora Replicas to increase read throughput. If your workload changes, you can *modify the DB instance class size* and change the number of Aurora Replicas. This model *works well* when the **database workload is predictable**, because **you can adjust capacity manually** based on the expected workload.
 
 > [!question]- How can read replicas be promoted to the main DB in case of failure without any replication?
@@ -67,6 +70,10 @@ updated: 2022-06-17 21:03
 > - In the event of a failover, Amazon Aurora will *promote the Read Replica that has the highest priority* (**the lowest numbered tier**). 
 > - If two or more Aurora Replicas *share the same priority*, then Amazon RDS **promotes the replica that is largest in size**.
 > - If two or more Aurora Replicas share the same priority and size, then Amazon Aurora promotes an **arbitrary replica** in the same promotion tier.
+
+- Read Replicas can be scaled based on 
+	- Average CPU utilisation
+	- Average connections
 
 ### Custom Endpoints
 - Define a *subset of Aurora read replicas* with custom end points.

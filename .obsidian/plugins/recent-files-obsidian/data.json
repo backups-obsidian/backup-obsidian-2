@@ -1,16 +1,40 @@
 {
   "recentFiles": [
     {
-      "basename": "Aurora",
-      "path": "100 study-notes/101 AWS SAA/Aurora.md"
-    },
-    {
       "basename": "114 AWS SOA Index",
       "path": "100 study-notes/114 AWS SOA/114 AWS SOA Index.md"
     },
     {
+      "basename": "ElastiCache SOA",
+      "path": "100 study-notes/114 AWS SOA/ElastiCache SOA.md"
+    },
+    {
+      "basename": "ElasticCache Replication",
+      "path": "100 study-notes/102 AWS DVA/ElasticCache Replication.md"
+    },
+    {
+      "basename": "ElastiCache",
+      "path": "100 study-notes/101 AWS SAA/ElastiCache.md"
+    },
+    {
+      "basename": "102 AWS DVA Index",
+      "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
+    },
+    {
+      "basename": "Aurora SOA",
+      "path": "100 study-notes/114 AWS SOA/Aurora SOA.md"
+    },
+    {
+      "basename": "Aurora",
+      "path": "100 study-notes/101 AWS SAA/Aurora.md"
+    },
+    {
       "basename": "RDS SOA",
       "path": "100 study-notes/114 AWS SOA/RDS SOA.md"
+    },
+    {
+      "basename": "RDS Security",
+      "path": "100 study-notes/101 AWS SAA/RDS Security.md"
     },
     {
       "basename": "RDS",
@@ -23,10 +47,6 @@
     {
       "basename": "RDS Read Replica & Multi AZ",
       "path": "100 study-notes/101 AWS SAA/RDS Read Replica & Multi AZ.md"
-    },
-    {
-      "basename": "102 AWS DVA Index",
-      "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
     },
     {
       "basename": "CloudFront SOA",
@@ -179,26 +199,6 @@
     {
       "basename": "CloudFormation Advanced",
       "path": "100 study-notes/102 AWS DVA/CloudFormation Advanced.md"
-    },
-    {
-      "basename": "EC2 Basics",
-      "path": "100 study-notes/101 AWS SAA/EC2 Basics.md"
-    },
-    {
-      "basename": "CloudFormation Intrinsic Functions",
-      "path": "100 study-notes/102 AWS DVA/CloudFormation Intrinsic Functions.md"
-    },
-    {
-      "basename": "CloudFormation Template Components",
-      "path": "100 study-notes/102 AWS DVA/CloudFormation Template Components.md"
-    },
-    {
-      "basename": "CloudFormation",
-      "path": "100 study-notes/102 AWS DVA/CloudFormation.md"
-    },
-    {
-      "basename": "ASG",
-      "path": "100 study-notes/101 AWS SAA/ASG.md"
     }
   ],
   "omittedPaths": [],
