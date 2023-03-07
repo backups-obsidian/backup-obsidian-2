@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2023-02-26 19:42
+updated: 2023-03-06 18:47
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -30,12 +30,15 @@ updated: 2023-02-26 19:42
 		- Generally used if the user wants encryption and doesn't want to managed the keys.
 	- **AWS Managed Service Default CMK**: *free*. 
 		- Gets created during the **integration of AWS services**. Like the key you use in S3 SSE-KMS.
-		- It rotates every 3 years.
+		- *Automatic rotation* every *1 year*.
 		- They will start with `aws/` prefix
 			- ![[attachments/Pasted image 20220531193937.png]]
 	- **Customer Managed CMK**: *$1/Month*
 		- We can only manage the customer managed CMK and not AWS managed default CMK.
+		- *Automatic rotation* (**must be enabled**) every *1 year*.
+			- ![[attachments/Pasted image 20230306184224.png]]
 	- **User Imported keys** (AES 256) (not recommended): *$1/month*
+		- Only *manual rotation* possible using *alias*.
 
 > [!note]- We *CANNOT* **rotate imported keys**. We can *only set expiry*.
 
@@ -61,11 +64,10 @@ updated: 2023-02-26 19:42
 	- To copy snapshots across accounts we need a [[KMS#^bd14fe|Custom Key Policy]]
 	- *Steps* on how to copy a snapshot:
 		- Create a Snapshot, encrypted with your CMK (either customer managed or AWS managed).
-		- Attach a custom KMS Key Policy to authorise cross-account access
+		- *Attach a custom KMS Key Policy to authorise cross-account access*
 		- Share the encrypted snapshot
-		- After decrypting the snapshot with the shared key (in target) create a copy of the Snapshot, 
-		- Encrypt it with a KMS Key in your account
-		- Create a volume from the snapshot
+		- After decrypting the snapshot with the shared key (in target) create a copy of the Snapshot and encrypt it with a different KMS Key in the target account.
+		- Create a volume from the snapshot.
 
 ### KMS Key Policies
 - These are **resource based policies** similar to bucket policies in S3. The *main difference is that we cannot control access without them*. 
@@ -98,6 +100,7 @@ updated: 2023-02-26 19:42
 
 ### KMS Key Rotation
 - We can **enable key rotation for customer managed CMK** and **not for AWS managed CMK**.
+	- By *default AWS managed CMKs are rotated every year*.
 
 #### Automatic rotation
 - If **automatic key rotation** is enabled for customer CMK it will happen **every one year**. 

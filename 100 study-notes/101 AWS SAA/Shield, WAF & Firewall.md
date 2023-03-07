@@ -1,6 +1,6 @@
 ---
 created: 2022-04-29 10:03
-updated: 2023-03-06 15:26
+updated: 2023-03-06 15:30
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -8,10 +8,14 @@ updated: 2023-03-06 15:26
 ---
 ## Shield
 - To **protect from DDoS attacks**.
-- *Shield standard is free* and *activated for every AWS customer*.
-- There is a *shield advanced which is paid*. Some features are
-	- *24/7* support.
-	- *Bill reimbursement* for the incurred costs during the attack.
+- *AWS Shield Standard*:
+	- *Free service* that is *activated for every AWS customer*.
+	- Provides protection from attacks such as *SYN/UDP Floods*, Reflection attacks and other layer 3/layer 4 attacks.
+- *AWS Shield Advanced*:
+	- Optional DDoS mitigation service (*$3,000 per month per organisation*)
+	- *Protect against more sophisticated attack* on Amazon EC2, Elastic Load Balancing (ELB), Amazon CloudFront, AWS Global Accelerator, and Route 53
+	- *24/7 access to AWS DDoS response team* (DRP)
+	- Protect against higher fees during usage spikes due to DDOS. *Reimbursement*.
 
 - Enable *consolidated billing for organisation*.
 - Shield can be used with:
@@ -27,8 +31,9 @@ updated: 2023-03-06 15:26
 	- **API Gateway**  
 	- **CloudFront**
 
-- To use WAF we *must define WACL* (web access control lists).
-- In WACL there can be **rules on different things**. There can be rules on **IP addresses**, HTTP Headers, HTTP body or URI strings
+- To use WAF we **must define WACL** (web access control lists).
+- In WACL there can be **rules on different things**. 
+	- There can be rules on **IP addresses**, HTTP Headers, HTTP body or URI strings
 	- We can *block countries* using the **geo-match** feature or allow/block only certain IPs. Allowing certain IPs is done using WAF IP **set** statement.
 	- We can also apply some **Rate Based Rules for DDoS protection**. For example an IP should not do more than 5 requests per second.
 

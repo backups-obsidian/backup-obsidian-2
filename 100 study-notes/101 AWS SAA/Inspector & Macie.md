@@ -1,20 +1,30 @@
 ---
 created: 2022-04-29 10:45
-updated: 2022-04-29 10:51
+updated: 2023-03-06 15:46
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
 
 ---
 ## Inspector
-- **Automated Security Assessments for EC2 instances**.
-- **Analyse the running OS** and **check it against known vulnerabilities**.
-- Analyse against **unintended network activity**.
-- For all these AWS inspector *must be installed on the OS of EC2 instances*.
-- After the assessment the inspector generates a report and notifications can be sent via SNS.
+- **Automated Security Assessments**
+- For **EC2 instances**
+	- Leveraging the *AWS System Manager (SSM) agent*. EC2 instances must have the SSM agent.
+	- Analyse against unintended network accessibility
+	- Analyse the *running OS against known vulnerabilities*
+- For **Container Images pushed to Amazon ECR**
+- For **Lambda Functions**
+	- Identifies *software vulnerabilities in function code and package dependencies*.
+	- Assessment of functions as they are deployed.
+- Reporting & integration with *AWS Security Hub*.
+- Send findings to *Amazon Event Bridge*.
 
-> [!caution]- It is only for *EC2* instances. It does *network (agentless)* and *host assessments (agent)*
-> If you see keywords like EC2, *OS with security* then go for inspector.
+> [!tip] Only for EC2 instances, Container Images & Lambda functions.
+
+- **Package vulnerabilities** (*EC2, ECR & Lambda*) - *database of CVE*
+- **Network reachability** (*EC2*)
+	- Like port 22 is accessible from the internet.
+- A risk score is associated with all vulnerabilities for prioritisation.
 
 ## Macie
 - Amazon Macie is a **fully managed** data security and data privacy service that uses machine learning and pattern matching to discover and *protect your sensitive data in AWS*.

@@ -1,6 +1,6 @@
 ---
 created: 2023-03-01 15:32
-updated: 2023-03-06 15:26
+updated: 2023-03-06 19:09
 ---
 ---
 **Links**: [[../100 home | 100 Home]]
@@ -142,6 +142,13 @@ updated: 2023-03-06 15:26
 [[../101 AWS SAA/Shield, WAF & Firewall | Shield, WAF & Firewall]]
 [[../101 AWS SAA/Inspector & Macie | Inspector & Macie]]
 [[../101 AWS SAA/GuardDuty | GuardDuty]]
+[[../101 AWS SAA/Other Services#Trusted Advisor | Trusted Advisor]]
+[[../101 AWS SAA/KMS | KMS]]
+[[KMS SOA]]
+[[../101 AWS SAA/CloudHSM | CloudHSM]]
+
+- We can do pentesting on cloud but it is limited to only a few services.
+	- We *CANNOT do DoS or DDoS attacks on our system*.
 
 ## Other Services
 [[Other Services SOA]]
