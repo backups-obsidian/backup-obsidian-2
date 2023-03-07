@@ -5,6 +5,82 @@
       "path": "100 study-notes/114 AWS SOA/114 AWS SOA Index.md"
     },
     {
+      "basename": "Route53 SOA",
+      "path": "100 study-notes/114 AWS SOA/Route53 SOA.md"
+    },
+    {
+      "basename": "Route53",
+      "path": "100 study-notes/101 AWS SAA/Route53.md"
+    },
+    {
+      "basename": "Route53 Routing Policies",
+      "path": "100 study-notes/101 AWS SAA/Route53 Routing Policies.md"
+    },
+    {
+      "basename": "Route53 Health Checks",
+      "path": "100 study-notes/101 AWS SAA/Route53 Health Checks.md"
+    },
+    {
+      "basename": "STS & IAM Advanced DVA",
+      "path": "100 study-notes/102 AWS DVA/STS & IAM Advanced DVA.md"
+    },
+    {
+      "basename": "101 AWS SAA Index",
+      "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
+    },
+    {
+      "basename": "102 AWS DVA Index",
+      "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
+    },
+    {
+      "basename": "AWS IAM Identity Centre",
+      "path": "100 study-notes/114 AWS SOA/AWS IAM Identity Centre.md"
+    },
+    {
+      "basename": "Security Miscellaneous Services",
+      "path": "100 study-notes/102 AWS DVA/Security Miscellaneous Services.md"
+    },
+    {
+      "basename": "Miscellaneous",
+      "path": "100 study-notes/101 AWS SAA/Miscellaneous.md"
+    },
+    {
+      "basename": "STS & Identity Federation",
+      "path": "100 study-notes/101 AWS SAA/STS & Identity Federation.md"
+    },
+    {
+      "basename": "Cognito",
+      "path": "100 study-notes/102 AWS DVA/Cognito.md"
+    },
+    {
+      "basename": "Inspector & Macie",
+      "path": "100 study-notes/101 AWS SAA/Inspector & Macie.md"
+    },
+    {
+      "basename": "GuardDuty",
+      "path": "100 study-notes/101 AWS SAA/GuardDuty.md"
+    },
+    {
+      "basename": "SSM Parameter Store vs Secrets Manager",
+      "path": "100 study-notes/102 AWS DVA/SSM Parameter Store vs Secrets Manager.md"
+    },
+    {
+      "basename": "Secrets Manager",
+      "path": "100 study-notes/101 AWS SAA/Secrets Manager.md"
+    },
+    {
+      "basename": "Other Services DVA",
+      "path": "100 study-notes/102 AWS DVA/Other Services DVA.md"
+    },
+    {
+      "basename": "AWS Artifact",
+      "path": "100 study-notes/114 AWS SOA/AWS Artifact.md"
+    },
+    {
+      "basename": "Other Services SOA",
+      "path": "100 study-notes/114 AWS SOA/Other Services SOA.md"
+    },
+    {
       "basename": "CloudHSM",
       "path": "100 study-notes/101 AWS SAA/CloudHSM.md"
     },
@@ -21,10 +97,6 @@
       "path": "100 study-notes/102 AWS DVA/KMS DVA.md"
     },
     {
-      "basename": "102 AWS DVA Index",
-      "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
-    },
-    {
       "basename": "Other Services",
       "path": "100 study-notes/101 AWS SAA/Other Services.md"
     },
@@ -35,18 +107,6 @@
     {
       "basename": "CloudWatch",
       "path": "100 study-notes/101 AWS SAA/CloudWatch.md"
-    },
-    {
-      "basename": "101 AWS SAA Index",
-      "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
-    },
-    {
-      "basename": "Inspector & Macie",
-      "path": "100 study-notes/101 AWS SAA/Inspector & Macie.md"
-    },
-    {
-      "basename": "GuardDuty",
-      "path": "100 study-notes/101 AWS SAA/GuardDuty.md"
     },
     {
       "basename": "Shield, WAF & Firewall",
@@ -75,10 +135,6 @@
     {
       "basename": "AWS Service Catalog",
       "path": "100 study-notes/114 AWS SOA/AWS Service Catalog.md"
-    },
-    {
-      "basename": "Other Services SOA",
-      "path": "100 study-notes/114 AWS SOA/Other Services SOA.md"
     },
     {
       "basename": "AWS Control Tower",
@@ -143,62 +199,6 @@
     {
       "basename": "CloudFront Caching SOA",
       "path": "100 study-notes/114 AWS SOA/CloudFront Caching SOA.md"
-    },
-    {
-      "basename": "CloudFront DVA",
-      "path": "100 study-notes/102 AWS DVA/CloudFront DVA.md"
-    },
-    {
-      "basename": "CloudFront Advanced",
-      "path": "100 study-notes/101 AWS SAA/CloudFront Advanced.md"
-    },
-    {
-      "basename": "TODO",
-      "path": "TODO.md"
-    },
-    {
-      "basename": "Study List - Random",
-      "path": "200 general-notes/Study List - Random.md"
-    },
-    {
-      "basename": "Study List",
-      "path": "200 general-notes/Study List.md"
-    },
-    {
-      "basename": "CloudFront",
-      "path": "100 study-notes/101 AWS SAA/CloudFront.md"
-    },
-    {
-      "basename": "AWS FSx",
-      "path": "100 study-notes/101 AWS SAA/AWS FSx.md"
-    },
-    {
-      "basename": "AWS Storage Gateway SOA",
-      "path": "100 study-notes/114 AWS SOA/AWS Storage Gateway SOA.md"
-    },
-    {
-      "basename": "AWS Storage Gateway",
-      "path": "100 study-notes/101 AWS SAA/AWS Storage Gateway.md"
-    },
-    {
-      "basename": "AWS Snow",
-      "path": "100 study-notes/101 AWS SAA/AWS Snow.md"
-    },
-    {
-      "basename": "S3",
-      "path": "100 study-notes/101 AWS SAA/S3.md"
-    },
-    {
-      "basename": "S3 Miscellaneous",
-      "path": "100 study-notes/101 AWS SAA/S3 Miscellaneous.md"
-    },
-    {
-      "basename": "S3 Encryption",
-      "path": "100 study-notes/101 AWS SAA/S3 Encryption.md"
-    },
-    {
-      "basename": "S3 Access Points",
-      "path": "100 study-notes/102 AWS DVA/S3 Access Points.md"
     }
   ],
   "omittedPaths": [],

@@ -1,6 +1,6 @@
 ---
 created: 2022-04-18 20:21
-updated: 2022-06-17 01:03
+updated: 2023-03-07 08:26
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -45,6 +45,7 @@ updated: 2022-06-17 01:03
 - There are different flavours of federation.
 
 ### SAML 2.0 Federation
+- *Large enterprises*.
 - To integrate with ADFS (**Active Directory File System**) or any **SAML 2.0 based system**.
 - STS API: **AssumeRoleWithSAML**
 - SAML 2.0 is the **old way for SSO**. [[Miscellaneous#SSO|AWS SSO]] is the new way.
@@ -56,6 +57,8 @@ updated: 2022-06-17 01:03
 ### Custom Identity broker application
 - IDP **not compatible with SAML**.
 - STS API: **AssumeRole** or **GetFederationToken**
+- The *identity broker must determine the appropriate IAM policy*.
+- It is exactly like SAML but we have to do *a lot more manual work*.
 
 > [!important]+
 > After getting the STS token in SAML 2.0 or custom identity broker we need call the AWS **federation endpoint** and supply the temporary security credentials to **request a sign-in token**.

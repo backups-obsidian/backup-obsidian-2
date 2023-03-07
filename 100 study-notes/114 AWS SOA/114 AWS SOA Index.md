@@ -1,6 +1,6 @@
 ---
 created: 2023-03-01 15:32
-updated: 2023-03-06 19:09
+updated: 2023-03-07 10:14
 ---
 ---
 **Links**: [[../100 home | 100 Home]]
@@ -146,9 +146,27 @@ updated: 2023-03-06 19:09
 [[../101 AWS SAA/KMS | KMS]]
 [[KMS SOA]]
 [[../101 AWS SAA/CloudHSM | CloudHSM]]
+[[AWS Artifact]]
+[[../102 AWS DVA/Other Services DVA#ACM (AWS Certificate Manager) | AWS Certificate Manager]]
+[[../101 AWS SAA/Secrets Manager | Secrets Manager]]
+[[../102 AWS DVA/SSM Parameter Store vs Secrets Manager | SSM Parameter Store vs Secrets Manager]]
 
 - We can do pentesting on cloud but it is limited to only a few services.
 	- We *CANNOT do DoS or DDoS attacks on our system*.
+	- Cannot perform pentesting on Route53.
+
+## Identity
+[[../102 AWS DVA/Security Miscellaneous Services | Security Miscellaneous Services]]
+[[../101 AWS SAA/STS & Identity Federation | STS & Identity Federation]]
+[[../102 AWS DVA/STS & IAM Advanced DVA | STS Advanced]]
+[[../102 AWS DVA/Cognito | Cognito]]
+[[AWS IAM Identity Centre]]
+
+## Route53
+[[../101 AWS SAA/Route53 | Route53]]
+[[../101 AWS SAA/Route53 Routing Policies | Route53 Routing Policies]]
+[[../101 AWS SAA/Route53 Health Checks | Route53 Health Checks]]
+[[Route53 SOA]]
 
 ## Other Services
 [[Other Services SOA]]

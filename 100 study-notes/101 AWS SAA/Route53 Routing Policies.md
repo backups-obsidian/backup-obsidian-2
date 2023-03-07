@@ -1,12 +1,13 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-05-05 21:07
+updated: 2023-03-07 10:09
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
 
 ---
-- Routing policies define how Route53 *should respond to DNS queries*. It doesn't route any traffic it just responds to DNS queries in a specific way depending on the policy.
+- Routing policies define how Route53 *should respond to DNS queries*. 
+	- It doesn't route any traffic it just responds to DNS queries in a specific way depending on the policy.
 
 > [!info] All routing policies have health checks except simple.
 
@@ -14,13 +15,16 @@ updated: 2022-05-05 21:07
 - It will route traffic to a **single resource**.
 - We can specify **multiple values** in the **same record**.
 	- **If multiple values** are returned then a **random one** is chosen by the **client**.
+		- ![[attachments/Pasted image 20230307095400.png]]
+		- ![[attachments/Pasted image 20230307095332.png]]
 - It **cannot** be associated with **health checks**
 - When **ALIAS** is enabled it can point to **only 1 AWS resource**.
 
 ## Multi value
 - It is used when you want to route traffic to **multiple resources**
 - Can be associated with health checks (return **only values with positive health checks**)
-- Multi value is **NOT a substitute for ELB**
+- Multi value is **NOT a substitute for ELB**.
+	- It is *client side load balancing*.
 - Upto to **8 healthy records are returned** by each multi value query.
 - It is a *better version of simple type since it only returns the IPs which are healthy*.
 
@@ -48,6 +52,7 @@ updated: 2022-05-05 21:07
 
 ## Failover
 - **Health check is mandatory**.
+- We need 2 different records: a *primary record* and a *secondary record*.
 - DNS failover to a standby instance
 	- ![[attachments/Pasted image 20220422194449.png]]
 
@@ -73,9 +78,10 @@ updated: 2022-05-05 21:07
 -   Route traffic to resources **based on the geographic location of users and the resources**
 - We can shift more traffic to resources based on **bias**.
 	- ![[attachments/Pasted image 20220422195232.png]]
-- We must use Route 53 *Traffic Flow* (advanced) to use this feature. 
+- We must use Route 53 **Traffic Flow** (advanced) to use this feature. 
 	- We can setup very advanced rules.
 	- Traffic Flow supports *versioning*.
+	- It will be saved as traffic flow policies.
 - It is really helpful if we need to *shift the traffic from one region to another* by changing the bias.
 
 > [!question]- Trick question to confuse between Geolocation and Geoproximity

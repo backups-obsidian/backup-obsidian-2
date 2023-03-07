@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2023-02-09 10:44
+updated: 2023-03-07 10:28
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -41,19 +41,6 @@ updated: 2023-02-09 10:44
 -   For **any hosted zone** we are going to **pay 0.5$**
 - Public and private hosted zones work in the exact same way, the only difference is that public hosted zones allow anyone from the internet to query your records where as in private hosted zone the records can be queried only from the VPC.
 
-## Inbound and Outbound Endpoints
-- Amazon Route 53 effectively *connects user requests to infrastructure running in AWS* – such as Amazon EC2 instances  
-- It can also be used to **route users to infrastructure outside of AWS**. 
-- By **default**, Route 53 Resolver automatically *answers DNS queries for local VPC domain* names for EC2 instances. 
-- You can **integrate** DNS resolution between **Route 53 Resolver and DNS resolvers on your on-premises** network by *configuring forwarding rules*.
-- To resolve any *DNS queries for resources in the AWS VPC from the on-premises network*, you can create an **inbound endpoint** on Route 53 Resolver. DNS resolvers on the on-premises network can forward DNS queries to Route 53 Resolver via this endpoint.
-	- ![[attachments/Pasted image 20220501115457.png]]
-
-- To resolve *DNS queries for any resources in the on-premises network from the AWS VPC*, you can create an **outbound endpoint** on Route 53 Resolver. Route 53 Resolver can conditionally *forward queries to resolvers on the on-premises network via this endpoint*. 
-	- ![[attachments/Pasted image 20220501115514.png]]
-
-> [!note] To remember: **in** means queries **from on premises**.
-
 ## TTL
 - Stands for Time To Live
 - *The client will cache the result for the duration of TTL*. This means that in the duration of TTL the client **will not make a DNS query** for that particular domain.
@@ -80,7 +67,8 @@ updated: 2023-02-09 10:44
 - They have a **native health check capability**.
 - It is an **extension of DNS functionality**.
 - Alias records are **always** of type **A** or **AAAA**.
-- You **cannot set** the **TTL** it is set **automatically by Route53**
+	- ![[attachments/Pasted image 20230307095008.png]]
+- You **CANNOT set** the **TTL** it is set **automatically by Route53**
 
 > [!tip] For AWS resources always go for ALIAS over CNAME
 
@@ -94,7 +82,7 @@ updated: 2023-02-09 10:44
 	- Global Accelerator accelerator
 	- Route 53 record in the same hosted zone
 
-> [!caution] You cannot set ALIAS record for *EC2 DNS* name
+> [!caution] You CANNOT set ALIAS record for *EC2 DNS* name
 
 > [!note]- CNAME over ALIAS for **3rd party** applications.
 >  So, if you register the DNS name `covid19survey.com`, the zone apex is `covid19survey.com`. You *can't create a CNAME record* for `covid19survey.com`, but you can create an **alias record** for `covid19survey.com` that routes traffic to `www.covid19survey.com`.

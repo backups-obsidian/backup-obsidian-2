@@ -68,12 +68,12 @@
             }
           },
           {
-            "id": "4cd91b6ef9fb8a29",
+            "id": "425f0e098ad203bd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 study-notes/101 AWS SAA/CloudHSM.md",
+                "file": "100 study-notes/114 AWS SOA/Route53 SOA.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -100,7 +100,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "path:saa \"trusted\"",
+                "query": "path:dva \"sts\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -251,15 +251,15 @@
   },
   "active": "1a369a2bcb8ced60",
   "lastOpenFiles": [
-    "100 study-notes/101 AWS SAA/CloudHSM.md",
+    "100 study-notes/114 AWS SOA/Route53 SOA.md",
     "100 study-notes/114 AWS SOA/114 AWS SOA Index.md",
-    "100 study-notes/114 AWS SOA/KMS SOA.md",
-    "100 study-notes/101 AWS SAA/KMS.md",
-    "100 study-notes/102 AWS DVA/KMS DVA.md",
+    "100 study-notes/101 AWS SAA/Route53.md",
+    "100 study-notes/101 AWS SAA/Route53 Routing Policies.md",
+    "100 study-notes/101 AWS SAA/Route53 Health Checks.md",
+    "100 study-notes/102 AWS DVA/STS & IAM Advanced DVA.md",
+    "100 study-notes/101 AWS SAA/101 AWS SAA Index.md",
     "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
-    "100 study-notes/101 AWS SAA/Other Services.md",
-    "100 study-notes/101 AWS SAA/EventBridge.md",
-    "100 study-notes/101 AWS SAA/CloudWatch.md",
-    "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
+    "100 study-notes/114 AWS SOA/AWS IAM Identity Centre.md",
+    "100 study-notes/102 AWS DVA/Security Miscellaneous Services.md"
   ]
 }

@@ -1,6 +1,6 @@
 ---
 created: 2022-05-30 09:35
-updated: 2023-02-24 10:04
+updated: 2023-03-07 08:51
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -72,6 +72,7 @@ updated: 2023-02-24 10:04
 - Give the token to Cognito Identity Pool which will be verified against the identity provider
 - Upon successful verification get the temporary credentials from STS and give it to the user.
 - Now the users can talk directly to the AWS Services using the temporary credentials
+- Cognito Identity pool with *public identity provider*.
 	- ![[attachments/Pasted image 20220530120432.png]]
 - If we use *Cognito User Pools as the Identity Provider* then Cognito Identity Pool will verify the tokens against Cognito User Pool. 
 	- Useful if you want to maintain an internal database of Users
@@ -79,15 +80,18 @@ updated: 2023-02-24 10:04
 
 #### IAM Roles
 - How does Cognito Identity Pool decide which role to assign to which user?
-- *Default IAM roles* for **authenticated and guest users**
-	- ![[attachments/Pasted image 20220530121102.png]]
+- We can define *default IAM roles* for both **authenticated and guest users**
 - We define _rules to choose the role for each user based on the **user's ID**_
 	- ![[attachments/Pasted image 20220530121300.png]]
-	- Here the rule is that user is only allowed get and put actions on the bucket which has a prefix equal to the user id
+	- Here the rule is that user is only allowed get and put actions on the bucket which has a prefix equal to the user id.
+	- This is done using *policy variables*.
 - Users are mapped to IAM roles & policies
-- You can partition your user's access using policy variables
+- We can partition the user's access using *policy variables*.
 - *lAM credentials* are obtained by Cognito Identity Pools *through STS*
 - The **roles must have a trust policy of Cognito Identity Pools**
+- Example role for a *guest user (unauthenticated)*:
+	- ![[attachments/Pasted image 20220530121102.png]]
+	- This is a very simple but restrictive IAM policy.
 
 ### Cognito Sync
 - Deprecated service
