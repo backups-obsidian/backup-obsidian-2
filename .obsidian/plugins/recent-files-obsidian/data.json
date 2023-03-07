@@ -1,24 +1,60 @@
 {
   "recentFiles": [
     {
-      "basename": "Shield, WAF & Firewall",
-      "path": "100 study-notes/101 AWS SAA/Shield, WAF & Firewall.md"
-    },
-    {
       "basename": "114 AWS SOA Index",
       "path": "100 study-notes/114 AWS SOA/114 AWS SOA Index.md"
+    },
+    {
+      "basename": "CloudHSM",
+      "path": "100 study-notes/101 AWS SAA/CloudHSM.md"
+    },
+    {
+      "basename": "KMS SOA",
+      "path": "100 study-notes/114 AWS SOA/KMS SOA.md"
+    },
+    {
+      "basename": "KMS",
+      "path": "100 study-notes/101 AWS SAA/KMS.md"
+    },
+    {
+      "basename": "KMS DVA",
+      "path": "100 study-notes/102 AWS DVA/KMS DVA.md"
+    },
+    {
+      "basename": "102 AWS DVA Index",
+      "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
+    },
+    {
+      "basename": "Other Services",
+      "path": "100 study-notes/101 AWS SAA/Other Services.md"
+    },
+    {
+      "basename": "EventBridge",
+      "path": "100 study-notes/101 AWS SAA/EventBridge.md"
+    },
+    {
+      "basename": "CloudWatch",
+      "path": "100 study-notes/101 AWS SAA/CloudWatch.md"
     },
     {
       "basename": "101 AWS SAA Index",
       "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
     },
     {
-      "basename": "Shared Responsibility Model",
-      "path": "100 study-notes/114 AWS SOA/Shared Responsibility Model.md"
+      "basename": "Inspector & Macie",
+      "path": "100 study-notes/101 AWS SAA/Inspector & Macie.md"
     },
     {
-      "basename": "102 AWS DVA Index",
-      "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
+      "basename": "GuardDuty",
+      "path": "100 study-notes/101 AWS SAA/GuardDuty.md"
+    },
+    {
+      "basename": "Shield, WAF & Firewall",
+      "path": "100 study-notes/101 AWS SAA/Shield, WAF & Firewall.md"
+    },
+    {
+      "basename": "Shared Responsibility Model",
+      "path": "100 study-notes/114 AWS SOA/Shared Responsibility Model.md"
     },
     {
       "basename": "AWS Compute Optimiser",
@@ -31,10 +67,6 @@
     {
       "basename": "AWS Budgets",
       "path": "100 study-notes/114 AWS SOA/AWS Budgets.md"
-    },
-    {
-      "basename": "Other Services",
-      "path": "100 study-notes/101 AWS SAA/Other Services.md"
     },
     {
       "basename": "Organisations",
@@ -55,14 +87,6 @@
     {
       "basename": "DataSync & Backup",
       "path": "100 study-notes/101 AWS SAA/DataSync & Backup.md"
-    },
-    {
-      "basename": "CloudWatch",
-      "path": "100 study-notes/101 AWS SAA/CloudWatch.md"
-    },
-    {
-      "basename": "EventBridge",
-      "path": "100 study-notes/101 AWS SAA/EventBridge.md"
     },
     {
       "basename": "CloudTrail",
@@ -175,26 +199,6 @@
     {
       "basename": "S3 Access Points",
       "path": "100 study-notes/102 AWS DVA/S3 Access Points.md"
-    },
-    {
-      "basename": "S3 Storage Classes",
-      "path": "100 study-notes/101 AWS SAA/S3 Storage Classes.md"
-    },
-    {
-      "basename": "S3 Performance",
-      "path": "100 study-notes/101 AWS SAA/S3 Performance.md"
-    },
-    {
-      "basename": "S3 Websites",
-      "path": "100 study-notes/101 AWS SAA/S3 Websites.md"
-    },
-    {
-      "basename": "S3 Lifecycle Rules",
-      "path": "100 study-notes/101 AWS SAA/S3 Lifecycle Rules.md"
-    },
-    {
-      "basename": "S3 Replication",
-      "path": "100 study-notes/101 AWS SAA/S3 Replication.md"
     }
   ],
   "omittedPaths": [],

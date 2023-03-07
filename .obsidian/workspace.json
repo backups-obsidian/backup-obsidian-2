@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 study-notes/101 AWS SAA/Shield, WAF & Firewall.md",
+                "file": "100 study-notes/101 AWS SAA/CloudHSM.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -81,7 +81,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -100,7 +100,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "path:saa \"shield\"",
+                "query": "path:saa \"trusted\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -156,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/101 AWS SAA/Shield, WAF & Firewall.md",
+                "file": "100 study-notes/114 AWS SOA/114 AWS SOA Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/101 AWS SAA/Shield, WAF & Firewall.md"
+                "file": "100 study-notes/114 AWS SOA/114 AWS SOA Index.md"
               }
             }
           },
@@ -183,7 +183,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/101 AWS SAA/Shield, WAF & Firewall.md",
+                "file": "100 study-notes/114 AWS SOA/114 AWS SOA Index.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -249,17 +249,17 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "4cd91b6ef9fb8a29",
+  "active": "1a369a2bcb8ced60",
   "lastOpenFiles": [
+    "100 study-notes/101 AWS SAA/CloudHSM.md",
     "100 study-notes/114 AWS SOA/114 AWS SOA Index.md",
-    "100 study-notes/101 AWS SAA/Shield, WAF & Firewall.md",
-    "100 study-notes/101 AWS SAA/Shield.md",
-    "100 study-notes/101 AWS SAA/101 AWS SAA Index.md",
-    "100 study-notes/114 AWS SOA/Shared Responsibility Model.md",
+    "100 study-notes/114 AWS SOA/KMS SOA.md",
+    "100 study-notes/101 AWS SAA/KMS.md",
+    "100 study-notes/102 AWS DVA/KMS DVA.md",
     "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
-    "100 study-notes/114 AWS SOA/AWS Compute Optimiser.md",
-    "100 study-notes/114 AWS SOA/Account Management.md",
-    "100 study-notes/114 AWS SOA/AWS Budgets.md",
-    "100 study-notes/101 AWS SAA/Other Services.md"
+    "100 study-notes/101 AWS SAA/Other Services.md",
+    "100 study-notes/101 AWS SAA/EventBridge.md",
+    "100 study-notes/101 AWS SAA/CloudWatch.md",
+    "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
   ]
 }

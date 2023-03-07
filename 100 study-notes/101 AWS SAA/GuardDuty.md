@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2023-02-20 09:16
+updated: 2023-03-06 15:50
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -12,8 +12,10 @@ updated: 2023-02-20 09:16
 - Input data includes:  
 	- **VPC flow logs** 
 	- **DNS logs** 
-	- **CloudTrail** *data and management events*. Since S3 can be categorised under cloud trail data events it can also monitor data stored in S3.
-    
+	- **CloudTrail** *data and management events*. 
+		- Since S3 can be categorised under cloud trail data events it can also monitor data stored in S3.
+	- **Kubernetes Audit Logs** - suspicious activities and potential EKS cluster compromises
+- Can setup *EventBridge rules* to be notified in case of findings
 - **Disabling** the service *will delete all remaining data*, including your findings and configurations before relinquishing the service permissions and resetting the service.
 - Can protect against **crypto currency attacks**. It has a *dedicated finding* for it.
 
