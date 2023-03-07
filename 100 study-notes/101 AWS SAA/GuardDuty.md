@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2023-03-06 15:50
+updated: 2023-03-07 08:12
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -21,3 +21,6 @@ updated: 2023-03-06 15:50
 
 > [!question]- A systems administrator of a company wants to detect and remediate the compromise of *services such as Amazon EC2 instances and Amazon S3 buckets*.
 > GuardDuty
+
+> [!question]- Your development team tends to commit their AWS credentials in public repositories and is afraid of misuse of your AWS account. Which AWS service can notify you of suspicious account activity?
+> AWS GuardDuty

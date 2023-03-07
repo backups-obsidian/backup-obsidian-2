@@ -1,6 +1,6 @@
 ---
 created: 2022-05-30 09:35
-updated: 2023-02-24 11:02
+updated: 2023-03-07 08:38
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -26,6 +26,8 @@ updated: 2023-02-24 11:02
 	- ![[attachments/Pasted image 20220531090004.png]]
 - Temporary credentials can be valid between 15 minutes to 1 hour
 - `aws sts assume-role`
+- Cross account access with STS
+	- ![[attachments/Pasted image 20230307083732.png]]
 
 ### STS with MFA
 - Use **GetSessionToken** from STS 
