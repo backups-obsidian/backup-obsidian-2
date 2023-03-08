@@ -1,6 +1,6 @@
 ---
 created: 2022-04-30 19:10
-updated: 2022-05-06 20:10
+updated: 2023-03-08 09:40
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -30,9 +30,9 @@ updated: 2022-05-06 20:10
 ^a5f822
 
 ### Customer Gateway Device
-- IP of the Customer Gateway.
-	- **Public Internet-routable IP address** for your Customer Gateway device
-	- A **NAT device** that's enabled for *NAT traversal (NAT-T)*, use the *public IP address of the NAT device*.
+- Which IP address to use on the Customer Gateway?
+	- **Public Internet-routable IP address** for your Customer Gateway device if it is public. 
+	- If the CGW is behind a NAT then a **NAT device** that's enabled for *NAT traversal (NAT-T)*, use the *public IP address of the NAT device*.
 	- ![[attachments/Pasted image 20220430192051.png]]
     
 > [!question]- What needs to be configured *outside of the VPC* for them to have a successful site-to site VPN connection?

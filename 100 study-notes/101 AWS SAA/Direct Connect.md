@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-05-02 16:16
+updated: 2023-03-08 10:14
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -27,9 +27,12 @@ updated: 2022-05-02 16:16
 - We have **private virtual interfaces** in DX.
 
 > [!note]- *Specific location DX locations* also known as Direct Connect Partners, Both *public and private resources*, *VPG*
+> We have a private VIF (virtual interface) for connecting to EC2 instances in the private subnet and a public VIF for connecting to public resources like S3.
+> ---
 > ![[attachments/Pasted image 20220430194657.png]]
 
 > [!caution] It can take more than **1 month** to *establish a DX connection*. So if you want something quick go for Site to Site VPN.
+
 
 ### Direct Connect Gateway
 - You *integrate Direct Connect Gateway with an existing Direct Connection first*.
@@ -48,6 +51,9 @@ updated: 2022-05-02 16:16
 - [[Site to Site VPN#^a5f822|AWS Direct Connect + VPN]] provides an IPsec-encrypted private connection
 
 ### Resiliency
+> [!tip]- We can use *site to site connection as a backup* for DX instead of using a second DX connection as it can be expensive.
+> ![[attachments/Pasted image 20230308101302.png]]
+
 - **High Resiliency**: One connection at multiple locations.
 	- *Wording*: Opt for *one Direct Connect connection* at each of the *multiple Direct Connect locations*
 	- ![[attachments/Pasted image 20220430200332.png]]

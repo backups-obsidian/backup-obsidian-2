@@ -1,28 +1,44 @@
 {
   "recentFiles": [
     {
-      "basename": "VPC Flow Logs",
-      "path": "100 study-notes/101 AWS SAA/VPC Flow Logs.md"
-    },
-    {
       "basename": "114 AWS SOA Index",
       "path": "100 study-notes/114 AWS SOA/114 AWS SOA Index.md"
     },
     {
-      "basename": "AWS PrivateLink",
-      "path": "100 study-notes/101 AWS SAA/AWS PrivateLink.md"
+      "basename": "Networking Costs",
+      "path": "100 study-notes/101 AWS SAA/Networking Costs.md"
     },
     {
       "basename": "101 AWS SAA Index",
       "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
     },
     {
-      "basename": "VPC Peering and Endpoints",
-      "path": "100 study-notes/101 AWS SAA/VPC Peering and Endpoints.md"
-    },
-    {
       "basename": "102 AWS DVA Index",
       "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
+    },
+    {
+      "basename": "Transit Gateway",
+      "path": "100 study-notes/101 AWS SAA/Transit Gateway.md"
+    },
+    {
+      "basename": "AWS PrivateLink",
+      "path": "100 study-notes/101 AWS SAA/AWS PrivateLink.md"
+    },
+    {
+      "basename": "Direct Connect",
+      "path": "100 study-notes/101 AWS SAA/Direct Connect.md"
+    },
+    {
+      "basename": "Site to Site VPN",
+      "path": "100 study-notes/101 AWS SAA/Site to Site VPN.md"
+    },
+    {
+      "basename": "VPC Flow Logs",
+      "path": "100 study-notes/101 AWS SAA/VPC Flow Logs.md"
+    },
+    {
+      "basename": "VPC Peering and Endpoints",
+      "path": "100 study-notes/101 AWS SAA/VPC Peering and Endpoints.md"
     },
     {
       "basename": "VPC Internet Access",
@@ -183,22 +199,6 @@
     {
       "basename": "ElastiCache SOA",
       "path": "100 study-notes/114 AWS SOA/ElastiCache SOA.md"
-    },
-    {
-      "basename": "Aurora SOA",
-      "path": "100 study-notes/114 AWS SOA/Aurora SOA.md"
-    },
-    {
-      "basename": "RDS",
-      "path": "100 study-notes/101 AWS SAA/RDS.md"
-    },
-    {
-      "basename": "RDS SOA",
-      "path": "100 study-notes/114 AWS SOA/RDS SOA.md"
-    },
-    {
-      "basename": "ElasticCache Replication",
-      "path": "100 study-notes/102 AWS DVA/ElasticCache Replication.md"
     }
   ],
   "omittedPaths": [],

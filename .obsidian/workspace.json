@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 study-notes/101 AWS SAA/VPC Flow Logs.md",
+                "file": "100 study-notes/101 AWS SAA/Networking Costs.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -81,7 +81,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -156,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/101 AWS SAA/VPC Flow Logs.md",
+                "file": "100 study-notes/114 AWS SOA/114 AWS SOA Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/101 AWS SAA/VPC Flow Logs.md"
+                "file": "100 study-notes/114 AWS SOA/114 AWS SOA Index.md"
               }
             }
           },
@@ -183,7 +183,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/101 AWS SAA/VPC Flow Logs.md",
+                "file": "100 study-notes/114 AWS SOA/114 AWS SOA Index.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -249,17 +249,17 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "425f0e098ad203bd",
+  "active": "1a369a2bcb8ced60",
   "lastOpenFiles": [
+    "100 study-notes/101 AWS SAA/Networking Costs.md",
     "100 study-notes/114 AWS SOA/114 AWS SOA Index.md",
-    "100 study-notes/101 AWS SAA/AWS PrivateLink.md",
     "100 study-notes/101 AWS SAA/101 AWS SAA Index.md",
-    "100 study-notes/101 AWS SAA/VPC Flow Logs.md",
-    "100 study-notes/101 AWS SAA/VPC Peering and Endpoints.md",
     "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
-    "100 study-notes/101 AWS SAA/VPC Internet Access.md",
-    "100 study-notes/101 AWS SAA/NACLs.md",
-    "100 study-notes/101 AWS SAA/DNS in VPC.md",
-    "100 study-notes/101 AWS SAA/VPC & Subnets.md"
+    "100 study-notes/101 AWS SAA/Transit Gateway.md",
+    "100 study-notes/101 AWS SAA/AWS PrivateLink.md",
+    "100 study-notes/101 AWS SAA/Direct Connect.md",
+    "100 study-notes/101 AWS SAA/Site to Site VPN.md",
+    "100 study-notes/101 AWS SAA/VPC Flow Logs.md",
+    "100 study-notes/101 AWS SAA/VPC Peering and Endpoints.md"
   ]
 }
