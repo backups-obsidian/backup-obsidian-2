@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-04-30 08:49
+updated: 2023-03-08 08:52
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -29,6 +29,6 @@ updated: 2022-04-30 08:49
 	- ![[attachments/Pasted image 20220430084254.png]]
 
 - For it to work **enableDnsSupport should be True**.
-- If we use custom DNS domain names *in a Private Hosted Zone in Route53 then both attributes should be true*.
+- If we use **custom DNS domain names in a Private Hosted Zone** in Route53 then **both attributes should be true**.
 
 > [!caution] So for public hostnames the *DNS resolution* and *DNS hostname* of the VPC configuration should be *enabled*.

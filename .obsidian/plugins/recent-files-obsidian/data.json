@@ -1,8 +1,48 @@
 {
   "recentFiles": [
     {
+      "basename": "VPC Flow Logs",
+      "path": "100 study-notes/101 AWS SAA/VPC Flow Logs.md"
+    },
+    {
       "basename": "114 AWS SOA Index",
       "path": "100 study-notes/114 AWS SOA/114 AWS SOA Index.md"
+    },
+    {
+      "basename": "AWS PrivateLink",
+      "path": "100 study-notes/101 AWS SAA/AWS PrivateLink.md"
+    },
+    {
+      "basename": "101 AWS SAA Index",
+      "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
+    },
+    {
+      "basename": "VPC Peering and Endpoints",
+      "path": "100 study-notes/101 AWS SAA/VPC Peering and Endpoints.md"
+    },
+    {
+      "basename": "102 AWS DVA Index",
+      "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
+    },
+    {
+      "basename": "VPC Internet Access",
+      "path": "100 study-notes/101 AWS SAA/VPC Internet Access.md"
+    },
+    {
+      "basename": "NACLs",
+      "path": "100 study-notes/101 AWS SAA/NACLs.md"
+    },
+    {
+      "basename": "DNS in VPC",
+      "path": "100 study-notes/101 AWS SAA/DNS in VPC.md"
+    },
+    {
+      "basename": "VPC & Subnets",
+      "path": "100 study-notes/101 AWS SAA/VPC & Subnets.md"
+    },
+    {
+      "basename": "Other Services SOA",
+      "path": "100 study-notes/114 AWS SOA/Other Services SOA.md"
     },
     {
       "basename": "Route53 SOA",
@@ -23,14 +63,6 @@
     {
       "basename": "STS & IAM Advanced DVA",
       "path": "100 study-notes/102 AWS DVA/STS & IAM Advanced DVA.md"
-    },
-    {
-      "basename": "101 AWS SAA Index",
-      "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
-    },
-    {
-      "basename": "102 AWS DVA Index",
-      "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
     },
     {
       "basename": "AWS IAM Identity Centre",
@@ -75,10 +107,6 @@
     {
       "basename": "AWS Artifact",
       "path": "100 study-notes/114 AWS SOA/AWS Artifact.md"
-    },
-    {
-      "basename": "Other Services SOA",
-      "path": "100 study-notes/114 AWS SOA/Other Services SOA.md"
     },
     {
       "basename": "CloudHSM",
@@ -171,34 +199,6 @@
     {
       "basename": "ElasticCache Replication",
       "path": "100 study-notes/102 AWS DVA/ElasticCache Replication.md"
-    },
-    {
-      "basename": "ElastiCache",
-      "path": "100 study-notes/101 AWS SAA/ElastiCache.md"
-    },
-    {
-      "basename": "Aurora",
-      "path": "100 study-notes/101 AWS SAA/Aurora.md"
-    },
-    {
-      "basename": "RDS Security",
-      "path": "100 study-notes/101 AWS SAA/RDS Security.md"
-    },
-    {
-      "basename": "RDS Proxy",
-      "path": "100 study-notes/102 AWS DVA/RDS Proxy.md"
-    },
-    {
-      "basename": "RDS Read Replica & Multi AZ",
-      "path": "100 study-notes/101 AWS SAA/RDS Read Replica & Multi AZ.md"
-    },
-    {
-      "basename": "CloudFront SOA",
-      "path": "100 study-notes/114 AWS SOA/CloudFront SOA.md"
-    },
-    {
-      "basename": "CloudFront Caching SOA",
-      "path": "100 study-notes/114 AWS SOA/CloudFront Caching SOA.md"
     }
   ],
   "omittedPaths": [],

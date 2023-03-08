@@ -1,6 +1,6 @@
 ---
 created: 2022-04-29 20:22
-updated: 2023-02-22 08:33
+updated: 2023-03-08 08:36
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -89,6 +89,7 @@ updated: 2023-02-22 08:33
 	- The route is **Private Subnet → NATG (Public Subnet) → IGW**
 
 - There is *no need to manage any security groups*. For NAT Instances we need security Groups.
+- We have a public and a private IP associated with the NAT Gateway.
 - 5 Gbps *bandwidth with automatic scaling* upto 45 Gbps.
 - It must be in a **public subnet**.
 	- ![[attachments/Pasted image 20220430080750.png]]

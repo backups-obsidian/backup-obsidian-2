@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-05-14 11:26
+updated: 2023-03-08 08:14
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -9,7 +9,8 @@ updated: 2022-05-14 11:26
 ## VPC
 - VPC is a *regional resource*.
 - When you use your AWS account you have a default VPC in each region with a public subnet in each AZ but no private subnets.
-- Amazon VPC enables you to launch AWS resources into a virtual network that you've defined. This virtual network closely resembles a traditional network that you'd operate in your own data centre, with the benefits of using the scalable infrastructure of AWS.
+- Amazon VPC enables you to launch AWS resources into a virtual network that you've defined. 
+	- This virtual network closely resembles a traditional network that you'd operate in your own data centre, with the benefits of using the scalable infrastructure of AWS.
 - Amazon *VPC is the networking layer for Amazon EC2*.
 - VPC is **logically isolated** from other virtual networks in the AWS Cloud.
 - We can have **multiple VPCs in an AWS region** 
@@ -20,12 +21,13 @@ updated: 2022-05-14 11:26
 	- **Max** size is **/16** (*65536* IP addresses)
 
 - VPC is private and *only private IP ranges are allowed*. 
-	- Class A: `10.0.0.0` to `10.255.255.255`
-	- Class B: `172.16.0.0` to `172.31.255.255`
-	- Class C: `192.168.0.0` to `192.168.255.255`
-    
-> [!important]- Your *VPC CIDR should not overlap with your other networks*.
-> Also it should be in the CIDR range of *16 to 28*.
+	- Class A: `10.0.0.0` to `10.255.255.255` (`10.0.0.0/8`) <- Big networks
+	- Class B: `172.16.0.0` to `172.31.255.255` (`172.16.0.0/12`) <- *AWS default range*.
+	- Class C: `192.168.0.0` to `192.168.255.255` (`192.168.0.0/16`) <- Home networks
+
+> [!important]- Your *VPC CIDR should not overlap with your other networks* (corporate).
+> - We do this to ensure that there are no problems when we try to connect these networks.
+> - Also it should be in the CIDR range of *16 to 28*.
 
 ### Default VPC
 - The default VPC has a **default subnet in every AZ**.
@@ -55,6 +57,9 @@ updated: 2022-05-14 11:26
 > [!caution]- There will be questions asking how many subnets should be created
 > - Always remember you have to atleast create 2 subnets in an AZ. *One private and one public* and for HA you need *atleast 2 AZs*. So minimum total of *4 subnets*.
 > - There can be more and this depends on the application structure described by the question. If the question demands that the DB should be in a different private subnet from the application layer private subnet then there will be a total of *6 subnets* required for HA.
+
+- In a public subnet we generally choose a small CIDR range since there are not many devices (bastion hosts, load balancer etc) that will be hosted in the public subnet.
+- While creating subnets there should be no overlapping IP addresses.
 
 ## Why subnets and VPC
 - At a high level, you can think of a VPC in AWS as a logical container that separates resources you create from other customers within the Amazon Cloud. It is you defining a network of your own within Amazon. You can think of a **VPC like an apartment** where your **furniture and items are analogous to databases and instances**. The walls of your apartment isolate and protect your things from being accessible to other tenants of the apartment complex.
