@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-05-14 11:57
+updated: 2023-03-08 09:14
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -10,7 +10,7 @@ updated: 2022-05-14 11:57
 - **Privately connect two VPC** using AWS network.
 - Make them behave as if they were in the same network.
 - The VPCs can be in **different region** or **accounts**.
-- The **CIDRs must not overlap**.
+- The **CIDRs must NOT overlap**.
 - VPC peering is **not transitive**. This means VPC peering must be enabled for each VPC that needs to communicate with each other. 
 	- So if there are 3 VPCs A, B and C. Peering is enabled between A B and B C. But since peering is not transitive A C are not peered.
 
@@ -58,6 +58,7 @@ updated: 2022-05-14 11:57
 > - You need to modify route tables for gateway endpoint, not needed for interface endpoint.
 
 #### Interface Endpoint
+- It is **powered by AWS PrivateLink**.
 - It **provisions an ENI** (*private IP address*) as an entry point. 
 	- ![[attachments/Pasted image 20220430112420.png]]
 
@@ -67,7 +68,9 @@ updated: 2022-05-14 11:57
 
 #### Gateway Endpoint
 - **Provisions a gateway** that **must be used as a target in a route table**.
-	- A Gateway Endpoint is a gateway that you specify as a target for a route in your route table for traffic destined to a supported AWS service. 
+	- A Gateway Endpoint is a gateway that you specify as a target for a route in your route table for traffic destined to a supported AWS service.
+	- ![[attachments/Pasted image 20230308091316.png]]
+- There are *no SGs or ENIs with gateway endpoint*.
 
 - It **only** supports **2** services **S3** and **DynamoDB**.
 	- You can use two types of VPC endpoints to access Amazon S3: gateway endpoints and interface endpoints
@@ -78,4 +81,8 @@ updated: 2022-05-14 11:57
 > - An endpoint policy *does not override or replace IAM user policies or service-specific policies* (such as S3 bucket policies). 
 > - It is a separate policy for *controlling access from the endpoint to the specified service*.
 
-> [!note] Gateway endpoint is *more cost efficient* than interface endpoint.
+> [!note]- Gateway endpoint is *more cost efficient* than interface endpoint.
+> It is free.
+
+> [!question]- When is Interface endpoint preferred over Gateway endpoint?
+> Interface Endpoint is preferred when *access is required from on-premises* (*Site to Site VPN or Direct Connect*), a *different VPC* or a *different region*.
