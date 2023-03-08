@@ -1,6 +1,6 @@
 ---
 created: 2022-04-30 19:44
-updated: 2022-05-01 21:39
+updated: 2023-03-08 10:26
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -20,6 +20,10 @@ updated: 2022-05-01 21:39
 - Works with Direct Connect Gateway and Site to Site VPN connections
 - **Only AWS service** which supports **IP Multicast** (not supported by any other AWS service)
 - You can use AWS *Resource Access Manager* to share *Transit Gateway with other accounts*.
+
+- *Sharing Direct Connect between multiple accounts*
+	- We have to **use AWS RAM** (Resource Access Manager) to *share Transit Gateway between multiple accounts*.
+	- ![[attachments/Pasted image 20230308102602.png]]
 
 > [!important]+ You can **attach** the following resources to your transit gateway:
 > - One or more *VPCs* 

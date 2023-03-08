@@ -1,6 +1,6 @@
 ---
 created: 2022-04-18 18:50
-updated: 2023-03-08 07:58
+updated: 2023-03-08 10:31
 ---
 ---
 **Links**: [[../100 home | 100 Home]]
@@ -131,27 +131,15 @@ In the beginning serverless just meant AWS Lambda but now it means anything that
 [[DNS in VPC]]
 [[NACLs]]
 [[VPC Peering and Endpoints]]
-[[AWS PrivateLink]]
 [[VPC Flow Logs]]
 [[Site to Site VPN]]
 [[Direct Connect]]
+[[AWS PrivateLink]]
 [[Transit Gateway]]
 [[IPv6 & Egress Internet Gateway]]
+[[Networking Costs]]
 
-- *Traffic mirroring* to capture and inspect network traffic in our VPC in a *non intrusive manner*.
-- **Networking Cost**:
-	-  Always use *private IP over public IP* for cost savings.
-		- In case of *inter AZ transfer* if you are using *private IP then it costs you less than public IP*.
-		- In the same AZ no cost if using private IP.
-	- You don't pay for data coming in, you always **pay for data going out of AWS**.
-		- Try to keep as much internet traffic within AWS to minimise costs
-			- ![[attachments/Pasted image 20220430214328.png]]
-		- Examples on how to avoid egress charges
-			- Use an Amazon EC2 instance in the same Region as the S3 bucket
-			- Use lambda@edge for compressing data before sending to users.
-		- Always use VPC Endpoints over NAT Gateway.
-	- There is no price when data goes from S3 to CloudFront
-		- ![[attachments/Pasted image 20220430214822.png]]
+- *Traffic mirroring* to capture and inspect network traffic packets in our VPC in a *non intrusive manner*.
 
 ## Disaster Recovery
 [[Disaster Recovery]]
