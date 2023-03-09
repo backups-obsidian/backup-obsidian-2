@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 study-notes/101 AWS SAA/Networking Costs.md",
+                "file": "100 study-notes/101 AWS SAA/AWS Network Firewall.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -251,15 +251,15 @@
   },
   "active": "1a369a2bcb8ced60",
   "lastOpenFiles": [
-    "100 study-notes/101 AWS SAA/Networking Costs.md",
+    "100 study-notes/101 AWS SAA/AWS Network Firewall.md",
     "100 study-notes/114 AWS SOA/114 AWS SOA Index.md",
-    "100 study-notes/101 AWS SAA/101 AWS SAA Index.md",
     "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
-    "100 study-notes/101 AWS SAA/Transit Gateway.md",
-    "100 study-notes/101 AWS SAA/AWS PrivateLink.md",
-    "100 study-notes/101 AWS SAA/Direct Connect.md",
-    "100 study-notes/101 AWS SAA/Site to Site VPN.md",
-    "100 study-notes/101 AWS SAA/VPC Flow Logs.md",
-    "100 study-notes/101 AWS SAA/VPC Peering and Endpoints.md"
+    "100 study-notes/101 AWS SAA/101 AWS SAA Index.md",
+    "100 study-notes/101 AWS SAA/Shield, WAF & Firewall Manager.md",
+    "100 study-notes/101 AWS SAA/Networking Costs.md",
+    "100 study-notes/101 AWS SAA/VPC Summary.md",
+    "100 study-notes/101 AWS SAA/IPv6 & Egress Internet Gateway.md",
+    "300 short-notes/Referrer Policy Header in HTTP Requests.md",
+    "300 short-notes/300 home.md"
   ]
 }

@@ -1,6 +1,6 @@
 ---
 created: 2022-04-18 18:50
-updated: 2023-03-08 10:31
+updated: 2023-03-09 08:50
 ---
 ---
 **Links**: [[../100 home | 100 Home]]
@@ -115,7 +115,7 @@ In the beginning serverless just meant AWS Lambda but now it means anything that
 [[CloudHSM]]
 
 ## Security
-[[Shield, WAF & Firewall]]
+[[Shield, WAF & Firewall Manager]]
 [[GuardDuty]]
 [[Inspector & Macie]]
 
@@ -139,7 +139,11 @@ In the beginning serverless just meant AWS Lambda but now it means anything that
 [[IPv6 & Egress Internet Gateway]]
 [[Networking Costs]]
 
+[[VPC Summary]]
+
 - *Traffic mirroring* to capture and inspect network traffic packets in our VPC in a *non intrusive manner*.
+
+[[AWS Network Firewall]]
 
 ## Disaster Recovery
 [[Disaster Recovery]]

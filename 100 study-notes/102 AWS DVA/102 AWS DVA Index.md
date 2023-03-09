@@ -1,6 +1,6 @@
 ---
 created: 2022-04-17 15:43
-updated: 2023-03-06 15:24
+updated: 2023-03-09 08:50
 ---
 ---
 **Links**: [[../100 home | 100 Home]]
@@ -185,7 +185,7 @@ Three ways in which Lambda processes events
 ## Other Services
 [[Other Services DVA]]
 [[../101 AWS SAA/GuardDuty | Guard Duty]]
-[[../101 AWS SAA/Shield, WAF & Firewall#WAF| WAF]]
+[[../101 AWS SAA/Shield, WAF & Firewall Manager#WAF| WAF]]
 [[AppConfig]]
 
 ## Miscellaneous

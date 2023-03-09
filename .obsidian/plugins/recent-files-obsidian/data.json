@@ -5,16 +5,44 @@
       "path": "100 study-notes/114 AWS SOA/114 AWS SOA Index.md"
     },
     {
-      "basename": "Networking Costs",
-      "path": "100 study-notes/101 AWS SAA/Networking Costs.md"
+      "basename": "AWS Network Firewall",
+      "path": "100 study-notes/101 AWS SAA/AWS Network Firewall.md"
+    },
+    {
+      "basename": "102 AWS DVA Index",
+      "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
     },
     {
       "basename": "101 AWS SAA Index",
       "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
     },
     {
-      "basename": "102 AWS DVA Index",
-      "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
+      "basename": "Shield, WAF & Firewall Manager",
+      "path": "100 study-notes/101 AWS SAA/Shield, WAF & Firewall Manager.md"
+    },
+    {
+      "basename": "Networking Costs",
+      "path": "100 study-notes/101 AWS SAA/Networking Costs.md"
+    },
+    {
+      "basename": "VPC Summary",
+      "path": "100 study-notes/101 AWS SAA/VPC Summary.md"
+    },
+    {
+      "basename": "IPv6 & Egress Internet Gateway",
+      "path": "100 study-notes/101 AWS SAA/IPv6 & Egress Internet Gateway.md"
+    },
+    {
+      "basename": "Referrer Policy Header in HTTP Requests",
+      "path": "300 short-notes/Referrer Policy Header in HTTP Requests.md"
+    },
+    {
+      "basename": "300 home",
+      "path": "300 short-notes/300 home.md"
+    },
+    {
+      "basename": "Work at 16Bit",
+      "path": "400 misc/Work at 16Bit.md"
     },
     {
       "basename": "Transit Gateway",
@@ -153,10 +181,6 @@
       "path": "100 study-notes/101 AWS SAA/CloudWatch.md"
     },
     {
-      "basename": "Shield, WAF & Firewall",
-      "path": "100 study-notes/101 AWS SAA/Shield, WAF & Firewall.md"
-    },
-    {
       "basename": "Shared Responsibility Model",
       "path": "100 study-notes/114 AWS SOA/Shared Responsibility Model.md"
     },
@@ -175,30 +199,6 @@
     {
       "basename": "Organisations",
       "path": "100 study-notes/101 AWS SAA/Organisations.md"
-    },
-    {
-      "basename": "AWS Service Catalog",
-      "path": "100 study-notes/114 AWS SOA/AWS Service Catalog.md"
-    },
-    {
-      "basename": "AWS Control Tower",
-      "path": "100 study-notes/114 AWS SOA/AWS Control Tower.md"
-    },
-    {
-      "basename": "DataSync & Backup",
-      "path": "100 study-notes/101 AWS SAA/DataSync & Backup.md"
-    },
-    {
-      "basename": "CloudTrail",
-      "path": "100 study-notes/101 AWS SAA/CloudTrail.md"
-    },
-    {
-      "basename": "Config",
-      "path": "100 study-notes/101 AWS SAA/Config.md"
-    },
-    {
-      "basename": "ElastiCache SOA",
-      "path": "100 study-notes/114 AWS SOA/ElastiCache SOA.md"
     }
   ],
   "omittedPaths": [],
