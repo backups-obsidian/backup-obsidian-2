@@ -1,6 +1,6 @@
 ---
 created: 2022-04-16 16:39
-updated: 2023-01-30 21:04
+updated: 2023-03-08 17:42
 ---
 ---
 **Links**:  [[../000 home|000 Home]]
@@ -36,3 +36,4 @@ updated: 2023-01-30 21:04
 [[Packer]]
 [[GitHub CLI]]
 [[Designing Idempotent APIs]]
+[[Referrer Policy Header in HTTP Requests]]

@@ -1,6 +1,6 @@
 ---
 created: 2023-02-06 15:34
-updated: 2023-02-14 11:50
+updated: 2023-03-08 17:26
 ---
 ---
 **Links**: [[../000 home | 000 Home]]
@@ -18,5 +18,7 @@ updated: 2023-02-14 11:50
 - Managed Dev tooling
 - Mentored 3 interns
 	- Lead a team.
+- AWS cost optimisation.
+	- ASG, Load Balancer, AWS Amplify, ACM (certificate manager), ECR, EC2, 
 
 **Worked with**: FastAPI, Python, AWS, GCP, Kubernetes, DevOps, Automated Tests, Scripting, Docker, Docker Compose, Ansible, 

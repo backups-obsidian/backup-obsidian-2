@@ -1,6 +1,6 @@
 ---
 created: 2023-03-01 15:32
-updated: 2023-03-08 10:29
+updated: 2023-03-09 08:50
 ---
 ---
 **Links**: [[../100 home | 100 Home]]
@@ -139,7 +139,7 @@ updated: 2023-03-08 10:29
 
 ## Security & Compliance
 [[Shared Responsibility Model]]
-[[../101 AWS SAA/Shield, WAF & Firewall | Shield, WAF & Firewall]]
+[[../101 AWS SAA/Shield, WAF & Firewall Manager | Shield, WAF & Firewall]]
 [[../101 AWS SAA/Inspector & Macie | Inspector & Macie]]
 [[../101 AWS SAA/GuardDuty | GuardDuty]]
 [[../101 AWS SAA/Other Services#Trusted Advisor | Trusted Advisor]]
@@ -180,3 +180,4 @@ updated: 2023-03-08 10:29
 - [AWS Certified Sysops Administrator - Associate Certification (amazon.com)](https://aws.amazon.com/certification/certified-sysops-admin-associate/)
 	- Scroll to the bottom to the exam review section for practice questions.
 - [AWS-Certified-SysOps-Administrator-Associate_Exam-Guide.pdf (awsstatic.com)](https://d1.awsstatic.com/training-and-certification/docs-sysops-associate/AWS-Certified-SysOps-Administrator-Associate_Exam-Guide.pdf)
+- [AWS Certified SysOps Administrator - Associate Exam – Free Exam Q&As, Page 1 | ExamTopics](https://www.examtopics.com/exams/amazon/aws-certified-sysops-administrator-associate/view/)

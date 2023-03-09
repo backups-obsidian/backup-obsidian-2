@@ -1,6 +1,6 @@
 ---
 created: 2022-04-30 20:58
-updated: 2022-04-30 21:09
+updated: 2023-03-09 08:13
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -17,9 +17,9 @@ updated: 2022-04-30 21:09
 ## Egress Only Internet Gateway
 - They are used for **only IPv6 traffic**.
 - They are *similar to NAT Gateway* but for IPv6.
-	- It allows the instances in the private subnet to *initiate outbound connections over IPv6* while *preventing the internet to initiate an inbound IPv6 connection*. Same level as Internet gateway.
+	- It allows the instances in the **private subnet** to *initiate outbound connections over IPv6* while *preventing the internet to initiate an inbound IPv6 connection*. Same level as Internet gateway.
 		- ![[attachments/Pasted image 20220430210806.png]]
-	- Although it works similar to NAT gateway it is at the VPC level (similar to internet gateway) whereas NAT Gateway is in the public subnet.
+	- Although it works similar to NAT gateway *it is at the VPC level* (similar to internet gateway) whereas NAT Gateway is in the public subnet. It makes sense since *in IPv6 we don't need NAT (network address translation) since we don't have any private IP addresses*.
 	- ![[attachments/Pasted image 20220430210645.png]]
 
-- **Route tables must be updated** for this.
+- **Route tables of the private subnet must be updated** for this.
