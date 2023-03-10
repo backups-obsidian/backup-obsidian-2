@@ -8,7 +8,8 @@ updated: 2023-03-06 14:17
 ---
 ## AWS Budgets
 - **Create budget** and **send alarms when costs exceeds the budget**.
-- *4* types of budgets: Usage, Cost, Reservation, Savings Plans
+- *4* types of budgets: **Usage**, **Cost**, **Reservation**, **Savings Plans**
+	- So AWS budgets is not just limited to cost.
 - For Reserved Instances (RI)
 	- Track utilisation
 	- Supports EC2, ElastiCache, RDS, Redshift

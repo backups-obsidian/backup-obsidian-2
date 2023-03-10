@@ -1,6 +1,6 @@
 ---
 created: 2023-03-02 18:50
-updated: 2023-03-02 19:01
+updated: 2023-03-10 08:47
 ---
 ---
 **Links**: [[114 AWS SOA Index]]
@@ -18,7 +18,7 @@ updated: 2023-03-02 19:01
 	- Control which users/ groups can *access Session Manager* and which instances
 	- Use **tags to restrict access** to only specific EC2 instances
 		- ![[attachments/Pasted image 20230302185554.png]]
-	- Access SSM + write to 53 + write to CloudWatch for writing the logs to S3 and CloudWatch
+	- Access SSM + write to S3 + write to CloudWatch for writing the logs to S3 and CloudWatch
 - Optionally, we *can restrict commands a user can run* in a session.
 
 ### Difference between SSH and Session Manager

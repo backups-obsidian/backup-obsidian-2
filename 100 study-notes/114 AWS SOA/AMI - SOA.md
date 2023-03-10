@@ -1,6 +1,6 @@
 ---
 created: 2023-03-02 11:39
-updated: 2023-03-02 13:05
+updated: 2023-03-10 08:27
 ---
 ---
 **Links**: [[114 AWS SOA Index]]
@@ -8,7 +8,7 @@ updated: 2023-03-02 13:05
 ---
 ## No Reboot
 - Enables you to **create an AMI without shutting down your instance**.
-- By **default**, it's **NOT selected** 
+- By **default**, it's **NOT selected** i.e. noreboot. 
 	- *AWS will shut down the instance* before creating an AMI to *maintain the file system integrity of EBS*.
 	- ![[attachments/Pasted image 20230302114108.png]]
 

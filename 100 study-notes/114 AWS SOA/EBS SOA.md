@@ -1,6 +1,6 @@
 ---
 created: 2023-03-03 15:30
-updated: 2023-03-03 16:37
+updated: 2023-03-10 09:17
 ---
 ---
 **Links**: [[114 AWS SOA Index]]
@@ -9,7 +9,7 @@ updated: 2023-03-03 16:37
 ## Volume Resizing
 - We can **only increase** an EBS volume's **size** or **IOPS**.
 	- We can also change the volume type like from gp2 to gp3.
-- After resizing an EBS volume, we need to repartition your drive.
+- After resizing an EBS volume, **we need to repartition your drive**.
 - After increasing the size, it's *possible for the volume to be in the  "optimisation" phase for a long time*. The volume is still usable.
 	- There are 3 stages: *modifying, optimising, completed*.
 

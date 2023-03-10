@@ -1,6 +1,6 @@
 ---
 created: 2023-03-05 22:42
-updated: 2023-03-06 08:38
+updated: 2023-03-10 10:55
 ---
 ---
 **Links**: [[114 AWS SOA Index]]
@@ -27,6 +27,8 @@ updated: 2023-03-06 08:38
 
 > [!question]- You have an Aurora DB Cluster where the automatic backup is enabled with a retention period of 10 days. You're using this Aurora DB Cluster for testing purposes, so you want to *disable automatic backups to reduce costs*. What should you do?
 > You *can't disable Aurora DB Cluster Automatic Backups*.
+
+> [!tip] If the question asks for a particular Aurora engine type, always go for **MySQL**.
 
 ## CloudWatch Metrics
 - **`AuroraReplicaLag`**: amount of lag when replicating updates from the primary instance.

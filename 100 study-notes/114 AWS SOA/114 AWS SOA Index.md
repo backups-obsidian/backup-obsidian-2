@@ -1,6 +1,6 @@
 ---
 created: 2023-03-01 15:32
-updated: 2023-03-09 08:50
+updated: 2023-03-10 09:23
 ---
 ---
 **Links**: [[../100 home | 100 Home]]
@@ -93,6 +93,8 @@ updated: 2023-03-09 08:50
 [[../102 AWS DVA/S3 Access Points | S3 Access Points]]
 
 - VPC Endpoint Gateway:
+	- `vpce`: one or more endpoints
+	- `vpc`: all endpoints
 	- ![[attachments/Pasted image 20230304103959.png]]
 
 ## Advanced Storage

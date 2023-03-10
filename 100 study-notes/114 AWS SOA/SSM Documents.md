@@ -1,6 +1,6 @@
 ---
 created: 2023-03-02 14:39
-updated: 2023-03-02 14:52
+updated: 2023-03-10 08:34
 ---
 ---
 **Links**: [[114 AWS SOA Index]]
@@ -15,7 +15,7 @@ updated: 2023-03-02 14:52
 
 ### Run command
 - **Execute a document** (= script) or *just run a command*.
-- *Run command across multiple instances* (using resource groups)
+- *Run command across multiple instances* (using [[Systems Manager (SSM)#Resource Groups | resource groups]])
 - *Rate Control*/Error Control
 	- Number of targets on which you want to run commands.
 - Integrated with IAM & Cloud Trail

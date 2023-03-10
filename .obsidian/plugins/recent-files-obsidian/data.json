@@ -1,204 +1,204 @@
 {
   "recentFiles": [
     {
-      "basename": "114 AWS SOA Index",
-      "path": "100 study-notes/114 AWS SOA/114 AWS SOA Index.md"
-    },
-    {
-      "basename": "AWS Network Firewall",
-      "path": "100 study-notes/101 AWS SAA/AWS Network Firewall.md"
-    },
-    {
-      "basename": "102 AWS DVA Index",
-      "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
-    },
-    {
-      "basename": "101 AWS SAA Index",
-      "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
-    },
-    {
-      "basename": "Shield, WAF & Firewall Manager",
-      "path": "100 study-notes/101 AWS SAA/Shield, WAF & Firewall Manager.md"
-    },
-    {
-      "basename": "Networking Costs",
-      "path": "100 study-notes/101 AWS SAA/Networking Costs.md"
-    },
-    {
-      "basename": "VPC Summary",
-      "path": "100 study-notes/101 AWS SAA/VPC Summary.md"
-    },
-    {
-      "basename": "IPv6 & Egress Internet Gateway",
-      "path": "100 study-notes/101 AWS SAA/IPv6 & Egress Internet Gateway.md"
-    },
-    {
-      "basename": "Referrer Policy Header in HTTP Requests",
-      "path": "300 short-notes/Referrer Policy Header in HTTP Requests.md"
-    },
-    {
-      "basename": "300 home",
-      "path": "300 short-notes/300 home.md"
-    },
-    {
-      "basename": "Work at 16Bit",
-      "path": "400 misc/Work at 16Bit.md"
-    },
-    {
-      "basename": "Transit Gateway",
-      "path": "100 study-notes/101 AWS SAA/Transit Gateway.md"
-    },
-    {
-      "basename": "AWS PrivateLink",
-      "path": "100 study-notes/101 AWS SAA/AWS PrivateLink.md"
-    },
-    {
-      "basename": "Direct Connect",
-      "path": "100 study-notes/101 AWS SAA/Direct Connect.md"
-    },
-    {
-      "basename": "Site to Site VPN",
-      "path": "100 study-notes/101 AWS SAA/Site to Site VPN.md"
-    },
-    {
-      "basename": "VPC Flow Logs",
-      "path": "100 study-notes/101 AWS SAA/VPC Flow Logs.md"
-    },
-    {
-      "basename": "VPC Peering and Endpoints",
-      "path": "100 study-notes/101 AWS SAA/VPC Peering and Endpoints.md"
-    },
-    {
-      "basename": "VPC Internet Access",
-      "path": "100 study-notes/101 AWS SAA/VPC Internet Access.md"
-    },
-    {
-      "basename": "NACLs",
-      "path": "100 study-notes/101 AWS SAA/NACLs.md"
-    },
-    {
-      "basename": "DNS in VPC",
-      "path": "100 study-notes/101 AWS SAA/DNS in VPC.md"
-    },
-    {
-      "basename": "VPC & Subnets",
-      "path": "100 study-notes/101 AWS SAA/VPC & Subnets.md"
-    },
-    {
-      "basename": "Other Services SOA",
-      "path": "100 study-notes/114 AWS SOA/Other Services SOA.md"
-    },
-    {
-      "basename": "Route53 SOA",
-      "path": "100 study-notes/114 AWS SOA/Route53 SOA.md"
-    },
-    {
-      "basename": "Route53",
-      "path": "100 study-notes/101 AWS SAA/Route53.md"
-    },
-    {
-      "basename": "Route53 Routing Policies",
-      "path": "100 study-notes/101 AWS SAA/Route53 Routing Policies.md"
-    },
-    {
-      "basename": "Route53 Health Checks",
-      "path": "100 study-notes/101 AWS SAA/Route53 Health Checks.md"
-    },
-    {
-      "basename": "STS & IAM Advanced DVA",
-      "path": "100 study-notes/102 AWS DVA/STS & IAM Advanced DVA.md"
-    },
-    {
-      "basename": "AWS IAM Identity Centre",
-      "path": "100 study-notes/114 AWS SOA/AWS IAM Identity Centre.md"
-    },
-    {
-      "basename": "Security Miscellaneous Services",
-      "path": "100 study-notes/102 AWS DVA/Security Miscellaneous Services.md"
-    },
-    {
-      "basename": "Miscellaneous",
-      "path": "100 study-notes/101 AWS SAA/Miscellaneous.md"
-    },
-    {
-      "basename": "STS & Identity Federation",
-      "path": "100 study-notes/101 AWS SAA/STS & Identity Federation.md"
-    },
-    {
-      "basename": "Cognito",
-      "path": "100 study-notes/102 AWS DVA/Cognito.md"
-    },
-    {
-      "basename": "Inspector & Macie",
-      "path": "100 study-notes/101 AWS SAA/Inspector & Macie.md"
-    },
-    {
-      "basename": "GuardDuty",
-      "path": "100 study-notes/101 AWS SAA/GuardDuty.md"
-    },
-    {
-      "basename": "SSM Parameter Store vs Secrets Manager",
-      "path": "100 study-notes/102 AWS DVA/SSM Parameter Store vs Secrets Manager.md"
-    },
-    {
-      "basename": "Secrets Manager",
-      "path": "100 study-notes/101 AWS SAA/Secrets Manager.md"
-    },
-    {
-      "basename": "Other Services DVA",
-      "path": "100 study-notes/102 AWS DVA/Other Services DVA.md"
-    },
-    {
-      "basename": "AWS Artifact",
-      "path": "100 study-notes/114 AWS SOA/AWS Artifact.md"
-    },
-    {
-      "basename": "CloudHSM",
-      "path": "100 study-notes/101 AWS SAA/CloudHSM.md"
-    },
-    {
-      "basename": "KMS SOA",
-      "path": "100 study-notes/114 AWS SOA/KMS SOA.md"
-    },
-    {
-      "basename": "KMS",
-      "path": "100 study-notes/101 AWS SAA/KMS.md"
-    },
-    {
-      "basename": "KMS DVA",
-      "path": "100 study-notes/102 AWS DVA/KMS DVA.md"
-    },
-    {
-      "basename": "Other Services",
-      "path": "100 study-notes/101 AWS SAA/Other Services.md"
-    },
-    {
-      "basename": "EventBridge",
-      "path": "100 study-notes/101 AWS SAA/EventBridge.md"
-    },
-    {
-      "basename": "CloudWatch",
-      "path": "100 study-notes/101 AWS SAA/CloudWatch.md"
-    },
-    {
-      "basename": "Shared Responsibility Model",
-      "path": "100 study-notes/114 AWS SOA/Shared Responsibility Model.md"
-    },
-    {
       "basename": "AWS Compute Optimiser",
       "path": "100 study-notes/114 AWS SOA/AWS Compute Optimiser.md"
     },
     {
-      "basename": "Account Management",
-      "path": "100 study-notes/114 AWS SOA/Account Management.md"
+      "basename": "114 AWS SOA Index",
+      "path": "100 study-notes/114 AWS SOA/114 AWS SOA Index.md"
     },
     {
       "basename": "AWS Budgets",
       "path": "100 study-notes/114 AWS SOA/AWS Budgets.md"
     },
     {
+      "basename": "AWS Service Catalog",
+      "path": "100 study-notes/114 AWS SOA/AWS Service Catalog.md"
+    },
+    {
+      "basename": "AWS Control Tower",
+      "path": "100 study-notes/114 AWS SOA/AWS Control Tower.md"
+    },
+    {
       "basename": "Organisations",
       "path": "100 study-notes/101 AWS SAA/Organisations.md"
+    },
+    {
+      "basename": "Account Management",
+      "path": "100 study-notes/114 AWS SOA/Account Management.md"
+    },
+    {
+      "basename": "ElastiCache SOA",
+      "path": "100 study-notes/114 AWS SOA/ElastiCache SOA.md"
+    },
+    {
+      "basename": "Aurora SOA",
+      "path": "100 study-notes/114 AWS SOA/Aurora SOA.md"
+    },
+    {
+      "basename": "RDS SOA",
+      "path": "100 study-notes/114 AWS SOA/RDS SOA.md"
+    },
+    {
+      "basename": "RDS Proxy",
+      "path": "100 study-notes/102 AWS DVA/RDS Proxy.md"
+    },
+    {
+      "basename": "CloudFront Caching SOA",
+      "path": "100 study-notes/114 AWS SOA/CloudFront Caching SOA.md"
+    },
+    {
+      "basename": "CloudFront SOA",
+      "path": "100 study-notes/114 AWS SOA/CloudFront SOA.md"
+    },
+    {
+      "basename": "AWS Storage Gateway SOA",
+      "path": "100 study-notes/114 AWS SOA/AWS Storage Gateway SOA.md"
+    },
+    {
+      "basename": "AWS Storage Gateway",
+      "path": "100 study-notes/101 AWS SAA/AWS Storage Gateway.md"
+    },
+    {
+      "basename": "AWS FSx",
+      "path": "100 study-notes/101 AWS SAA/AWS FSx.md"
+    },
+    {
+      "basename": "AWS Snow",
+      "path": "100 study-notes/101 AWS SAA/AWS Snow.md"
+    },
+    {
+      "basename": "EFS SOA",
+      "path": "100 study-notes/114 AWS SOA/EFS SOA.md"
+    },
+    {
+      "basename": "EFS",
+      "path": "100 study-notes/101 AWS SAA/EFS.md"
+    },
+    {
+      "basename": "EBS SOA",
+      "path": "100 study-notes/114 AWS SOA/EBS SOA.md"
+    },
+    {
+      "basename": "EC2 - SOA",
+      "path": "100 study-notes/114 AWS SOA/EC2 - SOA.md"
+    },
+    {
+      "basename": "CloudFormation RollBacks",
+      "path": "100 study-notes/102 AWS DVA/CloudFormation RollBacks.md"
+    },
+    {
+      "basename": "CloudFormation Advanced",
+      "path": "100 study-notes/102 AWS DVA/CloudFormation Advanced.md"
+    },
+    {
+      "basename": "ElasticBeanstalk SOA",
+      "path": "100 study-notes/114 AWS SOA/ElasticBeanstalk SOA.md"
+    },
+    {
+      "basename": "ASG SOA",
+      "path": "100 study-notes/114 AWS SOA/ASG SOA.md"
+    },
+    {
+      "basename": "Termination Policy & Life Cycle Hooks",
+      "path": "100 study-notes/101 AWS SAA/Termination Policy & Life Cycle Hooks.md"
+    },
+    {
+      "basename": "Scaling Policies",
+      "path": "100 study-notes/101 AWS SAA/Scaling Policies.md"
+    },
+    {
+      "basename": "ASG",
+      "path": "100 study-notes/101 AWS SAA/ASG.md"
+    },
+    {
+      "basename": "ELB SOA",
+      "path": "100 study-notes/114 AWS SOA/ELB SOA.md"
+    },
+    {
+      "basename": "ELB Monitoring and Troubleshooting",
+      "path": "100 study-notes/114 AWS SOA/ELB Monitoring and Troubleshooting.md"
+    },
+    {
+      "basename": "SSM Session Manager",
+      "path": "100 study-notes/114 AWS SOA/SSM Session Manager.md"
+    },
+    {
+      "basename": "SSM Patch Manager",
+      "path": "100 study-notes/114 AWS SOA/SSM Patch Manager.md"
+    },
+    {
+      "basename": "SSM Automations",
+      "path": "100 study-notes/114 AWS SOA/SSM Automations.md"
+    },
+    {
+      "basename": "SSM State Manager",
+      "path": "100 study-notes/114 AWS SOA/SSM State Manager.md"
+    },
+    {
+      "basename": "SSM Inventory",
+      "path": "100 study-notes/114 AWS SOA/SSM Inventory.md"
+    },
+    {
+      "basename": "SSM Parameter Store",
+      "path": "100 study-notes/101 AWS SAA/SSM Parameter Store.md"
+    },
+    {
+      "basename": "SSM Documents",
+      "path": "100 study-notes/114 AWS SOA/SSM Documents.md"
+    },
+    {
+      "basename": "Systems Manager (SSM)",
+      "path": "100 study-notes/114 AWS SOA/Systems Manager (SSM).md"
+    },
+    {
+      "basename": "AMI - SOA",
+      "path": "100 study-notes/114 AWS SOA/AMI - SOA.md"
+    },
+    {
+      "basename": "EC2 AMI",
+      "path": "100 study-notes/101 AWS SAA/EC2 AMI.md"
+    },
+    {
+      "basename": "EC2 Status Checks",
+      "path": "100 study-notes/114 AWS SOA/EC2 Status Checks.md"
+    },
+    {
+      "basename": "EC2 Burstable Instances",
+      "path": "100 study-notes/114 AWS SOA/EC2 Burstable Instances.md"
+    },
+    {
+      "basename": "EC2 Spot Instances & Fleet",
+      "path": "100 study-notes/101 AWS SAA/EC2 Spot Instances & Fleet.md"
+    },
+    {
+      "basename": "EC2 Troubleshooting",
+      "path": "100 study-notes/114 AWS SOA/EC2 Troubleshooting.md"
+    },
+    {
+      "basename": "TODO",
+      "path": "TODO.md"
+    },
+    {
+      "basename": "101 AWS SAA Index",
+      "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
+    },
+    {
+      "basename": "102 AWS DVA Index",
+      "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
+    },
+    {
+      "basename": "VPC & Subnets",
+      "path": "100 study-notes/101 AWS SAA/VPC & Subnets.md"
+    },
+    {
+      "basename": "VPC Internet Access",
+      "path": "100 study-notes/101 AWS SAA/VPC Internet Access.md"
+    },
+    {
+      "basename": "AWS Network Firewall",
+      "path": "100 study-notes/101 AWS SAA/AWS Network Firewall.md"
     }
   ],
   "omittedPaths": [],

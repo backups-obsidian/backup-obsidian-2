@@ -1,6 +1,6 @@
 ---
 created: 2022-04-29 20:22
-updated: 2023-03-08 08:36
+updated: 2023-03-09 09:01
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -30,6 +30,13 @@ updated: 2023-03-08 08:36
     - Is the route table properly configured?
 
 > [!note]- A *subnet* can *only* be associated with *one route table* at a time. One the other hand a route table can be associated with many subnets.
+
+> [!question]- You have attached an Internet Gateway to your VPC, but your EC2 instances still don't have access to the Internet. What are the possible issues?
+> - Route Table Entries are missing.
+> - EC2 instance doesn't have a public IP.
+> - NACL doesn't allow traffic out.
+> ---
+> The Security Group doesn't allow network in: Is *INCORRECT* since Security groups are stateful and *if traffic can go out, then it can go back in*.
 
 ## Bastion Hosts
 - If we create an EC2 instance in the private subnet we won’t be able to SSH into it since no internet access it allowed.

@@ -1,6 +1,6 @@
 ---
 created: 2022-04-18 21:09
-updated: 2023-03-06 14:37
+updated: 2023-03-10 12:52
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -41,7 +41,7 @@ updated: 2023-03-06 14:37
 - Used for managing permissions easily from a central location.
 - We can whitelist or blacklist IAM actions applied at the **OU** or **account level** but **does not apply to *management* account**.
 
-> [!caution] SCPs have no effect on **master account**
+> [!caution] SCPs have no effect on **management account**
 
 - **SCP is applied** to all the **Users and Roles of the Account, including Root**. 
 	- So if you are not able to use EC2 then the admin of that account will also not be able to use EC2

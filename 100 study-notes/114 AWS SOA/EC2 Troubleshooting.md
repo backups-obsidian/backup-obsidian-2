@@ -1,6 +1,6 @@
 ---
 created: 2023-03-02 09:09
-updated: 2023-03-02 09:31
+updated: 2023-03-10 07:59
 ---
 ---
 **Links**: [[114 AWS SOA Index]]
@@ -14,6 +14,7 @@ updated: 2023-03-02 09:31
 - **Resolution**: 
 	- Either launch the instance in a different region or 
 	- Request AWS to increase your limit of the region
+
  > [!note] vCPU-based *limits ONLY apply to* running **On-Demand** instances and **Spot instances**.
 
 ### `InsufficientInstanceCapacity`

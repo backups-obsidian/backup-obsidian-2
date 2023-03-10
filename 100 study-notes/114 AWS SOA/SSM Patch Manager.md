@@ -1,6 +1,6 @@
 ---
 created: 2023-03-02 15:33
-updated: 2023-03-02 18:46
+updated: 2023-03-10 08:45
 ---
 ---
 **Links**: [[114 AWS SOA Index]]
@@ -22,9 +22,11 @@ updated: 2023-03-02 18:46
 - **Patch Group**:
 	- **Associate** a set of *instances with a specific Patch Baseline*
 	- Example: create Patch Groups for different environments (dev, test, prod)
-	- Instances should be defined with the **tag key Patch Group**
+	- Instances should be defined with the **tag key `Patch Group`**
 	- An instance **can only be in one Patch Group**
 	- *Patch Group can be registered with only one Patch Baseline*.
+
+> [!tip] 1 instance 1 patch group. 1 patch group 1 baseline.
 
 - Example Patch Baseline and Patch Group:
 	- ![[attachments/Pasted image 20230302184550.png]]
