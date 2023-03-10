@@ -1,6 +1,6 @@
 ---
 created: 2023-03-02 19:52
-updated: 2023-03-03 08:17
+updated: 2023-03-10 08:56
 ---
 ---
 **Links**: [[114 AWS SOA Index]]
@@ -43,6 +43,15 @@ updated: 2023-03-03 08:17
 - **Request tracing** - Each HTTP request has an added custom header `X-Amzn-Trace-Id`
 	- Example: `X-Amzn-Trace-Id: Root=1-67891233-abcdef012345678912345678`
 - This is useful in logs / *distributed tracing platform* to track a single request
+
+### What is Keep Alive Setting in EC2 (Not Important for Exam)
+- In the context of Amazon Elastic Compute Cloud (EC2), keep-alive settings refer to a configuration option that controls the *length of time that idle connections to an EC2 instance are kept open*. 
+- When a client establishes a connection with an EC2 instance, the server-side *operating system typically keeps the connection open for a period of time to allow for additional requests to be sent over the same connection* without having to re-establish the connection each time.
+- Keep-alive settings determine the length of time that idle connections are kept open, after which they are closed to free up system resources. 
+- By default, Amazon Linux and most other Linux distributions use a keep-alive interval of 2 hours, meaning that connections that have been idle for more than 2 hours will be closed. 
+	- This value can be adjusted by modifying the system's TCP keepalive settings.
+- **Adjusting keep-alive settings can be useful in scenarios where EC2 instances are receiving a high volume of requests**, as it can help to reduce the number of idle connections that are kept open and conserve system resources. 
+	- However, it's important to be mindful of the potential impact on application performance, as *setting keep-alive intervals too low can result in increased connection overhead and slower response times*.
 
 ## Logging
 - **Elastic Load Balancing provides access logs that capture detailed information about requests sent to your load balancer**.

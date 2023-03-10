@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 19:08
-updated: 2023-03-02 09:55
+updated: 2023-03-10 08:07
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -20,7 +20,7 @@ updated: 2023-03-02 09:55
 > [!info] Cancelling a spot request does not terminate the instances. So it is our responsibility to terminate the running instances.
 
 > [!question]- How to terminate instances in a persistent request?
-> To terminate all the spot instances in a persistent request you must *first cancel the the spot request* and *then terminate the instances*. Since in a persistent request *if you terminate the spot instances first* then the *feedback loop* will see that x number of instances were needed but there are 0 now so it *will start them again*.
+> To terminate all the spot instances in a persistent request you must *first cancel the spot request* and *then terminate the instances*. Since in a persistent request *if you terminate the spot instances first* then the *feedback loop* will see that x number of instances were needed but there are 0 now so it *will start them again*.
 > ---
 > ![[attachments/Pasted image 20230302094916.png]]
 

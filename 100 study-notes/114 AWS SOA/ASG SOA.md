@@ -1,6 +1,6 @@
 ---
 created: 2023-03-03 08:57
-updated: 2023-03-03 09:05
+updated: 2023-03-10 09:07
 ---
 ---
 **Links**: [[114 AWS SOA Index]]
@@ -19,7 +19,7 @@ updated: 2023-03-03 09:05
 - ASG-level metrics: (opt-in)
 	- GroupMinSize, GroupMaxSize, GroupDesiredCapacity
 	- GrouplnServicelnstances, GroupPendingInstances, GroupStandbyInstances
-	- Group TerminatingInstances, Group TotalInstances
+	- GroupTerminatingInstances, GroupTotalInstances
 - We should *enable metric collection* to see these metrics
 
 ## AWS AutoScaling

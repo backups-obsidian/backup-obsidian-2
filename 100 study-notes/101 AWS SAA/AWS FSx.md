@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2023-03-05 13:40
+updated: 2023-03-10 09:36
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -29,7 +29,6 @@ updated: 2023-03-05 13:40
 	- Always choose Multi-AZ for high HA.
 - **Data is backed-up daily to S3**
 - Windows instances cannot be connected to EFS but Linux instances can be connected to windows file share.
-- We can use the 
 
 > [!note] Although from the name it may look like that FSx windows file server is for windows, it **can be mounted on Linux EC2 instances**.
 
