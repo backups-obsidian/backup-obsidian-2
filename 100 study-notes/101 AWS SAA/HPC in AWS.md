@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2023-03-02 08:50
+updated: 2023-03-11 08:42
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -14,7 +14,7 @@ updated: 2023-03-02 08:50
 
 ### Compute and Networking
 - **Cluster placement group** for good performance (low latency, 10Gbps network)
-- If you are *experiencing high packets per second (PPS)* or *require lower latencies* then it means you need *enhanced networking*.
+- If you are **experiencing high packets per second (PPS)** or *require lower latencies* then it means you need *enhanced networking*.
 
 - EC2 Enhanced Networking (**SR-IOV**) (**ENA**)
     - **Higher bandwidth**, **higher PPS** (packet per second), **lower latency**

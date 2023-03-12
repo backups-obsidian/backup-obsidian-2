@@ -1,6 +1,6 @@
 ---
 created: 2023-03-01 15:32
-updated: 2023-03-10 09:23
+updated: 2023-03-11 08:29
 ---
 ---
 **Links**: [[../100 home | 100 Home]]
@@ -176,7 +176,8 @@ updated: 2023-03-10 09:23
 ## Other Services
 [[Other Services SOA]]
 
-## ToDo
+## Extra Notes
+[[SOA Extra Notes]]
 
 ## Resources
 - [AWS Certified Sysops Administrator - Associate Certification (amazon.com)](https://aws.amazon.com/certification/certified-sysops-admin-associate/)

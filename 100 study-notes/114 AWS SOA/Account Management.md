@@ -1,6 +1,6 @@
 ---
 created: 2023-03-06 11:03
-updated: 2023-03-06 14:42
+updated: 2023-03-11 09:34
 ---
 ---
 **Links**: [[114 AWS SOA Index]]
@@ -47,6 +47,9 @@ updated: 2023-03-06 14:42
 
 > [!question]- For accounting reasons, you need to *separate costs into categories* in AWS, such as *Environment*. How do you achieve this?
 > Use Cost Allocation Tags.
+
+> [!question]- A media company runs its business on Amazon EC2 instances backed by Amazon S3 storage. The company is apprehensive about the consistent increase in costs incurred from S3 buckets. The company wants to make some decisions regarding data retention, storage, and deletion based on S3 usage and cost reports. As a SysOps Administrator, you have been hired to develop *a solution to track the costs incurred by each S3 bucket in the AWS account*. How will you configure this requirement?
+> Add a common tag to each bucket. Activate the tag as a *cost allocation tag*. Use the AWS Cost Explorer to create a cost report for the tag.
 
 ## Cost & Usage Reports
 - The AWS Cost & Usage Report **contains the most comprehensive** set of AWS cost and usage data available.

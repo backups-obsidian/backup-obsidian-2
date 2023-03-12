@@ -1,6 +1,6 @@
 ---
 created: 2023-03-02 08:40
-updated: 2023-03-02 11:25
+updated: 2023-03-11 09:54
 ---
 ---
 **Links**: [[114 AWS SOA Index]]
@@ -24,7 +24,7 @@ updated: 2023-03-02 11:25
 	- If it is set to terminate then the EC2 instance will terminate when we issue a shutdown from OS.
 	- ![[attachments/Pasted image 20230302090522.png]]
 - This is not applicable when shutting down from AWS console. It only stops the instances.
-- We can enable **termination protection** to protect against *accidental termination* from AWS **console or CLI**.
+- We can enable **termination protection** (`DisableApiTermination`) to protect against *accidental termination* from AWS **console or CLI**.
 
 > [!question]- We have an instance where shutdown behaviour = terminate and enable terminate protection is ticked. If we *shutdown the instance from the OS*, what will happen?
 > The **instance will still be terminated** since we terminated it from the OS and not the console or CLI.

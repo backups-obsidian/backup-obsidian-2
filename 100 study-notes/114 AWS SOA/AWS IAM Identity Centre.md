@@ -1,6 +1,6 @@
 ---
 created: 2023-03-07 08:52
-updated: 2023-03-07 09:05
+updated: 2023-03-10 15:51
 ---
 ---
 **Links**: [[114 AWS SOA Index]]
@@ -29,6 +29,6 @@ updated: 2023-03-07 09:05
 	- *SSO access to many SAML 2.0 business applications* (Salesforce, Box, Microsoft 365, etc)
 	- Provide required URLs, certificates, and metadata.
 - **Attribute-Based Access Control (ABAC)**
-	- *Fine-grained permissions based on users' attributes stored in IAM Identity Centre Identity Store.
+	- *Fine-grained permissions based on users' attributes stored in IAM Identity Centre Identity Store*.
 	- Example: cost centre, title, locale, etc.
 	- Use case: Define permissions once, then modify AWS access by changing the attributes.

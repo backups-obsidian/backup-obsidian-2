@@ -1,6 +1,6 @@
 ---
 created: 2022-05-18 20:06
-updated: 2023-03-03 10:07
+updated: 2023-03-11 08:24
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -30,6 +30,9 @@ updated: 2023-03-03 10:07
 - When you *update a stack set*, **all associated stack instances are updated** throughout all accounts and regions.
 
 > [!important] Go for StackSets if you see *updating multiple stacks* in *multiple regions* or *multiple accounts*.
+
+> [!question]- A company initially used a manual process to create and manage different IAM roles needed for the organisation. As the company expanded and lines of business grew, different AWS accounts were created to manage the AWS resources as well as the users. The manual process has resulted in errors with IAM roles getting created with insufficient permissions. The company is looking at *automating the process of creating and managing the necessary IAM roles for multiple AWS accounts*. The company already uses AWS Organisations to manage multiple AWS accounts. As a SysOps Administrator, can you suggest an effective way to automate this process?
+> Use CloudFormation **StackSets** with AWS Organisations to deploy and manage IAM roles to multiple AWS accounts simultaneously.
 
 ## Drift
 - CloudFormation allows you to create infrastructure

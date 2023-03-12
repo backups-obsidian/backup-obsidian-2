@@ -1,6 +1,6 @@
 ---
 created: 2022-04-23 15:21
-updated: 2023-03-04 10:35
+updated: 2023-03-11 09:52
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -117,3 +117,11 @@ updated: 2023-03-04 10:35
 - When you apply a *retention period to an object version explicitly*, you specify a `Retain Until Date` for the object version.
 - *Different versions* of a single object *can have different retention modes and periods*.
 - You can place a retention period on an object version either *explicitly* **or** *through a bucket default setting*. Explicit settings override the default bucket settings.
+
+> [!question]- A startup uses Amazon S3 buckets for storing their customer data. The company has defined different retention periods for different objects present in their Amazon S3 buckets, based on the compliance requirements. But, the retention rules do not seem to work as expected. Which of the following points are important to remember when configuring retention periods for objects in Amazon S3 buckets? 
+> - When you *apply a retention period* to an *object version explicitly*, you specify a `Retain Until Date` for the object version.
+> - Different versions of a single object can have different retention modes and periods
+> ---
+> - You can place a retention period on an object version either explicitly or through a bucket default setting.
+> - When you use bucket default settings, you don't specify a Retain Until Date.
+> - If your *request to place an object version in a bucket contains an explicit retention mode and period, those settings **override** any bucket default settings for that object version*.

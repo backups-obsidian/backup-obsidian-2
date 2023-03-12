@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 10:02
-updated: 2023-03-05 17:34
+updated: 2023-03-11 08:59
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -61,6 +61,8 @@ updated: 2023-03-05 17:34
 
 - Apart from caching S3 content it also *provides HTTPs*.
 	- You can create a static website using Amazon S3 with a custom domain name. However, *you cannot connect to an Amazon S3 static website using HTTPS (only HTTP)* 
+
+> [!note] If your Amazon S3 bucket is configured as a website endpoint, *you CANT configure CloudFront to use HTTPS to communicate with your origin because Amazon S3 DOESNT support HTTPS connections in that configuration*.
 
 ### EC2/ALB as origin
 

@@ -1,6 +1,6 @@
 ---
 created: 2022-04-29 10:03
-updated: 2023-03-06 15:30
+updated: 2023-03-10 15:36
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -39,7 +39,7 @@ updated: 2023-03-06 15:30
 
 - It can **protect from basic attacks** such as **SQL injection** and **XSS**
 
-> [!caution] For DDoS you can either go for [[Shield, WAF & Firewall#Shield | Shield]] or *Rate Based Rules of WAF*.
+> [!caution] For DDoS you can either go for [[Shield, WAF & Firewall Manager#Shield | Shield]] or *Rate Based Rules of WAF*.
 
 ### Blocking an IP address
 - We *cannot block IP addresses using SGs* since there is no deny rule.

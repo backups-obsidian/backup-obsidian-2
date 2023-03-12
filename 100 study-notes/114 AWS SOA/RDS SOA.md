@@ -1,6 +1,6 @@
 ---
 created: 2023-03-05 20:07
-updated: 2023-03-06 08:35
+updated: 2023-03-11 09:53
 ---
 ---
 **Links**: [[114 AWS SOA Index]]
@@ -16,6 +16,8 @@ updated: 2023-03-06 08:35
 > [!tip]+ Forcing *SSL* on different databases.
 > - **PostgreSQL/SQL Server**: `rds.force_ssl=1`. Using parameters to force SSL.
 > - **MYSQL/MariaDB**: `GRANT SELECT ON mydatabase.* TO 'myuser'@'%' IDENTIFIED BY '...' REQUIRE SSL;`. Using SQL statements to force SSL.
+
+- We set **`rds.force_ssl=1` in the DB parameter group**.
 
 ## Backups vs Snapshots
 > [!note] **Manual backup** is known as **snapshot**.
