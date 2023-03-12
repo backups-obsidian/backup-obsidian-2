@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2023-03-06 10:21
+updated: 2023-03-11 09:42
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -155,6 +155,12 @@ updated: 2023-03-06 10:21
 	- `exe`: *process name* that match string you specify (RegEx)
 	- `pattern`: command lines used to start the processes (RegEx)
 - Metrics collected by `procstat` plugin **begins with `procstat` pref** (e.g., procstat_cpu_time, procstat_cpu_usage, etc)
+- You can set up the *CloudWatch agent to use multiple configuration files*. 
+	- For example, you can use a *common configuration* file that collects a set of metrics and logs that you always want to collect from all servers in your infrastructure. 
+	- You can then use *additional configuration files* that collect metrics from certain applications or in *certain situations*.
+	- Any *configuration files appended* to the configuration must have **different file names** from each other and from the initial configuration file. 
+	- If you use `append-config` with a configuration file with the *same file name* as a configuration file that the agent is already using, the append command **overwrites the information** from the first configuration file instead of appending to it. 
+		- This is true even if the two configuration files with the same file name are on different file paths.
 
 ## CloudWatch Alarms
 - When you create an alarm, you specify *three settings* to enable CloudWatch to evaluate when to change the alarm state:

@@ -1,6 +1,6 @@
 ---
 created: 2022-04-24 20:22
-updated: 2023-03-05 11:38
+updated: 2023-03-11 08:49
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -43,7 +43,7 @@ updated: 2023-03-05 11:38
 - Provides **block storage** and **S3 compatible object storage**.
 - **Use Cases**: *large cloud migrations*, disaster recovery
 
-> [!caution]- Snowball **cannot import to Glacier directly**. You must use Amazon S3 first, in combination with an S3 lifecycle policy.
+> [!caution]- Snowball **cannot import to Glacier directly**. You must use Amazon S3 first, in combination with an **S3 lifecycle policy**.
 
 > [!note] Both snowball edge compute and storage optimised allow for **storage clustering**.
 

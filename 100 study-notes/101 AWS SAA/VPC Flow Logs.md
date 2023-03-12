@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2023-03-08 09:19
+updated: 2023-03-11 09:55
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -17,3 +17,7 @@ updated: 2023-03-08 09:19
 - To *troubleshoot issues* with you VPC look at the **`action`** (ACCEPT/REJECT) field.
 - Architecture to alert when we have *too many SSH access* in the VPC:
 	- ![[attachments/Pasted image 20230308091820.png]]
+
+> [!note]- After you've created a flow log, you *CANNOT change its configuration or the flow log record format*. 
+> For example, you *CANT associate a different IAM role with the flow log or add or remove fields in the flow log record*. 
+> Instead, you can **delete the flow log** and **create a new one** with the required configuration.

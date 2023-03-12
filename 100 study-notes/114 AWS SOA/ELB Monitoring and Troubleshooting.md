@@ -1,6 +1,6 @@
 ---
 created: 2023-03-02 19:52
-updated: 2023-03-10 08:56
+updated: 2023-03-11 09:06
 ---
 ---
 **Links**: [[114 AWS SOA Index]]
@@ -42,7 +42,13 @@ updated: 2023-03-10 08:56
 
 - **Request tracing** - Each HTTP request has an added custom header `X-Amzn-Trace-Id`
 	- Example: `X-Amzn-Trace-Id: Root=1-67891233-abcdef012345678912345678`
-- This is useful in logs / *distributed tracing platform* to track a single request
+	- This is useful in logs / *distributed tracing platform* to track a single request
+
+> [!question]- A large IT company manages several projects on AWS Cloud and has decided to use AWS X-Ray to trace application workflows. The company uses a plethora of AWS services like API Gateway, Amazon EC2 instances, Amazon S3 storage service, Elastic Load Balancers and AWS Lambda functions. Which of the following should the company keep in mind while using AWS *X-Ray* for the AWS services they use?
+> **Application Load balancers DO NOT send data to X-Ray**
+> ---
+> Elastic Load Balancing application load balancers add a trace ID to incoming HTTP requests in a header named `X-Amzn-Trace-Id`. 
+> Load balancers *do not send data to X-Ray* and *do not appear as a node on your service map*.
 
 ### What is Keep Alive Setting in EC2 (Not Important for Exam)
 - In the context of Amazon Elastic Compute Cloud (EC2), keep-alive settings refer to a configuration option that controls the *length of time that idle connections to an EC2 instance are kept open*. 
