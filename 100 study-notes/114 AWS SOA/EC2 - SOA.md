@@ -1,6 +1,6 @@
 ---
 created: 2023-03-02 08:40
-updated: 2023-03-11 09:54
+updated: 2023-03-14 13:31
 ---
 ---
 **Links**: [[114 AWS SOA Index]]
@@ -11,10 +11,6 @@ updated: 2023-03-11 09:54
 - If you want *enhanced networking for lower latency* then look for *ENA*  and if you have an *HPC cluster* then look for *EFA*. 
 	- Enhanced networking is not supported in t2.micro but it is supported in t3.micro (newer generation)
 	- So to *leverage enhanced networking* we have to leverage *newer generation of EC2 instances*.
-
-## Miscellaneous
-- We can *change instance type* of a running instances ONLY IF they are **EBS backed**.
-	- We first **stop** the instance, **change** the instance type and then **start** the instance.
 
 ## Termination Protection
 - How should the instance react when the **shutdown is done from OS**.
@@ -29,3 +25,7 @@ updated: 2023-03-11 09:54
 > [!question]- We have an instance where shutdown behaviour = terminate and enable terminate protection is ticked. If we *shutdown the instance from the OS*, what will happen?
 > The **instance will still be terminated** since we terminated it from the OS and not the console or CLI.
 > **DOUBT**: I thought the default behaviour was to be stopped.
+
+## Miscellaneous
+- We can *change instance type* of a running instances ONLY IF they are **EBS backed**.
+	- We first **stop** the instance, **change** the instance type and then **start** the instance.

@@ -1,6 +1,6 @@
 ---
 created: 2023-03-02 09:09
-updated: 2023-03-10 07:59
+updated: 2023-03-13 09:13
 ---
 ---
 **Links**: [[114 AWS SOA Index]]
@@ -12,10 +12,13 @@ updated: 2023-03-10 07:59
 - **On-Demand instance limits are set on a *per-region* basis**.
 - Example: If you run on-demand (A, C, D, H, I, M, R, T, Z) instance types you’ll have 64 vCPUs (default) 
 - **Resolution**: 
-	- Either launch the instance in a different region or 
-	- Request AWS to increase your limit of the region
+	- Either *launch the instance in a different region* or 
+	- *Request AWS to increase your limit of the region*
 
  > [!note] vCPU-based *limits ONLY apply to* running **On-Demand** instances and **Spot instances**.
+
+> [!question]- A SysOps Administrator attempted to launch an Amazon EC2 instance and received the following error: `InstanceLimitExceeded` Your quota allows for 0 more running instance(s). What action should the Administrator take to resolve this issue and launch the EC2 instances?
+> **Open a case** with AWS Support requesting an increase of the EC2 instance limit.
 
 ### `InsufficientInstanceCapacity`
 - If you get this error, it means *AWS DOES NOT* have that *enough On-Demand capacity* in the **particular AZ** where the instance is launched. 
@@ -25,14 +28,19 @@ updated: 2023-03-10 07:59
 	- If urgent, submit a *request for a different instance type* now, which can be *resized later*. 
 	- Also, can *request* the EC2 instance in a **different AZ**.
 
+> [!caution] Mind the difference between **`InstanceLimitExceeded`** (region level) and **`InsufficientInstanceCapacity`** (AZ level).
+
 ### `InstanceTerminatesImmediately` 
-- Goes from *pending to terminated*.
+- Goes from **pending to terminated**.
 - Possible reasons:
 	- You've *reached your EBS volume limit*. 
 	- An *EBS snapshot is corrupt*. 
-	- The root *EBS volume is encrypted* and you *DO NOT have permissions* to access the *KMS key for decryption*. 
+	- The root **EBS volume is encrypted** and you **DO NOT have permissions** to access the **KMS key for decryption**. 
 	- The instance store-backed AMI that you used to launch the instance is missing a required part (an image.part.xx file). 
 - To find the exact reason, check out the EC2 console of AWS instances - Description tab, note the reason next to the State transition reason label.
+
+> [!question]- A SysOps Administrator launched an Amazon EC2 instance and noticed it went from the *pending state to the terminated state immediately* after starting it. What is a possible cause of this issue?
+> The *root EBS volume is encrypted* and the Administrator does not have permissions to access the KMS key for decryption.
 
 ## SSH Troubleshooting
 - Make sure the *private key file* on your linux machine has **400 permissions**, else you will get **Unprotected private key file** error.

@@ -1,6 +1,6 @@
 ---
 created: 2023-03-05 17:42
-updated: 2023-03-05 18:54
+updated: 2023-03-14 08:55
 ---
 ---
 **Links**: [[114 AWS SOA Index]]
@@ -30,6 +30,9 @@ updated: 2023-03-05 18:54
 	- That user *doesn't have access* to the underlying bucket *(403)*
 	- The object user is requesting is *not found (404)*
 - *5xx* error codes indicates *Gateway issues*
+
+> [!question]- Users of a web application that is served using Amazon CloudFront have complained about receiving 4XX and 5XX errors. *A SysOps Administrator wants to monitor for elevated error rates in Amazon CloudFront*. Which metric should be monitored?
+> **TotalErrorRate**.
 
 ## CloudFront with ALB sticky sessions
 - Must **forward / whitelist the cookie that controls the session affinity** to the origin to allow the session affinity to work.

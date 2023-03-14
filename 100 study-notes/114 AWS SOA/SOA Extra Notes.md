@@ -1,6 +1,6 @@
 ---
 created: 2023-03-11 08:28
-updated: 2023-03-11 09:51
+updated: 2023-03-14 13:46
 ---
 ---
 **Links**: [[114 AWS SOA Index]]
@@ -27,4 +27,22 @@ updated: 2023-03-11 09:51
 - For an ALB *one target can be associated with multiple target groups*.
 - We can use `resource import` to import existing resources and bring it under the control of CloudFormation.
 - **S3** is the only service for an *in-place switch from unencrypted to encrypted without impacting existing operations*.
+- You can *create a dashboard in CloudWatch* to display custom metrics. 
+	- To do this you simply *create a dashboard*, *add a widget*, and *choose the metrics* from the custom namespace.
 
+> [!question]- A company uses AWS Organisations to manage several AWS accounts. A department in the company requires a new AWS account. A SysOps Administrator must create the new account and *configure user-defined cost allocation tags*. What should the Administrator do to enable user-defined cost allocation tags?
+> Use the *Tag Editor in the new account to create the new user-defined tags*, then use the *Billing and Cost Management console* in the **payer account** to mark the tags as cost allocation tags.
+
+- We can get *503 from S3 hosted website* if the request rate is very high.
+- *CloudTrail* can be used to **see the results of the API calls**.
+
+> [!question]- A security team has identified an attack on web applications running on Amazon EC2. The attack uses malformed HTTP headers. Which AWS service or feature can be used to prevent this type of attack from reaching the EC2 instances?
+> Application Load Balancer (ALB)
+> ---
+> - An application load balancer will **block malformed requests** that do not meet the HTTP specification with a *HTTP 400: Bad request error*. An ALB can be placed in front of the EC2 web applications and this will prevent the attack from reaching the instances.
+> - The ALB attribute *Drop Invalid Header Fields* setting can be used to control if invalid header fields are removed by the load balancer.
+
+> [!question]- An Amazon EC2 instance was launched from a *Microsoft Windows 2012* AMI and is inaccessible using Remote Desktop Protocol (RDP), or over the network. Another instance was deployed using a different AMI but the same configuration options and is functioning normally. Which next step should a SysOps Administrator take to *troubleshoot* the problem?
+> Use EC2Rescue to gather operating system log files for analysis
+> ---
+> *EC2Rescue for EC2 Windows is a convenient, straightforward, GUI-based troubleshooting tool* that can be run on your Amazon EC2 Windows Server instances to troubleshoot operating system-level issues and collect advanced logs and configuration files for further analysis. EC2Rescue simplifies and expedites the troubleshooting of EC2 Windows instances.

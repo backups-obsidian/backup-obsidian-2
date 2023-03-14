@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-04-22 20:52
+updated: 2023-03-14 13:49
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -29,6 +29,9 @@ updated: 2022-04-22 20:52
 -   If health checkers > **18%** then Route53 considers it **healthy**. Otherwise unhealthy.
 -   Health checks can only pass if the status code is **2xx** or **3xx**.
 -   If it is a **text based response** it **can check** first **5120 bytes** of the response.
+
+> [!question]- A SysOps Administrator created an Amazon Route 53 health check using a String Matching condition. The String Matching condition is searching for /html at the end of the page to ensure it fully loads. After enabling the health check, the administrator received an alert stating that the *health check failed*. However, the page loads successfully when navigating directly to it. What is the MOST likely cause of the health check failure?
+> The search string is *not in the first 5120 bytes* of the response body.
 
 > [!caution] The **security groups** in front of the **ALBs** must **allow** the **IP ranges** of Route53 health checkers from which the **health checks** are coming in.
 

@@ -1,6 +1,6 @@
 ---
 created: 2023-03-02 15:33
-updated: 2023-03-10 08:45
+updated: 2023-03-13 09:02
 ---
 ---
 **Links**: [[114 AWS SOA Index]]
@@ -11,7 +11,7 @@ updated: 2023-03-10 08:45
 - OS updates, applications updates, security updates, etc.
 - Supports *both EC2 instances and on-premises servers*.
 - Supports Linux, macOS, and Windows
-- Patch **on-demand** or on a **schedule using Maintenance Windows**
+- Patch **on-demand** or on a schedule using **Maintenance Windows**
 - Scan instances and *generate patch compliance report* (missing patches)
 	- Patch compliance report can be sent to S3
 - **Patch Baseline**:
@@ -30,3 +30,7 @@ updated: 2023-03-10 08:45
 
 - Example Patch Baseline and Patch Group:
 	- ![[attachments/Pasted image 20230302184550.png]]
+
+> [!question]- A security vulnerability has been discovered that impacts a version of Linux that is running on some Amazon EC2 instances in a VPC. How can a SysOps Administrator *mitigate the exposure with the LEAST disruption*?
+> Use AWS Systems Manager to patch the Linux operating systems.
+

@@ -1,6 +1,6 @@
 ---
 created: 2023-03-03 09:25
-updated: 2023-03-11 09:49
+updated: 2023-03-13 08:47
 ---
 ---
 **Links**: [[114 AWS SOA Index]]
@@ -68,9 +68,12 @@ updated: 2023-03-11 09:49
 	- When someone tries to delete the stack, it *won't be deleted* and it **won't give an error**.
 - Use **`CreationPolicy`** if you want to make sure that the **first creation of ASG is successful**.
 - **`UpdatePolicy`** to specify **how CloudFormation handles the update of an ASG**:
-	- `AutoScalingReplacingUpdate`: This *will create a new ASG*. **Immutable** update.
+	- **`AutoScalingReplacingUpdate`**: This *will create a new ASG*. **Immutable** update.
 	- `AutoScalingRollingUpdate`: Instances are created and terminated within the same ASG.
 	- `AutoScalingScheduleAction`
+
+> [!question]- A SysOps Administrator deployed an application using AWS CloudFormation. The application runs on Amazon EC2 instances in an *Auto Scaling group behind an Application Load Balancer (ALB)*. A new version of the application must be deployed. *The update must avoid DNS changes and support rollback*. Which solution should the Administrator use to meet the deployment requirements for application update?
+> Modify the CloudFormation template to use an AutoScalingReplacingUpdate policy. Update the stack. Perform a second update with the new release.
 
 > [!note] If we DON'T specify an `UpdatePolicy` then it will just update launch template of the ASG and *WON'T do anything to the instances*.
 

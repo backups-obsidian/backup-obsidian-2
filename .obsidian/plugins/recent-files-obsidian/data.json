@@ -1,56 +1,160 @@
 {
   "recentFiles": [
     {
-      "basename": "S3",
-      "path": "100 study-notes/101 AWS SAA/S3.md"
+      "basename": "React - Components",
+      "path": "100 study-notes/115 React/React - Components.md"
+    },
+    {
+      "basename": "115 React Index",
+      "path": "100 study-notes/115 React/115 React Index.md"
+    },
+    {
+      "basename": "React - Styling",
+      "path": "100 study-notes/115 React/React - Styling.md"
+    },
+    {
+      "basename": "React - Introduction & JSX",
+      "path": "100 study-notes/115 React/React - Introduction & JSX.md"
+    },
+    {
+      "basename": "VPC Internet Access",
+      "path": "100 study-notes/101 AWS SAA/VPC Internet Access.md"
     },
     {
       "basename": "114 AWS SOA Index",
       "path": "100 study-notes/114 AWS SOA/114 AWS SOA Index.md"
     },
     {
-      "basename": "VPC Flow Logs",
-      "path": "100 study-notes/101 AWS SAA/VPC Flow Logs.md"
-    },
-    {
-      "basename": "EC2 - SOA",
-      "path": "100 study-notes/114 AWS SOA/EC2 - SOA.md"
-    },
-    {
       "basename": "SOA Extra Notes",
       "path": "100 study-notes/114 AWS SOA/SOA Extra Notes.md"
-    },
-    {
-      "basename": "RDS SOA",
-      "path": "100 study-notes/114 AWS SOA/RDS SOA.md"
-    },
-    {
-      "basename": "S3 Miscellaneous",
-      "path": "100 study-notes/101 AWS SAA/S3 Miscellaneous.md"
     },
     {
       "basename": "CloudFormation RollBacks",
       "path": "100 study-notes/102 AWS DVA/CloudFormation RollBacks.md"
     },
     {
+      "basename": "CloudFormation Advanced",
+      "path": "100 study-notes/102 AWS DVA/CloudFormation Advanced.md"
+    },
+    {
       "basename": "CloudFormation SOA",
       "path": "100 study-notes/114 AWS SOA/CloudFormation SOA.md"
     },
     {
-      "basename": "CloudWatch",
-      "path": "100 study-notes/101 AWS SAA/CloudWatch.md"
+      "basename": "RDS Read Replica & Multi AZ",
+      "path": "100 study-notes/101 AWS SAA/RDS Read Replica & Multi AZ.md"
+    },
+    {
+      "basename": "ElastiCache SOA",
+      "path": "100 study-notes/114 AWS SOA/ElastiCache SOA.md"
+    },
+    {
+      "basename": "Route53 Health Checks",
+      "path": "100 study-notes/101 AWS SAA/Route53 Health Checks.md"
+    },
+    {
+      "basename": "ASG",
+      "path": "100 study-notes/101 AWS SAA/ASG.md"
+    },
+    {
+      "basename": "EC2 Status Checks",
+      "path": "100 study-notes/114 AWS SOA/EC2 Status Checks.md"
+    },
+    {
+      "basename": "EC2 - SOA",
+      "path": "100 study-notes/114 AWS SOA/EC2 - SOA.md"
+    },
+    {
+      "basename": "EC2 Troubleshooting",
+      "path": "100 study-notes/114 AWS SOA/EC2 Troubleshooting.md"
+    },
+    {
+      "basename": "EC2 Spot Instances & Fleet",
+      "path": "100 study-notes/101 AWS SAA/EC2 Spot Instances & Fleet.md"
+    },
+    {
+      "basename": "EC2 Instance Purchasing Options",
+      "path": "100 study-notes/101 AWS SAA/EC2 Instance Purchasing Options.md"
+    },
+    {
+      "basename": "EC2 Placement Groups",
+      "path": "100 study-notes/101 AWS SAA/EC2 Placement Groups.md"
+    },
+    {
+      "basename": "EC2 Basics",
+      "path": "100 study-notes/101 AWS SAA/EC2 Basics.md"
+    },
+    {
+      "basename": "Route53",
+      "path": "100 study-notes/101 AWS SAA/Route53.md"
+    },
+    {
+      "basename": "Route53 Routing Policies",
+      "path": "100 study-notes/101 AWS SAA/Route53 Routing Policies.md"
+    },
+    {
+      "basename": "AWS Storage Gateway SOA",
+      "path": "100 study-notes/114 AWS SOA/AWS Storage Gateway SOA.md"
+    },
+    {
+      "basename": "CloudFront SOA",
+      "path": "100 study-notes/114 AWS SOA/CloudFront SOA.md"
+    },
+    {
+      "basename": "CloudFront Caching SOA",
+      "path": "100 study-notes/114 AWS SOA/CloudFront Caching SOA.md"
+    },
+    {
+      "basename": "EBS SOA",
+      "path": "100 study-notes/114 AWS SOA/EBS SOA.md"
+    },
+    {
+      "basename": "Config",
+      "path": "100 study-notes/101 AWS SAA/Config.md"
+    },
+    {
+      "basename": "Work at 16Bit",
+      "path": "400 misc/Work at 16Bit.md"
+    },
+    {
+      "basename": "KMS",
+      "path": "100 study-notes/101 AWS SAA/KMS.md"
     },
     {
       "basename": "Account Management",
       "path": "100 study-notes/114 AWS SOA/Account Management.md"
     },
     {
-      "basename": "ElasticBeanstalk SOA",
-      "path": "100 study-notes/114 AWS SOA/ElasticBeanstalk SOA.md"
+      "basename": "Organisations",
+      "path": "100 study-notes/101 AWS SAA/Organisations.md"
     },
     {
-      "basename": "EBS SOA",
-      "path": "100 study-notes/114 AWS SOA/EBS SOA.md"
+      "basename": "Systems Manager (SSM)",
+      "path": "100 study-notes/114 AWS SOA/Systems Manager (SSM).md"
+    },
+    {
+      "basename": "Other Services",
+      "path": "100 study-notes/101 AWS SAA/Other Services.md"
+    },
+    {
+      "basename": "AWS IAM Identity Centre",
+      "path": "100 study-notes/114 AWS SOA/AWS IAM Identity Centre.md"
+    },
+    {
+      "basename": "S3 Websites",
+      "path": "100 study-notes/101 AWS SAA/S3 Websites.md"
+    },
+    {
+      "basename": "SSM Patch Manager",
+      "path": "100 study-notes/114 AWS SOA/SSM Patch Manager.md"
+    },
+    {
+      "basename": "SSM Automations",
+      "path": "100 study-notes/114 AWS SOA/SSM Automations.md"
+    },
+    {
+      "basename": "ELB",
+      "path": "100 study-notes/101 AWS SAA/ELB.md"
     },
     {
       "basename": "ELB Monitoring and Troubleshooting",
@@ -61,144 +165,40 @@
       "path": "100 study-notes/114 AWS SOA/ELB SOA.md"
     },
     {
-      "basename": "CloudFront",
-      "path": "100 study-notes/101 AWS SAA/CloudFront.md"
-    },
-    {
-      "basename": "S3 Websites",
-      "path": "100 study-notes/101 AWS SAA/S3 Websites.md"
-    },
-    {
-      "basename": "DataSync & Backup",
-      "path": "100 study-notes/101 AWS SAA/DataSync & Backup.md"
-    },
-    {
-      "basename": "AWS Snow",
-      "path": "100 study-notes/101 AWS SAA/AWS Snow.md"
-    },
-    {
-      "basename": "HPC in AWS",
-      "path": "100 study-notes/101 AWS SAA/HPC in AWS.md"
-    },
-    {
-      "basename": "CloudFormation Advanced",
-      "path": "100 study-notes/102 AWS DVA/CloudFormation Advanced.md"
-    },
-    {
-      "basename": "CloudFront SOA",
-      "path": "100 study-notes/114 AWS SOA/CloudFront SOA.md"
-    },
-    {
-      "basename": "CloudFormation Intrinsic Functions",
-      "path": "100 study-notes/102 AWS DVA/CloudFormation Intrinsic Functions.md"
-    },
-    {
-      "basename": "CloudFormation Template Components",
-      "path": "100 study-notes/102 AWS DVA/CloudFormation Template Components.md"
-    },
-    {
-      "basename": "CloudFormation",
-      "path": "100 study-notes/102 AWS DVA/CloudFormation.md"
-    },
-    {
-      "basename": "Directory Services",
-      "path": "100 study-notes/101 AWS SAA/Directory Services.md"
-    },
-    {
-      "basename": "Other Services SOA",
-      "path": "100 study-notes/114 AWS SOA/Other Services SOA.md"
-    },
-    {
-      "basename": "Route53 SOA",
-      "path": "100 study-notes/114 AWS SOA/Route53 SOA.md"
-    },
-    {
-      "basename": "AWS IAM Identity Centre",
-      "path": "100 study-notes/114 AWS SOA/AWS IAM Identity Centre.md"
-    },
-    {
-      "basename": "Cognito",
-      "path": "100 study-notes/102 AWS DVA/Cognito.md"
-    },
-    {
-      "basename": "STS & IAM Advanced DVA",
-      "path": "100 study-notes/102 AWS DVA/STS & IAM Advanced DVA.md"
-    },
-    {
-      "basename": "STS & Identity Federation",
-      "path": "100 study-notes/101 AWS SAA/STS & Identity Federation.md"
-    },
-    {
-      "basename": "Security Miscellaneous Services",
-      "path": "100 study-notes/102 AWS DVA/Security Miscellaneous Services.md"
-    },
-    {
-      "basename": "CloudTrail",
-      "path": "100 study-notes/101 AWS SAA/CloudTrail.md"
-    },
-    {
-      "basename": "Secrets Manager",
-      "path": "100 study-notes/101 AWS SAA/Secrets Manager.md"
-    },
-    {
-      "basename": "Other Services DVA",
-      "path": "100 study-notes/102 AWS DVA/Other Services DVA.md"
-    },
-    {
-      "basename": "AWS Artifact",
-      "path": "100 study-notes/114 AWS SOA/AWS Artifact.md"
-    },
-    {
-      "basename": "CloudHSM",
-      "path": "100 study-notes/101 AWS SAA/CloudHSM.md"
-    },
-    {
-      "basename": "KMS SOA",
-      "path": "100 study-notes/114 AWS SOA/KMS SOA.md"
-    },
-    {
-      "basename": "Other Services",
-      "path": "100 study-notes/101 AWS SAA/Other Services.md"
-    },
-    {
-      "basename": "GuardDuty",
-      "path": "100 study-notes/101 AWS SAA/GuardDuty.md"
-    },
-    {
-      "basename": "Inspector & Macie",
-      "path": "100 study-notes/101 AWS SAA/Inspector & Macie.md"
-    },
-    {
       "basename": "Shield, WAF & Firewall Manager",
       "path": "100 study-notes/101 AWS SAA/Shield, WAF & Firewall Manager.md"
     },
     {
-      "basename": "AWS Compute Optimiser",
-      "path": "100 study-notes/114 AWS SOA/AWS Compute Optimiser.md"
+      "basename": "S3",
+      "path": "100 study-notes/101 AWS SAA/S3.md"
     },
     {
-      "basename": "AWS Budgets",
-      "path": "100 study-notes/114 AWS SOA/AWS Budgets.md"
+      "basename": "VPC Flow Logs",
+      "path": "100 study-notes/101 AWS SAA/VPC Flow Logs.md"
     },
     {
-      "basename": "AWS Service Catalog",
-      "path": "100 study-notes/114 AWS SOA/AWS Service Catalog.md"
+      "basename": "RDS SOA",
+      "path": "100 study-notes/114 AWS SOA/RDS SOA.md"
     },
     {
-      "basename": "AWS Control Tower",
-      "path": "100 study-notes/114 AWS SOA/AWS Control Tower.md"
+      "basename": "S3 Miscellaneous",
+      "path": "100 study-notes/101 AWS SAA/S3 Miscellaneous.md"
     },
     {
-      "basename": "Organisations",
-      "path": "100 study-notes/101 AWS SAA/Organisations.md"
+      "basename": "CloudWatch",
+      "path": "100 study-notes/101 AWS SAA/CloudWatch.md"
     },
     {
-      "basename": "ElastiCache SOA",
-      "path": "100 study-notes/114 AWS SOA/ElastiCache SOA.md"
+      "basename": "ElasticBeanstalk SOA",
+      "path": "100 study-notes/114 AWS SOA/ElasticBeanstalk SOA.md"
     },
     {
-      "basename": "Aurora SOA",
-      "path": "100 study-notes/114 AWS SOA/Aurora SOA.md"
+      "basename": "CloudFront",
+      "path": "100 study-notes/101 AWS SAA/CloudFront.md"
+    },
+    {
+      "basename": "DataSync & Backup",
+      "path": "100 study-notes/101 AWS SAA/DataSync & Backup.md"
     }
   ],
   "omittedPaths": [],

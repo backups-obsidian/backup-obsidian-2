@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2023-03-06 18:47
+updated: 2023-03-13 09:24
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -38,7 +38,7 @@ updated: 2023-03-06 18:47
 		- *Automatic rotation* (**must be enabled**) every *1 year*.
 			- ![[attachments/Pasted image 20230306184224.png]]
 	- **User Imported keys** (AES 256) (not recommended): *$1/month*
-		- Only *manual rotation* possible using *alias*.
+		- **Only manual rotation possible using alias**.
 
 > [!note]- We *CANNOT* **rotate imported keys**. We can *only set expiry*.
 
@@ -116,8 +116,9 @@ updated: 2023-03-06 18:47
 
 - **Previous key should be kept active** so that we can decrypt the old data.
 
-> [!important]- Good solution to rotate **CMK that are not eligible for automatic rotation like asymmetric CMK**.
+> [!important]- Good solution to rotate **CMK that are not eligible for automatic rotation like asymmetric CMK and Imported Key**.
 > *Automatic key rotation* is only possible for *symmetric keys*.
+> We *CANNOT rotate imported keys automatically*.
 
 ## Types of CMK Keys
 ### Symmetric Keys

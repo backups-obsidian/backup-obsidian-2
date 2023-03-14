@@ -1,6 +1,6 @@
 ---
 created: 2023-03-07 08:52
-updated: 2023-03-10 15:51
+updated: 2023-03-13 09:07
 ---
 ---
 **Links**: [[114 AWS SOA Index]]
@@ -32,3 +32,6 @@ updated: 2023-03-10 15:51
 	- *Fine-grained permissions based on users' attributes stored in IAM Identity Centre Identity Store*.
 	- Example: cost centre, title, locale, etc.
 	- Use case: Define permissions once, then modify AWS access by changing the attributes.
+
+> [!question]- A company is deploying AWS Single Sign-On (SSO). A SysOps Administrator has created an AWS SSO directory in an AWS Organisations master account and enabled full access. What is the next step to configure the single sign-on functionality?
+> **Create permission sets in AWS SSO** and associate the permission sets with Directory Service users or groups.
