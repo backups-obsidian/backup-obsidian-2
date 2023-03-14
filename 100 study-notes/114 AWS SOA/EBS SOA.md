@@ -1,6 +1,6 @@
 ---
 created: 2023-03-03 15:30
-updated: 2023-03-11 09:09
+updated: 2023-03-14 08:52
 ---
 ---
 **Links**: [[114 AWS SOA Index]]
@@ -20,6 +20,9 @@ updated: 2023-03-11 09:09
 > - If the root device for your instance is an EBS volume, you can change the size of the instance simply by changing its instance type, which is known as resizing it. 
 > - *If the root device for your instance is an instance store volume*, you **must migrate your application to a new instance (by creating an AMI)** with the instance type that you need.
 
+> [!question]- An Amazon EBS gp2 volume is *running low on space*. How can this be resolved with *MINIMAL effort*?
+> With Elastic Volumes, you can **dynamically modify the size**, **performance**, and **volume type** of your Amazon EBS volumes *without detaching them*.
+
 ## Fast Snapshot Restore (FSR)
 - EBS Snapshots stored in S3
 - By *default*, there's a *latency of I/O operations the first time* each block is accessed since the **block must be pulled from S3**.
@@ -33,3 +36,6 @@ updated: 2023-03-11 09:09
 ## Questions
 > [!question]- An e-commerce company runs its web application on Amazon EC2 instances backed by Amazon Elastic Block Store (Amazon EBS) volumes. An Amazon S3 bucket is used for storing sharable data. *A developer has attached an Amazon EBS to an Amazon EC2 instance, but it’s still in the "attaching" state after 10-15 minutes*. As a SysOps Administrator, what solution will you suggest to fix this issue with the EBS volume?
 > **Check that the device name you specified when you attempted to attach the EBS volume isn't already in use**. Attempt to attach the volume to the instance, again, but use a different device name.
+
+> [!question]- An EBS-backed Amazon EC2 instance has a data volume with a status of _impaired_. *I/O has also been disabled due to data consistency issues*. Which first step should a SysOps Administrator take to *recover the volume*?
+> *Perform a consistency check* on the volume attached to the instance.

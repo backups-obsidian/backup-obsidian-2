@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2023-03-05 20:02
+updated: 2023-03-14 13:55
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -70,7 +70,8 @@ updated: 2023-03-05 20:02
 > When you modify the database engine for your DB instance in a Multi-AZ deployment, then Amazon RDS upgrades **both the primary and secondary DB instances at the same time**. In this case, the database engine for the entire Multi-AZ deployment is shut down during the upgrade.
 > There is **some down time**.
 
-- We can easily *configure a RDS database to be multi AZ* by enabling it in settings. This will *not cause any downtime*.
+- We **can easily configure a RDS database to be multi AZ by enabling it in settings**. 
+	- This will *not cause any downtime*.
 - What happens when you **convert a single AZ database to multi AZ**?
 	- AWS automatically takes a *snapshot of our DB*, 
 	- Creates a *new DB from the snapshot* 

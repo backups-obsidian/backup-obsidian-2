@@ -1,6 +1,6 @@
 ---
 created: 2023-03-05 16:44
-updated: 2023-03-05 16:44
+updated: 2023-03-14 08:59
 ---
 ---
 **Links**: [[114 AWS SOA Index]]
@@ -16,6 +16,8 @@ updated: 2023-03-05 16:44
 		- *Reboot* the Storage Gateway VM
 		- *Start* Storage Gateway Service (AWS Console, VM local Console, Storage Gateway API)
 
+> [!note] Stop GW -> Reboot VM -> Start GW
+
 ## Activations
 - Two ways to get Activation Key:
 	- Using the **Gateway VM CLI**
@@ -29,6 +31,6 @@ updated: 2023-03-05 16:44
 - Looking at *cache efficiency*
 	- Look at the `CacheHitPercent` metric (you want it to be *high*)
 	- Look at the `CachePercentUsed` (you *don't want it to be too high*)
-- Create a larger cache disk
-	- Use the cached volume to clone a new volume of a larger size
-	- Select the new disk as the cached volume
+- If the **`CachePercentUsed` is very high then create a larger cache disk**
+	- Use the cached volume to *clone a new volume of a larger size*.
+	- In the AWS Management Console, edit the local disks, then select the new disk as the cached volume.

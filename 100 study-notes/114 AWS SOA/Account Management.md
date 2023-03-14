@@ -1,6 +1,6 @@
 ---
 created: 2023-03-06 11:03
-updated: 2023-03-11 09:34
+updated: 2023-03-13 09:19
 ---
 ---
 **Links**: [[114 AWS SOA Index]]
@@ -53,13 +53,19 @@ updated: 2023-03-11 09:34
 
 ## Cost & Usage Reports
 - The AWS Cost & Usage Report **contains the most comprehensive** set of AWS cost and usage data available.
-- Includes *additional metadata* about AWS services, pricing, and reservations (e.g., Amazon EC2 Reserved Instances (RIs))
+- Includes *additional metadata* about AWS services, pricing, and **reservations** (e.g., Amazon EC2 Reserved Instances (**RIs**))
 - The AWS Cost & Usage Report lists AWS usage for each:
 	- Service category used by an account
 	- In hourly or daily line items
 	- Any tags that you have activated for cost allocation purposes
 - Can be configured for **daily exports to S3**.
 - Can be *integrated with Athena*, Redshift or QuickSight.
+- We can **calculate savings** using Cost & Usage reports.
+
+> [!question]- A company needs to *track* the *allocation of Reserved instance discounts in the company’s consolidated bill*. Which AWS tool can be used to find this information?
+> AWS Cost and Usage report
+> ---
+>  "AWS Budgets" is incorrect. This tool is used for alerting on spending limits, it does not *provide this level of reporting*.
 
 ## Cost Explorer
 ![[../101 AWS SAA/Other Services#Cost Explorer]]

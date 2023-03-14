@@ -1,6 +1,6 @@
 ---
 created: 2023-03-02 10:56
-updated: 2023-03-02 11:15
+updated: 2023-03-14 13:33
 ---
 ---
 **Links**: [[114 AWS SOA Index]]
@@ -34,6 +34,10 @@ updated: 2023-03-02 11:15
 - **Resolution**: 
 	- *reboot the instance* or 
 	- *change instance configuration*
+
+> [!caution]- **Rebooting** will fix **instance status checks**. **Starting and stopping** will fix **system status checks**. 
+>  - When you **stop and start** an instance it is *moved to a different host* which can fix *system status* check errors.
+>  - In **Rebooting** the instance *isn't* moved to a different host so it won't fix system status checks.
 
 ### CW Metrics and Recovery
 - CloudWatch Metrics (1 minute interval)

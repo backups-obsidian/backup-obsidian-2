@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2023-03-07 10:28
+updated: 2023-03-14 09:09
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -60,10 +60,14 @@ updated: 2023-03-07 10:28
 > [!important] TTL is mandatory for every record *expect the alias* records.
 
 ## ALIAS
-- ALIAS points a hostname to **an AWS resource**
+- ALIAS points a hostname to **an AWS resource**.
+	- It *CANNOT be used for on premise resources*.
 - You can **use apex domain names with ALIAS**.
 -   It works for **both** **root** and **non root** domain. Eg: `mydomain.com` **would work** with ALIAS.
--  They are **free of charge**
+
+> [!note]- Route53 **DOESNT charge for alias queries**, they *cost effective over CNAME*.
+> They are **free of charge**
+
 - They have a **native health check capability**.
 - It is an **extension of DNS functionality**.
 - Alias records are **always** of type **A** or **AAAA**.
@@ -88,3 +92,9 @@ updated: 2023-03-07 10:28
 >  So, if you register the DNS name `covid19survey.com`, the zone apex is `covid19survey.com`. You *can't create a CNAME record* for `covid19survey.com`, but you can create an **alias record** for `covid19survey.com` that routes traffic to `www.covid19survey.com`.
 > 
 > An alias record *can only redirect queries to selected AWS resources* such as S3 buckets, CloudFront distributions, and another record in the same Route 53 hosted zone; however a *CNAME record can redirect DNS queries to any DNS record*. So, you can **create a CNAME** record that redirects queries from `app.covid19survey.com` to `app.covid19survey.net`.
+
+> [!question]- A SysOps Administrator has been tasked with setting up a record set in Amazon Route 53 to point to an Application Load Balancer (ALB). The hosted zone and the ALB are in different accounts. What is the *MOST cost-effective and efficient solution to this requirement*?
+> Create an **alias record** in the hosted zone pointing to the Application Load Balancer.
+> ---
+> - It is *possible to create an Alias record that points to a resource in another account*.
+> - *CNAMEs records do incur costs* and this is a less efficient solution as there is more complexity.

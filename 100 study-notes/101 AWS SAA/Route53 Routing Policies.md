@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2023-03-07 10:09
+updated: 2023-03-13 09:22
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -49,6 +49,8 @@ updated: 2023-03-07 10:09
 
 > [!tip]+ If you see terms like *latency*, *high load times*, *deteriorated performance* then always go for latency based routing.
 > You can use *geolocation routing to restrict the distribution of content* to only the locations in which you have distribution rights. You *cannot use geolocation routing to reduce latency* even though you might think it makes sense to serve US users from US region.
+
+> [!caution] If your application is *deployed in only a single region* and you want to reduce latency then *Latency based routing will be of no use*.
 
 ## Failover
 - **Health check is mandatory**.

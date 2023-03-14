@@ -1,6 +1,6 @@
 ---
 created: 2022-04-20 15:02
-updated: 2023-03-02 19:52
+updated: 2023-03-13 08:50
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -49,3 +49,11 @@ updated: 2023-03-02 19:52
 
 > [!note]- If a *target group* contains *only unhealthy targets*, ELB routes requests **across its unhealthy targets**.
 > This is done assuming the health check has been wrongly setup.
+
+> [!question]- An application runs on Amazon EC2 instances behind an Application Load Balancer (ALB). One of the EC2 instances in the target group has exceeded the UnhealthyThresholdCount for consecutive health check failures. What actions will be taken next?
+> - The load balancer *will take the EC2 instance out of service*.
+> - The load balancer *will continue to perform the health check on the EC2 instance*.
+> ---
+> - Note that there is no ASG.
+> - "The EC2 instance will be *terminated based on the health check failure*" is *incorrect*. Amazon **ELB does not terminate instances based on health check failures**. You need an *Auto Scaling group* for that.
+> - **So when a health check fails ELB does only 2 things, send it out of service and keep sending health checks**.

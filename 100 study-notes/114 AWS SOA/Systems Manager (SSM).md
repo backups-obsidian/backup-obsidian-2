@@ -1,6 +1,6 @@
 ---
 created: 2023-03-02 13:07
-updated: 2023-03-02 14:36
+updated: 2023-03-13 09:15
 ---
 ---
 **Links**: [[114 AWS SOA Index]]
@@ -17,8 +17,10 @@ updated: 2023-03-02 14:36
 - We need to **install the SSM agent** on the systems we want to control.
 	- Installed *by default on Amazon Linux 2 AMI* & some Ubuntu AMI
 - If there is an *issue* with the systems manager then make sure
-	- The EC2 instances have a *proper IAM role* (`AmazonSSMManagedInstanceCore`) to allow SSM actions
-	- SSM agent is running
+	- The EC2 instances have a **proper IAM role** (`AmazonSSMManagedInstanceCore`) to allow SSM actions
+	- *SSM agent is running*
+
+> [!note] For SSM to work we need 2 things: IAM role on EC2 instance and SSM agent running in the EC2 instance.
 
 ## Resource Groups
 - Using tags to create resource groups.

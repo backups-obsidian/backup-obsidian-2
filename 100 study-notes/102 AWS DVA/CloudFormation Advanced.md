@@ -1,6 +1,6 @@
 ---
 created: 2022-05-18 20:06
-updated: 2023-03-11 08:24
+updated: 2023-03-14 13:47
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -26,13 +26,16 @@ updated: 2023-03-11 08:24
 ## StackSets
 - Create, update, or delete stacks **across multiple accounts and regions** with a single operation
 - Administrator account to create StackSets
-- Trusted accounts to create, update, delete stack instances from StackSets
+- *Trusted accounts* to create, update, delete stack instances from StackSets
 - When you *update a stack set*, **all associated stack instances are updated** throughout all accounts and regions.
 
 > [!important] Go for StackSets if you see *updating multiple stacks* in *multiple regions* or *multiple accounts*.
 
 > [!question]- A company initially used a manual process to create and manage different IAM roles needed for the organisation. As the company expanded and lines of business grew, different AWS accounts were created to manage the AWS resources as well as the users. The manual process has resulted in errors with IAM roles getting created with insufficient permissions. The company is looking at *automating the process of creating and managing the necessary IAM roles for multiple AWS accounts*. The company already uses AWS Organisations to manage multiple AWS accounts. As a SysOps Administrator, can you suggest an effective way to automate this process?
 > Use CloudFormation **StackSets** with AWS Organisations to deploy and manage IAM roles to multiple AWS accounts simultaneously.
+
+> [!question]- A SysOps Administrator attempted to deploy an AWS CloudFormation *StackSet* across multiple AWS accounts. The stack operation failed, and the stack instance status is *OUTDATED*. What could be a possible cause of this error?
+> The deployment was run with insufficient permissions in the target account.
 
 ## Drift
 - CloudFormation allows you to create infrastructure

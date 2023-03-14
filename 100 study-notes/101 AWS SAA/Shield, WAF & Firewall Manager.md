@@ -1,6 +1,6 @@
 ---
 created: 2022-04-29 10:03
-updated: 2023-03-10 15:36
+updated: 2023-03-13 08:34
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -34,10 +34,11 @@ updated: 2023-03-10 15:36
 - To use WAF we **must define WACL** (web access control lists).
 - In WACL there can be **rules on different things**. 
 	- There can be rules on **IP addresses**, HTTP Headers, HTTP body or URI strings
+		- We can **string match** statements to match things like IP.
 	- We can *block countries* using the **geo-match** feature or allow/block only certain IPs. Allowing certain IPs is done using WAF IP **set** statement.
 	- We can also apply some **Rate Based Rules for DDoS protection**. For example an IP should not do more than 5 requests per second.
 
-- It can **protect from basic attacks** such as **SQL injection** and **XSS**
+- It can **protect from basic attacks** such as **SQL injection** and **XSS**.
 
 > [!caution] For DDoS you can either go for [[Shield, WAF & Firewall Manager#Shield | Shield]] or *Rate Based Rules of WAF*.
 

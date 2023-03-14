@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2023-02-18 08:58
+updated: 2023-03-13 09:05
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -19,7 +19,7 @@ updated: 2023-02-18 08:58
 - We need to **enable static website** hosting for the bucket by going to **properties**. Once enabled we will get a URL. If we try to access this now we will get 403 error.
 - If you get a **403 (Forbidden)** error then make sure the *bucket policy allows public reads*.
 - We need to **allow public access** in permissions
-- **Allow public read access** using **bucket policies** for **all** (`arn/*`) the objects in the bucket (without this also we will get **403** errors)
+- **Allow public read access** using **bucket policies** for **all (`arn/*`) the objects in the bucket** (without this also we will get **403** errors)
 	- ```json
 	{
 		"Version": "2012-10-17",

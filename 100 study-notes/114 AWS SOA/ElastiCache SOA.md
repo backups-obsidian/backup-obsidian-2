@@ -1,6 +1,6 @@
 ---
 created: 2023-03-06 08:13
-updated: 2023-03-06 08:29
+updated: 2023-03-14 13:50
 ---
 ---
 **Links**: [[114 AWS SOA Index]]
@@ -31,7 +31,7 @@ updated: 2023-03-06 08:29
 ## Redis Metrics to Monitor
 - **Evictions**: the *number of non-expired items the cache evicted* to allow space for new writes (*memory is overfilled*). Solution:
 	- *Choose an eviction policy to evict expired items* (e.g., evict least recently used (*LRU*) items).
-	- *Scale up to larger node type* (more memory) or scale out by adding more nodes.
+	- **Scale up** to larger node type (more memory) or **scale out** by adding more nodes.
 - **CPUUtilisation**: monitor CPU utilisation for the entire host
 	- Solution: *scale up to larger node type* (more memory) or scale out by adding more nodes.
 - **SwapUsage**: should not exceed 50 MB
@@ -55,6 +55,11 @@ updated: 2023-03-06 08:29
 		- *Delete the old cluster*
 		- ![[attachments/Pasted image 20230306082429.png]]
 	- **Memcached clusters/nodes start out empty** since there is no replication.
+
+> [!question]- An application that uses an Amazon *ElastiCache Memcached* cluster is receiving a larger increase in traffic. A SysOps Administrator needs to use a *larger instance type with more memory*. What does the Administrator need to do to implement this change?
+> Create a new cache cluster with a new node type using the `CreateCacheCluster` API.
+> ---
+> **With Amazon ElastiCache Memcached engine you CANNOT modify the node type**. The *way to scale up is to **create a new cluster** and specify the new node type*. You can then update the endpoint configuration in your application to point to the new endpoints and then delete the old cache cluster.
 
 ## Memcached Auto Discovery
 - Auto Discovery automatically identifies all of the nodes
