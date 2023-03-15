@@ -1,6 +1,6 @@
 ---
 created: 2023-03-14 14:23
-updated: 2023-03-14 16:36
+updated: 2023-03-14 18:11
 ---
 ---
 **Links**: [[../100 home | 100 Home]]
@@ -9,6 +9,7 @@ updated: 2023-03-14 16:36
 [[React - Introduction & JSX]]
 [[React - Components]]
 [[React - Styling]]
+[[React - Props]]
 
 
 ```jsx

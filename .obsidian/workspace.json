@@ -38,19 +38,6 @@
             }
           },
           {
-            "id": "02a40e41d0f616ff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100 study-notes/101 AWS SAA/VPC Internet Access.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
             "id": "ad815467a81c0689",
             "type": "leaf",
             "pinned": true,
@@ -66,20 +53,20 @@
             }
           },
           {
-            "id": "61d4f7e93743f44a",
+            "id": "fbceef2fabb05eb5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 study-notes/115 React/React - Components.md",
-                "mode": "source",
+                "file": "100 study-notes/115 React/React - Props.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -155,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/115 React/React - Components.md",
+                "file": "100 study-notes/115 React/React - Props.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/115 React/React - Components.md"
+                "file": "100 study-notes/115 React/React - Props.md"
               }
             }
           },
@@ -182,7 +169,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/115 React/React - Components.md",
+                "file": "100 study-notes/115 React/React - Props.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -248,17 +235,17 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "61d4f7e93743f44a",
+  "active": "fbceef2fabb05eb5",
   "lastOpenFiles": [
     "100 study-notes/115 React/115 React Index.md",
-    "100 study-notes/115 React/React - Styling.md",
     "100 study-notes/115 React/React - Introduction & JSX.md",
+    "100 study-notes/115 React/React - Props.md",
+    "100 study-notes/115 React/React - Styling.md",
     "100 study-notes/115 React/React - Components.md",
-    "100 study-notes/101 AWS SAA/VPC Internet Access.md",
+    "100 study-notes/101 AWS SAA/KMS.md",
     "100 study-notes/114 AWS SOA/114 AWS SOA Index.md",
     "100 study-notes/114 AWS SOA/SOA Extra Notes.md",
-    "100 study-notes/102 AWS DVA/CloudFormation RollBacks.md",
-    "100 study-notes/102 AWS DVA/CloudFormation Advanced.md",
-    "100 study-notes/114 AWS SOA/CloudFormation SOA.md"
+    "100 study-notes/101 AWS SAA/VPC Internet Access.md",
+    "100 study-notes/102 AWS DVA/CloudFormation RollBacks.md"
   ]
 }

@@ -1,6 +1,6 @@
 ---
 created: 2023-03-14 16:09
-updated: 2023-03-14 16:29
+updated: 2023-03-14 17:58
 ---
 ---
 **Links**: [[115 React Index]]
@@ -51,17 +51,23 @@ function Page() {
 ReactDOM.render(<Page />, document.getElementById("root"));
 ```
 
+> [!note]- Mind the `div` block in the above example since we cannot return 2 parent elements.
+
 ## Organising Components
 - We can split the components into individual files and then import them.
 
 ```jsx
 // App.js
-function App() {
+function AppComponent() {
   return <h1>This is start</h1>;
 }
 
 export default App;
 
 // index.js
-import App from "./App"
+import CanBeAnyName from "./App" // App here is the name of file
+// It CanBeAnyName since we are doing a default export. 
+// This isn't possible in named exports.
+
+// Just keep the names same to avoid any confusion.
 ```

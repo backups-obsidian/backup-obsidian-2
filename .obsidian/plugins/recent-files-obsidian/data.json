@@ -1,24 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "React - Components",
-      "path": "100 study-notes/115 React/React - Components.md"
+      "basename": "React - Props",
+      "path": "100 study-notes/115 React/React - Props.md"
     },
     {
       "basename": "115 React Index",
       "path": "100 study-notes/115 React/115 React Index.md"
     },
     {
-      "basename": "React - Styling",
-      "path": "100 study-notes/115 React/React - Styling.md"
-    },
-    {
       "basename": "React - Introduction & JSX",
       "path": "100 study-notes/115 React/React - Introduction & JSX.md"
     },
     {
-      "basename": "VPC Internet Access",
-      "path": "100 study-notes/101 AWS SAA/VPC Internet Access.md"
+      "basename": "React - Styling",
+      "path": "100 study-notes/115 React/React - Styling.md"
+    },
+    {
+      "basename": "React - Components",
+      "path": "100 study-notes/115 React/React - Components.md"
+    },
+    {
+      "basename": "KMS",
+      "path": "100 study-notes/101 AWS SAA/KMS.md"
     },
     {
       "basename": "114 AWS SOA Index",
@@ -27,6 +31,10 @@
     {
       "basename": "SOA Extra Notes",
       "path": "100 study-notes/114 AWS SOA/SOA Extra Notes.md"
+    },
+    {
+      "basename": "VPC Internet Access",
+      "path": "100 study-notes/101 AWS SAA/VPC Internet Access.md"
     },
     {
       "basename": "CloudFormation RollBacks",
@@ -117,10 +125,6 @@
       "path": "400 misc/Work at 16Bit.md"
     },
     {
-      "basename": "KMS",
-      "path": "100 study-notes/101 AWS SAA/KMS.md"
-    },
-    {
       "basename": "Account Management",
       "path": "100 study-notes/114 AWS SOA/Account Management.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "CloudFront",
       "path": "100 study-notes/101 AWS SAA/CloudFront.md"
-    },
-    {
-      "basename": "DataSync & Backup",
-      "path": "100 study-notes/101 AWS SAA/DataSync & Backup.md"
     }
   ],
   "omittedPaths": [],
