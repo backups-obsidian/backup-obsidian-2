@@ -1,6 +1,6 @@
 ---
 created: 2023-03-14 15:10
-updated: 2023-03-14 16:07
+updated: 2023-03-15 09:24
 ---
 ---
 **Links**: [[115 React Index]]
@@ -75,7 +75,7 @@ ReactDOM.render(
 
 ```
 
-### Working with JSX
+## Working with JSX
 - Simple JSX
 ```jsx
 const page = (
@@ -93,7 +93,26 @@ ReactDOM.render(page, document.getElementById("root"));
 
 > [!important]- We can *save JSX into a simple variable* because when we write JSX what **we are getting back is simple JavaScript object**.
 
-### Imports
+### Using JS/Variables in JSX
+- We do it using curly braces `{}`.
+- We can think of it as JavaScript land when we see `{}`
+	- **Anything we put inside `{}` will be run as JS code**.
+ 
+```jsx
+function App() {
+    const date = new Date()
+	const someVar = "Hello"
+    return (
+        <h1>{someVar} it is currently about {date.getHours() % 12}!</h1>
+    )
+}
+```
+
+- It is much *more readable to have JS outside of JSX* and just reference the variables in JSX. 
+	- In this way we ensure *we are separating the logic from the display*.
+		- ![[attachments/Pasted image 20230315092317.png]]
+
+## Imports
 - **For the react JSX syntax to work we have to import react**.
 	- `import React from 'react'`
 	- NOTE: From react version 17 we don't need to import React.
@@ -101,7 +120,7 @@ ReactDOM.render(page, document.getElementById("root"));
 	- `import ReactDOM from 'react-dom'` - 17
 	- `import ReactDOM from 'react-dom/client'`
 
-### React 17 vs React 18
+## React 17 vs React 18
 
 - Older way of doing it
 ```jsx
