@@ -1,6 +1,6 @@
 ---
 created: 2023-03-06 12:28
-updated: 2023-03-06 13:00
+updated: 2023-03-16 08:54
 ---
 ---
 **Links**: [[114 AWS SOA Index]]
@@ -20,6 +20,9 @@ updated: 2023-03-06 13:00
 	- *Share a reference* of the portfolio, then *import* the shared portfolio in the recipient account (**stays in-sync with the original portfolio**)
 	- *Deploy a copy* of the portfolio into the recipient account (**must re-deploy any updates**)
 - Ability to add products from the imported portfolio to the local portfolio.
+- In case of *shared portfolios* a recipient administrator **can add imported products to local portfolios**. 
+	- The products will stay in sync with the shared portfolio. 
+	- However, the recipient administrator **CANNOT upload** or **add** *products to the imported portfolio* or **remove** products *from the imported portfolio*.
 
 ### TagOptions Library
 - Easily *manage tags on provisioned products*

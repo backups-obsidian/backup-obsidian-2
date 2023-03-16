@@ -1,6 +1,6 @@
 ---
 created: 2023-03-11 08:28
-updated: 2023-03-14 13:46
+updated: 2023-03-16 08:57
 ---
 ---
 **Links**: [[114 AWS SOA Index]]
@@ -46,3 +46,14 @@ updated: 2023-03-14 13:46
 > Use EC2Rescue to gather operating system log files for analysis
 > ---
 > *EC2Rescue for EC2 Windows is a convenient, straightforward, GUI-based troubleshooting tool* that can be run on your Amazon EC2 Windows Server instances to troubleshoot operating system-level issues and collect advanced logs and configuration files for further analysis. EC2Rescue simplifies and expedites the troubleshooting of EC2 Windows instances.
+
+- There are only 2 geolocations:
+	- Route53 Geolocation
+	- CloudFront Georestriction
+
+- *RDS* and *ElastiCache* offer *maintenance windows*.
+
+> [!question]- Each IT staff member in a company uses a unique IAM user account. Permissions are applied to users using IAM policies and IAM groups. The security team has requested that staff members should log in with their on-premises Active Directory user accounts instead of their IAM user accounts when accessing the AWS Management Console. Which solution can a SysOps Administrator implement to the requirements of the security team?
+> Implement a *VPN tunnel and configure an Active Directory connector*.
+
+- *ALB* and *CloudFront access logs* show *layer 7* information whereas *VPC flow logs* show *layer 3/4* information.

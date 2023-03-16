@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2023-03-13 09:24
+updated: 2023-03-16 08:28
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -30,7 +30,8 @@ updated: 2023-03-13 09:24
 		- Generally used if the user wants encryption and doesn't want to managed the keys.
 	- **AWS Managed Service Default CMK**: *free*. 
 		- Gets created during the **integration of AWS services**. Like the key you use in S3 SSE-KMS.
-		- *Automatic rotation* every *1 year*.
+		- *Automatic rotation* every *3 years*. 
+		- We *CANNOT manage key rotation. Like enabling or disabling*.
 		- They will start with `aws/` prefix
 			- ![[attachments/Pasted image 20220531193937.png]]
 	- **Customer Managed CMK**: *$1/Month*

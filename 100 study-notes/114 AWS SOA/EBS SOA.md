@@ -1,6 +1,6 @@
 ---
 created: 2023-03-03 15:30
-updated: 2023-03-14 08:52
+updated: 2023-03-16 09:13
 ---
 ---
 **Links**: [[114 AWS SOA Index]]
@@ -39,3 +39,6 @@ updated: 2023-03-14 08:52
 
 > [!question]- An EBS-backed Amazon EC2 instance has a data volume with a status of _impaired_. *I/O has also been disabled due to data consistency issues*. Which first step should a SysOps Administrator take to *recover the volume*?
 > *Perform a consistency check* on the volume attached to the instance.
+
+> [!question]- An Amazon EBS volume has a status of error. What can a SysOps Administrator do to bring the volume back online?
+> *Create a new volume from a recent snapshot*.

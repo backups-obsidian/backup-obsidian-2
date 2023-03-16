@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2023-03-04 09:55
+updated: 2023-03-16 08:20
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -27,6 +27,11 @@ updated: 2023-03-04 09:55
 - There is a minimum size of the object.
 - **Use cases** → data store for **backups** or **disaster recovery**
 - Availability is less than S3 standard.
+
+> [!question]- A Company stores a large volume of non-critical log files in an Amazon S3 bucket. An Amazon EC2 instance processes files from the bucket on a *daily basis*. Which storage option will be the MOST cost-effective for this scenario?
+> S3 Standard.
+> ---
+> S3 Standard-Infrequent Access won't be the correct choice since the data is being frequently accessed and **there would be additional retrieval costs**.
 
 ## S3 One Zone IA
 - **Same as IA** but the data is stored in a **single AZ**.

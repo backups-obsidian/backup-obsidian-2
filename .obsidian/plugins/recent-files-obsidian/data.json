@@ -1,28 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "React - Props",
-      "path": "100 study-notes/115 React/React - Props.md"
+      "basename": "React - Arrays",
+      "path": "100 study-notes/115 React/React - Arrays.md"
     },
     {
       "basename": "115 React Index",
       "path": "100 study-notes/115 React/115 React Index.md"
     },
     {
-      "basename": "React - Introduction & JSX",
-      "path": "100 study-notes/115 React/React - Introduction & JSX.md"
+      "basename": "React - Event Listeners",
+      "path": "100 study-notes/115 React/React - Event Listeners.md"
+    },
+    {
+      "basename": "React - State",
+      "path": "100 study-notes/115 React/React - State.md"
     },
     {
       "basename": "React - Styling",
       "path": "100 study-notes/115 React/React - Styling.md"
     },
     {
-      "basename": "React - Components",
-      "path": "100 study-notes/115 React/React - Components.md"
-    },
-    {
-      "basename": "KMS",
-      "path": "100 study-notes/101 AWS SAA/KMS.md"
+      "basename": "EBS SOA",
+      "path": "100 study-notes/114 AWS SOA/EBS SOA.md"
     },
     {
       "basename": "114 AWS SOA Index",
@@ -31,6 +31,58 @@
     {
       "basename": "SOA Extra Notes",
       "path": "100 study-notes/114 AWS SOA/SOA Extra Notes.md"
+    },
+    {
+      "basename": "AWS Service Catalog",
+      "path": "100 study-notes/114 AWS SOA/AWS Service Catalog.md"
+    },
+    {
+      "basename": "VPC Peering and Endpoints",
+      "path": "100 study-notes/101 AWS SAA/VPC Peering and Endpoints.md"
+    },
+    {
+      "basename": "Account Management",
+      "path": "100 study-notes/114 AWS SOA/Account Management.md"
+    },
+    {
+      "basename": "Other Services",
+      "path": "100 study-notes/101 AWS SAA/Other Services.md"
+    },
+    {
+      "basename": "EFS SOA",
+      "path": "100 study-notes/114 AWS SOA/EFS SOA.md"
+    },
+    {
+      "basename": "KMS",
+      "path": "100 study-notes/101 AWS SAA/KMS.md"
+    },
+    {
+      "basename": "AWS Budgets",
+      "path": "100 study-notes/114 AWS SOA/AWS Budgets.md"
+    },
+    {
+      "basename": "CloudFormation SOA",
+      "path": "100 study-notes/114 AWS SOA/CloudFormation SOA.md"
+    },
+    {
+      "basename": "RDS Read Replica & Multi AZ",
+      "path": "100 study-notes/101 AWS SAA/RDS Read Replica & Multi AZ.md"
+    },
+    {
+      "basename": "S3 Storage Classes",
+      "path": "100 study-notes/101 AWS SAA/S3 Storage Classes.md"
+    },
+    {
+      "basename": "React - Props",
+      "path": "100 study-notes/115 React/React - Props.md"
+    },
+    {
+      "basename": "React - Introduction & JSX",
+      "path": "100 study-notes/115 React/React - Introduction & JSX.md"
+    },
+    {
+      "basename": "React - Components",
+      "path": "100 study-notes/115 React/React - Components.md"
     },
     {
       "basename": "VPC Internet Access",
@@ -43,14 +95,6 @@
     {
       "basename": "CloudFormation Advanced",
       "path": "100 study-notes/102 AWS DVA/CloudFormation Advanced.md"
-    },
-    {
-      "basename": "CloudFormation SOA",
-      "path": "100 study-notes/114 AWS SOA/CloudFormation SOA.md"
-    },
-    {
-      "basename": "RDS Read Replica & Multi AZ",
-      "path": "100 study-notes/101 AWS SAA/RDS Read Replica & Multi AZ.md"
     },
     {
       "basename": "ElastiCache SOA",
@@ -113,10 +157,6 @@
       "path": "100 study-notes/114 AWS SOA/CloudFront Caching SOA.md"
     },
     {
-      "basename": "EBS SOA",
-      "path": "100 study-notes/114 AWS SOA/EBS SOA.md"
-    },
-    {
       "basename": "Config",
       "path": "100 study-notes/101 AWS SAA/Config.md"
     },
@@ -125,20 +165,12 @@
       "path": "400 misc/Work at 16Bit.md"
     },
     {
-      "basename": "Account Management",
-      "path": "100 study-notes/114 AWS SOA/Account Management.md"
-    },
-    {
       "basename": "Organisations",
       "path": "100 study-notes/101 AWS SAA/Organisations.md"
     },
     {
       "basename": "Systems Manager (SSM)",
       "path": "100 study-notes/114 AWS SOA/Systems Manager (SSM).md"
-    },
-    {
-      "basename": "Other Services",
-      "path": "100 study-notes/101 AWS SAA/Other Services.md"
     },
     {
       "basename": "AWS IAM Identity Centre",
@@ -167,38 +199,6 @@
     {
       "basename": "ELB SOA",
       "path": "100 study-notes/114 AWS SOA/ELB SOA.md"
-    },
-    {
-      "basename": "Shield, WAF & Firewall Manager",
-      "path": "100 study-notes/101 AWS SAA/Shield, WAF & Firewall Manager.md"
-    },
-    {
-      "basename": "S3",
-      "path": "100 study-notes/101 AWS SAA/S3.md"
-    },
-    {
-      "basename": "VPC Flow Logs",
-      "path": "100 study-notes/101 AWS SAA/VPC Flow Logs.md"
-    },
-    {
-      "basename": "RDS SOA",
-      "path": "100 study-notes/114 AWS SOA/RDS SOA.md"
-    },
-    {
-      "basename": "S3 Miscellaneous",
-      "path": "100 study-notes/101 AWS SAA/S3 Miscellaneous.md"
-    },
-    {
-      "basename": "CloudWatch",
-      "path": "100 study-notes/101 AWS SAA/CloudWatch.md"
-    },
-    {
-      "basename": "ElasticBeanstalk SOA",
-      "path": "100 study-notes/114 AWS SOA/ElasticBeanstalk SOA.md"
-    },
-    {
-      "basename": "CloudFront",
-      "path": "100 study-notes/101 AWS SAA/CloudFront.md"
     }
   ],
   "omittedPaths": [],
