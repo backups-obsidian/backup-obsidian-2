@@ -1,6 +1,6 @@
 ---
 created: 2023-03-06 11:03
-updated: 2023-03-13 09:19
+updated: 2023-03-16 08:40
 ---
 ---
 **Links**: [[114 AWS SOA Index]]
@@ -51,6 +51,10 @@ updated: 2023-03-13 09:19
 > [!question]- A media company runs its business on Amazon EC2 instances backed by Amazon S3 storage. The company is apprehensive about the consistent increase in costs incurred from S3 buckets. The company wants to make some decisions regarding data retention, storage, and deletion based on S3 usage and cost reports. As a SysOps Administrator, you have been hired to develop *a solution to track the costs incurred by each S3 bucket in the AWS account*. How will you configure this requirement?
 > Add a common tag to each bucket. Activate the tag as a *cost allocation tag*. Use the AWS Cost Explorer to create a cost report for the tag.
 
+> [!question]- A manager in a company needs to see a breakdown of costs in an AWS account on a *project by project basis*. *The manager would like to view this information in AWS Cost Explorer*. Which combination of configuration updates should be applied?
+> - Activate cost allocation tags
+> - Create and apply resource tags: In addition to activating cost allocation tags, the actual resource tags must be created and applied to the relevant resources.
+
 ## Cost & Usage Reports
 - The AWS Cost & Usage Report **contains the most comprehensive** set of AWS cost and usage data available.
 - Includes *additional metadata* about AWS services, pricing, and **reservations** (e.g., Amazon EC2 Reserved Instances (**RIs**))
@@ -69,3 +73,8 @@ updated: 2023-03-13 09:19
 
 ## Cost Explorer
 ![[../101 AWS SAA/Other Services#Cost Explorer]]
+
+> [!question]- A company uses AWS Organisations with consolidated billing for several AWS accounts. The CEO is concerned about rising costs and has asked a SysOps Administrator to determine what is causing the increase. What is the MOST comprehensive **tool** that will accomplish this task?
+> Cost Explorer.
+> ---
+> Cost Allocation Tags are **NOT a tool**.

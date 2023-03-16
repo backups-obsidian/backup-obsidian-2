@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2023-03-13 09:10
+updated: 2023-03-16 08:40
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -106,6 +106,7 @@ updated: 2023-03-13 09:10
 	- It *doesn't give instance purchase recommendations* like going for reserved instances.
 
 > [!note] Keywords: **recommendations**, **EC2 instances**, *optimise costs*, *reports*,*forecast*.
+
 
 ## Rekognition
 - Rekognition is simply a service that can *identify the objects, people, text, scenes, and activities*, as well as detect any inappropriate content on your **images or videos**.

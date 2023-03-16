@@ -1,6 +1,6 @@
 ---
 created: 2023-03-03 09:25
-updated: 2023-03-13 08:47
+updated: 2023-03-16 08:30
 ---
 ---
 **Links**: [[114 AWS SOA Index]]
@@ -82,3 +82,5 @@ updated: 2023-03-13 08:47
 - We can **prevent updates** to stack resources using **StackPolicy**
 	- *StackPolicy is a JSON* file and looks like an IAM policy.
 	- We have all the same components (Principal, Effect, Action, Resource) as present in the IAM policy.
+
+- Generally if a CloudFormation template gives an *error when launching resources in another region* it is mainly due to the fact that the *specific AMIs are not present in that region*.

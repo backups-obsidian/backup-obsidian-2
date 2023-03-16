@@ -1,6 +1,6 @@
 ---
 created: 2023-03-14 18:10
-updated: 2023-03-15 12:59
+updated: 2023-03-15 16:07
 ---
 ---
 **Links**: [[115 React Index]]
@@ -81,3 +81,14 @@ export default function Contact({img: image, name, phone, email}) {
 
 > [!tip]- In my opinion it is *best to just use the `props` object instead of destructuring* since it helps in distinguishing which attributes are being passed as props to the component (since we will have to use the ones passed as `props.attribute`) and which are defined within the component. 
 > There is more typing but I feel it is worth it.
+
+### Passing non string values to props
+- It works on the idea that using `{}` we enter the JS land and then we can use any JS object type.
+```jsx
+<Joke 
+    punchline="Some punchline"
+    isPun={true}
+    upvotes={10}
+    comments={["hello", "there"]}
+/>
+```

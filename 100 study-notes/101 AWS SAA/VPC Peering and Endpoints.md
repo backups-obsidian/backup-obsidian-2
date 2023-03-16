@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2023-03-08 09:14
+updated: 2023-03-16 08:49
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -22,7 +22,8 @@ updated: 2023-03-08 09:14
     - In the route table of VPC2 we need to add this rule → send any traffic for 10.0.0.0/16 to the peering connection
 		- ![[attachments/Pasted image 20220430100535.png]]
 
-- We **can reference a security group** in a **peered VPC**. 
+- We **can reference a security group** in a **peered VPC**.
+	- The VPCs must be in the same region otherwise we can't reference security groups in peered VPCs.
 
 > [!caution]+ Note that a VPC peering connection does not support edge to edge routing. This means that if either VPC in a peering relationship has one of the following connections, you **cannot extend the peering relationship** to that connection:
 > - A **VPN connection** or an **AWS Direct Connect** connection to a corporate network

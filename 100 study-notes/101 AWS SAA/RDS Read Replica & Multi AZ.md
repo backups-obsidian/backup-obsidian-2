@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2023-03-14 13:55
+updated: 2023-03-16 08:26
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -37,13 +37,15 @@ updated: 2023-03-14 13:55
 - Replication is **sync**.
 - We have a **single DNS name** which **switches automatically**(**Automatic failover**) to the standby database in case the primary database becomes unavailable. 
 	- We can say the *CAME record* will be updated to point to the standby DB.
-- Automatic failover takes places in case of:
-	- Loss of AZ
-	- Storage failure on primary 
-	- Loss of network
-	- OS is undergoing software patching
-	- Modified (e.g., DB instance type changed)
+- **Automatic failover takes places in case of**:
+	- *Loss* of AZ
+	- Storage *failure* on primary 
+	- *Loss* of network
+	- **OS is undergoing software patching**
+	- Modified (e.g., **DB instance type changed**)
 	- Busy and unresponsive
+
+> [!note]- Automatic failure takes in case of loss, failure, DB instance type change, OS patching.
 
 - We can *initiate a manual failover* of the DB instance using **Reboot with failover**.
 
