@@ -1,6 +1,6 @@
 ---
 created: 2023-03-15 16:47
-updated: 2023-03-16 13:55
+updated: 2023-03-16 13:59
 ---
 ---
 **Links**: [[115 React Index]]
@@ -42,3 +42,24 @@ const App = () => {
   return <Box id="1" clickHandler={clickHandler} />;
 };
 ```
+
+- Another way of doing it.
+
+```jsx
+// Box component
+const Box = (props) => {
+  return <div onClick={props.clickHandler}> hello there</div>;
+};
+
+// Main App component
+const App = () => {
+  const clickHandler = (id) => {
+    console.log(id); // 1
+    // some state change logic
+  };
+
+  return <Box clickHandler={() => clickHandler("1")} />;
+};
+```
+
+- With this approach we need not pass id to the child component.

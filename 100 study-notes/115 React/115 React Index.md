@@ -1,6 +1,6 @@
 ---
 created: 2023-03-14 14:23
-updated: 2023-03-16 13:50
+updated: 2023-03-16 17:20
 ---
 ---
 **Links**: [[../100 home | 100 Home]]
@@ -12,17 +12,12 @@ updated: 2023-03-16 13:50
 [[React - Props]]
 [[React - Arrays]]
 [[React - Event Listeners]]
-[[React - State]]
+[[React - State (useState)]]
+[[React - Conditional Rendering]]
+[[React - Forms]]
+[[React - Side Effects (useEffect)]]
 
-
-```jsx
-const MainContent = () => {
-	return (
-		<h1>Hello there</h1>
-	)
-}
-```
-
+## Miscellaneous
 - \[object Object] is a string representation of a JS object.
 
 
