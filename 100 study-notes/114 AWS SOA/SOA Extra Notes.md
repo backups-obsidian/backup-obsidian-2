@@ -1,11 +1,12 @@
 ---
 created: 2023-03-11 08:28
-updated: 2023-03-16 08:57
+updated: 2023-03-18 09:04
 ---
 ---
 **Links**: [[114 AWS SOA Index]]
 
 ---
+## Extra
 > [!question]- An organisation has multiple AWS accounts to manage different lines of business. A user from the Finance account has to access reports stored in Amazon S3 buckets of two other AWS accounts (belonging to the HR and Audit departments) and copy these reports back to the S3 bucket in the Finance account. The user has requested the necessary permissions from the systems administrator to perform this task. As a SysOps Administrator, how will you configure a solution for this requirement?
 > Create *identity-based IAM policy* in the *Finance account* that allows the user to *make a request to the S3 buckets in the HR and Audit accounts*. Also, create *resource-based IAM policies in the HR, Audit accounts that will allow the requester from the Finance account* to access the respective S3 buckets.
 > ---
@@ -57,3 +58,19 @@ updated: 2023-03-16 08:57
 > Implement a *VPN tunnel and configure an Active Directory connector*.
 
 - *ALB* and *CloudFront access logs* show *layer 7* information whereas *VPC flow logs* show *layer 3/4* information.
+
+> [!note] You *CANT share a snapshot* that's encrypted using the **default AWS KMS** encryption key.
+
+- When using *multiple accounts within a Region* it is important to understand that the **name of the Availability Zone in each account may map to a different underlying AZ**. 
+	- For instance, us-east-1a may map to a different AZ in one account vs another.
+	- To identify the location of your resources relative to your accounts, you must use the _AZ ID_, which is a unique and consistent identifier for an Availability Zone. 
+	- For example, use1-az1 is an AZ ID for the us-east-1 Region and it is the same location in every AWS account.
+- In case of AWS Config related questions always try to look for options which avoid writing custom code.
+
+> [!question]- A company wants to use an AWS IAM role with a *SAML 2.0*-compliant identity provider (IdP) and AWS to permit federated users to *access the AWS Management Console*. The workflow should open the AWS Management Console on behalf of the user. Which of the following workflow steps should be included?
+> Configure the client to post a *SAML assertion and use an AWS SSO endpoint*.
+> ---
+> This workflow opens the AWS Management Console on behalf of the user. This requires the use of the AWS SSO endpoint instead of directly calling the AssumeRoleWithSAML API.
+
+## Interesting Ideas
+- To automatically shut down unused instances: create an Amazon CloudWatch alarm that monitors the CPUUtilization metric and stops the EC2 instances if the utilization is <5% for a 30-minute period.

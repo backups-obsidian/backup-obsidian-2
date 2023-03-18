@@ -1,6 +1,6 @@
 ---
 created: 2022-04-18 21:09
-updated: 2023-03-10 12:52
+updated: 2023-03-18 08:50
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -68,16 +68,22 @@ updated: 2023-03-10 12:52
 ### Reserved Instances Sharing
 - For billing purposes, **the consolidated billing feature of AWS Organisations treats all the accounts in the organisation as one account**.
 	- This means that all accounts in the organisation can receive the hourly cost benefit of Reserved Instances that are purchased by any other account.
-- The payer account (master account) of an organisation *can turn off Reserved Instance (RI) discount and Savings Plans discount sharing* for any accounts in that organisation, including the payer account.
+- The payer account (master account) of an organisation *can turn off Reserved Instance (RI) discount and Savings Plans discount sharing* for any accounts in that organization, including the payer account.
 	- This means that Rls and Savings Plans discounts aren't shared between any accounts that have sharing turned off.
-- *To share an Rl or Savings Plans discount with an account, both accounts must have sharing turned on*.
+- **To share an Rl or Savings Plans discount with an account, both accounts must have sharing turned on**.
 
 > [!question]- You manage a set of AWS Accounts using AWS Organisation which has Consolidated Billing feature enabled and Reserved Instance Discount Sharing turned on. You have an AWS Account that purchased a set of reserved EC2 instances that the owner doesn't want to share with the AWS Organisation. What should you do?
 > *Disable Reserved Instance Discount Sharing at the AWS account level*.
 
+> [!question]- A company is using AWS Organizations with multiple AWS accounts. The company has purchases Reserved Instances (RIs) and *wants to ensure that each member account only receives discounts associated with RIs they own and not for RIs owned by other accounts*. Which solution will meet these requirements?
+> *Purchase RIs in individual member accounts*. Disable RI discount sharing in the management account
+
 ### IAM Policies
-- Use `aws:PrincipalOrgID` condition key in your resource-based policies to restrict access to IAM principals from accounts in an AWS Organisation.
+- Use `aws:PrincipalOrgID` **condition key** in your **resource-based policies** to restrict access to IAM principals from accounts in an AWS Organization.
 	- ![[attachments/Pasted image 20230306114351.png]]
+
+> [!question]- A company has multiple accounts that are managed using AWS Organizations. A SysOps administrator must setup a *shared S3 bucket in a central account* and grant read-only access for all users in any account within the AWS Organization. There should be no public access to the S3 bucket data. Which parameters should the Administrator use to MOST efficiently accomplish this goal?
+> Specify `*` as the principal and `aws:PrincipalOrgId` as a **condition**.
 
 ### Tag Policies
 - Helps you **standardise tags across resources** in an AWS Organisation

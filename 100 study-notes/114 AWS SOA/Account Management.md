@@ -1,6 +1,6 @@
 ---
 created: 2023-03-06 11:03
-updated: 2023-03-16 08:40
+updated: 2023-03-18 08:54
 ---
 ---
 **Links**: [[114 AWS SOA Index]]
@@ -78,3 +78,6 @@ updated: 2023-03-16 08:40
 > Cost Explorer.
 > ---
 > Cost Allocation Tags are **NOT a tool**.
+
+> [!question]- A company manages several applications running across multiple AWS Regions. The applications use Amazon *EC2 On-Demand instances* and AWS *Lambda* functions. The SysOps team must *optimize the cost of running the workloads*. The overall consumption of compute resources is stable. Which approach should the SysOps team use to optimize costs?
+> Purchase *Compute Savings Plans* based recommendations in Cost Explorer.

@@ -1,6 +1,6 @@
 ---
 created: 2023-03-06 14:09
-updated: 2023-03-07 14:16
+updated: 2023-03-18 08:25
 ---
 ---
 **Links**: [[114 AWS SOA Index]]
@@ -24,11 +24,14 @@ updated: 2023-03-07 14:16
 - Access policy is similar to S3 resource based policy.
 - **IP-based Policies**
 	- **Resource-based policies** used to restrict access to an ES domain to IP address(es) or CIDR blocks
-	- Allows unsigned requests to an ES domain (e.g., curl, Kibana, etc)
+	- Allows unsigned requests to an *ES domain* (e.g., curl, Kibana, etc)
 - 2 different ways of accessing ES:
 	- We can use *EC2 instances in a private subnet* and *sign the requests with sigV4*.
 	- We can create *instances in the public subnet* and use it as a *proxy combined with IP based policies* for accessing ES.
 	- ![[attachments/Pasted image 20230307140857.png]] 
+- When we *create an ES domain*, we specify whether it should have a *public endpoint* or *reside within a private subnet in a VPC*. 
+	- Once created, **we CANNOT switch from one ES domain to the other**. 
+	- Instead, you *must create a new domain* and either manually reindex or *migrate your data*.
 
 ### Kibana Authentication
 - Kibana *DOESN'T natively support lAM users and roles*

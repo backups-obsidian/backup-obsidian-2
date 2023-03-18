@@ -1,6 +1,6 @@
 ---
 created: 2022-04-18 20:21
-updated: 2023-03-07 08:26
+updated: 2023-03-18 09:04
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -53,6 +53,8 @@ updated: 2023-03-07 08:26
 	- ![[attachments/Pasted image 20220418205329.png]]
 	- ![[attachments/Pasted image 20220418205355.png]]
 - For using this the **IDP** (Identity provider) must be **compatible with SAML**.
+
+> [!note]- If we want to to redirect the user to the management console then we need to use SAML assertion with SSO endpoint as shown in diagram 1.
 
 ### Custom Identity broker application
 - IDP **not compatible with SAML**.
