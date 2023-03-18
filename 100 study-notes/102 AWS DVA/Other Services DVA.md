@@ -1,6 +1,6 @@
 ---
 created: 2022-05-30 14:40
-updated: 2023-03-10 15:43
+updated: 2023-03-18 08:22
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -77,6 +77,8 @@ updated: 2023-03-10 15:43
 	- *Elastic Load Balancers*
 	- *CloudFront Distributions*
 	- APIs on *API Gateway*
+- A *public certificate* is used for an *internet-facing application*.
+- **DNS validation** should be used when *automatic renewal* is required.
 
 ### Difference between ACM and IAM for certificates
 - *AWS Certificate Manager* (ACM) is the *preferred tool* to provision, manage, and deploy server certificates.

@@ -45,7 +45,7 @@
               "type": "markdown",
               "state": {
                 "file": "100 study-notes/116 CSS/116 CSS Index.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               },
@@ -58,8 +58,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 study-notes/116 CSS/CSS - Position.md",
-                "mode": "preview",
+                "file": "100 study-notes/116 CSS/CSS - Flexbox.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "path:soa \"service\"",
+                "query": "path:saa \"AssumeRoleWithSAML\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -120,8 +120,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -142,7 +141,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/116 CSS/CSS - Position.md",
+                "file": "100 study-notes/116 CSS/CSS - Flexbox.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/116 CSS/CSS - Position.md"
+                "file": "100 study-notes/116 CSS/CSS - Flexbox.md"
               }
             }
           },
@@ -169,7 +168,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/116 CSS/CSS - Position.md",
+                "file": "100 study-notes/116 CSS/CSS - Flexbox.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -237,15 +236,15 @@
   },
   "active": "952f0b8f336f07f5",
   "lastOpenFiles": [
-    "100 study-notes/116 CSS/116 CSS Index.md",
-    "100 study-notes/116 CSS/CSS - Position.md",
-    "100 study-notes/116 CSS/CSS - Box Model (Incomplete).md",
-    "100 study-notes/116 CSS/CSS - Colors.md",
     "100 study-notes/116 CSS/CSS - Width & Height.md",
-    "100 study-notes/116 CSS/CSS - Specificity.md",
-    "100 study-notes/116 CSS/CSS - Selectors, Properties & Values.md",
-    "100 study-notes/116 CSS/CSS - Introduction.md",
-    "100 study-notes/114 AWS SOA/EC2 Troubleshooting.md",
-    "100 study-notes/114 AWS SOA/114 AWS SOA Index.md"
+    "100 study-notes/116 CSS/116 CSS Index.md",
+    "100 study-notes/114 AWS SOA/SOA Extra Notes.md",
+    "100 study-notes/116 CSS/CSS - Flexbox.md",
+    "100 study-notes/116 CSS/CSS - Box Model.md",
+    "100 study-notes/102 AWS DVA/CloudFormation Advanced.md",
+    "100 study-notes/114 AWS SOA/114 AWS SOA Index.md",
+    "100 study-notes/101 AWS SAA/STS & Identity Federation.md",
+    "100 study-notes/101 AWS SAA/101 AWS SAA Index.md",
+    "100 study-notes/101 AWS SAA/Miscellaneous.md"
   ]
 }

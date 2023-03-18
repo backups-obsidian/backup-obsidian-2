@@ -1,6 +1,6 @@
 ---
 created: 2023-03-17 11:43
-updated: 2023-03-17 12:35
+updated: 2023-03-18 10:23
 ---
 ---
 **Links**: [[116 CSS Index]]
@@ -64,7 +64,7 @@ updated: 2023-03-17 12:35
 }
 ```
 
-- `%`: defines the width with respect to the parent element.
+- `%`: defines the width **with respect to the parent element**.
 	- For example: `.bar { width: 50% }` means element with the class of bar is always 50% of the parent element.
 
 > [!note] `em`, `rem` and `%` are useful for responsive web design.

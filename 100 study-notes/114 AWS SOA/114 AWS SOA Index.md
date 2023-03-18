@@ -1,6 +1,6 @@
 ---
 created: 2023-03-01 15:32
-updated: 2023-03-13 09:26
+updated: 2023-03-18 08:20
 ---
 ---
 **Links**: [[../100 home | 100 Home]]
@@ -178,6 +178,9 @@ updated: 2023-03-13 09:26
 
 ## Extra Notes
 [[SOA Extra Notes]]
+
+## Maybe
+[[../101 AWS SAA/Global Accelerator | Global Accelerator]]
 
 ## Resources
 - [AWS Certified Sysops Administrator - Associate Certification (amazon.com)](https://aws.amazon.com/certification/certified-sysops-admin-associate/)

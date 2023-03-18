@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2023-03-16 08:28
+updated: 2023-03-18 08:28
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -69,6 +69,8 @@ updated: 2023-03-16 08:28
 		- Share the encrypted snapshot
 		- After decrypting the snapshot with the shared key (in target) create a copy of the Snapshot and encrypt it with a different KMS Key in the target account.
 		- Create a volume from the snapshot.
+
+> [!note] You *CANT share a snapshot* that's encrypted using the **default AWS KMS** encryption key.
 
 ### KMS Key Policies
 - These are **resource based policies** similar to bucket policies in S3. The *main difference is that we cannot control access without them*. 

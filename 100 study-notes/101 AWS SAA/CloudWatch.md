@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2023-03-11 09:42
+updated: 2023-03-18 08:47
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -40,8 +40,9 @@ updated: 2023-03-11 09:42
 - List of things that are **monitored**: 
 	- ***CPU utilisation***: CPU utilisation + **credit usage/balance**
 	- *Network utilisation*: Network In/Out
-	- *Disk Reads/Writes*: Only for *instance store*.
-		- If we have an EBS volume then the disk reads and writes will be 0 (will not be populated) in the graph.
+	- **Disk Reads/Writes**: Only for **instance store**.
+		- *If we have an EBS volume then the disk reads and writes will be 0 (will not be populated) in the graph*.
+	- *Volume Reads/Writes*: For **EBS volume**.
 	- *Status checks*
 		- **Instance status**: check the *EC2 VM*
 		- **System status**: check the *underlying hardware*

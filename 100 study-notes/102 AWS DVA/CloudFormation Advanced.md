@@ -1,6 +1,6 @@
 ---
 created: 2022-05-18 20:06
-updated: 2023-03-14 13:47
+updated: 2023-03-18 09:06
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -28,6 +28,10 @@ updated: 2023-03-14 13:47
 - Administrator account to create StackSets
 - *Trusted accounts* to create, update, delete stack instances from StackSets
 - When you *update a stack set*, **all associated stack instances are updated** throughout all accounts and regions.
+- By default, *updating a stack set updates all stack instances*. 
+	- If you have 20 accounts each in two regions, you will have 40 stack instances, and all will be updated when you update the stack set.
+- For stack sets with many stack instances, AWS recommends that to test the updated version of a template, you selectively update the stack instances in a few test accounts before updating all stack instances.
+	- *To get more granular control over updating individual stacks within your stack set, plan to **create multiple** stack sets*.
 
 > [!important] Go for StackSets if you see *updating multiple stacks* in *multiple regions* or *multiple accounts*.
 

@@ -1,6 +1,6 @@
 ---
 created: 2023-03-02 09:09
-updated: 2023-03-13 09:13
+updated: 2023-03-18 08:58
 ---
 ---
 **Links**: [[114 AWS SOA Index]]
@@ -13,7 +13,7 @@ updated: 2023-03-13 09:13
 - Example: If you run on-demand (A, C, D, H, I, M, R, T, Z) instance types you’ll have 64 vCPUs (default) 
 - **Resolution**: 
 	- Either *launch the instance in a different region* or 
-	- *Request AWS to increase your limit of the region*
+	- We can use *Service Quotas to request an EC2 quota increase*.
 
  > [!note] vCPU-based *limits ONLY apply to* running **On-Demand** instances and **Spot instances**.
 
