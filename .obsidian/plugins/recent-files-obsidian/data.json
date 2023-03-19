@@ -1,6 +1,34 @@
 {
   "recentFiles": [
     {
+      "basename": "CSS - Miscellaneous",
+      "path": "100 study-notes/116 CSS/CSS - Miscellaneous.md"
+    },
+    {
+      "basename": "116 CSS Index",
+      "path": "100 study-notes/116 CSS/116 CSS Index.md"
+    },
+    {
+      "basename": "CSS - Responsive Layouts",
+      "path": "100 study-notes/116 CSS/CSS - Responsive Layouts.md"
+    },
+    {
+      "basename": "CSS - Collapsing Margins",
+      "path": "100 study-notes/116 CSS/CSS - Collapsing Margins.md"
+    },
+    {
+      "basename": "CSS - Position",
+      "path": "100 study-notes/116 CSS/CSS - Position.md"
+    },
+    {
+      "basename": "CSS - Grid",
+      "path": "100 study-notes/116 CSS/CSS - Grid.md"
+    },
+    {
+      "basename": "EC2 AMI",
+      "path": "100 study-notes/101 AWS SAA/EC2 AMI.md"
+    },
+    {
       "basename": "CSS - Flexbox",
       "path": "100 study-notes/116 CSS/CSS - Flexbox.md"
     },
@@ -9,8 +37,12 @@
       "path": "100 study-notes/116 CSS/CSS - Width & Height.md"
     },
     {
-      "basename": "116 CSS Index",
-      "path": "100 study-notes/116 CSS/116 CSS Index.md"
+      "basename": "114 AWS SOA Index",
+      "path": "100 study-notes/114 AWS SOA/114 AWS SOA Index.md"
+    },
+    {
+      "basename": "AWS Snow",
+      "path": "100 study-notes/101 AWS SAA/AWS Snow.md"
     },
     {
       "basename": "SOA Extra Notes",
@@ -23,10 +55,6 @@
     {
       "basename": "CloudFormation Advanced",
       "path": "100 study-notes/102 AWS DVA/CloudFormation Advanced.md"
-    },
-    {
-      "basename": "114 AWS SOA Index",
-      "path": "100 study-notes/114 AWS SOA/114 AWS SOA Index.md"
     },
     {
       "basename": "STS & Identity Federation",
@@ -101,10 +129,6 @@
       "path": "100 study-notes/101 AWS SAA/Global Accelerator.md"
     },
     {
-      "basename": "CSS - Position",
-      "path": "100 study-notes/116 CSS/CSS - Position.md"
-    },
-    {
       "basename": "CSS - Colors",
       "path": "100 study-notes/116 CSS/CSS - Colors.md"
     },
@@ -175,30 +199,6 @@
     {
       "basename": "CloudFormation SOA",
       "path": "100 study-notes/114 AWS SOA/CloudFormation SOA.md"
-    },
-    {
-      "basename": "RDS Read Replica & Multi AZ",
-      "path": "100 study-notes/101 AWS SAA/RDS Read Replica & Multi AZ.md"
-    },
-    {
-      "basename": "S3 Storage Classes",
-      "path": "100 study-notes/101 AWS SAA/S3 Storage Classes.md"
-    },
-    {
-      "basename": "React - Props",
-      "path": "100 study-notes/115 React/React - Props.md"
-    },
-    {
-      "basename": "React - Introduction & JSX",
-      "path": "100 study-notes/115 React/React - Introduction & JSX.md"
-    },
-    {
-      "basename": "React - Components",
-      "path": "100 study-notes/115 React/React - Components.md"
-    },
-    {
-      "basename": "VPC Internet Access",
-      "path": "100 study-notes/101 AWS SAA/VPC Internet Access.md"
     }
   ],
   "omittedPaths": [],

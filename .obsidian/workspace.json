@@ -58,8 +58,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 study-notes/116 CSS/CSS - Flexbox.md",
-                "mode": "source",
+                "file": "100 study-notes/116 CSS/CSS - Miscellaneous.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/116 CSS/CSS - Flexbox.md",
+                "file": "100 study-notes/116 CSS/CSS - Miscellaneous.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/116 CSS/CSS - Flexbox.md"
+                "file": "100 study-notes/116 CSS/CSS - Miscellaneous.md"
               }
             }
           },
@@ -168,7 +168,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/116 CSS/CSS - Flexbox.md",
+                "file": "100 study-notes/116 CSS/CSS - Miscellaneous.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -236,15 +236,15 @@
   },
   "active": "952f0b8f336f07f5",
   "lastOpenFiles": [
-    "100 study-notes/116 CSS/CSS - Width & Height.md",
     "100 study-notes/116 CSS/116 CSS Index.md",
-    "100 study-notes/114 AWS SOA/SOA Extra Notes.md",
+    "100 study-notes/116 CSS/CSS - Responsive Layouts.md",
+    "100 study-notes/116 CSS/CSS - Miscellaneous.md",
+    "100 study-notes/116 CSS/CSS - Collapsing Margins.md",
+    "100 study-notes/116 CSS/CSS - Position.md",
+    "100 study-notes/116 CSS/CSS - Grid.md",
+    "100 study-notes/101 AWS SAA/EC2 AMI.md",
     "100 study-notes/116 CSS/CSS - Flexbox.md",
-    "100 study-notes/116 CSS/CSS - Box Model.md",
-    "100 study-notes/102 AWS DVA/CloudFormation Advanced.md",
-    "100 study-notes/114 AWS SOA/114 AWS SOA Index.md",
-    "100 study-notes/101 AWS SAA/STS & Identity Federation.md",
-    "100 study-notes/101 AWS SAA/101 AWS SAA Index.md",
-    "100 study-notes/101 AWS SAA/Miscellaneous.md"
+    "100 study-notes/116 CSS/CSS - Width & Height.md",
+    "100 study-notes/114 AWS SOA/114 AWS SOA Index.md"
   ]
 }

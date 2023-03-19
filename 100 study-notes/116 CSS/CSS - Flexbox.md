@@ -1,6 +1,6 @@
 ---
 created: 2023-03-18 09:38
-updated: 2023-03-18 15:13
+updated: 2023-03-19 11:00
 ---
 ---
 **Links**: [[116 CSS Index]]
@@ -40,7 +40,7 @@ updated: 2023-03-18 15:13
 - To use a flexbox layout the container needs to have a `display: flex`
 
 > [!important]- When we do `display: flex` the children block elements actually become flex items. They are no longer block elements.
-> Flex items line up horizontally by default.
+> All the flex items *line up horizontally by default* even if it means there can be overflow (horizontal scrollbar) for small screen sizes.
 
 - The *default behaviour of flex item* is to be **as small as possible while maintaining everything on one line**.
 
@@ -55,6 +55,10 @@ updated: 2023-03-18 15:13
 	- We will mostly use the default `flex-direction` i.e. row.
 - `justify-content` controls the positioning of elements along the main axis.
 	- The default is `justify-content: flex-start`
+ 
+> [!note]- `justify-content` will only change the position of flex elements if there is space to do so. 
+> So if any of the elements have `flex: 1` then there would be no space (since `flex-grow: 1`) and `justify-content` would be useless.
+
 - `flex-direction`, `justify-content` and `display: flex` are all **properties of the flex container**.
 - If we want to position an individual item to the right we can use `margin-left: auto` for that *flex item*.
 
@@ -89,7 +93,7 @@ updated: 2023-03-18 15:13
 	- In general we only specify it for one of the items since we don't want all the items to grow and shrink with the container.
 	- Like in a navbar we only want the search to grow.
 - When we give a `flex: 1` to any of the flex items then it takes rest of the space push other elements to the end.
-- `flex: 1` is a short hand for `flex-grow: 1`, `flex-shrink: 1` and `flex-basis: 0`
+- `flex: 1` is a short hand for `flex-grow: 1`, `flex-shrink: 1` and `flex-basis: 0`.
 
 > [!note]- If we want all the elements to be equally spaced then all the flex items should have `flex: 1`
 >```css
