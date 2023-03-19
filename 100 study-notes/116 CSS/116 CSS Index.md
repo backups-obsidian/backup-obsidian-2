@@ -1,6 +1,6 @@
 ---
 created: 2023-03-16 18:18
-updated: 2023-03-18 09:38
+updated: 2023-03-19 15:36
 ---
 ---
 **Links**: [[116 CSS Index]]
@@ -23,24 +23,8 @@ updated: 2023-03-18 09:38
 
 [[CSS - Position]]
 [[CSS - Flexbox]]
+[[CSS - Grid]]
+[[CSS - Collapsing Margins]]
+[[CSS - Responsive Layouts]]
 
-- Different ways of hiding the element:
-	- `display: none;`: 
-		- Removes it from the document.
-		- It affects the placement of other elements.
-	- `visibility: hidden;`: 
-		- Simply makes it invisible.
-		- It *DOES NOT affect the placement of other elements*.
-
-
-- We can use pseudo classes to change the behaviour of the element on click, hover etc.
-
-- Example of pseudo classes with pseudo elements
-	- On hover add an arrow before the content of the anchor tag.
-```css
-ul a:hover::before {
-	content: "⇨ ";
-	color: red;
-	margin-right: 20px;
-}
-```
+[[CSS - Miscellaneous]]
