@@ -1,6 +1,6 @@
 ---
 created: 2023-03-03 09:25
-updated: 2023-03-16 08:30
+updated: 2023-03-20 09:01
 ---
 ---
 **Links**: [[114 AWS SOA Index]]
@@ -84,3 +84,9 @@ updated: 2023-03-16 08:30
 	- We have all the same components (Principal, Effect, Action, Resource) as present in the IAM policy.
 
 - Generally if a CloudFormation template gives an *error when launching resources in another region* it is mainly due to the fact that the *specific AMIs are not present in that region*.
+
+> [!question]- A multi-national company extensively uses AWS CloudFormation to model and provision its AWS resources. A human error had earlier deleted a critical service from the CloudFormation stack that resulted in business loss. *The company is looking at a quick and effective solution to lock the critical resources from any updates or deletes*. As a SysOps Administrator, what will you suggest to address this requirement?
+> Use **Stack policies** to protect critical stack resources from unintentional updates.
+
+- If there are **permission issues** then the stack *WONT be created at all*.
+	- It *WONT be in a partially created state*.

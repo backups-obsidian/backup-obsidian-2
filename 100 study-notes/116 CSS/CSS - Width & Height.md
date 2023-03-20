@@ -1,22 +1,11 @@
 ---
 created: 2023-03-17 11:43
-updated: 2023-03-19 18:07
+updated: 2023-03-20 11:15
 ---
 ---
 **Links**: [[116 CSS Index]]
 
 ---
-## Inline vs Block elements in HTML
-- Inline elements are those that are used *within text* and **DO NOT start on a new line**. 
-- Examples include `<a>`, `<b>`, `<strong>`, `<em>`, `<span>`, `<img>`, and `<input>`. 
-- **Inline elements only take up the space they need to display their content** and can be placed within other inline elements or block-level elements.
-- Block-level elements, on the other hand, **start on a new line** and **take up the full width of their parent element by default**. 
-- Examples of block-level elements include `<p>`, `<div>`, `<ul>`, `<ol>`, `<li>`, `<h1>` through `<h6>`, and `<table>`. 
-- Block-level elements can contain both inline and other block-level elements.
-
-> [!note]- Display behaviour of both the elements can be changed using CSS. 
-> For example, *a block-level element can be made to display inline or vice versa*.
-
 ## Width & Height
 - Use to change the width and height of the element. 
 - **By default width and height can only be applied to elements that are NOT inline elements**.

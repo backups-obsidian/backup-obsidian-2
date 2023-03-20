@@ -1,6 +1,6 @@
 ---
 created: 2023-03-19 18:47
-updated: 2023-03-19 20:02
+updated: 2023-03-20 11:05
 ---
 ---
 **Links**: [[116 CSS Index]]
@@ -45,9 +45,9 @@ updated: 2023-03-19 20:02
 		- Using `em` for padding on buttons. 
 			- So **if we change the font size of the button then padding will grow along with the font size**.
 	- *Media queries*: `em`
-
 - Don't use pixels. 
 	- `em`, `rem` and `%` should be more than enough.
-- 
+- If you want to use inline elements but want them to occupy the full width of the parent, nest them in a div block.
+	- An example would be using anchor tag as a button but I want it to occupy the full width of the parent element. Now since anchor tag is an inline element, I need to wrap it in a div block.
 
  

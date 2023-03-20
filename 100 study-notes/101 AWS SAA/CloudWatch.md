@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2023-03-18 08:47
+updated: 2023-03-20 08:53
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -156,6 +156,9 @@ updated: 2023-03-18 08:47
 	- `exe`: *process name* that match string you specify (RegEx)
 	- `pattern`: command lines used to start the processes (RegEx)
 - Metrics collected by `procstat` plugin **begins with `procstat` pref** (e.g., procstat_cpu_time, procstat_cpu_usage, etc)
+- You can retrieve custom metrics from your applications or services using the **StatsD** and **collectd** protocols. 
+	- StatsD is supported on *both Linux servers* and servers running *Windows Server*.
+	- *collectd is supported only on Linux servers*.
 - You can set up the *CloudWatch agent to use multiple configuration files*. 
 	- For example, you can use a *common configuration* file that collects a set of metrics and logs that you always want to collect from all servers in your infrastructure. 
 	- You can then use *additional configuration files* that collect metrics from certain applications or in *certain situations*.
@@ -169,13 +172,11 @@ updated: 2023-03-18 08:47
 	- **Evaluation Period**: is the *number of the most recent periods*, or data points, to evaluate when determining alarm state.
 	- **Datapoints to Alarm**: is the *number of data points within the evaluation period* that must be breaching to cause the alarm to go to the `ALARM` state. 
 - Triggering in general *Evaluation period* and *datapoints to alarm*.
- 
 - They are used to **trigger notification from any metric**.
 - Alarm has **3** states:
     - **OK**: not triggered
     - **Insufficient data**
     - **Alarm**: threshold has been breached and the alarm will be triggered.
-
 - Period is the **length of time in seconds to evaluate the metric.** 
 	- It can be **high resolution** custom metric: **10 sec**, **30 sec** or multiples of **60 sec**
 - The alarms have **3 main targets**. 
@@ -185,9 +186,11 @@ updated: 2023-03-18 08:47
 			- *Instance store will not be recovered*.
 	- *Auto scaling* : Trigger Auto Scaling Action
 	- *SNS* : Send notification to SNS (from which *you can do pretty much anything*)  
-
 - We can *test the alarm using the CLI*. This is useful if we want to trigger an alarm before its threshold to see if it results in proper actions.
 	- Use `set-alarm-state` in CLI
+
+> [!question]- A junior developer working on configuring CloudWatch alarms is unable to figure out why a particular CloudWatch Alarm is *constantly in the ALARM state*. As a SysOps Administrator, which of these options would you suggest as a fix for the issue?
+> **Alarms continue to evaluate metrics against the configured threshold, even after they have already triggered**. You can adjust the alarm threshold if you do not want it to be in ALARM state
 
 ### Composite Alarms (SOA)
 - CloudWatch *Alarms are on a single metric*.

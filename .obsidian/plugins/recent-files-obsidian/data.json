@@ -1,8 +1,124 @@
 {
   "recentFiles": [
     {
+      "basename": "CSS - Display",
+      "path": "100 study-notes/116 CSS/CSS - Display.md"
+    },
+    {
       "basename": "116 CSS Index",
       "path": "100 study-notes/116 CSS/116 CSS Index.md"
+    },
+    {
+      "basename": "CSS - Miscellaneous",
+      "path": "100 study-notes/116 CSS/CSS - Miscellaneous.md"
+    },
+    {
+      "basename": "CSS - Width & Height",
+      "path": "100 study-notes/116 CSS/CSS - Width & Height.md"
+    },
+    {
+      "basename": "CSS - Introduction",
+      "path": "100 study-notes/116 CSS/CSS - Introduction.md"
+    },
+    {
+      "basename": "CSS - Box Model",
+      "path": "100 study-notes/116 CSS/CSS - Box Model.md"
+    },
+    {
+      "basename": "CSS - Tips for writing better CSS",
+      "path": "100 study-notes/116 CSS/CSS - Tips for writing better CSS.md"
+    },
+    {
+      "basename": "CSS - Tailwind CSS",
+      "path": "100 study-notes/116 CSS/CSS - Tailwind CSS.md"
+    },
+    {
+      "basename": "CSS - Responsive Layouts",
+      "path": "100 study-notes/116 CSS/CSS - Responsive Layouts.md"
+    },
+    {
+      "basename": "EC2 - SOA",
+      "path": "100 study-notes/114 AWS SOA/EC2 - SOA.md"
+    },
+    {
+      "basename": "114 AWS SOA Index",
+      "path": "100 study-notes/114 AWS SOA/114 AWS SOA Index.md"
+    },
+    {
+      "basename": "AMI - SOA",
+      "path": "100 study-notes/114 AWS SOA/AMI - SOA.md"
+    },
+    {
+      "basename": "EC2 AMI",
+      "path": "100 study-notes/101 AWS SAA/EC2 AMI.md"
+    },
+    {
+      "basename": "SOA Extra Notes",
+      "path": "100 study-notes/114 AWS SOA/SOA Extra Notes.md"
+    },
+    {
+      "basename": "S3 Miscellaneous",
+      "path": "100 study-notes/101 AWS SAA/S3 Miscellaneous.md"
+    },
+    {
+      "basename": "Aurora SOA",
+      "path": "100 study-notes/114 AWS SOA/Aurora SOA.md"
+    },
+    {
+      "basename": "Aurora",
+      "path": "100 study-notes/101 AWS SAA/Aurora.md"
+    },
+    {
+      "basename": "EBS SOA",
+      "path": "100 study-notes/114 AWS SOA/EBS SOA.md"
+    },
+    {
+      "basename": "ELB",
+      "path": "100 study-notes/101 AWS SAA/ELB.md"
+    },
+    {
+      "basename": "ASG",
+      "path": "100 study-notes/101 AWS SAA/ASG.md"
+    },
+    {
+      "basename": "ELB SOA",
+      "path": "100 study-notes/114 AWS SOA/ELB SOA.md"
+    },
+    {
+      "basename": "CloudFormation SOA",
+      "path": "100 study-notes/114 AWS SOA/CloudFormation SOA.md"
+    },
+    {
+      "basename": "CloudWatch",
+      "path": "100 study-notes/101 AWS SAA/CloudWatch.md"
+    },
+    {
+      "basename": "CloudFront SOA",
+      "path": "100 study-notes/114 AWS SOA/CloudFront SOA.md"
+    },
+    {
+      "basename": "CloudFront",
+      "path": "100 study-notes/101 AWS SAA/CloudFront.md"
+    },
+    {
+      "basename": "CloudFormation Advanced",
+      "path": "100 study-notes/102 AWS DVA/CloudFormation Advanced.md"
+    },
+    {
+      "basename": "S3",
+      "path": "100 study-notes/101 AWS SAA/S3.md"
+    },
+    {
+      "basename": "EC2 Instance Purchasing Options",
+      "path": "100 study-notes/101 AWS SAA/EC2 Instance Purchasing Options.md"
+    },
+    {
+      "basename": "EC2 Status Checks",
+      "path": "100 study-notes/114 AWS SOA/EC2 Status Checks.md"
+    },
+    {
+      "basename": "RDS SOA",
+      "path": "100 study-notes/114 AWS SOA/RDS SOA.md"
     },
     {
       "basename": "CSS - Media Queries",
@@ -17,18 +133,6 @@
       "path": "100 study-notes/116 CSS/CSS - Grid.md"
     },
     {
-      "basename": "CSS - Tips for writing better CSS",
-      "path": "100 study-notes/116 CSS/CSS - Tips for writing better CSS.md"
-    },
-    {
-      "basename": "CSS - Introduction",
-      "path": "100 study-notes/116 CSS/CSS - Introduction.md"
-    },
-    {
-      "basename": "CSS - Miscellaneous",
-      "path": "100 study-notes/116 CSS/CSS - Miscellaneous.md"
-    },
-    {
       "basename": "CSS - Selectors, Properties & Values",
       "path": "100 study-notes/116 CSS/CSS - Selectors, Properties & Values.md"
     },
@@ -37,16 +141,8 @@
       "path": "100 study-notes/116 CSS/CSS - Specificity.md"
     },
     {
-      "basename": "CSS - Width & Height",
-      "path": "100 study-notes/116 CSS/CSS - Width & Height.md"
-    },
-    {
       "basename": "CSS - Flexbox",
       "path": "100 study-notes/116 CSS/CSS - Flexbox.md"
-    },
-    {
-      "basename": "CSS - Responsive Layouts",
-      "path": "100 study-notes/116 CSS/CSS - Responsive Layouts.md"
     },
     {
       "basename": "CSS - Collapsing Margins",
@@ -57,28 +153,8 @@
       "path": "100 study-notes/116 CSS/CSS - Position.md"
     },
     {
-      "basename": "EC2 AMI",
-      "path": "100 study-notes/101 AWS SAA/EC2 AMI.md"
-    },
-    {
-      "basename": "114 AWS SOA Index",
-      "path": "100 study-notes/114 AWS SOA/114 AWS SOA Index.md"
-    },
-    {
       "basename": "AWS Snow",
       "path": "100 study-notes/101 AWS SAA/AWS Snow.md"
-    },
-    {
-      "basename": "SOA Extra Notes",
-      "path": "100 study-notes/114 AWS SOA/SOA Extra Notes.md"
-    },
-    {
-      "basename": "CSS - Box Model",
-      "path": "100 study-notes/116 CSS/CSS - Box Model.md"
-    },
-    {
-      "basename": "CloudFormation Advanced",
-      "path": "100 study-notes/102 AWS DVA/CloudFormation Advanced.md"
     },
     {
       "basename": "STS & Identity Federation",
@@ -113,20 +189,8 @@
       "path": "100 study-notes/101 AWS SAA/Organisations.md"
     },
     {
-      "basename": "CloudWatch",
-      "path": "100 study-notes/101 AWS SAA/CloudWatch.md"
-    },
-    {
       "basename": "AWS Budgets",
       "path": "100 study-notes/114 AWS SOA/AWS Budgets.md"
-    },
-    {
-      "basename": "CloudFront SOA",
-      "path": "100 study-notes/114 AWS SOA/CloudFront SOA.md"
-    },
-    {
-      "basename": "EBS SOA",
-      "path": "100 study-notes/114 AWS SOA/EBS SOA.md"
     },
     {
       "basename": "EC2 Burstable Instances",
@@ -135,70 +199,6 @@
     {
       "basename": "KMS",
       "path": "100 study-notes/101 AWS SAA/KMS.md"
-    },
-    {
-      "basename": "EC2 EBS",
-      "path": "100 study-notes/101 AWS SAA/EC2 EBS.md"
-    },
-    {
-      "basename": "Other Services SOA",
-      "path": "100 study-notes/114 AWS SOA/Other Services SOA.md"
-    },
-    {
-      "basename": "Other Services DVA",
-      "path": "100 study-notes/102 AWS DVA/Other Services DVA.md"
-    },
-    {
-      "basename": "Global Accelerator",
-      "path": "100 study-notes/101 AWS SAA/Global Accelerator.md"
-    },
-    {
-      "basename": "CSS - Colors",
-      "path": "100 study-notes/116 CSS/CSS - Colors.md"
-    },
-    {
-      "basename": "115 React Index",
-      "path": "100 study-notes/115 React/115 React Index.md"
-    },
-    {
-      "basename": "React - Side Effects (useEffect)",
-      "path": "100 study-notes/115 React/React - Side Effects (useEffect).md"
-    },
-    {
-      "basename": "TODO",
-      "path": "TODO.md"
-    },
-    {
-      "basename": "React - State (useState)",
-      "path": "100 study-notes/115 React/React - State (useState).md"
-    },
-    {
-      "basename": "React - Forms",
-      "path": "100 study-notes/115 React/React - Forms.md"
-    },
-    {
-      "basename": "React - Conditional Rendering",
-      "path": "100 study-notes/115 React/React - Conditional Rendering.md"
-    },
-    {
-      "basename": "React - Event Listeners",
-      "path": "100 study-notes/115 React/React - Event Listeners.md"
-    },
-    {
-      "basename": "React - Arrays",
-      "path": "100 study-notes/115 React/React - Arrays.md"
-    },
-    {
-      "basename": "React - Styling",
-      "path": "100 study-notes/115 React/React - Styling.md"
-    },
-    {
-      "basename": "AWS Service Catalog",
-      "path": "100 study-notes/114 AWS SOA/AWS Service Catalog.md"
-    },
-    {
-      "basename": "VPC Peering and Endpoints",
-      "path": "100 study-notes/101 AWS SAA/VPC Peering and Endpoints.md"
     }
   ],
   "omittedPaths": [],

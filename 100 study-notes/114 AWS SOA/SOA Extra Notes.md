@@ -1,6 +1,6 @@
 ---
 created: 2023-03-11 08:28
-updated: 2023-03-18 09:04
+updated: 2023-03-20 09:08
 ---
 ---
 **Links**: [[114 AWS SOA Index]]
@@ -51,7 +51,6 @@ updated: 2023-03-18 09:04
 - There are only 2 geolocations:
 	- Route53 Geolocation
 	- CloudFront Georestriction
-
 - *RDS* and *ElastiCache* offer *maintenance windows*.
 
 > [!question]- Each IT staff member in a company uses a unique IAM user account. Permissions are applied to users using IAM policies and IAM groups. The security team has requested that staff members should log in with their on-premises Active Directory user accounts instead of their IAM user accounts when accessing the AWS Management Console. Which solution can a SysOps Administrator implement to the requirements of the security team?
@@ -71,6 +70,29 @@ updated: 2023-03-18 09:04
 > Configure the client to post a *SAML assertion and use an AWS SSO endpoint*.
 > ---
 > This workflow opens the AWS Management Console on behalf of the user. This requires the use of the AWS SSO endpoint instead of directly calling the AssumeRoleWithSAML API.
+
+- Directory services SG red flag no need to worry.
+- If your AMI contains a CloudWatch agent, it’s automatically installed on EC2 instances when you create an EC2 Auto Scaling group.
+- When *two instances communicate using public IP addresses*, the following three scenarios are possible: 
+	- Traffic between two EC2 instances in the **same AWS Region** stays **within the AWS network**, even when it goes over **public IP addresses**.
+	- Traffic between EC2 instances in **different AWS Regions** stays **within** the AWS network **if** there is an **Inter-Region VPC Peering connection** between the VPCs where the two instances reside.
+	- Traffic between EC2 instances in **different AWS Regions** where there is **no Inter-Region VPC Peering connection** between the VPCs where these instances reside, is **NOT guaranteed to stay within the AWS network**.
+- It *ISN'T possible to restore or recover a deleted or deregistered AMI*.
+
+> [!question]- A video streaming app uses Amazon Kinesis Data Streams for streaming data. The systems administration team needs to be informed of the shard capacity when it is reaching its limits. How will you configure this requirement?
+> **Monitor Trusted Advisor** service check results with Amazon *CloudWatch Events* - AWS Trusted Advisor checks for service usage that is more than 80% of the service limit.
+
+- For Lambda function to be configured as a target to EventBridge we have to configure resource based policies.
+
+> [!question]- A retail company stores its business-critical files on an Amazon S3 bucket that is *also configured as a website endpoint*. The company needs a robust configuration that will allow access only through CloudFront. No user or team member should be able to access the files directly from Amazon S3 URL. As a SysOps Administrator, which of the following would you suggest to address this requirement?
+> Setup the Amazon S3 bucket as a **custom origin** with CloudFront. Restrict the access to content by setting up custom headers.
+> ---
+> - If we use an *Amazon S3 bucket configured as a website endpoint, you must set it up with CloudFront as a custom origin*. 
+> - You **CANT use the origin access identity feature**. 
+> - However, you can restrict access to content on a custom origin by setting up custom headers and configuring your origin to require them.
+
+- If all instances in an Auto Scaling group are protected from *termination during scale in*, and a scale-in event occurs, its *desired capacity is decremented*. 
+	- However, the Auto Scaling group *can't terminate the required number of instances* until their instance scale-in protection settings are disabled.
 
 ## Interesting Ideas
 - To automatically shut down unused instances: create an Amazon CloudWatch alarm that monitors the CPUUtilization metric and stops the EC2 instances if the utilization is <5% for a 30-minute period.

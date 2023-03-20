@@ -1,6 +1,6 @@
 ---
 created: 2023-03-05 22:42
-updated: 2023-03-10 10:55
+updated: 2023-03-20 09:07
 ---
 ---
 **Links**: [[114 AWS SOA Index]]
@@ -40,3 +40,7 @@ updated: 2023-03-10 10:55
 
 - `DatabaseConnections`: current number of connections to a DB instance
 - `InsertLatency`: average duration of insert operations
+
+## Miscellaneous
+> [!question]- Consider this scenario - the *primary instance* of an Amazon Aurora cluster is unavailable because of an *outage* that has affected an entire AZ. *The primary instance and all the reader instances are in the same AZ*. As a SysOps Administrator, what action will you take to get the database online?
+> You must *manually create one or more new DB instances in another AZ*.

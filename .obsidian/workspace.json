@@ -58,7 +58,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 study-notes/116 CSS/CSS - Media Queries.md",
+                "file": "100 study-notes/116 CSS/CSS - Display.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -66,7 +66,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -85,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "path:saa \"AssumeRoleWithSAML\"",
+                "query": "path:saa \"unhealthy\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -141,7 +141,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/116 CSS/116 CSS Index.md",
+                "file": "100 study-notes/116 CSS/CSS - Display.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/116 CSS/116 CSS Index.md"
+                "file": "100 study-notes/116 CSS/CSS - Display.md"
               }
             }
           },
@@ -168,7 +168,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/116 CSS/116 CSS Index.md",
+                "file": "100 study-notes/116 CSS/CSS - Display.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -234,17 +234,17 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "abfe8865dbdded4b",
+  "active": "952f0b8f336f07f5",
   "lastOpenFiles": [
-    "100 study-notes/116 CSS/CSS - Media Queries.md",
     "100 study-notes/116 CSS/116 CSS Index.md",
-    "100 study-notes/116 CSS/CSS - Useful Snippets.md",
-    "100 study-notes/116 CSS/CSS - Grid.md",
-    "100 study-notes/116 CSS/CSS - Tips for writing better CSS.md",
-    "100 study-notes/116 CSS/CSS - Introduction.md",
     "100 study-notes/116 CSS/CSS - Miscellaneous.md",
-    "100 study-notes/116 CSS/CSS - Selectors, Properties & Values.md",
-    "100 study-notes/116 CSS/CSS - Specificity.md",
-    "100 study-notes/116 CSS/CSS - Width & Height.md"
+    "100 study-notes/116 CSS/CSS - Display.md",
+    "100 study-notes/116 CSS/CSS - Width & Height.md",
+    "100 study-notes/116 CSS/CSS - Introduction.md",
+    "100 study-notes/116 CSS/CSS - Box Model.md",
+    "100 study-notes/116 CSS/CSS - Tips for writing better CSS.md",
+    "100 study-notes/116 CSS/CSS - Tailwind CSS.md",
+    "100 study-notes/116 CSS/CSS - Responsive Layouts.md",
+    "100 study-notes/116 CSS/CSS - Colors.md"
   ]
 }

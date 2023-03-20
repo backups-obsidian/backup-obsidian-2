@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 10:02
-updated: 2023-03-11 08:59
+updated: 2023-03-20 08:47
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -50,6 +50,7 @@ updated: 2023-03-11 08:59
 > [!note]- CloudFront can be **configured with multiple origins** to serve both static and dynamic content at low latency to global users.
 
 ### S3 Origin
+- S3 origin and CloudFront distribution *can be in different regions*.
 - For the edge location to access the S3 bucket it uses an **OAI (origin access identity)**. 
 	- It is an *IAM role for the CloudFront origin*.
 - OAI makes sure that S3 bucket is *only accessed from CloudFront* and not using its public URL.
