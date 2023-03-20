@@ -1,6 +1,6 @@
 ---
 created: 2023-03-05 17:42
-updated: 2023-03-14 08:55
+updated: 2023-03-20 08:49
 ---
 ---
 **Links**: [[114 AWS SOA Index]]
@@ -30,6 +30,9 @@ updated: 2023-03-14 08:55
 	- That user *doesn't have access* to the underlying bucket *(403)*
 	- The object user is requesting is *not found (404)*
 - *5xx* error codes indicates *Gateway issues*
+- Your CloudFront distribution might send error responses with *HTTP status code 400 Bad Request*, and a message similar to the following: `The authorization header is malformed; the region '<AWS Region>' is wrong; expecting '<AWS Region>'`.
+	- This problem can occur when your *CloudFront distribution's origin is an Amazon S3 bucket* and you have *moved the S3 bucket from one AWS Region to another*. 
+	- To fix this error, *update your CloudFront distribution so that it finds the S3 bucket in the bucket's current AWS Region*.
 
 > [!question]- Users of a web application that is served using Amazon CloudFront have complained about receiving 4XX and 5XX errors. *A SysOps Administrator wants to monitor for elevated error rates in Amazon CloudFront*. Which metric should be monitored?
 > **TotalErrorRate**.

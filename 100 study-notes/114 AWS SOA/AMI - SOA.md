@@ -1,6 +1,6 @@
 ---
 created: 2023-03-02 11:39
-updated: 2023-03-10 08:27
+updated: 2023-03-20 09:15
 ---
 ---
 **Links**: [[114 AWS SOA Index]]
@@ -17,6 +17,17 @@ updated: 2023-03-10 08:27
 	- This won't help you to create an AMI that guarantees file system integrity since you need to reboot the instance
 - To *maintain integrity  with automated backups* you need to provide the reboot parameter while taking images (EventBridge + Lambda + Createlmage API with reboot)
 	- ![[attachments/Pasted image 20230302114332.png]]
+
+## Sharing AMIs
+- **You can only share AMIs that have unencrypted volumes and volumes that are encrypted with a customer-managed CMK**. 
+	-  If you share an AMI with encrypted volumes, *you must also share any CMKs used to encrypt them*.
+- **You do not need to share the Amazon EBS snapshots that an AMI references in order to share the AMI**
+	- *Only the AMI itself needs to be shared*; the *system automatically provides the access to the referenced Amazon EBS snapshots* for the launch.
+- You **CANNOT share an AMI that has volumes that are encrypted with an AWS-managed CMK**.
+- AMIs are a *regional resource*. 
+	- Therefore, *sharing an AMI makes it available in that Region*. 
+	- To make an AMI available in a **different Region**, *copy the AMI to the Region and then share it*. 
+		- **Sharing an AMI from different Regions is NOT available**.
 
 ## Cross Account AMI sharing
 - We can share an AMI with another AWS account.

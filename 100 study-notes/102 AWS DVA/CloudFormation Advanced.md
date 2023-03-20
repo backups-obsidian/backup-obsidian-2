@@ -1,6 +1,6 @@
 ---
 created: 2022-05-18 20:06
-updated: 2023-03-18 09:06
+updated: 2023-03-20 08:45
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -9,6 +9,7 @@ updated: 2023-03-18 09:06
 ## ChangeSets
 - When you **update** a stack, you need *to know what changes* before it happens for greater confidence
 - ChangeSets **won't say if the update will be successful**
+- After you execute a change, AWS CloudFormation *removes all change sets* that are associated with the stack because they aren't applicable to the updated stack.
 
 ![[attachments/Pasted image 20220518200412.png]]
 

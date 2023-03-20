@@ -1,6 +1,6 @@
 ---
 created: 2023-03-03 15:30
-updated: 2023-03-16 09:13
+updated: 2023-03-20 08:50
 ---
 ---
 **Links**: [[114 AWS SOA Index]]
@@ -42,3 +42,12 @@ updated: 2023-03-16 09:13
 
 > [!question]- An Amazon EBS volume has a status of error. What can a SysOps Administrator do to bring the volume back online?
 > *Create a new volume from a recent snapshot*.
+
+> [!question]- A large online business uses multiple Amazon EBS volumes for their storage requirements. According to the company guidelines, the *EBS snapshots have to be taken every few minutes to retain the business-critical data in case of failure*. As a SysOps Administrator, can you suggest an effective way of addressing this requirement?
+> Use *Amazon CloudWatch events* to schedule automated EBS Snapshots.
+> ---
+> There is no such thing as automated EBS snapshots in the EC2 console.
+
+> [!question]- After configuring Amazon EC2 Auto Scaling, a systems administrator had tried to launch the Auto Scaling Group. But, the following launch failure message was displayed - `Client.InternalError: Client error on launch`. What is the cause of this error and how can it be fixed?
+> - This error can be caused when an Auto Scaling group attempts to launch an instance that has an **encrypted EBS volume**, but the service-linked role does not have access to the customer-managed CMK used to encrypt it.
+

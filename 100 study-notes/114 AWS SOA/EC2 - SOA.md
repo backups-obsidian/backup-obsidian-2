@@ -1,6 +1,6 @@
 ---
 created: 2023-03-02 08:40
-updated: 2023-03-14 13:31
+updated: 2023-03-20 09:05
 ---
 ---
 **Links**: [[114 AWS SOA Index]]
@@ -29,3 +29,7 @@ updated: 2023-03-14 13:31
 ## Miscellaneous
 - We can *change instance type* of a running instances ONLY IF they are **EBS backed**.
 	- We first **stop** the instance, **change** the instance type and then **start** the instance.
+	- AWS moves it to a new hardware but the *instance ID remains the same*.
+- If your instance is in an *Auto Scaling group*, the Amazon EC2 Auto Scaling service marks the *stopped instance as unhealthy*, and *may terminate it* and launch a replacement instance.
+	- To prevent this, you can **suspend the scaling processes for the group** while you're resizing your instance.
+

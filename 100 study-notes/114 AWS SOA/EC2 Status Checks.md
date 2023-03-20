@@ -1,6 +1,6 @@
 ---
 created: 2023-03-02 10:56
-updated: 2023-03-14 13:33
+updated: 2023-03-20 08:25
 ---
 ---
 **Links**: [[114 AWS SOA Index]]
@@ -10,6 +10,8 @@ updated: 2023-03-14 13:33
 
 ## EC2 Status Checks
 - **Automated checks** to identify *hardware and software issues*.
+
+> [!note] Status checks are built into Amazon EC2, so they **CANNOT be disabled or deleted**.
 
 ### System Status
 - Problems with the *underlying host*. 

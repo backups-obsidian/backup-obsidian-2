@@ -1,6 +1,6 @@
 ---
 created: 2023-03-05 20:07
-updated: 2023-03-11 09:53
+updated: 2023-03-20 08:24
 ---
 ---
 **Links**: [[114 AWS SOA Index]]
@@ -68,3 +68,10 @@ updated: 2023-03-11 09:53
 	- *Hosts*: find the server that is using the most our DB
 	- *Users*: find the user that is using the most our DB
 - **DBLoad**: the number of **active sessions** for the DB engine.
+
+## RDS MySQL Read Replicas Errors
+- **Writing to tables** on a read replica can break the replication.
+- If the value for the `max_allowed_packet` parameter for a *read replica is less than* the `max_allowed_packet` parameter for the source DB instance, replica errors occur.
+- Read replicas can *only work on a transactional storage engine*. 
+	- Using a *non-transactional storage engine* such as MyISAM can *break the replication process*.
+- Using *unsafe nondeterministic queries* such as SLEEP(), SYSDATE(), SYSTEM_USER(), etc can *break the replication*.

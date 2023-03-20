@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 11:14
-updated: 2023-03-02 09:45
+updated: 2023-03-20 08:43
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -18,6 +18,7 @@ updated: 2023-03-02 09:45
 	- This is particularly useful when you know that you will be needing an instances for an uninterrupted workload at a particular time.
 - The main benefit of capacity reservation over reserved instances is there is no need of 1 or 3 years of commitment.
 - For monetary benefit you can use **capacity reservation with savings plan**.
+- They can't be used with dedicated hosts or placement groups.
 
 > [!caution] You're charged at On-Demand rate whether you run instances or not.
 
