@@ -1,6 +1,6 @@
 ---
 created: 2023-03-17 10:54
-updated: 2023-03-17 11:31
+updated: 2023-03-19 18:43
 ---
 ---
 **Links**: [[116 CSS Index]]
@@ -74,6 +74,7 @@ section > b, div > b {
 ### Class & ID selectors
 - Classes are used if we want to **apply the same style to a lot of elements**.
 - We declare a class using the `class` keyword: `<h1 class="box">`
+	- We declare multiple classes by spacing them out: `<h1 class="class1 class2">`
 - We select a class using a period: `.box { ... }`
 - We use IDs if we want to apply a **style only to a single element**.
 	- An ID name is *only supposed to be used once* in a document so that it can be uniques.

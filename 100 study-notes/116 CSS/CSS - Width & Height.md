@@ -1,6 +1,6 @@
 ---
 created: 2023-03-17 11:43
-updated: 2023-03-19 10:47
+updated: 2023-03-19 18:07
 ---
 ---
 **Links**: [[116 CSS Index]]
@@ -35,6 +35,12 @@ updated: 2023-03-19 10:47
 > [!caution]- We can set widths of elements but **DON'T set heights for elements** as they can lead to unexpected results if you don't know what you are doing.
 > - If you have to set heights then always set `min-height`.
 > - `min-height` will always grow to fit the content.
+
+- When you set a *width for the parent*, the *children DONT escape* that width.
+- In general when we change the width the height of the element also changes to accommodate for the content.
+	- Think of it as total area of the content remains the same so if you decrease the width then the height will automatically increase.
+- We *DONT want to set height of parent elements*, *we want to let the children dictate the height*.
+	- Manually declaring height of parent elements can lead to overflow issues.
 
 ### Display Units
 - `px` represents a single pixel of display.

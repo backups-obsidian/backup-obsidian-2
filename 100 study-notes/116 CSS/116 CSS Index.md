@@ -1,6 +1,6 @@
 ---
 created: 2023-03-16 18:18
-updated: 2023-03-19 15:36
+updated: 2023-03-19 20:45
 ---
 ---
 **Links**: [[116 CSS Index]]
@@ -25,6 +25,15 @@ updated: 2023-03-19 15:36
 [[CSS - Flexbox]]
 [[CSS - Grid]]
 [[CSS - Collapsing Margins]]
+
 [[CSS - Responsive Layouts]]
+[[CSS - Media Queries]]
+
 
 [[CSS - Miscellaneous]]
+[[CSS - Useful Snippets]]
+[[CSS - Tips for writing better CSS]]
+
+- You should only have one h1 per page.
+	- Everything else should be h2s and other things.
+	- Headings are meant to create a table of contents type of view. They are not meant to style things.

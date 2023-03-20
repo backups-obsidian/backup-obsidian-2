@@ -1,6 +1,6 @@
 ---
 created: 2023-03-18 15:45
-updated: 2023-03-19 11:12
+updated: 2023-03-19 20:09
 ---
 ---
 **Links**: [[116 CSS Index]]
@@ -10,7 +10,6 @@ updated: 2023-03-19 11:12
 - Just like in flexbox we have the concept of grid container and grid items.
 - Grid also applies to its **direct children**.
 - We declare a container as a grid container using `display: grid`.
-
 - If we want to have 3 columns and 2 rows
 ```css
 .container {
@@ -24,7 +23,6 @@ updated: 2023-03-19 11:12
 - The grid is responsive since rows and columns are set to auto.
 	- We can also declare them to be of fixed width.
 - If we want the grid to grow and shrink unequally we use fraction units.
-
 - In the below example 2nd column will have twice the width of 1st and 3rd column.
 ```css
 .container {
@@ -50,13 +48,11 @@ updated: 2023-03-19 11:12
 	- We can use -1 as the ending value if we want our elements to span till the end of the grid.
 	- If we don't know their starting point and know that they should only occupy 2 spaces then we should use `grid-column: span 2`
 	- `grid-column: 2` means take the 2nd grid it is same as `grid-column: 2 / 3`
- 
 - Example layout using grid:
 	- ![[attachments/Pasted image 20230318160744.png]]
 - We can also use `grid-template-areas` for quick prototyping.
 	- It is useful for positioning the items.
 	- We declare the grid using `grid-template` only, we just position the grid elements using `grid-template-areas`
-
 - Example:
 	- ![[attachments/Pasted image 20230318161635.png]]
 
@@ -82,7 +78,6 @@ updated: 2023-03-19 11:12
 
 - With the above logic we will have **implicit rows** (we have defined only 2 rows) created when the screen shrinks.
 	- We can fix this using `grid-auto-rows: 100px`
-
 - We can position the grid elements using `justify-content` (*horizontally*) and `align-content` (*vertically*) provided they have space (not using fractional units).
 	- The default values of `justify-content` and `align-content` are stretch.
 
@@ -103,6 +98,9 @@ updated: 2023-03-19 11:12
 	- ![[attachments/Pasted image 20230319110918.png]]
 	- The cards are laid out using grid whereas the tags inside the cards are laid out using flexbox.
 	- Flexbox works the best for tags *since we want to rely on the intrinsic sizing of the tags*. 
+- Grids are *great for creating form layouts*.
+	- It involves *using grid within grid*.
+- Different layouts using grids: [Simplify your CSS with these 3 grid layout solutions - YouTube](https://www.youtube.com/watch?v=JHregeIsjPQ)
 
 ## Summary
 |      Property       | Location  |

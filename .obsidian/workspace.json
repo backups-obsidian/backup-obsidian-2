@@ -58,7 +58,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 study-notes/116 CSS/CSS - Miscellaneous.md",
+                "file": "100 study-notes/116 CSS/CSS - Media Queries.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -66,7 +66,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -141,7 +141,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/116 CSS/CSS - Miscellaneous.md",
+                "file": "100 study-notes/116 CSS/116 CSS Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/116 CSS/CSS - Miscellaneous.md"
+                "file": "100 study-notes/116 CSS/116 CSS Index.md"
               }
             }
           },
@@ -168,7 +168,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/116 CSS/CSS - Miscellaneous.md",
+                "file": "100 study-notes/116 CSS/116 CSS Index.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -234,17 +234,17 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "952f0b8f336f07f5",
+  "active": "abfe8865dbdded4b",
   "lastOpenFiles": [
+    "100 study-notes/116 CSS/CSS - Media Queries.md",
     "100 study-notes/116 CSS/116 CSS Index.md",
-    "100 study-notes/116 CSS/CSS - Responsive Layouts.md",
-    "100 study-notes/116 CSS/CSS - Miscellaneous.md",
-    "100 study-notes/116 CSS/CSS - Collapsing Margins.md",
-    "100 study-notes/116 CSS/CSS - Position.md",
+    "100 study-notes/116 CSS/CSS - Useful Snippets.md",
     "100 study-notes/116 CSS/CSS - Grid.md",
-    "100 study-notes/101 AWS SAA/EC2 AMI.md",
-    "100 study-notes/116 CSS/CSS - Flexbox.md",
-    "100 study-notes/116 CSS/CSS - Width & Height.md",
-    "100 study-notes/114 AWS SOA/114 AWS SOA Index.md"
+    "100 study-notes/116 CSS/CSS - Tips for writing better CSS.md",
+    "100 study-notes/116 CSS/CSS - Introduction.md",
+    "100 study-notes/116 CSS/CSS - Miscellaneous.md",
+    "100 study-notes/116 CSS/CSS - Selectors, Properties & Values.md",
+    "100 study-notes/116 CSS/CSS - Specificity.md",
+    "100 study-notes/116 CSS/CSS - Width & Height.md"
   ]
 }
