@@ -1,6 +1,6 @@
 ---
 created: 2023-03-19 15:35
-updated: 2023-03-20 10:47
+updated: 2023-03-20 17:01
 ---
 ---
 **Links**: [[116 CSS Index]]
@@ -22,6 +22,19 @@ updated: 2023-03-20 10:47
 - Try to write CSS keeping mobile first in mind.
 	- *Generally it is easier to write the CSS for mobile because everything will mostly be a block element*, there isn't enough space to use grid or flexbox or do any other fancy stuff.
 	- We can then use media queries to change the layout in case of large screen sizes.
+- Custom classes
+```css
+.custom-class {
+	font: 45px;
+}
+
+/* Defining custom classes by referencing tailwind classes */
+@layer components {
+	.custom-class {
+		@apply relative flex justify-center
+	}
+}
+```
  
 > [!note]- In general we first write CSS for the desktop version of the website and then use media queries for the mobile version but it should be the other way round.
 > When writing CSS for mobile first we will be using `min-width` media queries to write CSS for larger desktops.
@@ -32,3 +45,7 @@ updated: 2023-03-20 10:47
 	- ![[attachments/Pasted image 20230319180401.png]]
 - *Use relative units* like `%`, `em`, `rem` instead of pixels for building more responsive designs.
 - Have a max and min width so that as the screen gets bigger or smaller the content never goes beyond a certain point.
+- For responsive layouts you can have have a *flex direction of row for larger screens* and a *flex direction of column for smaller screens*.
+	- This works well if you only have 2 columns.
+	- We can also use grid instead of flexbox.
+- Generally for mobile designs hamburger menus have a position of absolute.

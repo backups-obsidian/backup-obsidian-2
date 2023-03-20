@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "CSS - Display",
-      "path": "100 study-notes/116 CSS/CSS - Display.md"
+      "basename": "CSS - Responsive Layouts",
+      "path": "100 study-notes/116 CSS/CSS - Responsive Layouts.md"
     },
     {
       "basename": "116 CSS Index",
       "path": "100 study-notes/116 CSS/116 CSS Index.md"
+    },
+    {
+      "basename": "CSS - Useful Snippets",
+      "path": "100 study-notes/116 CSS/CSS - Useful Snippets.md"
+    },
+    {
+      "basename": "CSS - Tips for writing better CSS",
+      "path": "100 study-notes/116 CSS/CSS - Tips for writing better CSS.md"
+    },
+    {
+      "basename": "CSS - Tailwind CSS",
+      "path": "100 study-notes/116 CSS/CSS - Tailwind CSS.md"
+    },
+    {
+      "basename": "CSS - Display",
+      "path": "100 study-notes/116 CSS/CSS - Display.md"
     },
     {
       "basename": "CSS - Miscellaneous",
@@ -23,18 +39,6 @@
     {
       "basename": "CSS - Box Model",
       "path": "100 study-notes/116 CSS/CSS - Box Model.md"
-    },
-    {
-      "basename": "CSS - Tips for writing better CSS",
-      "path": "100 study-notes/116 CSS/CSS - Tips for writing better CSS.md"
-    },
-    {
-      "basename": "CSS - Tailwind CSS",
-      "path": "100 study-notes/116 CSS/CSS - Tailwind CSS.md"
-    },
-    {
-      "basename": "CSS - Responsive Layouts",
-      "path": "100 study-notes/116 CSS/CSS - Responsive Layouts.md"
     },
     {
       "basename": "EC2 - SOA",
@@ -123,10 +127,6 @@
     {
       "basename": "CSS - Media Queries",
       "path": "100 study-notes/116 CSS/CSS - Media Queries.md"
-    },
-    {
-      "basename": "CSS - Useful Snippets",
-      "path": "100 study-notes/116 CSS/CSS - Useful Snippets.md"
     },
     {
       "basename": "CSS - Grid",
