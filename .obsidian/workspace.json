@@ -38,6 +38,19 @@
             }
           },
           {
+            "id": "952f0b8f336f07f5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100 study-notes/101 AWS SAA/VPC Flow Logs.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
             "id": "abfe8865dbdded4b",
             "type": "leaf",
             "pinned": true,
@@ -51,22 +64,9 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "952f0b8f336f07f5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100 study-notes/116 CSS/CSS - Responsive Layouts.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "path:saa \"unhealthy\"",
+                "query": "path:saa \"pending\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -141,7 +141,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/116 CSS/CSS - Responsive Layouts.md",
+                "file": "100 study-notes/101 AWS SAA/VPC Flow Logs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/116 CSS/CSS - Responsive Layouts.md"
+                "file": "100 study-notes/101 AWS SAA/VPC Flow Logs.md"
               }
             }
           },
@@ -168,7 +168,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/116 CSS/CSS - Responsive Layouts.md",
+                "file": "100 study-notes/101 AWS SAA/VPC Flow Logs.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -236,15 +236,15 @@
   },
   "active": "952f0b8f336f07f5",
   "lastOpenFiles": [
-    "100 study-notes/116 CSS/116 CSS Index.md",
-    "100 study-notes/116 CSS/CSS - Useful Snippets.md",
-    "100 study-notes/116 CSS/CSS - Tips for writing better CSS.md",
-    "100 study-notes/116 CSS/CSS - Responsive Layouts.md",
-    "100 study-notes/116 CSS/CSS - Tailwind CSS.md",
-    "100 study-notes/116 CSS/CSS - Display.md",
-    "100 study-notes/116 CSS/CSS - Miscellaneous.md",
-    "100 study-notes/116 CSS/CSS - Width & Height.md",
-    "100 study-notes/116 CSS/CSS - Introduction.md",
-    "100 study-notes/116 CSS/CSS - Box Model.md"
+    "100 study-notes/114 AWS SOA/114 AWS SOA Index.md",
+    "100 study-notes/114 AWS SOA/SOA Extra Notes.md",
+    "100 study-notes/101 AWS SAA/KMS.md",
+    "100 study-notes/114 AWS SOA/CloudFormation SOA.md",
+    "100 study-notes/101 AWS SAA/Site to Site VPN.md",
+    "100 study-notes/101 AWS SAA/Direct Connect.md",
+    "100 study-notes/101 AWS SAA/EC2 Spot Instances & Fleet.md",
+    "100 study-notes/101 AWS SAA/EC2 EBS.md",
+    "100 study-notes/114 AWS SOA/EBS SOA.md",
+    "100 study-notes/101 AWS SAA/S3.md"
   ]
 }

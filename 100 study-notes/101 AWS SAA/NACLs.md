@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2023-02-09 08:56
+updated: 2023-03-24 08:27
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -10,22 +10,22 @@ updated: 2023-02-09 08:56
 - It stands for *Network Access Control List*.
 - NACLs operate at the **subnet level** whereas SGs operate at the instance level.
 	- ![[attachments/Pasted image 20220430085829.png]]
-
 - **NACLs** are **stateless** and **Security Groups** are **stateful**.
     - This means that if the request makes it through the inbound rules of the Security Group (i.e. makes it to the EC2 instance) then the **outbound will be automatically accepted at the Security Group level**. This is because Security Group is stateful whatever is accepted in can also go out.
     - **Since NACLs is stateless the outbound rules will be evaluated** when traffic is going out.
-
 - Example diagram for incoming and outgoing requests
 	- ![[attachments/Pasted image 20220430085302.png]]
 	- ![[attachments/Pasted image 20220430085312.png]]
-    
 - So NACLs are *like firewalls* which *control traffic* *to and from at the subnet level*
 - We have **one NACL per subnet** and **new subnets** are assigned the **default NACL**.
-
 - NACLs are *great for **blocking** the IP address at the subnet level*.
 - *First the NACL is hit* then the Security Group
 
 > [!caution] Another main difference between SGs and NACLs is that SGs *only have allow rules* whereas NACLs have both allow and deny rules.
+
+- **Each subnet in your VPC must be associated with a network ACL**. 
+	- If we *don't explicitly associate a subnet with a network ACL*, the subnet is *automatically associated with the default network ACL*. 
+	- Hence, a subnet will always have a network ACL associated with it.
 
 ### NACL Rules
 - **Rules** have a **number** (1-32766), **higher precedence with a lower number**
@@ -48,9 +48,7 @@ updated: 2023-02-09 08:56
 -   For any two endpoints to establish connection, they must use ports. **Clients connect to a defined port**, and **expect a response on an ephemeral port.**
 	- When a client connects to a server, a random port from the ephemeral port range (**1024-65535**) becomes the client's source port.
 	- ![[attachments/Pasted image 20220430090243.png]]
-
 - Different Operating Systems use *different port ranges for ephemeral ports*, examples:
     - IANA & MS Windows → 49152 - 65535
     - Many Linux Kernels → 32768 - 60999
-
 - So if a request comes into a web server in your VPC from a Windows 10 client on the Internet, your network ACL must have an outbound rule to enable traffic destined for ports 49152 - 65535. 

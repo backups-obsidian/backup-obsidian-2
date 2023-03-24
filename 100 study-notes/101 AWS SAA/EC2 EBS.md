@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 10:04
-updated: 2023-03-03 16:36
+updated: 2023-03-24 08:55
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -122,6 +122,13 @@ updated: 2023-03-03 16:36
 - io2 gives more durability and more IOPS per GB at the price of io1. **So always go with io2**.
 - We get *higher IOPS with EC2 Nitro instances*.
 - **50 IOPS per GB till 64000 IOPS**. So if you are given a volume of size `x` then maximum IOPS of that volume will be `50x`. 
+
+> [!question]- An e-commerce company runs their database workloads on Provisioned IOPS SSD (io1) volumes. As a SysOps Administrator, which of the following options would you identify as an INCORRECT configuration for io1 EBS volume types?
+> *100 GiB size volume with 7500 IOPS*.
+> This is an incorrect configuration. The maximum ratio of provisioned IOPS to the requested volume size (in GiB) is **50:1**. So, for a 100 GiB volume size, the max IOPS possible is 100*50 = 5000 IOPS*.
+> ---
+> We *can have lower IOPS per GB* like 100 GB volume with 1000 IOPS but not greater.
+
 - Can go upto **256000 IOPS with block express volume**. This is equivalent to *1000 IOPS per GB*.
 - If you need **IOPS > 256000** then you have to use **instance store**.
 - If you see the terms like **databases** in question then go for io family.

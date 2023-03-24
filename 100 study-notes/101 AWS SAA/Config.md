@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 19:08
-updated: 2023-03-06 10:11
+updated: 2023-03-22 08:37
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -19,6 +19,7 @@ updated: 2023-03-06 10:11
 > - Do my buckets have any public access?
 > - How has my ALB configuration changed over time?
 > - Password policy
+> - Is there a port which I always want closed?
 
 > [!note] Keywords: *compliance*, *history*, *configuration changes*.
 

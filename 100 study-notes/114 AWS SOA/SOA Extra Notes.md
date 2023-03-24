@@ -1,6 +1,6 @@
 ---
 created: 2023-03-11 08:28
-updated: 2023-03-20 09:08
+updated: 2023-03-24 09:22
 ---
 ---
 **Links**: [[114 AWS SOA Index]]
@@ -93,6 +93,28 @@ updated: 2023-03-20 09:08
 
 - If all instances in an Auto Scaling group are protected from *termination during scale in*, and a scale-in event occurs, its *desired capacity is decremented*. 
 	- However, the Auto Scaling group *can't terminate the required number of instances* until their instance scale-in protection settings are disabled.
+- 5 PB of data - snowball edge.
+- Create one CloudWatch dashboard and **add a graph per region** using the *region selector* in the top right corner of the AWS Console.
+- By default, when you attach a *non-root EBS volume to an instance, its `DeleteOnTermination` attribute is set to false*. 
+	- Therefore, the default is to *preserve these volumes*.
+	- After the instance terminates, you can take a snapshot of the preserved volume or attach it to another instance. 
+	- You *must delete a volume to avoid incurring further charges*.
+- By design, Aurora Serverless connects to a proxy fleet of DB instances that scales automatically. 
+	- Because there *isn't a direct DB instance to access and host the log files*, you can't view the logs directly from the Amazon Relational Database Service (Amazon RDS) console. 
+	- However, you can view and download logs that are sent to the CloudWatch console.
+
+> [!question]- A telecommunications company runs its business on AWS Cloud with Amazon EC2 instances and Amazon S3 buckets. Of late, users are complaining of **intermittently** receiving 500 Internal Error response when accessing the S3 bucket. The team is looking at a way to track the frequency of the error and fix the issue. What will you suggest to monitor and fix the error?
+> Enable Amazon CloudWatch metrics that include a metric for 5xx server errors. *Retrying generally fixes this error*.
+
+> [!question]- An application hosted on Amazon EC2 instances polls messages from Amazon SQS queue for downstream processing. The team is now looking at configuring an Auto Scaling group to scale using the CloudWatch metrics for Amazon SQS queue to process messages without delays. As a Systems Administrator, which feature or dimension of an SQS queue will you pick to collect SQS data from CloudWatch metrics?
+> *Queue name of the SQS queue* should be used to fetch the necessary data from CloudWatch metrics.
+> ---
+> *The only dimension that Amazon SQS sends to CloudWatch is QueueName*. This means that all available statistics are filtered by QueueName.
+
+> [!question]- A developer is trying to access an Amazon S3 bucket for storing the images used by the web application. The S3 bucket has public read access enabled on it. However, when the developer tries to access the bucket, an error pops up - `403 Access Denied`. The confused developer has connected with you to know why he has no access to the public S3 bucket. As a SysOps Administrator, how will you troubleshoot this issue?
+> Run the `AWSSupport-TroubleshootS3PublicRead` automation document on AWS Systems Manager to help diagnose issues with accessing objects from a public S3 bucket.
+
+- ALB -> Listeners -> Target Groups
 
 ## Interesting Ideas
 - To automatically shut down unused instances: create an Amazon CloudWatch alarm that monitors the CPUUtilization metric and stops the EC2 instances if the utilization is <5% for a 30-minute period.

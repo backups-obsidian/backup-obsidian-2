@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 11:14
-updated: 2023-03-20 08:43
+updated: 2023-03-24 08:24
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -76,6 +76,7 @@ updated: 2023-03-20 08:43
 > - *3 year*, 
 > - *same physical machine*, 
 > - *visibility and control*.
+> - **Socket level configurations**.
 
 ## Dedicated Instances
 - Instances running on hardware dedicated to you.

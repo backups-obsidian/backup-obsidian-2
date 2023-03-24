@@ -1,6 +1,6 @@
 ---
 created: 2023-03-03 15:30
-updated: 2023-03-20 08:50
+updated: 2023-03-24 08:53
 ---
 ---
 **Links**: [[114 AWS SOA Index]]
@@ -51,3 +51,5 @@ updated: 2023-03-20 08:50
 > [!question]- After configuring Amazon EC2 Auto Scaling, a systems administrator had tried to launch the Auto Scaling Group. But, the following launch failure message was displayed - `Client.InternalError: Client error on launch`. What is the cause of this error and how can it be fixed?
 > - This error can be caused when an Auto Scaling group attempts to launch an instance that has an **encrypted EBS volume**, but the service-linked role does not have access to the customer-managed CMK used to encrypt it.
 
+> [!question]- Your gp2 drive of 8TB is reaching its peak performance of 10,000 IOPS while being almost fully utilized. How can you *increase the performance while keeping the costs at the same level*?
+> Create two 4 TB gp2 drives and mount them in RAID 0 on the EC2 instance.

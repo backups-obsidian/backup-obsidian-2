@@ -1,6 +1,6 @@
 ---
 created: 2023-03-02 11:39
-updated: 2023-03-20 09:15
+updated: 2023-03-22 08:47
 ---
 ---
 **Links**: [[114 AWS SOA Index]]
@@ -40,6 +40,18 @@ updated: 2023-03-20 09:15
 	- ![[attachments/Pasted image 20230302114952.png]]
 
 > [!note] Note we are talking about sharing keys for decrypting  *encrypted EBS volumes* in the shared AMI.
+
+> [!question]- You have designed an AMI in an account that is optimizing the legacy database technology your gambling company has developed. You wish to share that AMI with other AWS accounts that belong to the same organization. How do you do it?
+> *Edit the account list that can see the AMI from the AMI Console UI and the other accounts can start using it*. 
+> ---
+> - You can *share an AMI with specific AWS accounts without making the AMI public*. All you need is the AWS account IDs. 
+> - You can only share AMIs that have *unencrypted volumes* and *volumes that are encrypted with a customer-managed CMK*. If you share an AMI with encrypted volumes, you must also share any CMKs used to encrypt them.
+
+> [!question]- A SysOps Administrator has shared an AMI from account *A to account B* and then *de-registered the AMI in a few days*. What is the outcome of this action?
+> - You can't launch new instances from the AMI in *account A or in account B*.
+> - The instances *already launched* from the shared AMI in account B, are *not impacted* by this de-registration.
+> ---
+> Instances cannot be launched in either of the accounts with the de-registered AMI.
 
 ## Cross Account AMI Copy
 - If you copy an AMI that has been shared with your account, *you are the owner of the target AMI in your account*.

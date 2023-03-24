@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2023-03-06 10:53
+updated: 2023-03-24 08:11
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -41,14 +41,13 @@ updated: 2023-03-06 10:53
 ## Backup
 - **Fully managed service**
 - **Centrally manage and automate backups across AWS services**
+- *Centralized backup management* service for *organizations*.
 - No need to create custom scripts and manual processes
 - Supported services: *Everything you can think of*.
     - Amazon *FSx*, Amazon *EFS*, Amazon DynamoDB, Amazon EC2, Amazon *EBS*, Amazon *RDS* (AIl DBs engines), Amazon *Aurora*, AWS *Storage Gateway* (Volume Gateway)
-
 - Supports **cross-region** and **cross-account** backups.
 - Supports **PITR** (Point in time recovery) for supported services
 - On-Demand and **Scheduled** backups
-
 - You create backup policies known as **Backup Plans:**
     -   Backup *frequency* (every 12 hours, daily, weekly, monthly, cron expression)
     -   Backup *window*

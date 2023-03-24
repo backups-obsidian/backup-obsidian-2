@@ -1,6 +1,6 @@
 ---
 created: 2023-03-16 18:18
-updated: 2023-03-19 14:53
+updated: 2023-03-21 14:04
 ---
 ---
 **Links**: [[116 CSS Index]]
@@ -58,6 +58,7 @@ updated: 2023-03-19 14:53
 
 ### `position: fixed`
 - The **element will be positioned relative to the browser window**.
+- This **removes the element from the normal element flow**.
 - So if we do a bottom 0 for footer it will stay at the bottom.
 	- ![[attachments/Pasted image 20230317173423.png]]
 - It will *stay fixed to the browser window* 0 pixels from the bottom.
