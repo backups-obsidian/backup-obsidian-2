@@ -1,6 +1,6 @@
 ---
 created: 2023-03-03 09:25
-updated: 2023-03-20 09:01
+updated: 2023-03-22 08:34
 ---
 ---
 **Links**: [[114 AWS SOA Index]]
@@ -36,6 +36,16 @@ updated: 2023-03-20 09:01
 - If no input is received after the wait period specified in the WaitCondition then the stack creation fails.
 - If you *forget to add the wait condition* then you would get a *CloudFormation success even though the resource is still in creation*.
 
+> [!question]- You are provisioning an *internal* full LAMP stack using CloudFormation, and the EC2 instance gets configured automatically using the cfn helper scripts, such as `cfn-init` and `cfn-signal`. The *stack creation fails as CloudFormation fails to receive a signal from your EC2 instance*. What are the possible reasons for this?
+> - The subnet where the application is deployed does not have a network route to the CloudFormation service through a NAT Gateway or Internet Gateway.
+> - The `cfn-signal` script **does not get executed before the timeout of the wait condition**.
+> ---
+> - Here the word **internal means private**.
+> - The EC2 instance does not have a proper IAM role allowing to signal the success to CloudFormation - *You DONOT need an IAM role to use `cfn-signal`*.
+> - AWS is experiencing an Insufficient Capacity for the instance type you requested - In case of Insufficient Capacity, *the instance would have not been created and the CloudFormation stack would have failed altogether*.
+> - *The `cfn-init` script failed* - **The `cfn-init` script failure should still be followed by the `cfn-signal` script**, which would have sent a signal to CloudFormation nonetheless.
+
+
 #### Troubleshooting
 - Wait Condition **Didn't Receive the Required Number of Signals** from an Amazon EC2 Instance.
 - Ensure that the **AMl** you're using has the AWS **CloudFormation helper scripts installed**. 
@@ -58,7 +68,6 @@ updated: 2023-03-20 09:01
 - `DeletePolicy=Delete` (**default behaviour**):
 	- Note: for `AWS::RDS:DBCluster` resources, the *default policy is Snapshot*
 	- *Note*: to *delete an S3 bucket we need to first empty the bucket of its content*.
-
 - Example:
 	- ![[attachments/Pasted image 20230303101248.png]]
 
@@ -82,7 +91,6 @@ updated: 2023-03-20 09:01
 - We can **prevent updates** to stack resources using **StackPolicy**
 	- *StackPolicy is a JSON* file and looks like an IAM policy.
 	- We have all the same components (Principal, Effect, Action, Resource) as present in the IAM policy.
-
 - Generally if a CloudFormation template gives an *error when launching resources in another region* it is mainly due to the fact that the *specific AMIs are not present in that region*.
 
 > [!question]- A multi-national company extensively uses AWS CloudFormation to model and provision its AWS resources. A human error had earlier deleted a critical service from the CloudFormation stack that resulted in business loss. *The company is looking at a quick and effective solution to lock the critical resources from any updates or deletes*. As a SysOps Administrator, what will you suggest to address this requirement?

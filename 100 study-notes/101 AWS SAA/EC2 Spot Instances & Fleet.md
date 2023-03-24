@@ -1,11 +1,15 @@
 ---
 created: 2022-04-19 19:08
-updated: 2023-03-10 08:07
+updated: 2023-03-24 09:15
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
 
 ---
+## Actions on a Spot Instance
+- We can **hibernate**, **stop** and **terminate** a spot instance.
+- We *CANNOT reboot a spot instance*.
+
 ## Spot Request
 - To get a spot instance we create a **Spot Request**.
 - The spot request can be **one time** or **persistent**.

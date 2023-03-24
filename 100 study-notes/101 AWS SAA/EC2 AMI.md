@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2023-03-20 09:12
+updated: 2023-03-22 08:43
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -17,7 +17,6 @@ updated: 2023-03-20 09:12
 	- *Public*: AWS provided 
 	- *Marketplace*: Made by someone else and potentially sold.
 	- *Custom AMIs*: Made and maintained by us.
-
 - **Process** of creating an AMI:
 	- *Start an EC2 instance* and *customise it*.
 	- *Stop* the instance (for data integrity)
@@ -37,3 +36,4 @@ updated: 2023-03-20 09:12
 > - You can copy an Amazon Machine Image (AMI) of an EC2 instance (EBS volume is also copied) and specify the second Region for the destination.
 > - Launch a new EC2 instance from an Amazon Machine Image (AMI) in the second Region
 
+> [!note]- *Copying a source AMI* results in an identical but **distinct target AMI ID**.

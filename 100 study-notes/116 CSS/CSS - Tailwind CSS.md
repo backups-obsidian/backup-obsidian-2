@@ -1,6 +1,6 @@
 ---
 created: 2023-03-20 10:47
-updated: 2023-03-20 15:09
+updated: 2023-03-20 17:38
 ---
 ---
 **Links**: [[116 CSS Index]]
@@ -34,3 +34,5 @@ updated: 2023-03-20 15:09
 > ---
 > This is also useful for hamburger menus. When we get to a smaller screen size we would want our normal navigation div to disappear.
 > `<div class="hidden md:block">`: once we reach to a screen size of `md` change its display from hidden to block.
+
+- See the starting part of video on how to create a hamburger menu using React and tailwind: [React JS & Tailwind CSS Responsive Website - Beginner Friendly - YouTube](https://www.youtube.com/watch?v=ZU-drSVodBw)

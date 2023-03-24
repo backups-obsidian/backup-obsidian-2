@@ -1,6 +1,6 @@
 ---
 created: 2022-04-23 15:21
-updated: 2023-03-11 09:52
+updated: 2023-03-24 08:52
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -23,7 +23,6 @@ updated: 2023-03-11 09:52
 	- *SNS* 
 	- *Lambda functions*
 	- **Event Bridge**
-
 - Generally the notifications are delivered in a second but sometimes it can take minutes
 
 > [!tip]- For best performance and making sure you get the event *enable versioning*. Why?
@@ -44,7 +43,13 @@ updated: 2023-03-11 09:52
 - We can generate *daily or weekly reports*.
 - You can query all the data using Amazon Athena, Redshift, Presto, Hive, Spark, etc.
 - You can *filter generated report using S3 Select*
-- Use cases: *Business*, *Compliance*, Regulatory needs,
+- Use cases: *Business*, *Compliance*, Regulatory needs.
+
+> [!question]- An IT company extensively uses Amazon S3 buckets for storage, hosting, backup and compliance specific replication. A Team Lead has reached out to you for creating a *report that lists all the objects that have failed replication in the S3 buckets that the project manages*. This process needs to be automated as the Team Lead needs this list daily. As a SysOps Administrator, how will you configure a solution for this request?
+> Use Amazon *S3 Inventory* reports to list the objects that have failed replication in the S3 buckets.
+
+## S3 Storage Lens
+- Amazon S3 Storage Lens **aggregates your usage and activity metrics** and displays the information in an **interactive dashboard** on the Amazon S3 console or through a metrics data export that can be downloaded in CSV or Parquet format.
 
 ## S3 Batch Operations
 - **Perform bulk operations on existing S3 objects** with a *single request*, example:
@@ -54,7 +59,6 @@ updated: 2023-03-11 09:52
 	- Modify ACLs, tags
 	- Restore objects from S3 Glacier
 	- Invoke Lambda function to perform custom action on each object
-
 - A job consists of a list of objects, the *action* to perform, and optional *parameters*.
 - *Why use S3 Batch Operations vs scripting it ourselves*? 
 	- S3 Batch Operations *manages retries*, *tracks progress*, sends completion notifications, generate reports, etc.
@@ -113,7 +117,6 @@ updated: 2023-03-11 09:52
 	- *Retention Period*: protect the object for a *fixed period*, it can be extended
 	- **Legal Hold**: **protect the object indefinitely**, independent from retention period or the retention mode.
 		- Can be *freely placed and removed* using the `s3:PutObjectLegalHold` IAM permission
-
 - When you apply a *retention period to an object version explicitly*, you specify a `Retain Until Date` for the object version.
 - *Different versions* of a single object *can have different retention modes and periods*.
 - You can place a retention period on an object version either *explicitly* **or** *through a bucket default setting*. Explicit settings override the default bucket settings.
@@ -123,5 +126,5 @@ updated: 2023-03-11 09:52
 > - Different versions of a single object can have different retention modes and periods
 > ---
 > - You can place a retention period on an object version either explicitly or through a bucket default setting.
-> - When you use bucket default settings, you don't specify a Retain Until Date.
+> - When you use bucket default settings, you don't specify a Retain Until Date.  Instead, we specify a duration, in either days or years, for which every object version placed in the bucket should be protected.
 > - If your *request to place an object version in a bucket contains an explicit retention mode and period, those settings **override** any bucket default settings for that object version*.

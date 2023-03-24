@@ -1,6 +1,6 @@
 ---
 created: 2023-03-03 08:18
-updated: 2023-03-03 09:08
+updated: 2023-03-22 08:24
 ---
 ---
 **Links**: [[114 AWS SOA Index]]
@@ -46,3 +46,7 @@ updated: 2023-03-03 09:08
 - Rule *conditions* (same as different types of routing in ALB): host-header, http-request-method, path-pattern, source-ip, http-header, query-string
 - For a **single rule we can have multiple target groups** and we can specify the *weighting of each group*.
 	- Example: multiple versions of your app, *blue/green deployment*
+
+## Miscellaneous
+- In certain scenarios, such as when flash traffic is expected, or in the case where a load test cannot be configured to gradually increase traffic, **AWS recommends that you contact AWS to have your load balancer "pre-warmed"**. 
+	- AWS will then configure the load balancer to have the appropriate level of capacity based on the traffic that you expect.

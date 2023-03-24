@@ -1,6 +1,6 @@
 ---
 created: 2022-04-30 19:10
-updated: 2023-03-08 09:40
+updated: 2023-03-24 09:18
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -11,14 +11,11 @@ updated: 2023-03-08 09:40
 	- You have an immediate need 
 	- Have low to modest bandwidth requirements 
 	- Can tolerate the inherent variability in Internet-based connectivity.
-
 - We might have a corporate **on premise data centre** and **we would want to connect** it with our **VPC** in cloud.
 - For this we have a **Customer Gateway** in the corporate **data centre** and a **VPN Gateway** in the **VPC**. Using these we would establish a Site to Site VPN through the public internet. These are the *2 major components* required for establishing a site to site VPN.
-
 - **Virtual Private Gateway** (VPG):
     - VPN concentrator on the **AWS side** of the VPN connection
     - VPG is **created and attached to the VPC** from which you want to create the Site-to-Site VPN connection
-
 - **Customer Gateway** (CGW):
     - **customer side** of the VPN connection
     - **Software application** or **physical device** 
@@ -26,6 +23,8 @@ updated: 2023-03-08 09:40
 > [!important]+ Another use case of VPG
 > A VPG is used to setup an AWS VPN connection but you *can also use it in combination with Direct Connect to encrypt all data that traverses the Direct Connect link*. This combination provides an IPsec-encrypted private connection that also reduces network costs, *increases bandwidth throughput*, and provides a *more consistent network experience than internet-based VPN connections*.
 > **DX + VPG**
+> ---
+> ![[attachments/Pasted image 20230324091626.png]]
 
 ^a5f822
 
@@ -33,7 +32,8 @@ updated: 2023-03-08 09:40
 - Which IP address to use on the Customer Gateway?
 	- **Public Internet-routable IP address** for your Customer Gateway device if it is public. 
 	- If the CGW is behind a NAT then a **NAT device** that's enabled for *NAT traversal (NAT-T)*, use the *public IP address of the NAT device*.
-	- ![[attachments/Pasted image 20220430192051.png]]
+	- Diagram:
+		- ![[attachments/Pasted image 20220430192051.png]]
     
 > [!question]- What needs to be configured *outside of the VPC* for them to have a successful site-to site VPN connection?
 > An **Internet-routable (public) IP address (static)** of the customer gateway's external interface for the on-premises network.
@@ -52,7 +52,6 @@ updated: 2023-03-08 09:40
 - Because of this the **customer networks can now connect to one another**.
 	- ![[attachments/Pasted image 20220430193020.png]]
 	- **Only one VPG**.
-
 - Since it is a VPN connection **all the traffic goes over the public internet**.
 - To set it up, connect **multiple VPN connections on the same VPG**, setup dynamic routing and configure route tables. 
 

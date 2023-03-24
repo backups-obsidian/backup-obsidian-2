@@ -1,6 +1,6 @@
 ---
 created: 2023-03-02 08:40
-updated: 2023-03-20 09:05
+updated: 2023-03-24 08:47
 ---
 ---
 **Links**: [[114 AWS SOA Index]]
@@ -21,6 +21,7 @@ updated: 2023-03-20 09:05
 	- ![[attachments/Pasted image 20230302090522.png]]
 - This is not applicable when shutting down from AWS console. It only stops the instances.
 - We can enable **termination protection** (`DisableApiTermination`) to protect against *accidental termination* from AWS **console or CLI**.
+	- We *CANNOT enable termination protection for spot instances*.
 
 > [!question]- We have an instance where shutdown behaviour = terminate and enable terminate protection is ticked. If we *shutdown the instance from the OS*, what will happen?
 > The **instance will still be terminated** since we terminated it from the OS and not the console or CLI.
