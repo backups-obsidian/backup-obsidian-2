@@ -1,6 +1,6 @@
 ---
 created: 2023-03-16 18:18
-updated: 2023-03-22 10:44
+updated: 2023-03-25 11:13
 ---
 ---
 **Links**: [[../100 home | 100 Home]]
@@ -29,7 +29,9 @@ updated: 2023-03-22 10:44
 [[CSS - Tips for writing better CSS]]
 
 [[CSS - Tailwind CSS]]
+[[CSS - Dev Tools]]
 
 - You should only have one h1 per page.
 	- Everything else should be h2s and other things.
 	- Headings are meant to create a table of contents type of view. They are not meant to style things.
+- In mobile devices we *DONT have a hover mode*.

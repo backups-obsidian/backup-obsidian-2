@@ -1,6 +1,6 @@
 ---
 created: 2023-03-06 11:03
-updated: 2023-03-18 08:54
+updated: 2023-03-24 09:26
 ---
 ---
 **Links**: [[114 AWS SOA Index]]
@@ -44,6 +44,7 @@ updated: 2023-03-18 08:54
 	- For this to work we need to tag our resources properly
 	- Starts with Prefix `user:`
 		- ![[attachments/Pasted image 20230306142408.png]]
+- Cost allocation tags are **great for finding out the costs incurred by each bucket**.
 
 > [!question]- For accounting reasons, you need to *separate costs into categories* in AWS, such as *Environment*. How do you achieve this?
 > Use Cost Allocation Tags.

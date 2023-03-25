@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "VPC Flow Logs",
-      "path": "100 study-notes/101 AWS SAA/VPC Flow Logs.md"
+      "basename": "CSS - Dev Tools",
+      "path": "100 study-notes/116 CSS/CSS - Dev Tools.md"
+    },
+    {
+      "basename": "116 CSS Index",
+      "path": "100 study-notes/116 CSS/116 CSS Index.md"
+    },
+    {
+      "basename": "Account Management",
+      "path": "100 study-notes/114 AWS SOA/Account Management.md"
     },
     {
       "basename": "114 AWS SOA Index",
@@ -11,6 +19,10 @@
     {
       "basename": "SOA Extra Notes",
       "path": "100 study-notes/114 AWS SOA/SOA Extra Notes.md"
+    },
+    {
+      "basename": "VPC Flow Logs",
+      "path": "100 study-notes/101 AWS SAA/VPC Flow Logs.md"
     },
     {
       "basename": "KMS",
@@ -95,10 +107,6 @@
     {
       "basename": "CSS - Width & Height",
       "path": "100 study-notes/116 CSS/CSS - Width & Height.md"
-    },
-    {
-      "basename": "116 CSS Index",
-      "path": "100 study-notes/116 CSS/116 CSS Index.md"
     },
     {
       "basename": "AMI - SOA",
@@ -191,14 +199,6 @@
     {
       "basename": "Aurora",
       "path": "100 study-notes/101 AWS SAA/Aurora.md"
-    },
-    {
-      "basename": "ELB",
-      "path": "100 study-notes/101 AWS SAA/ELB.md"
-    },
-    {
-      "basename": "ASG",
-      "path": "100 study-notes/101 AWS SAA/ASG.md"
     }
   ],
   "omittedPaths": [],
