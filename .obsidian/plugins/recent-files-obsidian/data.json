@@ -1,12 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "Authentication",
+      "path": "100 study-notes/117 Full Stack Development/Authentication.md"
+    },
+    {
       "basename": "CSS - Dev Tools",
       "path": "100 study-notes/116 CSS/CSS - Dev Tools.md"
     },
     {
       "basename": "116 CSS Index",
       "path": "100 study-notes/116 CSS/116 CSS Index.md"
+    },
+    {
+      "basename": "100 home",
+      "path": "100 study-notes/100 home.md"
+    },
+    {
+      "basename": "000 home",
+      "path": "000 home.md"
+    },
+    {
+      "basename": "300 home",
+      "path": "300 short-notes/300 home.md"
+    },
+    {
+      "basename": "117 Full Stack Index",
+      "path": "100 study-notes/117 Full Stack Development/117 Full Stack Index.md"
     },
     {
       "basename": "Account Management",
@@ -149,10 +169,6 @@
       "path": "100 study-notes/115 React/115 React Index.md"
     },
     {
-      "basename": "100 home",
-      "path": "100 study-notes/100 home.md"
-    },
-    {
       "basename": "CSS - Z Index",
       "path": "100 study-notes/116 CSS/CSS - Z Index.md"
     },
@@ -183,22 +199,6 @@
     {
       "basename": "CSS - Miscellaneous",
       "path": "100 study-notes/116 CSS/CSS - Miscellaneous.md"
-    },
-    {
-      "basename": "CSS - Introduction",
-      "path": "100 study-notes/116 CSS/CSS - Introduction.md"
-    },
-    {
-      "basename": "CSS - Box Model",
-      "path": "100 study-notes/116 CSS/CSS - Box Model.md"
-    },
-    {
-      "basename": "Aurora SOA",
-      "path": "100 study-notes/114 AWS SOA/Aurora SOA.md"
-    },
-    {
-      "basename": "Aurora",
-      "path": "100 study-notes/101 AWS SAA/Aurora.md"
     }
   ],
   "omittedPaths": [],

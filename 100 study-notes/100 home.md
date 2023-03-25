@@ -1,6 +1,6 @@
 ---
 created: 2022-04-18 18:45
-updated: 2023-03-21 15:44
+updated: 2023-03-25 15:00
 ---
 ---
 **Links**: [[../000 home | 000 Home]]
@@ -24,3 +24,4 @@ updated: 2023-03-21 15:44
 [[114 AWS SOA/114 AWS SOA Index | AWS SOA]]
 [[115 React/115 React Index | React]]
 [[116 CSS/116 CSS Index | CSS]]
+[[117 Full Stack Development/117 Full Stack Index | Full Stack Development]]
