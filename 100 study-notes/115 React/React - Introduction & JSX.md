@@ -1,6 +1,6 @@
 ---
 created: 2023-03-14 15:10
-updated: 2023-03-15 09:24
+updated: 2023-03-26 17:06
 ---
 ---
 **Links**: [[115 React Index]]
@@ -11,7 +11,6 @@ updated: 2023-03-15 09:24
 	- **Composable**: We can use components (small UI elements) 
 		- React is a library that lets you organise UI code by *breaking it apart into pieces called components*.
 	- **Declarative**: We just tell it what should be done and not how it should be done.
-
 - Example *how React is declarative*.
 ```jsx
 // vanilla js

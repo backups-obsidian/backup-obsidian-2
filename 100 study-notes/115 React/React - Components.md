@@ -1,6 +1,6 @@
 ---
 created: 2023-03-14 16:09
-updated: 2023-03-14 17:58
+updated: 2023-03-26 17:08
 ---
 ---
 **Links**: [[115 React Index]]
@@ -14,7 +14,6 @@ updated: 2023-03-14 17:58
 
 - We need to use **PascalCase as the name of functions**.
 - To *call our components we wrap it in angle brackets* (`<ComponentName />`)
-
 - Creating and using a simple component.
 ```jsx
 const Page = () => {

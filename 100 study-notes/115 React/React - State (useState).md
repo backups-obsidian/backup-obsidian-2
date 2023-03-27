@@ -1,6 +1,6 @@
 ---
 created: 2023-03-15 17:06
-updated: 2023-03-16 13:20
+updated: 2023-03-26 17:58
 ---
 ---
 **Links**: [[115 React Index]]
@@ -195,15 +195,3 @@ export default function Star(props) {
 }
 ```
 
-### Passing data between components
-- We *CANNOT directly pass data between children components*.
-	- ![[attachments/Pasted image 20230316131214.png]]
-- If we want to pass data between 2 child components we will have to *move the state to the parent component* and then *pass these states as props to the child components*.
-	- ![[attachments/Pasted image 20230316131404.png]]
-- I think the main reason react does this is because if we were to pass data between child components directly there is no way for React to know which parent components should be updated.
-- Also there is *no way to pass data upwards*.
-- We can manage global state using context.
-
-> [!note]- Data flows in react from top to bottom. 
-> - But try to limit the state to the components that need it. There is no need to initialise all the states at the top of the tree if the lower components don't need it.
-> - **Keep state as local as you can** i.e. only to the components that need it.

@@ -1,6 +1,6 @@
 ---
 created: 2023-03-16 14:25
-updated: 2023-03-16 14:52
+updated: 2023-03-26 17:20
 ---
 ---
 **Links**: [[115 React Index]]
@@ -68,7 +68,6 @@ export default function Form() {
 - Currently we have 2 different state:
 	- The one maintained by React
 	- The one we are typing in the form
-
 - To make controlled inputs we just **pass the React state value to the form value**.
 	- Now **state is telling what the input box** should be *instead of input box telling what the state should be*.
 
