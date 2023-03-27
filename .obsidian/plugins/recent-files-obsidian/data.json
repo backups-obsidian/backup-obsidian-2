@@ -1,16 +1,76 @@
 {
   "recentFiles": [
     {
-      "basename": "Authentication",
-      "path": "100 study-notes/117 Full Stack Development/Authentication.md"
+      "basename": "React - Context API",
+      "path": "100 study-notes/115 React/React - Context API.md"
     },
     {
-      "basename": "CSS - Dev Tools",
-      "path": "100 study-notes/116 CSS/CSS - Dev Tools.md"
+      "basename": "115 React Index",
+      "path": "100 study-notes/115 React/115 React Index.md"
+    },
+    {
+      "basename": "React - Router",
+      "path": "100 study-notes/115 React/React - Router.md"
     },
     {
       "basename": "116 CSS Index",
       "path": "100 study-notes/116 CSS/116 CSS Index.md"
+    },
+    {
+      "basename": "React - Styling",
+      "path": "100 study-notes/115 React/React - Styling.md"
+    },
+    {
+      "basename": "React - Props",
+      "path": "100 study-notes/115 React/React - Props.md"
+    },
+    {
+      "basename": "React - State (useState)",
+      "path": "100 study-notes/115 React/React - State (useState).md"
+    },
+    {
+      "basename": "React - Components",
+      "path": "100 study-notes/115 React/React - Components.md"
+    },
+    {
+      "basename": "React - Arrays",
+      "path": "100 study-notes/115 React/React - Arrays.md"
+    },
+    {
+      "basename": "React - Side Effects (useEffect)",
+      "path": "100 study-notes/115 React/React - Side Effects (useEffect).md"
+    },
+    {
+      "basename": "React - Forms",
+      "path": "100 study-notes/115 React/React - Forms.md"
+    },
+    {
+      "basename": "React - Conditional Rendering",
+      "path": "100 study-notes/115 React/React - Conditional Rendering.md"
+    },
+    {
+      "basename": "React - Event Listeners",
+      "path": "100 study-notes/115 React/React - Event Listeners.md"
+    },
+    {
+      "basename": "React - Introduction & JSX",
+      "path": "100 study-notes/115 React/React - Introduction & JSX.md"
+    },
+    {
+      "basename": "117 Full Stack Index",
+      "path": "100 study-notes/117 Full Stack Development/117 Full Stack Index.md"
+    },
+    {
+      "basename": "Local Storage vs Session Storage vs Cookies",
+      "path": "100 study-notes/117 Full Stack Development/Local Storage vs Session Storage vs Cookies.md"
+    },
+    {
+      "basename": "Full Stack - Authentication",
+      "path": "100 study-notes/117 Full Stack Development/Full Stack - Authentication.md"
+    },
+    {
+      "basename": "CSS - Dev Tools",
+      "path": "100 study-notes/116 CSS/CSS - Dev Tools.md"
     },
     {
       "basename": "100 home",
@@ -23,10 +83,6 @@
     {
       "basename": "300 home",
       "path": "300 short-notes/300 home.md"
-    },
-    {
-      "basename": "117 Full Stack Index",
-      "path": "100 study-notes/117 Full Stack Development/117 Full Stack Index.md"
     },
     {
       "basename": "Account Management",
@@ -143,62 +199,6 @@
     {
       "basename": "Config",
       "path": "100 study-notes/101 AWS SAA/Config.md"
-    },
-    {
-      "basename": "ASG SOA",
-      "path": "100 study-notes/114 AWS SOA/ASG SOA.md"
-    },
-    {
-      "basename": "SSM Inventory",
-      "path": "100 study-notes/114 AWS SOA/SSM Inventory.md"
-    },
-    {
-      "basename": "CSS - Position",
-      "path": "100 study-notes/116 CSS/CSS - Position.md"
-    },
-    {
-      "basename": "CSS - Tailwind CSS",
-      "path": "100 study-notes/116 CSS/CSS - Tailwind CSS.md"
-    },
-    {
-      "basename": "React - Introduction & JSX",
-      "path": "100 study-notes/115 React/React - Introduction & JSX.md"
-    },
-    {
-      "basename": "115 React Index",
-      "path": "100 study-notes/115 React/115 React Index.md"
-    },
-    {
-      "basename": "CSS - Z Index",
-      "path": "100 study-notes/116 CSS/CSS - Z Index.md"
-    },
-    {
-      "basename": "EC2 Troubleshooting",
-      "path": "100 study-notes/114 AWS SOA/EC2 Troubleshooting.md"
-    },
-    {
-      "basename": "SSM State Manager",
-      "path": "100 study-notes/114 AWS SOA/SSM State Manager.md"
-    },
-    {
-      "basename": "CSS - Responsive Layouts",
-      "path": "100 study-notes/116 CSS/CSS - Responsive Layouts.md"
-    },
-    {
-      "basename": "CSS - Useful Snippets",
-      "path": "100 study-notes/116 CSS/CSS - Useful Snippets.md"
-    },
-    {
-      "basename": "CSS - Tips for writing better CSS",
-      "path": "100 study-notes/116 CSS/CSS - Tips for writing better CSS.md"
-    },
-    {
-      "basename": "CSS - Display",
-      "path": "100 study-notes/116 CSS/CSS - Display.md"
-    },
-    {
-      "basename": "CSS - Miscellaneous",
-      "path": "100 study-notes/116 CSS/CSS - Miscellaneous.md"
     }
   ],
   "omittedPaths": [],

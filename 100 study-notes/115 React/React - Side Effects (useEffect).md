@@ -1,6 +1,6 @@
 ---
 created: 2023-03-16 14:54
-updated: 2023-03-16 16:38
+updated: 2023-03-26 17:37
 ---
 ---
 **Links**: [[115 React Index]]
@@ -76,7 +76,6 @@ export default function App() {
 - Having a constant value in the dependencies array is same as having an empty array.
 - `useEffect` won't be run if the values of the dependencies in the dependency array remain the same.
 	- If count is in the dependencies array then `useEffect` will only be run if the value of count changes.
-
 - Creating infinite renders using `useEffect`
 
 ```jsx
@@ -101,9 +100,8 @@ export default function App() {
 }
 ```
 
-- This will cause infinite re-renders since we are depending on count and we are setting count inside the `useEffect`
+- This will cause infinite re-renders since we are depending on count and we are increasing count inside the `useEffect`.
 
-> [!caution]- We should never modify the state in the dependencies array inside the `useEffect` body otherwise it will cause an infinite re-renders.
 
 - In this example we want our `useEffect` to run every time our count changes by clicking the next character button.
 
@@ -152,6 +150,12 @@ export default function WindowTracker() {
   return <h1>Window width: {windowWidth}</h1>;
 }
 ```
+
+> [!question]- Why there is infinite re-rendering in the above example but there was infinite re-rendering when we modified count inside the `useEffect` body.
+> - In the above example `windowWidth` only changes when the width of the window is changed. Although we have specified `windowWidth` as one of the dependencies in the dependency array, react will only re-render the component when the new value of `windowWidth` is different from its original value.
+> - In the example with count we were always incrementing the value of count inside the `useEffect` body. This meant the new value of count was always different from the original value thereby causing infinite re-renders. If inside the `useEffect` body we had set count to a fixed value then this would not have caused infinite re-renders.
+
+> [!caution] We should be careful while modifying the state in the dependencies array inside the `useEffect` body since it can cause infinite re-renders.
 
 ### Clean up
 - Clean up functions in `useEffect` helps us in **preventing memory leaks**.

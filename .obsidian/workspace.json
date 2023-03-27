@@ -58,8 +58,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 study-notes/117 Full Stack Development/Authentication.md",
-                "mode": "preview",
+                "file": "100 study-notes/115 React/React - Context API.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/117 Full Stack Development/Authentication.md",
+                "file": "100 study-notes/115 React/React - Context API.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/117 Full Stack Development/Authentication.md"
+                "file": "100 study-notes/115 React/React - Context API.md"
               }
             }
           },
@@ -169,7 +169,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/117 Full Stack Development/Authentication.md",
+                "file": "100 study-notes/115 React/React - Context API.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -237,15 +237,15 @@
   },
   "active": "4bb4564b51d8ab04",
   "lastOpenFiles": [
-    "100 study-notes/116 CSS/CSS - Dev Tools.md",
+    "100 study-notes/115 React/115 React Index.md",
+    "100 study-notes/115 React/React - Router.md",
     "100 study-notes/116 CSS/116 CSS Index.md",
-    "100 study-notes/100 home.md",
-    "000 home.md",
-    "300 short-notes/300 home.md",
-    "100 study-notes/117 Full Stack Development/Authentication.md",
-    "100 study-notes/117 Full Stack Development/117 Full Stack Index.md",
-    "100 study-notes/114 AWS SOA/Account Management.md",
-    "100 study-notes/114 AWS SOA/114 AWS SOA Index.md",
-    "100 study-notes/114 AWS SOA/SOA Extra Notes.md"
+    "100 study-notes/115 React/React - Styling.md",
+    "100 study-notes/115 React/React - Props.md",
+    "100 study-notes/115 React/React - State (useState).md",
+    "100 study-notes/115 React/React - Components.md",
+    "100 study-notes/115 React/React - Arrays.md",
+    "100 study-notes/115 React/React - Side Effects (useEffect).md",
+    "100 study-notes/115 React/React - Forms.md"
   ]
 }

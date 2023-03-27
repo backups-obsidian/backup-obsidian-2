@@ -1,6 +1,6 @@
 ---
 created: 2023-03-14 18:10
-updated: 2023-03-15 16:07
+updated: 2023-03-26 17:58
 ---
 ---
 **Links**: [[115 React Index]]
@@ -64,7 +64,6 @@ export default function Contact({img, name, phone, email}) {
 }
 ```
 - **The name should be exactly the same as what was passed to the prop**.
-
 - Example if we want to have different name for the props
 ```jsx
 export default function Contact({img: image, name, phone, email}) {
@@ -92,3 +91,37 @@ export default function Contact({img: image, name, phone, email}) {
     comments={["hello", "there"]}
 />
 ```
+
+### Default Props
+- Default props are useful when we don't provide props to a component and don't want to receive an error.
+	- The data for the props may be something we are expecting from an API
+
+```jsx
+const Header = ({ title }) => {
+  return (
+    <header>
+      <h1>{title}</h1>
+    </header>
+  );
+};
+
+Header.defaultProps = {
+  title: "Default Title",
+};
+
+export default Header;
+```
+
+### Passing data between components
+- We *CANNOT directly pass data between children components*.
+	- ![[attachments/Pasted image 20230316131214.png]]
+- If we want to pass data between 2 child components we will have to *move the state to the parent component* and then *pass these states as props to the child components*.
+	- ![[attachments/Pasted image 20230316131404.png]]
+- I think the main reason react does this is because if we were to pass data between child components directly there is no way for React to know which parent components should be updated.
+- Also there is *no way to pass data upwards*.
+- We can manage global state using context.
+- This way of passing data from the parent component to the child component is known as **prop drilling**.
+
+> [!note]- Data flows in react from top to bottom. 
+> - But try to limit the state to the components that need it. There is no need to initialise all the states at the top of the tree if the lower components don't need it.
+> - **Keep state as local as you can** i.e. only to the components that need it.
