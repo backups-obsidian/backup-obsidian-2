@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "CSS - Flexbox",
+      "path": "100 study-notes/116 CSS/CSS - Flexbox.md"
+    },
+    {
+      "basename": "116 CSS Index",
+      "path": "100 study-notes/116 CSS/116 CSS Index.md"
+    },
+    {
+      "basename": "CSS - Dev Tools",
+      "path": "100 study-notes/116 CSS/CSS - Dev Tools.md"
+    },
+    {
       "basename": "115 React Index",
       "path": "100 study-notes/115 React/115 React Index.md"
     },
@@ -11,10 +23,6 @@
     {
       "basename": "React - Router",
       "path": "100 study-notes/115 React/React - Router.md"
-    },
-    {
-      "basename": "116 CSS Index",
-      "path": "100 study-notes/116 CSS/116 CSS Index.md"
     },
     {
       "basename": "React - Styling",
@@ -67,10 +75,6 @@
     {
       "basename": "Full Stack - Authentication",
       "path": "100 study-notes/117 Full Stack Development/Full Stack - Authentication.md"
-    },
-    {
-      "basename": "CSS - Dev Tools",
-      "path": "100 study-notes/116 CSS/CSS - Dev Tools.md"
     },
     {
       "basename": "100 home",
@@ -195,10 +199,6 @@
     {
       "basename": "CloudFront SOA",
       "path": "100 study-notes/114 AWS SOA/CloudFront SOA.md"
-    },
-    {
-      "basename": "Config",
-      "path": "100 study-notes/101 AWS SAA/Config.md"
     }
   ],
   "omittedPaths": [],
