@@ -1,16 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "CSS - Flexbox",
-      "path": "100 study-notes/116 CSS/CSS - Flexbox.md"
+      "basename": "CSS - Dev Tools",
+      "path": "100 study-notes/116 CSS/CSS - Dev Tools.md"
     },
     {
       "basename": "116 CSS Index",
       "path": "100 study-notes/116 CSS/116 CSS Index.md"
     },
     {
-      "basename": "CSS - Dev Tools",
-      "path": "100 study-notes/116 CSS/CSS - Dev Tools.md"
+      "basename": "React - Event Listeners",
+      "path": "100 study-notes/115 React/React - Event Listeners.md"
     },
     {
       "basename": "115 React Index",
@@ -19,6 +19,10 @@
     {
       "basename": "React - Context API",
       "path": "100 study-notes/115 React/React - Context API.md"
+    },
+    {
+      "basename": "CSS - Flexbox",
+      "path": "100 study-notes/116 CSS/CSS - Flexbox.md"
     },
     {
       "basename": "React - Router",
@@ -55,10 +59,6 @@
     {
       "basename": "React - Conditional Rendering",
       "path": "100 study-notes/115 React/React - Conditional Rendering.md"
-    },
-    {
-      "basename": "React - Event Listeners",
-      "path": "100 study-notes/115 React/React - Event Listeners.md"
     },
     {
       "basename": "React - Introduction & JSX",

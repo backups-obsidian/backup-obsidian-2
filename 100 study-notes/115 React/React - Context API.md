@@ -1,6 +1,6 @@
 ---
 created: 2023-03-26 20:56
-updated: 2023-03-26 21:34
+updated: 2023-03-30 17:37
 ---
 ---
 **Links**: [[115 React Index]]
@@ -31,7 +31,7 @@ export const AppContext = createContext(null);
 const Parent = () => {
   const [userName, setUserName] = useState(0);
   return (
-    <AppContext.Provider state={{ userName, setUserName }}>
+    <AppContext.Provider value={{ userName, setUserName }}>
       <Child />
     </AppContext.Provider>
   );

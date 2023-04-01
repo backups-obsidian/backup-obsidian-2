@@ -58,7 +58,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 study-notes/116 CSS/CSS - Flexbox.md",
+                "file": "100 study-notes/116 CSS/CSS - Dev Tools.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/116 CSS/CSS - Flexbox.md",
+                "file": "100 study-notes/116 CSS/CSS - Dev Tools.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/116 CSS/CSS - Flexbox.md"
+                "file": "100 study-notes/116 CSS/CSS - Dev Tools.md"
               }
             }
           },
@@ -169,7 +169,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/116 CSS/CSS - Flexbox.md",
+                "file": "100 study-notes/116 CSS/CSS - Dev Tools.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -238,14 +238,14 @@
   "active": "4bb4564b51d8ab04",
   "lastOpenFiles": [
     "100 study-notes/116 CSS/116 CSS Index.md",
-    "100 study-notes/116 CSS/CSS - Dev Tools.md",
+    "100 study-notes/115 React/React - Event Listeners.md",
     "100 study-notes/115 React/115 React Index.md",
     "100 study-notes/115 React/React - Context API.md",
+    "100 study-notes/116 CSS/CSS - Flexbox.md",
+    "100 study-notes/116 CSS/CSS - Dev Tools.md",
     "100 study-notes/115 React/React - Router.md",
     "100 study-notes/115 React/React - Styling.md",
     "100 study-notes/115 React/React - Props.md",
-    "100 study-notes/115 React/React - State (useState).md",
-    "100 study-notes/115 React/React - Components.md",
-    "100 study-notes/115 React/React - Arrays.md"
+    "100 study-notes/115 React/React - State (useState).md"
   ]
 }
