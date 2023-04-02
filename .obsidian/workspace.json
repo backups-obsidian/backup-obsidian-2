@@ -51,22 +51,9 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "4bb4564b51d8ab04",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100 study-notes/116 CSS/CSS - Dev Tools.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -142,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/116 CSS/CSS - Dev Tools.md",
+                "file": "100 study-notes/116 CSS/116 CSS Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/116 CSS/CSS - Dev Tools.md"
+                "file": "100 study-notes/116 CSS/116 CSS Index.md"
               }
             }
           },
@@ -169,7 +156,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/116 CSS/CSS - Dev Tools.md",
+                "file": "100 study-notes/116 CSS/116 CSS Index.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -235,14 +222,14 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "4bb4564b51d8ab04",
+  "active": "abfe8865dbdded4b",
   "lastOpenFiles": [
+    "100 study-notes/115 React/115 React Index.md",
+    "100 study-notes/116 CSS/CSS - Dev Tools.md",
     "100 study-notes/116 CSS/116 CSS Index.md",
     "100 study-notes/115 React/React - Event Listeners.md",
-    "100 study-notes/115 React/115 React Index.md",
     "100 study-notes/115 React/React - Context API.md",
     "100 study-notes/116 CSS/CSS - Flexbox.md",
-    "100 study-notes/116 CSS/CSS - Dev Tools.md",
     "100 study-notes/115 React/React - Router.md",
     "100 study-notes/115 React/React - Styling.md",
     "100 study-notes/115 React/React - Props.md",
