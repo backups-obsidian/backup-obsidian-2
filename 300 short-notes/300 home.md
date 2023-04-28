@@ -1,6 +1,6 @@
 ---
 created: 2022-04-16 16:39
-updated: 2023-03-08 17:42
+updated: 2023-04-11 17:37
 ---
 ---
 **Links**:  [[../000 home|000 Home]]
@@ -20,7 +20,6 @@ updated: 2023-03-08 17:42
 [[Difference between REST & HTTP API]]
 [[YAML]]
 [[Bash Scripting]]
-[[Strict mode in bash]]
 [[nmap]]
 [[Neovim]]
 [[Development Setup]]

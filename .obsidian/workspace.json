@@ -8,43 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1a369a2bcb8ced60",
+            "id": "a9da66015940b3a6",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 study-notes/114 AWS SOA/114 AWS SOA Index.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "425f0e098ad203bd",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100 study-notes/114 AWS SOA/SOA Extra Notes.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "abfe8865dbdded4b",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100 study-notes/116 CSS/116 CSS Index.md",
+                "file": "100 study-notes/101 AWS SAA/IAM Basics.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -52,8 +22,7 @@
               "pinned": true
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -72,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "path:saa \"pending\"",
+                "query": "pipefail",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -107,8 +76,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -129,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/116 CSS/116 CSS Index.md",
+                "file": "100 study-notes/101 AWS SAA/IAM Basics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/116 CSS/116 CSS Index.md"
+                "file": "100 study-notes/101 AWS SAA/IAM Basics.md"
               }
             }
           },
@@ -156,7 +124,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/116 CSS/116 CSS Index.md",
+                "file": "100 study-notes/101 AWS SAA/IAM Basics.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -222,17 +190,31 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "abfe8865dbdded4b",
+  "active": "6a3fc1de25fdf96a",
   "lastOpenFiles": [
+    "200 general-notes/How to use Tmux.md",
+    "200 general-notes/attachments/Pasted image 20230428080712.png",
+    "200 general-notes/attachments/Pasted image 20230428080506.png",
+    "100 study-notes/101 AWS SAA/IAM Basics.md",
+    "200 general-notes/200 home.md",
+    "300 short-notes/300 home.md",
+    "100 study-notes/115 React/React - Side Effects (useEffect).md",
     "100 study-notes/115 React/115 React Index.md",
-    "100 study-notes/116 CSS/CSS - Dev Tools.md",
+    "100 study-notes/115 React/React - Introduction & JSX.md",
     "100 study-notes/116 CSS/116 CSS Index.md",
+    "100 study-notes/116 CSS/CSS - Images.md",
+    "100 study-notes/115 React/React - Arrays.md",
+    "100 study-notes/104 Linux/Linux - Bash strict mode - set commands.md",
+    "100 study-notes/115 React/React - Router.md",
+    "100 study-notes/104 Linux/Linux - Bash strict mode.md",
+    "300 short-notes/Bash Scripting.md",
+    "300 short-notes/Strict mode in bash.md",
+    "100 study-notes/101 AWS SAA/101 AWS SAA Index.md",
+    "100 study-notes/101 AWS SAA/Introduction.md",
+    "100 study-notes/116 CSS/CSS - Dev Tools.md",
     "100 study-notes/115 React/React - Event Listeners.md",
     "100 study-notes/115 React/React - Context API.md",
     "100 study-notes/116 CSS/CSS - Flexbox.md",
-    "100 study-notes/115 React/React - Router.md",
-    "100 study-notes/115 React/React - Styling.md",
-    "100 study-notes/115 React/React - Props.md",
-    "100 study-notes/115 React/React - State (useState).md"
+    "100 study-notes/115 React/React - Styling.md"
   ]
 }
