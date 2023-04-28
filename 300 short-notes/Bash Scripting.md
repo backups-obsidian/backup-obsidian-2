@@ -1,11 +1,10 @@
 ---
 created: 2022-11-28 16:02
-updated: 2022-11-28 19:51
+updated: 2023-04-11 17:37
 ---
 ---
 **Links**: 
 - [[300 home]]
-- [[Strict mode in bash]]
 
 ---
 ## Bash Scripting
