@@ -1,6 +1,6 @@
 ---
 created: 2022-09-13 16:17
-updated: 2022-11-13 09:29
+updated: 2023-05-03 08:30
 ---
 ---
 **Links**: 
@@ -94,5 +94,5 @@ updated: 2022-11-13 09:29
 # Questions
 - [ ] We know any pod and communicate with any other pod on the cluster using IPs. Does each pod have a unique DNS name without a service? 
 	- [ ] I have written something about headless services in statefulsets and pod dns names but I am not clear about it.
-
----
+- [ ] How to determine the resources required by each pod so that I can specify it in deployment definition file
+- [ ] What is kustomize or something similar to that?

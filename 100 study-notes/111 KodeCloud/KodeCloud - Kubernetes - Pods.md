@@ -1,6 +1,6 @@
 ---
 created: 2022-10-10 15:33
-updated: 2022-10-10 15:33
+updated: 2023-05-03 09:12
 ---
 ---
 **Links**: [[111 KodeCloud Index]]
@@ -19,6 +19,8 @@ updated: 2022-10-10 15:33
 > [!note]- Multiple containers in a pod can communicate with each other directly by *referring to each other as localhost* since they share the same network space.
 > They can also easily share the same storage space.
 
+- Command for getting resources: `k get <resource-name>`
+	- `k get pods`
 - Creating and running a pod: `k run <pod-name> --image=<image>`
 - Describing things: `k describe <resource-type>/<resource-name>`
 
@@ -51,13 +53,13 @@ updated: 2022-10-10 15:33
 apiVersion: vl
 kind: Pod
 metadata:
-	name myapp-pod # name of the pod
+	name: myapp-pod # name of the pod
 	labels:
 		app: myapp
 		type: front-end
 spec:
 	containers: # container is an array of objects since we can have multiple containers in a pod
-		- name: nginx-container # name of the image
+		- name: nginx-container # name of the container
 		  image: nginx
 ```
 

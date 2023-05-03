@@ -1,13 +1,13 @@
 ---
 created: 2022-10-10 15:35
-updated: 2022-10-10 15:35
+updated: 2023-05-03 09:15
 ---
 ---
 **Links**: [[111 KodeCloud Index]]
 
 ---
 ## Networking
-> [!tip]- In Docker an IP address is assigned to a container whereas in k8s IP address is always assigned to a pod.
+> [!tip]- In Docker an IP address is assigned to a container whereas in k8s **IP address is always assigned to a pod**.
 
 - When k8s is initially configured an *internal private network* is configured with the address range of `10.244.0.0` and all the pods are attached to it.
 	- When we deploy multiple pods they are assigned a specific IP address from this address.
@@ -30,21 +30,26 @@ updated: 2022-10-10 15:35
 
 - Once setup they are responsible for managing the networking.
 	- It assigns different network address for each network in the node thereby creating a virtual  network.
+	- Notice that *different nodes have different network ranges*.
 	- ![[attachments/Pasted image 20220921220832.png]]
 
 - Different ways of accessing the pod inside k8s cluster
-	- ![[attachments/Pasted image 20220921221154.png]]
-	- ![[attachments/Pasted image 20220921221229.png]] : Node port service
+	- SSH into the worker node
+		- ![[attachments/Pasted image 20220921221154.png]]
+	- Using a node port service:
+		- ![[attachments/Pasted image 20220921221229.png]]
 
+## Services
 - Different service types
 	- ![[attachments/Pasted image 20220921221406.png]]
+	- NodePort: Pods are made accessible on a port on the node.
 
 > [!tip]+ TargetPort is the port of the pod to which the service forwards the request.
 > In short TargetPort is the target for the service.
 > *All the terms are from the view point of the service*.
 > ![[attachments/Pasted image 20220921222726.png]]
 
-- In a service definition file the only mandatory field is port. 
+- In a service definition file the *only mandatory field is port*. 
 	- If you don't provide NodePort it is assigned by k8s
 	- If you don't provide TargetPort it is assumed to be same as Port.
 	- *Ports is an array and we can have multiple such port mappings*.
@@ -62,10 +67,17 @@ spec:
 	 - targetPort: 80
 	   port: 80
 	   nodePort: 30008
-	# no match labels key inside selector like we had in ReplicaSet
+	# no matchLabels key inside selector like we had in ReplicaSet
 	selector:
 		app: myapp
 ```
+
+- **Whenever we create a NodePort a ClusterIP is automatically created for us**.
+	- ![[attachments/Pasted image 20230503091452.png]]
+
+> [!note] The **selector labels in the service should match the labels of the pod**.
+> ![[attachments/Pasted image 20230503090705.png]]
+> If we are using a deployment then the pod definition and its labels will be under the `spec` section of the of deployment manifest.
 
 - Service acts as a *load balancer with a random algorithm* with a SessionAffinity set to Yes.
 - What happens when pods are distributed across nodes?

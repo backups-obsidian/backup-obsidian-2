@@ -1,6 +1,6 @@
 ---
 created: 2022-09-23 18:22
-updated: 2022-09-23 22:14
+updated: 2023-05-03 10:00
 ---
 ---
 **Links**: [[111 KodeCloud Index]]
@@ -10,7 +10,7 @@ updated: 2022-09-23 22:14
 ### Using `env`
 - Environment variables is an array.
 ```yaml
-apiVersion: vl
+apiVersion: v1
 kind: Pod
 metadata:
 	name: simple-webapp-color
@@ -21,13 +21,14 @@ spec:
 	  ports:
 		- containerPort: 8080
 	  env:
-		- name: APP COLOR
+		- name: APP_COLOR
 		  value: pink
 ```
 
 - **Other ways of specifying env variables are using *ConfigMaps* & *Secrets***.
 - The only difference is that instead of specifying `value` we specify `valueFrom` in case of Secrets & ConfigMaps
 	- ![[attachments/Pasted image 20220923182038.png]]
+	- In the above examples we are only populating a specific environment variable (`APP_COLOR`) from the ConfigMap or Secret and not all the environment variables present in ConfigMap or Secret.
 
 ### Using ConfigMaps
 > [!question]- What is the use of ConfigMaps if we specify `env` variables in the definition file?
@@ -74,12 +75,12 @@ data:
 - Decoding base64 values: `echo -n "<base64-encoded>" | base64 --decode`
 - Sample secret file:
 ```yaml
-apiVersion: vl
+apiVersion: v1
 kind: Secret
 metadata:
 	name: app-secret
 data:
-	DB_Host: bXlzcWw=
+	DB_Host: bXlzcWw= # base 64 encoded values
 	DB_User: cm9vdA==
 	DB_Password: cGFzd3Jk
 ```
