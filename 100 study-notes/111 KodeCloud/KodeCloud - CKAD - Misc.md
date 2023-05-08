@@ -1,6 +1,6 @@
 ---
 created: 2022-09-23 16:03
-updated: 2022-10-11 00:03
+updated: 2023-05-08 12:40
 ---
 ---
 **Links**: [[111 KodeCloud Index]]
@@ -36,7 +36,8 @@ updated: 2022-10-11 00:03
 - We can remove the headers from the output of any command using: 
 	- `k <command> --no-headers`
 
-> [!caution]+ If we want to get the *short names* or *api version* or *kind* or find out *whether they are namespaced* or not we can use `k api-resources`
+> [!caution]- If we want to get the *short names* or *api version* or *kind* or find out *whether they are namespaced* or not we can use `k api-resources`
+> Long form: `k api-resource -o wide`
 
 > [!question]- What happens when you do `k get pods`
 > - The request goes to the kubeapi-server.

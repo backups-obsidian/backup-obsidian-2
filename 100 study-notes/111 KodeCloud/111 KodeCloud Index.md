@@ -1,6 +1,6 @@
 ---
 created: 2022-09-13 16:17
-updated: 2023-05-05 17:20
+updated: 2023-05-08 13:03
 ---
 ---
 **Links**: 
@@ -19,15 +19,16 @@ updated: 2023-05-05 17:20
 [[../104 Linux/Using openssl | Using openssl]]
 
 ## Kubernetes
+
+### Introduction & Basics
 [[../110 Kubernetes/Kubernetes - Introduction|Kubernetes - Introduction]]
 [[../110 Kubernetes/Kubernetes - Components of k8s & their function|Kubernetes - Components of k8s & their function]]
-
-### Beginner
 [[KodeCloud - Kubernetes - Pods]]
 [[KodeCloud - Kubernetes - ReplicaSets]]
 [[KodeCloud - Kubernetes - Deployments]]
 [[KodeCloud - Kubernetes - Networking and Services]]
 [[../110 Kubernetes/Kubernetes - Chain of events behind running a pod|Kubernetes - Chain of events behind running a pod]]
+[[Kubernetes - Objects and Resources]]
 
 ### CKAD
 [[KodeCloud - CKAD - Misc]]
@@ -95,6 +96,7 @@ updated: 2023-05-05 17:20
 ### Self
 - [[Kubernetes - Logging]]
 - [[Kubernetes - Dumping Ground]]
+- [[Kubernetes - Controllers]]
 
 # Questions
 - [ ] We know any pod and communicate with any other pod on the cluster using IPs. Does each pod have a unique DNS name without a service? 
@@ -107,3 +109,8 @@ updated: 2023-05-05 17:20
 - [ ] Crossplane (IaaC)
 - [ ] Kubernetes is a control plane to manage stuff with extensive API backed by controllers.
 - [ ] What is a CNI?
+
+# Read Later
+- [Kubernetes Tutorials For Beginners [43 Comprehensive Guides] (devopscube.com)](https://devopscube.com/kubernetes-tutorials-beginners/)
+	- [Etcd Backup And Restore On Kubernetes Cluster [Tutorial] (devopscube.com)](https://devopscube.com/backup-etcd-restore-kubernetes/)
+- [Kubernetes API Basics - Resources, Kinds, and Objects (iximiuz.com)](https://iximiuz.com/en/posts/kubernetes-api-structure-and-terminology/)
