@@ -43,7 +43,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Network Policies.md",
+                "file": "100 study-notes/111 KodeCloud/Kubernetes - Objects and Resources.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -51,7 +51,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -135,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Network Policies.md",
+                "file": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Network Policies.md"
+                "file": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md"
               }
             }
           },
@@ -162,7 +162,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Network Policies.md",
+                "file": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -228,43 +228,42 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "b6ed088622e954f0",
+  "active": "f4ee7e741c998fd8",
   "lastOpenFiles": [
+    "100 study-notes/111 KodeCloud/Kubernetes - Objects and Resources.md",
     "100 study-notes/111 KodeCloud/111 KodeCloud Index.md",
+    "100 study-notes/111 KodeCloud/Kubernetes - Controllers.md",
+    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230508125952.png",
+    "100 study-notes/110 Kubernetes/Kubernetes - Chain of events behind running a pod.md",
+    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230508125256.png",
+    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230508125118.png",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Misc.md",
+    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230508123513.png",
     "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Ingress.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Volumes.md",
+    "100 study-notes/110 Kubernetes/Kubernetes - Components of k8s & their function.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Network Policies.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKAD - RBAC.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKAD - API Groups.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKAD - KubeConfig.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Helm Charts.md",
     "100 study-notes/110 Kubernetes/Kubernetes - StatefulSet.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKAD - StatefulSets.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Volumes.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Network Policies.md",
     "100 study-notes/111 KodeCloud/attachments/Pasted image 20230505160833.png",
     "100 study-notes/111 KodeCloud/attachments/Pasted image 20230505160814.png",
     "100 study-notes/111 KodeCloud/attachments/Pasted image 20230505160748.png",
     "100 study-notes/111 KodeCloud/attachments/Pasted image 20230505160725.png",
     "100 study-notes/111 KodeCloud/attachments/Pasted image 20230505160512.png",
     "100 study-notes/111 KodeCloud/attachments/Pasted image 20230505160153.png",
-    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230505154839.png",
-    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230505154019.png",
-    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230505153754.png",
-    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230505153706.png",
     "100 study-notes/111 KodeCloud/Kubernetes - Dumping Ground.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Misc.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Namespaces.md",
     "100 study-notes/111 KodeCloud/KodeCloud - Kubernetes - Networking and Services.md",
     "100 study-notes/110 Kubernetes/Kubernetes - Services Deep Dive.md",
     "100 study-notes/110 Kubernetes/110 Kubernetes Index.md",
-    "100 study-notes/110 Kubernetes/Kubernetes - Chain of events behind running a pod.md",
     "100 study-notes/110 Kubernetes/Kubernetes - Networking.md",
     "100 study-notes/110 Kubernetes/Kubernetes - What are containers.md",
     "100 study-notes/110 Kubernetes/Kubernetes - Monitoring.md",
     "100 study-notes/110 Kubernetes/Kubernetes - Using configuration files.md",
-    "100 study-notes/110 Kubernetes/Kubernetes - Logical Components.md",
-    "100 study-notes/110 Kubernetes/Kubernetes - Components of k8s & their function.md",
-    "100 study-notes/110 Kubernetes/Kubernetes - Introduction.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Jobs.md",
-    "100 study-notes/101 AWS SAA/EC2 Basics.md"
+    "100 study-notes/110 Kubernetes/Kubernetes - Logical Components.md"
   ]
 }

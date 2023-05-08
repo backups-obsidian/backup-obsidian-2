@@ -1,16 +1,40 @@
 {
   "recentFiles": [
     {
-      "basename": "KodeCloud - CKAD - Network Policies",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Network Policies.md"
-    },
-    {
       "basename": "111 KodeCloud Index",
       "path": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md"
     },
     {
+      "basename": "Kubernetes - Objects and Resources",
+      "path": "100 study-notes/111 KodeCloud/Kubernetes - Objects and Resources.md"
+    },
+    {
+      "basename": "Kubernetes - Controllers",
+      "path": "100 study-notes/111 KodeCloud/Kubernetes - Controllers.md"
+    },
+    {
+      "basename": "Kubernetes - Chain of events behind running a pod",
+      "path": "100 study-notes/110 Kubernetes/Kubernetes - Chain of events behind running a pod.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Misc",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Misc.md"
+    },
+    {
       "basename": "KodeCloud - CKAD - Ingress",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Ingress.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Volumes",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Volumes.md"
+    },
+    {
+      "basename": "Kubernetes - Components of k8s & their function",
+      "path": "100 study-notes/110 Kubernetes/Kubernetes - Components of k8s & their function.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Network Policies",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Network Policies.md"
     },
     {
       "basename": "KodeCloud - CKAD - RBAC",
@@ -37,16 +61,8 @@
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - StatefulSets.md"
     },
     {
-      "basename": "KodeCloud - CKAD - Volumes",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Volumes.md"
-    },
-    {
       "basename": "Kubernetes - Dumping Ground",
       "path": "100 study-notes/111 KodeCloud/Kubernetes - Dumping Ground.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - Misc",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Misc.md"
     },
     {
       "basename": "KodeCloud - CKAD - Namespaces",
@@ -63,10 +79,6 @@
     {
       "basename": "110 Kubernetes Index",
       "path": "100 study-notes/110 Kubernetes/110 Kubernetes Index.md"
-    },
-    {
-      "basename": "Kubernetes - Chain of events behind running a pod",
-      "path": "100 study-notes/110 Kubernetes/Kubernetes - Chain of events behind running a pod.md"
     },
     {
       "basename": "Kubernetes - Networking",
@@ -87,10 +99,6 @@
     {
       "basename": "Kubernetes - Logical Components",
       "path": "100 study-notes/110 Kubernetes/Kubernetes - Logical Components.md"
-    },
-    {
-      "basename": "Kubernetes - Components of k8s & their function",
-      "path": "100 study-notes/110 Kubernetes/Kubernetes - Components of k8s & their function.md"
     },
     {
       "basename": "Kubernetes - Introduction",
@@ -191,14 +199,6 @@
     {
       "basename": "300 home",
       "path": "300 short-notes/300 home.md"
-    },
-    {
-      "basename": "React - Side Effects (useEffect)",
-      "path": "100 study-notes/115 React/React - Side Effects (useEffect).md"
-    },
-    {
-      "basename": "115 React Index",
-      "path": "100 study-notes/115 React/115 React Index.md"
     }
   ],
   "omittedPaths": [],

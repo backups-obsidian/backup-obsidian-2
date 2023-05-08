@@ -1,6 +1,6 @@
 ---
 created: 2022-09-23 17:15
-updated: 2022-10-02 11:57
+updated: 2023-05-08 08:14
 ---
 ---
 **Links**: [[111 KodeCloud Index]]
@@ -17,7 +17,7 @@ updated: 2022-10-02 11:57
 	- Ingress resources are also created using definition files.
 
 - **A k8s cluster DOES NOT come with an ingress controller by default**.
-	- So if you simple create ingress resources and expect them to work then they won't.
+	- So if you simply create ingress resources and expect them to work then they won't.
 
 - An ingress controller is deployed just as an ordinary deployment.
 - Once we have deployed the ingress controller, we need a service to expose it to the outside world.
@@ -121,7 +121,7 @@ spec:
 - We must configure Ingress to achieve the below. 
 	- When user visits the URL, *his request should be forwarded internally to the URL on the right*. 
 
-> [!caution]- **Note that the `/watch` and `/wear` URL path are what we configure on the ingress controller so we can forwarded users to the appropriate application in the backend**. The *applications don’t have this URL/Path configured on them*.
+> [!caution]- **Note that the `/watch` and `/wear` URL path are what we configure on the ingress controller so we can forward users to the appropriate application in the backend**. The *applications don’t have this URL/Path configured on them*.
 > - `http://<ingress-service>:<ingress-port>/watch` –> `http://<watch-service>:<port>/`
 > - `http://<ingress-service>:<ingress-port>/wear` –> `http://<wear-service>:<port>/`
 
