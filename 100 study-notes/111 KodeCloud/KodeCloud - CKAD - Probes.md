@@ -1,6 +1,6 @@
 ---
 created: 2022-09-23 17:15
-updated: 2022-09-26 13:28
+updated: 2023-05-03 18:14
 ---
 ---
 **Links**: [[111 KodeCloud Index]]
@@ -20,7 +20,8 @@ updated: 2022-09-26 13:28
 	- It continues in this state until the program completes successfully or is terminated.
 
 > [!important]- At any point in time in a pod's lifecycle its status can be *only one of these values*.
-> It only gives high level summary of a pod.
+> - It only gives high level summary of a pod.
+> - Pending -> ContainerCreating -> Running
 
 ### Pod Conditions
 - Pod conditions complement pod status.
@@ -60,8 +61,8 @@ apiVersion: v1
 kind: Pod
 metadata:
 	name: simple-webapp
-labels:
-	name: simple-webapp
+	labels:
+		name: simple-webapp
 spec:
 	containers:
 	- name: simple-webapp
@@ -79,7 +80,7 @@ spec:
 
 - Different ways of configuring the readiness probe
 	- ![[attachments/Pasted image 20220926123609.png]]
-	- If we know our application will take 10s to warm up we can add an initial delay to the probe.
+	- *If we know our application will take 10s to warm up we can add an initial delay to the probe*.
 	- We can specify how often to probe.
 - *By default if an application is not ready after **3** attempts the probe will stop*.
 	- We can choose to make more attempts by increasing the failure threshold.
@@ -91,7 +92,7 @@ spec:
 	- Some application users will face down time.
 	- This can be avoided if we use readiness probe because now the pod will only be added to service only if readiness probe is true.
 
-## Liveness Probe
+## Liveness Probes
 - When an *application in a container crashes k8s restarts the the container*. 
 - We can have a scenario where the application stops working (freezes) but the container continues to stay alive.
 	- May be due to a bug in the code the application is stuck in infinite loop.
@@ -131,4 +132,11 @@ spec:
 	- We have the same options as readiness probe
 	- ![[attachments/Pasted image 20220926130603.png]]
 
-> [!caution]- Readiness and Liveness probes are *added at the container level* so that we can have different probes for different containers.
+> [!caution] Readiness and Liveness probes are **added at the container level** so that we can have different probes for different containers.
+
+- Both Liveness and Readiness probes **are run periodically** as defined by the `periodSeconds` attribute.
+- If the pod is NOT healthy then the Kubelet component on the node restarts the pod.
+
+> [!note]- Difference between Readiness and Liveness probes.
+> - Readiness probes affect the Ready state of the pod.
+> - In case of Liveness probes it restarts the pod where as Readiness probe just changes the Ready state of the pod which means no traffic is sent to it by the service.

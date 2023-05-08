@@ -1,6 +1,6 @@
 ---
 created: 2022-09-26 16:37
-updated: 2022-09-26 22:55
+updated: 2023-05-04 12:12
 ---
 ---
 **Links**: [[111 KodeCloud Index]]
@@ -22,7 +22,7 @@ kind: Pod
 metadata:
 	name: simple-webapp
 	labels:
-		app: Appl
+		app: App1
 		function: Front-end
 spec:
 	containers:
@@ -47,15 +47,16 @@ spec:
 ## Annotations
 - While labels and selectors are used to group and select objects whereas annotations are used to attach arbitrary **non-identifying metadata** (k8s doesn't care about this data) to objects.
 	- **Clients such as tools and libraries can retrieve this metadata and can retrieve it for configuration**. For example ingress controllers.
+- Annotations are present in the metadata and they are defined on the same level as labels.
 
-> [!important]- You can use *either labels or annotations to attach metadata to Kubernetes objects*. Labels can be used to select objects and to find collections of objects that satisfy certain conditions. In contrast, **annotations are not used to identify and select objects**.
+> [!important] You can use *either labels or annotations to attach metadata to Kubernetes objects*. Labels can be used to select objects and to find collections of objects that satisfy certain conditions. In contrast, **annotations are not used to identify and select objects**.
 
 - Annotations are also key-value pairs (similar to labels) that can be used to *store the **unstructured information** pertaining to the Kubernetes objects*.
-	- Annotations can be used to add timestamps, commit SHA, issue tracker links, or names/information about users who are responsible for specific objects in an organisation.
+	- Annotations can be used to add timestamps, commit SHA, issue tracker links, or names/information about users who are responsible for specific objects in an organization.
 	- Annotations can also be used to *add information about client libraries or tools*.
 
 > [!note]- Labels are for k8s while annotations are for humans.
-> - Labels have some constraints, annotations have no constraints.
+> - Labels have some constraints (like they must be limited to 63 characters), annotations have no constraints.
 
 > [!caution]- While annotations do not inherently imply semantics to the Kubernetes core, it is still *possible for them to affect operation in some cases*. 
 > - A good example of this is with the NGINX Ingress controller (along with other ones). 

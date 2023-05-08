@@ -14,22 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 study-notes/101 AWS SAA/IAM Basics.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "1d0e91d61390cf72",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100 study-notes/110 Kubernetes/110 Kubernetes Index.md",
+                "file": "100 study-notes/101 AWS SAA/EC2 Basics.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -58,7 +43,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Taints and Tolerations.md",
+                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Network Policies.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -66,7 +51,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -119,6 +104,14 @@
               "type": "recent-files",
               "state": {}
             }
+          },
+          {
+            "id": "8886b9cfb11048cb",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ],
         "currentTab": 1
@@ -142,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Taints and Tolerations.md",
+                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Network Policies.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Taints and Tolerations.md"
+                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Network Policies.md"
               }
             }
           },
@@ -169,7 +162,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Taints and Tolerations.md",
+                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Network Policies.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -238,39 +231,40 @@
   "active": "b6ed088622e954f0",
   "lastOpenFiles": [
     "100 study-notes/111 KodeCloud/111 KodeCloud Index.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Service Accounts.md",
-    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230503144354.png",
-    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230503140317.png",
-    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230503135854.png",
-    "100 study-notes/110 Kubernetes/110 Kubernetes Index.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Resource Limits.md",
-    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230503104048.png",
-    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230503103921.png",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Misc.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Security Context.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Environment Variables.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Commands and Arguments.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Namespaces.md",
-    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230503093221.png",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKA - Kubeproxy.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Ingress.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - RBAC.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - API Groups.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - KubeConfig.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Helm Charts.md",
+    "100 study-notes/110 Kubernetes/Kubernetes - StatefulSet.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKAD - StatefulSets.md",
-    "100 study-notes/110 Kubernetes/Kubernetes - Networking.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Volumes.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Network Policies.md",
+    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230505160833.png",
+    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230505160814.png",
+    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230505160748.png",
+    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230505160725.png",
+    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230505160512.png",
+    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230505160153.png",
+    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230505154839.png",
+    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230505154019.png",
+    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230505153754.png",
+    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230505153706.png",
+    "100 study-notes/111 KodeCloud/Kubernetes - Dumping Ground.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Misc.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Namespaces.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - Kubernetes - Networking and Services.md",
+    "100 study-notes/110 Kubernetes/Kubernetes - Services Deep Dive.md",
+    "100 study-notes/110 Kubernetes/110 Kubernetes Index.md",
     "100 study-notes/110 Kubernetes/Kubernetes - Chain of events behind running a pod.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - Kubernetes - Networking.md",
-    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230503091452.png",
-    "100 study-notes/111 KodeCloud/KodeCloud - Kubernetes - ReplicaSets.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - Kubernetes - Pods.md",
-    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230503090705.png",
-    "100 study-notes/111 KodeCloud/KodeCloud - Kubernetes - Deployments.md",
-    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230503083254.png",
-    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230503081815.png",
-    "300 short-notes/YAML.md",
-    "100 study-notes/101 AWS SAA/IAM Basics.md",
-    "200 general-notes/How to use Tmux.md",
-    "200 general-notes/200 home.md",
-    "300 short-notes/300 home.md",
-    "100 study-notes/115 React/React - Side Effects (useEffect).md",
-    "100 study-notes/115 React/115 React Index.md",
-    "100 study-notes/115 React/React - Introduction & JSX.md"
+    "100 study-notes/110 Kubernetes/Kubernetes - Networking.md",
+    "100 study-notes/110 Kubernetes/Kubernetes - What are containers.md",
+    "100 study-notes/110 Kubernetes/Kubernetes - Monitoring.md",
+    "100 study-notes/110 Kubernetes/Kubernetes - Using configuration files.md",
+    "100 study-notes/110 Kubernetes/Kubernetes - Logical Components.md",
+    "100 study-notes/110 Kubernetes/Kubernetes - Components of k8s & their function.md",
+    "100 study-notes/110 Kubernetes/Kubernetes - Introduction.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Jobs.md",
+    "100 study-notes/101 AWS SAA/EC2 Basics.md"
   ]
 }

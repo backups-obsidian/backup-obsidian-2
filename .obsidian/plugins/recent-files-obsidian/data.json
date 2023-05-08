@@ -1,64 +1,168 @@
 {
   "recentFiles": [
     {
-      "basename": "KodeCloud - CKAD - Taints and Tolerations",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Taints and Tolerations.md"
+      "basename": "KodeCloud - CKAD - Network Policies",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Network Policies.md"
     },
     {
       "basename": "111 KodeCloud Index",
       "path": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md"
     },
     {
-      "basename": "KodeCloud - CKAD - Service Accounts",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Service Accounts.md"
+      "basename": "KodeCloud - CKAD - Ingress",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Ingress.md"
     },
     {
-      "basename": "110 Kubernetes Index",
-      "path": "100 study-notes/110 Kubernetes/110 Kubernetes Index.md"
+      "basename": "KodeCloud - CKAD - RBAC",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - RBAC.md"
     },
     {
-      "basename": "KodeCloud - CKAD - Resource Limits",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Resource Limits.md"
+      "basename": "KodeCloud - CKAD - API Groups",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - API Groups.md"
     },
     {
-      "basename": "KodeCloud - CKAD - Misc",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Misc.md"
+      "basename": "KodeCloud - CKAD - KubeConfig",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - KubeConfig.md"
     },
     {
-      "basename": "KodeCloud - CKAD - Security Context",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Security Context.md"
+      "basename": "KodeCloud - CKAD - Helm Charts",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Helm Charts.md"
     },
     {
-      "basename": "KodeCloud - CKAD - Environment Variables",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Environment Variables.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - Commands and Arguments",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Commands and Arguments.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - Namespaces",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Namespaces.md"
-    },
-    {
-      "basename": "KodeCloud - CKA - Kubeproxy",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Kubeproxy.md"
+      "basename": "Kubernetes - StatefulSet",
+      "path": "100 study-notes/110 Kubernetes/Kubernetes - StatefulSet.md"
     },
     {
       "basename": "KodeCloud - CKAD - StatefulSets",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - StatefulSets.md"
     },
     {
-      "basename": "Kubernetes - Networking",
-      "path": "100 study-notes/110 Kubernetes/Kubernetes - Networking.md"
+      "basename": "KodeCloud - CKAD - Volumes",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Volumes.md"
+    },
+    {
+      "basename": "Kubernetes - Dumping Ground",
+      "path": "100 study-notes/111 KodeCloud/Kubernetes - Dumping Ground.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Misc",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Misc.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Namespaces",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Namespaces.md"
+    },
+    {
+      "basename": "KodeCloud - Kubernetes - Networking and Services",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - Kubernetes - Networking and Services.md"
+    },
+    {
+      "basename": "Kubernetes - Services Deep Dive",
+      "path": "100 study-notes/110 Kubernetes/Kubernetes - Services Deep Dive.md"
+    },
+    {
+      "basename": "110 Kubernetes Index",
+      "path": "100 study-notes/110 Kubernetes/110 Kubernetes Index.md"
     },
     {
       "basename": "Kubernetes - Chain of events behind running a pod",
       "path": "100 study-notes/110 Kubernetes/Kubernetes - Chain of events behind running a pod.md"
     },
     {
-      "basename": "KodeCloud - Kubernetes - Networking",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - Kubernetes - Networking.md"
+      "basename": "Kubernetes - Networking",
+      "path": "100 study-notes/110 Kubernetes/Kubernetes - Networking.md"
+    },
+    {
+      "basename": "Kubernetes - What are containers",
+      "path": "100 study-notes/110 Kubernetes/Kubernetes - What are containers.md"
+    },
+    {
+      "basename": "Kubernetes - Monitoring",
+      "path": "100 study-notes/110 Kubernetes/Kubernetes - Monitoring.md"
+    },
+    {
+      "basename": "Kubernetes - Using configuration files",
+      "path": "100 study-notes/110 Kubernetes/Kubernetes - Using configuration files.md"
+    },
+    {
+      "basename": "Kubernetes - Logical Components",
+      "path": "100 study-notes/110 Kubernetes/Kubernetes - Logical Components.md"
+    },
+    {
+      "basename": "Kubernetes - Components of k8s & their function",
+      "path": "100 study-notes/110 Kubernetes/Kubernetes - Components of k8s & their function.md"
+    },
+    {
+      "basename": "Kubernetes - Introduction",
+      "path": "100 study-notes/110 Kubernetes/Kubernetes - Introduction.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Jobs",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Jobs.md"
+    },
+    {
+      "basename": "EC2 Basics",
+      "path": "100 study-notes/101 AWS SAA/EC2 Basics.md"
+    },
+    {
+      "basename": "101 AWS SAA Index",
+      "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
+    },
+    {
+      "basename": "STS & Identity Federation",
+      "path": "100 study-notes/101 AWS SAA/STS & Identity Federation.md"
+    },
+    {
+      "basename": "IAM Basics",
+      "path": "100 study-notes/101 AWS SAA/IAM Basics.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Logging",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Logging.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Labels, Selectors and Annotations",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Labels, Selectors and Annotations.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Probes",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Probes.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Multi Container Pods",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Multi Container Pods.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Environment Variables",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Environment Variables.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Node Selectors and Node Affinity",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Node Selectors and Node Affinity.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Taints and Tolerations",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Taints and Tolerations.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Service Accounts",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Service Accounts.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Resource Limits",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Resource Limits.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Security Context",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Security Context.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Commands and Arguments",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Commands and Arguments.md"
+    },
+    {
+      "basename": "KodeCloud - CKA - Kubeproxy",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Kubeproxy.md"
     },
     {
       "basename": "KodeCloud - Kubernetes - ReplicaSets",
@@ -75,10 +179,6 @@
     {
       "basename": "YAML",
       "path": "300 short-notes/YAML.md"
-    },
-    {
-      "basename": "IAM Basics",
-      "path": "100 study-notes/101 AWS SAA/IAM Basics.md"
     },
     {
       "basename": "How to use Tmux",
@@ -99,106 +199,6 @@
     {
       "basename": "115 React Index",
       "path": "100 study-notes/115 React/115 React Index.md"
-    },
-    {
-      "basename": "React - Introduction & JSX",
-      "path": "100 study-notes/115 React/React - Introduction & JSX.md"
-    },
-    {
-      "basename": "116 CSS Index",
-      "path": "100 study-notes/116 CSS/116 CSS Index.md"
-    },
-    {
-      "basename": "CSS - Images",
-      "path": "100 study-notes/116 CSS/CSS - Images.md"
-    },
-    {
-      "basename": "React - Arrays",
-      "path": "100 study-notes/115 React/React - Arrays.md"
-    },
-    {
-      "basename": "Linux - Bash strict mode - set commands",
-      "path": "100 study-notes/104 Linux/Linux - Bash strict mode - set commands.md"
-    },
-    {
-      "basename": "React - Router",
-      "path": "100 study-notes/115 React/React - Router.md"
-    },
-    {
-      "basename": "Linux - Bash strict mode",
-      "path": "100 study-notes/104 Linux/Linux - Bash strict mode.md"
-    },
-    {
-      "basename": "Bash Scripting",
-      "path": "300 short-notes/Bash Scripting.md"
-    },
-    {
-      "basename": "101 AWS SAA Index",
-      "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
-    },
-    {
-      "basename": "Introduction",
-      "path": "100 study-notes/101 AWS SAA/Introduction.md"
-    },
-    {
-      "basename": "CSS - Dev Tools",
-      "path": "100 study-notes/116 CSS/CSS - Dev Tools.md"
-    },
-    {
-      "basename": "React - Event Listeners",
-      "path": "100 study-notes/115 React/React - Event Listeners.md"
-    },
-    {
-      "basename": "React - Context API",
-      "path": "100 study-notes/115 React/React - Context API.md"
-    },
-    {
-      "basename": "CSS - Flexbox",
-      "path": "100 study-notes/116 CSS/CSS - Flexbox.md"
-    },
-    {
-      "basename": "React - Styling",
-      "path": "100 study-notes/115 React/React - Styling.md"
-    },
-    {
-      "basename": "React - Props",
-      "path": "100 study-notes/115 React/React - Props.md"
-    },
-    {
-      "basename": "React - State (useState)",
-      "path": "100 study-notes/115 React/React - State (useState).md"
-    },
-    {
-      "basename": "React - Components",
-      "path": "100 study-notes/115 React/React - Components.md"
-    },
-    {
-      "basename": "React - Forms",
-      "path": "100 study-notes/115 React/React - Forms.md"
-    },
-    {
-      "basename": "React - Conditional Rendering",
-      "path": "100 study-notes/115 React/React - Conditional Rendering.md"
-    },
-    {
-      "basename": "117 Full Stack Index",
-      "path": "100 study-notes/117 Full Stack Development/117 Full Stack Index.md"
-    },
-    {
-      "basename": "Local Storage vs Session Storage vs Cookies",
-      "path": "100 study-notes/117 Full Stack Development/Local Storage vs Session Storage vs Cookies.md"
-    },
-    {
-      "basename": "Full Stack - Authentication",
-      "path": "100 study-notes/117 Full Stack Development/Full Stack - Authentication.md"
-    },
-    {
-      "basename": "100 home",
-      "path": "100 study-notes/100 home.md"
-    },
-    {
-      "basename": "000 home",
-      "path": "000 home.md"
     }
   ],
   "omittedPaths": [],

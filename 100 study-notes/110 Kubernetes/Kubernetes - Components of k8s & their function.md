@@ -1,6 +1,6 @@
 ---
 created: 2022-08-11 19:22
-updated: 2022-08-11 19:35
+updated: 2023-05-05 12:23
 ---
 ---
 **Links**: [[110 Kubernetes Index]]
@@ -38,5 +38,3 @@ updated: 2022-08-11 19:35
 > [!note]- We can have multiple pods on a single worker node. 
 > - So it is possible to have 3 worker nodes and 20 pods. 
 > - It is Kubernetes job (**scheduler**) to take care of resources and decide which pod should go to which worker. 
-> - Kubernetes can also create a load balancer for the pods. 
-> - This load balancer will be created in the cloud provider that you are using and you will be charged for that.

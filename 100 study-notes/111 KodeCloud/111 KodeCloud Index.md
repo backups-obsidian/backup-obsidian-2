@@ -1,6 +1,6 @@
 ---
 created: 2022-09-13 16:17
-updated: 2023-05-03 08:30
+updated: 2023-05-05 17:20
 ---
 ---
 **Links**: 
@@ -19,11 +19,15 @@ updated: 2023-05-03 08:30
 [[../104 Linux/Using openssl | Using openssl]]
 
 ## Kubernetes
+[[../110 Kubernetes/Kubernetes - Introduction|Kubernetes - Introduction]]
+[[../110 Kubernetes/Kubernetes - Components of k8s & their function|Kubernetes - Components of k8s & their function]]
+
 ### Beginner
 [[KodeCloud - Kubernetes - Pods]]
 [[KodeCloud - Kubernetes - ReplicaSets]]
 [[KodeCloud - Kubernetes - Deployments]]
-[[KodeCloud - Kubernetes - Networking]]
+[[KodeCloud - Kubernetes - Networking and Services]]
+[[../110 Kubernetes/Kubernetes - Chain of events behind running a pod|Kubernetes - Chain of events behind running a pod]]
 
 ### CKAD
 [[KodeCloud - CKAD - Misc]]
@@ -90,9 +94,16 @@ updated: 2023-05-03 08:30
 
 ### Self
 - [[Kubernetes - Logging]]
+- [[Kubernetes - Dumping Ground]]
 
 # Questions
 - [ ] We know any pod and communicate with any other pod on the cluster using IPs. Does each pod have a unique DNS name without a service? 
 	- [ ] I have written something about headless services in statefulsets and pod dns names but I am not clear about it.
 - [ ] How to determine the resources required by each pod so that I can specify it in deployment definition file
 - [ ] What is kustomize or something similar to that?
+- [ ] Install and use the metrics API server. `k top node`, `k top pods`
+- [ ] Kustomize
+- [ ] Knative (serverless)
+- [ ] Crossplane (IaaC)
+- [ ] Kubernetes is a control plane to manage stuff with extensive API backed by controllers.
+- [ ] What is a CNI?
