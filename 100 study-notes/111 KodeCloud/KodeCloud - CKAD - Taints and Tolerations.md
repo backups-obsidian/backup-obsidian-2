@@ -1,6 +1,6 @@
 ---
 created: 2022-09-15 21:09
-updated: 2022-09-24 16:44
+updated: 2023-05-03 15:15
 ---
 ---
 **Links**: [[111 KodeCloud Index]]
@@ -20,14 +20,15 @@ updated: 2022-09-24 16:44
 > [!important]- **Taints** are set on **nodes** and **tolerations** are set on **pods**.
 
 - Tainting a node:
-	- We taint a node using: `kubectl taint nodes <node-name> key=value:taint-effect`
+	- We taint a node using: `kubectl taint nodes <node-name> key=value:<taint-effect>`
 	- *Taint is a key value pair*.
 	- `taint-effect` defines what would happen to the pod if they do not tolerate the taint.
 - There are 3 different kinds of `taint-effect`
 	- ![[attachments/Pasted image 20220924161501.png]]
 	- `NoSchedule`: Pods will not be scheduled on the node.
 	- `PreferNoSchedule`: System will try to avoid placing a pod on the node. Not guaranteed.
-	- `NoExecute`: New pods will not be scheduled on the node and existing pods on the node if any will be evicted if they do not tolerate the taint. These pods may have been scheduled on the node before taint was applied to the node.
+	- `NoExecute`: New pods will not be scheduled on the node and existing pods on the node if any will be evicted if they do not tolerate the taint. 
+		- These pods may have been scheduled on the node before taint was applied to the node.
 
 - Sample pod definition file with tolerations
 ```yaml
@@ -46,7 +47,7 @@ spec:
 	  effect: "NoSchedule"
 ```
 
-- *All the values in tolerations must be enclosed within quotes"
+- *All the values in tolerations must be enclosed within quotes*.
 - The above pod definition file will tolerate the following taint: `k taint nodes node1 app=blue:NoSchedule`
 
 > [!caution]+ **Taints and tolerations does not tell the pod to go to a particular node. Instead it tells nodes to only accept pods with certain tolerations.**
@@ -59,12 +60,11 @@ spec:
 > We have a taint of `NoSchedule` hence no pods are scheduled on the master node.
 > ![[attachments/Pasted image 20220924162951.png]]
 
-- Un tainting the node: `k taint nodes <node-name> key=value:taint-effect-`
+- Untainting the node: `k taint nodes <node-name> key=value:<taint-effect>-`
 	- ![[attachments/Pasted image 20220924164243.png]]
-
 - **Removing the taint of the control plane**:
 	- `kubectl taint nodes controlplane node- role.kubernetes.io/master:NoSchedule-`
-	
+
 ### Understanding NoExecute
 - Initial scenrio:
 	- ![[attachments/Pasted image 20220924162247.png]]

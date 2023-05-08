@@ -1,6 +1,6 @@
 ---
 created: 2022-09-23 17:15
-updated: 2022-09-24 19:27
+updated: 2023-05-03 15:24
 ---
 ---
 **Links**: [[111 KodeCloud Index]]
@@ -60,9 +60,9 @@ spec:
 - There are lot of operators. Check the documentation to know more.
 
 > [!caution]- A combination of Taints & Tolerations and Node Affinity rules are used to place pods on the desired node.
-> - If we just use Taints & Tolerations then it would mean that other pods can't be placed in our node but it is possible that the required pod may not be placed in the required node.
+> - If we just use Taints & Tolerations then we have a guarantee that the no other pods will be placed in the red tainted node but it is possible that red pod might be placed on some other node.
 > ![[attachments/Pasted image 20220924184513.png]]
-> - If we just use Node Affinity then we can guarantee that the pod will go to the desired node but it is possible that other pods get placed in the desired node.
+> - If we just use Node Affinity then we can make sure that the pod gets placed in the required node but there is no stopping other pods from getting placed in that node. 
 > ![[attachments/Pasted image 20220924184659.png]]
 
 ### Different types of Node Affinity
