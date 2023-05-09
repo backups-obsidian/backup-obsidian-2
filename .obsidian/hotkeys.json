@@ -112,14 +112,14 @@
       "key": "Enter"
     }
   ],
-  "obsidian-another-quick-switcher:search-command_file-name-search": [
+  "obsidian-another-quick-switcher:search-command_file-name-search": [],
+  "obsidian-another-quick-switcher:grep": [],
+  "switcher:open": [
     {
       "modifiers": [
         "Mod"
       ],
       "key": "O"
     }
-  ],
-  "obsidian-another-quick-switcher:grep": [],
-  "switcher:open": []
+  ]
 }

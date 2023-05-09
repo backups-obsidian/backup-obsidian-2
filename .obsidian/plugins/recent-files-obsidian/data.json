@@ -1,16 +1,60 @@
 {
   "recentFiles": [
     {
+      "basename": "KodeCloud - CKAD - KubeConfig",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - KubeConfig.md"
+    },
+    {
       "basename": "111 KodeCloud Index",
       "path": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md"
     },
     {
-      "basename": "Kubernetes - Objects and Resources",
-      "path": "100 study-notes/111 KodeCloud/Kubernetes - Objects and Resources.md"
+      "basename": "KodeCloud - CKAD - Writing helm charts",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Writing helm charts.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Helm Charts",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Helm Charts.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - StatefulSets",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - StatefulSets.md"
+    },
+    {
+      "basename": "Kubernetes - StatefulSet",
+      "path": "100 study-notes/110 Kubernetes/Kubernetes - StatefulSet.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Volumes",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Volumes.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Multi Container Pods",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Multi Container Pods.md"
     },
     {
       "basename": "Kubernetes - Controllers",
       "path": "100 study-notes/111 KodeCloud/Kubernetes - Controllers.md"
+    },
+    {
+      "basename": "Kubernetes - Objects & Resources",
+      "path": "100 study-notes/111 KodeCloud/Kubernetes - Objects & Resources.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Custom Resource Definition",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Custom Resource Definition.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Ingress",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Ingress.md"
+    },
+    {
+      "basename": "Kubernetes - Components of k8s & their function",
+      "path": "100 study-notes/110 Kubernetes/Kubernetes - Components of k8s & their function.md"
+    },
+    {
+      "basename": "Kubernetes - Understanding the API",
+      "path": "100 study-notes/111 KodeCloud/Kubernetes - Understanding the API.md"
     },
     {
       "basename": "Kubernetes - Chain of events behind running a pod",
@@ -19,18 +63,6 @@
     {
       "basename": "KodeCloud - CKAD - Misc",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Misc.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - Ingress",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Ingress.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - Volumes",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Volumes.md"
-    },
-    {
-      "basename": "Kubernetes - Components of k8s & their function",
-      "path": "100 study-notes/110 Kubernetes/Kubernetes - Components of k8s & their function.md"
     },
     {
       "basename": "KodeCloud - CKAD - Network Policies",
@@ -43,22 +75,6 @@
     {
       "basename": "KodeCloud - CKAD - API Groups",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - API Groups.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - KubeConfig",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - KubeConfig.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - Helm Charts",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Helm Charts.md"
-    },
-    {
-      "basename": "Kubernetes - StatefulSet",
-      "path": "100 study-notes/110 Kubernetes/Kubernetes - StatefulSet.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - StatefulSets",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - StatefulSets.md"
     },
     {
       "basename": "Kubernetes - Dumping Ground",
@@ -137,10 +153,6 @@
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Probes.md"
     },
     {
-      "basename": "KodeCloud - CKAD - Multi Container Pods",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Multi Container Pods.md"
-    },
-    {
       "basename": "KodeCloud - CKAD - Environment Variables",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Environment Variables.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "YAML",
       "path": "300 short-notes/YAML.md"
-    },
-    {
-      "basename": "How to use Tmux",
-      "path": "200 general-notes/How to use Tmux.md"
-    },
-    {
-      "basename": "200 home",
-      "path": "200 general-notes/200 home.md"
-    },
-    {
-      "basename": "300 home",
-      "path": "300 short-notes/300 home.md"
     }
   ],
   "omittedPaths": [],

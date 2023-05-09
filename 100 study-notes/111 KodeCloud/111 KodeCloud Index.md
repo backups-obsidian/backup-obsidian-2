@@ -1,6 +1,6 @@
 ---
 created: 2022-09-13 16:17
-updated: 2023-05-08 13:03
+updated: 2023-05-08 14:11
 ---
 ---
 **Links**: 
@@ -28,7 +28,7 @@ updated: 2023-05-08 13:03
 [[KodeCloud - Kubernetes - Deployments]]
 [[KodeCloud - Kubernetes - Networking and Services]]
 [[../110 Kubernetes/Kubernetes - Chain of events behind running a pod|Kubernetes - Chain of events behind running a pod]]
-[[Kubernetes - Objects and Resources]]
+[[Kubernetes - Objects & Resources]]
 
 ### CKAD
 [[KodeCloud - CKAD - Misc]]
@@ -58,6 +58,7 @@ updated: 2023-05-08 13:03
 [[KodeCloud - CKAD - Authorisation]]
 [[KodeCloud - CKAD - RBAC]]
 [[KodeCloud - CKAD - ClusterRoles]]
+[[Kubernetes - Controllers]]
 [[KodeCloud - CKAD - Admission Controllers]]
 [[KodeCloud - CKAD - Custom Resource Definition]]
 [[KodeCloud - CKAD - Operator Framework]]
@@ -96,7 +97,7 @@ updated: 2023-05-08 13:03
 ### Self
 - [[Kubernetes - Logging]]
 - [[Kubernetes - Dumping Ground]]
-- [[Kubernetes - Controllers]]
+- [[Kubernetes - Understanding the API]]
 
 # Questions
 - [ ] We know any pod and communicate with any other pod on the cluster using IPs. Does each pod have a unique DNS name without a service? 

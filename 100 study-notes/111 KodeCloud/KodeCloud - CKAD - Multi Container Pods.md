@@ -1,6 +1,6 @@
 ---
 created: 2022-09-15 21:09
-updated: 2023-05-03 16:37
+updated: 2023-05-08 14:41
 ---
 ---
 **Links**: [[111 KodeCloud Index]]
@@ -23,6 +23,7 @@ updated: 2023-05-03 16:37
 	- Share the same *network* space which means they can **refer to each other as `localhost`**.
 	- *They have access to the same storage volume*.
 		- ![[attachments/Pasted image 20230503161935.png]]
+		- If you are having trouble understanding how volumes are being mounted, refer the following links: [[KodeCloud - CKAD - Volumes#Volumes | Volumes]] and [[KodeCloud - CKAD - Volumes#Difference between emptydir & hostpath | emptydir]]
 
 - Sample multi container pod definition file:
 ```yaml

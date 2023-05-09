@@ -1,6 +1,6 @@
 ---
 created: 2022-09-15 21:09
-updated: 2022-10-10 13:48
+updated: 2023-05-08 14:29
 ---
 ---
 **Links**: [[111 KodeCloud Index]]
@@ -33,3 +33,12 @@ updated: 2022-10-10 13:48
 	- Once we build the controller we compile it.
 	- We specify the kubeconfig file that the controller can use to authenticate to the k8s api.
 	- We may choose to package the custom controller as a docker image and run it as a pod or deployment.
+
+## CRDs extra (refine)
+- Some times we will run into situations where the k8s resources (pod, deployment, service etc) are too limiting or not precisely what we need.
+	- For this purpose k8s supports **custom resource definitions (CRDs)**.
+- Each resource in k8s (like pod, deployment, etc) is an endpoint on the k8s API.
+	- *Custom resources are a way of extending that API*.
+- Once the custom resource is installed in our cluster we can create an object from it.
+
+> [!note] To create a custom resources, you need to **implement a controller that handles the custom resource**.

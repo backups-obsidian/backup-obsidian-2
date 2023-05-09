@@ -1,6 +1,6 @@
 ---
 created: 2022-09-23 17:15
-updated: 2022-10-03 15:43
+updated: 2023-05-08 16:43
 ---
 ---
 **Links**: [[111 KodeCloud Index]]
@@ -36,11 +36,11 @@ updated: 2022-10-03 15:43
 	- **`serviceName` of a headless service**.
 
 ### Headless Service
-- We want the reads to be served by all the master and slaves but *writes should only be served by master*.
+- We want the reads to be served by the master and slaves but *writes should only be served by master*.
 	- So we want to **point the web server to the master database pod only**.
 	- This can't be done by only using the service which is used for exposing the database pods since it acts as a loadbalancer across all pods.
 - One way to reach the master pod directly is if we know the IP address of the pod. But this is not ideal since if the pod restarts then the IP will change.
-- Each pod can be reached from its DNS address but it is also created from its DNS address and is subject to change upon restart.
+- Each pod can be reached from its DNS address but it is also created from its IP address and is subject to change upon restart.
 	- `10-40-2-8.default.pod.cluster.local`: `<pod-ip>.<namespace>.pod.cluster.local`
 - **We need a service that doesn't loadbalance requests but gives us a DNS entry to reach each pod. This is done by a headless service**.
 - A headless service is created as a normal service but it doesn't have an IP of its own.
@@ -108,7 +108,7 @@ spec:
 > - It *can only be used with StatefulSets*.
 > - *It just means that instead of creating a PVC manually and then specifying it in the StatefulSet definition file, we move the entire pvc definition under the section `volumeClaimTemplate` under the StatefulSet specification*.
 > - `volumeClaimTemplate` is an array so we can specify multiple templates.
-> - **We cannot created different PVCs for different pods in Deployments**.
+> - **We cannot create different PVCs for different pods in Deployments**.
 
 - **Now when a StatefulSet is created it first creates the a pod, during the creation of the pod a PVC is created. A PVC is associated with a storage class so the StorageClass provisions a volume on GCP and it creates a PV and then associates the PV with a volume and then binds the PVC to a PV**. 
 	- Then the second pod is created which creates a PVC then the storage class provisions a new volume, creates a PV and then binds it to the PVC.

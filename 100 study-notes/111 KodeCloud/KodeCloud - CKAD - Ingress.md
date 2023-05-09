@@ -1,6 +1,6 @@
 ---
 created: 2022-09-23 17:15
-updated: 2023-05-08 08:14
+updated: 2023-05-08 14:11
 ---
 ---
 **Links**: [[111 KodeCloud Index]]
@@ -13,7 +13,7 @@ updated: 2023-05-08 08:14
 > - We can *publish it as a NodePort* or as a cloud native *LoadBalancer*.
 > - But it is one time configuration, going forward we will be performing all the routing configuration, SSL etc on the ingress controller.
 
-- The *solution we deploy* is known as the *ingress controller* and the *configuration* we do is known as the *ingress resource*.
+- The *solution we deploy* is known as the *ingress [[Kubernetes - Controllers#Controllers| controller]]* and the *configuration* we do is known as the *ingress resource*.
 	- Ingress resources are also created using definition files.
 
 - **A k8s cluster DOES NOT come with an ingress controller by default**.
