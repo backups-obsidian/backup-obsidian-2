@@ -1,6 +1,6 @@
 ---
 created: 2022-08-11 19:22
-updated: 2023-05-05 12:23
+updated: 2023-05-08 14:08
 ---
 ---
 **Links**: [[110 Kubernetes Index]]
@@ -25,14 +25,14 @@ updated: 2023-05-05 12:23
 4. A `kubelet` is an **agent that runs on each worker node in a cluster**. 
 	1. It listens for instructions from the `kubeapi-server` or `api-server` and deploys and destroys containers on the node as required.
 
-5. `Controllers`/`controller-manager` are the **brain behind orchestration they are responsible for noticing and responding when nodes go down**. 
-	1. Controllers makes decisions to bring up new containers in such situations.
-	2. Keeps track of what is happening in the cluster.
+5. `Controllers`/`controller-manager` is the **brain behind orchestration they are responsible for noticing and responding when pods go down**.  ^9d5e63
+	- It *consists of several controllers* like the deployment controller, replicas set controller etc.
+	- In Kubernetes, controllers are control loops that watch the state of your cluster, then make or request changes where needed.
 
-6. **Container runtime** is the underlying software used to run containers. 
+7. **Container runtime** is the underlying software used to run containers. 
 	1. Some container runtimes are containerd, docker, rocket, etc.
 
-7. Suppose you have a database server running on a pod on one of the worker nodes and the application server running on a pod in some other worker node. 
+8. Suppose you have a database server running on a pod on one of the worker nodes and the application server running on a pod in some other worker node. 
 	1. **Communication between worker nodes is facilitated using** `kube-proxy`.
 
 > [!note]- We can have multiple pods on a single worker node. 

@@ -1,6 +1,6 @@
 ---
 created: 2022-09-15 21:09
-updated: 2022-10-03 14:17
+updated: 2023-05-08 16:22
 ---
 ---
 **Links**: [[111 KodeCloud Index]]
@@ -31,6 +31,11 @@ volumeMounts:
 	- ![[attachments/Pasted image 20221002160808.png]]
 	- *The above yaml files states that the contents inside the `/opt` directory of container should be mounted to a volume named `data-volume` whose storage location is `/data` on the host node*.
 
+> [!caution]- `hostPath` mounting is **similar to bind volume mounting in docker containers**.
+> - This means that contents of the directory of the `hostPath -> path` (present on the node) **will always override the contents** of  `volumeMounts -> mountPath`.
+> - This means that suppose `hostPath -> path` is `/test` (empty folder) and `volumeMounts -> mountPath` is `/usr` then the container won't start since all the important files in the `/usr` directory inside the container is being over written  by an empty directory (`/test`) on the host system.
+> - ![[attachments/Pasted image 20230508150758.png]]
+
 - We have *different volume storage options*.
 	- We used the **`hostPath` option to configure a directory on the host as a storage space for the volume**.
 		- This works fine for a single node but it is not recommended for a multi node cluster.
@@ -45,7 +50,6 @@ volumes:
     volumeID: <volume-id>
     fsType: ext4
 ```
-
 
 ## Persistent Volumes
 - In the above examples we created volumes in the pod definition file. So all the configuration information for the volume goes within the pod definition file.
@@ -64,7 +68,7 @@ volumes:
 
 - Simple persistent volume yaml file
 ```yaml
-apiVersion: vl
+apiVersion: v1
 kind: PersistentVolume
 metadata:
 	name: pv-vol1
@@ -78,7 +82,8 @@ spec:
 		path: /tmp/data
 ```
 
-- Access modes define how a volume should be mounted on the host (node). *Access Modes of your PersistentVolume affect wether all your pods can access the volume concurrently from different Nodes or not*.
+- Access modes define how a volume should be mounted on the host (node). 
+- *Access Modes of your PersistentVolume affect wether all your pods can access the volume concurrently from different Nodes or not*.
 	- `ReadOnlyMany (ROX)`
 	- `ReadWriteMany (RWX)`
 	- `ReadWriteOnce (RWO)`: The volume can be mounted as read-write by a *single node*. ReadWriteOnce access mode *still can allow multiple pods to access the volume when the pods are running on the **same** node*.
@@ -122,7 +127,7 @@ spec:
 
 - View the claims: `k get persistentvolumeclaim` or `k get pvc`
 
-> [!important]- Once you create a PVC use it in a POD/Deployment definition file by specifying the PVC Claim name under persistentVolumeClaim section in the volumes section.
+> [!important] Once you create a PVC use it in a POD/Deployment definition file by specifying the PVC Claim name under persistentVolumeClaim section in the volumes section.
 
 ```yaml
 apiVersion: v1
@@ -210,14 +215,16 @@ provisioner: kubernetes.io/gce-pd
 - Here, the Kubernetes `local persistent volumes` help us to overcome the restriction and we **can work in a multi-node environment** with no problems. 
 	- **It remembers which node was used for provisioning the volume**, thus making sure that a restarting POD always will find the data storage in the state it had left it before the reboot.
 - **Once a node has died, the data of both `hostpath` and `local persitent` volumes of that node are lost.**
+	- So the main advantage of local persistent volumes over hostpath is that they schedule pods to the right nodes in a multinode cluster.
+	- *If we are working with a single node k8s cluster then its best to use hostpath over local persistent volume*.
 
-> [!note]- If we use `hostPath` with glusterfs mount then no need to care about pod rescheduling, wherever pod get reschedule it will get updated data due to glusterfs replication.
+> [!important] If we use `hostPath` with glusterfs mount then no need to care about pod rescheduling, wherever pod get reschedule it will get updated data due to glusterfs replication.
 
 - *Both use local disks of the machine*.
 
 > [!caution]- Although `hostPath` is easy it should not be used in production.
 
-- **To use local pv, we must first define the storage class**:
+- **To use local persistent volume, we must first define the storage class**:
 ```yaml
 kind: StorageClass
 apiVersion: storage.k8s.io/v1
@@ -227,14 +234,16 @@ provisioner: kubernetes.io/no-provisioner
 volumeBindingMode: WaitForFirstConsumer
 ```
 
-- Local volumes do not currently support dynamic provisioning (so we will have to create a PV for local volume), however a StorageClass should still be created to delay volume binding until Pod scheduling. This is specified by the `WaitForFirstConsumer` volume binding mode.
+- *Local persistent volumes DO NOT currently support dynamic provisioning* (so we will have to create a PV for local volume), however a StorageClass should still be created to delay volume binding until Pod scheduling. This is specified by the `WaitForFirstConsumer` volume binding mode.
+	- If we don't create a PV then the pod will remain in a pending state.
+		- ![[attachments/Pasted image 20230508161859.png]]
 
 ## Difference between emptydir & hostpath
 - An `emptyDir` volume is first created when a Pod is assigned to a Node, and **exists as long as that Pod is running on that node**.
 	- Volume data of hostPath is persisted in the file system of node. Even if POD is deleted, volume data is still stored in Node.
 - *`emptyDir` space can be shared by multiple containers in a pod if needed*.
 
-> [!note]- When a Pod is restarted or removed, the data in the emptyDir is lost forever.
+> [!note] When a Pod is restarted or removed, the data in the emptyDir is lost forever.
 
 - Some *use cases* for an emptyDir are:
 	- scratch space, for a sort algorithm for example
@@ -304,6 +313,11 @@ spec:
 ```
 - Note all 3 containers refer to the same **name: demo-volume**
 	- All 3 containers mount the **emptyDir** at *different mount points*.
+
+> [!caution]- Like `hostPath` **`emptydir` also behaves like a bind volume mount**.
+> Whichever folder it is being mounted to, it will erase all the contents inside it in all the containers.
+> ![[attachments/Pasted image 20230508154617.png]]
+> The above manifest would erase all the contents of `/etc` in the second container. 
 
 ### References 
 - [Kubernetes Volume Basics: emptyDir and PersistentVolume - Alibaba Cloud Community](https://www.alibabacloud.com/blog/kubernetes-volume-basics-emptydir-and-persistentvolume_594834)
