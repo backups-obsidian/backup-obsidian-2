@@ -1,6 +1,6 @@
 ---
 created: 2022-09-23 16:03
-updated: 2023-05-08 12:40
+updated: 2023-05-10 15:31
 ---
 ---
 **Links**: [[111 KodeCloud Index]]
@@ -50,3 +50,6 @@ updated: 2023-05-08 12:40
 - If the scheduler can't schedule the pod then it will go into PENDING state.
 
 - Get all the events in a namespace: `k get events`
+- Describing the api-server pod for important details
+	- `k get pods -n kube-system`
+	- `k describe pod/kube-apiserver-controlplane -n kube-system` - It may be named differently depending on how it is setup.
