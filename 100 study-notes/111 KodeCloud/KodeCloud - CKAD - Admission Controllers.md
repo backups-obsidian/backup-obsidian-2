@@ -1,6 +1,6 @@
 ---
 created: 2022-09-15 21:09
-updated: 2022-10-10 10:43
+updated: 2023-05-09 12:29
 ---
 ---
 **Links**: [[111 KodeCloud Index]]
@@ -54,3 +54,5 @@ updated: 2022-10-10 10:43
 	- ![[attachments/Pasted image 20221010103814.png]]
 
 - INCOMPLETE
+
+- [Kubernetes API Explained - YouTube](https://www.youtube.com/watch?v=aTFmtac2wCg)

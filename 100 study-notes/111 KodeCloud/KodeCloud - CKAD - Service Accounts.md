@@ -1,9 +1,10 @@
 ---
 created: 2022-09-15 21:09
-updated: 2023-05-03 14:45
+updated: 2023-05-10 14:46
 ---
 ---
 **Links**: [[111 KodeCloud Index]]
+**Recommended Reads**: [[KodeCloud - CKAD - API & API Groups | API & API Groups]]
 
 ---
 ## Service Accounts
@@ -47,9 +48,9 @@ updated: 2023-05-03 14:45
 - **If we want to use a different service account, we can specify it in the pod definition and its secret token will be mounted in the pod** at `/var/run/secrets/kubernetes.io/serviceaccount/token`.
 	- ![[attachments/Pasted image 20220924151921.png]]
 - If we try to list the pods using the k8s api from inside the pod using the *default service account* or a service account that does not have the required roles, we will get an error.
-	- Without using the token: anonymous user
+	- **Without using the token**: anonymous user
 		- ![[attachments/Pasted image 20230503135854.png]]
-	- Using the token but with insufficient permissions:
+	- **Using the token** but with insufficient permissions:
 		- ![[attachments/Pasted image 20230503140317.png]]
 		- The service account used in the example doesn't have any roles attached to it.
 - **Whenever service accounts are changed the pods must be deleted and recreated**.
@@ -68,6 +69,8 @@ updated: 2023-05-03 14:45
 > [!note]- *Service account tokens* are also completely **valid to use outside of the cluster to authenticate to the API server**. 
 > - If you use service account tokens in this way, you will have to make a small change to your workflow with v1.24: **explicitly requesting a service account token secret to be generated**.
 > - ![[attachments/Pasted image 20230503144354.png]]
+> ---
+> - Creating an expiring token for a service account `k create token <service-account-name>`
 > ---
 > [Kubernetes 1 24 - ServiceAccounts and secrets - YouTube](https://www.youtube.com/watch?v=vk0EIznJJe0)
 

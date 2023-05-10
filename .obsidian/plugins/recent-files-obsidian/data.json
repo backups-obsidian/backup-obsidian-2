@@ -1,12 +1,88 @@
 {
   "recentFiles": [
     {
-      "basename": "KodeCloud - CKAD - KubeConfig",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - KubeConfig.md"
+      "basename": "Kubernetes - Authentication",
+      "path": "100 study-notes/111 KodeCloud/Kubernetes - Authentication.md"
     },
     {
       "basename": "111 KodeCloud Index",
       "path": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Misc",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Misc.md"
+    },
+    {
+      "basename": "KodeCloud - CKA - Cluster Architecture",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Architecture.md"
+    },
+    {
+      "basename": "KodeCloud - CKA - TLS Kubernetes",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - TLS Kubernetes.md"
+    },
+    {
+      "basename": "KodeCloud - CKA - Cluster Maintenance",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Maintenance.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - API & API Groups",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - API & API Groups.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Service Accounts",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Service Accounts.md"
+    },
+    {
+      "basename": "Obsidian Searching",
+      "path": "200 general-notes/Obsidian Searching.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Authorisation",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Authorisation.md"
+    },
+    {
+      "basename": "Kubernetes - Steps of an API Request",
+      "path": "100 study-notes/111 KodeCloud/Kubernetes - Steps of an API Request.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Security Context",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Security Context.md"
+    },
+    {
+      "basename": "Kubernetes - Dumping Ground",
+      "path": "100 study-notes/111 KodeCloud/Kubernetes - Dumping Ground.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - API Versions",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - API Versions.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Admission Controllers",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Admission Controllers.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Deployment Strategies",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Deployment Strategies.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - KubeConfig",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - KubeConfig.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Custom Resource Definition",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Custom Resource Definition.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - ClusterRoles",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - ClusterRoles.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - RBAC",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - RBAC.md"
+    },
+    {
+      "basename": "KodeCloud - CKA - Kube Controller Manager",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Kube Controller Manager.md"
     },
     {
       "basename": "KodeCloud - CKAD - Writing helm charts",
@@ -41,10 +117,6 @@
       "path": "100 study-notes/111 KodeCloud/Kubernetes - Objects & Resources.md"
     },
     {
-      "basename": "KodeCloud - CKAD - Custom Resource Definition",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Custom Resource Definition.md"
-    },
-    {
       "basename": "KodeCloud - CKAD - Ingress",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Ingress.md"
     },
@@ -53,32 +125,12 @@
       "path": "100 study-notes/110 Kubernetes/Kubernetes - Components of k8s & their function.md"
     },
     {
-      "basename": "Kubernetes - Understanding the API",
-      "path": "100 study-notes/111 KodeCloud/Kubernetes - Understanding the API.md"
-    },
-    {
       "basename": "Kubernetes - Chain of events behind running a pod",
       "path": "100 study-notes/110 Kubernetes/Kubernetes - Chain of events behind running a pod.md"
     },
     {
-      "basename": "KodeCloud - CKAD - Misc",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Misc.md"
-    },
-    {
       "basename": "KodeCloud - CKAD - Network Policies",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Network Policies.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - RBAC",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - RBAC.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - API Groups",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - API Groups.md"
-    },
-    {
-      "basename": "Kubernetes - Dumping Ground",
-      "path": "100 study-notes/111 KodeCloud/Kubernetes - Dumping Ground.md"
     },
     {
       "basename": "KodeCloud - CKAD - Namespaces",
@@ -147,60 +199,9 @@
     {
       "basename": "KodeCloud - CKAD - Labels, Selectors and Annotations",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Labels, Selectors and Annotations.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - Probes",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Probes.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - Environment Variables",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Environment Variables.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - Node Selectors and Node Affinity",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Node Selectors and Node Affinity.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - Taints and Tolerations",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Taints and Tolerations.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - Service Accounts",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Service Accounts.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - Resource Limits",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Resource Limits.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - Security Context",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Security Context.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - Commands and Arguments",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Commands and Arguments.md"
-    },
-    {
-      "basename": "KodeCloud - CKA - Kubeproxy",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Kubeproxy.md"
-    },
-    {
-      "basename": "KodeCloud - Kubernetes - ReplicaSets",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - Kubernetes - ReplicaSets.md"
-    },
-    {
-      "basename": "KodeCloud - Kubernetes - Pods",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - Kubernetes - Pods.md"
-    },
-    {
-      "basename": "KodeCloud - Kubernetes - Deployments",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - Kubernetes - Deployments.md"
-    },
-    {
-      "basename": "YAML",
-      "path": "300 short-notes/YAML.md"
     }
   ],
   "omittedPaths": [],
-  "maxLength": null
+  "maxLength": null,
+  "openType": "tab"
 }

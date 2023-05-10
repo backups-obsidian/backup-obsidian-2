@@ -1,6 +1,6 @@
 ---
 created: 2022-10-03 16:26
-updated: 2023-05-08 18:27
+updated: 2023-05-09 12:02
 ---
 ---
 **Links**: [[111 KodeCloud Index]]
@@ -8,7 +8,11 @@ updated: 2023-05-08 18:27
 ---
 ## Understanding kubeconfig file
 - Kubectl uses kubeconfig to authenticate the user to the cluster.
+	- *There is no file called `kubeconfig` however, any file that is used to configure access to a Kubernetes cluster is referred as `kubeconfig`*.
 - To authenticate with the cluster the user has to use **client certificate** and **client key**.
+	- *Using client key and client certificate is one way of authentication into the cluster*.
+	- Other **authentication** mechanisms
+		- ![[attachments/Pasted image 20230509094915.png]]
 - Accessing the k8s api-server using client certificate and client key by making a curl request
 
 ```bash
@@ -31,8 +35,16 @@ kubectl get pods
 - Typing these in every time is a tedious task so we move it to a kubeconfig file and then specify it while running the commands
 	- `k get pods --kubeconfig config`
 
-> [!note]- By default the kubeconfig looks for a file at `~/.kube/config`
-> So if we have a kubeconfig file here named `config` at `~/.kube` then we don't have to specify it every time.
+> [!important]+ Order of lookup for the kubeconfig file
+> - First the `--kubeconfig` specified with the kubectl command is given preference. Example: `k get pods --kubeconfig <location>` 
+> - kubectl then looks for the kubeconfig file path in the **environment variable `KUBECONFIG`**.
+> - If it *DOESN'T find it* or if the environment variable is empty *then it falls back to `~/.kube/config`*.
+
+- We can combine multiple kubeconfig files without literally combining them using `:`.
+	- `export KUBECONFIG=~/.kube/config:~/.kube/config2`
+
+> [!caution]- DON'T use `""` in the above export statement since `~` are NOT expanded by `""`.
+> `''` don't expand anything.
 
 - The kubeconfig file is in a specific format. 
 - It contains 3 sections: **Clusters**, **Users** & **Contexts**
@@ -71,4 +83,4 @@ kubectl get pods
 	- ![[attachments/Pasted image 20221003164648.png]]
 
 ## References
-- 
+- [Understanding Kubernetes Networking. Part 1: Container Networking - YouTube](https://www.youtube.com/watch?v=B6FsWNUnRo0)
