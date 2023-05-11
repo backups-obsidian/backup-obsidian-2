@@ -1,6 +1,6 @@
 ---
 created: 2022-09-13 16:17
-updated: 2023-05-10 16:11
+updated: 2023-05-10 17:11
 ---
 ---
 **Links**: 
@@ -61,7 +61,7 @@ updated: 2023-05-10 16:11
 [[Kubernetes - Steps of an API Request]]
 
 [[Kubernetes - Authentication]]
-[[KodeCloud - CKAD - Authorisation]]
+[[KodeCloud - CKAD - Authorization]]
 [[KodeCloud - CKAD - RBAC]]
 [[KodeCloud - CKAD - ClusterRoles]]
 

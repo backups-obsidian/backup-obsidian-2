@@ -1,12 +1,44 @@
 {
   "recentFiles": [
     {
-      "basename": "Kubernetes - Authentication",
-      "path": "100 study-notes/111 KodeCloud/Kubernetes - Authentication.md"
+      "basename": "KodeCloud - CKAD - Admission Controllers",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Admission Controllers.md"
     },
     {
       "basename": "111 KodeCloud Index",
       "path": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md"
+    },
+    {
+      "basename": "Kubernetes - Steps of an API Request",
+      "path": "100 study-notes/111 KodeCloud/Kubernetes - Steps of an API Request.md"
+    },
+    {
+      "basename": "Kubernetes - Controllers",
+      "path": "100 study-notes/111 KodeCloud/Kubernetes - Controllers.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Deployment Strategies",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Deployment Strategies.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Authorization",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Authorization.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - ClusterRoles",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - ClusterRoles.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - RBAC",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - RBAC.md"
+    },
+    {
+      "basename": "Kubernetes - Authentication",
+      "path": "100 study-notes/111 KodeCloud/Kubernetes - Authentication.md"
+    },
+    {
+      "basename": "EC2 Basics",
+      "path": "100 study-notes/101 AWS SAA/EC2 Basics.md"
     },
     {
       "basename": "KodeCloud - CKAD - Misc",
@@ -37,14 +69,6 @@
       "path": "200 general-notes/Obsidian Searching.md"
     },
     {
-      "basename": "KodeCloud - CKAD - Authorisation",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Authorisation.md"
-    },
-    {
-      "basename": "Kubernetes - Steps of an API Request",
-      "path": "100 study-notes/111 KodeCloud/Kubernetes - Steps of an API Request.md"
-    },
-    {
       "basename": "KodeCloud - CKAD - Security Context",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Security Context.md"
     },
@@ -57,28 +81,12 @@
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - API Versions.md"
     },
     {
-      "basename": "KodeCloud - CKAD - Admission Controllers",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Admission Controllers.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - Deployment Strategies",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Deployment Strategies.md"
-    },
-    {
       "basename": "KodeCloud - CKAD - KubeConfig",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - KubeConfig.md"
     },
     {
       "basename": "KodeCloud - CKAD - Custom Resource Definition",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Custom Resource Definition.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - ClusterRoles",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - ClusterRoles.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - RBAC",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - RBAC.md"
     },
     {
       "basename": "KodeCloud - CKA - Kube Controller Manager",
@@ -107,10 +115,6 @@
     {
       "basename": "KodeCloud - CKAD - Multi Container Pods",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Multi Container Pods.md"
-    },
-    {
-      "basename": "Kubernetes - Controllers",
-      "path": "100 study-notes/111 KodeCloud/Kubernetes - Controllers.md"
     },
     {
       "basename": "Kubernetes - Objects & Resources",
@@ -175,10 +179,6 @@
     {
       "basename": "KodeCloud - CKAD - Jobs",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Jobs.md"
-    },
-    {
-      "basename": "EC2 Basics",
-      "path": "100 study-notes/101 AWS SAA/EC2 Basics.md"
     },
     {
       "basename": "101 AWS SAA Index",

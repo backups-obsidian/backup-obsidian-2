@@ -7,13 +7,14 @@ updated: 2023-05-09 12:29
 
 ---
 ## Admission Controllers
-- The *rules we can create in RBAC is at the k8s api level*.
+### Why Admission Controllers
+- The *rules we can create in RBAC are at the k8s api level*.
 - What if we want to do more?
-	- Like reviewing the configuration file and saying that only permit images from certain registry.
-	- Or enforce that we should never use the latest tag for any images.
-	- Or do not permit run as root user. 
+	- Like reviewing the configuration file and saying that only certain images are permitted from certain registry.
+	- Or *enforce that we should never use the latest tag for any images*.
+	- Or *do not permit run as root user*. 
 	- Or enforce that metadata always contains labels.
-- These things can't be achieved using authorisation and this is where admission controllers are used.
+- These things CAN'T be achieved using authorization and this is where admission controllers are used.
 	- Admission Controllers help us implement better security measures to enforce how a cluster is used. 
 	- ![[attachments/Pasted image 20221008205407.png]]
 - Example: NamespaceExists Admission Controller
