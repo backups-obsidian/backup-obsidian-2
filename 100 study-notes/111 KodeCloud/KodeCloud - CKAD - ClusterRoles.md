@@ -1,11 +1,12 @@
 ---
 created: 2022-09-15 21:09
-updated: 2022-10-08 20:44
+updated: 2023-05-11 13:10
 ---
 ---
 **Links**: [[111 KodeCloud Index]]
 
 ---
+## Cluster Roles
 > [!note]- There are two kinds of resources: **cluster scoped** and **namespaced**.
 > ![[attachments/Pasted image 20221008202138.png]]
 > - This is not a comprehensive list. 
@@ -48,9 +49,10 @@ roleRef:
   apiGroup: rbac.authorization.k8s.io
 ```
 
-> [!caution]+ We can create a clusterrole for a namespaced resource as well.
-> **When we do that the user will have access to these resources across all namespaces**.
-> If we create a normal role then the user will have access to resources in that namespace only.
-
-- K8s creates some cluster roles by default.
-
+### Cluster Roles and Cluster Role Bindings for namespaced resources
+- Suppose we want a *user to list pods in some namespaces* then one way would be to create a role and role binding in those namespaces.
+	- This is a tedious process if we have a lot namespaces.
+	- Instead we can **create a single Cluster Role and then create Role Bindings in namespaces where we want the user to list the pods**.
+- Suppose we want a *user to list pods in **all** namespaces* then one way would be to create a role and role binding in all the namespaces.
+	- Or another way is creating single cluster role and creating a role binding in all the namespaces.
+	- Instead we can **create a single Cluster Role and a single Cluster Role Binding to allow the user to list the pods in all the namespaces**.

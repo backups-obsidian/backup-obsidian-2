@@ -1,6 +1,6 @@
 ---
 created: 2023-05-10 13:51
-updated: 2023-05-10 16:20
+updated: 2023-05-11 12:04
 ---
 ---
 **Links**: [[111 KodeCloud Index]]
@@ -23,9 +23,10 @@ openssl genrsa -out example.key 2048
 openssl req -new -key example.key -out example.csr -subj "/CN=example/O=developers"
 ```
 
-> [!note]- Meaning of `CN` and `O`.
+> [!note]+ Meaning of `CN` and `O`.
 > - In certificates `CN` stands for **common name** and `O` stands for **Organization**.
 > - `CN` specifies the *name of the user* and `O` specifies the *group of the user*.
+> - The advantage of using `O` (group) is that we can have multiple users in the group and then assign permission to the group using role binding instead of binding the permission to each user.
 
 - Then, create a **self-signed certificate** using the CSR you generated and the certificate authority *(CA) associated with your Kubernetes cluster*.
 
@@ -33,13 +34,16 @@ openssl req -new -key example.key -out example.csr -subj "/CN=example/O=develope
 openssl x509 -req -in example.csr -CA /etc/kubernetes/pki/ca.crt -CAkey /etc/kubernetes/pki/ca.key -CAcreateserial -out example.crt -days 30
 ```
 
-> [!question]- How to find the location of the CA cert?
+> [!question]- How to find the location of the CA cert and key?
 > - Finding the api-server pod: `k get pods -n kube-system`
 > ![[attachments/Pasted image 20230510153431.png]]
 > - Describing the api-server pod: `k describe pod/kube-apiserver-controlplane -n kube-system`
 > ![[attachments/Pasted image 20230510153716.png]]
 > ---
-> So the cert is present at `/etc/kubernetes/pki/ca.key` **in the control plane**.
+> So the cert and the key are present at `/etc/kubernetes/pki` **in the control plane**.
+
+> [!note]- `ca.crt` at `/etc/kubernetes/pki` is the same certificate but base64 encoded that is present in the `certificate-authority-data` section of the cluster in the kubeconfig file.
+> ![[attachments/Pasted image 20230511120344.png]]
 
 > [!important] Alternatively we can also use **[[Kubernetes - Authentication#Using kubectl for signing CSR| kubectl to sign CSR]]**.
 
