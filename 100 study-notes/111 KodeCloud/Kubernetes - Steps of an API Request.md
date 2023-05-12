@@ -1,9 +1,10 @@
 ---
 created: 2023-05-09 12:57
-updated: 2023-05-10 13:04
+updated: 2023-05-11 15:09
 ---
 ---
 **Links**: [[111 KodeCloud Index]]
+**Recommended Reads**: [[KodeCloud - CKAD - Admission Controllers | Admission Controllers]]
 
 ---
 ## Steps of an API Request
@@ -24,6 +25,7 @@ updated: 2023-05-10 13:04
 		- It validates if the resource we have sent has a valid schema. Basically checking if the yaml is valid or not.
 	- The sixth component of the API server is **Validation Admission Controller**.
 		- It comes in when we try to deploy a pod in a namespace that DOES NOT exist.
+- To read more on validating or mutating admission controller read [[KodeCloud - CKAD - Admission Controllers#Admission Controllers | this]]. 
 
 > [!note] If we manage to pass the Validation Admission Controller then our yaml file is saved in etcd.
 
