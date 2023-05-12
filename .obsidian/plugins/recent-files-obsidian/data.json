@@ -1,16 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "KodeCloud - CKAD - Admission Controllers",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Admission Controllers.md"
-    },
-    {
       "basename": "111 KodeCloud Index",
       "path": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md"
     },
     {
+      "basename": "KodeCloud - CKAD - Operators",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Operators.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Custom Resource Definition",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Custom Resource Definition.md"
+    },
+    {
       "basename": "Kubernetes - Steps of an API Request",
       "path": "100 study-notes/111 KodeCloud/Kubernetes - Steps of an API Request.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Admission Controllers",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Admission Controllers.md"
+    },
+    {
+      "basename": "KodeCloud - CKA - Api server",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Api server.md"
     },
     {
       "basename": "Kubernetes - Controllers",
@@ -83,10 +95,6 @@
     {
       "basename": "KodeCloud - CKAD - KubeConfig",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - KubeConfig.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - Custom Resource Definition",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Custom Resource Definition.md"
     },
     {
       "basename": "KodeCloud - CKA - Kube Controller Manager",
@@ -191,14 +199,6 @@
     {
       "basename": "IAM Basics",
       "path": "100 study-notes/101 AWS SAA/IAM Basics.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - Logging",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Logging.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - Labels, Selectors and Annotations",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Labels, Selectors and Annotations.md"
     }
   ],
   "omittedPaths": [],

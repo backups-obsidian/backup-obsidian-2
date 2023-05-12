@@ -1,6 +1,6 @@
 ---
 created: 2022-09-13 16:17
-updated: 2023-05-10 17:11
+updated: 2023-05-12 12:31
 ---
 ---
 **Links**: 
@@ -68,7 +68,7 @@ updated: 2023-05-10 17:11
 [[Kubernetes - Controllers]]
 [[KodeCloud - CKAD - Admission Controllers]]
 [[KodeCloud - CKAD - Custom Resource Definition]]
-[[KodeCloud - CKAD - Operator Framework]]
+[[KodeCloud - CKAD - Operators]]
 
 [[KodeCloud - CKAD - Deployment Strategies]]
 
@@ -118,8 +118,8 @@ updated: 2023-05-10 17:11
 - [ ] Crossplane (IaaC)
 - [ ] Kubernetes is a control plane to manage stuff with extensive API backed by controllers.
 - [ ] What is a CNI?
-- What is the location of the cluster cert present in the kubeconfig file?
-	- Can you clarify what is the ca-certificate that is in the kubeconfig yaml file? Is that the same ca-certificate as the one in control-plane (/etc/kubernetes/pki/ca.crt that you used to create user certificate) or different.
+- What are finalizers.
+- Must have k8s operators?
 
 # Read Later
 - [Kubernetes Tutorials For Beginners [43 Comprehensive Guides] (devopscube.com)](https://devopscube.com/kubernetes-tutorials-beginners/)
@@ -127,4 +127,4 @@ updated: 2023-05-10 17:11
 - [Demystifying kubeconfig file | kubeconfig file explained - Part 1 - YouTube](https://www.youtube.com/watch?v=Q74gSxeO4cI)
 - [Understanding Kubernetes Networking. Part 1: Container Networking - YouTube](https://www.youtube.com/watch?v=B6FsWNUnRo0)
 - [How does Kube API-Server work? Looking into Controller-Manager in detail - YouTube](https://www.youtube.com/watch?v=mOE1O3dQiUY)
-- [(8) Salman Iqbal - YouTube](https://www.youtube.com/@SoulmanIqbal/videos)
+- [Salman Iqbal - YouTube](https://www.youtube.com/@SoulmanIqbal/videos)
