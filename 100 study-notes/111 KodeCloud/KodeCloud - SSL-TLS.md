@@ -1,9 +1,11 @@
 ---
 created: 2022-09-15 21:09
-updated: 2022-10-13 20:38
+updated: 2023-05-15 07:53
 ---
 ---
-**Links**: [[111 KodeCloud Index]]
+**Links**: 
+- [[111 KodeCloud Index]]
+- [[../104 Linux/Using openssl|Using openssl]]
 
 ---
 - Asymmetric encryption: Public lock (anyone can lock it) & Private Key

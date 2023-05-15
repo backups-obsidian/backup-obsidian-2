@@ -1,15 +1,14 @@
 ---
 created: 2023-05-08 08:21
-updated: 2023-05-08 14:29
+updated: 2023-05-15 15:21
 ---
 ---
 **Links**: [[111 KodeCloud Index]]
-**Recommended Reads**:
-- [[Kubernetes - Objects & Resources]]
+**Recommended Reads**: [[Kubernetes - Objects & Resources]]
 
 ---
 ## Controllers 
-- *Controllers are managed by k8s [[../110 Kubernetes/Kubernetes - Components of k8s & their function#^9d5e63 | controller manager]]* which is a core component of k8s.
+- *Controllers are managed by k8s [[KodeCloud - CKA - Cluster Architecture#Kube Controller Manager | kube controller manager]]*  which is a core component of k8s.
 	- Each controller *tries to move the current cluster state closer to the desired state*.
 - Almost every Kubernetes object includes two nested object fields that govern the object’s configuration: the object `spec` and the object `status`.
 	- The **`spec` describes the desired state** of the object, providing a description of the characteristics you want the resource to have.

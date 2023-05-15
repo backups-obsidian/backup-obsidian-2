@@ -1,6 +1,6 @@
 ---
 created: 2022-09-15 21:09
-updated: 2022-10-10 23:51
+updated: 2023-05-15 15:46
 ---
 ---
 **Links**: [[111 KodeCloud Index]]
@@ -52,3 +52,8 @@ updated: 2022-10-10 23:51
 
 - Difference between static pods and daemon sets
 	- ![[attachments/Pasted image 20221010233628.png]]
+
+---
+
+- Here is a real-world example use case of the static pod.
+- While bootstrapping the control plane, kubelet starts the api-server, scheduler, and controller manager as static pods from podSpecs located at `/etc/kubernetes/manifests`

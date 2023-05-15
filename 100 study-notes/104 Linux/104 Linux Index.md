@@ -1,6 +1,6 @@
 ---
 created: 2022-05-14 21:41
-updated: 2023-01-22 11:34
+updated: 2023-05-15 12:43
 ---
 ---
 **Links**: 
@@ -18,6 +18,8 @@ updated: 2023-01-22 11:34
 [[Linux - Use of exec]]
 [[Linux - Signals and Traps]]
 [[Linux - Miscellaneous]]
+[[Linux - Environment Variables]]
+[[Linux - netcat]]
 
 [[../111 KodeCloud/KodeCloud - Linux Services | KodeCloud - Linux Services]]
 [[../111 KodeCloud/KodeCloud - Package Management using yum | KodeCloud - Package Management using yum]]

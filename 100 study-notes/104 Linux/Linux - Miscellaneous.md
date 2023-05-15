@@ -1,12 +1,13 @@
 ---
 created: 2023-01-21 19:12
-updated: 2023-01-22 17:37
+updated: 2023-05-15 12:24
 ---
 ---
 **Links**: [[104 Linux Index]]
 
 ---
 ## Miscellaneous
+
 ### `$` commands
 - `$$`: Get the PID of the current process.
 - `$?`: Get the return code of the last executed command.  
