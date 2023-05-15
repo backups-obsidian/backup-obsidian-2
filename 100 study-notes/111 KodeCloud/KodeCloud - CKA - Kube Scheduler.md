@@ -1,6 +1,6 @@
 ---
 created: 2022-10-10 19:28
-updated: 2022-10-12 23:19
+updated: 2023-05-15 16:58
 ---
 ---
 **Links**: [[111 KodeCloud Index]]
@@ -34,7 +34,6 @@ updated: 2022-10-12 23:19
 	- This is where the pods wait to be scheduled.
 - **Pods are sorted based on the priority defined on the pods** in the scheduling queue.
 - To set a priority we must first create a priority class/object and set a priority value.
-- ![[attachments/Pasted image 20221012230631.png]]
 - After the sorting/queuing phase the pods enter the **filtering phase** where the *nodes that cannot run the pod are filtered out*.
 - After the filtering phase we have the **scoring phase**.
 	- In this nodes are scored with different weights.
@@ -42,10 +41,4 @@ updated: 2022-10-12 23:19
 	- ![[attachments/Pasted image 20221012231013.png]]
 - The second node has the higher score and hence it gets picked up.
 - After the scoring phase we have the **binding phase** in which the pod is bound to the node.
-- All of these processes are achieved using a plugin.
-	- ![[attachments/Pasted image 20221012231325.png]]
-- The highly customisable nature of k8s ensures that we can write our own plugin.
-	- This is achieved using **extension points**.
-- At each stage there is an extension point to which a plugin can be plugged to.
-	- ![[attachments/Pasted image 20221012231551.png]]
 	- *Some plugins extend to multiple extension points*.

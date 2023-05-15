@@ -1,6 +1,6 @@
 ---
 created: 2022-09-13 16:17
-updated: 2023-05-15 15:02
+updated: 2023-05-15 16:46
 ---
 ---
 **Links**: 
@@ -80,16 +80,16 @@ updated: 2023-05-15 15:02
 ### CKA
 - Concepts to cover: 
 	- etcd
-	- kube api server
-	- kube controller manager
 	- kube scheduler
 	- kubelet
 	- kube proxy
+	- add ons
+	- static pods
+	- daemon sets
  
 - [[KodeCloud - CKA - Cluster Architecture]]
 - [[KodeCloud - CKA - Etcd]]
-- [[KodeCloud - CKA - Api server]]
-- [[KodeCloud - CKA - Kube Controller Manager]]
+
 
 - [[KodeCloud - CKA - Kube Scheduler]]
 - [[KodeCloud - CKA - Daemon Sets]]
