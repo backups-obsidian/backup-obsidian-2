@@ -5,24 +5,28 @@
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Architecture.md"
     },
     {
-      "basename": "KodeCloud - CKA - Static Pods",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Static Pods.md"
+      "basename": "KodeCloud - CKA - Kube Scheduler",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Kube Scheduler.md"
+    },
+    {
+      "basename": "Kubernetes - Dumping Ground",
+      "path": "100 study-notes/111 KodeCloud/Kubernetes - Dumping Ground.md"
     },
     {
       "basename": "111 KodeCloud Index",
       "path": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md"
     },
     {
-      "basename": "Kubernetes - Controllers",
-      "path": "100 study-notes/111 KodeCloud/Kubernetes - Controllers.md"
-    },
-    {
       "basename": "Kubernetes - Components of k8s & their function",
       "path": "100 study-notes/110 Kubernetes/Kubernetes - Components of k8s & their function.md"
     },
     {
-      "basename": "KodeCloud - CKA - Kube Scheduler",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Kube Scheduler.md"
+      "basename": "KodeCloud - CKA - Static Pods",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Static Pods.md"
+    },
+    {
+      "basename": "Kubernetes - Controllers",
+      "path": "100 study-notes/111 KodeCloud/Kubernetes - Controllers.md"
     },
     {
       "basename": "Kubernetes - Chain of events behind running a pod",
@@ -71,14 +75,6 @@
     {
       "basename": "KodeCloud - SSL-TLS",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - SSL-TLS.md"
-    },
-    {
-      "basename": "KodeCloud - CKA - Kube Controller Manager",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Kube Controller Manager.md"
-    },
-    {
-      "basename": "KodeCloud - CKA - Api server",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Api server.md"
     },
     {
       "basename": "KodeCloud - CKA - Etcd",
@@ -143,10 +139,6 @@
     {
       "basename": "KodeCloud - CKAD - Security Context",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Security Context.md"
-    },
-    {
-      "basename": "Kubernetes - Dumping Ground",
-      "path": "100 study-notes/111 KodeCloud/Kubernetes - Dumping Ground.md"
     },
     {
       "basename": "KodeCloud - CKAD - API Versions",

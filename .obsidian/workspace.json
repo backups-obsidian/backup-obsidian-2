@@ -38,13 +38,26 @@
             }
           },
           {
-            "id": "ce93c581030add77",
+            "id": "2c9fc6bb9c141383",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Static Pods.md",
+                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Architecture.md",
                 "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "fde7b8baa7efc684",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Kube Scheduler.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
@@ -56,15 +69,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Architecture.md",
-                "mode": "preview",
+                "file": "100 study-notes/111 KodeCloud/Kubernetes - Dumping Ground.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -240,16 +253,20 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "f290cc06671062c3",
+  "active": "2c9fc6bb9c141383",
   "lastOpenFiles": [
-    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230515154756.png",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKA - Static Pods.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKA - Kube Scheduler.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Architecture.md",
+    "100 study-notes/111 KodeCloud/Kubernetes - Dumping Ground.md",
     "100 study-notes/111 KodeCloud/111 KodeCloud Index.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKA - Kube Controller Manager.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKA - Api server.md",
+    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230515160953.png",
+    "100 study-notes/110 Kubernetes/Kubernetes - Components of k8s & their function.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKA - Static Pods.md",
+    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230515154756.png",
     "100 study-notes/111 KodeCloud/attachments/Pasted image 20230515153802.png",
     "100 study-notes/111 KodeCloud/Kubernetes - Controllers.md",
-    "100 study-notes/110 Kubernetes/Kubernetes - Components of k8s & their function.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKA - Kube Scheduler.md",
     "100 study-notes/111 KodeCloud/attachments/Pasted image 20230515150722.png",
     "100 study-notes/110 Kubernetes/Kubernetes - Chain of events behind running a pod.md",
     "100 study-notes/110 Kubernetes/Kubernetes - Introduction.md",
@@ -267,16 +284,12 @@
     "100 study-notes/104 Linux/Linux - Use of exec.md",
     "100 study-notes/104 Linux/Using openssl.md",
     "100 study-notes/111 KodeCloud/KodeCloud - SSL-TLS.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKA - Kube Controller Manager.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKA - Api server.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKA - Etcd.md",
     "100 study-notes/111 KodeCloud/Kubernetes - Objects & Resources.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Operators.md",
     "100 study-notes/111 KodeCloud/attachments/Pasted image 20230512115855.png",
     "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Custom Resource Definition.md",
     "100 study-notes/111 KodeCloud/attachments/Pasted image 20230511144725.png",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Deployment Strategies.md",
-    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230511120344.png",
-    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230510153716.png"
+    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Deployment Strategies.md"
   ]
 }
