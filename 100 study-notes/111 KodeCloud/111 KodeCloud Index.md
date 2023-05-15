@@ -1,6 +1,6 @@
 ---
 created: 2022-09-13 16:17
-updated: 2023-05-15 16:46
+updated: 2023-05-15 17:16
 ---
 ---
 **Links**: 
@@ -80,24 +80,19 @@ updated: 2023-05-15 16:46
 ### CKA
 - Concepts to cover: 
 	- etcd
-	- kube scheduler
-	- kubelet
-	- kube proxy
 	- add ons
 	- static pods
 	- daemon sets
  
 - [[KodeCloud - CKA - Cluster Architecture]]
+
 - [[KodeCloud - CKA - Etcd]]
 
 
-- [[KodeCloud - CKA - Kube Scheduler]]
 - [[KodeCloud - CKA - Daemon Sets]]
 
-- [[KodeCloud - CKA - Kubelet]]
 - [[KodeCloud - CKA - Static Pods]]
 
-- [[KodeCloud - CKA - Kubeproxy]]
 
 - [[KodeCloud - CKA - Cluster Maintenance]]
 - [[KodeCloud - CKA - TLS Kubernetes]] - **INCOMPLETE**
