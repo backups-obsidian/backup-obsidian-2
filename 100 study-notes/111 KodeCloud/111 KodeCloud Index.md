@@ -1,6 +1,6 @@
 ---
 created: 2022-09-13 16:17
-updated: 2023-05-15 07:43
+updated: 2023-05-15 15:02
 ---
 ---
 **Links**: 
@@ -21,12 +21,13 @@ updated: 2023-05-15 07:43
 ## Kubernetes
 
 ### Introduction & Basics
-[[../110 Kubernetes/Kubernetes - Introduction|Kubernetes - Introduction]]
-[[../110 Kubernetes/Kubernetes - Components of k8s & their function|Kubernetes - Components of k8s & their function]]
+[[../110 Kubernetes/Kubernetes - Introduction| Kubernetes - Introduction & Basic Architecture]]
+
 [[KodeCloud - Kubernetes - Pods]]
 [[KodeCloud - Kubernetes - ReplicaSets]]
 [[KodeCloud - Kubernetes - Deployments]]
 [[KodeCloud - Kubernetes - Networking and Services]]
+
 [[../110 Kubernetes/Kubernetes - Chain of events behind running a pod|Kubernetes - Chain of events behind running a pod]]
 [[Kubernetes - Objects & Resources]]
 
@@ -37,8 +38,10 @@ updated: 2023-05-15 07:43
 [[KodeCloud - CKAD - Security Context]]
 [[KodeCloud - CKAD - Resource Limits]]
 [[KodeCloud - CKAD - Service Accounts]]
+
 [[KodeCloud - CKAD - Taints and Tolerations]]
 [[KodeCloud - CKAD - Node Selectors and Node Affinity]]
+
 [[KodeCloud - CKAD - Multi Container Pods]]
 [[KodeCloud - CKAD - Probes]]
 [[KodeCloud - CKAD - Logging]]
@@ -58,7 +61,7 @@ updated: 2023-05-15 07:43
 
 [[KodeCloud - CKAD - API & API Groups]]
 [[KodeCloud - CKAD - API Versions]]
-[[Kubernetes - Steps of an API Request]]
+[[Kubernetes - Steps of an API Request in API Server]]
 
 [[Kubernetes - Authentication]]
 [[KodeCloud - CKAD - Authorization]]
@@ -76,7 +79,6 @@ updated: 2023-05-15 07:43
 
 ### CKA
 - Concepts to cover: 
-	- Cluster Architecture
 	- etcd
 	- kube api server
 	- kube controller manager

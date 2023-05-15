@@ -1,9 +1,11 @@
 ---
 created: 2022-08-11 19:14
-updated: 2022-08-11 19:26
+updated: 2023-05-15 15:01
 ---
 ---
-**Links**: [[110 Kubernetes Index]]
+**Links**: 
+- [[110 Kubernetes Index]]
+- [[../111 KodeCloud/111 KodeCloud Index|111 KodeCloud Index]]
 
 ---
 ## Introduction
@@ -26,19 +28,21 @@ updated: 2022-08-11 19:26
 - *Automatic replacement* of the failed containers.
 
 ## Basic Architecture
-- We have the **master and the worker nodes**. 
+- K8s basic architecture consists of **master and the worker nodes**. 
 - We can have more than one master to have a more reliable setup. 
 - Nodes are physical or virtual machines.
+- Architecture Diagram: ^351f54
+	- ![[attachments/Pasted image 20230515143826.png]]
 
-> [!important]+ The worker nodes will need a *container runtime*, *kubelet* and *kube-proxy* installed on them.
-> ![[attachments/Pasted image 20220811191319.png]]
+- Cloud controller manager which comes into play when you are using a k8s cluster hosted on a specific cloud provider.
 
-- We also have cloud controller manager which comes into play when you are using a k8s cluster hosted on a specific cloud provider.
-	- ![[attachments/Pasted image 20220811191354.png]]
+> [!important] The worker nodes need *container runtime*, *kubelet* and *kube-proxy* installed on them.
 
 - Some responsibilities of the master node
 	- Entrypoint to K8S cluster
 	- Keeps track of whats happening in the cluster
 	- Ensures Pods placement
 
-> [!caution]- `kube-apiserver` is the entry point through which we talk to the cluster.
+> [!caution] `kube-apiserver` is the entry point through which we talk to the cluster.
+
+- For detailed architecture refer [[../111 KodeCloud/KodeCloud - CKA - Cluster Architecture|Cluster Architecture]].

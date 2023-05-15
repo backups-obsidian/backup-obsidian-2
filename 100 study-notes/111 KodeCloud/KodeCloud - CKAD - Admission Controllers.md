@@ -1,9 +1,11 @@
 ---
 created: 2022-09-15 21:09
-updated: 2023-05-11 15:41
+updated: 2023-05-15 07:56
 ---
 ---
-**Links**: [[111 KodeCloud Index]]
+**Links**: 
+- [[111 KodeCloud Index]]
+- [[Kubernetes - Steps of an API Request in API Server | Steps of an API Request in API Server]]
 
 ---
 ## Why Admission Controllers
