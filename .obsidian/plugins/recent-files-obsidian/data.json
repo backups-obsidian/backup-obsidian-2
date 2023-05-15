@@ -1,8 +1,36 @@
 {
   "recentFiles": [
     {
+      "basename": "Kubernetes - Components of k8s & their function",
+      "path": "100 study-notes/110 Kubernetes/Kubernetes - Components of k8s & their function.md"
+    },
+    {
       "basename": "111 KodeCloud Index",
       "path": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md"
+    },
+    {
+      "basename": "Kubernetes - Introduction",
+      "path": "100 study-notes/110 Kubernetes/Kubernetes - Introduction.md"
+    },
+    {
+      "basename": "KodeCloud - CKA - Kube Controller Manager",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Kube Controller Manager.md"
+    },
+    {
+      "basename": "KodeCloud - CKA - Api server",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Api server.md"
+    },
+    {
+      "basename": "KodeCloud - CKA - Etcd",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Etcd.md"
+    },
+    {
+      "basename": "KodeCloud - CKA - Cluster Architecture",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Architecture.md"
+    },
+    {
+      "basename": "Kubernetes - Objects & Resources",
+      "path": "100 study-notes/111 KodeCloud/Kubernetes - Objects & Resources.md"
     },
     {
       "basename": "KodeCloud - CKAD - Operators",
@@ -19,10 +47,6 @@
     {
       "basename": "KodeCloud - CKAD - Admission Controllers",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Admission Controllers.md"
-    },
-    {
-      "basename": "KodeCloud - CKA - Api server",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Api server.md"
     },
     {
       "basename": "Kubernetes - Controllers",
@@ -55,10 +79,6 @@
     {
       "basename": "KodeCloud - CKAD - Misc",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Misc.md"
-    },
-    {
-      "basename": "KodeCloud - CKA - Cluster Architecture",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Architecture.md"
     },
     {
       "basename": "KodeCloud - CKA - TLS Kubernetes",
@@ -97,10 +117,6 @@
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - KubeConfig.md"
     },
     {
-      "basename": "KodeCloud - CKA - Kube Controller Manager",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Kube Controller Manager.md"
-    },
-    {
       "basename": "KodeCloud - CKAD - Writing helm charts",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Writing helm charts.md"
     },
@@ -125,16 +141,8 @@
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Multi Container Pods.md"
     },
     {
-      "basename": "Kubernetes - Objects & Resources",
-      "path": "100 study-notes/111 KodeCloud/Kubernetes - Objects & Resources.md"
-    },
-    {
       "basename": "KodeCloud - CKAD - Ingress",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Ingress.md"
-    },
-    {
-      "basename": "Kubernetes - Components of k8s & their function",
-      "path": "100 study-notes/110 Kubernetes/Kubernetes - Components of k8s & their function.md"
     },
     {
       "basename": "Kubernetes - Chain of events behind running a pod",
@@ -181,10 +189,6 @@
       "path": "100 study-notes/110 Kubernetes/Kubernetes - Logical Components.md"
     },
     {
-      "basename": "Kubernetes - Introduction",
-      "path": "100 study-notes/110 Kubernetes/Kubernetes - Introduction.md"
-    },
-    {
       "basename": "KodeCloud - CKAD - Jobs",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Jobs.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "STS & Identity Federation",
       "path": "100 study-notes/101 AWS SAA/STS & Identity Federation.md"
-    },
-    {
-      "basename": "IAM Basics",
-      "path": "100 study-notes/101 AWS SAA/IAM Basics.md"
     }
   ],
   "omittedPaths": [],
