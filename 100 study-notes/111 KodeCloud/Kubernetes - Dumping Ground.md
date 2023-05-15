@@ -1,6 +1,6 @@
 ---
 created: 2023-05-05 14:50
-updated: 2023-05-15 16:44
+updated: 2023-05-15 17:03
 ---
 ---
 **Links**: [[111 KodeCloud Index]]
@@ -35,3 +35,9 @@ updated: 2023-05-15 16:44
 	- We can view the options at: `cat /etc/systemd/system/kube-controller-manager.service`
 - In case of kubeadm the kube-controller-manager is deployed as pod in the `kube-system` namespace.
 	- We can see the options using `cat /etc/kubernetes/manifests/kube-controller-manager.yaml` in the master node.
+
+### Installing kubelet
+- **If we use kubeadm to setup the cluster it DOES NOT install the kubelet**
+	- This is the difference from other components 
+	- *We must manually install kubelet on the worker nodes*.
+- We have to download the binary and run it as a service on the worker node.

@@ -1,6 +1,6 @@
 ---
 created: 2022-10-10 15:37
-updated: 2023-05-15 17:00
+updated: 2023-05-15 17:07
 ---
 ---
 **Links**: [[111 KodeCloud Index]]
@@ -109,9 +109,9 @@ updated: 2023-05-15 17:00
 
 - **[[KodeCloud - CKA - Static Pods | Static Pods]] are controlled by kubelet**, not the API server.
 - Key points about kubelet:
-	- Kubelet uses the *CRI (container runtime interface)* gRPC interface to talk to the *container runtime*.
-	- Uses the *CSI (container storage interface)* gRPC to *configure block volumes*.
-	- It uses the *CNI (container network interface)* plugin configured in the cluster to *allocate the pod IP address and set up any necessary network routes and firewall rules for the pod*.
+	- Kubelet uses the **CRI (container runtime interface)** gRPC interface to talk to the *container runtime*.
+	- Uses the **CSI (container storage interface)** gRPC to *configure block volumes*.
+	- It uses the **CNI (container network interface)** plugin configured in the cluster to *allocate the pod IP address and set up any necessary network routes and firewall rules for the pod*.
 - Diagram:
 	- ![[attachments/Pasted image 20230515154756.png]]
 

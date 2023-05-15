@@ -38,7 +38,7 @@
             }
           },
           {
-            "id": "2c9fc6bb9c141383",
+            "id": "f290cc06671062c3",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -49,35 +49,9 @@
                 "source": true
               }
             }
-          },
-          {
-            "id": "fde7b8baa7efc684",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Kube Scheduler.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "f290cc06671062c3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100 study-notes/111 KodeCloud/Kubernetes - Dumping Ground.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -160,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Architecture.md",
+                "file": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Architecture.md"
+                "file": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md"
               }
             }
           },
@@ -187,7 +161,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Architecture.md",
+                "file": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -253,12 +227,15 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "2c9fc6bb9c141383",
+  "active": "f4ee7e741c998fd8",
   "lastOpenFiles": [
-    "100 study-notes/111 KodeCloud/KodeCloud - CKA - Kube Scheduler.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Architecture.md",
-    "100 study-notes/111 KodeCloud/Kubernetes - Dumping Ground.md",
     "100 study-notes/111 KodeCloud/111 KodeCloud Index.md",
+    "100 study-notes/111 KodeCloud/Kubernetes - Dumping Ground.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKA - Kubeproxy.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Maintenance.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKA - Kubelet.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKA - Kube Scheduler.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKA - Kube Controller Manager.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKA - Api server.md",
     "100 study-notes/111 KodeCloud/attachments/Pasted image 20230515160953.png",
@@ -286,10 +263,7 @@
     "100 study-notes/111 KodeCloud/KodeCloud - SSL-TLS.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKA - Etcd.md",
     "100 study-notes/111 KodeCloud/Kubernetes - Objects & Resources.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Operators.md",
     "100 study-notes/111 KodeCloud/attachments/Pasted image 20230512115855.png",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Custom Resource Definition.md",
-    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230511144725.png",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Deployment Strategies.md"
+    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230511144725.png"
   ]
 }

@@ -1,20 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "KodeCloud - CKA - Cluster Architecture",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Architecture.md"
+      "basename": "111 KodeCloud Index",
+      "path": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md"
     },
     {
-      "basename": "KodeCloud - CKA - Kube Scheduler",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Kube Scheduler.md"
+      "basename": "KodeCloud - CKA - Cluster Architecture",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Architecture.md"
     },
     {
       "basename": "Kubernetes - Dumping Ground",
       "path": "100 study-notes/111 KodeCloud/Kubernetes - Dumping Ground.md"
     },
     {
-      "basename": "111 KodeCloud Index",
-      "path": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md"
+      "basename": "KodeCloud - CKA - Cluster Maintenance",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Maintenance.md"
     },
     {
       "basename": "Kubernetes - Components of k8s & their function",
@@ -119,10 +119,6 @@
     {
       "basename": "KodeCloud - CKA - TLS Kubernetes",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - TLS Kubernetes.md"
-    },
-    {
-      "basename": "KodeCloud - CKA - Cluster Maintenance",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Maintenance.md"
     },
     {
       "basename": "KodeCloud - CKAD - API & API Groups",
