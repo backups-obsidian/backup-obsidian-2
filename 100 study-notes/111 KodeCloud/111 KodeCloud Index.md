@@ -1,6 +1,6 @@
 ---
 created: 2022-09-13 16:17
-updated: 2023-05-12 12:31
+updated: 2023-05-15 07:43
 ---
 ---
 **Links**: 
@@ -73,34 +73,33 @@ updated: 2023-05-12 12:31
 [[KodeCloud - CKAD - Deployment Strategies]]
 
 [[KodeCloud - CKAD - Misc]]
+
 ### CKA
-#### Cluster Architecture
+- Concepts to cover: 
+	- Cluster Architecture
+	- etcd
+	- kube api server
+	- kube controller manager
+	- kube scheduler
+	- kubelet
+	- kube proxy
+ 
 - [[KodeCloud - CKA - Cluster Architecture]]
 - [[KodeCloud - CKA - Etcd]]
 - [[KodeCloud - CKA - Api server]]
 - [[KodeCloud - CKA - Kube Controller Manager]]
 
-#### Scheduling
 - [[KodeCloud - CKA - Kube Scheduler]]
 - [[KodeCloud - CKA - Daemon Sets]]
 
-#### Kubelet
 - [[KodeCloud - CKA - Kubelet]]
 - [[KodeCloud - CKA - Static Pods]]
 
-#### Networking
 - [[KodeCloud - CKA - Kubeproxy]]
-- Read:
-	- [ ] [Kubernetes network stack fundamentals: How containers inside a pod communicate | Enable Sysadmin (redhat.com)](https://www.redhat.com/sysadmin/kubernetes-pod-network-communications)
-	- [ ] [Kubernetes network stack fundamentals: How pods on different nodes communicate | Enable Sysadmin (redhat.com)](https://www.redhat.com/sysadmin/kubernetes-pods-communicate-nodes)
-	- [ ] [Tracing the path of network traffic in Kubernetes (learnk8s.io)](https://learnk8s.io/kubernetes-network-packets)
-	- [ ] [A Guide to the Kubernetes Networking Model - Kevin Sookocheff](https://sookocheff.com/post/kubernetes/understanding-kubernetes-networking-model/)
 
-#### Cluster Maintenance: NOT DONE
 - [[KodeCloud - CKA - Cluster Maintenance]]
 - [[KodeCloud - CKA - TLS Kubernetes]] - **INCOMPLETE**
 
-#### Security
 - [[KodeCloud - CKA - Security Primitives and Authentication]]
 
 ### Self
@@ -128,3 +127,7 @@ updated: 2023-05-12 12:31
 - [Understanding Kubernetes Networking. Part 1: Container Networking - YouTube](https://www.youtube.com/watch?v=B6FsWNUnRo0)
 - [How does Kube API-Server work? Looking into Controller-Manager in detail - YouTube](https://www.youtube.com/watch?v=mOE1O3dQiUY)
 - [Salman Iqbal - YouTube](https://www.youtube.com/@SoulmanIqbal/videos)
+- [ ] [Kubernetes network stack fundamentals: How containers inside a pod communicate | Enable Sysadmin (redhat.com)](https://www.redhat.com/sysadmin/kubernetes-pod-network-communications)
+- [ ] [Kubernetes network stack fundamentals: How pods on different nodes communicate | Enable Sysadmin (redhat.com)](https://www.redhat.com/sysadmin/kubernetes-pods-communicate-nodes)
+- [ ] [Tracing the path of network traffic in Kubernetes (learnk8s.io)](https://learnk8s.io/kubernetes-network-packets)
+- [ ] [A Guide to the Kubernetes Networking Model - Kevin Sookocheff](https://sookocheff.com/post/kubernetes/understanding-kubernetes-networking-model/)
