@@ -1,6 +1,6 @@
 ---
 created: 2023-05-05 14:50
-updated: 2023-05-16 07:13
+updated: 2023-05-16 10:39
 ---
 ---
 **Links**: [[111 KodeCloud Index]]
@@ -45,3 +45,10 @@ updated: 2023-05-16 07:13
 - To view the status of the service we can use `sudo systemctl status kubelet`
 - *kubelet has its own kubeconfig* file at `/etc/kubernetes/kubeconfig.conf`.
 	- **kubelet is just like another user so if it needs to issue api calls to the api-server then it needs to have its own certificates, user etc**.
+
+## Networking diagrams
+- ![[attachments/Pasted image 20230516102554.png]]
+- ![[attachments/Pasted image 20230516102650.png]]
+- ![[attachments/Pasted image 20230516102808.png]]
+- ![[attachments/Pasted image 20230516103743.png]]
+- ![[attachments/Pasted image 20230516103854.png]]
