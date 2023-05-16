@@ -1,6 +1,6 @@
 ---
 created: 2022-10-10 15:37
-updated: 2023-05-16 08:07
+updated: 2023-05-16 11:21
 ---
 ---
 **Links**: [[111 KodeCloud Index]]
@@ -117,7 +117,7 @@ updated: 2023-05-16 08:07
 
 #### Kube proxy
 - Service in Kubernetes is a way to expose a set of pods internally or to external traffic.
-	- When we *create the service object*, it gets a *virtual IP assigned to it* which is called *clusterIP*. 
+	- When we *create the service object*, it gets a **virtual IP** assigned to it which is called *clusterIP*. 
 	- It is *only accessible within the Kubernetes cluster*.
 - **Whenever we create a service an endpoint object is also created**.
 	- The *Endpoint object contains all the IP addresses* and *ports* of pod groups under a Service object.
@@ -129,19 +129,27 @@ updated: 2023-05-16 08:07
 	-  *Endpoints can be thought of as a lookup table* for Services to fetch the target IP addresses of Pods.
 	- The *service only declares the selectors* but the information to which pods traffic should be forwarded is with the endpoints.
 	- The *service controller* is responsible for *configuring endpoints to a service*.
-- **We CANNOT ping the ClusterIP because it is only used for service discovery, unlike pod IPs which are pingable**.
+
+> [!important]- **We CANNOT ping the ClusterIP/Service IP because it is a virtual IP**.
+> - We can ping the Pod IP since it is an actual endpoint on the network.
+> - Service IP is just a key in the IP table rules set by IP tables that gives routing instructions to the host kernel.
+
 - Kube-proxy is a **daemon that runs on every node as a [[KodeCloud - CKA - Daemon Sets | daemon set]]**. 
 	- It is a proxy component that **implements the Kubernetes Services concept for pods** i.e. single DNS for a set of pods with load balancing.
 - When we expose pods using a Service (ClusterIP), *Kube-proxy creates network rules to send traffic to the backend pods* (endpoints) grouped under the Service object. 
 	- Meaning, **all the load balancing, and service discovery are handled by the Kube proxy**.
 - Kube-proxy uses any one of the following modes to create/update rules for routing traffic to pods behind a Service.
 	- **IPTables**: It is the *default mode*.
-		- iptables allow us to *program how the Linux kernel should treat packets*.
+		- IPtables allow us to *program how the Linux kernel should treat packets*.
 		- In IPTables mode, the traffic is handled by *IPtable rules*.
-		- In this mode, kube-proxy *chooses the backend pod random for load balancing*.
+		- In this mode, kube-proxy *chooses the backend pod **random** for load balancing*.
 	- **IPVS**: For clusters with services exceeding 1000, *IPVS offers performance improvement*. 
 		- It supports the a lot of load balancing algorithms.
-- kube-proxy runs on each node of a Kubernetes cluster and **watches Service and Endpoints (and EndpointSlices) objects** and *accordingly updates the routing rules* on its host nodes to allow communicating over Services.
+- kube-proxy runs on each node of a Kubernetes cluster and **watches Service and Endpoints (and EndpointSlices) objects** and *accordingly updates the IP table routing rules* on its host nodes to allow communicating over Services.
+	- ![[attachments/Pasted image 20230516105810.png]]
+- Analogy:
+	- `Deployment -> Replicaset -> Pod`
+	- `Service -> EndpointSlice -> Endpoint`
 
 #### Container Runtime
 - Container runtime **runs on all the nodes in the Kubernetes cluster**. 
@@ -162,3 +170,5 @@ updated: 2023-05-16 08:07
 
 ## References
 - [Kubernetes Architecture Explained [Comprehensive Guide] (devopscube.com)](https://devopscube.com/kubernetes-architecture-explained/)
+- [Demystifying kube-proxy | Mayank Shah](https://mayankshah.dev/blog/demystifying-kube-proxy/)
+	- Good read for understanding kube-proxy

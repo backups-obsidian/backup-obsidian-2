@@ -1,6 +1,6 @@
 ---
 created: 2022-09-13 16:17
-updated: 2023-05-16 07:49
+updated: 2023-05-16 10:44
 ---
 ---
 **Links**: 
@@ -130,3 +130,4 @@ updated: 2023-05-16 07:49
 - [ ] [Kubernetes network stack fundamentals: How pods on different nodes communicate | Enable Sysadmin (redhat.com)](https://www.redhat.com/sysadmin/kubernetes-pods-communicate-nodes)
 - [ ] [Tracing the path of network traffic in Kubernetes (learnk8s.io)](https://learnk8s.io/kubernetes-network-packets)
 - [ ] [A Guide to the Kubernetes Networking Model - Kevin Sookocheff](https://sookocheff.com/post/kubernetes/understanding-kubernetes-networking-model/)
+- [Demystifying kube-proxy | Mayank Shah](https://mayankshah.dev/blog/demystifying-kube-proxy/#extra-reading)
