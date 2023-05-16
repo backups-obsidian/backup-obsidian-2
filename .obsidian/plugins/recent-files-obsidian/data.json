@@ -1,12 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "KodeCloud - CKA - Cluster Architecture",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Architecture.md"
+    },
+    {
+      "basename": "104 Linux Index",
+      "path": "100 study-notes/104 Linux/104 Linux Index.md"
+    },
+    {
+      "basename": "KodeCloud - Networking",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - Networking.md"
+    },
+    {
+      "basename": "Linux - iptables",
+      "path": "100 study-notes/104 Linux/Linux - iptables.md"
+    },
+    {
       "basename": "111 KodeCloud Index",
       "path": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md"
     },
     {
-      "basename": "KodeCloud - CKA - Cluster Architecture",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Architecture.md"
+      "basename": "KodeCloud - Kubernetes - Services",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - Kubernetes - Services.md"
+    },
+    {
+      "basename": "KodeCloud - Kubernetes - Networking",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - Kubernetes - Networking.md"
     },
     {
       "basename": "Kubernetes - Dumping Ground",
@@ -47,10 +67,6 @@
     {
       "basename": "Linux - netcat",
       "path": "100 study-notes/104 Linux/Linux - netcat.md"
-    },
-    {
-      "basename": "104 Linux Index",
-      "path": "100 study-notes/104 Linux/104 Linux Index.md"
     },
     {
       "basename": "EC2 Basics",
@@ -179,10 +195,6 @@
     {
       "basename": "KodeCloud - CKAD - Namespaces",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Namespaces.md"
-    },
-    {
-      "basename": "KodeCloud - Kubernetes - Networking and Services",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - Kubernetes - Networking and Services.md"
     },
     {
       "basename": "Kubernetes - Services Deep Dive",
