@@ -1,6 +1,6 @@
 ---
 created: 2022-10-10 15:37
-updated: 2023-05-15 17:07
+updated: 2023-05-16 08:07
 ---
 ---
 **Links**: [[111 KodeCloud Index]]
@@ -96,7 +96,7 @@ updated: 2023-05-15 17:07
 ### Worker Node Components
 #### Kubelet
 - Kubelet is an agent component that **runs on every node in the cluster**. 
-	- It *DOES NOT run as a container* instead **runs as a daemon, managed by systemd**.
+	- It *DOES NOT run as a container* instead **runs as a daemon service, managed by systemd**.
 - It is responsible for *registering worker nodes with the API server and working with the podSpec* (Pod specification – YAML or JSON) primarily from the API server.
 	- podSpec defines the containers that should run inside the pod, their resources (e.g. CPU and memory limits), and other settings such as environment variables, volumes, and labels.
 - **Tasks of a kubelet**:
@@ -119,8 +119,15 @@ updated: 2023-05-15 17:07
 - Service in Kubernetes is a way to expose a set of pods internally or to external traffic.
 	- When we *create the service object*, it gets a *virtual IP assigned to it* which is called *clusterIP*. 
 	- It is *only accessible within the Kubernetes cluster*.
-- The *Endpoint object contains all the IP addresses* and ports of pod groups under a Service object. 
-	- The *endpoints controller* is responsible for maintaining a *list of pod IP addresses* (endpoints). 
+- **Whenever we create a service an endpoint object is also created**.
+	- The *Endpoint object contains all the IP addresses* and *ports* of pod groups under a Service object.
+		- We can get the endpoints using `k get endpoints`
+			- ![[attachments/Pasted image 20230516073023.png]]
+		- If we view the yaml config of a specific endpoint using `k get endpoint/<endpoint-name>` we see a list of IP addresses and ports
+			- ![[attachments/Pasted image 20230516072359.png]]
+	- The **endpoints controller** is responsible for maintaining a **list (mapping) of pod IP addresses** (endpoints).
+	-  *Endpoints can be thought of as a lookup table* for Services to fetch the target IP addresses of Pods.
+	- The *service only declares the selectors* but the information to which pods traffic should be forwarded is with the endpoints.
 	- The *service controller* is responsible for *configuring endpoints to a service*.
 - **We CANNOT ping the ClusterIP because it is only used for service discovery, unlike pod IPs which are pingable**.
 - Kube-proxy is a **daemon that runs on every node as a [[KodeCloud - CKA - Daemon Sets | daemon set]]**. 
@@ -128,11 +135,13 @@ updated: 2023-05-15 17:07
 - When we expose pods using a Service (ClusterIP), *Kube-proxy creates network rules to send traffic to the backend pods* (endpoints) grouped under the Service object. 
 	- Meaning, **all the load balancing, and service discovery are handled by the Kube proxy**.
 - Kube-proxy uses any one of the following modes to create/update rules for routing traffic to pods behind a Service.
-	- **IPTables**: It is the *default mode*. 
-		- In IPTables mode, the traffic is handled by *IPtable rules*. 
+	- **IPTables**: It is the *default mode*.
+		- iptables allow us to *program how the Linux kernel should treat packets*.
+		- In IPTables mode, the traffic is handled by *IPtable rules*.
 		- In this mode, kube-proxy *chooses the backend pod random for load balancing*.
 	- **IPVS**: For clusters with services exceeding 1000, *IPVS offers performance improvement*. 
 		- It supports the a lot of load balancing algorithms.
+- kube-proxy runs on each node of a Kubernetes cluster and **watches Service and Endpoints (and EndpointSlices) objects** and *accordingly updates the routing rules* on its host nodes to allow communicating over Services.
 
 #### Container Runtime
 - Container runtime **runs on all the nodes in the Kubernetes cluster**. 

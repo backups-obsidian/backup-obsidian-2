@@ -1,6 +1,6 @@
 ---
 created: 2023-05-05 14:50
-updated: 2023-05-15 17:03
+updated: 2023-05-16 07:13
 ---
 ---
 **Links**: [[111 KodeCloud Index]]
@@ -40,4 +40,8 @@ updated: 2023-05-15 17:03
 - **If we use kubeadm to setup the cluster it DOES NOT install the kubelet**
 	- This is the difference from other components 
 	- *We must manually install kubelet on the worker nodes*.
-- We have to download the binary and run it as a service on the worker node.
+- We have to download the binary and **run it as a service** on the worker node.
+- To find the location of the binary we can use `which kubelet`.
+- To view the status of the service we can use `sudo systemctl status kubelet`
+- *kubelet has its own kubeconfig* file at `/etc/kubernetes/kubeconfig.conf`.
+	- **kubelet is just like another user so if it needs to issue api calls to the api-server then it needs to have its own certificates, user etc**.

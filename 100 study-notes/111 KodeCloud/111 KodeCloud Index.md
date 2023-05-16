@@ -1,6 +1,6 @@
 ---
 created: 2022-09-13 16:17
-updated: 2023-05-15 17:16
+updated: 2023-05-16 07:49
 ---
 ---
 **Links**: 
@@ -26,7 +26,8 @@ updated: 2023-05-15 17:16
 [[KodeCloud - Kubernetes - Pods]]
 [[KodeCloud - Kubernetes - ReplicaSets]]
 [[KodeCloud - Kubernetes - Deployments]]
-[[KodeCloud - Kubernetes - Networking and Services]]
+[[KodeCloud - Kubernetes - Networking]]
+[[KodeCloud - Kubernetes - Services]]
 
 [[../110 Kubernetes/Kubernetes - Chain of events behind running a pod|Kubernetes - Chain of events behind running a pod]]
 [[Kubernetes - Objects & Resources]]
@@ -116,6 +117,7 @@ updated: 2023-05-15 17:16
 - [ ] What is a CNI?
 - What are finalizers.
 - Must have k8s operators?
+- vaults in k8s
 
 # Read Later
 - [Kubernetes Tutorials For Beginners [43 Comprehensive Guides] (devopscube.com)](https://devopscube.com/kubernetes-tutorials-beginners/)
