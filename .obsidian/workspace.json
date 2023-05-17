@@ -38,7 +38,7 @@
             }
           },
           {
-            "id": "f290cc06671062c3",
+            "id": "b99bc8bc8167cf4a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -49,22 +49,9 @@
                 "source": true
               }
             }
-          },
-          {
-            "id": "08daf2d5ff7a6217",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100 study-notes/104 Linux/Linux - iptables.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
-            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -147,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md",
+                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Architecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md"
+                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Architecture.md"
               }
             }
           },
@@ -174,7 +161,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md",
+                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Architecture.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -240,13 +227,19 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "f4ee7e741c998fd8",
+  "active": "b99bc8bc8167cf4a",
   "lastOpenFiles": [
-    "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Architecture.md",
+    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230517115000.png",
+    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230517114908.png",
     "100 study-notes/111 KodeCloud/111 KodeCloud Index.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Architecture.md",
+    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230516143551.png",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKA - Setting up k8s.md",
+    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230516113212.png",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKA - Etcd.md",
+    "100 study-notes/111 KodeCloud/Kubernetes - Dumping Ground.md",
     "100 study-notes/104 Linux/Linux - iptables.md",
     "100 study-notes/111 KodeCloud/attachments/Pasted image 20230516105810.png",
-    "100 study-notes/111 KodeCloud/Kubernetes - Dumping Ground.md",
     "100 study-notes/111 KodeCloud/attachments/Pasted image 20230516103854.png",
     "100 study-notes/111 KodeCloud/attachments/Pasted image 20230516103743.png",
     "100 study-notes/111 KodeCloud/attachments/Pasted image 20230516102808.png",
@@ -257,15 +250,12 @@
     "100 study-notes/111 KodeCloud/KodeCloud - Kubernetes - Services.md",
     "100 study-notes/111 KodeCloud/KodeCloud - Kubernetes - Networking.md",
     "100 study-notes/111 KodeCloud/attachments/Pasted image 20230516073023.png",
-    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230516072359.png",
-    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230516072328.png",
     "100 study-notes/111 KodeCloud/KodeCloud - CKA - Kubeproxy.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Maintenance.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKA - Kubelet.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKA - Kube Scheduler.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKA - Kube Controller Manager.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKA - Api server.md",
-    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230515160953.png",
     "100 study-notes/110 Kubernetes/Kubernetes - Components of k8s & their function.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKA - Static Pods.md",
     "100 study-notes/111 KodeCloud/Kubernetes - Controllers.md",
@@ -274,8 +264,6 @@
     "100 study-notes/111 KodeCloud/Kubernetes - Steps of an API Request in API Server.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Admission Controllers.md",
     "100 study-notes/104 Linux/Linux - netcat.md",
-    "100 study-notes/101 AWS SAA/EC2 Basics.md",
-    "100 study-notes/104 Linux/Linux - Environment Variables.md",
-    "100 study-notes/104 Linux/Linux - Miscellaneous.md"
+    "100 study-notes/101 AWS SAA/EC2 Basics.md"
   ]
 }

@@ -1,6 +1,6 @@
 ---
 created: 2022-10-10 15:37
-updated: 2023-05-16 11:21
+updated: 2023-05-17 11:44
 ---
 ---
 **Links**: [[111 KodeCloud Index]]
@@ -23,14 +23,29 @@ updated: 2023-05-16 11:21
 #### etcd
 - etcd is an open-source **strongly consistent**, **distributed key-value store**.
 - etcd uses *raft consensus algorithm* for strong consistency and availability. 
-	- It works in a leader-member fashion for high availability and to withstand node failures.
+	- It works in a *leader-member* fashion for high availability and to withstand node failures.
+	- [Raft (thesecretlivesofdata.com)](http://thesecretlivesofdata.com/raft/)
 - etcd *stores all configurations, states, and metadata of Kubernetes objects* (pods, secrets, daemonsets, deployments, configmaps, statefulsets, etc).
 - etcd allows a **client to subscribe to events using `Watch()` API** . 
 	- Kubernetes *api-server uses the etcd’s watch functionality to track the change in the state of an object*.
 - etcd stores all objects under the `/registry` directory key in key-value format. 
 	- For example, information on a pod named Nginx in the default namespace can be found under `/registry/pods/default/nginx`.
+	- Getting the first 10 items from etcd 
+		- ![[attachments/Pasted image 20230516113212.png]]
+- [[KodeCloud - CKA - Setting up k8s#ETCD commands | Commands for exploring etcd]]
+- *Features of etcd* making it suitable for k8s
+	- ![[attachments/Pasted image 20230516143551.png]]
 
 > [!note] etcd it is the **only Statefulset component in the control plane**.
+
+##### High Availability
+- etcd cluster can use *multiple nodes for high availability*.
+- There are different ways of achieving etcd HA.
+	- We can use the **stacked topology** where we have *multiple master nodes and an etcd in each of them*. 
+		- This is how HA setup is provisioned using kubeadm.
+		- ![[attachments/Pasted image 20230517114908.png]]
+	- We can use an **external etcd cluster**.
+		- ![[attachments/Pasted image 20230517115000.png]] 
 
 #### kube-scheduler
 - kube-scheduler is responsible for **scheduling pods on worker nodes**.
@@ -172,3 +187,5 @@ updated: 2023-05-16 11:21
 - [Kubernetes Architecture Explained [Comprehensive Guide] (devopscube.com)](https://devopscube.com/kubernetes-architecture-explained/)
 - [Demystifying kube-proxy | Mayank Shah](https://mayankshah.dev/blog/demystifying-kube-proxy/)
 	- Good read for understanding kube-proxy
+- [How etcd works with and without Kubernetes (learnk8s.io)](https://learnk8s.io/etcd-kubernetes)
+	- Good read for understanding etcd.

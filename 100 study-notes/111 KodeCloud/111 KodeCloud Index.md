@@ -1,6 +1,6 @@
 ---
 created: 2022-09-13 16:17
-updated: 2023-05-16 10:44
+updated: 2023-05-16 11:29
 ---
 ---
 **Links**: 
@@ -87,7 +87,6 @@ updated: 2023-05-16 10:44
  
 - [[KodeCloud - CKA - Cluster Architecture]]
 
-- [[KodeCloud - CKA - Etcd]]
 
 
 - [[KodeCloud - CKA - Daemon Sets]]
@@ -99,6 +98,7 @@ updated: 2023-05-16 10:44
 - [[KodeCloud - CKA - TLS Kubernetes]] - **INCOMPLETE**
 
 - [[KodeCloud - CKA - Security Primitives and Authentication]]
+- [[KodeCloud - CKA - Setting up k8s]]
 
 ### Self
 - [[Kubernetes - Logging]]

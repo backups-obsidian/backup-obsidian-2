@@ -1,20 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "111 KodeCloud Index",
-      "path": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md"
-    },
-    {
       "basename": "KodeCloud - CKA - Cluster Architecture",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Architecture.md"
     },
     {
-      "basename": "Linux - iptables",
-      "path": "100 study-notes/104 Linux/Linux - iptables.md"
+      "basename": "111 KodeCloud Index",
+      "path": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md"
+    },
+    {
+      "basename": "KodeCloud - CKA - Setting up k8s",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Setting up k8s.md"
     },
     {
       "basename": "Kubernetes - Dumping Ground",
       "path": "100 study-notes/111 KodeCloud/Kubernetes - Dumping Ground.md"
+    },
+    {
+      "basename": "Linux - iptables",
+      "path": "100 study-notes/104 Linux/Linux - iptables.md"
     },
     {
       "basename": "104 Linux Index",
@@ -91,10 +95,6 @@
     {
       "basename": "KodeCloud - SSL-TLS",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - SSL-TLS.md"
-    },
-    {
-      "basename": "KodeCloud - CKA - Etcd",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Etcd.md"
     },
     {
       "basename": "Kubernetes - Objects & Resources",
@@ -195,10 +195,6 @@
     {
       "basename": "KodeCloud - CKAD - Namespaces",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Namespaces.md"
-    },
-    {
-      "basename": "Kubernetes - Services Deep Dive",
-      "path": "100 study-notes/110 Kubernetes/Kubernetes - Services Deep Dive.md"
     }
   ],
   "omittedPaths": [],
