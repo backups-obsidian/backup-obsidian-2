@@ -1,6 +1,6 @@
 ---
 created: 2022-09-13 16:17
-updated: 2023-05-16 11:29
+updated: 2023-05-19 08:37
 ---
 ---
 **Links**: 
@@ -79,18 +79,8 @@ updated: 2023-05-16 11:29
 [[KodeCloud - CKAD - Misc]]
 
 ### CKA
-- Concepts to cover: 
-	- etcd
-	- add ons
-	- static pods
-	- daemon sets
- 
 - [[KodeCloud - CKA - Cluster Architecture]]
-
-
-
 - [[KodeCloud - CKA - Daemon Sets]]
-
 - [[KodeCloud - CKA - Static Pods]]
 
 

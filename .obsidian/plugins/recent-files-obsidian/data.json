@@ -1,12 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "KodeCloud - CKA - Cluster Architecture",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Architecture.md"
+      "basename": "KodeCloud - CKA - Static Pods",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Static Pods.md"
     },
     {
       "basename": "111 KodeCloud Index",
       "path": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md"
+    },
+    {
+      "basename": "KodeCloud - CKA - Daemon Sets",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Daemon Sets.md"
+    },
+    {
+      "basename": "KodeCloud - CKA - Cluster Architecture",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Architecture.md"
+    },
+    {
+      "basename": "EC2 Instance Purchasing Options",
+      "path": "100 study-notes/101 AWS SAA/EC2 Instance Purchasing Options.md"
+    },
+    {
+      "basename": "101 AWS SAA Index",
+      "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
+    },
+    {
+      "basename": "EC2 Basics",
+      "path": "100 study-notes/101 AWS SAA/EC2 Basics.md"
     },
     {
       "basename": "KodeCloud - CKA - Setting up k8s",
@@ -45,10 +65,6 @@
       "path": "100 study-notes/110 Kubernetes/Kubernetes - Components of k8s & their function.md"
     },
     {
-      "basename": "KodeCloud - CKA - Static Pods",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Static Pods.md"
-    },
-    {
       "basename": "Kubernetes - Controllers",
       "path": "100 study-notes/111 KodeCloud/Kubernetes - Controllers.md"
     },
@@ -71,10 +87,6 @@
     {
       "basename": "Linux - netcat",
       "path": "100 study-notes/104 Linux/Linux - netcat.md"
-    },
-    {
-      "basename": "EC2 Basics",
-      "path": "100 study-notes/101 AWS SAA/EC2 Basics.md"
     },
     {
       "basename": "Linux - Environment Variables",
@@ -187,14 +199,6 @@
     {
       "basename": "KodeCloud - CKAD - Ingress",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Ingress.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - Network Policies",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Network Policies.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - Namespaces",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Namespaces.md"
     }
   ],
   "omittedPaths": [],

@@ -1,6 +1,6 @@
 ---
 created: 2022-10-10 15:37
-updated: 2023-05-17 11:44
+updated: 2023-05-17 11:52
 ---
 ---
 **Links**: [[111 KodeCloud Index]]
@@ -44,8 +44,9 @@ updated: 2023-05-17 11:44
 	- We can use the **stacked topology** where we have *multiple master nodes and an etcd in each of them*. 
 		- This is how HA setup is provisioned using kubeadm.
 		- ![[attachments/Pasted image 20230517114908.png]]
-	- We can use an **external etcd cluster**.
-		- ![[attachments/Pasted image 20230517115000.png]] 
+	- We can use an **external etcd cluster topology**.
+		- ![[attachments/Pasted image 20230517115000.png]]
+- The main difference between the two topologies is that in the external etcd cluster the master node can talk to any etcd whereas in stacked topology it could only talk to the local etcd pod.
 
 #### kube-scheduler
 - kube-scheduler is responsible for **scheduling pods on worker nodes**.
