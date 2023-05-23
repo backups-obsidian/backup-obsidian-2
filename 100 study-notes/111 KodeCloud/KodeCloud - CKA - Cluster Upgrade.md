@@ -1,6 +1,6 @@
 ---
 created: 2023-05-19 14:59
-updated: 2023-05-19 14:59
+updated: 2023-05-23 07:32
 ---
 ---
 **Links**: [[111 KodeCloud Index]]
@@ -41,7 +41,7 @@ updated: 2023-05-19 14:59
 		- This will result in downtime.
 	- *Upgrading one node at a time*.
 		- This is done by draining the nodes and then uncordoning them once the node is done upgrading.
-		- ![[attachments/Pasted image 20230519134753.png]]
+			- ![[attachments/Pasted image 20230519134753.png]]
 	- *Adding new nodes to the cluster with upgraded version*.
 		- Move the workload to the new and remove the node with the old version
 

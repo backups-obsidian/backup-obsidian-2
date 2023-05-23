@@ -1,6 +1,6 @@
 ---
 created: 2022-10-15 10:10
-updated: 2023-05-15 07:54
+updated: 2023-05-23 09:47
 ---
 ---
 **Links**: 
@@ -10,12 +10,12 @@ updated: 2023-05-15 07:54
 
 ---
 ## Openssl
-- Get the `openssl` version: `openssl version -a`
+- Get the `openssl` version: `openssl version`
 
 ### Generating a set of public and private keys
 - `openssl genrsa`: This command will just output the key to the terminal.
 
-> [!note]- **The key generated using `openssl genrsa` contains both the public and the private key**.
+> [!note] **The key generated using `openssl genrsa` contains both the public and the private key**.
 
 - To *save the key* we use: 
 	- `openssl genrsa -out privatekey.pem`
@@ -50,12 +50,17 @@ updated: 2023-05-15 07:54
 > [!important]+ Both **CSRs and self signed certificates are generated using the `req`** option.
 > The only difference is the `-x509` option which is used to generate self signed certificates.
 
-- Generating a CSR from a private key:
-	- `openssl req -new -key privatekey.pem -out CSR.pem`
-	- If we take a look at the contents of the CSR using `cat` it will say `--BEGIN CERTIFICATE REQUEST--`
-- Generating a Self Signed Certificate from a private key:
-	- `openssl req -x509 -key privatekey.pem -out CERT.pem`
-	- If we take a look at the contents of the Certificate using `cat` it will say `--BEGIN CERTIFICATE--` in the beginning.
+> [!note]+ **Generating a CSR from a private key**:
+> - `openssl req -new -key privatekey.pem -out CSR.pem`
+> - If we take a look at the contents of the CSR using `cat` it will say `--BEGIN CERTIFICATE REQUEST--`
+
+^1a9128
+
+> [!note]+ **Generating a Self Signed Certificate from a private key**:
+> - `openssl req -x509 -key privatekey.pem -out CERT.pem`
+> - If we take a look at the contents of the Certificate using `cat` it will say `--BEGIN CERTIFICATE--` in the beginning.
+
+^8c3aec
 
 - `req` stands for request. 
 	- It is used to *create* and *process* **certificate requests**.
@@ -73,19 +78,16 @@ updated: 2023-05-15 07:54
 > [!important]- In case of self signed certificates *issuer* and *subject* will be the same.
 > The official definition of self signed certificates is that the issuer field matches the subject field.
 
-- Looking at the *contents of the certificate*:
+- Looking at the **contents of the certificate**:
 	- `openssl x509 -in CERT.pem -noout -text`
 - Extracting *specific features of information*:
 	- `openssl x509 -in CERT.pem -noout -text -subject -issuer`
 	- `openssl x509 -in CERT.pem -noout -text -dates`: Validity dates
-
-- Viewing the *contents of the CSR*:
+- Viewing the **contents of the CSR**:
 	- `openssl req -in CSR.pem -noout -text`
-	- There will be no issuer.
-
-- Sample output of a self signed certificate:
+	- *There will be no issuer*.
+- Sample *output of a self signed certificate*:
 	- ![[attachments/Pasted image 20221031002415.png]]
-
 - Whenever we generate a CSR or a self signed certificate we have to enter the *subject values* interactively. We can pass it as *an argument*.
 	- `openssl req -new -key privatekey.pem -out CSR.pem -subj "/CN=website.com"`
 	- For self signed certificates we have `-x509` instead of `-new`
@@ -107,14 +109,14 @@ updated: 2023-05-15 07:54
 
 - The above technique won't work for elliptic curve keys.
 
-> [!note]- Notice that we have to use `req` to list the contents of a CSR whereas we use `x509` to list the contents of a certificate.
+> [!note] Notice that we have to use `req` to list the contents of a CSR whereas we use `x509` to list the contents of a certificate.
 
 ### Signing CSRs using a root CA private key
-- Signing a CSR using a private key
+- **Signing a CSR using a private key** ^21249a
 	- `openssl x509 -req -days 3650 -in some.csr -CA ca.cert -CAkey ca.key -out some.cert -CAcreateserial`
 	- Here days is the validity of the certificate.
 
-> [!tip]- For the clients to trust the certificates signed by our CA we need to have the CA's public cert in the browser/devices.
+> [!tip] For the clients to trust the certificates signed by our CA we need to have the CA's public cert in the browser/devices.
 ---
 ### Example
 - Sample certificate of `sarthaknarayan.tech`
@@ -125,7 +127,6 @@ updated: 2023-05-15 07:54
 
 ## References
 - [How to create a valid self signed SSL Certificate? - YouTube](https://www.youtube.com/watch?v=VH4gXcvkmOY) - **Must Watch**
-- [ ] [Self signed Kubernetes SSL certificate // easy guide - YouTube](https://www.youtube.com/watch?v=IQ3G8Z1myMw)
 - [Create & sign SSL/TLS certificates with openssl - YouTube](https://www.youtube.com/watch?v=7YgaZIFn7mY)
 - [Using OpenSSL With Ed Harmoush - YouTube](https://www.youtube.com/playlist?list=PLtO_OYBiEo6kzs6dzPQ8CFilqZ6UxZKto)
 	- 1st three videos

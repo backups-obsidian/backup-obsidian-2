@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "KodeCloud - CKA - TLS Kubernetes",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - TLS Kubernetes.md"
+    },
+    {
+      "basename": "KodeCloud - SSL-TLS",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - SSL-TLS.md"
+    },
+    {
       "basename": "111 KodeCloud Index",
       "path": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md"
     },
     {
-      "basename": "KodeCloud - CKAD - Operators",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Operators.md"
+      "basename": "Using openssl",
+      "path": "100 study-notes/104 Linux/Using openssl.md"
     },
     {
-      "basename": "KodeCloud - CKA - Cluster Architecture",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Architecture.md"
+      "basename": "KodeCloud - CKA - Cluster Upgrade",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Upgrade.md"
     },
     {
       "basename": "KodeCloud - CKA - Backup & Restore",
@@ -21,8 +29,12 @@
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - OS Upgrades.md"
     },
     {
-      "basename": "KodeCloud - CKA - Cluster Upgrade",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Upgrade.md"
+      "basename": "KodeCloud - CKAD - Operators",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Operators.md"
+    },
+    {
+      "basename": "KodeCloud - CKA - Cluster Architecture",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Architecture.md"
     },
     {
       "basename": "KodeCloud - CKAD - Logging",
@@ -117,14 +129,6 @@
       "path": "100 study-notes/104 Linux/Linux - Use of exec.md"
     },
     {
-      "basename": "Using openssl",
-      "path": "100 study-notes/104 Linux/Using openssl.md"
-    },
-    {
-      "basename": "KodeCloud - SSL-TLS",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - SSL-TLS.md"
-    },
-    {
       "basename": "Kubernetes - Objects & Resources",
       "path": "100 study-notes/111 KodeCloud/Kubernetes - Objects & Resources.md"
     },
@@ -155,10 +159,6 @@
     {
       "basename": "KodeCloud - CKAD - Misc",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Misc.md"
-    },
-    {
-      "basename": "KodeCloud - CKA - TLS Kubernetes",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - TLS Kubernetes.md"
     },
     {
       "basename": "KodeCloud - CKAD - API & API Groups",

@@ -38,12 +38,12 @@
             }
           },
           {
-            "id": "0c4b58edd35bc7dc",
+            "id": "fef3bc90f393cea2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Operators.md",
+                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKA - TLS Kubernetes.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -51,7 +51,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md",
+                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKA - TLS Kubernetes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md"
+                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKA - TLS Kubernetes.md"
               }
             }
           },
@@ -161,7 +161,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md",
+                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKA - TLS Kubernetes.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -227,18 +227,21 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "f4ee7e741c998fd8",
+  "active": "fef3bc90f393cea2",
   "lastOpenFiles": [
-    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Operators.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - SSL-TLS.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKA - TLS Kubernetes.md",
     "100 study-notes/111 KodeCloud/111 KodeCloud Index.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Architecture.md",
+    "100 study-notes/104 Linux/Using openssl.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Upgrade.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKA - Backup & Restore.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKA - OS Upgrades.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Operators.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Architecture.md",
     "100 study-notes/111 KodeCloud/attachments/Pasted image 20230519154318.png",
     "100 study-notes/111 KodeCloud/attachments/Pasted image 20230519153840.png",
     "100 study-notes/111 KodeCloud/attachments/Pasted image 20230519150929.png",
     "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Maintenance.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKA - OS Upgrades.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Upgrade.md",
     "100 study-notes/111 KodeCloud/attachments/Pasted image 20230519140626.png",
     "100 study-notes/111 KodeCloud/attachments/Pasted image 20230519135913.png",
     "100 study-notes/111 KodeCloud/attachments/Pasted image 20230519135412.png",
@@ -261,9 +264,6 @@
     "100 study-notes/111 KodeCloud/KodeCloud - Kubernetes - Services.md",
     "100 study-notes/111 KodeCloud/KodeCloud - Kubernetes - Networking.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKA - Kubeproxy.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKA - Kubelet.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKA - Kube Scheduler.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKA - Kube Controller Manager.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKA - Api server.md"
+    "100 study-notes/111 KodeCloud/KodeCloud - CKA - Kubelet.md"
   ]
 }
