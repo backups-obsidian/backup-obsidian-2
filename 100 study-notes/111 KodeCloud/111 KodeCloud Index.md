@@ -1,6 +1,6 @@
 ---
 created: 2022-09-13 16:17
-updated: 2023-05-19 16:42
+updated: 2023-05-23 08:41
 ---
 ---
 **Links**: 
@@ -55,28 +55,31 @@ updated: 2023-05-19 16:42
 [[KodeCloud - CKAD - Volumes]]
 [[KodeCloud - CKAD - StatefulSets]]
 
-[[KodeCloud - CKAD - Helm Charts]]
-[[KodeCloud - CKAD - Writing helm charts]]
+- Helm Charts
+	- [[KodeCloud - CKAD - Helm Charts]]
+	- [[KodeCloud - CKAD - Writing helm charts]]
 
-[[KodeCloud - CKAD - KubeConfig]]
+- [[KodeCloud - CKAD - KubeConfig]]
 
-[[KodeCloud - CKAD - API & API Groups]]
-[[KodeCloud - CKAD - API Versions]]
-[[Kubernetes - Steps of an API Request in API Server]]
+- Understanding the API & API Server
+	- [[KodeCloud - CKAD - API & API Groups]]
+	- [[KodeCloud - CKAD - API Versions]]
+	- [[Kubernetes - Steps of an API Request in API Server]]
 
-[[Kubernetes - Authentication]]
-[[KodeCloud - CKAD - Authorization]]
-[[KodeCloud - CKAD - RBAC]]
-[[KodeCloud - CKAD - ClusterRoles]]
+- Authentication & Authorization
+	- [[Kubernetes - Authentication]]
+	- [[KodeCloud - CKAD - Authorization]]
+	- [[KodeCloud - CKAD - RBAC]]
+	- [[KodeCloud - CKAD - ClusterRoles]]
 
-[[Kubernetes - Controllers]]
-[[KodeCloud - CKAD - Admission Controllers]]
-[[KodeCloud - CKAD - Custom Resource Definition]]
-[[KodeCloud - CKAD - Operators]]
+- Controllers, Custom Resources & Operators
+	- [[Kubernetes - Controllers]]
+	- [[KodeCloud - CKAD - Admission Controllers]]
+	- [[KodeCloud - CKAD - Custom Resource Definition]]
+	- [[KodeCloud - CKAD - Operators]]
 
-[[KodeCloud - CKAD - Deployment Strategies]]
-
-[[KodeCloud - CKAD - Misc]]
+- [[KodeCloud - CKAD - Deployment Strategies]]
+- [[KodeCloud - CKAD - Misc]]
 
 ### CKA
 - [[KodeCloud - CKA - Cluster Architecture]]
@@ -87,10 +90,6 @@ updated: 2023-05-19 16:42
 	- [[KodeCloud - CKA - Cluster Upgrade]]
 	- [[KodeCloud - CKA - Backup & Restore]]
 
-- TOPICS TO READ:
-	- OS Upgrades
-	- Cluster upgrades
-	- Backup & restore
 
 - [[KodeCloud - CKA - TLS Kubernetes]] - **INCOMPLETE**
 
@@ -128,7 +127,9 @@ updated: 2023-05-19 16:42
 - [ ] [Tracing the path of network traffic in Kubernetes (learnk8s.io)](https://learnk8s.io/kubernetes-network-packets)
 - [ ] [A Guide to the Kubernetes Networking Model - Kevin Sookocheff](https://sookocheff.com/post/kubernetes/understanding-kubernetes-networking-model/)
 - [Demystifying kube-proxy | Mayank Shah](https://mayankshah.dev/blog/demystifying-kube-proxy/#extra-reading)
+- [How to Troubleshoot Kubernetes Clusters | Kubernetes Tutorial | K21Academy - YouTube](https://www.youtube.com/watch?v=EirIuYq1Yes)
 
 ## References
 - Installing the metrics server: [How to Install Kubernetes (K8s) Metrics Server Step by Step (linuxtechi.com)](https://www.linuxtechi.com/how-to-install-kubernetes-metrics-server/)
 	- We CANNOT see historical performance data in the metrics server.
+- [Docker vs Containerd: Understanding the Differences and Choosing the Right Containerization Tool - YouTube](https://www.youtube.com/watch?v=21onkZfL2yM)

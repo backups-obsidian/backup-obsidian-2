@@ -1,6 +1,6 @@
 ---
 created: 2023-05-19 15:00
-updated: 2023-05-19 16:44
+updated: 2023-05-23 08:18
 ---
 ---
 **Links**: [[111 KodeCloud Index]]
@@ -55,3 +55,8 @@ ETCDCTL_API=3 etcdctl snapshot restore --data-dir /new-location /location.db
 	- *Reload the daemon since service file has changed*: `systemctl daemon-reload`
 	- Restart etcd: `systemctl restart etcd`
 
+## References
+- [Kubernetes Backups, Upgrades, Migrations - with Velero - YouTube](https://www.youtube.com/watch?v=zybLTQER0yY)
+	- Easy backup and restore using **velero**
+- [Kubernetes Backup and Restore made easy! - YouTube](https://www.youtube.com/watch?v=01qcYSck1c4)
+	- kasten

@@ -1,12 +1,14 @@
 ---
 created: 2022-09-15 21:09
-updated: 2022-10-31 00:32
+updated: 2023-05-23 08:52
 ---
 ---
 **Links**: [[111 KodeCloud Index]]
+**Recommended Reads**: 
+- [[KodeCloud - SSL-TLS | How SSL-TLS works]]
+- [[../104 Linux/Using openssl|Using openssl]]
 
 ---
-- [[KodeCloud - SSL-TLS | How SSL-TLS works]]
 
 ## Kubernetes TLS 
 - ![[attachments/Pasted image 20221013142023.png]]
