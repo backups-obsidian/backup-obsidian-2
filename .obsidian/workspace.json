@@ -38,25 +38,12 @@
             }
           },
           {
-            "id": "a765ff11586e0744",
+            "id": "0c4b58edd35bc7dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Architecture.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "b99bc8bc8167cf4a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Static Pods.md",
+                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Operators.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -64,7 +51,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -147,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Static Pods.md",
+                "file": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Static Pods.md"
+                "file": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md"
               }
             }
           },
@@ -174,7 +161,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Static Pods.md",
+                "file": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -240,43 +227,43 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "b99bc8bc8167cf4a",
+  "active": "f4ee7e741c998fd8",
   "lastOpenFiles": [
-    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230519090515.png",
-    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230519090145.png",
-    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230519090030.png",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Operators.md",
     "100 study-notes/111 KodeCloud/111 KodeCloud Index.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKA - Daemon Sets.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Architecture.md",
-    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230519081733.png",
-    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230519080007.png",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKA - Backup & Restore.md",
+    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230519154318.png",
+    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230519153840.png",
+    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230519150929.png",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Maintenance.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKA - OS Upgrades.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Upgrade.md",
+    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230519140626.png",
+    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230519135913.png",
+    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230519135412.png",
+    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230519134753.png",
+    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230519132021.png",
+    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230519131737.png",
+    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230519131556.png",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Logging.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKA - Static Pods.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKA - Daemon Sets.md",
     "100 study-notes/101 AWS SAA/EC2 Instance Purchasing Options.md",
     "100 study-notes/101 AWS SAA/101 AWS SAA Index.md",
     "100 study-notes/101 AWS SAA/EC2 Basics.md",
-    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230517115000.png",
-    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230517114908.png",
-    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230516143551.png",
     "100 study-notes/111 KodeCloud/KodeCloud - CKA - Setting up k8s.md",
-    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230516113212.png",
     "100 study-notes/111 KodeCloud/KodeCloud - CKA - Etcd.md",
     "100 study-notes/111 KodeCloud/Kubernetes - Dumping Ground.md",
     "100 study-notes/104 Linux/Linux - iptables.md",
-    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230516105810.png",
-    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230516103854.png",
     "100 study-notes/104 Linux/104 Linux Index.md",
     "100 study-notes/111 KodeCloud/KodeCloud - Networking.md",
     "100 study-notes/111 KodeCloud/KodeCloud - Kubernetes - Services.md",
     "100 study-notes/111 KodeCloud/KodeCloud - Kubernetes - Networking.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKA - Kubeproxy.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Maintenance.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKA - Kubelet.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKA - Kube Scheduler.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKA - Kube Controller Manager.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKA - Api server.md",
-    "100 study-notes/110 Kubernetes/Kubernetes - Components of k8s & their function.md",
-    "100 study-notes/111 KodeCloud/Kubernetes - Controllers.md",
-    "100 study-notes/110 Kubernetes/Kubernetes - Chain of events behind running a pod.md",
-    "100 study-notes/110 Kubernetes/Kubernetes - Introduction.md"
+    "100 study-notes/111 KodeCloud/KodeCloud - CKA - Api server.md"
   ]
 }

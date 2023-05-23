@@ -45,3 +45,4 @@ updated: 2023-05-12 12:46
 - [What is a Kubernetes operator? (redhat.com)](https://www.redhat.com/en/topics/containers/what-is-a-kubernetes-operator)
 - [Kubernetes Operators: what are they? Some examples | Cloud Native Computing Foundation (cncf.io)](https://www.cncf.io/blog/2022/06/15/kubernetes-operators-what-are-they-some-examples/)
 - [What is an Operator? Kubernetes & OpenShift Operators Explained. - YouTube](https://www.youtube.com/watch?v=MfDpQru0-ok)
+- [Should We Run Databases In Kubernetes? CloudNativePG PostgreSQL - YouTube](https://www.youtube.com/watch?v=Ny9RxM6H6Hg)

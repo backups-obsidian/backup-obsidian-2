@@ -1,6 +1,6 @@
 ---
 created: 2022-09-13 16:17
-updated: 2023-05-19 08:37
+updated: 2023-05-19 16:42
 ---
 ---
 **Links**: 
@@ -82,9 +82,16 @@ updated: 2023-05-19 08:37
 - [[KodeCloud - CKA - Cluster Architecture]]
 - [[KodeCloud - CKA - Daemon Sets]]
 - [[KodeCloud - CKA - Static Pods]]
+- Cluster Maintenance:
+	- [[KodeCloud - CKA - OS Upgrades]]
+	- [[KodeCloud - CKA - Cluster Upgrade]]
+	- [[KodeCloud - CKA - Backup & Restore]]
 
+- TOPICS TO READ:
+	- OS Upgrades
+	- Cluster upgrades
+	- Backup & restore
 
-- [[KodeCloud - CKA - Cluster Maintenance]]
 - [[KodeCloud - CKA - TLS Kubernetes]] - **INCOMPLETE**
 
 - [[KodeCloud - CKA - Security Primitives and Authentication]]
@@ -121,3 +128,7 @@ updated: 2023-05-19 08:37
 - [ ] [Tracing the path of network traffic in Kubernetes (learnk8s.io)](https://learnk8s.io/kubernetes-network-packets)
 - [ ] [A Guide to the Kubernetes Networking Model - Kevin Sookocheff](https://sookocheff.com/post/kubernetes/understanding-kubernetes-networking-model/)
 - [Demystifying kube-proxy | Mayank Shah](https://mayankshah.dev/blog/demystifying-kube-proxy/#extra-reading)
+
+## References
+- Installing the metrics server: [How to Install Kubernetes (K8s) Metrics Server Step by Step (linuxtechi.com)](https://www.linuxtechi.com/how-to-install-kubernetes-metrics-server/)
+	- We CANNOT see historical performance data in the metrics server.

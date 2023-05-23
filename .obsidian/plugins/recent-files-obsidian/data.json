@@ -1,20 +1,40 @@
 {
   "recentFiles": [
     {
-      "basename": "KodeCloud - CKA - Static Pods",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Static Pods.md"
-    },
-    {
       "basename": "111 KodeCloud Index",
       "path": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md"
     },
     {
-      "basename": "KodeCloud - CKA - Daemon Sets",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Daemon Sets.md"
+      "basename": "KodeCloud - CKAD - Operators",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Operators.md"
     },
     {
       "basename": "KodeCloud - CKA - Cluster Architecture",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Architecture.md"
+    },
+    {
+      "basename": "KodeCloud - CKA - Backup & Restore",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Backup & Restore.md"
+    },
+    {
+      "basename": "KodeCloud - CKA - OS Upgrades",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - OS Upgrades.md"
+    },
+    {
+      "basename": "KodeCloud - CKA - Cluster Upgrade",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Upgrade.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Logging",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Logging.md"
+    },
+    {
+      "basename": "KodeCloud - CKA - Static Pods",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Static Pods.md"
+    },
+    {
+      "basename": "KodeCloud - CKA - Daemon Sets",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Daemon Sets.md"
     },
     {
       "basename": "EC2 Instance Purchasing Options",
@@ -55,10 +75,6 @@
     {
       "basename": "KodeCloud - Kubernetes - Networking",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - Kubernetes - Networking.md"
-    },
-    {
-      "basename": "KodeCloud - CKA - Cluster Maintenance",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Maintenance.md"
     },
     {
       "basename": "Kubernetes - Components of k8s & their function",
@@ -111,10 +127,6 @@
     {
       "basename": "Kubernetes - Objects & Resources",
       "path": "100 study-notes/111 KodeCloud/Kubernetes - Objects & Resources.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - Operators",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Operators.md"
     },
     {
       "basename": "KodeCloud - CKAD - Custom Resource Definition",
@@ -183,22 +195,6 @@
     {
       "basename": "KodeCloud - CKAD - StatefulSets",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - StatefulSets.md"
-    },
-    {
-      "basename": "Kubernetes - StatefulSet",
-      "path": "100 study-notes/110 Kubernetes/Kubernetes - StatefulSet.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - Volumes",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Volumes.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - Multi Container Pods",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Multi Container Pods.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - Ingress",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Ingress.md"
     }
   ],
   "omittedPaths": [],
