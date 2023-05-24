@@ -1,6 +1,6 @@
 ---
 created: 2022-09-15 21:09
-updated: 2023-05-24 09:02
+updated: 2023-05-24 09:18
 ---
 ---
 **Links**: [[111 KodeCloud Index]]
@@ -62,13 +62,39 @@ updated: 2023-05-24 09:02
 	- If we want use the cluster as an admin user we need to copy `admin.conf` to `~/.kube/config` on our system.
 	- We can verify that it is indeed the certificate for the admin user by taking the contents of the certificate (from `admin.conf`), base64 decoding it and then viewing the details.
 		- ![[attachments/Pasted image 20230524081347.png]]
+- **Kubelet client**:
+	- Client and the server certificates for the kubelet are stored at `/var/lib/kubelet/pki`
+		- ![[attachments/Pasted image 20230524084218.png]]
+	- The client certificates are referenced by `/etc/kubernetes/kubelet.conf`
+	- The *kubelet **client** certificates for connecting to the api-server are named in the format `system:node:<nodename>`*.
+		- The location to the kubelet client certificates can also be verified from `/etc/kubernetes/kubelet.conf`
+			- ![[attachments/Pasted image 20230524084643.png]]
+		- ![[attachments/Pasted image 20230524084836.png]]
+		- ![[attachments/Pasted image 20230524084950.png]]
+	- The nodes must be added to a group named `system:nodes`
+ 
+> [!note]- You will see that the `kubelet.conf` has a single file for both certificate and key.
+> - The certificate and the private key have been combined to form the `.pem` file.
+> - We can verify it by using commands `openssl rsa -in kubelet-client-current.pem -text -noout` (used to view the contents of a private key) and `openssl x509 -in kubelet-client-current.pem -text -noout` (used to view the contents of a certificate).
+> - Both the commands will work.
+> - The single PEM file must contain the full entire certificate chain including the private key: the SSL server certificate, any necessary intermediate CA certificates, the root CA certificate, and private key.
+
+- **Scheduler & Controller manager**:
+	- The *client certificates for scheduler and the controller manager are stored in the kubeconfig* at `/etc/kubernetes/scheduler.conf` and `/etc/kubernetes/controller-manager.conf` respectively.
+	- The scheduler and the controller manager use the kubeconfig file just like kubelet.
 - *Scheduler, controller manager, kube proxy are system components so their name (`CN`) must be prefixed with `system`*.
+
+> [!note]- Notice that **clients** (scheduler, admin user, kubelet, controller-manager) **to the api-server use kubeconfig files with certificate information inside them** instead of directly using the certificates.
+> - Apiserver is also a client to etcd and kubelet but it directly uses certificates instead of using a kubeconfig file.
+> ![[attachments/Pasted image 20230524091654.png]]
+
 - **All the components need a copy of CA's certificate to verify each other**.
 
 #### Server Certificates
-- We generate certificates for etcd server in the same way as above.
+- **etcd**: 
 	- We can have peers in etcd for HA and in that case we would need peer certificates.
 	- *etcd can have its own CA*.
+	- etcd certificates are stored at `/etc/kubernetes/pki/etcd`
 - **kube-apiserver**:
 	- A lot of components talk to the kube-apiserver and it is known by different names like `kubernetes`, `kubernetes.default`, `kubernetes.default.svc`, `kubernetes.default.svc.local`, or by IP.
 		- We can view these certificates by inspecting the certificate.
@@ -78,29 +104,14 @@ updated: 2023-05-24 09:02
 		- ![[attachments/Pasted image 20230523140426.png]]
 	- Specifying the certificates for the kube-apiserver
 		- ![[attachments/Pasted image 20230523141013.png]]
-- **Kubelet**:
+- **Kubelet server**:
 	- Since kubelet runs on each node *we need a key certificate pair for each node of the cluster*.
-	- All the certificates are stored at `/var/lib/kubelet/pki`
-		- ![[attachments/Pasted image 20230524084218.png]]
 	- The *kubelet **server** certificates are named after the nodes*.
 		- ![[attachments/Pasted image 20230524082132.png]]
 		- ![[attachments/Pasted image 20230524082251.png]]
-	- The *kubelet **client** certificates for connecting to the api-server are named in the format `system:node:<nodename>`*.
-		- The location to the kubelet client certificates can also be verified from `/etc/kubernetes/kubelet.conf`
-			- ![[attachments/Pasted image 20230524084643.png]]
-		- ![[attachments/Pasted image 20230524084836.png]]
-		- ![[attachments/Pasted image 20230524084950.png]]
-	- The nodes must be added to a group named `system:nodes`
-
-> [!note]- You will see that the `kubelet.conf` has a single file for both certificate and key.
-> - The certificate and the private key have been combined to form the `.pem` file.
-> - We can verify it by using commands `openssl rsa -in kubelet-client-current.pem -text -noout` (used to view the contents of a private key) and `openssl x509 -in kubelet-client-current.pem -text -noout` (used to view the contents of a certificate).
-> - Both the commands will work.
-
-- Definition of `.pem` files
-	- The single PEM file must contain the full entire certificate chain including the private key: the SSL server certificate, any necessary intermediate CA certificates, the root CA certificate, and private key.
 
 > [!tip] In general location of certificate files for clients and servers can be found in their manifests (`/etc/kubernetes/manifests`) or in the service file definitions.
+
 
 ## Miscellaneous
 - If we want to know which certificates are signed by which CA we can use `kubeadm certs check-expiration` if the cluster has been setup using kubeadm.
