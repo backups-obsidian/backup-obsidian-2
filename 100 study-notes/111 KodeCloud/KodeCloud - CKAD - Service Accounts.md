@@ -1,6 +1,6 @@
 ---
 created: 2022-09-15 21:09
-updated: 2023-05-10 14:46
+updated: 2023-05-23 16:25
 ---
 ---
 **Links**: [[111 KodeCloud Index]]
@@ -28,7 +28,7 @@ updated: 2023-05-10 14:46
 	- ![[attachments/Pasted image 20220924143626.png]]
 - This *token can be used as an Authentication Bearer token* while making a rest call to the k8s api.
 
-> [!important]- So we *create a service account*, **attach it RBAC** (role based access controls) and then *export the service account tokens* to use with the 3rd party application.
+> [!important] So we *create a service account*, **attach it RBAC** (role based access controls) and then *export the service account tokens* to use with the 3rd party application.
 
 - In case the *application* is *hosted inside the k8s cluster* there is NO need to export the service account token since *the secret is mounted as a volume inside the pod*.
 	- For this we just need to specify the service account value under the `spec` section of the pod definition file.
@@ -67,15 +67,18 @@ updated: 2023-05-10 14:46
 - For most users, this change will be transparent and *DOES NOT require any intervention*.
 
 > [!note]- *Service account tokens* are also completely **valid to use outside of the cluster to authenticate to the API server**. 
-> - If you use service account tokens in this way, you will have to make a small change to your workflow with v1.24: **explicitly requesting a service account token secret to be generated**.
-> - ![[attachments/Pasted image 20230503144354.png]]
-> ---
-> - Creating an expiring token for a service account `k create token <service-account-name>`
-> ---
-> [Kubernetes 1 24 - ServiceAccounts and secrets - YouTube](https://www.youtube.com/watch?v=vk0EIznJJe0)
+> - If we use service account tokens in this way, you will have to make a small change to your workflow with v1.24: **explicitly requesting a service account token secret to be generated**.
+> - We will have to use `service-account-token` to create non expiring secrets.
+> ![[attachments/Pasted image 20230503144354.png]]
+> - The above *will create a non expiring token associated with the particular service account*. 
+> - We should **avoid this**. Using TokenRequest API (`k create token`) is *recommended over* using `service-account-token`.
+
+- Creating an expiring token for a service account `k create token <service-account-name>`
+	- By default tokens have a validity of 1 hour but we can increase it by passing appropriate options to the create token command.
 
 ### References
 - [Service Account Tokens in Kubernetes v1.24 | D2iQ Engineering](https://eng.d2iq.com/blog/service-account-tokens-in-kubernetes-v1.24/)
+- [Kubernetes 1 24 - ServiceAccounts and secrets - YouTube](https://www.youtube.com/watch?v=vk0EIznJJe0)
 
 ## Commands
 - Creating a service account: `k create serviceaccount <service-account-name>`

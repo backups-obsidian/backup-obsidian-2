@@ -1,6 +1,6 @@
 ---
 created: 2022-10-08 19:31
-updated: 2023-05-11 13:33
+updated: 2023-05-23 15:57
 ---
 ---
 **Links**: [[111 KodeCloud Index]]
@@ -10,11 +10,12 @@ updated: 2023-05-11 13:33
 - **We create a role by creating a role object**.
 - Each rule has 3 sections
 	- `apiGroups`: *For the core group we can leave the `apiGroups` blank. For any other group we specify the group name*.
-	- `resources`: We can restrict access to only particular resources by specifying the `resourceNames` field.
+	- `resources`: We can *restrict access to only particular resources* by specifying the *`resourceNames` field*.
+		- Like access to only specific pods.
 		- ![[attachments/Pasted image 20221008194459.png]]
 	- `verbs`: actions the users of these roles can take.
 
-> [!note]- We can have **multiple rules for a single role**.
+> [!note] We can have **multiple rules for a single role**.
 
 - Simple *RBAC example*
 ```yaml

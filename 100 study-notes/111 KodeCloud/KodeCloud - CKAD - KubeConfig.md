@@ -1,6 +1,6 @@
 ---
 created: 2022-10-03 16:26
-updated: 2023-05-09 12:02
+updated: 2023-05-23 15:12
 ---
 ---
 **Links**: [[111 KodeCloud Index]]
@@ -81,6 +81,4 @@ kubectl get pods
 - Whenever we are adding client key, client certificate or the cluster certificate in the config file then we should specify the *full path of the certificate*.
 - *Optionally we can directly specify the contents of certificate in the kubeconfig file after **base64 encoding** it*.
 	- ![[attachments/Pasted image 20221003164648.png]]
-
-## References
-- [Understanding Kubernetes Networking. Part 1: Container Networking - YouTube](https://www.youtube.com/watch?v=B6FsWNUnRo0)
+	- **For correctly base64 encoding a certificate use `base64 -w 0`**.

@@ -1,13 +1,15 @@
 ---
 created: 2023-05-10 13:51
-updated: 2023-05-11 12:04
+updated: 2023-05-23 15:13
 ---
 ---
 **Links**: [[111 KodeCloud Index]]
 
 ---
 ## Authentication
-> [!note] Kubernetes **assumes that users are managed outside of Kubernetes**.
+> [!note]- Kubernetes **assumes that users are managed outside of Kubernetes**.
+> - We **CANNOT create or view users in k8s**.
+> - But we can manage and *create service accounts*.
 
 - While Kubernetes defines the concepts of both user accounts and service accounts natively, it doesn’t provide us with a single, built-in method for authenticating those accounts.
 - Different authentication methods are:
@@ -67,6 +69,7 @@ kubectl config set-context example-context --cluster=<cluster-name> --user=examp
 
 #### Using kubectl for signing CSR
 - Base64 encoding the csr file: `cat example.csr | base64 | tr -d "\n"`
+	- Or `base64 -w 0`.
 - Manifest for creating a certificate signing request
 
 ```yaml
@@ -124,13 +127,33 @@ k create token account-name
 	- However, because *you have to create service accounts and associated tokens manually, the initial setup effort is high*. 
 	- In addition, the **tokens are short-lived** and *must be refreshed* in order to keep access working.
 
-### Static password files
+### Static password/token files
 - The simplest, but also **least secure**, authentication method for Kubernetes is to use static password files.
+	- *Anyone who gains access to the file can easily modify it to gain unauthorized access to your Kubernetes cluster*.
 - To use this method, first generate a password file. 
-	- Each line of the file should specify the *password, username and userID*, respectively, for the users you want to authenticate. 
+	- Each line of the file should specify the *password, username and userID*, respectively, for the users you want to authenticate.
+	- We can optionally have a *fourth column for groups*.
 	- Separate each value by commas, and create a new line for each new user.
-- This method requires very little effort to configure. 
-- But because it is based on a static, plaintext password file, *anyone who gains access to the file can easily modify it to gain unauthorized access to your Kubernetes cluster*.
+	- In case we are running the *kube-apiserver as a service* then we need to pass this file as an argument (`--basic-auth-file=user-details.csv`) in the service definition and then restart the service.
+		- ![[attachments/Pasted image 20230523112732.png]]
+	- If we are using the *kubeadm setup* and running the *kube-apiserver as a pod* then we need to update the kube-apiserver manifest.
+		- Location `/etc/kubernetes/manifests` in the control plane.
+		- Kubelet will automatically restart the apiserver.
+		- ![[attachments/Pasted image 20230523113226.png]]
+- This method requires very little effort to configure.
+- *Instead of password we can use tokens also*.
+- Connecting with the apiserver using curl (**Password based authentication**)
+
+```bash
+curl -v -k https://master-node-ip:6443/api/v1/pods -u "user1:password123"
+```
+
+- Connecting with the apiserver using curl (**Token based authentication**)
+	- We use **authorization bearer token in this case**.
+
+```bash
+curl -v -k https://master-node-ip:6443/api/v1/pods --header "Authorization: Bearer <token>"
+```
 
 ## References
 - [4+ Kubernetes Authentication Methods (Proxy, OIDC & More) | StrongDM](https://www.strongdm.com/blog/kubernetes-authentication)
