@@ -1,6 +1,6 @@
 ---
 created: 2022-09-13 16:17
-updated: 2023-05-24 07:44
+updated: 2023-05-24 16:04
 ---
 ---
 **Links**: 
@@ -11,7 +11,7 @@ updated: 2023-05-24 07:44
 ## DevOps Prerequisites 
 [[KodeCloud - Package Management using yum]]
 [[KodeCloud - Linux Services]]
-[[KodeCloud - Networking]]
+[[KodeCloud - Networking Basics]]
 [[KodeCloud - Applications]]
 [[KodeCloud - WebServers]]
 [[KodeCloud - Databases]]
@@ -89,8 +89,15 @@ updated: 2023-05-24 07:44
 	- [[KodeCloud - CKA - OS Upgrades]]
 	- [[KodeCloud - CKA - Cluster Upgrade]]
 	- [[KodeCloud - CKA - Backup & Restore]]
-
 - [[KodeCloud - CKA - TLS Kubernetes]]
+- [[KodeCloud - CKA - Container Storage Interface (CSI)]]
+- Networking:
+	- [[KodeCloud - CKA - Networking Prerequisites]]
+- Topics to read:
+	- interfaces in linux
+	- network namespaces
+	- DNS In k8s
+
 - [[KodeCloud - CKA - Setting up k8s]]
 
 ### Self
@@ -111,6 +118,7 @@ updated: 2023-05-24 07:44
 - What are finalizers.
 - Must have k8s operators?
 - vaults in k8s
+- vaults in k8s
 
 # Read Later
 - [Kubernetes Tutorials For Beginners [43 Comprehensive Guides] (devopscube.com)](https://devopscube.com/kubernetes-tutorials-beginners/)
@@ -125,10 +133,19 @@ updated: 2023-05-24 07:44
 - [ ] [A Guide to the Kubernetes Networking Model - Kevin Sookocheff](https://sookocheff.com/post/kubernetes/understanding-kubernetes-networking-model/)
 - [Demystifying kube-proxy | Mayank Shah](https://mayankshah.dev/blog/demystifying-kube-proxy/#extra-reading)
 - [How to Troubleshoot Kubernetes Clusters | Kubernetes Tutorial | K21Academy - YouTube](https://www.youtube.com/watch?v=EirIuYq1Yes)
+- https://www.youtube.com/watch?v=B6FsWNUnRo0
+
+## Tips
+- When we run `k run pod --image=nginx` the container runtime is actually pulling images from `docker.io/library/nginx`.
+	- Here *`nginx` is the image name*.
+	- *`library` is the user/account name*. 
+		- *`library` is the name of the default account where docker's official images are stored*.
+	- `docker.io` is the default registry from where images are pulled.
+		- Google's registry is `grc.io` where a lot of k8s related images are stored.
+	- Diagram:
+		- ![[attachments/Pasted image 20230524113731.png]]
 
 ## References
 - Installing the metrics server: [How to Install Kubernetes (K8s) Metrics Server Step by Step (linuxtechi.com)](https://www.linuxtechi.com/how-to-install-kubernetes-metrics-server/)
 	- We CANNOT see historical performance data in the metrics server.
 - [Docker vs Containerd: Understanding the Differences and Choosing the Right Containerization Tool - YouTube](https://www.youtube.com/watch?v=21onkZfL2yM)
-
-## Tips
