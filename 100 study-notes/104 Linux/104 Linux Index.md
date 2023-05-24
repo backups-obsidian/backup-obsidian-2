@@ -9,19 +9,19 @@ updated: 2023-05-24 16:08
 
 ---
 ## General
-[[Linux Packaging Formats]]
+[[Linux - Packaging Formats]]
 [[Linux - Using fd]]
-[[Linux - Xargs]]
+[[Linux - Using Xargs]]
 [[Linux - UID & GID]]
-[[Using openssl]]
+[[Linux - Openssl]]
 [[Linux - Globbing]]
-[[Linux - Bash strict mode]]
 [[Linux - Use of exec]]
+[[Linux - Bash strict mode]]
 [[Linux - Signals and Traps]]
-[[Linux - Miscellaneous]]
 [[Linux - Environment Variables]]
 [[../111 KodeCloud/KodeCloud - Package Management using yum | KodeCloud - Package Management using yum]]
 [[../111 KodeCloud/KodeCloud - Linux Services | KodeCloud - Linux Services]]
+[[Linux - Miscellaneous]]
 
 ## Networking
 [[../111 KodeCloud/KodeCloud - Networking Basics| KodeCloud - Networking Basics]]

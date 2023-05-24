@@ -1,6 +1,6 @@
 ---
 created: 2022-09-13 16:17
-updated: 2023-05-24 16:04
+updated: 2023-05-24 16:13
 ---
 ---
 **Links**: 
@@ -16,7 +16,7 @@ updated: 2023-05-24 16:04
 [[KodeCloud - WebServers]]
 [[KodeCloud - Databases]]
 [[KodeCloud - SSL-TLS]]
-[[../104 Linux/Using openssl | Using openssl]]
+[[../104 Linux/Linux - Openssl| Using openssl]]
 
 ## Kubernetes
 
