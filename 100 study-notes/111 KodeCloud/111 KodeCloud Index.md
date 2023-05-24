@@ -1,6 +1,6 @@
 ---
 created: 2022-09-13 16:17
-updated: 2023-05-23 08:41
+updated: 2023-05-24 07:44
 ---
 ---
 **Links**: 
@@ -90,10 +90,7 @@ updated: 2023-05-23 08:41
 	- [[KodeCloud - CKA - Cluster Upgrade]]
 	- [[KodeCloud - CKA - Backup & Restore]]
 
-
-- [[KodeCloud - CKA - TLS Kubernetes]] - **INCOMPLETE**
-
-- [[KodeCloud - CKA - Security Primitives and Authentication]]
+- [[KodeCloud - CKA - TLS Kubernetes]]
 - [[KodeCloud - CKA - Setting up k8s]]
 
 ### Self
@@ -133,3 +130,5 @@ updated: 2023-05-23 08:41
 - Installing the metrics server: [How to Install Kubernetes (K8s) Metrics Server Step by Step (linuxtechi.com)](https://www.linuxtechi.com/how-to-install-kubernetes-metrics-server/)
 	- We CANNOT see historical performance data in the metrics server.
 - [Docker vs Containerd: Understanding the Differences and Choosing the Right Containerization Tool - YouTube](https://www.youtube.com/watch?v=21onkZfL2yM)
+
+## Tips

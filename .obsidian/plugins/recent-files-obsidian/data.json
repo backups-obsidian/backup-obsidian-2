@@ -5,16 +5,56 @@
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - TLS Kubernetes.md"
     },
     {
-      "basename": "KodeCloud - SSL-TLS",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - SSL-TLS.md"
+      "basename": "Using openssl",
+      "path": "100 study-notes/104 Linux/Using openssl.md"
+    },
+    {
+      "basename": "How to use jq",
+      "path": "300 short-notes/How to use jq.md"
     },
     {
       "basename": "111 KodeCloud Index",
       "path": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md"
     },
     {
-      "basename": "Using openssl",
-      "path": "100 study-notes/104 Linux/Using openssl.md"
+      "basename": "KodeCloud - CKAD - Service Accounts",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Service Accounts.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - ClusterRoles",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - ClusterRoles.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - RBAC",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - RBAC.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Security Context",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Security Context.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Authorization",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Authorization.md"
+    },
+    {
+      "basename": "Kubernetes - Authentication",
+      "path": "100 study-notes/111 KodeCloud/Kubernetes - Authentication.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - KubeConfig",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - KubeConfig.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - API & API Groups",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - API & API Groups.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - API Versions",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - API Versions.md"
+    },
+    {
+      "basename": "KodeCloud - SSL-TLS",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - SSL-TLS.md"
     },
     {
       "basename": "KodeCloud - CKA - Cluster Upgrade",
@@ -141,48 +181,12 @@
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Deployment Strategies.md"
     },
     {
-      "basename": "KodeCloud - CKAD - Authorization",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Authorization.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - ClusterRoles",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - ClusterRoles.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - RBAC",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - RBAC.md"
-    },
-    {
-      "basename": "Kubernetes - Authentication",
-      "path": "100 study-notes/111 KodeCloud/Kubernetes - Authentication.md"
-    },
-    {
       "basename": "KodeCloud - CKAD - Misc",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Misc.md"
     },
     {
-      "basename": "KodeCloud - CKAD - API & API Groups",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - API & API Groups.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - Service Accounts",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Service Accounts.md"
-    },
-    {
       "basename": "Obsidian Searching",
       "path": "200 general-notes/Obsidian Searching.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - Security Context",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Security Context.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - API Versions",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - API Versions.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - KubeConfig",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - KubeConfig.md"
     },
     {
       "basename": "KodeCloud - CKAD - Writing helm charts",

@@ -1,6 +1,6 @@
 ---
 created: 2022-09-15 21:09
-updated: 2023-05-11 13:46
+updated: 2023-05-23 15:27
 ---
 ---
 **Links**: [[111 KodeCloud Index]]
@@ -32,16 +32,15 @@ updated: 2023-05-11 13:46
 	- *Manage all the authorisation externally*. 
 	- For example Open Policy Agent.
 	- ![[attachments/Pasted image 20221008191707.png]]
-
+- **AlwaysAllow**: Allows all the requests without performing any authorization checks
+- **AlwaysDeny**: Deny all requests.
 
 ## Authorization Modes
 - Authorization modes are set using the `authorization_mode` option in the kubeapi-server.
 	- We can check the authorization mode of our cluster using `kubectl describe pod kube-apiserver-controlplane -n kube-system | grep auth`
 	- The name of the kube-apiserver pod might differ depending on the way k8s has been setup. Find the api-server pod using the command `k get pods -n kube-system`.
-- If we DON'T specify this option while starting the api-server it is **set to AlwaysAllow by default**
+- If we DON'T specify this option while starting the api-server it is **set to AlwaysAllow authorization mode by default**
 	- ![[attachments/Pasted image 20221008192435.png]]
-	- **AlwaysAllow**: Allows all the requests without performing any authorization checks
-	- **AlwaysDeny**: Deny all requests.
 - We can have *multiple modes* in the kubeapi-server.
 	- The requests are **authorized by each one** in the order they are specified.
 - In the below example:
