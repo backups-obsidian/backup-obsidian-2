@@ -1,12 +1,12 @@
 ---
 created: 2022-09-15 21:09
-updated: 2023-05-24 09:18
+updated: 2023-05-24 16:13
 ---
 ---
 **Links**: [[111 KodeCloud Index]]
 **Recommended Reads**: 
 - [[KodeCloud - SSL-TLS | How SSL-TLS works]]
-- [[../104 Linux/Using openssl|Using openssl]]
+- [[../104 Linux/Linux - Openssl|Linux - Openssl]]
 
 ---
 ## Kubernetes TLS
@@ -46,7 +46,7 @@ updated: 2023-05-24 09:18
 - Generating a CSR: `openssl req -new -key ca.key -subj "/CN=KUBERNETES-CA" -out ca.csr`
 - Self signing the CSR: `openssi x509 -req -in ca.csr -signkey ca.key -out ca.crt`
 	- We can skip steps 2 & 3 in a single step for generating self signed certificates:
-		- ![[../104 Linux/Using openssl#^8c3aec]]
+		- ![[../104 Linux/Linux - Openssl#^8c3aec]]
 
 #### Client Certificates
 > [!note]- `CN` can be anything but it is the name that will be logged.

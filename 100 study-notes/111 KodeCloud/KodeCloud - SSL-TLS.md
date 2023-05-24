@@ -1,11 +1,11 @@
 ---
 created: 2022-09-15 21:09
-updated: 2023-05-23 09:46
+updated: 2023-05-24 16:13
 ---
 ---
 **Links**: 
 - [[111 KodeCloud Index]]
-- [[../104 Linux/Using openssl|Using openssl]]
+- [[../104 Linux/Linux - Openssl|Linux - Openssl]]
 
 ---
 - Asymmetric encryption: Public lock (anyone can lock it) & Private Key
@@ -37,7 +37,7 @@ updated: 2023-05-23 09:46
 - But anyone can generate a certificate. 
 	- **The most important part the certificate is that who signs and issues the certificate**.
 	- If you generate the certificate then you will have to sign it yourself, this is also known as *self signed certificate*.
-		- ![[../104 Linux/Using openssl#^8c3aec | Generating a self signed certificate from a private key]]
+		- ![[../104 Linux/Linux - Openssl#^8c3aec| Generating a self signed certificate from a private key]]
 	- When you try to use self signed certificates browser will try to warn you.
 - We need CA (Certificate Authority) to sign and validate our certificates.
 
@@ -50,12 +50,12 @@ updated: 2023-05-23 09:46
 - CSR example:
 	- Let us say company A has a key pair and needs to *publish his public key for public usage* (aka ssl on his web site).
 	- Company A must make a certificate signing request (CSR) to a certification authority (CA) to *get a certificate for its (Company A) key pair*.
-		- ![[../104 Linux/Using openssl#^1a9128 | Generating a CSR from a private key]]
+		- ![[../104 Linux/Linux - Openssl#^1a9128| Generating a CSR from a private key]]
 	- **The PUBLIC key, but NOT the private key, of company A's key pair is included as part of the certificate request**.
 	- The CA then uses company A's identity information to determine whether the request meets the CA's criteria for issuing a certificate.
 	- If the CA approves the request, it issues a certificate to company A. 
 	- In brief **CA signs company A's PUBLIC key with his(CA's) PRIVATE key**, which verifies its authenticity.
-		- ![[../104 Linux/Using openssl#^21249a | Signing a CSR using a private key]]
+		- ![[../104 Linux/Linux - Openssl#^21249a| Signing a CSR using a private key]]
 	- **So company A's public key signed with a valid CA's private key is called company A's certificate**.
 
 > [!caution]- **A certificate is just a "fancy" public key**, which is related to a private key. 

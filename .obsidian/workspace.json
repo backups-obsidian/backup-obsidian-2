@@ -40,6 +40,21 @@
           {
             "id": "0fa48b81a53d1946",
             "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100 study-notes/104 Linux/104 Linux Index.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "c105f7e96f4d475e",
+            "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
@@ -51,7 +66,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -227,13 +242,17 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "0fa48b81a53d1946",
+  "active": "c105f7e96f4d475e",
   "lastOpenFiles": [
-    "100 study-notes/104 Linux/Linux - Networking - Interfaces.md",
+    "100 study-notes/104 Linux/Linux - Miscellaneous.md",
     "100 study-notes/104 Linux/104 Linux Index.md",
+    "100 study-notes/104 Linux/Linux - Packaging Formats.md",
+    "100 study-notes/104 Linux/Linux - Openssl.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - SSL-TLS.md",
+    "100 study-notes/104 Linux/Linux - Networking - Netcat.md",
+    "100 study-notes/104 Linux/Linux - Networking - Interfaces.md",
     "100 study-notes/104 Linux/Linux - Networking - Network Namespaces.md",
     "100 study-notes/104 Linux/Linux - Networking - Iptables.md",
-    "100 study-notes/104 Linux/Linux - Networking - Netcat.md",
     "100 study-notes/111 KodeCloud/KodeCloud - Networking Basics.md",
     "100 study-notes/111 KodeCloud/111 KodeCloud Index.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKA - Networking Prerequisites.md",
@@ -248,7 +267,6 @@
     "100 study-notes/111 KodeCloud/attachments/Pasted image 20230524113731.png",
     "100 study-notes/111 KodeCloud/KodeCloud - CKA - TLS Kubernetes.md",
     "100 study-notes/111 KodeCloud/attachments/Pasted image 20230524091654.png",
-    "100 study-notes/104 Linux/Using openssl.md",
     "100 study-notes/111 KodeCloud/attachments/Pasted image 20230524084950.png",
     "100 study-notes/111 KodeCloud/attachments/Pasted image 20230524084836.png",
     "100 study-notes/111 KodeCloud/attachments/Pasted image 20230524084643.png",
@@ -261,9 +279,6 @@
     "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Authorization.md",
     "100 study-notes/111 KodeCloud/Kubernetes - Authentication.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKAD - KubeConfig.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - API & API Groups.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - API Versions.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKA - Security Primitives and Authentication.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - SSL-TLS.md"
+    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - API & API Groups.md"
   ]
 }

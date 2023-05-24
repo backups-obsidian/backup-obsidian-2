@@ -5,6 +5,26 @@
       "path": "100 study-notes/104 Linux/104 Linux Index.md"
     },
     {
+      "basename": "Linux - Miscellaneous",
+      "path": "100 study-notes/104 Linux/Linux - Miscellaneous.md"
+    },
+    {
+      "basename": "Linux - Packaging Formats",
+      "path": "100 study-notes/104 Linux/Linux - Packaging Formats.md"
+    },
+    {
+      "basename": "Linux - Openssl",
+      "path": "100 study-notes/104 Linux/Linux - Openssl.md"
+    },
+    {
+      "basename": "KodeCloud - SSL-TLS",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - SSL-TLS.md"
+    },
+    {
+      "basename": "Linux - Networking - Netcat",
+      "path": "100 study-notes/104 Linux/Linux - Networking - Netcat.md"
+    },
+    {
       "basename": "Linux - Networking - Interfaces",
       "path": "100 study-notes/104 Linux/Linux - Networking - Interfaces.md"
     },
@@ -15,10 +35,6 @@
     {
       "basename": "Linux - Networking - Iptables",
       "path": "100 study-notes/104 Linux/Linux - Networking - Iptables.md"
-    },
-    {
-      "basename": "Linux - Networking - Netcat",
-      "path": "100 study-notes/104 Linux/Linux - Networking - Netcat.md"
     },
     {
       "basename": "KodeCloud - Networking Basics",
@@ -57,10 +73,6 @@
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - TLS Kubernetes.md"
     },
     {
-      "basename": "Using openssl",
-      "path": "100 study-notes/104 Linux/Using openssl.md"
-    },
-    {
       "basename": "How to use jq",
       "path": "300 short-notes/How to use jq.md"
     },
@@ -95,10 +107,6 @@
     {
       "basename": "KodeCloud - CKAD - API Versions",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - API Versions.md"
-    },
-    {
-      "basename": "KodeCloud - SSL-TLS",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - SSL-TLS.md"
     },
     {
       "basename": "KodeCloud - CKA - Cluster Upgrade",
@@ -185,20 +193,12 @@
       "path": "100 study-notes/104 Linux/Linux - Environment Variables.md"
     },
     {
-      "basename": "Linux - Miscellaneous",
-      "path": "100 study-notes/104 Linux/Linux - Miscellaneous.md"
-    },
-    {
       "basename": "Linux - Use of exec",
       "path": "100 study-notes/104 Linux/Linux - Use of exec.md"
     },
     {
       "basename": "Kubernetes - Objects & Resources",
       "path": "100 study-notes/111 KodeCloud/Kubernetes - Objects & Resources.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - Custom Resource Definition",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Custom Resource Definition.md"
     }
   ],
   "omittedPaths": [],
