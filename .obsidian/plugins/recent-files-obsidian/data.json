@@ -1,6 +1,58 @@
 {
   "recentFiles": [
     {
+      "basename": "104 Linux Index",
+      "path": "100 study-notes/104 Linux/104 Linux Index.md"
+    },
+    {
+      "basename": "Linux - Networking - Interfaces",
+      "path": "100 study-notes/104 Linux/Linux - Networking - Interfaces.md"
+    },
+    {
+      "basename": "Linux - Networking - Network Namespaces",
+      "path": "100 study-notes/104 Linux/Linux - Networking - Network Namespaces.md"
+    },
+    {
+      "basename": "Linux - Networking - Iptables",
+      "path": "100 study-notes/104 Linux/Linux - Networking - Iptables.md"
+    },
+    {
+      "basename": "Linux - Networking - Netcat",
+      "path": "100 study-notes/104 Linux/Linux - Networking - Netcat.md"
+    },
+    {
+      "basename": "KodeCloud - Networking Basics",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - Networking Basics.md"
+    },
+    {
+      "basename": "111 KodeCloud Index",
+      "path": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md"
+    },
+    {
+      "basename": "KodeCloud - CKA - Networking Prerequisites",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Networking Prerequisites.md"
+    },
+    {
+      "basename": "KodeCloud - CKA - Container Storage Interface (CSI)",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Container Storage Interface (CSI).md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Volumes",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Volumes.md"
+    },
+    {
+      "basename": "KodeCloud - CKA - Cluster Architecture",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Architecture.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Network Policies",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Network Policies.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Security Context",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Security Context.md"
+    },
+    {
       "basename": "KodeCloud - CKA - TLS Kubernetes",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - TLS Kubernetes.md"
     },
@@ -13,10 +65,6 @@
       "path": "300 short-notes/How to use jq.md"
     },
     {
-      "basename": "111 KodeCloud Index",
-      "path": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md"
-    },
-    {
       "basename": "KodeCloud - CKAD - Service Accounts",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Service Accounts.md"
     },
@@ -27,10 +75,6 @@
     {
       "basename": "KodeCloud - CKAD - RBAC",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - RBAC.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - Security Context",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Security Context.md"
     },
     {
       "basename": "KodeCloud - CKAD - Authorization",
@@ -73,10 +117,6 @@
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Operators.md"
     },
     {
-      "basename": "KodeCloud - CKA - Cluster Architecture",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Architecture.md"
-    },
-    {
       "basename": "KodeCloud - CKAD - Logging",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Logging.md"
     },
@@ -107,18 +147,6 @@
     {
       "basename": "Kubernetes - Dumping Ground",
       "path": "100 study-notes/111 KodeCloud/Kubernetes - Dumping Ground.md"
-    },
-    {
-      "basename": "Linux - iptables",
-      "path": "100 study-notes/104 Linux/Linux - iptables.md"
-    },
-    {
-      "basename": "104 Linux Index",
-      "path": "100 study-notes/104 Linux/104 Linux Index.md"
-    },
-    {
-      "basename": "KodeCloud - Networking",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - Networking.md"
     },
     {
       "basename": "KodeCloud - Kubernetes - Services",
@@ -153,10 +181,6 @@
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Admission Controllers.md"
     },
     {
-      "basename": "Linux - netcat",
-      "path": "100 study-notes/104 Linux/Linux - netcat.md"
-    },
-    {
       "basename": "Linux - Environment Variables",
       "path": "100 study-notes/104 Linux/Linux - Environment Variables.md"
     },
@@ -175,30 +199,6 @@
     {
       "basename": "KodeCloud - CKAD - Custom Resource Definition",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Custom Resource Definition.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - Deployment Strategies",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Deployment Strategies.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - Misc",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Misc.md"
-    },
-    {
-      "basename": "Obsidian Searching",
-      "path": "200 general-notes/Obsidian Searching.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - Writing helm charts",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Writing helm charts.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - Helm Charts",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Helm Charts.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - StatefulSets",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - StatefulSets.md"
     }
   ],
   "omittedPaths": [],
