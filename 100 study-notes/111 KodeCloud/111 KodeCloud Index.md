@@ -1,6 +1,6 @@
 ---
 created: 2022-09-13 16:17
-updated: 2023-05-24 16:13
+updated: 2023-05-25 13:00
 ---
 ---
 **Links**: 
@@ -92,11 +92,10 @@ updated: 2023-05-24 16:13
 - [[KodeCloud - CKA - TLS Kubernetes]]
 - [[KodeCloud - CKA - Container Storage Interface (CSI)]]
 - Networking:
+	- Prereq:
 	- [[KodeCloud - CKA - Networking Prerequisites]]
 - Topics to read:
-	- interfaces in linux
-	- network namespaces
-	- DNS In k8s
+	- 
 
 - [[KodeCloud - CKA - Setting up k8s]]
 
@@ -134,6 +133,8 @@ updated: 2023-05-24 16:13
 - [Demystifying kube-proxy | Mayank Shah](https://mayankshah.dev/blog/demystifying-kube-proxy/#extra-reading)
 - [How to Troubleshoot Kubernetes Clusters | Kubernetes Tutorial | K21Academy - YouTube](https://www.youtube.com/watch?v=EirIuYq1Yes)
 - https://www.youtube.com/watch?v=B6FsWNUnRo0
+- [Understanding Kubernetes Networking. Part 2: POD Network, CNI, and Flannel CNI Plug-in. - YouTube](https://www.youtube.com/watch?v=U35C0EPSwoY)
+- [Container Networking From Scratch - Kristen Jacobs, Oracle - YouTube](https://www.youtube.com/watch?v=6v_BDHIgOY8)
 
 ## Tips
 - When we run `k run pod --image=nginx` the container runtime is actually pulling images from `docker.io/library/nginx`.
