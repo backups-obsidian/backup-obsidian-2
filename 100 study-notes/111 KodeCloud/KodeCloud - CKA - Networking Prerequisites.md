@@ -1,22 +1,11 @@
 ---
 created: 2023-05-24 14:58
-updated: 2023-05-24 16:05
+updated: 2023-05-25 09:27
 ---
 ---
 **Links**: [[111 KodeCloud Index]]
 
 ---
-## Networking Commands (THIS SHOULD NOT BE HERE)
-- *List the interfaces* on the host: `ip link`
-- *See the IP address assigned to the interfaces*: `ip addr`
-- *Set IP addresses on the interface*: `ip addr add 192.168.1.12/24 dev eth0`
-	- These are *valid only till a restart*.
-	- If we want to persist these changes we have to change the network interfaces file in the `/etc` directory.
-- *View the routing table*: `ip route` or `route`
-- *Add entries into the routing tables*: `ip route add 192.168.1.0/24 via 192.168.2.1`.
-- Check if IP forwarding is enabled on the host: `cat /proc/sys/net/ipv4/ip_forward`
-	- **1** means it is **enabled**.
-
 ## Network Namespaces
 - When a *container is created we create a network namespace for it*.
 	- Because of this it has **no visibility of network related information on the host**.

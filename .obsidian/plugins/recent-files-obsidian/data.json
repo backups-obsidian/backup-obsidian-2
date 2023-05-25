@@ -1,8 +1,48 @@
 {
   "recentFiles": [
     {
+      "basename": "Linux - Networking - Iptables",
+      "path": "100 study-notes/104 Linux/Linux - Networking - Iptables.md"
+    },
+    {
       "basename": "104 Linux Index",
       "path": "100 study-notes/104 Linux/104 Linux Index.md"
+    },
+    {
+      "basename": "Linux - Networking - Network Namespaces",
+      "path": "100 study-notes/104 Linux/Linux - Networking - Network Namespaces.md"
+    },
+    {
+      "basename": "111 KodeCloud Index",
+      "path": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md"
+    },
+    {
+      "basename": "Linux - Networking - Interfaces",
+      "path": "100 study-notes/104 Linux/Linux - Networking - Interfaces.md"
+    },
+    {
+      "basename": "KodeCloud - CKA - Networking Prerequisites",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Networking Prerequisites.md"
+    },
+    {
+      "basename": "EC2 ENI",
+      "path": "100 study-notes/101 AWS SAA/EC2 ENI.md"
+    },
+    {
+      "basename": "101 AWS SAA Index",
+      "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
+    },
+    {
+      "basename": "EC2 Placement Groups",
+      "path": "100 study-notes/101 AWS SAA/EC2 Placement Groups.md"
+    },
+    {
+      "basename": "EC2 Instance Purchasing Options",
+      "path": "100 study-notes/101 AWS SAA/EC2 Instance Purchasing Options.md"
+    },
+    {
+      "basename": "Linux - Using Xargs",
+      "path": "100 study-notes/104 Linux/Linux - Using Xargs.md"
     },
     {
       "basename": "Linux - Miscellaneous",
@@ -25,28 +65,8 @@
       "path": "100 study-notes/104 Linux/Linux - Networking - Netcat.md"
     },
     {
-      "basename": "Linux - Networking - Interfaces",
-      "path": "100 study-notes/104 Linux/Linux - Networking - Interfaces.md"
-    },
-    {
-      "basename": "Linux - Networking - Network Namespaces",
-      "path": "100 study-notes/104 Linux/Linux - Networking - Network Namespaces.md"
-    },
-    {
-      "basename": "Linux - Networking - Iptables",
-      "path": "100 study-notes/104 Linux/Linux - Networking - Iptables.md"
-    },
-    {
       "basename": "KodeCloud - Networking Basics",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - Networking Basics.md"
-    },
-    {
-      "basename": "111 KodeCloud Index",
-      "path": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md"
-    },
-    {
-      "basename": "KodeCloud - CKA - Networking Prerequisites",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Networking Prerequisites.md"
     },
     {
       "basename": "KodeCloud - CKA - Container Storage Interface (CSI)",
@@ -137,14 +157,6 @@
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Daemon Sets.md"
     },
     {
-      "basename": "EC2 Instance Purchasing Options",
-      "path": "100 study-notes/101 AWS SAA/EC2 Instance Purchasing Options.md"
-    },
-    {
-      "basename": "101 AWS SAA Index",
-      "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
-    },
-    {
       "basename": "EC2 Basics",
       "path": "100 study-notes/101 AWS SAA/EC2 Basics.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "KodeCloud - CKAD - Admission Controllers",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Admission Controllers.md"
-    },
-    {
-      "basename": "Linux - Environment Variables",
-      "path": "100 study-notes/104 Linux/Linux - Environment Variables.md"
-    },
-    {
-      "basename": "Linux - Use of exec",
-      "path": "100 study-notes/104 Linux/Linux - Use of exec.md"
-    },
-    {
-      "basename": "Kubernetes - Objects & Resources",
-      "path": "100 study-notes/111 KodeCloud/Kubernetes - Objects & Resources.md"
     }
   ],
   "omittedPaths": [],
