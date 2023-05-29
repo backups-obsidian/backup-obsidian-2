@@ -1,6 +1,6 @@
 ---
 created: 2023-05-24 16:10
-updated: 2023-05-25 09:32
+updated: 2023-05-25 15:54
 ---
 ---
 **Links**: [[104 Linux Index#Networking | Linux Networking Index]]
@@ -28,6 +28,15 @@ updated: 2023-05-25 09:32
 - *Delete entries* from the routing table
 	- `ip route delete 192.168.2.1/23 via 10.11.12.3`
 - Adding and deleting a route can also be performed using the `route` command.
+
+#### Understanding the output of route command
+![[attachments/Pasted image 20230525155117.png]]
+- Here **gateway is the router**. 
+- The 4 0's is a special value, it is like a * which means it matches any value. 
+- The routing tables uses the longest prefix match so the closest match of the destination from these entries helps decide where to go. 
+	- *NOT dependent on the order*.
+- *If you want to go to any destination within the network `192.168.1.0` you can find this within this network, `0.0.0.0` in the gateway means no need to use the router send directly using the lan connection*. 
+	- You can also verify this using the `arp -n` command to see the computers to which you can send packets without going through the router.
 
 ### Miscellaneous
 - *View the arp cache*: `arp`

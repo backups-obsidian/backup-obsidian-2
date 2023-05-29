@@ -1,36 +1,44 @@
 {
   "recentFiles": [
     {
-      "basename": "Linux - Networking - Iptables",
-      "path": "100 study-notes/104 Linux/Linux - Networking - Iptables.md"
-    },
-    {
-      "basename": "104 Linux Index",
-      "path": "100 study-notes/104 Linux/104 Linux Index.md"
-    },
-    {
-      "basename": "Linux - Networking - Network Namespaces",
-      "path": "100 study-notes/104 Linux/Linux - Networking - Network Namespaces.md"
+      "basename": "KodeCloud - CKA - Cluster Networking",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Networking.md"
     },
     {
       "basename": "111 KodeCloud Index",
       "path": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md"
     },
     {
-      "basename": "Linux - Networking - Interfaces",
-      "path": "100 study-notes/104 Linux/Linux - Networking - Interfaces.md"
+      "basename": "KodeCloud - CKA - CNI",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - CNI.md"
     },
     {
-      "basename": "KodeCloud - CKA - Networking Prerequisites",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Networking Prerequisites.md"
+      "basename": "Linux - Networking - Iptables",
+      "path": "100 study-notes/104 Linux/Linux - Networking - Iptables.md"
     },
     {
-      "basename": "EC2 ENI",
-      "path": "100 study-notes/101 AWS SAA/EC2 ENI.md"
+      "basename": "Linux - Networking - Network Namespaces",
+      "path": "100 study-notes/104 Linux/Linux - Networking - Network Namespaces.md"
     },
     {
       "basename": "101 AWS SAA Index",
       "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
+    },
+    {
+      "basename": "Linux - Networking - Interfaces",
+      "path": "100 study-notes/104 Linux/Linux - Networking - Interfaces.md"
+    },
+    {
+      "basename": "KodeCloud - Networking Basics",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - Networking Basics.md"
+    },
+    {
+      "basename": "104 Linux Index",
+      "path": "100 study-notes/104 Linux/104 Linux Index.md"
+    },
+    {
+      "basename": "EC2 ENI",
+      "path": "100 study-notes/101 AWS SAA/EC2 ENI.md"
     },
     {
       "basename": "EC2 Placement Groups",
@@ -63,10 +71,6 @@
     {
       "basename": "Linux - Networking - Netcat",
       "path": "100 study-notes/104 Linux/Linux - Networking - Netcat.md"
-    },
-    {
-      "basename": "KodeCloud - Networking Basics",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - Networking Basics.md"
     },
     {
       "basename": "KodeCloud - CKA - Container Storage Interface (CSI)",
@@ -195,10 +199,6 @@
     {
       "basename": "Kubernetes - Steps of an API Request in API Server",
       "path": "100 study-notes/111 KodeCloud/Kubernetes - Steps of an API Request in API Server.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - Admission Controllers",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Admission Controllers.md"
     }
   ],
   "omittedPaths": [],

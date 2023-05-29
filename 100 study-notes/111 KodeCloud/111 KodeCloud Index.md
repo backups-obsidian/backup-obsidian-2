@@ -1,6 +1,6 @@
 ---
 created: 2022-09-13 16:17
-updated: 2023-05-25 13:00
+updated: 2023-05-29 13:58
 ---
 ---
 **Links**: 
@@ -92,10 +92,17 @@ updated: 2023-05-25 13:00
 - [[KodeCloud - CKA - TLS Kubernetes]]
 - [[KodeCloud - CKA - Container Storage Interface (CSI)]]
 - Networking:
-	- Prereq:
-	- [[KodeCloud - CKA - Networking Prerequisites]]
+	- Prerequisites:
+		- [[KodeCloud - Networking Basics]]
+		- [[../104 Linux/Linux - Networking - Interfaces|Linux - Networking - Interfaces]]
+		- [[../104 Linux/Linux - Networking - Iptables|Linux - Networking - Iptables]]
+		- [[../104 Linux/Linux - Networking - Network Namespaces|Linux - Networking - Network Namespaces]]
+	- [[KodeCloud - CKA - CNI]]
+	- [[KodeCloud - CKA - Cluster Networking]]
+
 - Topics to read:
-	- 
+	- CNI
+	- Cluster Networking
 
 - [[KodeCloud - CKA - Setting up k8s]]
 
