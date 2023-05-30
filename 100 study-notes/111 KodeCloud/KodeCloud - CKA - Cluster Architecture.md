@@ -1,6 +1,6 @@
 ---
 created: 2022-10-10 15:37
-updated: 2023-05-17 11:52
+updated: 2023-05-30 11:04
 ---
 ---
 **Links**: [[111 KodeCloud Index]]
@@ -175,6 +175,7 @@ updated: 2023-05-17 11:52
 - **Open Container Initiative (OCI)** is a set of *standards* for *container formats* and *runtimes*.
 
 > [!note]- **kubelet agent is responsible for interacting with the container runtime using CRI APIs to manage the lifecycle of a container**. 
+> ![[attachments/Pasted image 20230530110412.png]]
 > It also gets all the container information from the container runtime and provides it to the control plane.
 
 - *High level of how container runtimes (CRI-O) work in k8s*.
