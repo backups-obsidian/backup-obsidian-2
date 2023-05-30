@@ -1,6 +1,6 @@
 ---
 created: 2023-05-24 16:06
-updated: 2023-05-29 13:27
+updated: 2023-05-29 14:19
 ---
 ---
 **Links**: [[104 Linux Index#Networking | Linux Networking Index]]
@@ -140,7 +140,8 @@ updated: 2023-05-29 13:27
 
 ## Docker Networking (Network Namespaces)
 - When docker is installed on a host the docker daemon **creates an internal private network named *bridge* by default**.
-	- We can see the network using `docker network ls`
+	- We can see the network using `docker network ls`.
+	- We can see the bridge network interface by using `ip addr show type bridge`. This will list `docker0`
 - The *name of the network is bridge* but on the host the network is created by the name of **`docker0`**.
 	- We can see this from the output of `ip link`
 		- ![[attachments/Pasted image 20230529112656.png]]
