@@ -44,7 +44,7 @@
               "type": "markdown",
               "state": {
                 "file": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Miscellaneous.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
@@ -229,6 +229,9 @@
   },
   "active": "43e66508d339233d",
   "lastOpenFiles": [
+    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230530150539.png",
+    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230530150322.png",
+    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230530150305.png",
     "100 study-notes/111 KodeCloud/attachments/Pasted image 20230530145709.png",
     "100 study-notes/111 KodeCloud/111 KodeCloud Index.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKA - Miscellaneous.md",
@@ -246,9 +249,6 @@
     "100 study-notes/111 KodeCloud/KodeCloud - CKA - Pod & Service Networking.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKA - CNI.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Architecture.md",
-    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230530110412.png",
-    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230530110258.png",
-    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230530103134.png",
     "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Ingress.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Networking.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKA - Service Networking.md",
