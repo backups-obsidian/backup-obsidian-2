@@ -1,6 +1,6 @@
 ---
 created: 2023-05-29 13:30
-updated: 2023-05-30 08:54
+updated: 2023-05-30 11:17
 ---
 ---
 **Links**: [[111 KodeCloud Index]]
@@ -40,13 +40,14 @@ updated: 2023-05-30 08:54
 
 
 ## CNI in k8s
-> [!question]- How CNI works in k8s? (DOUBT since kubelet executes the binary)
+> [!question]- How CNI works in k8s?
+> - The Kube-controller-manager is responsible for *assigning pod CIDR to each node*.
+> - Each pod gets a unique IP address from the pod CIDR.
 > - **Kubelet interacts with container runtime to launch the scheduled pod**. 
 > - The *CRI plugin which is part of the Container runtime interacts with the CNI plugin to configure the pod network*.
+> - CNI Plugin enables networking between pods spread across the same or different nodes using an overlay network.
 > ![[attachments/Pasted image 20230530081028.png]]
 
-- **CNI is invoked by kubelet**.
-	- When the container runtime expects to perform network operations on a container, it (like the *kubelet in the case of K8s*) *calls the CNI plugin with the desired command*.
 - Diagram:
 	- ![[attachments/Pasted image 20230530080156.png]]
 - Weave CNI is installed as a daemonset. 
@@ -66,4 +67,5 @@ updated: 2023-05-30 08:54
 - Each plugin can define a set of parameters. 
 
 ## References
+- [Kubernetes Architecture Explained [Comprehensive Guide] (devopscube.com)](https://devopscube.com/kubernetes-architecture-explained#1-cni-plugin)
 - [Introduction to CNI | Kubernetes Networking - YouTube](https://www.youtube.com/watch?v=McIKOoPKgBk)

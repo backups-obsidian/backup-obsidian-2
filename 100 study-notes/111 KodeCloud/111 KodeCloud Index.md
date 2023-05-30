@@ -1,6 +1,6 @@
 ---
 created: 2022-09-13 16:17
-updated: 2023-05-30 09:09
+updated: 2023-05-30 14:55
 ---
 ---
 **Links**: 
@@ -100,9 +100,14 @@ updated: 2023-05-30 09:09
 	- [[KodeCloud - CKA - CNI]]
 	- [[KodeCloud - CKA - Cluster Networking]]
 	- [[KodeCloud - CKA - Pod & Service Networking]]
+	- [[KodeCloud - CKA - Pause Container]]
 	- [[KodeCloud - CKA - DNS]]
 
+- Topics to read:
+	- DNS in k8s
+
 - [[KodeCloud - CKA - Setting up k8s]]
+- [[KodeCloud - CKA - Miscellaneous]]
 
 ### Self
 - [[Kubernetes - Logging]]

@@ -1,6 +1,6 @@
 ---
 created: 2023-05-29 14:20
-updated: 2023-05-30 09:04
+updated: 2023-05-30 11:06
 ---
 ---
 **Links**: [[111 KodeCloud Index]]
@@ -35,11 +35,14 @@ updated: 2023-05-30 09:04
 ### Multiple Containers inside a Pod
 - A pod can consist of one or more containers.
 - **From a network standpoint, each container within the pod shares the same networking namespace**. 
-	- This gives each container access to the same network resources, such as the pod's IP address. 
+	- This gives *each container access to the same network resources, such as the pod's IP address*. 
 	- *Containers within the same pod can also communicate with each other over localhost*.
 	- Diagram:
 		- ![[attachments/Pasted image 20230530103134.png]]
-- 
+- We need to watch out for port conflicts when we’ve got multiple containers in the same pod.
+
+> [!note]- Although the multiple containers in a pod are in the same network namespace they **run in separate process namespaces**.
+> We won't be able to view other container's process PID.
  
 ## Service Networking
 - [[KodeCloud - CKA - Cluster Architecture#Kube proxy | Kube proxy]] manages the services.
@@ -51,5 +54,3 @@ updated: 2023-05-30 09:04
 
 - **Iptables rules are modified by kubeproxy whenever a new service is created**. 
 	- ![[attachments/Pasted image 20230529160348.png]]
-
-## References
