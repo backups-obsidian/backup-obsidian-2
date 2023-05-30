@@ -38,13 +38,13 @@
             }
           },
           {
-            "id": "c23d8e1b7d1cb903",
+            "id": "b069fbebb0d089f4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Networking.md",
-                "mode": "preview",
+                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Pod & Service Networking.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Networking.md",
+                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Pod & Service Networking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Networking.md"
+                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Pod & Service Networking.md"
               }
             }
           },
@@ -161,7 +161,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Networking.md",
+                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Pod & Service Networking.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -227,26 +227,31 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "c23d8e1b7d1cb903",
+  "active": "b069fbebb0d089f4",
   "lastOpenFiles": [
-    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230529140505.png",
-    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230529140405.png",
+    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230530103134.png",
     "100 study-notes/111 KodeCloud/111 KodeCloud Index.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Ingress.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKA - Pod & Service Networking.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Networking.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKA - CNI.md",
-    "100 study-notes/104 Linux/Linux - Networking - Iptables.md",
+    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230530084853.png",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Architecture.md",
+    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230530082152.png",
+    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230530081028.png",
+    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230530080156.png",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKA - DNS.md",
+    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230529160348.png",
+    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230529155442.png",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKA - Service Networking.md",
+    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230529145020.png",
     "100 study-notes/104 Linux/Linux - Networking - Network Namespaces.md",
-    "100 study-notes/104 Linux/attachments/Pasted image 20230529131131.png",
-    "100 study-notes/104 Linux/attachments/Pasted image 20230529130333.png",
-    "100 study-notes/104 Linux/attachments/Pasted image 20230529130022.png",
-    "100 study-notes/104 Linux/attachments/Pasted image 20230529123230.png",
-    "100 study-notes/104 Linux/attachments/Pasted image 20230529123037.png",
-    "100 study-notes/104 Linux/attachments/Pasted image 20230529121729.png",
-    "100 study-notes/104 Linux/attachments/Pasted image 20230529120825.png",
-    "100 study-notes/101 AWS SAA/101 AWS SAA Index.md",
-    "100 study-notes/104 Linux/attachments/Pasted image 20230529120501.png",
-    "100 study-notes/104 Linux/attachments/Pasted image 20230529115946.png",
     "100 study-notes/104 Linux/Linux - Networking - Interfaces.md",
+    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230529144747.png",
+    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230529144416.png",
+    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230529143639.png",
+    "100 study-notes/104 Linux/Linux - Networking - Iptables.md",
+    "100 study-notes/101 AWS SAA/101 AWS SAA Index.md",
     "100 study-notes/111 KodeCloud/KodeCloud - Networking Basics.md",
     "100 study-notes/104 Linux/104 Linux Index.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKA - Networking Prerequisites.md",
@@ -259,11 +264,6 @@
     "100 study-notes/104 Linux/Linux - Openssl.md",
     "100 study-notes/111 KodeCloud/KodeCloud - SSL-TLS.md",
     "100 study-notes/104 Linux/Linux - Networking - Netcat.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKA - Container Storage Interface (CSI).md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Volumes.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Architecture.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Network Policies.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Security Context.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKA - TLS Kubernetes.md"
+    "100 study-notes/111 KodeCloud/KodeCloud - CKA - Container Storage Interface (CSI).md"
   ]
 }

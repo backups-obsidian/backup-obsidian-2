@@ -1,6 +1,6 @@
 ---
 created: 2023-05-24 16:10
-updated: 2023-05-25 15:54
+updated: 2023-05-29 14:17
 ---
 ---
 **Links**: [[104 Linux Index#Networking | Linux Networking Index]]
@@ -11,6 +11,8 @@ updated: 2023-05-25 15:54
 - *List the interfaces* on the host: `ip link`
 - *See the IP address and other details of the interfaces*: `ip addr`
 - See the *IP address and other detail of a particular interface*: `ip addr show <interface-name>`
+- Only see interfaces of particular type: `ip addr show type <interface-type>`
+	- Example to only show bridge interface: `ip addr show type bridge`
 - *Set IP addresses on the interface*: `ip addr add 192.168.1.12/24 dev eth0`
 	- Here `dev` stands for device.
 	- These are *valid only till a restart*.

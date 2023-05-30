@@ -1,6 +1,6 @@
 ---
 created: 2022-09-13 16:17
-updated: 2023-05-29 13:58
+updated: 2023-05-30 09:09
 ---
 ---
 **Links**: 
@@ -99,10 +99,8 @@ updated: 2023-05-29 13:58
 		- [[../104 Linux/Linux - Networking - Network Namespaces|Linux - Networking - Network Namespaces]]
 	- [[KodeCloud - CKA - CNI]]
 	- [[KodeCloud - CKA - Cluster Networking]]
-
-- Topics to read:
-	- CNI
-	- Cluster Networking
+	- [[KodeCloud - CKA - Pod & Service Networking]]
+	- [[KodeCloud - CKA - DNS]]
 
 - [[KodeCloud - CKA - Setting up k8s]]
 
@@ -142,6 +140,7 @@ updated: 2023-05-29 13:58
 - https://www.youtube.com/watch?v=B6FsWNUnRo0
 - [Understanding Kubernetes Networking. Part 2: POD Network, CNI, and Flannel CNI Plug-in. - YouTube](https://www.youtube.com/watch?v=U35C0EPSwoY)
 - [Container Networking From Scratch - Kristen Jacobs, Oracle - YouTube](https://www.youtube.com/watch?v=6v_BDHIgOY8)
+- [Kubernetes Networking Series - YouTube](https://www.youtube.com/playlist?list=PLSAko72nKb8QWsfPpBlsw-kOdMBD7sra-)
 
 ## Tips
 - When we run `k run pod --image=nginx` the container runtime is actually pulling images from `docker.io/library/nginx`.

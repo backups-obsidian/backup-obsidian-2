@@ -1,32 +1,48 @@
 {
   "recentFiles": [
     {
-      "basename": "KodeCloud - CKA - Cluster Networking",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Networking.md"
+      "basename": "KodeCloud - CKA - Pod & Service Networking",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Pod & Service Networking.md"
     },
     {
       "basename": "111 KodeCloud Index",
       "path": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md"
     },
     {
+      "basename": "KodeCloud - CKAD - Ingress",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Ingress.md"
+    },
+    {
+      "basename": "KodeCloud - CKA - Cluster Networking",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Networking.md"
+    },
+    {
       "basename": "KodeCloud - CKA - CNI",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - CNI.md"
     },
     {
-      "basename": "Linux - Networking - Iptables",
-      "path": "100 study-notes/104 Linux/Linux - Networking - Iptables.md"
+      "basename": "KodeCloud - CKA - Cluster Architecture",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Architecture.md"
+    },
+    {
+      "basename": "KodeCloud - CKA - DNS",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - DNS.md"
     },
     {
       "basename": "Linux - Networking - Network Namespaces",
       "path": "100 study-notes/104 Linux/Linux - Networking - Network Namespaces.md"
     },
     {
-      "basename": "101 AWS SAA Index",
-      "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
-    },
-    {
       "basename": "Linux - Networking - Interfaces",
       "path": "100 study-notes/104 Linux/Linux - Networking - Interfaces.md"
+    },
+    {
+      "basename": "Linux - Networking - Iptables",
+      "path": "100 study-notes/104 Linux/Linux - Networking - Iptables.md"
+    },
+    {
+      "basename": "101 AWS SAA Index",
+      "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
     },
     {
       "basename": "KodeCloud - Networking Basics",
@@ -79,10 +95,6 @@
     {
       "basename": "KodeCloud - CKAD - Volumes",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Volumes.md"
-    },
-    {
-      "basename": "KodeCloud - CKA - Cluster Architecture",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Architecture.md"
     },
     {
       "basename": "KodeCloud - CKAD - Network Policies",
@@ -187,18 +199,6 @@
     {
       "basename": "Kubernetes - Controllers",
       "path": "100 study-notes/111 KodeCloud/Kubernetes - Controllers.md"
-    },
-    {
-      "basename": "Kubernetes - Chain of events behind running a pod",
-      "path": "100 study-notes/110 Kubernetes/Kubernetes - Chain of events behind running a pod.md"
-    },
-    {
-      "basename": "Kubernetes - Introduction",
-      "path": "100 study-notes/110 Kubernetes/Kubernetes - Introduction.md"
-    },
-    {
-      "basename": "Kubernetes - Steps of an API Request in API Server",
-      "path": "100 study-notes/111 KodeCloud/Kubernetes - Steps of an API Request in API Server.md"
     }
   ],
   "omittedPaths": [],
