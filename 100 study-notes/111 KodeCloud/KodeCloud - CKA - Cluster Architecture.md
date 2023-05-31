@@ -1,6 +1,6 @@
 ---
 created: 2022-10-10 15:37
-updated: 2023-05-30 11:04
+updated: 2023-05-31 11:59
 ---
 ---
 **Links**: [[111 KodeCloud Index]]
@@ -22,9 +22,20 @@ updated: 2023-05-30 11:04
 
 #### etcd
 - etcd is an open-source **strongly consistent**, **distributed key-value store**.
+	- Distributed means we can *write to any instance and read from any instance*.
+	- This is done by *assigning one etcd as leader and others as follower*.
+		- If the write comes to any of the follower nodes then they are forwarded to the leader node internally.
 - etcd uses *raft consensus algorithm* for strong consistency and availability. 
 	- It works in a *leader-member* fashion for high availability and to withstand node failures.
 	- [Raft (thesecretlivesofdata.com)](http://thesecretlivesofdata.com/raft/)
+- *Quorum is the minimum number of nodes available for the cluster to function properly*: `N/2 + 1`. 
+	- In case of 3 nodes quorum is 2.
+	- **This is why it is recommended to have a minimum of 3 instances in the etcd cluster**.
+	- Table:
+		- ![[attachments/Pasted image 20230531120055.png]]
+
+> [!note] Always go with *odd number of nodes* for etcd HA.
+
 - etcd *stores all configurations, states, and metadata of Kubernetes objects* (pods, secrets, daemonsets, deployments, configmaps, statefulsets, etc).
 - etcd allows a **client to subscribe to events using `Watch()` API** . 
 	- Kubernetes *api-server uses the etcd’s watch functionality to track the change in the state of an object*.
@@ -43,10 +54,15 @@ updated: 2023-05-30 11:04
 - There are different ways of achieving etcd HA.
 	- We can use the **stacked topology** where we have *multiple master nodes and an etcd in each of them*. 
 		- This is how HA setup is provisioned using kubeadm.
-		- ![[attachments/Pasted image 20230517114908.png]]
+		- Diagram:
+			- ![[attachments/Pasted image 20230517114908.png]]
 	- We can use an **external etcd cluster topology**.
 		- ![[attachments/Pasted image 20230517115000.png]]
 - The main difference between the two topologies is that in the external etcd cluster the master node can talk to any etcd whereas in stacked topology it could only talk to the local etcd pod.
+
+> [!note]- Since *etcd is a distributed system* apiserver can talk to any node of etcd without a load balancer.
+> This is the reason why we specify a list of etcd servers in the kubeapi configuration file.
+> ![[attachments/Pasted image 20230530150539.png]]
 
 #### kube-scheduler
 - kube-scheduler is responsible for **scheduling pods on worker nodes**.

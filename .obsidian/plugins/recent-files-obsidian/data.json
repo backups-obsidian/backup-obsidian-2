@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "KodeCloud - CKA - Cluster Architecture",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Architecture.md"
+    },
+    {
       "basename": "KodeCloud - CKA - Miscellaneous",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Miscellaneous.md"
     },
@@ -31,10 +35,6 @@
     {
       "basename": "KodeCloud - CKA - CNI",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - CNI.md"
-    },
-    {
-      "basename": "KodeCloud - CKA - Cluster Architecture",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Architecture.md"
     },
     {
       "basename": "KodeCloud - CKAD - Ingress",

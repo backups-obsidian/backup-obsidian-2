@@ -38,6 +38,19 @@
             }
           },
           {
+            "id": "a48b9f7094063438",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Architecture.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
             "id": "43e66508d339233d",
             "type": "leaf",
             "state": {
@@ -70,7 +83,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "path:111 CRI",
+                "query": "path:111 topology",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -134,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Miscellaneous.md",
+                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Architecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Miscellaneous.md"
+                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Architecture.md"
               }
             }
           },
@@ -161,7 +174,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Miscellaneous.md",
+                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Architecture.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -227,14 +240,17 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "43e66508d339233d",
+  "active": "a48b9f7094063438",
   "lastOpenFiles": [
+    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230531120055.png",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKA - Miscellaneous.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Architecture.md",
+    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230531115621.png",
+    "100 study-notes/111 KodeCloud/111 KodeCloud Index.md",
     "100 study-notes/111 KodeCloud/attachments/Pasted image 20230530150539.png",
     "100 study-notes/111 KodeCloud/attachments/Pasted image 20230530150322.png",
     "100 study-notes/111 KodeCloud/attachments/Pasted image 20230530150305.png",
     "100 study-notes/111 KodeCloud/attachments/Pasted image 20230530145709.png",
-    "100 study-notes/111 KodeCloud/111 KodeCloud Index.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKA - Miscellaneous.md",
     "100 study-notes/111 KodeCloud/Kubernetes - Dumping Ground.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKA - Setting up k8s.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKA - DNS.md",
@@ -243,12 +259,9 @@
     "100 study-notes/111 KodeCloud/attachments/Pasted image 20230530123600.png",
     "100 study-notes/111 KodeCloud/attachments/Pasted image 20230530123220.png",
     "100 study-notes/111 KodeCloud/attachments/Pasted image 20230530122904.png",
-    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230530122401.png",
-    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230530122156.png",
     "100 study-notes/111 KodeCloud/KodeCloud - CKA - Pause Container.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKA - Pod & Service Networking.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKA - CNI.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Architecture.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Ingress.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Networking.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKA - Service Networking.md",
