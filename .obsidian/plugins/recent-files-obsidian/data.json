@@ -1,20 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "KodeCloud - CKA - Cluster Architecture",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Architecture.md"
-    },
-    {
-      "basename": "KodeCloud - CKA - Miscellaneous",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Miscellaneous.md"
+      "basename": "KodeCloud - Kustomize",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - Kustomize.md"
     },
     {
       "basename": "111 KodeCloud Index",
       "path": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md"
     },
     {
-      "basename": "Kubernetes - Dumping Ground",
-      "path": "100 study-notes/111 KodeCloud/Kubernetes - Dumping Ground.md"
+      "basename": "KodeCloud - CKA - Miscellaneous",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Miscellaneous.md"
+    },
+    {
+      "basename": "Work at 16Bit",
+      "path": "400 misc/Work at 16Bit.md"
+    },
+    {
+      "basename": "KodeCloud - CKA - TLS Kubernetes",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - TLS Kubernetes.md"
+    },
+    {
+      "basename": "KodeCloud - CKA - Cluster Architecture",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Architecture.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - KubeConfig",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - KubeConfig.md"
     },
     {
       "basename": "KodeCloud - CKA - Setting up k8s",
@@ -23,6 +35,42 @@
     {
       "basename": "KodeCloud - CKA - DNS",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - DNS.md"
+    },
+    {
+      "basename": "EC2 EBS",
+      "path": "100 study-notes/101 AWS SAA/EC2 EBS.md"
+    },
+    {
+      "basename": "101 AWS SAA Index",
+      "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
+    },
+    {
+      "basename": "EC2 Hibernate",
+      "path": "100 study-notes/101 AWS SAA/EC2 Hibernate.md"
+    },
+    {
+      "basename": "EC2 ENI",
+      "path": "100 study-notes/101 AWS SAA/EC2 ENI.md"
+    },
+    {
+      "basename": "How to use jq",
+      "path": "300 short-notes/How to use jq.md"
+    },
+    {
+      "basename": "Kubernetes - Dumping Ground",
+      "path": "100 study-notes/111 KodeCloud/Kubernetes - Dumping Ground.md"
+    },
+    {
+      "basename": "Kubernetes - Logging",
+      "path": "100 study-notes/111 KodeCloud/Kubernetes - Logging.md"
+    },
+    {
+      "basename": "KodeCloud - CKA - Cluster Networking",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Networking.md"
+    },
+    {
+      "basename": "KodeCloud - Kubernetes - Services",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - Kubernetes - Services.md"
     },
     {
       "basename": "KodeCloud - CKA - Pause Container",
@@ -41,10 +89,6 @@
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Ingress.md"
     },
     {
-      "basename": "KodeCloud - CKA - Cluster Networking",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Networking.md"
-    },
-    {
       "basename": "Linux - Networking - Network Namespaces",
       "path": "100 study-notes/104 Linux/Linux - Networking - Network Namespaces.md"
     },
@@ -57,20 +101,12 @@
       "path": "100 study-notes/104 Linux/Linux - Networking - Iptables.md"
     },
     {
-      "basename": "101 AWS SAA Index",
-      "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
-    },
-    {
       "basename": "KodeCloud - Networking Basics",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - Networking Basics.md"
     },
     {
       "basename": "104 Linux Index",
       "path": "100 study-notes/104 Linux/104 Linux Index.md"
-    },
-    {
-      "basename": "EC2 ENI",
-      "path": "100 study-notes/101 AWS SAA/EC2 ENI.md"
     },
     {
       "basename": "EC2 Placement Groups",
@@ -121,14 +157,6 @@
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Security Context.md"
     },
     {
-      "basename": "KodeCloud - CKA - TLS Kubernetes",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - TLS Kubernetes.md"
-    },
-    {
-      "basename": "How to use jq",
-      "path": "300 short-notes/How to use jq.md"
-    },
-    {
       "basename": "KodeCloud - CKAD - Service Accounts",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Service Accounts.md"
     },
@@ -147,10 +175,6 @@
     {
       "basename": "Kubernetes - Authentication",
       "path": "100 study-notes/111 KodeCloud/Kubernetes - Authentication.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - KubeConfig",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - KubeConfig.md"
     },
     {
       "basename": "KodeCloud - CKAD - API & API Groups",
@@ -175,30 +199,6 @@
     {
       "basename": "KodeCloud - CKAD - Operators",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Operators.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - Logging",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Logging.md"
-    },
-    {
-      "basename": "KodeCloud - CKA - Static Pods",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Static Pods.md"
-    },
-    {
-      "basename": "KodeCloud - CKA - Daemon Sets",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Daemon Sets.md"
-    },
-    {
-      "basename": "EC2 Basics",
-      "path": "100 study-notes/101 AWS SAA/EC2 Basics.md"
-    },
-    {
-      "basename": "KodeCloud - Kubernetes - Services",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - Kubernetes - Services.md"
-    },
-    {
-      "basename": "KodeCloud - Kubernetes - Networking",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - Kubernetes - Networking.md"
     }
   ],
   "omittedPaths": [],

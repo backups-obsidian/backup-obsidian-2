@@ -1,6 +1,6 @@
 ---
 created: 2022-09-13 16:17
-updated: 2023-05-30 14:55
+updated: 2023-06-05 08:27
 ---
 ---
 **Links**: 
@@ -102,10 +102,6 @@ updated: 2023-05-30 14:55
 	- [[KodeCloud - CKA - Pod & Service Networking]]
 	- [[KodeCloud - CKA - Pause Container]]
 	- [[KodeCloud - CKA - DNS]]
-
-- Topics to read:
-	- DNS in k8s
-
 - [[KodeCloud - CKA - Setting up k8s]]
 - [[KodeCloud - CKA - Miscellaneous]]
 
@@ -113,23 +109,16 @@ updated: 2023-05-30 14:55
 - [[Kubernetes - Logging]]
 - [[Kubernetes - Dumping Ground]]
 
-# Questions
-- [ ] We know any pod and communicate with any other pod on the cluster using IPs. Does each pod have a unique DNS name without a service? 
-	- [ ] I have written something about headless services in statefulsets and pod dns names but I am not clear about it.
-- [ ] How to determine the resources required by each pod so that I can specify it in deployment definition file
-- [ ] What is kustomize or something similar to that?
-- [ ] Install and use the metrics API server. `k top node`, `k top pods`
-- [ ] Kustomize
-- [ ] Knative (serverless)
-- [ ] Crossplane (IaaC)
-- [ ] Kubernetes is a control plane to manage stuff with extensive API backed by controllers.
-- [ ] What is a CNI?
-- What are finalizers.
-- Must have k8s operators?
-- vaults in k8s
-- vaults in k8s
+## Tools
+- [[KodeCloud - Kustomize]]
 
 # Read Later
+- [ ] Knative (serverless)
+- [ ] Crossplane (IaaC)
+- What are finalizers.
+- vaults in k8s
+- argocd
+- Must have k8s operators?
 - [Kubernetes Tutorials For Beginners [43 Comprehensive Guides] (devopscube.com)](https://devopscube.com/kubernetes-tutorials-beginners/)
 	- [Etcd Backup And Restore On Kubernetes Cluster [Tutorial] (devopscube.com)](https://devopscube.com/backup-etcd-restore-kubernetes/)
 - [Demystifying kubeconfig file | kubeconfig file explained - Part 1 - YouTube](https://www.youtube.com/watch?v=Q74gSxeO4cI)
@@ -146,16 +135,6 @@ updated: 2023-05-30 14:55
 - [Understanding Kubernetes Networking. Part 2: POD Network, CNI, and Flannel CNI Plug-in. - YouTube](https://www.youtube.com/watch?v=U35C0EPSwoY)
 - [Container Networking From Scratch - Kristen Jacobs, Oracle - YouTube](https://www.youtube.com/watch?v=6v_BDHIgOY8)
 - [Kubernetes Networking Series - YouTube](https://www.youtube.com/playlist?list=PLSAko72nKb8QWsfPpBlsw-kOdMBD7sra-)
-
-## Tips
-- When we run `k run pod --image=nginx` the container runtime is actually pulling images from `docker.io/library/nginx`.
-	- Here *`nginx` is the image name*.
-	- *`library` is the user/account name*. 
-		- *`library` is the name of the default account where docker's official images are stored*.
-	- `docker.io` is the default registry from where images are pulled.
-		- Google's registry is `grc.io` where a lot of k8s related images are stored.
-	- Diagram:
-		- ![[attachments/Pasted image 20230524113731.png]]
 
 ## References
 - Installing the metrics server: [How to Install Kubernetes (K8s) Metrics Server Step by Step (linuxtechi.com)](https://www.linuxtechi.com/how-to-install-kubernetes-metrics-server/)

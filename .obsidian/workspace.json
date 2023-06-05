@@ -38,20 +38,7 @@
             }
           },
           {
-            "id": "a48b9f7094063438",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Architecture.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "43e66508d339233d",
+            "id": "b5c9aac0b8999f0c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -62,9 +49,22 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "ae61c3f089d59783",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100 study-notes/111 KodeCloud/KodeCloud - Kustomize.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -147,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Architecture.md",
+                "file": "100 study-notes/111 KodeCloud/KodeCloud - Kustomize.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Architecture.md"
+                "file": "100 study-notes/111 KodeCloud/KodeCloud - Kustomize.md"
               }
             }
           },
@@ -174,7 +174,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Architecture.md",
+                "file": "100 study-notes/111 KodeCloud/KodeCloud - Kustomize.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -224,7 +224,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 347.5
+    "width": 352.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -240,43 +240,43 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "a48b9f7094063438",
+  "active": "ae61c3f089d59783",
   "lastOpenFiles": [
-    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230531120055.png",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKA - Miscellaneous.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Architecture.md",
-    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230531115621.png",
+    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230605131116.png",
+    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230605131046.png",
+    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230605130835.png",
+    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230605130628.png",
+    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230605130231.png",
+    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230605125427.png",
+    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230605125330.png",
+    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230605124719.png",
+    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230605124422.png",
+    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230605123918.png",
+    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230605123718.png",
     "100 study-notes/111 KodeCloud/111 KodeCloud Index.md",
-    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230530150539.png",
-    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230530150322.png",
-    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230530150305.png",
-    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230530145709.png",
-    "100 study-notes/111 KodeCloud/Kubernetes - Dumping Ground.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKA - Miscellaneous.md",
+    "400 misc/Work at 16Bit.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - Kustomize.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKA - TLS Kubernetes.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Architecture.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - KubeConfig.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKA - Setting up k8s.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKA - DNS.md",
-    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230530124131.png",
-    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230530123800.png",
-    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230530123600.png",
-    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230530123220.png",
-    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230530122904.png",
+    "100 study-notes/101 AWS SAA/EC2 EBS.md",
+    "100 study-notes/101 AWS SAA/101 AWS SAA Index.md",
+    "100 study-notes/101 AWS SAA/EC2 Hibernate.md",
+    "100 study-notes/101 AWS SAA/EC2 ENI.md",
+    "300 short-notes/How to use jq.md",
+    "100 study-notes/111 KodeCloud/Kubernetes - Dumping Ground.md",
+    "100 study-notes/111 KodeCloud/Kubernetes - Logging.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Networking.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - Kubernetes - Services.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKA - Pause Container.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKA - Pod & Service Networking.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKA - CNI.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Ingress.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Networking.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKA - Service Networking.md",
     "100 study-notes/104 Linux/Linux - Networking - Network Namespaces.md",
-    "100 study-notes/104 Linux/Linux - Networking - Interfaces.md",
-    "100 study-notes/104 Linux/Linux - Networking - Iptables.md",
-    "100 study-notes/101 AWS SAA/101 AWS SAA Index.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - Networking Basics.md",
-    "100 study-notes/104 Linux/104 Linux Index.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKA - Networking Prerequisites.md",
-    "100 study-notes/101 AWS SAA/EC2 ENI.md",
-    "100 study-notes/101 AWS SAA/EC2 Placement Groups.md",
-    "100 study-notes/101 AWS SAA/EC2 Instance Purchasing Options.md",
-    "100 study-notes/104 Linux/Linux - Using Xargs.md",
-    "100 study-notes/104 Linux/Linux - Miscellaneous.md",
-    "100 study-notes/104 Linux/Linux - Packaging Formats.md"
+    "100 study-notes/104 Linux/Linux - Networking - Interfaces.md"
   ]
 }
