@@ -1,12 +1,29 @@
 ---
 created: 2023-05-16 11:27
-updated: 2023-05-16 11:28
+updated: 2023-05-31 13:04
 ---
 ---
 **Links**: [[111 KodeCloud Index]]
 
 ---
 ## Setting up k8s
+### Video References
+- [KodeCloud Video](https://drive.google.com/file/d/128DNyfWY6-w5bDQWgPRT_hIe2-gXnbcu/view)
+- [Kubernetes Multi Master Setup with LoadBalancer on Ubuntu - YouTube](https://www.youtube.com/watch?v=Zxozz8P_l5M)
+
+### Steps for setting up a cluster using kubeadm
+- Diagrammatic representation of steps:
+	- ![[attachments/Pasted image 20230531120722.png]]
+- **Steps**:
+	- Provision the VMs.
+	- Designate one as the master and others as the worker nodes.
+	- Install a container runtime on the hosts.
+	- Install kubeadm tool on all the nodes.
+	- Initializing the master server.
+	- Setup the pod network.
+	- Maker worker nodes join the master node.
+	- Deploy applications
+
 ### Installing kubeapi-server
 - If we install k8s using kubeadm then we don't need to worry about installing the kubeapi-server 
 	- **kubeadm deploys the kubeapi-server as a pod in the `kube-system` namespace**.

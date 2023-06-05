@@ -1,12 +1,12 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-04-19 19:34
+updated: 2023-05-31 17:15
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
 
 ---
-
+## ENI
 - It stands for Elastic Network Interface.
 - It is a **logical component in a VPC** and represents a *virtual network card*.
 - ENIs can be created independently of EC2 and then attached to EC2 instances.
