@@ -1,6 +1,6 @@
 ---
 created: 2023-06-02 11:59
-updated: 2023-06-05 13:12
+updated: 2023-06-05 13:17
 ---
 ---
 **Links**: [[111 KodeCloud Index]]
@@ -150,8 +150,11 @@ resources:
 		- ![[attachments/Pasted image 20230605130231.png]]
 - *Using generators - Key value pairs*:
 	- ![[attachments/Pasted image 20230605130628.png]]
-- *Using generators - files*:
+- *Using generators - files* 
 	- ![[attachments/Pasted image 20230605130835.png]]
+
+> [!note] The files should be in the same directory as the `kustomization.yml` where the generator was defined.
+
 - Everything remains the same when we use the Secret generator only difference being that the *values we provide are automatically base64 encoded*.
 	- ![[attachments/Pasted image 20230605131046.png]]
 	- ![[attachments/Pasted image 20230605131116.png]]
