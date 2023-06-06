@@ -1,6 +1,6 @@
 ---
 created: 2023-05-30 15:00
-updated: 2023-06-05 16:49
+updated: 2023-06-06 10:42
 ---
 ---
 **Links**: [[111 KodeCloud Index]]
@@ -58,6 +58,8 @@ updated: 2023-06-05 16:49
 		- Google's registry is `grc.io` where a lot of k8s related images are stored.
 	- Diagram:
 		- ![[attachments/Pasted image 20230524113731.png]]
+- **Port Forwarding** to a particular pod:
+	- `k port-forward <pod-name> <port-number>`
 
 ## FAQs
 > [!question]- How to determine the resources required by each pod so that I can specify it in deployment definition file?
