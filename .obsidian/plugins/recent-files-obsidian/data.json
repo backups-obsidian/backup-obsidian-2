@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "KodeCloud - CKA - Miscellaneous",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Miscellaneous.md"
+      "basename": "KodeCloud - ArgoCD",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - ArgoCD.md"
     },
     {
       "basename": "111 KodeCloud Index",
       "path": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md"
+    },
+    {
+      "basename": "KodeCloud - CKA - Miscellaneous",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Miscellaneous.md"
     },
     {
       "basename": "KodeCloud - Kustomize",
@@ -195,10 +199,6 @@
     {
       "basename": "KodeCloud - CKA - OS Upgrades",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - OS Upgrades.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - Operators",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Operators.md"
     }
   ],
   "omittedPaths": [],

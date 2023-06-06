@@ -1,6 +1,6 @@
 ---
 created: 2022-09-13 16:17
-updated: 2023-06-05 16:23
+updated: 2023-06-06 11:40
 ---
 ---
 **Links**: 
@@ -111,11 +111,9 @@ updated: 2023-06-05 16:23
 
 ## Tools
 - [[KodeCloud - Kustomize]]
+- [[KodeCloud - ArgoCD]]
 
 # Read Later
-- vaults in k8s
-	- sealed secrets
-- argocd
 - [Kubernetes Tutorials For Beginners [43 Comprehensive Guides] (devopscube.com)](https://devopscube.com/kubernetes-tutorials-beginners/)
 	- [Etcd Backup And Restore On Kubernetes Cluster [Tutorial] (devopscube.com)](https://devopscube.com/backup-etcd-restore-kubernetes/)
 - [Demystifying kubeconfig file | kubeconfig file explained - Part 1 - YouTube](https://www.youtube.com/watch?v=Q74gSxeO4cI)
@@ -133,8 +131,10 @@ updated: 2023-06-05 16:23
 - [Container Networking From Scratch - Kristen Jacobs, Oracle - YouTube](https://www.youtube.com/watch?v=6v_BDHIgOY8)
 - [Kubernetes Networking Series - YouTube](https://www.youtube.com/playlist?list=PLSAko72nKb8QWsfPpBlsw-kOdMBD7sra-)
 - Must have k8s operators?
+- Check datree, OPA and Kyverno.
 
 ## References
 - Installing the metrics server: [How to Install Kubernetes (K8s) Metrics Server Step by Step (linuxtechi.com)](https://www.linuxtechi.com/how-to-install-kubernetes-metrics-server/)
 	- We CANNOT see historical performance data in the metrics server.
 - [Docker vs Containerd: Understanding the Differences and Choosing the Right Containerization Tool - YouTube](https://www.youtube.com/watch?v=21onkZfL2yM)
+- [Storing Secrets in GIT | GitOps | Kubernetes - YouTube](https://www.youtube.com/watch?v=u0qtgUMLua0) - Sealed Secrets

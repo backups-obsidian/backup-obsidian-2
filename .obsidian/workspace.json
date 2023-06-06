@@ -38,12 +38,12 @@
             }
           },
           {
-            "id": "6bd80366d6760e07",
+            "id": "7c405a03518909a9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Miscellaneous.md",
+                "file": "100 study-notes/111 KodeCloud/KodeCloud - ArgoCD.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Miscellaneous.md",
+                "file": "100 study-notes/111 KodeCloud/KodeCloud - ArgoCD.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Miscellaneous.md"
+                "file": "100 study-notes/111 KodeCloud/KodeCloud - ArgoCD.md"
               }
             }
           },
@@ -161,7 +161,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Miscellaneous.md",
+                "file": "100 study-notes/111 KodeCloud/KodeCloud - ArgoCD.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -227,22 +227,23 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "6bd80366d6760e07",
+  "active": "7c405a03518909a9",
   "lastOpenFiles": [
+    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230606123519.png",
+    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230606123206.png",
+    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230606122710.png",
+    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230606122002.png",
+    "100 study-notes/111 KodeCloud/111 KodeCloud Index.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - ArgoCD.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKA - Miscellaneous.md",
     "100 study-notes/111 KodeCloud/attachments/Pasted image 20230605164931.png",
     "100 study-notes/111 KodeCloud/attachments/Pasted image 20230605164913.png",
-    "100 study-notes/111 KodeCloud/111 KodeCloud Index.md",
     "100 study-notes/111 KodeCloud/KodeCloud - Kustomize.md",
     "100 study-notes/111 KodeCloud/attachments/Pasted image 20230605131116.png",
     "100 study-notes/111 KodeCloud/attachments/Pasted image 20230605131046.png",
     "100 study-notes/111 KodeCloud/attachments/Pasted image 20230605130835.png",
     "100 study-notes/111 KodeCloud/attachments/Pasted image 20230605130628.png",
     "100 study-notes/111 KodeCloud/attachments/Pasted image 20230605130231.png",
-    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230605125427.png",
-    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230605125330.png",
-    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230605124719.png",
-    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230605124422.png",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKA - Miscellaneous.md",
     "400 misc/Work at 16Bit.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKA - TLS Kubernetes.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Architecture.md",
@@ -263,7 +264,6 @@
     "100 study-notes/111 KodeCloud/KodeCloud - CKA - CNI.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Ingress.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKA - Service Networking.md",
-    "100 study-notes/104 Linux/Linux - Networking - Network Namespaces.md",
-    "100 study-notes/104 Linux/Linux - Networking - Interfaces.md"
+    "100 study-notes/104 Linux/Linux - Networking - Network Namespaces.md"
   ]
 }
