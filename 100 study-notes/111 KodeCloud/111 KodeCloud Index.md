@@ -1,6 +1,6 @@
 ---
 created: 2022-09-13 16:17
-updated: 2023-06-06 11:40
+updated: 2023-06-06 13:01
 ---
 ---
 **Links**: 
@@ -138,3 +138,8 @@ updated: 2023-06-06 11:40
 	- We CANNOT see historical performance data in the metrics server.
 - [Docker vs Containerd: Understanding the Differences and Choosing the Right Containerization Tool - YouTube](https://www.youtube.com/watch?v=21onkZfL2yM)
 - [Storing Secrets in GIT | GitOps | Kubernetes - YouTube](https://www.youtube.com/watch?v=u0qtgUMLua0) - Sealed Secrets
+
+## Considerations:
+- Have a cluster which is being backed up regularly for deploying argo cd.
+- If we are planning to use sealed secrets then we need to use the same private and public key for all the clusters.
+	- This needs to be created before installing the sealed secrets controller.
