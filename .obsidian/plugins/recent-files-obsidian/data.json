@@ -5,6 +5,14 @@
       "path": "100 study-notes/111 KodeCloud/KodeCloud - ArgoCD.md"
     },
     {
+      "basename": "EC2 EBS",
+      "path": "100 study-notes/101 AWS SAA/EC2 EBS.md"
+    },
+    {
+      "basename": "101 AWS SAA Index",
+      "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
+    },
+    {
       "basename": "111 KodeCloud Index",
       "path": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md"
     },
@@ -39,14 +47,6 @@
     {
       "basename": "KodeCloud - CKA - DNS",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - DNS.md"
-    },
-    {
-      "basename": "EC2 EBS",
-      "path": "100 study-notes/101 AWS SAA/EC2 EBS.md"
-    },
-    {
-      "basename": "101 AWS SAA Index",
-      "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
     },
     {
       "basename": "EC2 Hibernate",
