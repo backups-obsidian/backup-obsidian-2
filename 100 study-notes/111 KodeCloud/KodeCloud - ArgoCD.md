@@ -1,6 +1,6 @@
 ---
 created: 2023-06-06 10:49
-updated: 2023-06-07 12:36
+updated: 2023-06-07 16:49
 ---
 ---
 **Links**: [[111 KodeCloud Index]]
@@ -108,3 +108,6 @@ updated: 2023-06-07 12:36
 - **Diagram**:
 	- ![[attachments/Pasted image 20230607124009.png]]
 
+### Miscellaneous
+- *User management*:
+	- ![[attachments/Pasted image 20230607125912.png]]
