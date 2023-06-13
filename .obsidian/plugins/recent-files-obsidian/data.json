@@ -1,8 +1,44 @@
 {
   "recentFiles": [
     {
+      "basename": "111 KodeCloud Index",
+      "path": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Port Forwarding vs Proxy",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Port Forwarding vs Proxy.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - API & API Groups",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - API & API Groups.md"
+    },
+    {
+      "basename": "KodeCloud - CKA - Miscellaneous",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Miscellaneous.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Misc",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Misc.md"
+    },
+    {
+      "basename": "KodeCloud - CKA - Finalizers & Owner References",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Finalizers & Owner References.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - API Versions",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - API Versions.md"
+    },
+    {
       "basename": "KodeCloud - ArgoCD",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - ArgoCD.md"
+    },
+    {
+      "basename": "300 home",
+      "path": "300 short-notes/300 home.md"
+    },
+    {
+      "basename": "IAM in Google Cloud",
+      "path": "300 short-notes/IAM in Google Cloud.md"
     },
     {
       "basename": "EC2 EBS",
@@ -11,14 +47,6 @@
     {
       "basename": "101 AWS SAA Index",
       "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
-    },
-    {
-      "basename": "111 KodeCloud Index",
-      "path": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md"
-    },
-    {
-      "basename": "KodeCloud - CKA - Miscellaneous",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Miscellaneous.md"
     },
     {
       "basename": "KodeCloud - Kustomize",
@@ -171,34 +199,6 @@
     {
       "basename": "KodeCloud - CKAD - RBAC",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - RBAC.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - Authorization",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Authorization.md"
-    },
-    {
-      "basename": "Kubernetes - Authentication",
-      "path": "100 study-notes/111 KodeCloud/Kubernetes - Authentication.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - API & API Groups",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - API & API Groups.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - API Versions",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - API Versions.md"
-    },
-    {
-      "basename": "KodeCloud - CKA - Cluster Upgrade",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Upgrade.md"
-    },
-    {
-      "basename": "KodeCloud - CKA - Backup & Restore",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Backup & Restore.md"
-    },
-    {
-      "basename": "KodeCloud - CKA - OS Upgrades",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - OS Upgrades.md"
     }
   ],
   "omittedPaths": [],

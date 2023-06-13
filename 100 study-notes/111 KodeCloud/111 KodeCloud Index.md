@@ -1,6 +1,6 @@
 ---
 created: 2022-09-13 16:17
-updated: 2023-06-06 13:01
+updated: 2023-06-13 12:09
 ---
 ---
 **Links**: 
@@ -79,6 +79,7 @@ updated: 2023-06-06 13:01
 	- [[KodeCloud - CKAD - Operators]]
 
 - [[KodeCloud - CKAD - Deployment Strategies]]
+- [[KodeCloud - CKAD - Port Forwarding vs Proxy]]
 - [[KodeCloud - CKAD - Misc]]
 
 ### CKA
@@ -103,6 +104,7 @@ updated: 2023-06-06 13:01
 	- [[KodeCloud - CKA - Pause Container]]
 	- [[KodeCloud - CKA - DNS]]
 - [[KodeCloud - CKA - Setting up k8s]]
+- [[KodeCloud - CKA - Finalizers & Owner References]]
 - [[KodeCloud - CKA - Miscellaneous]]
 
 ### Self
