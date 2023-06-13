@@ -1,6 +1,6 @@
 ---
 created: 2022-09-15 21:09
-updated: 2023-05-09 17:29
+updated: 2023-06-13 12:17
 ---
 ---
 **Links**: [[111 KodeCloud Index]]
@@ -33,6 +33,7 @@ updated: 2023-05-09 17:29
 - An alternate option is to **start a kubectl proxy client**. 
 	- `kubectl proxy` command launches a proxy on `localhost:8001` and uses credentials from the kubeconfig file to forward the request to the kubeapi-server.
 		- Now we don't have to specify them in the curl command.
+		- It is the easiest and most common way to access the cluster.
 	- We can access the kubectl proxy service using `curl http://localhost:8001/ -k`.
 	- Remember *kube proxy is different from kubectl proxy*.
 - Checking the version of the cluster using API:
