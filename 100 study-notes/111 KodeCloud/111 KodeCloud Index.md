@@ -1,6 +1,6 @@
 ---
 created: 2022-09-13 16:17
-updated: 2023-06-13 12:09
+updated: 2023-06-15 08:20
 ---
 ---
 **Links**: 
@@ -114,6 +114,7 @@ updated: 2023-06-13 12:09
 ## Tools
 - [[KodeCloud - Kustomize]]
 - [[KodeCloud - ArgoCD]]
+- [[KodeCloud - Istio]]
 
 # Read Later
 - [Kubernetes Tutorials For Beginners [43 Comprehensive Guides] (devopscube.com)](https://devopscube.com/kubernetes-tutorials-beginners/)
