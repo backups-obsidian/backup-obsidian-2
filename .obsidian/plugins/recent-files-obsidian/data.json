@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "KodeCloud - Istio",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - Istio.md"
+    },
+    {
       "basename": "111 KodeCloud Index",
       "path": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md"
+    },
+    {
+      "basename": "EC2 EBS",
+      "path": "100 study-notes/101 AWS SAA/EC2 EBS.md"
+    },
+    {
+      "basename": "101 AWS SAA Index",
+      "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
     },
     {
       "basename": "KodeCloud - CKAD - Port Forwarding vs Proxy",
@@ -39,14 +51,6 @@
     {
       "basename": "IAM in Google Cloud",
       "path": "300 short-notes/IAM in Google Cloud.md"
-    },
-    {
-      "basename": "EC2 EBS",
-      "path": "100 study-notes/101 AWS SAA/EC2 EBS.md"
-    },
-    {
-      "basename": "101 AWS SAA Index",
-      "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
     },
     {
       "basename": "KodeCloud - Kustomize",
@@ -195,10 +199,6 @@
     {
       "basename": "KodeCloud - CKAD - ClusterRoles",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - ClusterRoles.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - RBAC",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - RBAC.md"
     }
   ],
   "omittedPaths": [],
