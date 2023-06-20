@@ -1,6 +1,6 @@
 ---
 created: 2023-06-15 08:20
-updated: 2023-06-15 09:59
+updated: 2023-06-15 15:53
 ---
 ---
 **Links**: [[111 KodeCloud Index]]
@@ -45,6 +45,8 @@ updated: 2023-06-15 09:59
 - **Virtual services define a set of routing rules for traffic coming from the ingress gateway to the service mesh**.
 - Virtual services also help in *weighted routing* for A/B testing.
 	- ![[attachments/Pasted image 20230615094935.png]]
+- Virtual services usage diagram:
+	- ![[attachments/Pasted image 20230615151810.png]]
 
 ### Destination Rules
 - We define subsets in the destination rules.
@@ -54,4 +56,13 @@ updated: 2023-06-15 09:59
 	- ![[attachments/Pasted image 20230615095855.png]]
 - For hosts use fully qualified names instead of short names:
 	- ![[attachments/Pasted image 20230615103055.png]]
-- 
+
+---
+
+> [!important] In Istio we *use virtual services instead of normal k8s services*.
+
+### Authentication
+- *JWT validation* & **mTLS**.
+	- The request is actually coming from the expected service.
+- **In mTLS each service gets its own identity which is enforced using certificate key pairs**.
+- *Certificate generation and distribution is automatically managed by istiod*.
