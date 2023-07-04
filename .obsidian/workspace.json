@@ -38,25 +38,25 @@
             }
           },
           {
-            "id": "692cf70ee7d31880",
+            "id": "59dcc309beccb9b2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 study-notes/101 AWS SAA/EC2 EBS.md",
-                "mode": "preview",
+                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Writing helm charts.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
             }
           },
           {
-            "id": "790a5f728532f396",
+            "id": "3bc2e7a7804a0ed9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 study-notes/108 Python/Python - Setting up pre-commit.md",
+                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Helm Charts.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -83,7 +83,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "path:111 port-forwar",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -147,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/108 Python/Python - Setting up pre-commit.md",
+                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Helm Charts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/108 Python/Python - Setting up pre-commit.md"
+                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Helm Charts.md"
               }
             }
           },
@@ -174,7 +174,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/108 Python/Python - Setting up pre-commit.md",
+                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Helm Charts.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -240,11 +240,25 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "790a5f728532f396",
+  "active": "3bc2e7a7804a0ed9",
   "lastOpenFiles": [
-    "100 study-notes/101 AWS SAA/EC2 EBS.md",
-    "100 study-notes/104 Linux/Linux - Networking - Netcat.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Writing helm charts.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Helm Charts.md",
     "100 study-notes/111 KodeCloud/111 KodeCloud Index.md",
+    "100 study-notes/111 KodeCloud/Self - Helm.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - Kustomize.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Environment Variables.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Probes.md",
+    "100 study-notes/101 AWS SAA/101 AWS SAA Index.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Volumes.md",
+    "100 study-notes/101 AWS SAA/EFS.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Port Forwarding vs Proxy.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Commands and Arguments.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Operators.md",
+    "300 short-notes/How to use jq.md",
+    "100 study-notes/101 AWS SAA/EC2 EBS.md",
+    "100 study-notes/108 Python/Python - Setting up pre-commit.md",
+    "100 study-notes/104 Linux/Linux - Networking - Netcat.md",
     "100 study-notes/111 KodeCloud/KodeCloud - Istio.md",
     "100 study-notes/111 KodeCloud/attachments/Pasted image 20230615151810.png",
     "100 study-notes/111 KodeCloud/attachments/Pasted image 20230615103055.png",
@@ -255,8 +269,6 @@
     "100 study-notes/111 KodeCloud/attachments/Pasted image 20230615084003.png",
     "100 study-notes/111 KodeCloud/attachments/Pasted image 20230615083023.png",
     "100 study-notes/111 KodeCloud/attachments/Pasted image 20230615082226.png",
-    "100 study-notes/101 AWS SAA/101 AWS SAA Index.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Port Forwarding vs Proxy.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKAD - API & API Groups.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKA - Miscellaneous.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Misc.md",
@@ -265,18 +277,6 @@
     "100 study-notes/111 KodeCloud/KodeCloud - ArgoCD.md",
     "300 short-notes/300 home.md",
     "300 short-notes/IAM in Google Cloud.md",
-    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230607125912.png",
-    "100 study-notes/111 KodeCloud/KodeCloud - Kustomize.md",
-    "400 misc/Work at 16Bit.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKA - TLS Kubernetes.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Architecture.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - KubeConfig.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKA - Setting up k8s.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKA - DNS.md",
-    "100 study-notes/101 AWS SAA/EC2 Hibernate.md",
-    "100 study-notes/101 AWS SAA/EC2 ENI.md",
-    "300 short-notes/How to use jq.md",
-    "100 study-notes/111 KodeCloud/Kubernetes - Dumping Ground.md",
-    "100 study-notes/111 KodeCloud/Kubernetes - Logging.md"
+    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230607125912.png"
   ]
 }

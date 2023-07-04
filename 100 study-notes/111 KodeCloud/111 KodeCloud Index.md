@@ -1,6 +1,6 @@
 ---
 created: 2022-09-13 16:17
-updated: 2023-06-19 12:38
+updated: 2023-06-30 19:39
 ---
 ---
 **Links**: 
@@ -115,6 +115,8 @@ updated: 2023-06-19 12:38
 - [[KodeCloud - Kustomize]]
 - [[KodeCloud - ArgoCD]]
 - [[KodeCloud - Istio]]
+- Important k8s tools:
+	- [What Tools Are Used With Kubernetes? - YouTube](https://www.youtube.com/watch?v=udVcLj9rNx4)
 
 # Read Later
 - [Kubernetes Tutorials For Beginners [43 Comprehensive Guides] (devopscube.com)](https://devopscube.com/kubernetes-tutorials-beginners/)
