@@ -1,6 +1,6 @@
 ---
 created: 2022-10-06 11:49
-updated: 2022-10-08 00:46
+updated: 2023-06-30 20:25
 ---
 ---
 **Links**: [[111 KodeCloud Index]]
@@ -140,3 +140,7 @@ updated: 2022-10-08 00:46
 	- We can set a *hook deletion policy* to clean up the resource (the pod) that were used for running the jobs.
 		- `before-hook-creation` deletes the previous resource before a new hook is launched
 	- ![[attachments/Pasted image 20221006203111.png]]
+
+## References
+- [How to Create Helm Charts - The Ultimate Guide - YouTube](https://www.youtube.com/watch?v=jUYNS90nq8U)
+	- **Must watch quick recap**.

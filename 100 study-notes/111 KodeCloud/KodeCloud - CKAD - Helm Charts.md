@@ -1,6 +1,6 @@
 ---
 created: 2022-09-15 21:09
-updated: 2022-10-06 11:07
+updated: 2023-06-30 20:50
 ---
 ---
 **Links**: [[111 KodeCloud Index]]
@@ -125,3 +125,7 @@ updated: 2022-10-06 11:07
 - Although rollbacks are very similar to backup restore feature, it does not cover file or directory data that may be created by our application.
 	- **So for things that use persistent volumes, rollback won't restore the data**. 
 	- This is done using chart hooks
+
+## References
+- [Helm and Helm Charts Explained - Helm Tutorial for Beginners - YouTube](https://www.youtube.com/watch?v=w51lDVuRWuk)
+- [How to Use Helm to deploy Helm Charts in Kubernetes: Practical Tutorial - YouTube](https://www.youtube.com/watch?v=gg-GuHs8Nsk)
