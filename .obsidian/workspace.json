@@ -8,21 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c105f7e96f4d475e",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
-              },
-              "pinned": true
-            }
-          },
-          {
             "id": "f4ee7e741c998fd8",
             "type": "leaf",
             "pinned": true,
@@ -38,33 +23,20 @@
             }
           },
           {
-            "id": "59dcc309beccb9b2",
+            "id": "d57bfa36320bc396",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Writing helm charts.md",
+                "file": "100 study-notes/111 KodeCloud/KodeCloud - ArgoCD.md",
                 "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "3bc2e7a7804a0ed9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Helm Charts.md",
-                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -126,7 +98,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -147,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Helm Charts.md",
+                "file": "100 study-notes/111 KodeCloud/KodeCloud - ArgoCD.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Helm Charts.md"
+                "file": "100 study-notes/111 KodeCloud/KodeCloud - ArgoCD.md"
               }
             }
           },
@@ -174,7 +147,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Helm Charts.md",
+                "file": "100 study-notes/111 KodeCloud/KodeCloud - ArgoCD.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -218,6 +191,16 @@
               "type": "calendar",
               "state": {}
             }
+          },
+          {
+            "id": "a0d254a0148d6f4d",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
           }
         ],
         "currentTab": 1
@@ -240,43 +223,43 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "3bc2e7a7804a0ed9",
+  "active": "d57bfa36320bc396",
   "lastOpenFiles": [
-    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Writing helm charts.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Helm Charts.md",
     "100 study-notes/111 KodeCloud/111 KodeCloud Index.md",
-    "100 study-notes/111 KodeCloud/Self - Helm.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - Kustomize.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Environment Variables.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Probes.md",
-    "100 study-notes/101 AWS SAA/101 AWS SAA Index.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Volumes.md",
-    "100 study-notes/101 AWS SAA/EFS.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - Kubernetes - Services.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Service Accounts.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - API & API Groups.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - RBAC.md",
     "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Port Forwarding vs Proxy.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Commands and Arguments.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Operators.md",
-    "300 short-notes/How to use jq.md",
-    "100 study-notes/101 AWS SAA/EC2 EBS.md",
-    "100 study-notes/108 Python/Python - Setting up pre-commit.md",
-    "100 study-notes/104 Linux/Linux - Networking - Netcat.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - Istio.md",
+    "100 study-notes/104 Linux/Linux - GNU - Parallel.md",
+    "100 study-notes/101 AWS SAA/ELB.md",
+    "100 study-notes/104 Linux/104 Linux Index.md",
+    "100 study-notes/101 AWS SAA/101 AWS SAA Index.md",
+    "100 study-notes/101 AWS SAA/Launch Configuration-Template.md",
+    "100 study-notes/101 AWS SAA/Termination Policy & Life Cycle Hooks.md",
+    "100 study-notes/108 Python/Python - Correct way of running modules.md",
+    "100 study-notes/101 AWS SAA/Scaling Policies.md",
+    "100 study-notes/104 Linux/Linux - SSL - Getting Certificates.md",
+    "100 study-notes/104 Linux/attachments/Pasted image 20230730084731.png",
+    "100 study-notes/104 Linux/attachments/Pasted image 20230730084408.png",
+    "100 study-notes/104 Linux/Linux - Miscellaneous.md",
+    "100 study-notes/108 Python/Python - Using futures.md",
+    "100 study-notes/108 Python/108 Python Index.md",
+    "100 study-notes/108 Python/Python - Multiprocessing.md",
+    "100 study-notes/108 Python/Python - Multiprocessing vs Multithreading.md",
+    "100 study-notes/108 Python/Python - Multithreading.md",
+    "100 study-notes/101 AWS SAA/ASG.md",
+    "100 study-notes/104 Linux/Linux - Bash strict mode.md",
+    "100 study-notes/111 KodeCloud/KodeCloud - SSL-TLS.md",
+    "100 study-notes/101 AWS SAA/EC2 Lifecycle states.md",
+    "100 study-notes/101 AWS SAA/EC2 Metadata.md",
+    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230706141922.png",
+    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230706132654.png",
+    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230706130646.png",
     "100 study-notes/111 KodeCloud/attachments/Pasted image 20230615151810.png",
     "100 study-notes/111 KodeCloud/attachments/Pasted image 20230615103055.png",
     "100 study-notes/111 KodeCloud/attachments/Pasted image 20230615095855.png",
     "100 study-notes/111 KodeCloud/attachments/Pasted image 20230615094935.png",
-    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230615092458.png",
-    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230615091548.png",
-    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230615084003.png",
-    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230615083023.png",
-    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230615082226.png",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - API & API Groups.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKA - Miscellaneous.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Misc.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKA - Finalizers & Owner References.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - API Versions.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - ArgoCD.md",
-    "300 short-notes/300 home.md",
-    "300 short-notes/IAM in Google Cloud.md",
-    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230607125912.png"
+    "100 study-notes/111 KodeCloud/attachments/Pasted image 20230615092458.png"
   ]
 }

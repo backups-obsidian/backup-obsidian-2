@@ -1,16 +1,176 @@
 {
   "recentFiles": [
     {
-      "basename": "KodeCloud - CKAD - Helm Charts",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Helm Charts.md"
+      "basename": "KodeCloud - ArgoCD",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - ArgoCD.md"
+    },
+    {
+      "basename": "111 KodeCloud Index",
+      "path": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md"
+    },
+    {
+      "basename": "KodeCloud - Kubernetes - Services",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - Kubernetes - Services.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Service Accounts",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Service Accounts.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - API & API Groups",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - API & API Groups.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - RBAC",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - RBAC.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Port Forwarding vs Proxy",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Port Forwarding vs Proxy.md"
+    },
+    {
+      "basename": "Linux - GNU - Parallel",
+      "path": "100 study-notes/104 Linux/Linux - GNU - Parallel.md"
+    },
+    {
+      "basename": "ELB",
+      "path": "100 study-notes/101 AWS SAA/ELB.md"
+    },
+    {
+      "basename": "104 Linux Index",
+      "path": "100 study-notes/104 Linux/104 Linux Index.md"
+    },
+    {
+      "basename": "101 AWS SAA Index",
+      "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
+    },
+    {
+      "basename": "Launch Configuration-Template",
+      "path": "100 study-notes/101 AWS SAA/Launch Configuration-Template.md"
+    },
+    {
+      "basename": "Termination Policy & Life Cycle Hooks",
+      "path": "100 study-notes/101 AWS SAA/Termination Policy & Life Cycle Hooks.md"
+    },
+    {
+      "basename": "Python - Correct way of running modules",
+      "path": "100 study-notes/108 Python/Python - Correct way of running modules.md"
+    },
+    {
+      "basename": "Scaling Policies",
+      "path": "100 study-notes/101 AWS SAA/Scaling Policies.md"
+    },
+    {
+      "basename": "Linux - SSL - Getting Certificates",
+      "path": "100 study-notes/104 Linux/Linux - SSL - Getting Certificates.md"
+    },
+    {
+      "basename": "Linux - Miscellaneous",
+      "path": "100 study-notes/104 Linux/Linux - Miscellaneous.md"
+    },
+    {
+      "basename": "Python - Using futures",
+      "path": "100 study-notes/108 Python/Python - Using futures.md"
+    },
+    {
+      "basename": "108 Python Index",
+      "path": "100 study-notes/108 Python/108 Python Index.md"
+    },
+    {
+      "basename": "Python - Multiprocessing",
+      "path": "100 study-notes/108 Python/Python - Multiprocessing.md"
+    },
+    {
+      "basename": "Python - Multiprocessing vs Multithreading",
+      "path": "100 study-notes/108 Python/Python - Multiprocessing vs Multithreading.md"
+    },
+    {
+      "basename": "Python - Multithreading",
+      "path": "100 study-notes/108 Python/Python - Multithreading.md"
+    },
+    {
+      "basename": "ASG",
+      "path": "100 study-notes/101 AWS SAA/ASG.md"
+    },
+    {
+      "basename": "Linux - Bash strict mode",
+      "path": "100 study-notes/104 Linux/Linux - Bash strict mode.md"
+    },
+    {
+      "basename": "KodeCloud - SSL-TLS",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - SSL-TLS.md"
+    },
+    {
+      "basename": "EC2 Lifecycle states",
+      "path": "100 study-notes/101 AWS SAA/EC2 Lifecycle states.md"
+    },
+    {
+      "basename": "EC2 Metadata",
+      "path": "100 study-notes/101 AWS SAA/EC2 Metadata.md"
+    },
+    {
+      "basename": "EC2 AMI",
+      "path": "100 study-notes/101 AWS SAA/EC2 AMI.md"
+    },
+    {
+      "basename": "TODO",
+      "path": "TODO.md"
+    },
+    {
+      "basename": "KodeCloud - CKA - Finalizers & Owner References",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Finalizers & Owner References.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Volumes",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Volumes.md"
+    },
+    {
+      "basename": "KodeCloud - Prometheus & Grafana",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - Prometheus & Grafana.md"
+    },
+    {
+      "basename": "KodeCloud - CKA - Cluster Architecture",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Architecture.md"
+    },
+    {
+      "basename": "KodeCloud - CKA - Static Pods",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Static Pods.md"
+    },
+    {
+      "basename": "KodeCloud - CKA - DNS",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - DNS.md"
+    },
+    {
+      "basename": "KodeCloud - CKA - CNI",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - CNI.md"
+    },
+    {
+      "basename": "Kubernetes - Dumping Ground",
+      "path": "100 study-notes/111 KodeCloud/Kubernetes - Dumping Ground.md"
+    },
+    {
+      "basename": "Kubernetes - Logging",
+      "path": "100 study-notes/111 KodeCloud/Kubernetes - Logging.md"
+    },
+    {
+      "basename": "KodeCloud - CKA - Pod & Service Networking",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Pod & Service Networking.md"
+    },
+    {
+      "basename": "KodeCloud - CKAD - Ingress",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Ingress.md"
+    },
+    {
+      "basename": "Instance store",
+      "path": "100 study-notes/101 AWS SAA/Instance store.md"
     },
     {
       "basename": "KodeCloud - CKAD - Writing helm charts",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Writing helm charts.md"
     },
     {
-      "basename": "111 KodeCloud Index",
-      "path": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md"
+      "basename": "KodeCloud - CKAD - Helm Charts",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Helm Charts.md"
     },
     {
       "basename": "KodeCloud - Kustomize",
@@ -25,20 +185,8 @@
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Probes.md"
     },
     {
-      "basename": "101 AWS SAA Index",
-      "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - Volumes",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Volumes.md"
-    },
-    {
       "basename": "EFS",
       "path": "100 study-notes/101 AWS SAA/EFS.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - Port Forwarding vs Proxy",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Port Forwarding vs Proxy.md"
     },
     {
       "basename": "KodeCloud - CKAD - Commands and Arguments",
@@ -51,154 +199,6 @@
     {
       "basename": "How to use jq",
       "path": "300 short-notes/How to use jq.md"
-    },
-    {
-      "basename": "EC2 EBS",
-      "path": "100 study-notes/101 AWS SAA/EC2 EBS.md"
-    },
-    {
-      "basename": "Python - Setting up pre-commit",
-      "path": "100 study-notes/108 Python/Python - Setting up pre-commit.md"
-    },
-    {
-      "basename": "Linux - Networking - Netcat",
-      "path": "100 study-notes/104 Linux/Linux - Networking - Netcat.md"
-    },
-    {
-      "basename": "KodeCloud - Istio",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - Istio.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - API & API Groups",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - API & API Groups.md"
-    },
-    {
-      "basename": "KodeCloud - CKA - Miscellaneous",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Miscellaneous.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - Misc",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Misc.md"
-    },
-    {
-      "basename": "KodeCloud - CKA - Finalizers & Owner References",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Finalizers & Owner References.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - API Versions",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - API Versions.md"
-    },
-    {
-      "basename": "KodeCloud - ArgoCD",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - ArgoCD.md"
-    },
-    {
-      "basename": "300 home",
-      "path": "300 short-notes/300 home.md"
-    },
-    {
-      "basename": "IAM in Google Cloud",
-      "path": "300 short-notes/IAM in Google Cloud.md"
-    },
-    {
-      "basename": "Work at 16Bit",
-      "path": "400 misc/Work at 16Bit.md"
-    },
-    {
-      "basename": "KodeCloud - CKA - TLS Kubernetes",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - TLS Kubernetes.md"
-    },
-    {
-      "basename": "KodeCloud - CKA - Cluster Architecture",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Architecture.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - KubeConfig",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - KubeConfig.md"
-    },
-    {
-      "basename": "KodeCloud - CKA - Setting up k8s",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Setting up k8s.md"
-    },
-    {
-      "basename": "KodeCloud - CKA - DNS",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - DNS.md"
-    },
-    {
-      "basename": "EC2 Hibernate",
-      "path": "100 study-notes/101 AWS SAA/EC2 Hibernate.md"
-    },
-    {
-      "basename": "EC2 ENI",
-      "path": "100 study-notes/101 AWS SAA/EC2 ENI.md"
-    },
-    {
-      "basename": "Kubernetes - Dumping Ground",
-      "path": "100 study-notes/111 KodeCloud/Kubernetes - Dumping Ground.md"
-    },
-    {
-      "basename": "Kubernetes - Logging",
-      "path": "100 study-notes/111 KodeCloud/Kubernetes - Logging.md"
-    },
-    {
-      "basename": "KodeCloud - CKA - Cluster Networking",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Cluster Networking.md"
-    },
-    {
-      "basename": "KodeCloud - Kubernetes - Services",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - Kubernetes - Services.md"
-    },
-    {
-      "basename": "KodeCloud - CKA - Pause Container",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Pause Container.md"
-    },
-    {
-      "basename": "KodeCloud - CKA - Pod & Service Networking",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - Pod & Service Networking.md"
-    },
-    {
-      "basename": "KodeCloud - CKA - CNI",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKA - CNI.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - Ingress",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Ingress.md"
-    },
-    {
-      "basename": "Linux - Networking - Network Namespaces",
-      "path": "100 study-notes/104 Linux/Linux - Networking - Network Namespaces.md"
-    },
-    {
-      "basename": "Linux - Networking - Interfaces",
-      "path": "100 study-notes/104 Linux/Linux - Networking - Interfaces.md"
-    },
-    {
-      "basename": "Linux - Networking - Iptables",
-      "path": "100 study-notes/104 Linux/Linux - Networking - Iptables.md"
-    },
-    {
-      "basename": "KodeCloud - Networking Basics",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - Networking Basics.md"
-    },
-    {
-      "basename": "104 Linux Index",
-      "path": "100 study-notes/104 Linux/104 Linux Index.md"
-    },
-    {
-      "basename": "EC2 Placement Groups",
-      "path": "100 study-notes/101 AWS SAA/EC2 Placement Groups.md"
-    },
-    {
-      "basename": "EC2 Instance Purchasing Options",
-      "path": "100 study-notes/101 AWS SAA/EC2 Instance Purchasing Options.md"
-    },
-    {
-      "basename": "Linux - Using Xargs",
-      "path": "100 study-notes/104 Linux/Linux - Using Xargs.md"
-    },
-    {
-      "basename": "Linux - Miscellaneous",
-      "path": "100 study-notes/104 Linux/Linux - Miscellaneous.md"
     }
   ],
   "omittedPaths": [],

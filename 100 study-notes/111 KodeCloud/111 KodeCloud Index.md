@@ -1,6 +1,6 @@
 ---
 created: 2022-09-13 16:17
-updated: 2023-06-30 19:39
+updated: 2023-07-12 13:45
 ---
 ---
 **Links**: 
@@ -115,6 +115,7 @@ updated: 2023-06-30 19:39
 - [[KodeCloud - Kustomize]]
 - [[KodeCloud - ArgoCD]]
 - [[KodeCloud - Istio]]
+- [[KodeCloud - Prometheus & Grafana]]
 - Important k8s tools:
 	- [What Tools Are Used With Kubernetes? - YouTube](https://www.youtube.com/watch?v=udVcLj9rNx4)
 

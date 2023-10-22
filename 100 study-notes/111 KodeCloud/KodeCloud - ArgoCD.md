@@ -1,6 +1,6 @@
 ---
 created: 2023-06-06 10:49
-updated: 2023-06-07 16:49
+updated: 2023-10-22 11:41
 ---
 ---
 **Links**: [[111 KodeCloud Index]]
@@ -82,17 +82,43 @@ updated: 2023-06-07 16:49
 - Enabling the **self heal feature** will ensure that any manual edits made to the cluster will be reverted back to the state described in Argo CD.
 - *By default syncing is set to manual and auto pruning and self healing is disabled*.
 
-> [!note]- Best configuration: manual sync with auto pruning and self healing enabled.
-> Can I only enable auto pruning and self healing in argocd without enabling automatic sync?
-> ---
-> - To enable auto pruning, you can set the `--auto-prune` flag to `true` when starting the Argo CD server: `argocd-server --auto-prune=true`
-> - To enable self-healing, you can set the `--self-heal` flag to `true` when starting the Argo CD server: `argocd-server --self-heal=true`
-> - We can enable auto pruning and self-healing in Argo CD without enabling automatic sync by setting the respective flags as mentioned above while leaving the sync behaviour unchanged.
+> [!note] Best configuration: manual sync with auto pruning and self healing enabled.
 
-### Declarative Setup
-- We can create ArgoCD applications using UI or ArgoCD cli.
-- **We can also use k8s like manifests to create applications ArgoCD**.
-	- ![[attachments/Pasted image 20230607115215.png]]
+### Creating ArgoCD applications using YAML manifests
+```yaml
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: my-app
+  namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io # this finalizer ensures that when the ArgoCD application is deleted then all the pods related to the application are also deleted. This is specially helpful when we have the app of apps pattern.
+spec:
+  project: default
+  source:
+    repoURL: git@github.com:antonputra/lesson-158-private.git
+    targetRevision: HEAD
+    path: my-app
+  destination:
+    server: https://kubernetes.default.svc
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+      allowEmpty: false # disables deleting all application resources during automatic syncing
+    syncOptions:
+      - Validate=true
+      - CreateNamespace=true
+      - PrunePropagationPolicy=foreground
+      - PruneLast=true
+```
+
+- We can also create ArgoCD applications using UI or ArgoCD cli.
+
+> [!danger]- **All ArgoCD Applications must be created in the argocd namespace** (namespace where ArgoCD is deployed) irrespective of the namespace in which the application needs to be installed.
+> For example if you have an nginx application to be installed in the nginx namespace then the ArgoCD application controlling the nginx namespace will still have to be installed in the argocd namespace. 
+
+### App of Apps pattern
 - **App of apps pattern**:
 	- ![[attachments/Pasted image 20230607122206.png]]
 - App of apps manages other ArgoCD applications.
