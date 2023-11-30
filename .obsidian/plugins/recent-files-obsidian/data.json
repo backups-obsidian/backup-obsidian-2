@@ -1,12 +1,60 @@
 {
   "recentFiles": [
     {
-      "basename": "KodeCloud - ArgoCD",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - ArgoCD.md"
+      "basename": "Linux - File Descriptors",
+      "path": "100 study-notes/104 Linux/Linux - File Descriptors.md"
+    },
+    {
+      "basename": "104 Linux Index",
+      "path": "100 study-notes/104 Linux/104 Linux Index.md"
+    },
+    {
+      "basename": "Linux - Redirection",
+      "path": "100 study-notes/104 Linux/Linux - Redirection.md"
+    },
+    {
+      "basename": "Linux - Use of exec",
+      "path": "100 study-notes/104 Linux/Linux - Use of exec.md"
+    },
+    {
+      "basename": "100 home",
+      "path": "100 study-notes/100 home.md"
     },
     {
       "basename": "111 KodeCloud Index",
       "path": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md"
+    },
+    {
+      "basename": "Github Links",
+      "path": "300 short-notes/Github Links.md"
+    },
+    {
+      "basename": "300 home",
+      "path": "300 short-notes/300 home.md"
+    },
+    {
+      "basename": "Using GitHub",
+      "path": "300 short-notes/Using GitHub.md"
+    },
+    {
+      "basename": "KodeCloud - ArgoCD",
+      "path": "100 study-notes/111 KodeCloud/KodeCloud - ArgoCD.md"
+    },
+    {
+      "basename": "Python - Using futures",
+      "path": "100 study-notes/108 Python/Python - Using futures.md"
+    },
+    {
+      "basename": "108 Python Index",
+      "path": "100 study-notes/108 Python/108 Python Index.md"
+    },
+    {
+      "basename": "Python - Multithreading",
+      "path": "100 study-notes/108 Python/Python - Multithreading.md"
+    },
+    {
+      "basename": "Python - Multiprocessing",
+      "path": "100 study-notes/108 Python/Python - Multiprocessing.md"
     },
     {
       "basename": "KodeCloud - Kubernetes - Services",
@@ -37,10 +85,6 @@
       "path": "100 study-notes/101 AWS SAA/ELB.md"
     },
     {
-      "basename": "104 Linux Index",
-      "path": "100 study-notes/104 Linux/104 Linux Index.md"
-    },
-    {
       "basename": "101 AWS SAA Index",
       "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
     },
@@ -69,24 +113,8 @@
       "path": "100 study-notes/104 Linux/Linux - Miscellaneous.md"
     },
     {
-      "basename": "Python - Using futures",
-      "path": "100 study-notes/108 Python/Python - Using futures.md"
-    },
-    {
-      "basename": "108 Python Index",
-      "path": "100 study-notes/108 Python/108 Python Index.md"
-    },
-    {
-      "basename": "Python - Multiprocessing",
-      "path": "100 study-notes/108 Python/Python - Multiprocessing.md"
-    },
-    {
       "basename": "Python - Multiprocessing vs Multithreading",
       "path": "100 study-notes/108 Python/Python - Multiprocessing vs Multithreading.md"
-    },
-    {
-      "basename": "Python - Multithreading",
-      "path": "100 study-notes/108 Python/Python - Multithreading.md"
     },
     {
       "basename": "ASG",
@@ -171,34 +199,6 @@
     {
       "basename": "KodeCloud - CKAD - Helm Charts",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Helm Charts.md"
-    },
-    {
-      "basename": "KodeCloud - Kustomize",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - Kustomize.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - Environment Variables",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Environment Variables.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - Probes",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Probes.md"
-    },
-    {
-      "basename": "EFS",
-      "path": "100 study-notes/101 AWS SAA/EFS.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - Commands and Arguments",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Commands and Arguments.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - Operators",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Operators.md"
-    },
-    {
-      "basename": "How to use jq",
-      "path": "300 short-notes/How to use jq.md"
     }
   ],
   "omittedPaths": [],

@@ -1,6 +1,6 @@
 ---
 created: 2022-05-14 21:41
-updated: 2023-08-30 09:59
+updated: 2023-11-30 14:35
 ---
 ---
 **Links**: 
@@ -23,6 +23,8 @@ updated: 2023-08-30 09:59
 [[../111 KodeCloud/KodeCloud - Linux Services | KodeCloud - Linux Services]]
 [[Linux - SSL - Getting Certificates]]
 [[Linux - GNU - Parallel]]
+[[Linux - File Descriptors]]
+[[Linux - Redirection]]
 [[Linux - Miscellaneous]]
 
 ## Networking

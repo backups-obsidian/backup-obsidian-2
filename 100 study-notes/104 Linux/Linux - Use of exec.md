@@ -1,6 +1,6 @@
 ---
 created: 2023-01-21 18:50
-updated: 2023-01-22 16:16
+updated: 2023-11-29 19:14
 ---
 ---
 **Links**: [[104 Linux Index]]
@@ -126,6 +126,7 @@ a b c d
 
 ```bash
 #!/bin/bash
+
 set -e
 
 ... code ...
