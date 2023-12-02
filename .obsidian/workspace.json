@@ -28,8 +28,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 study-notes/113 Terraform/Terraform - Variables.md",
-                "mode": "source",
+                "file": "100 study-notes/113 Terraform/Terraform - How Terraform works?.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
@@ -42,7 +42,7 @@
               "type": "markdown",
               "state": {
                 "file": "100 study-notes/113 Terraform/Terraform - Variables.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/113 Terraform/Terraform - Variables.md",
+                "file": "100 study-notes/113 Terraform/Terraform - How Terraform works?.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/113 Terraform/Terraform - Variables.md"
+                "file": "100 study-notes/113 Terraform/Terraform - How Terraform works?.md"
               }
             }
           },
@@ -160,7 +160,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/113 Terraform/Terraform - Variables.md",
+                "file": "100 study-notes/113 Terraform/Terraform - How Terraform works?.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -231,15 +231,15 @@
   },
   "active": "a6c3ff0d0b7cc90a",
   "lastOpenFiles": [
-    "100 study-notes/113 Terraform/Terraform - Basics.md",
     "100 study-notes/113 Terraform/113 Terraform Index.md",
-    "100 study-notes/113 Terraform/Terraform - Functions and Conditional Expressions.md",
-    "100 study-notes/113 Terraform/Terraform - Variables.md",
-    "100 study-notes/113 Terraform/Terraform - Commands.md",
-    "100 study-notes/113 Terraform/Terraform - How Terraform works?.md",
-    "100 study-notes/113 Terraform/Terraform - Introduction.md",
-    "100 study-notes/113 Terraform/Terraform - Working with terraform.md",
     "100 study-notes/113 Terraform/Terraform - State.md",
+    "100 study-notes/113 Terraform/Terraform - How Terraform works?.md",
+    "100 study-notes/113 Terraform/Terraform - Variables.md",
+    "100 study-notes/113 Terraform/Terraform - Lifecycle Rules.md",
+    "100 study-notes/113 Terraform/Terraform - Introduction.md",
+    "100 study-notes/113 Terraform/Terraform - Commands.md",
+    "100 study-notes/113 Terraform/Terraform - Basics.md",
+    "100 study-notes/113 Terraform/Terraform - Functions and Conditional Expressions.md",
     "100 study-notes/111 KodeCloud/111 KodeCloud Index.md",
     "100 study-notes/113 Terraform/Terraform - Modules.md",
     "100 study-notes/113 Terraform/Terraform - Import.md",

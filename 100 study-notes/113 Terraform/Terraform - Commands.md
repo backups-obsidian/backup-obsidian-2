@@ -1,6 +1,6 @@
 ---
 created: 2023-01-02 20:06
-updated: 2023-12-02 13:05
+updated: 2023-12-02 14:12
 ---
 ---
 **Links**: [[113 Terraform Index]]
@@ -37,6 +37,7 @@ updated: 2023-12-02 13:05
 	- `terraform show -json <planfile>`: To show the contents of the plan file in json format.
 - `terraform output`: Prints all the output variables.
 	- `terraform output variable_name`: Printing a specific variable. 
+- `terraform output -json`: query all of our outputs in JSON format.
 - `terraform refresh`: Used to sync terraform with the real world architecture.
 	- Useful when a manual update is made to the resources controlled by terraform.
 	- *This will only modify the state file*.

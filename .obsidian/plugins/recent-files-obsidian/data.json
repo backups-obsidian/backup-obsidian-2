@@ -1,40 +1,40 @@
 {
   "recentFiles": [
     {
-      "basename": "Terraform - Variables",
-      "path": "100 study-notes/113 Terraform/Terraform - Variables.md"
-    },
-    {
-      "basename": "Terraform - Basics",
-      "path": "100 study-notes/113 Terraform/Terraform - Basics.md"
+      "basename": "Terraform - How Terraform works?",
+      "path": "100 study-notes/113 Terraform/Terraform - How Terraform works?.md"
     },
     {
       "basename": "113 Terraform Index",
       "path": "100 study-notes/113 Terraform/113 Terraform Index.md"
     },
     {
-      "basename": "Terraform - Functions and Conditional Expressions",
-      "path": "100 study-notes/113 Terraform/Terraform - Functions and Conditional Expressions.md"
+      "basename": "Terraform - State",
+      "path": "100 study-notes/113 Terraform/Terraform - State.md"
     },
     {
-      "basename": "Terraform - Commands",
-      "path": "100 study-notes/113 Terraform/Terraform - Commands.md"
+      "basename": "Terraform - Variables",
+      "path": "100 study-notes/113 Terraform/Terraform - Variables.md"
     },
     {
-      "basename": "Terraform - How Terraform works?",
-      "path": "100 study-notes/113 Terraform/Terraform - How Terraform works?.md"
+      "basename": "Terraform - Lifecycle Rules",
+      "path": "100 study-notes/113 Terraform/Terraform - Lifecycle Rules.md"
     },
     {
       "basename": "Terraform - Introduction",
       "path": "100 study-notes/113 Terraform/Terraform - Introduction.md"
     },
     {
-      "basename": "Terraform - Working with terraform",
-      "path": "100 study-notes/113 Terraform/Terraform - Working with terraform.md"
+      "basename": "Terraform - Commands",
+      "path": "100 study-notes/113 Terraform/Terraform - Commands.md"
     },
     {
-      "basename": "Terraform - State",
-      "path": "100 study-notes/113 Terraform/Terraform - State.md"
+      "basename": "Terraform - Basics",
+      "path": "100 study-notes/113 Terraform/Terraform - Basics.md"
+    },
+    {
+      "basename": "Terraform - Functions and Conditional Expressions",
+      "path": "100 study-notes/113 Terraform/Terraform - Functions and Conditional Expressions.md"
     },
     {
       "basename": "111 KodeCloud Index",

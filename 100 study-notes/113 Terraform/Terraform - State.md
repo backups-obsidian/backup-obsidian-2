@@ -1,6 +1,6 @@
 ---
 created: 2023-01-05 13:23
-updated: 2023-12-01 13:07
+updated: 2023-12-02 14:24
 ---
 ---
 **Links**: [[113 Terraform Index]]
@@ -33,6 +33,7 @@ updated: 2023-12-01 13:07
 > [!caution]+ We should NEVER attempt to manually edit the state files.
 > If we want to make changes to the state we should use terraform state commands.
 
+- Terraform stores the information about the state file version and the terraform version in the state file.
 ### Purpose of state
 - State file can be considered as a blueprint for all the resources that terraform manages in the real world. 
 - Each resource that is created and managed by terraform will have a unique id.

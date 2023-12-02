@@ -1,6 +1,6 @@
 ---
 created: 2023-12-02 13:04
-updated: 2023-12-02 13:57
+updated: 2023-12-02 14:13
 ---
 ---
 **Links**: [[113 Terraform Index]]
@@ -128,6 +128,7 @@ variable "resource_tags" {
 ```
 
 ### Output Variables
+- It is *recommended to define all the output variables in `outputs.tf`*.
 - Terraform output values lets us export structured data about our resources. 
 	- We can use this data to *configure other parts of our infrastructure with automation tools*, or as a data source for another Terraform workspace.
 	- Outputs are also how we **expose data from a child module to a root module**.
@@ -139,14 +140,43 @@ output "output_variable_name" {
 }
 ```
 
-- Example:
+- Output variable example:
 	- ![[attachments/Pasted image 20230103103420.png]]
 - **When we run terraform apply we see that the output variable is printed on the screen**.
 - Terraform **stores output values in the configuration's state file**. 
-	- In order to see these outputs, we need to update the state by the configuration using `terraform apply`.
-- We can use `terraform output` command to use the value of the output variables.
-	- It will print the output of all the terraform output variables in all the configuration files.
-	- We can use it to print a specific output variable using `terraform output pet-name`
+	- *In order to see and use these outputs, we need to update the state by applying the configuration using `terraform apply`*.
+- We can use `terraform output` command to query all the output variables.
+	- We can use it to print a specific output variable using `terraform output <output-variable-name>`
+		- When querying a specified output Terraform wraps string outputs in quotes by default. We can use the `-raw` flag for getting machine-readable format.
+		- `terraform output -raw <output-variable-name>`
 
 > [!note]- The best use of terraform output variables is when we want to *quickly display details about a resource provision* or to *feed the output to other IaC tools*.
 > It isn't meant for feeding output of one resource to another resource. This is done using resource attributes.
+
+#### Sensitive Outputs
+- We can designate *Terraform outputs as sensitive*. 
+	- Terraform will *redact the values of sensitive outputs to avoid accidentally printing them out to the console*.
+- Terraform will **redact sensitive outputs** when **planning**, **applying**, or **destroying** your configuration, or when we **query all of our outputs**.
+- Terraform will **NOT** redact sensitive outputs in other cases, such as when we
+	- *query a specific output by name*
+	- *query all of our outputs in JSON format*.
+		- `terraform output -json`
+	- *when we use outputs from a child module in our root module*.
+- Terraform does not redact sensitive output values in the above cases, because it assumes that an automation tool will use the output.
+
+> [!caution] Terraform stores all output values, including those marked as sensitive, as **plain text in our state file**.
+
+```hcl title:"sensitive output values example" fold
+output "db_username" {
+  description = "Database administrator username"
+  value       = aws_db_instance.database.username
+  sensitive   = true
+}
+
+output "db_password" {
+  description = "Database administrator password"
+  value       = aws_db_instance.database.password
+  sensitive   = true
+}
+```
+

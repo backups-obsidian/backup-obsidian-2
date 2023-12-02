@@ -1,6 +1,6 @@
 ---
 created: 2023-12-02 09:53
-updated: 2023-12-02 12:27
+updated: 2023-12-02 14:31
 ---
 ---
 **Links**: [[113 Terraform Index]]
@@ -46,8 +46,7 @@ updated: 2023-12-02 12:27
 	- *If the lock file DOES NOT exist, Terraform will use the `required_providers` block to determine the provider version and create a new lock file (`.terraform.lock.hcl`)*.
 	- If *neither exists*, Terraform will search for a matching provider and *download the latest version*.
 
-- Example `terraform.tf` file for specifying the version of the providers
-```terraform file:terraform.tf fold
+```hcl file:"Example terraform.tf file for specifying the terraform version and the version of the providers" fold
 terraform {
   required_version = "~> 1.6" # specifies the terraform version to be used
   required_providers {
@@ -63,7 +62,8 @@ terraform {
 }
 ```
 
-- If the versions defined in the lock file's `provider` block DONOT match the versions defined in your configuration's `required_providers` block, Terraform will prompt you to re-initialize your configuration using the `-upgrade` flag.
+- We should *include the lock file in your version control repository* to ensure that Terraform uses the same provider versions across your team and in ephemeral remote execution environments.
+- If we change the versions of providers in the  configuration's `required_providers` block, then we have to to re-initialize your configuration using the `-upgrade` flag.
 	- `terraform init -upgrade`
 - **Terraform uses the `.terraform` directory to store the project's providers and modules**.
 	- Terraform automatically manages the `.terraform` directory. 
