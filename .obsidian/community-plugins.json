@@ -1,6 +1,4 @@
 [
-  "url-into-selection",
-  "calendar",
   "update-time-on-edit",
   "oz-clear-unused-images",
   "cycle-through-panes",
@@ -9,5 +7,6 @@
   "obsidian-another-quick-switcher",
   "table-editor-obsidian",
   "find-unlinked-files",
-  "obsidian-tasks-plugin"
+  "obsidian-tasks-plugin",
+  "codeblock-customizer"
 ]

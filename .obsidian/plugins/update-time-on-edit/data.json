@@ -1,11 +1,20 @@
 {
   "dateFormat": "yyyy-MM-dd HH:mm",
-  "readDateFormat": "yyyy-MM-dd'T'HH:mm:ssxxx",
-  "useDifferentReadFormat": false,
   "enableCreateTime": true,
   "headerUpdated": "updated",
   "headerCreated": "created",
   "minMinutesBetweenSaves": 1,
   "ignoreGlobalFolder": [],
-  "ignoreCreatedFolder": []
+  "ignoreCreatedFolder": [],
+  "enableExperimentalHash": false,
+  "fileHashMap": {
+    "100 study-notes/113 Terraform/Terraform - How Terraform works?.md": "22ea5b095ef3329b850c8ac27f487f0e8fdd095d2507f45b83be55402d73128e",
+    "100 study-notes/113 Terraform/Terraform - Introduction.md": "78be9674e740b827dbcc13a798c57c4b50c40220b110c71c58f99733029620a4",
+    "100 study-notes/113 Terraform/113 Terraform Index.md": "df17d84b08ec624fc2181fc9febed9f2f9e6ce24114b956f2af817b61a54fee7",
+    "100 study-notes/113 Terraform/Terraform - Variables.md": "def31250937bc448847461b1f0c03b8ee068e6301312cf8636acf58c42286be2",
+    "100 study-notes/113 Terraform/Terraform - Commands.md": "8fcd3978c0648ad194561ee9755fae87306f683e122d59e4f6dc5cb8c84f36eb",
+    "100 study-notes/113 Terraform/Terraform - Basics.md": "c4ec72fa6c408b728407e54518b47874df3037fde227af48eacd388f33bcf38d"
+  },
+  "readDateFormat": "yyyy-MM-dd'T'HH:mm:ssxxx",
+  "useDifferentReadFormat": false
 }

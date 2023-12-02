@@ -23,13 +23,26 @@
             }
           },
           {
-            "id": "42bbfaecfaaa9c2d",
+            "id": "a6c3ff0d0b7cc90a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 study-notes/104 Linux/Linux - File Descriptors.md",
-                "mode": "preview",
+                "file": "100 study-notes/113 Terraform/Terraform - Variables.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "f8d33578b7ed0daf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100 study-notes/113 Terraform/Terraform - Variables.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
@@ -99,7 +112,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -120,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/104 Linux/Linux - File Descriptors.md",
+                "file": "100 study-notes/113 Terraform/Terraform - Variables.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/104 Linux/Linux - File Descriptors.md"
+                "file": "100 study-notes/113 Terraform/Terraform - Variables.md"
               }
             }
           },
@@ -147,7 +160,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/104 Linux/Linux - File Descriptors.md",
+                "file": "100 study-notes/113 Terraform/Terraform - Variables.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -185,14 +198,6 @@
             }
           },
           {
-            "id": "9871163dc0f24556",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
             "id": "a0d254a0148d6f4d",
             "type": "leaf",
             "state": {
@@ -203,7 +208,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -220,15 +225,34 @@
       "command-palette:Open command palette": false,
       "random-note:Open random note": false,
       "audio-recorder:Start/stop recording": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "oz-clear-unused-images:Clear Unused Images": false
+      "oz-clear-unused-images:Clear Unused Images": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "42bbfaecfaaa9c2d",
+  "active": "a6c3ff0d0b7cc90a",
   "lastOpenFiles": [
+    "100 study-notes/113 Terraform/Terraform - Basics.md",
+    "100 study-notes/113 Terraform/113 Terraform Index.md",
+    "100 study-notes/113 Terraform/Terraform - Functions and Conditional Expressions.md",
+    "100 study-notes/113 Terraform/Terraform - Variables.md",
+    "100 study-notes/113 Terraform/Terraform - Commands.md",
+    "100 study-notes/113 Terraform/Terraform - How Terraform works?.md",
+    "100 study-notes/113 Terraform/Terraform - Introduction.md",
+    "100 study-notes/113 Terraform/Terraform - Working with terraform.md",
+    "100 study-notes/113 Terraform/Terraform - State.md",
+    "100 study-notes/111 KodeCloud/111 KodeCloud Index.md",
+    "100 study-notes/113 Terraform/Terraform - Modules.md",
+    "100 study-notes/113 Terraform/Terraform - Import.md",
+    "100 study-notes/113 Terraform/Terraform - Taints, Logging.md",
+    "100 study-notes/113 Terraform/Terraform - Provisioner.md",
+    "100 study-notes/113 Terraform/Terraform - Remote State.md",
+    "100 study-notes/113 Terraform/Terraform - AWS.md",
+    "100 study-notes/100 home.md",
+    "100 study-notes/104 Linux/Linux - File Descriptors.md",
+    "100 study-notes/104 Linux/attachments/Pasted image 20231201102054.png",
+    "100 study-notes/104 Linux/attachments/Pasted image 20231201095409.png",
     "100 study-notes/104 Linux/104 Linux Index.md",
     "100 study-notes/104 Linux/Linux - Redirection.md",
-    "100 study-notes/104 Linux/Linux - File Descriptors.md",
     "100 study-notes/104 Linux/attachments/Pasted image 20231130153303.png",
     "100 study-notes/104 Linux/attachments/Pasted image 20231130145424.png",
     "100 study-notes/104 Linux/attachments/Pasted image 20231130145324.png",
@@ -237,29 +261,11 @@
     "100 study-notes/104 Linux/attachments/Pasted image 20231130124601.png",
     "100 study-notes/104 Linux/attachments/Pasted image 20231130124303.png",
     "100 study-notes/104 Linux/attachments/Pasted image 20231130122957.png",
-    "100 study-notes/104 Linux/attachments/Pasted image 20231130122736.png",
-    "100 study-notes/104 Linux/attachments/Pasted image 20231130122313.png",
     "100 study-notes/104 Linux/Linux - Use of exec.md",
-    "100 study-notes/100 home.md",
-    "100 study-notes/111 KodeCloud/111 KodeCloud Index.md",
     "300 short-notes/Github Links.md",
     "300 short-notes/300 home.md",
     "300 short-notes/Using GitHub.md",
     "100 study-notes/111 KodeCloud/KodeCloud - ArgoCD.md",
-    "100 study-notes/108 Python/Python - Using futures.md",
-    "100 study-notes/108 Python/108 Python Index.md",
-    "100 study-notes/108 Python/Python - Multithreading.md",
-    "100 study-notes/108 Python/Python - Multiprocessing.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - Kubernetes - Services.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Service Accounts.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - API & API Groups.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - RBAC.md",
-    "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Port Forwarding vs Proxy.md",
-    "100 study-notes/104 Linux/Linux - GNU - Parallel.md",
-    "100 study-notes/101 AWS SAA/ELB.md",
-    "100 study-notes/101 AWS SAA/101 AWS SAA Index.md",
-    "100 study-notes/101 AWS SAA/Launch Configuration-Template.md",
-    "100 study-notes/101 AWS SAA/Termination Policy & Life Cycle Hooks.md",
-    "100 study-notes/108 Python/Python - Correct way of running modules.md"
+    "100 study-notes/108 Python/Python - Using futures.md"
   ]
 }

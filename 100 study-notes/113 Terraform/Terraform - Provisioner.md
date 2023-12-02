@@ -1,6 +1,6 @@
 ---
 created: 2023-01-11 16:24
-updated: 2023-01-11 17:14
+updated: 2023-12-01 15:07
 ---
 ---
 **Links**: [[113 Terraform Index]]
@@ -21,7 +21,7 @@ updated: 2023-01-11 17:14
 	- For example storing the public IP address of an EC2 instance that was just provisioned.
 		- ![[attachments/Pasted image 20230111165224.png]]
 
-> [!note]- By default **provisioners are run after the resource is created**. This is also known as the *create time provisioner*.
+> [!note] By default **provisioners are run after the resource is created**. This is also known as the *create time provisioner*.
 
 - We can also run a provisioner before a resource is destroyed. This is known as *destroy time provisioner*.
 	- This is done using the `when` command

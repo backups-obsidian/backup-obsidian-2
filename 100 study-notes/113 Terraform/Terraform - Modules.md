@@ -1,14 +1,13 @@
 ---
 created: 2023-01-09 22:37
-updated: 2023-01-14 19:17
+updated: 2023-12-01 15:28
 ---
 ---
 **Links**: [[113 Terraform Index]]
 
 ---
 ## Modules
-- Our terraform configuration file is becoming increasingly long making it difficult to read and manage.
-- We can split the configuration into multiple configuration files and it will work the same way.
+- We can split the single terraform configuration into multiple configuration files and it will work the same way.
 	- Terraform will consider all files with `.tf` extension as configuration files.
 	- This approach *limits the reusability of the code*.
 - Using modules:

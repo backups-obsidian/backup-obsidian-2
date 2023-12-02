@@ -1,6 +1,6 @@
 ---
 created: 2023-01-13 15:42
-updated: 2023-01-13 15:54
+updated: 2023-12-01 15:18
 ---
 ---
 **Links**: [[113 Terraform Index]]
@@ -19,4 +19,3 @@ updated: 2023-01-13 15:54
 	- ![[attachments/Pasted image 20230113154727.png]]
 	- Now once the import command works, we fill in the details in the configuration file which we left empty.
 	- `terraform plan` will now refresh the state and resource is now under the control of terraform.
-- 

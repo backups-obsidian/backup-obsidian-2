@@ -1,6 +1,6 @@
 ---
 created: 2023-01-05 13:23
-updated: 2023-01-14 19:17
+updated: 2023-12-01 13:07
 ---
 ---
 **Links**: [[113 Terraform Index]]
@@ -10,9 +10,9 @@ updated: 2023-01-14 19:17
 - When we do `terraform apply` for the first time resources are created and an additional state file `terraform.tfstate` is created in the configuration directory.
 
 > [!note]- `terraform.tfstate` file is not created unless `terraform apply` command is run atleast once.
-> `plan` refreshes the state but state file is only created by `apply`.
+> - `plan` refreshes the state but state file is only created by `apply`.
+> - If there is no state file then `terraform plan` won't create a state file.
 
-- **DOUBT**: IF THERE IS NO STATE FILE THEN I GUESS PLAN WILL ALSO CREATE A STATE FILE.
 
 - *State file is a json data structure* that *maps the real world infrastructure to the resource definition in the configuration files*.
 	- This allows terraform to create execution plans when a drift is identified between the resource configuration files and the state.
@@ -28,15 +28,14 @@ updated: 2023-01-14 19:17
 
 - We need to *ensure that state file is stored in a secure storage*.
 - When working as a team it is considered best practice to store terraform configuration files in version control.
-	- But due to the sensitive nature of the state file it is *not recommended to them in version control*.
+	- But due to the *sensitive nature* of the state file it is *NOT recommended to them in version control*.
 
 > [!caution]+ We should NEVER attempt to manually edit the state files.
 > If we want to make changes to the state we should use terraform state commands.
 
 ### Purpose of state
 - State file can be considered as a blueprint for all the resources that terraform manages in the real world. 
-- When terraform creates a state it *records it identity in the state*.
-	- Each resource that is created and managed by terraform will have a unique id.
+- Each resource that is created and managed by terraform will have a unique id.
 - It also tracks the dependency that resources have on each other. 
 	- The relationship that one resource is dependent on another can be inferred from the configuration file. Now if relationship is deleted then terraform uses the state file to find the relationship to delete the resources in the right order.
 - It uses the state file as single source of truth since in large environments it can take a lot of time to get the current state of all the resources.

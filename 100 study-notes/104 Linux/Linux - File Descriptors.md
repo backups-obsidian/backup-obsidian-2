@@ -1,6 +1,6 @@
 ---
 created: 2023-11-29 19:19
-updated: 2023-11-30 16:21
+updated: 2023-12-01 10:22
 ---
 ---
 **Links**: [[104 Linux Index]]
@@ -39,6 +39,13 @@ updated: 2023-11-30 16:21
 > - So if I am a process and I want to print a document, all I have to do is write the document as a file, and Linux would ensure that the printer’s drivers (also running as processes) would read from that file.
 
 ### Pseudo-terminals
+- The are a bunch of files under `/dev/` directory that represents different types of terminals:
+	- `/dev/tty*` – physical consoles;
+	- `/dev/ttyS*` – serial connections;
+	- *`/dev/pts/*` – pseudoterminals*.
+- In order to determine what terminal file the current shell session is using, we have a `tty` cli.
+	- ![[attachments/Pasted image 20231201102054.png]]
+
 - **Pseudo-terminals are generally used to describe terminal emulators like gnome-shell for example**. 
 - The pseudo-terminal can be *connected to a process and it can write or read data in the process*.
 	- These *pseudo terminals can provide a way to send input to a process, and get output or error from a process*.
@@ -101,6 +108,14 @@ updated: 2023-11-30 16:21
 > *Closing the file releases the file descriptor as well*. This is why it is important to close files, especially when opening them in an iterative or recursive way. **Every process can open only a certain amount of file descriptors at most**, so not closing your files can exhaust the number of file descriptors you can open.
 > ![[attachments/Pasted image 20231130122957.png]]
 
+- **When we run any command on the terminal the process forks from the shell**.
+	- The process **inherits all the descriptors** from the parent (in this case shell).
+	- This is why a lot of commands (processes) run from the shell will have the same file descriptor as the shell running them.
+
+- We have a per process file descriptor table. We also have a system wide file descriptor table.
+	- The per process file descriptor table point to the system wide file descriptor table which in turn points to the inode table to get the path.
+		- ![[attachments/Pasted image 20231201095409.png]]
+
 ### Understanding Sockets & Pipes
 - When we run the command `sleep 1000000 | python3` we start 2 processes with PIDs x and y. In this example x is 520 and y is 521.
 	- ![[attachments/Pasted image 20231130124303.png]]
@@ -157,3 +172,6 @@ echo "starting node..." | tee -a log/terminal.log 1>&3 # same as above
 
 ## References
 - https://medium.com/geekculture/developer-diaries-processes-files-and-file-descriptors-in-linux-ebf007fb78f8
+
+## Read Later
+- https://biriukov.dev/docs/fd-pipe-session-terminal/0-sre-should-know-about-gnu-linux-shell-related-internals-file-descriptors-pipes-terminals-user-sessions-process-groups-and-daemons/
