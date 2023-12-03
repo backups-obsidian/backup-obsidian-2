@@ -1,9 +1,15 @@
 ---
 created: 2023-01-09 22:37
-updated: 2023-12-01 15:28
+updated: 2023-12-03 18:09
 ---
 ---
 **Links**: [[113 Terraform Index]]
+
+| Previous: [[Terraform - Lifecycle Rules]] |
+|-|
+
+| Next: [[Terraform - Functions]] |
+|-|
 
 ---
 ## Modules

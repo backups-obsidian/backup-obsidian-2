@@ -1,6 +1,6 @@
 ---
 created: 2023-12-02 13:04
-updated: 2023-12-02 14:13
+updated: 2023-12-03 15:39
 ---
 ---
 **Links**: [[113 Terraform Index]]
@@ -8,7 +8,7 @@ updated: 2023-12-02 14:13
 | Previous: [[Terraform - Commands]] |
 |-|
 
-| Next: [[Terraform - State]] |
+| Next: [[Terraform - Resource Attributes & Dependencies]] |
 |-|
 
 ---
@@ -39,6 +39,11 @@ variable "variable_name" {
 	- **When using variable we need not enclose the values within double quotes otherwise they will be treated as strings**.
 		- If we want to interpolate variables in strings we use the following syntax: `"This is a variable: ${var.<variable_name}"`
 	- ![[attachments/Pasted image 20230102223131.png]]
+- We can **declare an input variable as sensitive by setting `sensitive` to `true`**.
+	- Terraform will redact the value from its output when we run a plan, apply, or destroy command.
+	- If we want to refer sensitive inputs in outputs then we have to use [[Terraform - Variables#Sensitive Outputs | Sensitive Outputs]]
+- Marking variables as sensitive is not sufficient to secure them since they are stored in plain text in the local state file.  
+	- Terraform Cloud encrypts all variable values before storing them.
 - The Terraform `console` command opens an interactive console that we can use to evaluate expressions in the context of your configuration. 
 	- This can be very useful when working with and *troubleshooting variable definitions*.
 
@@ -154,6 +159,17 @@ output "output_variable_name" {
 > It isn't meant for feeding output of one resource to another resource. This is done using resource attributes.
 
 #### Sensitive Outputs
+> [!important] Sensitive outputs are the only way to refer sensitive inputs.
+
+```hcl title:"example of sensitive outputs referencing sensitive inputs" fold
+output "db_connect_string" {
+  description = "MySQL database connection string"
+  value       = "Server=${aws_db_instance.database.address}; Database=ExampleDB; Uid=${var.db_username}; Pwd=${var.db_password}"
+  sensitive   = true
+}
+
+```
+
 - We can designate *Terraform outputs as sensitive*. 
 	- Terraform will *redact the values of sensitive outputs to avoid accidentally printing them out to the console*.
 - Terraform will **redact sensitive outputs** when **planning**, **applying**, or **destroying** your configuration, or when we **query all of our outputs**.

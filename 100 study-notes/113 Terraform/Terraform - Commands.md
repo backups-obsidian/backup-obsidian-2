@@ -1,6 +1,6 @@
 ---
 created: 2023-01-02 20:06
-updated: 2023-12-02 14:12
+updated: 2023-12-02 19:30
 ---
 ---
 **Links**: [[113 Terraform Index]]
@@ -19,9 +19,12 @@ updated: 2023-12-02 14:12
 	 > [!caution] Terraform plan files can contain sensitive data. **Never commit a plan file to version control**, whether as a binary or in JSON format.
 - `terraform apply <planname>`: apply a saved plan
 - Terraform provides two arguments to the `plan` and `apply` commands that allow you to **interact with specific resources**: `-replace` and `-target`.
-	- `terraform apply -replace resource_type.resource_name`: One example of using this would be when a **resource has become unhealthy or stops working in ways that are outside of Terraform's control**. 
-		- For instance, an error in the EC2 instance's OS configuration could require that the instance be replaced. 
-		- There is *no corresponding change to your Terraform configuration*, so you want to *instruct Terraform to reprovision the resource using the same configuration*.
+	- `terraform apply -replace resource_type.resource_name`: Cases where using `-replace` is useful.
+		- One example of using this would be when a **resource has become unhealthy or stops working in ways that are outside of Terraform's control**.
+			- For instance, an error in the EC2 instance's OS configuration could require that the instance be replaced. There is *no corresponding change to your Terraform configuration*, so you want to *instruct Terraform to re-provision the resource using the same configuration*.
+		- Replacing a resource is also useful in cases where a *user manually changes a setting on a resource* or when we need to update a provisioning script. 
+		- It allows us to rebuild specific resources and avoid a full `terraform destroy` operation on your configuration. The `-replace` flag allows us to target specific resources and avoid destroying all the resources in your workspace just to fix one of them.
+		- **In older versions of Terraform, you may have used the `terraform taint` command to achieve a similar outcome. That command has now been deprecated in favor of the `-replace` flag, which allows for a simpler, less error-prone workflow**.
 	- `terraform apply -target resource_type.resource_name`: We can target individual resources.
 		- There might be a case where we may need to *partially apply configuration* while troubleshooting an error that prevents Terraform from applying our entire configuration at once. 
 		- This type of error may occur when a target API or Terraform provider error leaves your resources in an invalid state that Terraform cannot resolve automatically.

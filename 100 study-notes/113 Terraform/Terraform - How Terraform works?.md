@@ -1,6 +1,6 @@
 ---
 created: 2023-12-02 09:53
-updated: 2023-12-02 14:31
+updated: 2023-12-03 14:33
 ---
 ---
 **Links**: [[113 Terraform Index]]
@@ -14,15 +14,13 @@ updated: 2023-12-02 14:31
 ---
 ## How Terraform Works?
 - Terraform works in *3 phases: `init`, `plan` and `apply`*.
-	- During the `init` phase terraform **configures the backend**, **installs all providers and modules** referred to in your configuration, and *creates a version lock file* if one DOESNT already exist.
+	- During the `init` phase terraform **configures the backend**, **installs all providers (`./terraform/plugins`) and modules (`./terraform/modules`)** referred to in your configuration, and *creates a version lock file* if one DOESN'T already exist.
 		- `init` command is also used to *change your workspace's backend* and *upgrade your workspace's providers and modules*.
 	- During the `plan` phase terraform drafts a plan to get to the target state.
 		- Terraform creates the plan by comparing out Terraform configuration to the state of our infrastructure.
 	- During the `apply` phase terraform makes the necessary changes to the target environment to bring it to the desired state.
-
 - **Every object that terraform manages is called a resource**.
 	- It can be a compute instance or a database server or any other component
-
 - Terraform records the state of the infrastructure as seen in the real world. 
 	- Based on this it can determine what actions to take for updating resources for a particular platform.
 	- This ensures that the entire infrastructure is in the defined state at all times.
@@ -42,6 +40,9 @@ updated: 2023-12-02 14:31
 	- *Apply the changes* using the `terraform apply` command.
 
 ### Understanding `init`
+- `terraform init` is a safe command which **can be run as many times as required without impacting the architecture**.
+- If the registry is not provided then terraform uses the *default registry of `registry.terraform.io`* to download the plugins.
+- **Each time we add a new provider in the configuration file we have to run `terraform init`**.
 - When we initialize a workspace, Terraform will attempt to download the provider versions specified by the workspace's lock file. 
 	- *If the lock file DOES NOT exist, Terraform will use the `required_providers` block to determine the provider version and create a new lock file (`.terraform.lock.hcl`)*.
 	- If *neither exists*, Terraform will search for a matching provider and *download the latest version*.
@@ -62,6 +63,7 @@ terraform {
 }
 ```
 
+- **The `version` attribute for a provider is optional**, but it is recommend to use it to constrain the provider version so that Terraform does not install a version of the provider that does not work with our configuration.
 - We should *include the lock file in your version control repository* to ensure that Terraform uses the same provider versions across your team and in ephemeral remote execution environments.
 - If we change the versions of providers in the  configuration's `required_providers` block, then we have to to re-initialize your configuration using the `-upgrade` flag.
 	- `terraform init -upgrade`

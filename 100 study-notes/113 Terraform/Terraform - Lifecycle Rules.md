@@ -1,9 +1,15 @@
 ---
 created: 2023-01-06 09:49
-updated: 2023-12-02 14:15
+updated: 2023-12-03 18:08
 ---
 ---
 **Links**: [[113 Terraform Index]]
+
+| Previous: [[Terraform - Import & Datasources]] |
+|-|
+
+| Next: [[Terraform - Modules]] |
+|-|
 
 ---
 
@@ -40,62 +46,4 @@ updated: 2023-12-02 14:15
 - Summary of lifecycle rules
 	- ![[attachments/Pasted image 20230106101901.png]]
 
-## Datasources
-- *Datasources allow terraform to read resources which are provisioned outside of terraform*.
-- We define data resources using the `data` block. It is quite similar to `resource` block.
-	- ![[attachments/Pasted image 20230106104830.png]]
-	- Reading the data source and using it with other resource.
-- *`data` block consists of specific arguments for a datasource*.
-- **Data source only reads the infrastructure**.
-- Difference between a data source and a resource:
-	- ![[attachments/Pasted image 20230106105024.png]] 
 
-## Meta Arguments
-- Meta arguments can be used within any resource block to change the behaviour of resources.
-	- Example of meta arguments are: `depends_on`, `lifecycle`
-
-### Count
-- Easiest way to create multiple instances of the same resource.
-- Example
-	- ![[attachments/Pasted image 20230107095947.png]]
-	- The resources are identified with `pet[0], pet[1], pet[2]`
-- The problem is since we have provided only one name it will create the same resource 3 times instead of creating 3 different resources.
-- We need to have 3 different filenames and use them with count
-	- ![[attachments/Pasted image 20230107100223.png]]
-- Using `length` to get the size of the list
-	- ![[attachments/Pasted image 20230107100338.png]]
-- **Drawback of count**:
-	- Suppose after creating 3 files using terraform and now we remove the the first file name from the filename variable. 
-	- 2 files will be replaced and 1 will be deleted.
-		- ![[attachments/Pasted image 20230107100827.png]]
-	- When we *use count we are returned a list of resources* each identified by its index.
-		- ![[attachments/Pasted image 20230107100945.png]]
-	- The first element in the list is always 0, so when we deleted `/root/pets.txt` then the element `/root/dogs.txt` shifts up and takes its value and so on. 
-		- ![[attachments/Pasted image 20230107101113.png]]
-		- Terraform sees that resources at `pet[0]` and `pet[1]` have to be destroyed and replaced.
-
-### for_each
-- In count resources are created as a list. We can overcome this by using `for_each`
-- **`for_each` only works with a map or a set**.
-- Converting a list to a set
-	- ![[attachments/Pasted image 20230107101532.png]]
-	- Using `toset`
-		- ![[attachments/Pasted image 20230107101621.png]]
-
-> [!note]- *Resources are stored as a map and not a list*.
-> Resources are no longer identified by index, they are identified by a key.
-
-- Difference between the output of `count` and `for_each`:
-	- ![[attachments/Pasted image 20230107101935.png]]
-
-## Version Constraints
-- Using a specific version of a provider
-	- ![[attachments/Pasted image 20230107105041.png]]
-	- It is inside the `terraform` block
-- Some version constraints:
-	- `version = "!= 2.0.0"`: Don't use version `2.0.0`
-	- `version = "< 1.4.0"`
-	- `version = "> 1.4.0"`
-	- `version = "> 1.2.0, < 2.0.0, != 1.4.0"`: Mixing comparison operators
-	- `version = "~> 1.2"`: Terraform can download the version 1.2 or any other incremental version. The major version cannot be changes this means it can go max upto 1.9.
-		- If we use `version = "~> 1.2.0"` then it can only go upto `1.2.9`

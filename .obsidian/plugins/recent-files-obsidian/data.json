@@ -1,68 +1,84 @@
 {
   "recentFiles": [
     {
-      "basename": "Terraform - How Terraform works?",
-      "path": "100 study-notes/113 Terraform/Terraform - How Terraform works?.md"
+      "basename": "Terraform - Functions",
+      "path": "100 study-notes/113 Terraform/Terraform - Functions.md"
+    },
+    {
+      "basename": "Terraform - Expressions",
+      "path": "100 study-notes/113 Terraform/Terraform - Expressions.md"
     },
     {
       "basename": "113 Terraform Index",
       "path": "100 study-notes/113 Terraform/113 Terraform Index.md"
     },
     {
-      "basename": "Terraform - State",
-      "path": "100 study-notes/113 Terraform/Terraform - State.md"
-    },
-    {
-      "basename": "Terraform - Variables",
-      "path": "100 study-notes/113 Terraform/Terraform - Variables.md"
+      "basename": "Terraform - Modules",
+      "path": "100 study-notes/113 Terraform/Terraform - Modules.md"
     },
     {
       "basename": "Terraform - Lifecycle Rules",
       "path": "100 study-notes/113 Terraform/Terraform - Lifecycle Rules.md"
     },
     {
-      "basename": "Terraform - Introduction",
-      "path": "100 study-notes/113 Terraform/Terraform - Introduction.md"
+      "basename": "Terraform - Resource Attributes & Dependencies",
+      "path": "100 study-notes/113 Terraform/Terraform - Resource Attributes & Dependencies.md"
     },
     {
-      "basename": "Terraform - Commands",
-      "path": "100 study-notes/113 Terraform/Terraform - Commands.md"
+      "basename": "Terraform - Import & Datasources",
+      "path": "100 study-notes/113 Terraform/Terraform - Import & Datasources.md"
     },
     {
-      "basename": "Terraform - Basics",
-      "path": "100 study-notes/113 Terraform/Terraform - Basics.md"
+      "basename": "Terraform - Variables",
+      "path": "100 study-notes/113 Terraform/Terraform - Variables.md"
     },
     {
-      "basename": "Terraform - Functions and Conditional Expressions",
-      "path": "100 study-notes/113 Terraform/Terraform - Functions and Conditional Expressions.md"
+      "basename": "Terraform - Terraform Cloud",
+      "path": "100 study-notes/113 Terraform/Terraform - Terraform Cloud.md"
     },
     {
-      "basename": "111 KodeCloud Index",
-      "path": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md"
+      "basename": "Terraform - How Terraform works?",
+      "path": "100 study-notes/113 Terraform/Terraform - How Terraform works?.md"
     },
     {
-      "basename": "Terraform - Modules",
-      "path": "100 study-notes/113 Terraform/Terraform - Modules.md"
-    },
-    {
-      "basename": "Terraform - Import",
-      "path": "100 study-notes/113 Terraform/Terraform - Import.md"
-    },
-    {
-      "basename": "Terraform - Taints, Logging",
-      "path": "100 study-notes/113 Terraform/Terraform - Taints, Logging.md"
-    },
-    {
-      "basename": "Terraform - Provisioner",
-      "path": "100 study-notes/113 Terraform/Terraform - Provisioner.md"
+      "basename": "Terraform - State",
+      "path": "100 study-notes/113 Terraform/Terraform - State.md"
     },
     {
       "basename": "Terraform - Remote State",
       "path": "100 study-notes/113 Terraform/Terraform - Remote State.md"
     },
     {
+      "basename": "Terraform - State Manipulation",
+      "path": "100 study-notes/113 Terraform/Terraform - State Manipulation.md"
+    },
+    {
+      "basename": "Terraform - Meta Arguments",
+      "path": "100 study-notes/113 Terraform/Terraform - Meta Arguments.md"
+    },
+    {
+      "basename": "Terraform - Miscellaneous",
+      "path": "100 study-notes/113 Terraform/Terraform - Miscellaneous.md"
+    },
+    {
+      "basename": "Terraform - Provisioner",
+      "path": "100 study-notes/113 Terraform/Terraform - Provisioner.md"
+    },
+    {
       "basename": "Terraform - AWS",
       "path": "100 study-notes/113 Terraform/Terraform - AWS.md"
+    },
+    {
+      "basename": "Terraform - Commands",
+      "path": "100 study-notes/113 Terraform/Terraform - Commands.md"
+    },
+    {
+      "basename": "Terraform - Introduction",
+      "path": "100 study-notes/113 Terraform/Terraform - Introduction.md"
+    },
+    {
+      "basename": "111 KodeCloud Index",
+      "path": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md"
     },
     {
       "basename": "100 home",
@@ -183,22 +199,6 @@
     {
       "basename": "Linux - Bash strict mode",
       "path": "100 study-notes/104 Linux/Linux - Bash strict mode.md"
-    },
-    {
-      "basename": "KodeCloud - SSL-TLS",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - SSL-TLS.md"
-    },
-    {
-      "basename": "EC2 Lifecycle states",
-      "path": "100 study-notes/101 AWS SAA/EC2 Lifecycle states.md"
-    },
-    {
-      "basename": "EC2 Metadata",
-      "path": "100 study-notes/101 AWS SAA/EC2 Metadata.md"
-    },
-    {
-      "basename": "EC2 AMI",
-      "path": "100 study-notes/101 AWS SAA/EC2 AMI.md"
     }
   ],
   "omittedPaths": [],
