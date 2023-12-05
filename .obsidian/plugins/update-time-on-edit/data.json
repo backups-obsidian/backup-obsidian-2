@@ -8,9 +8,9 @@
   "ignoreCreatedFolder": [],
   "enableExperimentalHash": false,
   "fileHashMap": {
-    "100 study-notes/113 Terraform/Terraform - How Terraform works?.md": "d892610289b4f990370b4dd64c275458df88ba8fae12bdb9dac931263f5c4788",
+    "100 study-notes/113 Terraform/Terraform - How Terraform works?.md": "bb45a1ef7f3285ebb51726af9d39c15ba72862499095fc6a47fcc6fb7f57d056",
     "100 study-notes/113 Terraform/Terraform - Introduction.md": "6b1790b5313ae79b7e13b81e8e23f5877843a91df0ae690ac8150ff54ec808e4",
-    "100 study-notes/113 Terraform/113 Terraform Index.md": "c5c7f5e5a3fa506046e7e334e2ca1c714db3319e8f9942eaeeac80598b5dbed9",
+    "100 study-notes/113 Terraform/113 Terraform Index.md": "3ae25d684c7cdd762142d704acb8df4e546e8833ba796f6c678511881f0b2f11",
     "100 study-notes/113 Terraform/Terraform - Variables.md": "4e27167b00e3a4f6836136e662027697c276bda9b7969135c23a9af56276831d",
     "100 study-notes/113 Terraform/Terraform - Commands.md": "ba9608cbc9c20499cd283778910254a7b66aba34eefe17b008c7db7ea00e3815",
     "100 study-notes/113 Terraform/Terraform - Lifecycle Rules.md": "4909d9d6838c3ca06582e3044d9dd5d7fb19a1bb1d8976b7077f35bb041cc054",
@@ -22,9 +22,10 @@
     "100 study-notes/113 Terraform/Terraform - Import & Datasources.md": "0e92e0bd5cdcaaad38807f752e6fd28c8f30d69be5924ec391d8bb4badbe059c",
     "100 study-notes/113 Terraform/Terraform - Meta Arguments.md": "07c485c56bca621cd061481c744ed1ccc2b630b8b64ab69df84e6cf5fc1b1c82",
     "100 study-notes/113 Terraform/Terraform - Terraform Cloud.md": "76ed6bbe1f1201adeeafa1cb93fe9aed813035f8128ce9a45eabe698bdade9a1",
-    "100 study-notes/113 Terraform/Terraform - Functions.md": "8d0417539caadab624589a8e3443b2455e9bc4b368733d9adc1972a83eee1c3d",
-    "100 study-notes/113 Terraform/Terraform - Expressions.md": "acc1e49db649c6af72459899b46c98bebcab605e040695d1108b5648ceae9396",
-    "100 study-notes/113 Terraform/Terraform - Modules.md": "0d59b2a3c902890ca07c8a29fca0f468c8878dbcde34baaae29c6c4c485fa52d"
+    "100 study-notes/113 Terraform/Terraform - Functions.md": "bd1c6d2d430a932523baa09f8f9b37a82d3dfdda768c56e1725a8da96a982c2d",
+    "100 study-notes/113 Terraform/Terraform - Expressions.md": "3dc4ecf740eb791e75fd2a867f0b51493ba4f9ce03585492f0faf20828e16453",
+    "100 study-notes/113 Terraform/Terraform - Modules.md": "2d929a2dc89dbaa43952cd13ea893a025f308c5b34dae7f97318631eb9d9e659",
+    "100 study-notes/113 Terraform/Terraform - Managing Multiple Environments.md": "aeccc4f51a3f9f92289db709bae06ab40196966d98b96b77f3c60b4e2a9c68b5"
   },
   "readDateFormat": "yyyy-MM-dd'T'HH:mm:ssxxx",
   "useDifferentReadFormat": false

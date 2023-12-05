@@ -1,6 +1,6 @@
 ---
 created: 2023-12-02 09:53
-updated: 2023-12-03 14:33
+updated: 2023-12-04 19:17
 ---
 ---
 **Links**: [[113 Terraform Index]]
@@ -38,6 +38,8 @@ updated: 2023-12-03 14:33
 	- Running the `terraform init` command.
 	- *Review the execution plan* using the `terraform plan` command.
 	- *Apply the changes* using the `terraform apply` command.
+
+> [!important] Terraform loads all configuration files within a directory and appends them together, so *any resources or providers with the same name in the same directory will cause a validation error*.
 
 ### Understanding `init`
 - `terraform init` is a safe command which **can be run as many times as required without impacting the architecture**.

@@ -1,44 +1,56 @@
 {
   "recentFiles": [
     {
-      "basename": "Terraform - Functions",
-      "path": "100 study-notes/113 Terraform/Terraform - Functions.md"
-    },
-    {
-      "basename": "Terraform - Expressions",
-      "path": "100 study-notes/113 Terraform/Terraform - Expressions.md"
-    },
-    {
       "basename": "113 Terraform Index",
       "path": "100 study-notes/113 Terraform/113 Terraform Index.md"
+    },
+    {
+      "basename": "Terraform - Managing Multiple Environments",
+      "path": "100 study-notes/113 Terraform/Terraform - Managing Multiple Environments.md"
+    },
+    {
+      "basename": "Terraform - Functions",
+      "path": "100 study-notes/113 Terraform/Terraform - Functions.md"
     },
     {
       "basename": "Terraform - Modules",
       "path": "100 study-notes/113 Terraform/Terraform - Modules.md"
     },
     {
-      "basename": "Terraform - Lifecycle Rules",
-      "path": "100 study-notes/113 Terraform/Terraform - Lifecycle Rules.md"
+      "basename": "Terraform - How Terraform works?",
+      "path": "100 study-notes/113 Terraform/Terraform - How Terraform works?.md"
     },
     {
-      "basename": "Terraform - Resource Attributes & Dependencies",
-      "path": "100 study-notes/113 Terraform/Terraform - Resource Attributes & Dependencies.md"
+      "basename": "Terraform - Miscellaneous",
+      "path": "100 study-notes/113 Terraform/Terraform - Miscellaneous.md"
     },
     {
-      "basename": "Terraform - Import & Datasources",
-      "path": "100 study-notes/113 Terraform/Terraform - Import & Datasources.md"
+      "basename": "Terraform - Commands",
+      "path": "100 study-notes/113 Terraform/Terraform - Commands.md"
     },
     {
       "basename": "Terraform - Variables",
       "path": "100 study-notes/113 Terraform/Terraform - Variables.md"
     },
     {
-      "basename": "Terraform - Terraform Cloud",
-      "path": "100 study-notes/113 Terraform/Terraform - Terraform Cloud.md"
+      "basename": "Terraform - Resource Attributes & Dependencies",
+      "path": "100 study-notes/113 Terraform/Terraform - Resource Attributes & Dependencies.md"
     },
     {
-      "basename": "Terraform - How Terraform works?",
-      "path": "100 study-notes/113 Terraform/Terraform - How Terraform works?.md"
+      "basename": "Terraform - Expressions",
+      "path": "100 study-notes/113 Terraform/Terraform - Expressions.md"
+    },
+    {
+      "basename": "Terraform - Lifecycle Rules",
+      "path": "100 study-notes/113 Terraform/Terraform - Lifecycle Rules.md"
+    },
+    {
+      "basename": "Terraform - Import & Datasources",
+      "path": "100 study-notes/113 Terraform/Terraform - Import & Datasources.md"
+    },
+    {
+      "basename": "Terraform - Terraform Cloud",
+      "path": "100 study-notes/113 Terraform/Terraform - Terraform Cloud.md"
     },
     {
       "basename": "Terraform - State",
@@ -57,20 +69,12 @@
       "path": "100 study-notes/113 Terraform/Terraform - Meta Arguments.md"
     },
     {
-      "basename": "Terraform - Miscellaneous",
-      "path": "100 study-notes/113 Terraform/Terraform - Miscellaneous.md"
-    },
-    {
       "basename": "Terraform - Provisioner",
       "path": "100 study-notes/113 Terraform/Terraform - Provisioner.md"
     },
     {
       "basename": "Terraform - AWS",
       "path": "100 study-notes/113 Terraform/Terraform - AWS.md"
-    },
-    {
-      "basename": "Terraform - Commands",
-      "path": "100 study-notes/113 Terraform/Terraform - Commands.md"
     },
     {
       "basename": "Terraform - Introduction",
@@ -195,10 +199,6 @@
     {
       "basename": "ASG",
       "path": "100 study-notes/101 AWS SAA/ASG.md"
-    },
-    {
-      "basename": "Linux - Bash strict mode",
-      "path": "100 study-notes/104 Linux/Linux - Bash strict mode.md"
     }
   ],
   "omittedPaths": [],
