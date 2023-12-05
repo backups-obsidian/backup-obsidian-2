@@ -1,6 +1,6 @@
 ---
 created: 2023-01-05 13:23
-updated: 2023-12-03 12:15
+updated: 2023-12-05 09:45
 ---
 ---
 **Links**: [[113 Terraform Index]]
@@ -110,8 +110,8 @@ updated: 2023-12-03 12:15
 	- Bypassing refreshing the state everytime can lead to significant performance improvements.
 		- To do this we can use `--refresh=false` with all the commands that use state like `terraform apply --refresh=false`
 - **Why is refreshing the state essential?**
-	- Imagine a scenario where an EC2 instance is managed by Terraform and now it has been manually deleted by someone. 
-	- Now if we do a `terraform apply --refresh=false` then Terraform WON'T know that the resource has been deleted since its state file hasn't been updated with the latest infrastructure changes and it won't do anything.
+	- Terraform relies on the contents of the state file to generate an execution plan to make changes to our resources. To ensure the accuracy of the proposed changes, out state file must be up to date.
+	- Imagine a scenario where an EC2 instance is managed by Terraform and now it has been manually deleted by someone. Now if we do a `terraform apply --refresh=false` then Terraform WON'T know that the resource has been deleted since its state file hasn't been updated with the latest infrastructure changes and it won't do anything.
 
 > [!question]- Imagine that we are managing a file using terraform and we change the contents of the file manually. What will happen if we refresh (`terraform refresh`) the state now?
 > - Since we have manually changed the contents of the file, performing a refresh would modify the state file such that resource is no longer present in the state file.
@@ -128,3 +128,16 @@ updated: 2023-12-03 12:15
 	- The `-refresh-only` flag allows us to review any updates to our state file. 
 - The `-refresh-only` mode for `terraform plan` and `terraform apply` operations makes it safer to check Terraform state against real infrastructure by letting us review proposed changes to the state file. 
 	- It lets us avoid mistakenly removing an existing resource from state and gives us a chance to correct your configuration.
+
+### Explaining the difference between commands with an example
+- Imagine a scenario where we have created and EC2 instance using Terraform. Now we go and make some manual changes to the security group of the EC2 instance.
+- `terraform refresh`: It will refresh our Terraform state file to reflect the manual changes to the security group.
+- `terraform apply`: It will destroy the instance and create a new instance to match the security group in the terraform configuration.
+- `terraform plan -refresh-only`: It will show the plan on what will be changed in the Terraform state file. In this case it will show that the security group will be updated in the state file.
+- `terraform apply -refresh-only`: It will refresh our Terraform state file to reflect the manual changes to the security group. 
+	- It is different from `terraform refresh` because it will show us what will be changed and we have the option of going forward with it by entering yes to the prompt. 
+	- In case of `terraform refresh` it would have directly applied the changes to the state file.
+
+> [!question]+ How to correct the drift?
+> - If the manual changes are required then the best way to correct the drift would be to update the state first using `terraform apply -refresh-only` and then modify the security group in the Terraform configuration file to value set manually so that when we do a `terraform apply` it doesn't remove the instance on which we made the manual changes.
+> - If the manual changes are not required then `terraform apply`.

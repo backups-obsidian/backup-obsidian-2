@@ -5,12 +5,40 @@
       "path": "100 study-notes/113 Terraform/113 Terraform Index.md"
     },
     {
-      "basename": "Terraform - Managing Multiple Environments",
-      "path": "100 study-notes/113 Terraform/Terraform - Managing Multiple Environments.md"
+      "basename": "Terraform - Provisioner",
+      "path": "100 study-notes/113 Terraform/Terraform - Provisioner.md"
+    },
+    {
+      "basename": "Terraform - Terraform Cloud",
+      "path": "100 study-notes/113 Terraform/Terraform - Terraform Cloud.md"
+    },
+    {
+      "basename": "Terraform - Expressions",
+      "path": "100 study-notes/113 Terraform/Terraform - Expressions.md"
+    },
+    {
+      "basename": "Terraform - Meta Arguments",
+      "path": "100 study-notes/113 Terraform/Terraform - Meta Arguments.md"
     },
     {
       "basename": "Terraform - Functions",
       "path": "100 study-notes/113 Terraform/Terraform - Functions.md"
+    },
+    {
+      "basename": "Terraform - Variables",
+      "path": "100 study-notes/113 Terraform/Terraform - Variables.md"
+    },
+    {
+      "basename": "Terraform - State",
+      "path": "100 study-notes/113 Terraform/Terraform - State.md"
+    },
+    {
+      "basename": "Terraform - State Manipulation",
+      "path": "100 study-notes/113 Terraform/Terraform - State Manipulation.md"
+    },
+    {
+      "basename": "Terraform - Managing Multiple Environments",
+      "path": "100 study-notes/113 Terraform/Terraform - Managing Multiple Environments.md"
     },
     {
       "basename": "Terraform - Modules",
@@ -29,16 +57,8 @@
       "path": "100 study-notes/113 Terraform/Terraform - Commands.md"
     },
     {
-      "basename": "Terraform - Variables",
-      "path": "100 study-notes/113 Terraform/Terraform - Variables.md"
-    },
-    {
       "basename": "Terraform - Resource Attributes & Dependencies",
       "path": "100 study-notes/113 Terraform/Terraform - Resource Attributes & Dependencies.md"
-    },
-    {
-      "basename": "Terraform - Expressions",
-      "path": "100 study-notes/113 Terraform/Terraform - Expressions.md"
     },
     {
       "basename": "Terraform - Lifecycle Rules",
@@ -49,28 +69,8 @@
       "path": "100 study-notes/113 Terraform/Terraform - Import & Datasources.md"
     },
     {
-      "basename": "Terraform - Terraform Cloud",
-      "path": "100 study-notes/113 Terraform/Terraform - Terraform Cloud.md"
-    },
-    {
-      "basename": "Terraform - State",
-      "path": "100 study-notes/113 Terraform/Terraform - State.md"
-    },
-    {
       "basename": "Terraform - Remote State",
       "path": "100 study-notes/113 Terraform/Terraform - Remote State.md"
-    },
-    {
-      "basename": "Terraform - State Manipulation",
-      "path": "100 study-notes/113 Terraform/Terraform - State Manipulation.md"
-    },
-    {
-      "basename": "Terraform - Meta Arguments",
-      "path": "100 study-notes/113 Terraform/Terraform - Meta Arguments.md"
-    },
-    {
-      "basename": "Terraform - Provisioner",
-      "path": "100 study-notes/113 Terraform/Terraform - Provisioner.md"
     },
     {
       "basename": "Terraform - AWS",

@@ -1,6 +1,6 @@
 ---
 created: 2023-12-03 18:07
-updated: 2023-12-03 18:44
+updated: 2023-12-05 09:59
 ---
 ---
 **Links**: [[113 Terraform Index]]
@@ -18,6 +18,7 @@ updated: 2023-12-03 18:44
 	- ![[attachments/Pasted image 20230114193611.png]]
 - *Splat expression*: The `splat` expression captures **all objects in a list that share an attribute**. 
 	- The special `*` symbol iterates over all of the elements of a given list and returns information based on the shared attribute you define.
+	- **Splat expression only interpolates list type**.
 
 ```hcl title:"Example of splat operation" fold
 output "private_addresses" {
