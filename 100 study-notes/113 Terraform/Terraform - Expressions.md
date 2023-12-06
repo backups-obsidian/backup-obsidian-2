@@ -1,6 +1,6 @@
 ---
 created: 2023-12-03 18:07
-updated: 2023-12-05 09:59
+updated: 2023-12-05 19:16
 ---
 ---
 **Links**: [[113 Terraform Index]]
@@ -8,7 +8,7 @@ updated: 2023-12-05 09:59
 | Previous: [[Terraform - Functions]] |
 |-|
 
-| Next: [[Terraform - Expressions]] |
+| Next: [[Terraform - Count & for each]] |
 |-|
 
 ---

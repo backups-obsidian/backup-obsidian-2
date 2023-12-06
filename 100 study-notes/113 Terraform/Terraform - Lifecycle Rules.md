@@ -1,6 +1,6 @@
 ---
 created: 2023-01-06 09:49
-updated: 2023-12-03 18:08
+updated: 2023-12-06 08:55
 ---
 ---
 **Links**: [[113 Terraform Index]]
@@ -21,7 +21,7 @@ updated: 2023-12-03 18:08
 	- We *might want the resource to be created first before deleting a the old one* or we *may not want to delete the resource at all*.
 	- The above behaviours can be achieved using life cycle rules.
 
-> [!note] Lifecycle rules are *applied when a resource is updated* and **NOT created**.
+> [!note] The below Lifecycle rules are *applied when a resource is updated* and **NOT created**.
 
 - `create_before_destroy`:
 	- ![[attachments/Pasted image 20230106100756.png]]
@@ -46,4 +46,34 @@ updated: 2023-12-03 18:08
 - Summary of lifecycle rules
 	- ![[attachments/Pasted image 20230106101901.png]]
 
+### Preconditions & Postconditions
+- Terraform allows us to add preconditions and postconditions to the **lifecycle of resource, data source, or output blocks**. 
+- Terraform evaluates **preconditions** *before the enclosing block*, *validating that your configuration is compliant before it applies it*. 
+- Terraform evaluates **post conditions** *after the enclosing block*, letting you *confirm that the results of applied changes are compliant before it applies the rest of your configuration*.
 
+```hcl title:"precondition example" fold
+resource {
+	# rest of the configuration
+	lifecycle {
+	    precondition {
+	      condition     = data.aws_ec2_instance_type.app.ebs_optimized_support != "unsupported"
+	      error_message = "The EC2 instance type (${var.aws_instance_type}) must support EBS optimization."      
+	    }
+	  }
+}
+```
+
+- In the above example the precondition verifies that the chosen EC2 instance type supports EBS optimization. 
+	- In order to do so, it accesses the instance type's `ebs_optimized_support` attribute from the data source.
+
+```hcl hl:6 title:"postcondition example" fold
+data "aws_vpc" "app" {
+  id = var.aws_vpc_id
+
+  lifecycle {
+    postcondition {
+      condition     = self.enable_dns_support == true
+      error_message = "The selected VPC must have DNS support enabled."      
+    }
+  }
+```

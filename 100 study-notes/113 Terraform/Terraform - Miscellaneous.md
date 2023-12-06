@@ -1,9 +1,15 @@
 ---
 created: 2023-12-02 19:31
-updated: 2023-12-03 10:51
+updated: 2023-12-05 19:31
 ---
 ---
 **Links**: [[113 Terraform Index]]
+
+| Previous: [[Terraform - Count & for each]] |
+|-|
+
+| Next: [[Terraform - Terraform Cloud]] |
+|-|
 
 ---
 ## Taints - DEPRECATED (use `-replace` instead)
@@ -37,3 +43,35 @@ updated: 2023-12-03 10:51
 	- `version = "> 1.2.0, < 2.0.0, != 1.4.0"`: Mixing comparison operators
 	- `version = "~> 1.2"`: Terraform can download the version 1.2 or any other incremental version. The major version cannot be changes this means it can go max upto 1.9.
 		- If we use `version = "~> 1.2.0"` then it can only go upto `1.2.9`
+
+## Moving Resources
+- **When we move existing resources from a parent to a child module, our Terraform resource IDs will change**. 
+	- Because of this, we *must let Terraform know that we intend to move resources rather than replace them*, or Terraform will destroy and recreate your resources with the new ID.
+- The **`moved` configuration block lets us track our resource moves in the configuration itself**. 
+	- With the `moved` configuration block, we can plan, preview, and validate resource moves, enabling us to safely refactor our configuration.
+
+```hcl title:"moved block example" fold
+moved {
+  from = module.security_group.aws_security_group.sg_8080
+  to   = module.web_security_group.aws_security_group.this[0]
+}
+```
+
+- We can also use the `moved` configuration block to **rename existing resources**.
+
+> [!note] It is strongly recommend that we retain all `moved` blocks in your configuration as a record of our changes. Removing a `moved` block plans to delete that existing resource instead of moving it.
+
+```hcl title:"renaming existing resources" fold
+# the resource was created with the name of testing. Now I changed the name of the resource in the configuration to testing 2.
+
+resource "local_file" "testing2" {
+  filename = "testing"
+  content  = "Hello, World!"
+}
+
+moved {
+  from = local_file.testing
+  to   = local_file.testing2
+}
+
+```
