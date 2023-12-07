@@ -1,11 +1,11 @@
 ---
 created: 2023-01-02 20:06
-updated: 2023-12-02 19:30
+updated: 2023-12-06 19:11
 ---
 ---
 **Links**: [[113 Terraform Index]]
 
-| Previous: [[Terraform - How Terraform works?]] |
+| Previous: [[Terraform - Providers]] |
 |-|
 
 | Next: [[Terraform - Variables]] |
@@ -13,6 +13,7 @@ updated: 2023-12-02 19:30
 
 ---
 ## Terraform Commands
+- `terraform apply -auto-approve`: this will run terraform apply *without confirmation*.
 - `terraform plan -out <filename>`: save a plan in **binary**
 	- Later, we can apply the saved plan, and Terraform will only perform the changes listed in the plan.
 	- *Applying a plan file will not prompt us for confirmation*.

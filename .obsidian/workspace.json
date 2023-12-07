@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 study-notes/113 Terraform/113 Terraform Index.md",
+                "file": "100 study-notes/113 Terraform/Terraform - Providers.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "path:113 refresh",
+                "query": "path:113 required_providers",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -230,10 +230,13 @@
   },
   "active": "a6c3ff0d0b7cc90a",
   "lastOpenFiles": [
-    "100 study-notes/113 Terraform/Terraform - Lifecycle Rules.md",
-    "100 study-notes/113 Terraform/113 Terraform Index.md",
-    "100 study-notes/113 Terraform/Terraform - Variables.md",
     "100 study-notes/113 Terraform/Terraform - Miscellaneous.md",
+    "100 study-notes/113 Terraform/Terraform - Providers.md",
+    "100 study-notes/113 Terraform/113 Terraform Index.md",
+    "100 study-notes/113 Terraform/Terraform - Commands.md",
+    "100 study-notes/113 Terraform/Terraform - How Terraform works?.md",
+    "100 study-notes/113 Terraform/Terraform - Lifecycle Rules.md",
+    "100 study-notes/113 Terraform/Terraform - Variables.md",
     "100 study-notes/113 Terraform/Terraform - Terraform Cloud.md",
     "100 study-notes/113 Terraform/Terraform - Count & for each.md",
     "100 study-notes/113 Terraform/Terraform - Expressions.md",
@@ -243,8 +246,6 @@
     "100 study-notes/113 Terraform/Terraform - State Manipulation.md",
     "100 study-notes/113 Terraform/Terraform - Managing Multiple Environments.md",
     "100 study-notes/113 Terraform/Terraform - Modules.md",
-    "100 study-notes/113 Terraform/Terraform - How Terraform works?.md",
-    "100 study-notes/113 Terraform/Terraform - Commands.md",
     "100 study-notes/113 Terraform/Terraform - Resource Attributes & Dependencies.md",
     "100 study-notes/113 Terraform/attachments/Pasted image 20231204183836.png",
     "100 study-notes/113 Terraform/Terraform - Import & Datasources.md",
@@ -258,7 +259,6 @@
     "100 study-notes/104 Linux/attachments/Pasted image 20231201102054.png",
     "100 study-notes/104 Linux/attachments/Pasted image 20231201095409.png",
     "100 study-notes/104 Linux/104 Linux Index.md",
-    "100 study-notes/104 Linux/Linux - Redirection.md",
     "100 study-notes/104 Linux/attachments/Pasted image 20231130153303.png",
     "100 study-notes/104 Linux/attachments/Pasted image 20231130145424.png",
     "100 study-notes/104 Linux/attachments/Pasted image 20231130145324.png",

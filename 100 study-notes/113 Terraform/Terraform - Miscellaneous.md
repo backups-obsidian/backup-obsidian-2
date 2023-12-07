@@ -1,6 +1,6 @@
 ---
 created: 2023-12-02 19:31
-updated: 2023-12-05 19:31
+updated: 2023-12-06 19:42
 ---
 ---
 **Links**: [[113 Terraform Index]]
@@ -43,6 +43,8 @@ updated: 2023-12-05 19:31
 	- `version = "> 1.2.0, < 2.0.0, != 1.4.0"`: Mixing comparison operators
 	- `version = "~> 1.2"`: Terraform can download the version 1.2 or any other incremental version. The major version cannot be changes this means it can go max upto 1.9.
 		- If we use `version = "~> 1.2.0"` then it can only go upto `1.2.9`
+
+> [!note]- Our of `>=`, `!=`, `<=`, `=` and `==`, **`==` is NOT a valid version constraint**.
 
 ## Moving Resources
 - **When we move existing resources from a parent to a child module, our Terraform resource IDs will change**. 

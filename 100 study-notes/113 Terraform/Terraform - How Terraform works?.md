@@ -1,6 +1,6 @@
 ---
 created: 2023-12-02 09:53
-updated: 2023-12-04 19:17
+updated: 2023-12-06 19:15
 ---
 ---
 **Links**: [[113 Terraform Index]]
@@ -28,7 +28,7 @@ updated: 2023-12-04 19:17
 	- *Terraform can manage resources created by other IaC tools*.
 - **A basic terraform workflow** consists of 4 steps:
 	- Write the configuration file to create resources.
-		- Here we are using the `local_file` provider for creating the resource.
+		- In the below example **`local_file` is the resource type, `local` is the provider, `pet` is the name of the resource and `filename` and `content` are arguments of that resource**.
 			- ![[attachments/Pasted image 20230102201046.png]]
 			- Different providers have different arguments and different required values.
 			- Argument `filename` is compulsory for resource type `local_file`.
@@ -64,6 +64,8 @@ terraform {
   }
 }
 ```
+
+^0b9580
 
 - **The `version` attribute for a provider is optional**, but it is recommend to use it to constrain the provider version so that Terraform does not install a version of the provider that does not work with our configuration.
 - We should *include the lock file in your version control repository* to ensure that Terraform uses the same provider versions across your team and in ephemeral remote execution environments.
