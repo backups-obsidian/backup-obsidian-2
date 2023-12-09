@@ -1,6 +1,6 @@
 ---
 created: 2023-12-02 09:53
-updated: 2023-12-06 19:15
+updated: 2023-12-08 18:47
 ---
 ---
 **Links**: [[113 Terraform Index]]
@@ -302,3 +302,9 @@ terraform {
 
 > [!note]- Changes to resources between the time you plan the changes and attempt to apply them can cause Terraform to error if the plan can no longer be applied.
 > For example lets suppose we create a plan to do something with the S3 bucket and now before applying the plan if we delete the bucket manually then when we try to apply the plan it will error out since there is no S3 bucket. To fix this we would have to generate a new plan since the state of the resources has been changed.
+
+> [!question]+ What happens when we do a `terraform apply`?
+> - *Update in-place* resources *whose arguments have changed*
+> - *Destroy and recreate resources whose arguments have changed* but which *cannot be updated in-place* due to remove API limitations.
+> - Destroy resources that exist in the state but no longer exist in the configuration.
+> - Create resources that exist in configuration but are not associated with a real infrastructure object in the state.

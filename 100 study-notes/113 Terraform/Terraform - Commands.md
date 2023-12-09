@@ -1,6 +1,6 @@
 ---
 created: 2023-01-02 20:06
-updated: 2023-12-06 19:11
+updated: 2023-12-08 18:41
 ---
 ---
 **Links**: [[113 Terraform Index]]
@@ -27,11 +27,13 @@ updated: 2023-12-06 19:11
 		- It allows us to rebuild specific resources and avoid a full `terraform destroy` operation on your configuration. The `-replace` flag allows us to target specific resources and avoid destroying all the resources in your workspace just to fix one of them.
 		- **In older versions of Terraform, you may have used the `terraform taint` command to achieve a similar outcome. That command has now been deprecated in favor of the `-replace` flag, which allows for a simpler, less error-prone workflow**.
 	- `terraform apply -target resource_type.resource_name`: We can target individual resources.
-		- There might be a case where we may need to *partially apply configuration* while troubleshooting an error that prevents Terraform from applying our entire configuration at once. 
-		- This type of error may occur when a target API or Terraform provider error leaves your resources in an invalid state that Terraform cannot resolve automatically.
+		- There might be a case where we may need to *partially apply configuration* while troubleshooting an error that prevents Terraform from applying our entire configuration at once.
+		- An example would be a case where we use random string to generate the tag of an EC2 instance. Now we want to change the length of the random string but we don't want to recreate the EC2 instance. We will only target random in this case.
 - `terraform -v`: Getting the *version of providers and terraform* after initializing terraform.
 - `terraform providers`: To see a list of all the providers in the current configuration directory.
+	- `terraform providers mirror`: to mirror the providers to the local machine.
 - `terraform validate`: To check if the syntax of the terraform files.
+	- **We need to initialize the terraform configuration directory using `terraform init` before running this command**.
 - `terraform fmt`: Format the terraform files.
 - `terraform state list`: List the state
 - `terraform destroy`: **Delete the infrastructure completely**.
@@ -47,3 +49,4 @@ updated: 2023-12-06 19:11
 	- *This will only modify the state file*.
 	- **This is automatically run by `terraform plan` and `terraform apply`**.
 		- We can bypass this behaviour by using `-refresh=false` with the above commands.
+- `terraform graph`: generate a visual representation in the DOT format which then needs to be passed through a visualization tool.

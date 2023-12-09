@@ -1,0 +1,45 @@
+---
+created: 2023-12-09 09:26
+updated: 2023-12-09 10:22
+---
+---
+**Links**: [[113 Terraform Index]]
+
+---
+- Given a resource block we CANNOT use `for_each` and `count` togther.
+- `lifecycle` meta argument is NOT supported by the `data` block.
+- A label after the variable keyword should be unique among all the variables in the same module.
+- Terraform will use a local backend if no backend configuration is specified.
+- `for_each` works with a `map` and `set` of strings.
+- A module can call other modules using the `module` block.
+- n the UI and VCS workflow, every workspace is associated with a specific branch of a VCS repo of Terraform configurations. 
+	- Terraform Cloud registers webhooks with our VCS provider when we create a workspace, then automatically queues a Terraform run whenever new commits are merged to that branch of workspace's linked repository.
+- We CANNOT use `dynamic` blocks to generate `meta-argument` blocks such as `lifecycle` and `provisioner` blocks.
+- `terraform show` displays the whole state, `terraform state show <resource_type>.<resource_name>` is used to show detailed information about a specific resource.
+- We can use version constraints in Provider requirements, `required_version` in the the terraform block and modules.
+- Modules are also of 3 types: Verified, Community & Official.
+- Lifecycle arguments present: `ignore_changes`, `prevent_destroy`, `create_before_destroy`.
+- `[for o in var.list : o.id]` is same as `var.list[*].id`
+- Every Terraform configuration has at least one module, known as its root module, which consists of the resources defined in the `.tf` files in the main working directory.
+- Logging can be enabled *separately for terraform itself* and the *provider plugins* using the `TF_LOG_CORE` or `TF_LOG_PROVIDER` environment variables. 
+	- These take the same level arguments as `TF_LOG`, but only activate a subset of the logs.
+- For storing secrets 
+	- use backend that supports encryption 
+	- use secret stores like Vault
+	- Environment Variables
+	- Encrypted files
+- What will happen if Terraform isn't able to obtain acceptable versions of external dependencies, or if it doesn't have an acceptable version of itself?
+	- It won't proceed with any plans, applies, or state manipulation actions.
+- `local-only` data sources:
+	- It is *re-calculated each time* a new plan is created
+	- It is the same as all other data sources, but their *result data exists only temporarily during a Terraform operation*.
+- Terraform assumes an empty default configuration for any provider that is not explicitly configured.
+- Splat expression is valid of `list`, `set` and `tuple`.
+	- It is NOT valid for `map`
+- The `-chdir` option instructs Terraform to change its working directory to the given directory before running the given subcommand. 
+	- This means that any files that Terraform would normally read or write in the current working directory will be read or written in the given directory instead.
+- The `default` argument within the `variable` block should satisfy the following conditions:
+	- *`default` argument requires a `literal` value*
+		- *It CANNOT reference other objects in the configuration*.
+	- `default` value will be used if no value is set when calling the module or running Terraform.
+	- If present, the variable is considered to be optional.

@@ -1,6 +1,6 @@
 ---
 created: 2023-01-09 22:37
-updated: 2023-12-02 19:46
+updated: 2023-12-07 19:05
 ---
 ---
 **Links**: [[113 Terraform Index]]
@@ -35,7 +35,10 @@ updated: 2023-12-02 19:46
 	- ![[attachments/Pasted image 20230111102254.png]]
 	- It will also *upload the updated terraform state file after every apply*.
 	- A lot of remote state options allow for state locking.
+		- **It will NOT use state locking if it isn't supported by the backend**.
 	- Remote state backends also provide encryption for security.
+
+> [!note] By default if no backend is specified then terraform defaults to local backend.
 
 ### Remote backends using S3
 - For this we will need an *S3 bucket* and a **DynamoDB table for implementing state locking**.

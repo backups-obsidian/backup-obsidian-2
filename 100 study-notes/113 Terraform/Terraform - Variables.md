@@ -1,6 +1,6 @@
 ---
 created: 2023-12-02 13:04
-updated: 2023-12-03 15:39
+updated: 2023-12-07 18:36
 ---
 ---
 **Links**: [[113 Terraform Index]]
@@ -34,6 +34,10 @@ variable "variable_name" {
 	default = "some_default_value"
 }
 ```
+
+- The variable name should be *unique among the variables in the same module*.
+
+> [!caution] We can use any name for a variable except for: `source`, `version`, `providers`, `count`, `for_each`, `lifecycle`, `depends_on` and `locals`. 
 
 - We can refer to variables in our configuration with `var.<variable_name>`.
 	- **When using variable we need not enclose the values within double quotes otherwise they will be treated as strings**.
@@ -157,6 +161,8 @@ output "output_variable_name" {
 
 > [!note]- The best use of terraform output variables is when we want to *quickly display details about a resource provision* or to *feed the output to other IaC tools*.
 > It isn't meant for feeding output of one resource to another resource. This is done using resource attributes.
+
+- `terraform apply` and `terraform output` will show the output variables but **`terraform plan` WON'T show any output variables**.
 
 #### Sensitive Outputs
 > [!important] Sensitive outputs are the only way to refer sensitive inputs.

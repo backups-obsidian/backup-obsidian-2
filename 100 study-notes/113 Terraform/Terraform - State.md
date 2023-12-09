@@ -1,6 +1,6 @@
 ---
 created: 2023-01-05 13:23
-updated: 2023-12-05 09:45
+updated: 2023-12-07 18:57
 ---
 ---
 **Links**: [[113 Terraform Index]]
@@ -41,7 +41,7 @@ updated: 2023-12-05 09:45
 
 - Terraform stores the information about the state file version and the terraform version in the state file.
 - **The `resources` section of the state file contains the schema for any resources we create in Terraform**.
-	- `mode`: It refers to the type of resource Terraform creates — either a resource *(`managed`) or a data source (`data`)*.
+	- `mode`: It refers to the type of resource Terraform creates — either a resource *(`managed`) or a data source (`data`)*.
 	- `type`: It refers to the resource type (for example local_file or aws_instance).
 	- `instances` section in this resource contains the `attributes` of the resource.
 

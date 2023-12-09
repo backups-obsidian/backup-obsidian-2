@@ -1,44 +1,56 @@
 {
   "recentFiles": [
     {
+      "basename": "Terraform - Questions",
+      "path": "100 study-notes/113 Terraform/Terraform - Questions.md"
+    },
+    {
+      "basename": "Terraform - Expressions",
+      "path": "100 study-notes/113 Terraform/Terraform - Expressions.md"
+    },
+    {
       "basename": "113 Terraform Index",
       "path": "100 study-notes/113 Terraform/113 Terraform Index.md"
-    },
-    {
-      "basename": "Terraform - Miscellaneous",
-      "path": "100 study-notes/113 Terraform/Terraform - Miscellaneous.md"
-    },
-    {
-      "basename": "Terraform - Providers",
-      "path": "100 study-notes/113 Terraform/Terraform - Providers.md"
-    },
-    {
-      "basename": "Terraform - Commands",
-      "path": "100 study-notes/113 Terraform/Terraform - Commands.md"
-    },
-    {
-      "basename": "Terraform - How Terraform works?",
-      "path": "100 study-notes/113 Terraform/Terraform - How Terraform works?.md"
-    },
-    {
-      "basename": "Terraform - Lifecycle Rules",
-      "path": "100 study-notes/113 Terraform/Terraform - Lifecycle Rules.md"
-    },
-    {
-      "basename": "Terraform - Variables",
-      "path": "100 study-notes/113 Terraform/Terraform - Variables.md"
-    },
-    {
-      "basename": "Terraform - Terraform Cloud",
-      "path": "100 study-notes/113 Terraform/Terraform - Terraform Cloud.md"
     },
     {
       "basename": "Terraform - Count & for each",
       "path": "100 study-notes/113 Terraform/Terraform - Count & for each.md"
     },
     {
-      "basename": "Terraform - Expressions",
-      "path": "100 study-notes/113 Terraform/Terraform - Expressions.md"
+      "basename": "Terraform - Resource Attributes & Dependencies",
+      "path": "100 study-notes/113 Terraform/Terraform - Resource Attributes & Dependencies.md"
+    },
+    {
+      "basename": "Terraform - Terraform Cloud",
+      "path": "100 study-notes/113 Terraform/Terraform - Terraform Cloud.md"
+    },
+    {
+      "basename": "Terraform - Modules",
+      "path": "100 study-notes/113 Terraform/Terraform - Modules.md"
+    },
+    {
+      "basename": "Terraform - Import & Datasources",
+      "path": "100 study-notes/113 Terraform/Terraform - Import & Datasources.md"
+    },
+    {
+      "basename": "Terraform - Managing Multiple Environments",
+      "path": "100 study-notes/113 Terraform/Terraform - Managing Multiple Environments.md"
+    },
+    {
+      "basename": "Terraform - Miscellaneous",
+      "path": "100 study-notes/113 Terraform/Terraform - Miscellaneous.md"
+    },
+    {
+      "basename": "Terraform - Lifecycle Rules",
+      "path": "100 study-notes/113 Terraform/Terraform - Lifecycle Rules.md"
+    },
+    {
+      "basename": "Terraform - How Terraform works?",
+      "path": "100 study-notes/113 Terraform/Terraform - How Terraform works?.md"
+    },
+    {
+      "basename": "Terraform - Commands",
+      "path": "100 study-notes/113 Terraform/Terraform - Commands.md"
     },
     {
       "basename": "Terraform - Provisioner",
@@ -49,6 +61,10 @@
       "path": "100 study-notes/113 Terraform/Terraform - Functions.md"
     },
     {
+      "basename": "Terraform - Remote State",
+      "path": "100 study-notes/113 Terraform/Terraform - Remote State.md"
+    },
+    {
       "basename": "Terraform - State",
       "path": "100 study-notes/113 Terraform/Terraform - State.md"
     },
@@ -57,24 +73,12 @@
       "path": "100 study-notes/113 Terraform/Terraform - State Manipulation.md"
     },
     {
-      "basename": "Terraform - Managing Multiple Environments",
-      "path": "100 study-notes/113 Terraform/Terraform - Managing Multiple Environments.md"
+      "basename": "Terraform - Providers",
+      "path": "100 study-notes/113 Terraform/Terraform - Providers.md"
     },
     {
-      "basename": "Terraform - Modules",
-      "path": "100 study-notes/113 Terraform/Terraform - Modules.md"
-    },
-    {
-      "basename": "Terraform - Resource Attributes & Dependencies",
-      "path": "100 study-notes/113 Terraform/Terraform - Resource Attributes & Dependencies.md"
-    },
-    {
-      "basename": "Terraform - Import & Datasources",
-      "path": "100 study-notes/113 Terraform/Terraform - Import & Datasources.md"
-    },
-    {
-      "basename": "Terraform - Remote State",
-      "path": "100 study-notes/113 Terraform/Terraform - Remote State.md"
+      "basename": "Terraform - Variables",
+      "path": "100 study-notes/113 Terraform/Terraform - Variables.md"
     },
     {
       "basename": "Terraform - AWS",
@@ -195,10 +199,6 @@
     {
       "basename": "Linux - Miscellaneous",
       "path": "100 study-notes/104 Linux/Linux - Miscellaneous.md"
-    },
-    {
-      "basename": "Python - Multiprocessing vs Multithreading",
-      "path": "100 study-notes/108 Python/Python - Multiprocessing vs Multithreading.md"
     }
   ],
   "omittedPaths": [],

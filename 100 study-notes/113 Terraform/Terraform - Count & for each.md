@@ -1,6 +1,6 @@
 ---
 created: 2023-12-03 10:51
-updated: 2023-12-05 19:17
+updated: 2023-12-09 09:35
 ---
 ---
 **Links**: [[113 Terraform Index]]
@@ -35,7 +35,7 @@ updated: 2023-12-05 19:17
 		- Terraform sees that resources at `pet[0]` and `pet[1]` have to be destroyed and replaced.
 
 ## `for_each`
-- **`for_each` works with a lists, map and sets**.
+- **`for_each` works with a map or set of strings.
 - If we have a map then then we access the key using `each.key` and value using `each.value`
 	- In case we are using a set or list then `each.key` gives the index and `each.value` is the value of the item.
 

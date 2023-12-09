@@ -1,6 +1,6 @@
 ---
 created: 2023-12-03 14:50
-updated: 2023-12-05 19:18
+updated: 2023-12-08 19:48
 ---
 ---
 **Links**: [[113 Terraform Index]]
@@ -23,6 +23,11 @@ updated: 2023-12-05 19:18
 		- Any *merges to our main branch then trigger Terraform runs to implement our changes*.
 		> [!note] When using the VCS-driven workflow for Terraform Cloud, we *DONOT need to define the `cloud` block in our configuration*.
 	- The API-driven workflow, which allows you to create tooling to interact with the Terraform Cloud API programmatically.
+- **Sentinel is a Policy as code framework** for HashiCorp Enterprise products.
+	- **We use sentinel to create and enforce policies**.
+- Terraform Cloud is the same thing as Terraform Enterprise.
+
+> [!note] Terraform Cloud workspaces are NOT the same as Terraform CLI Workspaces.
 
 ### Using variables
 - There are **4 ways** of using variables in Terraform Cloud:

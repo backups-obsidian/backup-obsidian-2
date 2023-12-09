@@ -1,6 +1,6 @@
 ---
 created: 2023-01-13 15:42
-updated: 2023-12-03 17:47
+updated: 2023-12-07 18:51
 ---
 ---
 **Links**: [[113 Terraform Index]]
@@ -19,6 +19,7 @@ updated: 2023-12-03 17:47
 - We define data resources using the `data` block. It is quite similar to `resource` block.
 	- ![[attachments/Pasted image 20230106104830.png]]
 	- Reading the data source and using it with other resource.
+- We read it using `data.<resource-type>.<name>.<attribute>`
 - *`data` block consists of specific arguments for a datasource*.
 - **Data source only reads the infrastructure**.
 - Difference between a data source and a resource:
@@ -35,8 +36,11 @@ data "terraform_remote_state" "vpc" {
 }
 ```
 
-- In the above example remote state block uses the local backend to load state data from the path in the config section. 
+- In the above example remote state block uses the local backend to load state data from the path in the config section.
+	- The behaviour of *local-only data sources* is the same as all other data sources, but their *result data exists only temporarily during a Terraform operation, and is re-calculated each time a new plan is created*.
 - *Terraform remote state also supports a remote backend type for use with remote systems, such as Terraform Cloud or Consul*.
+- `data` block has the same dependency resolution as normal resources.
+- *`lifecycle` meta-argument is not supported by the `data` block*.
 
 ## Imports
 - Terraform `import` is used for bringing the existing infrastructure under its management.

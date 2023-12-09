@@ -1,6 +1,6 @@
 ---
 created: 2023-01-06 09:49
-updated: 2023-12-06 08:55
+updated: 2023-12-08 18:47
 ---
 ---
 **Links**: [[113 Terraform Index]]
@@ -35,7 +35,7 @@ updated: 2023-12-06 08:55
 	- This rule only applies to `terraform apply`
 
 - `ignore_changes`:
-	- This lifecycle rule will prevent a resource from being updated based on a list of attributes that we define within the lifecycle block.
+	- This lifecycle rule will prevent a resource from being **updated based on a list** of attributes that we define within the lifecycle block.
 	- In this example once the EC2 instance is created terraform will not force a change of its tags. This means if we change the tag using some tool or manually, doing a `terraform apply` won't result in any changes since we have ignored the tags. 
 		- Without the `ignore_changes` flag terraform would have changed the tag back to "ProjectA-Webserver"
 	- *Changes made to tags outside of terraform is completely ignored*.

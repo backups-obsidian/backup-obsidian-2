@@ -1,6 +1,6 @@
 ---
 created: 2023-12-03 18:07
-updated: 2023-12-05 19:16
+updated: 2023-12-09 10:02
 ---
 ---
 **Links**: [[113 Terraform Index]]
@@ -27,10 +27,45 @@ output "private_addresses" {
 }
 ```
 
+### Dynamic Block
+- We can use a `dynamic` block to generate dynamic configuration
+
+```hcl title:"using dynamic block" fold
+variable "ports" {
+	type = list
+	default = [22, 8080]
+}
+
+resource aws_security_group "backend-sg" {
+	name = "backend-sg"
+	vpc_id = aws_vpc.backend-vpc.id
+
+	dynamic "ingress" {
+		 for_each = var.ports
+		 content = {
+			 from_port = ingress.value
+			 to_port = ingress.value
+			 protocol = "tcp"
+			 cidr_blocks = ["0.0.0.0/0"]
+		 }
+	}
+}
+```
+
+- **The name of the block that we are making dynamic has to match with the dynamic block name**.
+	- In the above example we wanted to make the `ingress` block dynamic and that is the name of the dynamic block.
+- *`content` defines the body of each generated block under the `dynamic` block*.
+- *We can declare a dynamic block inside a dynamic block*.
+- **We CANNOT declare a dynamic block inside `locals`**.
+
+> [!note] We CANNOT use `dynamic` blocks to generate `meta-argument` blocks such as `lifecycle` and `provisioner` blocks.
+
 ### Locals
 - Terraform local values (or "locals") **assign a name to an expression or value**. 
 - Using locals simplifies our Terraform configuration – since we can reference the local multiple times, we reduce duplication in your code.
 - Terraform's *locals DONOT change values during or between Terraform runs such as plan, apply, or destroy*.
+- **Local values are created by a `locals` block**.
+- **Local values are referenced as attributes on an object named `local`**.
 
 ```hcl hl:9,17 title:"Setting and using locals" fold
 locals {

@@ -1,6 +1,6 @@
 ---
 created: 2023-01-14 19:23
-updated: 2023-12-04 19:24
+updated: 2023-12-08 18:19
 ---
 ---
 **Links**: [[113 Terraform Index]]
@@ -17,14 +17,13 @@ updated: 2023-12-04 19:24
 	- `file`: read data from a file 
 	- `length`: determine the number of elements in a list or map
 	- `toset`: convert a list to a set
-	- `lookup`: used for getting a particular value from a map
  - We can test functions using an interactive console.
 	- We can use the terraform console using `terraform console`
 	- Terraform console *loads the state associated to the configuration directory by default*.
 	- It also loads variables in the configuration files.
 	- ![[attachments/Pasted image 20230114192353.png]]
 - Numeric functions
-	- **Expansion is needed when using variables**.
+	- **If we are planning to pass a list to a function that takes numbers then we need to expand the list using `...`**.
 	- ![[attachments/Pasted image 20230114192605.png]]
 - String functions
 	- ![[attachments/Pasted image 20230114192840.png]]

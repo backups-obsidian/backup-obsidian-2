@@ -1,6 +1,6 @@
 ---
 created: 2023-12-02 19:31
-updated: 2023-12-06 19:42
+updated: 2023-12-08 18:56
 ---
 ---
 **Links**: [[113 Terraform Index]]
@@ -25,8 +25,9 @@ updated: 2023-12-06 19:42
 - Using logs in terraform
 	- `export TF_LOG=TRACE`
 	- ![[attachments/Pasted image 20230113152806.png]]
-- **`trace` is the most verbose**.
-	- This will display a lot of logs.
+- Different levels: `ERROR -> WARN -> INFO -> DEBUG -> TRACE`
+	- **`trace` is the most verbose**.
+- We can set `TF_LOG` to `JSON` apart from the different levels to get `TRACE` logs in JSON.
 - Storing the logs persistently:
 	- `export TF_LOG_PATH=/tmp/terraform.log`
 - To disable logging we unset the environment variables

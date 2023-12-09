@@ -1,6 +1,6 @@
 ---
 created: 2023-12-04 19:22
-updated: 2023-12-04 20:03
+updated: 2023-12-08 19:22
 ---
 ---
 **Links**: [[113 Terraform Index]]
@@ -28,6 +28,7 @@ updated: 2023-12-04 20:03
 - Workspace-separated environments use the **same Terraform code but have different state files**, which is useful if we want your environments to stay as similar to each other as possible, for example if we are providing development infrastructure to a team that wants to simulate running in production.
 - However, we **must manage your workspaces in the CLI** and be *aware of the workspace we are working in to avoid accidentally performing operations on the wrong environment*.
 - All Terraform configurations start out in the **`default` workspace**.
+	- We *CANNOT delete the default workspace in terrafor*.
 - Workspace specific commands:
 	- *Listing the workspaces*: `terraform workspace list`.
 	- *Creating a new workspace*: `terraform workspace new <workspace-name>`.
@@ -53,4 +54,24 @@ updated: 2023-12-04 20:03
 │   │   └── terraform.tfstate
 ├── terraform.tfvars
 └── variables.tf
+```
+
+- We can access `terraform.workspace` inside our configuration files
+
+```hcl hl:12 title:"Using terraform workspace for determining the environment" fold
+
+variable "instance_type" {
+	type = map
+	default = {
+		"production" = "t2.large"
+		"development" = "t2.micro"
+	}
+}
+
+# note that the workspaces must be name production and development
+
+resource "aws_instance" "webserver" {
+	ami = var.ami
+	instance_type = lookup(var.instance_type, terraform.workspace)
+}
 ```
