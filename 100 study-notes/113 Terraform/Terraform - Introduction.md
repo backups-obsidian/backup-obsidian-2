@@ -1,6 +1,6 @@
 ---
 created: 2023-01-02 19:46
-updated: 2023-12-02 14:14
+updated: 2023-12-10 12:03
 ---
 ---
 **Links**: [[113 Terraform Index]]
@@ -40,6 +40,8 @@ updated: 2023-12-02 14:14
 		- ![[attachments/Pasted image 20230102195237.png]]
 
 - Terraform uses **HashiCorp Configuration Language (HCL)** (`.tf`) which is a simple **declarative** language to define the infrastructure resources *as blocks of code*.
+
+> [!important] Terraform is an **immutable**, **declarative**, Infrastructure as Code provisioning language based on Hashicorp Configuration Language, or optionally JSON.
 
 ## Mutable and Immutable Infrastructure
 - We can upgrade a software on different machines using normal updates but there is a chance that some of the machines might not update because of some missing dependencies.

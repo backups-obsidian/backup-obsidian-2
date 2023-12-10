@@ -1,6 +1,6 @@
 ---
 created: 2023-01-09 22:37
-updated: 2023-12-04 19:23
+updated: 2023-12-10 12:07
 ---
 ---
 **Links**: [[113 Terraform Index]]
@@ -39,6 +39,12 @@ updated: 2023-12-04 19:23
 	- ![[attachments/Pasted image 20230114184711.png]]
 	- We can also use absolute path to the child module.
 	- Here `dev-webserver` is the logical name of the module. 
+- *Requirements for publishing and sharing the modules* on Terraform public module registry:
+	- Module repositories must use this three-part name format, `terraform-<PROVIDER>-<NAME>`.
+	- The registry uses tags to identify module versions. 
+		- Release tag names must be for the format `x.y.z`, and can optionally be prefixed with a `v`.
+	- The module must be on GitHub and must be a public repo.
+	- The module must adhere to the standard module structure.
 
 ### How Modules work?
 - When using a new module for the *first time*, we must run either **`terraform init` or `terraform get` to install the module**. 

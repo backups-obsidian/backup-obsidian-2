@@ -1,6 +1,6 @@
 ---
 created: 2023-12-06 19:11
-updated: 2023-12-06 19:39
+updated: 2023-12-10 12:00
 ---
 ---
 **Links**: [[113 Terraform Index]]
@@ -88,3 +88,11 @@ module "tunnel" {
   }
 }
 ```
+
+- **Provider dependencies** are created in several different ways:
+	- Explicit *use of a provider block in Terraform configuration*, optionally including a version constraint.
+	- Use of any *resource block or data block in the configuration, belonging to a particular provider*.
+	- *Existence of any resource instance belonging to a particular provider in the current state*.
+
+> [!note]- The existence of a provider plugin found locally in the working directory DOES NOT itself create a provider dependency. 
+> The plugin can exist without any reference to it in the Terraform configuration.

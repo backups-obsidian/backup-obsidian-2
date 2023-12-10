@@ -1,6 +1,6 @@
 ---
 created: 2023-12-03 14:50
-updated: 2023-12-08 19:48
+updated: 2023-12-10 11:40
 ---
 ---
 **Links**: [[113 Terraform Index]]
@@ -63,3 +63,11 @@ terraform {
 	- Projects help us organize our workspaces into groups, making it easier to find workspaces in large Terraform Cloud organizations.
 
 > [!caution] Deleting a workspace in Terraform cloud DOES NOT destroy its infrastructure.
+
+### Sentinel
+- Why might users want to utilize **Sentinel or OPA** (Open Policy Agent) with Terraform Cloud in their infrastructure workflow?
+	- Sentinel and OPA enable *automated policy checks* to enforce *compliance standards* before applying changes to production environments.
+	- Organizations can *enforce resource naming conventions* or *approved machine images* for improved consistency and clarity.
+	- To provide *real-time feedback on potential security risks in Terraform configurations* during the development process.
+	- Sentinel and OPA can enhance security by *preventing unauthorized changes* to your managed infrastructure.
+	- Sentinel and OPA policies are *defined as code*, which means they can be stored in version control alongside our Terraform configurations.

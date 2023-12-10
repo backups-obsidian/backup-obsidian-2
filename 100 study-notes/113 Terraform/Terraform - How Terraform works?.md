@@ -1,6 +1,6 @@
 ---
 created: 2023-12-02 09:53
-updated: 2023-12-08 18:47
+updated: 2023-12-10 11:46
 ---
 ---
 **Links**: [[113 Terraform Index]]
@@ -308,3 +308,33 @@ terraform {
 > - *Destroy and recreate resources whose arguments have changed* but which *cannot be updated in-place* due to remove API limitations.
 > - Destroy resources that exist in the state but no longer exist in the configuration.
 > - Create resources that exist in configuration but are not associated with a real infrastructure object in the state.
+
+### Parallelism
+- By default, Terraform will provision resources concurrently with a **maximum of 10 concurrent resource operations**. 
+	- This setting is controlled by the `parallelism` configuration option in Terraform, which can be set globally in the Terraform configuration file or on a per-module basis.
+- The `parallelism` setting determines the *number of resource operations that Terraform will run in parallel*, so **increasing the `parallelism` setting will result in Terraform provisioning resources more quickly, but can also increase the risk of rate-limiting or other errors from the API**.
+- We can adjust the `parallelism` setting in our Terraform configuration file by adding the following code:
+
+```hcl title="parallelism in terraform" fold
+terraform {
+	parallelism = 20
+}
+```
+
+### Syntax
+- Terraform can be expressed using two syntaxes: 
+	- **HashiCorp Configuration Language (HCL)**, which is the primary syntax for Terraform 
+	- **JSON**.
+- The _HCL syntax is designed to be human-readable and easy to write_, and it provides many features designed explicitly for Terraform, such as interpolation, variables, and modules.
+- The **JSON syntax is a machine-readable alternative** to HCL, and it is typically used when *importing existing infrastructure* into Terraform or when *integrating Terraform with other tools that expect data in JSON format*.
+- While Terraform will automatically detect the syntax of a file based on its extension, we can also specify the syntax explicitly by:
+
+```hcl title:"json syntax" fold
+# HCL syntax Example
+# terraform { }
+
+# JSON syntax Exmample
+{
+	"terraform": {}
+}
+```

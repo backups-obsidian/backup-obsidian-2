@@ -1,6 +1,6 @@
 ---
 created: 2023-12-02 13:04
-updated: 2023-12-07 18:36
+updated: 2023-12-10 11:49
 ---
 ---
 **Links**: [[113 Terraform Index]]
@@ -36,8 +36,12 @@ variable "variable_name" {
 ```
 
 - The variable name should be *unique among the variables in the same module*.
-
-> [!caution] We can use any name for a variable except for: `source`, `version`, `providers`, `count`, `for_each`, `lifecycle`, `depends_on` and `locals`. 
+- **Variable naming convention**:
+	- It CANNOT start with a number.
+	- It CANNOT contain spaces or special characters *except underscore*.
+	- It CANNOT contain only numbers.
+	- It CANNOT contain Terraform reserved keywords like `source`, `version`, `providers`, `count`, `for_each`, `lifecycle`, `depends_on` and `locals`.
+- It is recommended to use only lowercase letters, numbers, and underscores in variable names
 
 - We can refer to variables in our configuration with `var.<variable_name>`.
 	- **When using variable we need not enclose the values within double quotes otherwise they will be treated as strings**.

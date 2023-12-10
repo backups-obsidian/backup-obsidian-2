@@ -1,6 +1,6 @@
 ---
 created: 2023-01-02 20:06
-updated: 2023-12-08 18:41
+updated: 2023-12-10 12:02
 ---
 ---
 **Links**: [[113 Terraform Index]]
@@ -50,3 +50,6 @@ updated: 2023-12-08 18:41
 	- **This is automatically run by `terraform plan` and `terraform apply`**.
 		- We can bypass this behaviour by using `-refresh=false` with the above commands.
 - `terraform graph`: generate a visual representation in the DOT format which then needs to be passed through a visualization tool.
+- `terraform force-unlock`: Manually unlock the state for the defined configuration.
+	- The behaviour of this lock is dependent on the backend being used. 
+	- *Local state files CANNOT be unlocked by another process*.

@@ -1,6 +1,6 @@
 ---
 created: 2023-01-09 22:37
-updated: 2023-12-07 19:05
+updated: 2023-12-10 12:10
 ---
 ---
 **Links**: [[113 Terraform Index]]
@@ -40,6 +40,9 @@ updated: 2023-12-07 19:05
 
 > [!note] By default if no backend is specified then terraform defaults to local backend.
 
+- Some **supported backends are S3, local and Consul**.
+	- *GitHub as a backend is NOT supported*.
+ 
 ### Remote backends using S3
 - For this we will need an *S3 bucket* and a **DynamoDB table for implementing state locking**.
 	- ![[attachments/Pasted image 20230111102450.png]]

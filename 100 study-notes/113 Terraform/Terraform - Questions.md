@@ -1,6 +1,6 @@
 ---
 created: 2023-12-09 09:26
-updated: 2023-12-09 10:22
+updated: 2023-12-10 12:11
 ---
 ---
 **Links**: [[113 Terraform Index]]
@@ -43,3 +43,5 @@ updated: 2023-12-09 10:22
 		- *It CANNOT reference other objects in the configuration*.
 	- `default` value will be used if no value is set when calling the module or running Terraform.
 	- If present, the variable is considered to be optional.
+- When multiple arguments with single-line values appear on consecutive lines at the same nesting level, HashiCorp recommends that we *align the equals signs*.
+- Hashicorp recommends using **two spaces** for indentation when writing Terraform code.

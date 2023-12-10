@@ -28,7 +28,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 study-notes/113 Terraform/Terraform - Questions.md",
+                "file": "100 study-notes/113 Terraform/Terraform - Remote State.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 study-notes/113 Terraform/Terraform - Expressions.md",
+                "file": "100 study-notes/113 Terraform/Terraform - Questions.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -49,7 +49,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "path:113 graph",
+                "query": "path:113 backend",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -207,7 +207,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -228,32 +228,32 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a6c3ff0d0b7cc90a",
+  "active": "f8d33578b7ed0daf",
   "lastOpenFiles": [
-    "100 study-notes/113 Terraform/Terraform - Expressions.md",
-    "100 study-notes/113 Terraform/113 Terraform Index.md",
-    "100 study-notes/113 Terraform/Terraform - Count & for each.md",
-    "100 study-notes/113 Terraform/Terraform - Questions.md",
-    "100 study-notes/113 Terraform/Terraform - Resource Attributes & Dependencies.md",
-    "100 study-notes/113 Terraform/Terraform - Terraform Cloud.md",
-    "100 study-notes/113 Terraform/Terraform - Modules.md",
-    "100 study-notes/113 Terraform/Terraform - Import & Datasources.md",
-    "100 study-notes/113 Terraform/Terraform - Managing Multiple Environments.md",
-    "100 study-notes/113 Terraform/Terraform - Miscellaneous.md",
-    "100 study-notes/113 Terraform/Terraform - Lifecycle Rules.md",
-    "100 study-notes/113 Terraform/Terraform - How Terraform works?.md",
-    "100 study-notes/113 Terraform/Terraform - Commands.md",
-    "100 study-notes/113 Terraform/Terraform - Provisioner.md",
-    "100 study-notes/113 Terraform/Terraform - Functions.md",
     "100 study-notes/113 Terraform/Terraform - Remote State.md",
+    "100 study-notes/113 Terraform/Terraform - Questions.md",
+    "100 study-notes/113 Terraform/Terraform - Import & Datasources.md",
+    "100 study-notes/113 Terraform/Terraform - Variables.md",
+    "100 study-notes/113 Terraform/113 Terraform Index.md",
+    "100 study-notes/113 Terraform/Terraform - Modules.md",
+    "100 study-notes/113 Terraform/Terraform - Functions.md",
+    "100 study-notes/113 Terraform/Terraform - Introduction.md",
+    "100 study-notes/113 Terraform/Terraform - Commands.md",
+    "100 study-notes/113 Terraform/Terraform - Providers.md",
+    "100 study-notes/113 Terraform/Terraform - Miscellaneous.md",
+    "100 study-notes/113 Terraform/Terraform - Count & for each.md",
+    "100 study-notes/113 Terraform/Terraform - How Terraform works?.md",
+    "100 study-notes/113 Terraform/Terraform - Terraform Cloud.md",
+    "100 study-notes/113 Terraform/Terraform - Expressions.md",
+    "100 study-notes/113 Terraform/Terraform - Managing Multiple Environments.md",
+    "100 study-notes/113 Terraform/Terraform - Resource Attributes & Dependencies.md",
+    "100 study-notes/113 Terraform/Terraform - Lifecycle Rules.md",
+    "100 study-notes/113 Terraform/Terraform - Provisioner.md",
     "100 study-notes/113 Terraform/Terraform - State.md",
     "100 study-notes/113 Terraform/Terraform - State Manipulation.md",
-    "100 study-notes/113 Terraform/Terraform - Providers.md",
-    "100 study-notes/113 Terraform/Terraform - Variables.md",
     "100 study-notes/113 Terraform/attachments/Pasted image 20231204183836.png",
     "100 study-notes/113 Terraform/Terraform - AWS.md",
     "100 study-notes/113 Terraform/Terraform - Taints, Logging.md",
-    "100 study-notes/113 Terraform/Terraform - Introduction.md",
     "100 study-notes/111 KodeCloud/111 KodeCloud Index.md",
     "100 study-notes/100 home.md",
     "100 study-notes/104 Linux/Linux - File Descriptors.md",

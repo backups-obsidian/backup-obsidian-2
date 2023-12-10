@@ -1,6 +1,6 @@
 ---
 created: 2023-12-03 10:51
-updated: 2023-12-09 09:35
+updated: 2023-12-10 11:53
 ---
 ---
 **Links**: [[113 Terraform Index]]
@@ -35,7 +35,7 @@ updated: 2023-12-09 09:35
 		- Terraform sees that resources at `pet[0]` and `pet[1]` have to be destroyed and replaced.
 
 ## `for_each`
-- **`for_each` works with a map or set of strings.
+- **`for_each` works with a map or set of strings**.
 - If we have a map then then we access the key using `each.key` and value using `each.value`
 	- In case we are using a set or list then `each.key` gives the index and `each.value` is the value of the item.
 
@@ -54,3 +54,19 @@ resource "local_file" "testing" {
 	content = each.value
 }
 ```
+
+- We can also include the for_each content inside the resource block instead of defining it in a variable.
+
+```hcl title:"using for_each without a variable" fold
+resource "local_file" "testing" {
+	for_each = {
+		"key1" = "value1"
+		"key2" = "value2"
+	}
+	filename = each.key
+	content = each.value
+}
+```
+
+> [!note] If we do a `terraform state list` then the resources will be listed as `local_file.testing["key1"]` and `local_file.testing["key2"]`.
+
