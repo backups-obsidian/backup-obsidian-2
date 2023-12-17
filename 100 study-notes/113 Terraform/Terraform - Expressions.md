@@ -1,6 +1,6 @@
 ---
 created: 2023-12-03 18:07
-updated: 2023-12-09 10:02
+updated: 2023-12-17 10:53
 ---
 ---
 **Links**: [[113 Terraform Index]]
@@ -57,6 +57,7 @@ resource aws_security_group "backend-sg" {
 - *`content` defines the body of each generated block under the `dynamic` block*.
 - *We can declare a dynamic block inside a dynamic block*.
 - **We CANNOT declare a dynamic block inside `locals`**.
+- The `dynamic` block makes the configuration hard to read and maintain.
 
 > [!note] We CANNOT use `dynamic` blocks to generate `meta-argument` blocks such as `lifecycle` and `provisioner` blocks.
 

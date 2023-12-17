@@ -1,6 +1,6 @@
 ---
 created: 2023-01-09 22:37
-updated: 2023-12-10 12:10
+updated: 2023-12-14 19:23
 ---
 ---
 **Links**: [[113 Terraform Index]]
@@ -28,7 +28,9 @@ updated: 2023-12-10 12:10
 	- This features is also known as **state locking**.
 	- *This ensures that state file doesn't get corrupted by multiple operations trying to update it at the same time*.
 		- ![[attachments/Pasted image 20230111101911.png]]
-	- Version control systems like GitHub do not support state locking.
+- Some **supported remote backends are `S3`, `local`, `kubernetes` and `Consul`**. If there are multiple team members then go for either S3, kubernetes or Consul backend.
+	- *GitHub as a backend is NOT supported which means it DOESNOT support state locking*.
+	- When using GitHub as the remote backend the state file could become corrupted, if multiple users are trying to make changes at the same time.
 
 - Because of all these reasons it is advised to store the state file in a remote secured shared storage.
 - When we configure a remote backend terraform will *automatically load the state file every time it is required by the terraform operation*.
@@ -40,8 +42,6 @@ updated: 2023-12-10 12:10
 
 > [!note] By default if no backend is specified then terraform defaults to local backend.
 
-- Some **supported backends are S3, local and Consul**.
-	- *GitHub as a backend is NOT supported*.
  
 ### Remote backends using S3
 - For this we will need an *S3 bucket* and a **DynamoDB table for implementing state locking**.
@@ -52,3 +52,4 @@ updated: 2023-12-10 12:10
 	- We need to run `terraform init` to initialise the new backend.
 	- Every time we run `terraform apply` command state file will be downloaded to memory and will be uploaded to remote state after updation.
 	- State file will not be stored in the local configuration directory anymore.
+- The S3 backend supports encryption at rest when the `encrypt` option is enabled.

@@ -1,6 +1,6 @@
 ---
 created: 2023-12-02 13:04
-updated: 2023-12-10 11:49
+updated: 2023-12-16 18:51
 ---
 ---
 **Links**: [[113 Terraform Index]]
@@ -16,6 +16,8 @@ updated: 2023-12-10 11:49
 - Variables allow users to more safely customize their infrastructure by *assigning different values to the variables before execution begins, rather than editing configuration files manually*.
 - Variable declarations *can appear anywhere in the configuration files*. 
 	- However, it is **recommend putting them into a separate file called `variables.tf`** to make it easier for users to understand how they can customize the configuration.
+
+> [!caution]- When it comes to working with variables, the *value that is used in the Terraform configuration will be stored in the state file*, regardless of whether the sensitive argument was set to `true`.
 
 ### Defining Variables
 - The variable block in *terraform accepts 3 parameters: default, type and description*.
@@ -34,6 +36,9 @@ variable "variable_name" {
 	default = "some_default_value"
 }
 ```
+
+> [!caution]- None of the above mentioned fields are required to create a variable.
+> We can create a variable without using any of these too `variable variable_name {}`
 
 - The variable name should be *unique among the variables in the same module*.
 - **Variable naming convention**:

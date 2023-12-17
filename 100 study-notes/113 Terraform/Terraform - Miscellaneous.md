@@ -1,6 +1,6 @@
 ---
 created: 2023-12-02 19:31
-updated: 2023-12-10 11:54
+updated: 2023-12-17 16:48
 ---
 ---
 **Links**: [[113 Terraform Index]]
@@ -28,8 +28,14 @@ updated: 2023-12-10 11:54
 - Different levels: `ERROR -> WARN -> INFO -> DEBUG -> TRACE`
 	- **`trace` is the most verbose**.
 - We can set `TF_LOG` to `JSON` apart from the different levels to get `TRACE` logs in JSON.
+	- Setting `TF_LOG` to `JSON` outputs logs at the `TRACE` level or higher, and uses a parseable JSON encoding as the formatting. 
 - Storing the logs persistently:
 	- `export TF_LOG_PATH=/tmp/terraform.log`
+
+> [!note] Even when `TF_LOG_PATH` is set, `TF_LOG` must be set in order for any logging to be enabled.
+
+- Logging can be enabled *separately for Terraform itself and the provider plugins using the `TF_LOG_CORE` or `TF_LOG_PROVIDER` environment variables*. 
+	- These take the same level arguments as `TF_LOG`, but only activate a subset of the logs.
 - To disable logging we unset the environment variables
 	- `unset TF_LOG`, `unset TF_LOG_PATH`
 

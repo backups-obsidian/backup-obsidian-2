@@ -8,27 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f4ee7e741c998fd8",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
-              },
-              "pinned": true
-            }
-          },
-          {
             "id": "a6c3ff0d0b7cc90a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 study-notes/113 Terraform/Terraform - Remote State.md",
+                "file": "100 study-notes/113 Terraform/Terraform - Miscellaneous.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -48,8 +33,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -68,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "path:113 backend",
+                "query": "path:113 local",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -132,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/113 Terraform/Terraform - Questions.md",
+                "file": "100 study-notes/113 Terraform/Terraform - Miscellaneous.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/113 Terraform/Terraform - Questions.md"
+                "file": "100 study-notes/113 Terraform/Terraform - Miscellaneous.md"
               }
             }
           },
@@ -159,7 +143,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/113 Terraform/Terraform - Questions.md",
+                "file": "100 study-notes/113 Terraform/Terraform - Miscellaneous.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -211,8 +195,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 352.5,
-    "collapsed": true
+    "width": 352.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -228,33 +211,33 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f8d33578b7ed0daf",
+  "active": "a6c3ff0d0b7cc90a",
   "lastOpenFiles": [
-    "100 study-notes/113 Terraform/Terraform - Remote State.md",
+    "100 study-notes/113 Terraform/113 Terraform Index.md",
+    "100 study-notes/113 Terraform/Terraform - State Manipulation.md",
     "100 study-notes/113 Terraform/Terraform - Questions.md",
     "100 study-notes/113 Terraform/Terraform - Import & Datasources.md",
+    "100 study-notes/113 Terraform/Terraform - Providers.md",
+    "100 study-notes/113 Terraform/Terraform - How Terraform works?.md",
+    "100 study-notes/113 Terraform/Terraform - Expressions.md",
     "100 study-notes/113 Terraform/Terraform - Variables.md",
-    "100 study-notes/113 Terraform/113 Terraform Index.md",
+    "100 study-notes/113 Terraform/Terraform - Commands.md",
+    "100 study-notes/113 Terraform/Terraform - Terraform Cloud.md",
     "100 study-notes/113 Terraform/Terraform - Modules.md",
+    "100 study-notes/113 Terraform/Terraform - Remote State.md",
+    "100 study-notes/113 Terraform/Terraform - Count & for each.md",
+    "100 study-notes/113 Terraform/Terraform - State.md",
+    "100 study-notes/113 Terraform/Terraform - Provisioner.md",
+    "100 study-notes/111 KodeCloud/111 KodeCloud Index.md",
+    "100 study-notes/113 Terraform/Terraform - Managing Multiple Environments.md",
     "100 study-notes/113 Terraform/Terraform - Functions.md",
     "100 study-notes/113 Terraform/Terraform - Introduction.md",
-    "100 study-notes/113 Terraform/Terraform - Commands.md",
-    "100 study-notes/113 Terraform/Terraform - Providers.md",
     "100 study-notes/113 Terraform/Terraform - Miscellaneous.md",
-    "100 study-notes/113 Terraform/Terraform - Count & for each.md",
-    "100 study-notes/113 Terraform/Terraform - How Terraform works?.md",
-    "100 study-notes/113 Terraform/Terraform - Terraform Cloud.md",
-    "100 study-notes/113 Terraform/Terraform - Expressions.md",
-    "100 study-notes/113 Terraform/Terraform - Managing Multiple Environments.md",
     "100 study-notes/113 Terraform/Terraform - Resource Attributes & Dependencies.md",
     "100 study-notes/113 Terraform/Terraform - Lifecycle Rules.md",
-    "100 study-notes/113 Terraform/Terraform - Provisioner.md",
-    "100 study-notes/113 Terraform/Terraform - State.md",
-    "100 study-notes/113 Terraform/Terraform - State Manipulation.md",
     "100 study-notes/113 Terraform/attachments/Pasted image 20231204183836.png",
     "100 study-notes/113 Terraform/Terraform - AWS.md",
     "100 study-notes/113 Terraform/Terraform - Taints, Logging.md",
-    "100 study-notes/111 KodeCloud/111 KodeCloud Index.md",
     "100 study-notes/100 home.md",
     "100 study-notes/104 Linux/Linux - File Descriptors.md",
     "100 study-notes/104 Linux/attachments/Pasted image 20231201102054.png",

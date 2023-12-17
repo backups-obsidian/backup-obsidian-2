@@ -1,6 +1,6 @@
 ---
 created: 2023-01-11 16:24
-updated: 2023-12-08 12:15
+updated: 2023-12-12 20:02
 ---
 ---
 **Links**: [[113 Terraform Index]]
@@ -10,7 +10,7 @@ updated: 2023-12-08 12:15
 - Provisioners provide a way for us to *carry out tasks like running commands or scripts on remote resources or on the local machine*.
 - Provisioner block directly *goes inside the resource block*.
 - There are 3 different kinds of provisioner:
-	- `remote-exec`
+	- `remote-exec`: works by using `winrm` (windows) and `ssh` (Linux)
 	- `local-exec`
 	- `file`
 

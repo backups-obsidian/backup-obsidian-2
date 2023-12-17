@@ -1,6 +1,6 @@
 ---
 created: 2023-12-03 14:50
-updated: 2023-12-10 11:40
+updated: 2023-12-16 10:29
 ---
 ---
 **Links**: [[113 Terraform Index]]
@@ -26,6 +26,7 @@ updated: 2023-12-10 11:40
 - **Sentinel is a Policy as code framework** for HashiCorp Enterprise products.
 	- **We use sentinel to create and enforce policies**.
 - Terraform Cloud is the same thing as Terraform Enterprise.
+- *In Terraform cloud a workspace can be mapped to 1 VCS repo*.
 
 > [!note] Terraform Cloud workspaces are NOT the same as Terraform CLI Workspaces.
 
@@ -55,6 +56,7 @@ terraform {
 
 - Login to terraform cloud using `terraform login`.
 	- If login is successful, Terraform will store the token in plain text in the following file for use by subsequent commands: `/Users/<USER>/.terraform.d/credentials.tfrc.json`
+	- API and CLI access are managed with API tokens, which can be generated in the Terraform Cloud UI.
 - Run `terraform init` to *re-initialize your configuration and migrate your state file to Terraform Cloud*.
 	- Once the state file has been migrated *remove the local state file*.
 -  Terraform cloud *workspaces specified in the configuration file will be automatically created if not present*.
@@ -64,6 +66,10 @@ terraform {
 
 > [!caution] Deleting a workspace in Terraform cloud DOES NOT destroy its infrastructure.
 
+> [!important]+ Workspaces, managed with the terraform workspace command, **ISN'T the same thing** as Terraform Cloud's workspaces. 
+> - *Terraform Cloud workspaces* act more like completely **separate working directories**.
+> - *CLI workspaces* (OSS) are **just alternate state files**.
+
 ### Sentinel
 - Why might users want to utilize **Sentinel or OPA** (Open Policy Agent) with Terraform Cloud in their infrastructure workflow?
 	- Sentinel and OPA enable *automated policy checks* to enforce *compliance standards* before applying changes to production environments.
@@ -71,3 +77,11 @@ terraform {
 	- To provide *real-time feedback on potential security risks in Terraform configurations* during the development process.
 	- Sentinel and OPA can enhance security by *preventing unauthorized changes* to your managed infrastructure.
 	- Sentinel and OPA policies are *defined as code*, which means they can be stored in version control alongside our Terraform configurations.
+
+> [!note] Sentinel policy evaluations **occur after Terraform completes the plan and after both run tasks and cost estimation**. 
+> - This order lets us write Sentinel policies to restrict costs based on the data in the cost estimates.
+
+- OPA policy evaluations are slightly different and occur after Terraform completes the plan and after any run tasks. 
+	- *Unlike Sentinel policies, Terraform Cloud evaluates OPA policies immediately before cost estimation*.
+
+> [!note] Sentinel policies are written using the **Sentinel language**.

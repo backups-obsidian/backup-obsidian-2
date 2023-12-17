@@ -1,6 +1,6 @@
 ---
 created: 2023-01-13 15:42
-updated: 2023-12-07 18:51
+updated: 2023-12-17 16:37
 ---
 ---
 **Links**: [[113 Terraform Index]]
@@ -44,6 +44,7 @@ data "terraform_remote_state" "vpc" {
 
 ## Imports
 - Terraform `import` is used for bringing the existing infrastructure under its management.
+	- The `terraform import` command can *only import one resource at a time*.
 - We can read data from other resources not managed by terraform using `data` sources.
 	- *This only helps us to make use of attributes of the datasource*.
 	- The resource itself is not managed by terraform.
@@ -92,3 +93,9 @@ import {
 	- ![[attachments/Pasted image 20230113154727.png]]
 	- Now once the import command works, we fill in the details in the configuration file which we left empty.
 	- `terraform plan` will now refresh the state and resource is now under the control of terraform.
+
+- `import` command examples:
+	- This example will import an AWS instance into the `aws_instance` resource named `foo`: `terraform import aws_instance.foo i-abcd1234`.
+	- **This example below will import an AWS instance into the `aws_instance` resource named `bar` into a module named `foo`**: `terraform import module.foo.aws_instance.bar i-abcd1234`
+	- The example below will import an AWS instance into the first instance of the `aws_instance` resource named `baz` configured with `count`: `terraform import 'aws_instance.baz[0]' i-abcd1234`.
+	- The example below will import an AWS instance into the `"example"` instance of the `aws_instance` resource named `baz` configured with `for_each`: `terraform import 'aws_instance.baz["example"]' i-abcd1234`

@@ -1,6 +1,6 @@
 ---
 created: 2023-01-05 13:23
-updated: 2023-12-07 18:57
+updated: 2023-12-12 20:40
 ---
 ---
 **Links**: [[113 Terraform Index]]
@@ -12,6 +12,24 @@ updated: 2023-12-07 18:57
 |-|
 
 ---
+## Backends
+- Backend is a place where Terraform will store the state file.
+- There are 2 different backends:
+	- **Local backend**: the state file lives on current system
+	- **Remote backend**: the state file is stored somewhere remote.
+		- Remote backend is used for remote state.
+ 
+- *Terraform will use a local backend if no backend configuration is specified*.
+
+```hcl title="specifying the location of state file in a local backend" fold
+terraform {
+	backend "local" {
+		path = "relative/path/to/terraform.tfstate"
+	}
+}
+```
+
+
 ## State
 - When we do `terraform apply` for the first time resources are created and an additional state file `terraform.tfstate` is created in the configuration directory.
 	- **Terraform stores information about our infrastructure in this state file**.

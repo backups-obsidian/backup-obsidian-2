@@ -1,6 +1,6 @@
 ---
 created: 2023-01-02 19:26
-updated: 2023-12-10 10:56
+updated: 2023-12-16 10:00
 ---
 ---
 **Links**: [[../100 home|100 Home]]
@@ -31,3 +31,4 @@ updated: 2023-12-10 10:56
 
 TODO:
 - Learn all terraform commands
+- How to reference output in different types of blocks like data, module, resource, locals etc.

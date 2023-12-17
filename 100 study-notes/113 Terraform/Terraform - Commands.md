@@ -1,6 +1,6 @@
 ---
 created: 2023-01-02 20:06
-updated: 2023-12-10 12:02
+updated: 2023-12-14 19:27
 ---
 ---
 **Links**: [[113 Terraform Index]]
@@ -35,8 +35,11 @@ updated: 2023-12-10 12:02
 - `terraform validate`: To check if the syntax of the terraform files.
 	- **We need to initialize the terraform configuration directory using `terraform init` before running this command**.
 - `terraform fmt`: Format the terraform files.
+	- By default, `fmt` scans the current directory for configuration files and formats them according to the HCP canonical style and format. 
+	- `terraform fmt -recursive` will scan and format files in sub-directories.
 - `terraform state list`: List the state
 - `terraform destroy`: **Delete the infrastructure completely**.
+	- `terraform apply -destroy`
 - `terraform show`: *to provide human-readable output from a **state or plan** file*.
 	- `terraform show <planfile>`: To see the contents of a plan file
 	- `terraform show -json`: To show the contents of the state file in json format.
@@ -53,3 +56,4 @@ updated: 2023-12-10 12:02
 - `terraform force-unlock`: Manually unlock the state for the defined configuration.
 	- The behaviour of this lock is dependent on the backend being used. 
 	- *Local state files CANNOT be unlocked by another process*.
+- `terraform init -migrate-state`: Used to migrate state when terraform's configuration backend changes.

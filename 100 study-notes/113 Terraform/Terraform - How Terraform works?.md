@@ -1,6 +1,6 @@
 ---
 created: 2023-12-02 09:53
-updated: 2023-12-10 11:46
+updated: 2023-12-13 19:41
 ---
 ---
 **Links**: [[113 Terraform Index]]
@@ -75,6 +75,10 @@ terraform {
 	- Terraform automatically manages the `.terraform` directory. 
 	- *DONOT check it into version control, and do not directly modify this directory's contents*.
 
+> [!question]- Margaret is calling a child module to deploy infrastructure for her organization. She specifies the module version she wants to use even though there are newer versions available. During a `terrafom init`, Terraform downloads the specified version just as expected. What would happen if Margaret removed the version parameter in the module block and ran a `terraform init` again?
+> Terraform would use the existing module already downloaded.
+
+What would happen if Margaret removed the version parameter in the module block and ran a `terraform init` again?
 ### Understanding `plan`
 - We can create a json representation of the plan using:
 	- `terraform plan -out tfplan`

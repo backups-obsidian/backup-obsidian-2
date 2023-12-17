@@ -1,6 +1,6 @@
 ---
 created: 2023-12-06 19:11
-updated: 2023-12-10 12:00
+updated: 2023-12-17 16:29
 ---
 ---
 **Links**: [[113 Terraform Index]]
@@ -19,6 +19,7 @@ updated: 2023-12-10 12:00
 	- *Partner*: owned and managed by third party technology but they have been reviewed and tested by Hashicorp. Example DigitalOcean.
 		- The have a *purple tick* against them.
 	- *Community*
+	- *Archived*: no longer mainatined.
 - **Naming of providers: `hostname/organisation-namespace/type`**:
 	- Example: `registry.terraform.io/hashicorp/local`
 - We use the `required_providers` under `terraform` to specify a specific version of a provider.
@@ -34,6 +35,8 @@ provider aws {
 }
 ```
 
+- Unlike many other objects in the Terraform language, *a `provider` block may be omitted if its contents would otherwise be empty*. 
+	- *Terraform assumes an empty default configuration for any provider that is not explicitly configured*.
 - Sometimes we might need to define multiple configurations for the same provider. The primary reason for this is to support multiple regions for a cloud platform
 	- For example we might need to create EC2 instances in 2 different regions.
 	- We use **`alias` to define multiple configurations of the same provider**.
@@ -51,7 +54,8 @@ provider aws {
 
 - **A `provider` block without an `alias` argument is the _default_ configuration for that provider**. 
 	- *Resources that don't set the `provider` meta-argument will use the default provider configuration that matches the first word of the resource type name*.
-		- (For example, an `aws_instance` resource uses the default `aws` provider configuration unless otherwise stated.)
+		- For example, an `aws_instance` resource will use the default `aws` provider configuration unless otherwise stated.
+	- If every explicit configuration of a provider has an alias, Terraform uses the implied empty configuration as that provider's default configuration.
 - If we want to set an **alternate provider configuration for a *resource*** we use the following syntax `<PROVIDER NAME>.<ALIAS>`
 	- In the above example it would be `aws.central`
 
@@ -96,3 +100,35 @@ module "tunnel" {
 
 > [!note]- The existence of a provider plugin found locally in the working directory DOES NOT itself create a provider dependency. 
 > The plugin can exist without any reference to it in the Terraform configuration.
+
+- `configuration_aliases` are **used by the child module** in order *to receive an alternate provider configuration from the parent module*.
+
+```hcl title:"child module with configuration aliases" fold
+terraform {
+  required_providers {
+    aws = {
+      source  = "hashicorp/aws"
+      version = "~> 1.0"
+      configuration_aliases = [ aws.alternate ]
+    }
+  }
+}
+```
+
+```hcl title:"parent module calling the child module" fold
+provider "aws" {
+  alias "alternate"
+  # ...
+}
+
+module "example" {
+  source = "../modules/example"
+
+  providers = {
+    aws.alternate = aws.alternate
+  }
+}
+
+```
+
+- In most cases, only _root modules_ should define provider configurations, with all child modules obtaining their provider configurations from their parents.
