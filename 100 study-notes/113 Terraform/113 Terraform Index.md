@@ -1,6 +1,6 @@
 ---
 created: 2023-01-02 19:26
-updated: 2023-12-16 10:00
+updated: 2023-12-17 20:46
 ---
 ---
 **Links**: [[../100 home|100 Home]]
@@ -28,7 +28,3 @@ updated: 2023-12-16 10:00
 [[Terraform - AWS]]
 [[Terraform - Provisioner]]
 [[Terraform - Questions]]
-
-TODO:
-- Learn all terraform commands
-- How to reference output in different types of blocks like data, module, resource, locals etc.

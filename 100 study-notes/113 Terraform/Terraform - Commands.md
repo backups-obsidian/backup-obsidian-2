@@ -1,6 +1,6 @@
 ---
 created: 2023-01-02 20:06
-updated: 2023-12-17 18:07
+updated: 2023-12-17 20:53
 ---
 ---
 **Links**: [[113 Terraform Index]]
@@ -61,3 +61,17 @@ updated: 2023-12-17 18:07
 - `terraform init -migrate-state`: Used to migrate state when terraform's configuration backend changes.
 - `terraform init -reconfigure`: It is also used to migrate state to a different backend but it *doesn't copy the existing state*.
 - `terraform init -backend-config=...`: It is used for partial backend configuration in situations where backend settings are dynamic or sensitive.
+- `terraform get`: install or upgrade remote terraform modules
+
+## Exam Prep
+- `init`:
+	- ![[attachments/Pasted image 20231217204738.png]]
+- `plan`:
+	- ![[attachments/Pasted image 20231217204823.png]]
+	- ![[attachments/Pasted image 20231217204840.png]]
+- `apply`:
+	- ![[attachments/Pasted image 20231217204907.png]]
+- `state`:
+	- ![[attachments/Pasted image 20231217205209.png]]
+- `workspace`:
+	- ![[attachments/Pasted image 20231217205303.png]]

@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 study-notes/113 Terraform/Terraform - Terraform Cloud.md",
+                "file": "100 study-notes/113 Terraform/113 Terraform Index.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/113 Terraform/Terraform - Terraform Cloud.md",
+                "file": "100 study-notes/113 Terraform/113 Terraform Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/113 Terraform/Terraform - Terraform Cloud.md"
+                "file": "100 study-notes/113 Terraform/113 Terraform Index.md"
               }
             }
           },
@@ -144,7 +144,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/113 Terraform/Terraform - Terraform Cloud.md",
+                "file": "100 study-notes/113 Terraform/113 Terraform Index.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -214,14 +214,21 @@
   },
   "active": "f8d33578b7ed0daf",
   "lastOpenFiles": [
-    "100 study-notes/113 Terraform/Terraform - Variables.md",
+    "100 study-notes/113 Terraform/Terraform - Commands.md",
+    "100 study-notes/113 Terraform/attachments/Pasted image 20231217205303.png",
+    "100 study-notes/113 Terraform/attachments/Pasted image 20231217205209.png",
+    "100 study-notes/113 Terraform/attachments/Pasted image 20231217204907.png",
+    "100 study-notes/113 Terraform/attachments/Pasted image 20231217204840.png",
+    "100 study-notes/113 Terraform/attachments/Pasted image 20231217204823.png",
+    "100 study-notes/113 Terraform/attachments/Pasted image 20231217204738.png",
+    "100 study-notes/113 Terraform/attachments/Pasted image 20231217204702.png",
     "100 study-notes/113 Terraform/113 Terraform Index.md",
-    "100 study-notes/113 Terraform/Terraform - State.md",
     "100 study-notes/113 Terraform/Terraform - Terraform Cloud.md",
+    "100 study-notes/113 Terraform/Terraform - Variables.md",
+    "100 study-notes/113 Terraform/Terraform - State.md",
     "100 study-notes/113 Terraform/Terraform - Questions.md",
     "100 study-notes/113 Terraform/Terraform - Remote State.md",
     "100 study-notes/113 Terraform/Terraform - Import & Datasources.md",
-    "100 study-notes/113 Terraform/Terraform - Commands.md",
     "100 study-notes/113 Terraform/Terraform - Functions.md",
     "100 study-notes/113 Terraform/Terraform - State Manipulation.md",
     "100 study-notes/113 Terraform/Terraform - Managing Multiple Environments.md",
@@ -240,15 +247,7 @@
     "100 study-notes/113 Terraform/Terraform - AWS.md",
     "100 study-notes/113 Terraform/Terraform - Taints, Logging.md",
     "100 study-notes/100 home.md",
-    "100 study-notes/104 Linux/Linux - File Descriptors.md",
     "100 study-notes/104 Linux/attachments/Pasted image 20231201102054.png",
-    "100 study-notes/104 Linux/attachments/Pasted image 20231201095409.png",
-    "100 study-notes/104 Linux/attachments/Pasted image 20231130153303.png",
-    "100 study-notes/104 Linux/attachments/Pasted image 20231130145424.png",
-    "100 study-notes/104 Linux/attachments/Pasted image 20231130145324.png",
-    "100 study-notes/104 Linux/attachments/Pasted image 20231130144025.png",
-    "100 study-notes/104 Linux/attachments/Pasted image 20231130125204.png",
-    "100 study-notes/104 Linux/attachments/Pasted image 20231130124601.png",
-    "100 study-notes/104 Linux/attachments/Pasted image 20231130124303.png"
+    "100 study-notes/104 Linux/attachments/Pasted image 20231201095409.png"
   ]
 }
