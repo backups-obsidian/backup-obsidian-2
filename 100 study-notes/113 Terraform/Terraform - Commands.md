@@ -1,6 +1,6 @@
 ---
 created: 2023-01-02 20:06
-updated: 2023-12-14 19:27
+updated: 2023-12-17 18:07
 ---
 ---
 **Links**: [[113 Terraform Index]]
@@ -56,4 +56,8 @@ updated: 2023-12-14 19:27
 - `terraform force-unlock`: Manually unlock the state for the defined configuration.
 	- The behaviour of this lock is dependent on the backend being used. 
 	- *Local state files CANNOT be unlocked by another process*.
+	- We should use `force-unlock` command to manually unlock the state when automatic unlocking failed.
+	- **Be very careful with this command**.
 - `terraform init -migrate-state`: Used to migrate state when terraform's configuration backend changes.
+- `terraform init -reconfigure`: It is also used to migrate state to a different backend but it *doesn't copy the existing state*.
+- `terraform init -backend-config=...`: It is used for partial backend configuration in situations where backend settings are dynamic or sensitive.

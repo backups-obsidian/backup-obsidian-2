@@ -1,6 +1,6 @@
 ---
 created: 2023-12-09 09:26
-updated: 2023-12-17 11:02
+updated: 2023-12-17 18:06
 ---
 ---
 **Links**: [[113 Terraform Index]]
@@ -20,8 +20,6 @@ updated: 2023-12-17 11:02
 - Lifecycle arguments present: `ignore_changes`, `prevent_destroy`, `create_before_destroy`.
 - `[for o in var.list : o.id]` is same as `var.list[*].id`
 - Every Terraform configuration has at least one module, known as its root module, which consists of the resources defined in the `.tf` files in the main working directory.
-- Logging can be enabled *separately for terraform itself* and the *provider plugins* using the `TF_LOG_CORE` or `TF_LOG_PROVIDER` environment variables. 
-	- These take the same level arguments as `TF_LOG`, but only activate a subset of the logs.
 - For storing secrets 
 	- use backend that supports encryption 
 	- use secret stores like Vault
@@ -69,7 +67,6 @@ provider "aws" {
 - Terraform cloud private module registry can be used to restrict our team members to specific modules that are approved using the organization's security team.
 - `terraform console` locks the state.
 - `slice` is not a valid string function in terraform.
-- We should use `force-unlock` command to manually unlock the state when automatic unlocking failed.
 - You have declared a variable called `var.list` which is a list of objects that all have an attribute `id`. The following will produce a *list of ids*.
 	- `var.list[*].id`
 	- `[ for o in var.list : o.id ]`
@@ -84,3 +81,4 @@ provider "aws" {
 	- The values of the variables are stored but not the description.
 - Terraform providers may not always be installed from the internet.
 - `terraform refresh` is helpful for detecting drift.
+- Terraform Cloud passes workspace variables to Terraform using `-var-file`.

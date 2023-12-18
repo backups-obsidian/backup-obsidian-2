@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 study-notes/113 Terraform/Terraform - Miscellaneous.md",
+                "file": "100 study-notes/113 Terraform/Terraform - Variables.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -26,14 +26,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 study-notes/113 Terraform/Terraform - Questions.md",
+                "file": "100 study-notes/113 Terraform/Terraform - Terraform Cloud.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -52,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "path:113 local",
+                "query": "path:113 backend",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -116,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/113 Terraform/Terraform - Miscellaneous.md",
+                "file": "100 study-notes/113 Terraform/Terraform - Terraform Cloud.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/113 Terraform/Terraform - Miscellaneous.md"
+                "file": "100 study-notes/113 Terraform/Terraform - Terraform Cloud.md"
               }
             }
           },
@@ -143,7 +144,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/113 Terraform/Terraform - Miscellaneous.md",
+                "file": "100 study-notes/113 Terraform/Terraform - Terraform Cloud.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -211,28 +212,28 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a6c3ff0d0b7cc90a",
+  "active": "f8d33578b7ed0daf",
   "lastOpenFiles": [
-    "100 study-notes/113 Terraform/113 Terraform Index.md",
-    "100 study-notes/113 Terraform/Terraform - State Manipulation.md",
-    "100 study-notes/113 Terraform/Terraform - Questions.md",
-    "100 study-notes/113 Terraform/Terraform - Import & Datasources.md",
-    "100 study-notes/113 Terraform/Terraform - Providers.md",
-    "100 study-notes/113 Terraform/Terraform - How Terraform works?.md",
-    "100 study-notes/113 Terraform/Terraform - Expressions.md",
     "100 study-notes/113 Terraform/Terraform - Variables.md",
-    "100 study-notes/113 Terraform/Terraform - Commands.md",
-    "100 study-notes/113 Terraform/Terraform - Terraform Cloud.md",
-    "100 study-notes/113 Terraform/Terraform - Modules.md",
-    "100 study-notes/113 Terraform/Terraform - Remote State.md",
-    "100 study-notes/113 Terraform/Terraform - Count & for each.md",
+    "100 study-notes/113 Terraform/113 Terraform Index.md",
     "100 study-notes/113 Terraform/Terraform - State.md",
+    "100 study-notes/113 Terraform/Terraform - Terraform Cloud.md",
+    "100 study-notes/113 Terraform/Terraform - Questions.md",
+    "100 study-notes/113 Terraform/Terraform - Remote State.md",
+    "100 study-notes/113 Terraform/Terraform - Import & Datasources.md",
+    "100 study-notes/113 Terraform/Terraform - Commands.md",
+    "100 study-notes/113 Terraform/Terraform - Functions.md",
+    "100 study-notes/113 Terraform/Terraform - State Manipulation.md",
+    "100 study-notes/113 Terraform/Terraform - Managing Multiple Environments.md",
+    "100 study-notes/113 Terraform/Terraform - How Terraform works?.md",
+    "100 study-notes/113 Terraform/Terraform - Modules.md",
+    "100 study-notes/113 Terraform/Terraform - Providers.md",
+    "100 study-notes/113 Terraform/Terraform - Miscellaneous.md",
+    "100 study-notes/113 Terraform/Terraform - Expressions.md",
+    "100 study-notes/113 Terraform/Terraform - Count & for each.md",
     "100 study-notes/113 Terraform/Terraform - Provisioner.md",
     "100 study-notes/111 KodeCloud/111 KodeCloud Index.md",
-    "100 study-notes/113 Terraform/Terraform - Managing Multiple Environments.md",
-    "100 study-notes/113 Terraform/Terraform - Functions.md",
     "100 study-notes/113 Terraform/Terraform - Introduction.md",
-    "100 study-notes/113 Terraform/Terraform - Miscellaneous.md",
     "100 study-notes/113 Terraform/Terraform - Resource Attributes & Dependencies.md",
     "100 study-notes/113 Terraform/Terraform - Lifecycle Rules.md",
     "100 study-notes/113 Terraform/attachments/Pasted image 20231204183836.png",

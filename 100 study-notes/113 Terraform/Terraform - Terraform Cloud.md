@@ -1,6 +1,6 @@
 ---
 created: 2023-12-03 14:50
-updated: 2023-12-16 10:29
+updated: 2023-12-17 19:29
 ---
 ---
 **Links**: [[113 Terraform Index]]
@@ -52,12 +52,25 @@ terraform {
     }
   }
 }
+
+# we can also specify the backend block instead of the cloud block
+terraform {
+  backend "remote" {
+    organization = "organization-name"
+
+    workspaces {
+      name = "learn-tfc-aws"
+    }
+  }
+}
 ```
 
 - Login to terraform cloud using `terraform login`.
 	- If login is successful, Terraform will store the token in plain text in the following file for use by subsequent commands: `/Users/<USER>/.terraform.d/credentials.tfrc.json`
 	- API and CLI access are managed with API tokens, which can be generated in the Terraform Cloud UI.
 - Run `terraform init` to *re-initialize your configuration and migrate your state file to Terraform Cloud*.
+	- *After we initialize, Terraform creates a `.terraform/` directory locally*.
+		- This directory contains the most recent backend configuration, including any authentication parameters we provided to the Terraform CLI. We should not check this directory into Git, as it may contain sensitive credentials for our remote backend.
 	- Once the state file has been migrated *remove the local state file*.
 -  Terraform cloud *workspaces specified in the configuration file will be automatically created if not present*.
 - **Every Terraform Cloud workspace belongs to a project**, which is a *group of workspaces*.
@@ -85,3 +98,6 @@ terraform {
 	- *Unlike Sentinel policies, Terraform Cloud evaluates OPA policies immediately before cost estimation*.
 
 > [!note] Sentinel policies are written using the **Sentinel language**.
+
+- Once we define policies using sentinel, we must **add them to policy sets** that Terraform Cloud can enforce globally or on specific projects and workspaces.
+- Policy sets are the mapping between policies and workspaces.

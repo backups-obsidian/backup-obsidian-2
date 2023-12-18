@@ -1,6 +1,6 @@
 ---
 created: 2023-12-02 13:04
-updated: 2023-12-16 18:51
+updated: 2023-12-17 18:41
 ---
 ---
 **Links**: [[113 Terraform Index]]
@@ -28,6 +28,12 @@ updated: 2023-12-16 18:51
 		- The basic types that can be used are `string`, `number`, `boolean` and `any`
 		- **If type parameter is not specified then it is set to `any` by default**.
 		- Other complex types are `list`, `map`, `tuple`, `object` and `set`.
+	- `validation` is used to define validation rules, usually in addition to type constraints.
+	- `sensitive` redacts terraform UI/CLI output when the variable is used in configuration.
+	- `nullable` specifies if the variable can be null within the module.
+		- The default value for `nullable` is `true`.
+		- When `nullable` is `true`, `null` is a valid value for the variable, and the module configuration must always account for the possibility of the variable value being `null`. 
+		- Setting `nullable` to `false` ensures that the variable value will never be `null` within the module.
  
 - To create a variable we use the following syntax
 
@@ -69,6 +75,7 @@ variable "variable_name" {
 	- ![[attachments/Pasted image 20230102223614.png]]
 - `map`: A lookup table, matching keys to values, all of the *same type*.
 	- ![[attachments/Pasted image 20230102223751.png]]
+	- Maps can be made with braces (`{}`) and colons (`:`) or equals signs (`=`): `{ "foo": "bar", "bar": "baz" }` OR `{ foo = "bar", bar = "baz" }`. Quotes may be omitted on keys, unless the key starts with a number, in which case quotes are required.
 - `set`: An unordered collection of unique values, *all of the same type*.
 	- ![[attachments/Pasted image 20230102224145.png]]
 - `objects`: it is a complex data type which can contain other data types
@@ -211,3 +218,29 @@ output "db_password" {
 }
 ```
 
+#### Output dependencies
+```hcl title:"output dependencies using depends_on" fold
+output "instance_ip_addr" {
+  value       = aws_instance.server.private_ip
+  description = "The private IP address of the main server instance."
+
+  depends_on = [
+    # Security group rule must be created before this IP address could
+    # actually be used, otherwise the services will be unreachable.
+    aws_security_group_rule.local_access,
+  ]
+}
+```
+
+#### Using precondition checks
+```hcl title:"Using precondition checks" fold
+output "api_base_url" {
+  value = "https://${aws_instance.example.private_dns}:8433/"
+
+  # The EC2 instance must have an encrypted root volume.
+  precondition {
+    condition     = data.aws_ebs_volume.example.encrypted
+    error_message = "The server's root volume is not encrypted."
+  }
+}
+```

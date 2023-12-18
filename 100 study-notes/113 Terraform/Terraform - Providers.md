@@ -1,6 +1,6 @@
 ---
 created: 2023-12-06 19:11
-updated: 2023-12-17 16:29
+updated: 2023-12-17 16:54
 ---
 ---
 **Links**: [[113 Terraform Index]]
@@ -20,7 +20,7 @@ updated: 2023-12-17 16:29
 		- The have a *purple tick* against them.
 	- *Community*
 	- *Archived*: no longer mainatined.
-- **Naming of providers: `hostname/organisation-namespace/type`**:
+- **Naming of providers: `HOSTNAME/ORGANISATION-NAMESPACE/TYPE`**:
 	- Example: `registry.terraform.io/hashicorp/local`
 - We use the `required_providers` under `terraform` to specify a specific version of a provider.
 

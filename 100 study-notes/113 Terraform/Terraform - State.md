@@ -1,6 +1,6 @@
 ---
 created: 2023-01-05 13:23
-updated: 2023-12-12 20:40
+updated: 2023-12-17 18:20
 ---
 ---
 **Links**: [[113 Terraform Index]]
@@ -21,14 +21,13 @@ updated: 2023-12-12 20:40
  
 - *Terraform will use a local backend if no backend configuration is specified*.
 
-```hcl title="specifying the location of state file in a local backend" fold
+```hcl title:"specifying the location of state file in a local backend" fold
 terraform {
 	backend "local" {
 		path = "relative/path/to/terraform.tfstate"
 	}
 }
 ```
-
 
 ## State
 - When we do `terraform apply` for the first time resources are created and an additional state file `terraform.tfstate` is created in the configuration directory.

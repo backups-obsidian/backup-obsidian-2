@@ -1,6 +1,6 @@
 ---
 created: 2023-01-09 22:37
-updated: 2023-12-12 20:41
+updated: 2023-12-17 16:54
 ---
 ---
 **Links**: [[113 Terraform Index]]
@@ -53,6 +53,9 @@ updated: 2023-12-12 20:41
 > [!important] For **local modules**, Terraform will create a **symlink** to the module's directory. Because of this, **any changes to local modules will be effective immediately**, without having to reinitialize or re-run `terraform get`.
 
 ### Using Modules
+- Referring to a private registry we use the format: `HOSTNAME/ORGANISATION-NAMESPACE/NAME/PROVIDER`.
+	- `app.terraform.io/example_corp/vpc/aws`
+
 #### Using Modules from Terraform Registry
 - The **`source` argument is required** when we use a Terraform module.
 - The **`version` argument is NOT required** but it is *highly recommended* when using a Terraform module.
