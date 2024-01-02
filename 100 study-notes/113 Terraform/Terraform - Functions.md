@@ -1,6 +1,6 @@
 ---
 created: 2023-01-14 19:23
-updated: 2023-12-08 18:19
+updated: 2023-12-19 19:56
 ---
 ---
 **Links**: [[113 Terraform Index]]
@@ -85,7 +85,7 @@ variable "user_department" {
 }
 ```
 
-```hcl title:"Using the template file with the arguments" fold
+```hcl hl:7 title:"Using the template file with the arguments" fold
 resource "aws_instance" "web" {
   ami                         = data.aws_ami.ubuntu.id
   instance_type               = "t2.micro"

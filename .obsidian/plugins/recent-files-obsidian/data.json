@@ -1,60 +1,80 @@
 {
   "recentFiles": [
     {
-      "basename": "113 Terraform Index",
-      "path": "100 study-notes/113 Terraform/113 Terraform Index.md"
+      "basename": "Prometheus - PromQL",
+      "path": "100 study-notes/118 Prometheus/Prometheus - PromQL.md"
+    },
+    {
+      "basename": "118 Prometheus Index",
+      "path": "100 study-notes/118 Prometheus/118 Prometheus Index.md"
+    },
+    {
+      "basename": "Prometheus - Metrics & Labels",
+      "path": "100 study-notes/118 Prometheus/Prometheus - Metrics & Labels.md"
+    },
+    {
+      "basename": "Prometheus - Miscellaneous",
+      "path": "100 study-notes/118 Prometheus/Prometheus - Miscellaneous.md"
+    },
+    {
+      "basename": "Prometheus - Authentication & Encryption for Node Exporter",
+      "path": "100 study-notes/118 Prometheus/Prometheus - Authentication & Encryption for Node Exporter.md"
+    },
+    {
+      "basename": "Prometheus - Installation & Configuration",
+      "path": "100 study-notes/118 Prometheus/Prometheus - Installation & Configuration.md"
+    },
+    {
+      "basename": "Prometheus - Architecture",
+      "path": "100 study-notes/118 Prometheus/Prometheus - Architecture.md"
+    },
+    {
+      "basename": "Prometheus - Introduction",
+      "path": "100 study-notes/118 Prometheus/Prometheus - Introduction.md"
+    },
+    {
+      "basename": "Terraform - Count & for each",
+      "path": "100 study-notes/113 Terraform/Terraform - Count & for each.md"
+    },
+    {
+      "basename": "Prometheus - Observability Basics",
+      "path": "100 study-notes/118 Prometheus/Prometheus - Observability Basics.md"
     },
     {
       "basename": "Terraform - Commands",
       "path": "100 study-notes/113 Terraform/Terraform - Commands.md"
     },
     {
-      "basename": "Terraform - Terraform Cloud",
-      "path": "100 study-notes/113 Terraform/Terraform - Terraform Cloud.md"
+      "basename": "100 home",
+      "path": "100 study-notes/100 home.md"
     },
     {
-      "basename": "Terraform - Variables",
-      "path": "100 study-notes/113 Terraform/Terraform - Variables.md"
+      "basename": "113 Terraform Index",
+      "path": "100 study-notes/113 Terraform/113 Terraform Index.md"
     },
     {
-      "basename": "Terraform - State",
-      "path": "100 study-notes/113 Terraform/Terraform - State.md"
+      "basename": "116 CSS Index",
+      "path": "100 study-notes/116 CSS/116 CSS Index.md"
+    },
+    {
+      "basename": "117 Full Stack Index",
+      "path": "100 study-notes/117 Full Stack Development/117 Full Stack Index.md"
     },
     {
       "basename": "Terraform - Questions",
       "path": "100 study-notes/113 Terraform/Terraform - Questions.md"
     },
     {
-      "basename": "Terraform - Remote State",
-      "path": "100 study-notes/113 Terraform/Terraform - Remote State.md"
+      "basename": "Terraform - Provisioner",
+      "path": "100 study-notes/113 Terraform/Terraform - Provisioner.md"
     },
     {
-      "basename": "Terraform - Import & Datasources",
-      "path": "100 study-notes/113 Terraform/Terraform - Import & Datasources.md"
+      "basename": "Terraform - AWS",
+      "path": "100 study-notes/113 Terraform/Terraform - AWS.md"
     },
     {
-      "basename": "Terraform - Functions",
-      "path": "100 study-notes/113 Terraform/Terraform - Functions.md"
-    },
-    {
-      "basename": "Terraform - State Manipulation",
-      "path": "100 study-notes/113 Terraform/Terraform - State Manipulation.md"
-    },
-    {
-      "basename": "Terraform - Managing Multiple Environments",
-      "path": "100 study-notes/113 Terraform/Terraform - Managing Multiple Environments.md"
-    },
-    {
-      "basename": "Terraform - How Terraform works?",
-      "path": "100 study-notes/113 Terraform/Terraform - How Terraform works?.md"
-    },
-    {
-      "basename": "Terraform - Modules",
-      "path": "100 study-notes/113 Terraform/Terraform - Modules.md"
-    },
-    {
-      "basename": "Terraform - Providers",
-      "path": "100 study-notes/113 Terraform/Terraform - Providers.md"
+      "basename": "Terraform - Terraform Cloud",
+      "path": "100 study-notes/113 Terraform/Terraform - Terraform Cloud.md"
     },
     {
       "basename": "Terraform - Miscellaneous",
@@ -65,36 +85,60 @@
       "path": "100 study-notes/113 Terraform/Terraform - Expressions.md"
     },
     {
-      "basename": "Terraform - Count & for each",
-      "path": "100 study-notes/113 Terraform/Terraform - Count & for each.md"
+      "basename": "Terraform - Functions",
+      "path": "100 study-notes/113 Terraform/Terraform - Functions.md"
     },
     {
-      "basename": "Terraform - Provisioner",
-      "path": "100 study-notes/113 Terraform/Terraform - Provisioner.md"
+      "basename": "Terraform - Managing Multiple Environments",
+      "path": "100 study-notes/113 Terraform/Terraform - Managing Multiple Environments.md"
     },
     {
-      "basename": "111 KodeCloud Index",
-      "path": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md"
-    },
-    {
-      "basename": "Terraform - Introduction",
-      "path": "100 study-notes/113 Terraform/Terraform - Introduction.md"
-    },
-    {
-      "basename": "Terraform - Resource Attributes & Dependencies",
-      "path": "100 study-notes/113 Terraform/Terraform - Resource Attributes & Dependencies.md"
+      "basename": "Terraform - Modules",
+      "path": "100 study-notes/113 Terraform/Terraform - Modules.md"
     },
     {
       "basename": "Terraform - Lifecycle Rules",
       "path": "100 study-notes/113 Terraform/Terraform - Lifecycle Rules.md"
     },
     {
-      "basename": "Terraform - AWS",
-      "path": "100 study-notes/113 Terraform/Terraform - AWS.md"
+      "basename": "Terraform - Import & Datasources",
+      "path": "100 study-notes/113 Terraform/Terraform - Import & Datasources.md"
     },
     {
-      "basename": "100 home",
-      "path": "100 study-notes/100 home.md"
+      "basename": "Terraform - State Manipulation",
+      "path": "100 study-notes/113 Terraform/Terraform - State Manipulation.md"
+    },
+    {
+      "basename": "Terraform - Remote State",
+      "path": "100 study-notes/113 Terraform/Terraform - Remote State.md"
+    },
+    {
+      "basename": "Terraform - State",
+      "path": "100 study-notes/113 Terraform/Terraform - State.md"
+    },
+    {
+      "basename": "Terraform - Resource Attributes & Dependencies",
+      "path": "100 study-notes/113 Terraform/Terraform - Resource Attributes & Dependencies.md"
+    },
+    {
+      "basename": "Terraform - Variables",
+      "path": "100 study-notes/113 Terraform/Terraform - Variables.md"
+    },
+    {
+      "basename": "Terraform - Providers",
+      "path": "100 study-notes/113 Terraform/Terraform - Providers.md"
+    },
+    {
+      "basename": "Terraform - How Terraform works?",
+      "path": "100 study-notes/113 Terraform/Terraform - How Terraform works?.md"
+    },
+    {
+      "basename": "Terraform - Introduction",
+      "path": "100 study-notes/113 Terraform/Terraform - Introduction.md"
+    },
+    {
+      "basename": "111 KodeCloud Index",
+      "path": "100 study-notes/111 KodeCloud/111 KodeCloud Index.md"
     },
     {
       "basename": "Linux - File Descriptors",
@@ -155,50 +199,6 @@
     {
       "basename": "KodeCloud - CKAD - API & API Groups",
       "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - API & API Groups.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - RBAC",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - RBAC.md"
-    },
-    {
-      "basename": "KodeCloud - CKAD - Port Forwarding vs Proxy",
-      "path": "100 study-notes/111 KodeCloud/KodeCloud - CKAD - Port Forwarding vs Proxy.md"
-    },
-    {
-      "basename": "Linux - GNU - Parallel",
-      "path": "100 study-notes/104 Linux/Linux - GNU - Parallel.md"
-    },
-    {
-      "basename": "ELB",
-      "path": "100 study-notes/101 AWS SAA/ELB.md"
-    },
-    {
-      "basename": "101 AWS SAA Index",
-      "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
-    },
-    {
-      "basename": "Launch Configuration-Template",
-      "path": "100 study-notes/101 AWS SAA/Launch Configuration-Template.md"
-    },
-    {
-      "basename": "Termination Policy & Life Cycle Hooks",
-      "path": "100 study-notes/101 AWS SAA/Termination Policy & Life Cycle Hooks.md"
-    },
-    {
-      "basename": "Python - Correct way of running modules",
-      "path": "100 study-notes/108 Python/Python - Correct way of running modules.md"
-    },
-    {
-      "basename": "Scaling Policies",
-      "path": "100 study-notes/101 AWS SAA/Scaling Policies.md"
-    },
-    {
-      "basename": "Linux - SSL - Getting Certificates",
-      "path": "100 study-notes/104 Linux/Linux - SSL - Getting Certificates.md"
-    },
-    {
-      "basename": "Linux - Miscellaneous",
-      "path": "100 study-notes/104 Linux/Linux - Miscellaneous.md"
     }
   ],
   "omittedPaths": [],

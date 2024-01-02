@@ -1,6 +1,6 @@
 ---
 created: 2023-12-06 19:11
-updated: 2023-12-17 16:54
+updated: 2023-12-19 08:45
 ---
 ---
 **Links**: [[113 Terraform Index]]
@@ -13,7 +13,7 @@ updated: 2023-12-17 16:54
 
 ---
 ## Understanding Providers
-- There are *3 different kinds of providers*:
+- There are *4 different kinds of providers*:
 	- *Official*: owned and maintained by Hashicorp. Example AWS.
 		- They have a *gold badge* against them.
 	- *Partner*: owned and managed by third party technology but they have been reviewed and tested by Hashicorp. Example DigitalOcean.

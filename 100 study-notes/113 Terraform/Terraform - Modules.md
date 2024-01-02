@@ -1,6 +1,6 @@
 ---
 created: 2023-01-09 22:37
-updated: 2023-12-17 16:54
+updated: 2023-12-19 19:37
 ---
 ---
 **Links**: [[113 Terraform Index]]
@@ -108,7 +108,7 @@ output "vpc_public_subnets" {
 - In the above example *none of these files are required, or have any special meaning to Terraform when it uses our module*. 
 	- We can create a module with a single `.tf` file, or use any other file structure we like.
 - There is generally *no `provider` block in module configuration*. 
-	- When Terraform processes a module block, it will **inherit the provider from the enclosing configuration**. 
+	- When Terraform processes a module block, it will **inherit the provider from the enclosing configuration** or **specific providers can be passed to modules**.
 	- It is *recommend that we DONOT include `provider` blocks in modules*.
 - Variables declared in modules that aren't given a default value are required, and so must be set whenever we use the module.
 - If we want to expose some outputs to be used in the root module then we should expose them from the child module using the `output` block.

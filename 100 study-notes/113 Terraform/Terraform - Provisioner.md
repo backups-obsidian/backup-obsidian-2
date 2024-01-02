@@ -1,6 +1,6 @@
 ---
 created: 2023-01-11 16:24
-updated: 2023-12-12 20:02
+updated: 2023-12-19 21:44
 ---
 ---
 **Links**: [[113 Terraform Index]]
@@ -14,8 +14,7 @@ updated: 2023-12-12 20:02
 	- `local-exec`
 	- `file`
 
-> [!note]- For the provisioner script/commands to work there should be **network connectivity between the  local machine (running terraform) and the remote instance**.
-> ![[attachments/Pasted image 20230111162504.png]]
+> [!note] For the provisioner script/commands to work there should be **network connectivity between the  local machine (running terraform) and the remote instance**.
 
 - Example of *remote exec* provisioner:
 	- ***remote exec* provisioners require a connection block**.

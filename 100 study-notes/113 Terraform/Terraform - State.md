@@ -1,6 +1,6 @@
 ---
 created: 2023-01-05 13:23
-updated: 2023-12-17 18:20
+updated: 2023-12-19 18:55
 ---
 ---
 **Links**: [[113 Terraform Index]]
@@ -50,8 +50,7 @@ terraform {
 > ![[attachments/Pasted image 20230106092620.png]]
 
 - We need to *ensure that state file is stored in a secure storage*.
-- When working as a team it is considered best practice to store terraform configuration files in version control.
-	- But due to the *sensitive nature* of the state file it is *NOT recommended to them in version control*.
+	- Due to the *sensitive nature* of the state file it is *NOT recommended to them in version control*.
 
 > [!caution]+ We should *NEVER attempt to manually edit the state files*.
 > If we want to make changes to the state we should use terraform state commands.
@@ -133,10 +132,6 @@ terraform {
 > [!question]- Imagine that we are managing a file using terraform and we change the contents of the file manually. What will happen if we refresh (`terraform refresh`) the state now?
 > - Since we have manually changed the contents of the file, performing a refresh would modify the state file such that resource is no longer present in the state file.
 > - This is because Terraform will try to find the file with the content present in the state file and once it can no longer find it, it will think that it has been manually deleted.
-
-- Since there can be multiple developers working with terraform and it acts as a source of truth it is **recommended to save the terraform file in a remote location** so that state can be shared between all the members of the team at the same time.
-	- Some examples of remote state stores are: AWS S3, GC Storage, HashiCorp Consul, Terraform Cloud.
-
 
 ### Using `-refresh-only` instead of `terraform refresh`
 - `terraform refresh` command is deprecated.

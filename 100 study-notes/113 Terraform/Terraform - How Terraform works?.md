@@ -1,6 +1,6 @@
 ---
 created: 2023-12-02 09:53
-updated: 2023-12-13 19:41
+updated: 2023-12-19 08:45
 ---
 ---
 **Links**: [[113 Terraform Index]]
@@ -8,14 +8,14 @@ updated: 2023-12-13 19:41
 | Previous: [[Terraform - Introduction]] |
 |-|
 
-| Next: [[Terraform - Commands]] |
+| Next: [[Terraform - Providers]] |
 |-|
 
 ---
 ## How Terraform Works?
 - Terraform works in *3 phases: `init`, `plan` and `apply`*.
 	- During the `init` phase terraform **configures the backend**, **installs all providers (`./terraform/plugins`) and modules (`./terraform/modules`)** referred to in your configuration, and *creates a version lock file* if one DOESN'T already exist.
-		- `init` command is also used to *change your workspace's backend* and *upgrade your workspace's providers and modules*.
+		- `init` command is also used to *change our workspace's backend* and *upgrade our workspace's providers and modules*.
 	- During the `plan` phase terraform drafts a plan to get to the target state.
 		- Terraform creates the plan by comparing out Terraform configuration to the state of our infrastructure.
 	- During the `apply` phase terraform makes the necessary changes to the target environment to bring it to the desired state.
@@ -78,7 +78,6 @@ terraform {
 > [!question]- Margaret is calling a child module to deploy infrastructure for her organization. She specifies the module version she wants to use even though there are newer versions available. During a `terrafom init`, Terraform downloads the specified version just as expected. What would happen if Margaret removed the version parameter in the module block and ran a `terraform init` again?
 > Terraform would use the existing module already downloaded.
 
-What would happen if Margaret removed the version parameter in the module block and ran a `terraform init` again?
 ### Understanding `plan`
 - We can create a json representation of the plan using:
 	- `terraform plan -out tfplan`
@@ -291,11 +290,11 @@ What would happen if Margaret removed the version parameter in the module block 
 		- If Terraform detects an *existing lock file (`.terraform.tfstate.lock.info`), it will report an error and exit*.
 	- Create a plan, and wait for you to approve it. 
 		- Alternatively, you can provide a *saved plan* created with the `terraform plan` command, in which case **Terraform will NOT prompt for approval**.
-	- Execute the steps defined in the plan using the providers you installed when you initialized your configuration. 
+	- Execute the steps defined in the plan using the providers we installed when you initialized your configuration. 
 		- **Terraform executes steps in parallel when possible**, and *sequentially when one resource depends on another*.
-	- *Update your workspace's state with a snapshot of the new state of your resources*.
-	- Unlock your workspace's state by deleting the lock file.
-	- Report the changes it made, as well as any output values defined in your configuration.
+	- *Update our workspace's state with a snapshot of the new state of our resources*.
+	- Unlock our workspace's state by deleting the lock file.
+	- Report the changes it made, as well as any output values defined in our configuration.
 - When Terraform **encounters an error** during an apply step, it will:
 	- Log the error and report it to the console. 
 	- *Update the state file with any changes to your resources*.
@@ -319,7 +318,7 @@ What would happen if Margaret removed the version parameter in the module block 
 - The `parallelism` setting determines the *number of resource operations that Terraform will run in parallel*, so **increasing the `parallelism` setting will result in Terraform provisioning resources more quickly, but can also increase the risk of rate-limiting or other errors from the API**.
 - We can adjust the `parallelism` setting in our Terraform configuration file by adding the following code:
 
-```hcl title="parallelism in terraform" fold
+```hcl hl:2 title="parallelism in terraform" fold
 terraform {
 	parallelism = 20
 }

@@ -1,6 +1,6 @@
 ---
 created: 2023-12-02 13:04
-updated: 2023-12-17 18:41
+updated: 2023-12-19 09:43
 ---
 ---
 **Links**: [[113 Terraform Index]]
@@ -20,7 +20,7 @@ updated: 2023-12-17 18:41
 > [!caution]- When it comes to working with variables, the *value that is used in the Terraform configuration will be stored in the state file*, regardless of whether the sensitive argument was set to `true`.
 
 ### Defining Variables
-- The variable block in *terraform accepts 3 parameters: default, type and description*.
+- The variable block in *terraform accepts several parameters*.
 	- `default` parameter in our variable block is also optional. 
 		- If we don't have this field and use this variable then terraform will ask us to enter the value interactively when we run `terraform apply`
 	- `description` is optional but it is a good practice to describe what the variable is used for.
@@ -44,7 +44,7 @@ variable "variable_name" {
 ```
 
 > [!caution]- None of the above mentioned fields are required to create a variable.
-> We can create a variable without using any of these too `variable variable_name {}`
+> We can create a variable without using any of these too `variable "variable_name" {}`
 
 - The variable name should be *unique among the variables in the same module*.
 - **Variable naming convention**:
@@ -63,7 +63,7 @@ variable "variable_name" {
 	- If we want to refer sensitive inputs in outputs then we have to use [[Terraform - Variables#Sensitive Outputs | Sensitive Outputs]]
 - Marking variables as sensitive is not sufficient to secure them since they are stored in plain text in the local state file.  
 	- Terraform Cloud encrypts all variable values before storing them.
-- The Terraform `console` command opens an interactive console that we can use to evaluate expressions in the context of your configuration. 
+- The Terraform `console` command opens an interactive console that we can use to evaluate expressions in the context of our configuration. 
 	- This can be very useful when working with and *troubleshooting variable definitions*.
 
 > [!caution] The `terraform console` command loads our Terraform configuration only when it starts. In case we make *changes to variables* we have to *exit and restart the console* to pick up the most recent changes.

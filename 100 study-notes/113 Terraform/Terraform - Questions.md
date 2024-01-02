@@ -1,23 +1,17 @@
 ---
 created: 2023-12-09 09:26
-updated: 2023-12-17 18:06
+updated: 2023-12-19 21:56
 ---
 ---
 **Links**: [[113 Terraform Index]]
 
 ---
 - Given a resource block we CANNOT use `for_each` and `count` together.
-- `lifecycle` meta argument is NOT supported by the `data` block.
-- A label after the variable keyword should be unique among all the variables in the same module.
 - `for_each` works with a `map` and `set` of strings.
-- A module can call other modules using the `module` block.
 - In the UI and VCS workflow, every workspace is associated with a specific branch of a VCS repo of Terraform configurations. 
 	- Terraform Cloud registers webhooks with our VCS provider when we create a workspace, then automatically queues a Terraform run whenever new commits are merged to that branch of workspace's linked repository.
 - We CANNOT use `dynamic` blocks to generate `meta-argument` blocks such as `lifecycle` and `provisioner` blocks.
 - `terraform show` displays the whole state, `terraform state show <resource_type>.<resource_name>` is used to show detailed information about a specific resource.
-- We can use version constraints in Provider requirements, `required_version` in the the terraform block and modules.
-- Modules are also of 3 types: Verified, Community & Official.
-- Lifecycle arguments present: `ignore_changes`, `prevent_destroy`, `create_before_destroy`.
 - `[for o in var.list : o.id]` is same as `var.list[*].id`
 - Every Terraform configuration has at least one module, known as its root module, which consists of the resources defined in the `.tf` files in the main working directory.
 - For storing secrets 
@@ -50,7 +44,6 @@ updated: 2023-12-17 18:06
 - There are multiple ways to provide sensitive values when using Terraform. However, sensitive information provided in our configuration can be written to the state file, which is not desirable. Is there a method below that will not result in sensitive information being written to the state file?
 	- When using sensitive values in our Terraform configuration, any configuration will result in the sensitive value being written to the state file.
 - Terraform cloud agents only available for Terraform Cloud for Business.
-- Modules on the public Terraform Registry can be referenced using a registry source address of the form `<NAMESPACE>/<NAME>/<PROVIDER>`.
 
 ```hcl title:"Accessing credentials from a vault" fold
 provider "aws" {
@@ -67,9 +60,6 @@ provider "aws" {
 - Terraform cloud private module registry can be used to restrict our team members to specific modules that are approved using the organization's security team.
 - `terraform console` locks the state.
 - `slice` is not a valid string function in terraform.
-- You have declared a variable called `var.list` which is a list of objects that all have an attribute `id`. The following will produce a *list of ids*.
-	- `var.list[*].id`
-	- `[ for o in var.list : o.id ]`
 - *A single remote backend can map to multiple remote workspaces*.
 	- The remote backend can work with either a single remote Terraform Cloud workspace, or with multiple similarly-named remote workspaces (like networking-dev and networking-prod). *The workspaces block of the backend configuration determines which mode it uses*:
 		- To use a single remote Terraform Cloud workspace, set workspaces.name to the remote workspace's full name (like networking-prod).
@@ -80,5 +70,4 @@ provider "aws" {
 	- It is only used for documentation.
 	- The values of the variables are stored but not the description.
 - Terraform providers may not always be installed from the internet.
-- `terraform refresh` is helpful for detecting drift.
 - Terraform Cloud passes workspace variables to Terraform using `-var-file`.

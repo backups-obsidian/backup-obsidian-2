@@ -13,28 +13,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 study-notes/113 Terraform/Terraform - Variables.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "f8d33578b7ed0daf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100 study-notes/113 Terraform/113 Terraform Index.md",
+                "file": "100 study-notes/118 Prometheus/Prometheus - PromQL.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -96,7 +82,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -117,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/113 Terraform/113 Terraform Index.md",
+                "file": "100 study-notes/118 Prometheus/Prometheus - PromQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/113 Terraform/113 Terraform Index.md"
+                "file": "100 study-notes/118 Prometheus/Prometheus - PromQL.md"
               }
             }
           },
@@ -144,7 +131,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/113 Terraform/113 Terraform Index.md",
+                "file": "100 study-notes/118 Prometheus/Prometheus - PromQL.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -212,42 +199,45 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f8d33578b7ed0daf",
+  "active": "a6c3ff0d0b7cc90a",
   "lastOpenFiles": [
+    "100 study-notes/118 Prometheus/118 Prometheus Index.md",
+    "100 study-notes/118 Prometheus/Prometheus - PromQL.md",
+    "100 study-notes/118 Prometheus/Prometheus - Metrics & Labels.md",
+    "100 study-notes/118 Prometheus/Prometheus - Miscellaneous.md",
+    "100 study-notes/118 Prometheus/attachments/Pasted image 20240101190037.png",
+    "100 study-notes/118 Prometheus/attachments/Pasted image 20240101184751.png",
+    "100 study-notes/118 Prometheus/attachments/Pasted image 20240101184635.png",
+    "100 study-notes/118 Prometheus/attachments/Pasted image 20240101184504.png",
+    "100 study-notes/118 Prometheus/attachments/Pasted image 20240101184337.png",
+    "100 study-notes/118 Prometheus/attachments/Pasted image 20240101183610.png",
+    "100 study-notes/118 Prometheus/attachments/Pasted image 20240101183332.png",
+    "100 study-notes/118 Prometheus/attachments/Pasted image 20240101182418.png",
+    "100 study-notes/118 Prometheus/attachments/Pasted image 20240101182055.png",
+    "100 study-notes/118 Prometheus/Prometheus - Authentication & Encryption for Node Exporter.md",
+    "100 study-notes/118 Prometheus/attachments/Pasted image 20240101181431.png",
+    "100 study-notes/118 Prometheus/Prometheus - Installation & Configuration.md",
+    "100 study-notes/118 Prometheus/Prometheus - Architecture.md",
+    "100 study-notes/118 Prometheus/Prometheus - Introduction.md",
+    "100 study-notes/113 Terraform/Terraform - Count & for each.md",
+    "100 study-notes/118 Prometheus/Prometheus - Observability Basics.md",
     "100 study-notes/113 Terraform/Terraform - Commands.md",
-    "100 study-notes/113 Terraform/attachments/Pasted image 20231217205303.png",
-    "100 study-notes/113 Terraform/attachments/Pasted image 20231217205209.png",
-    "100 study-notes/113 Terraform/attachments/Pasted image 20231217204907.png",
-    "100 study-notes/113 Terraform/attachments/Pasted image 20231217204840.png",
-    "100 study-notes/113 Terraform/attachments/Pasted image 20231217204823.png",
-    "100 study-notes/113 Terraform/attachments/Pasted image 20231217204738.png",
-    "100 study-notes/113 Terraform/attachments/Pasted image 20231217204702.png",
+    "100 study-notes/118 Prometheus/attachments",
+    "100 study-notes/100 home.md",
     "100 study-notes/113 Terraform/113 Terraform Index.md",
-    "100 study-notes/113 Terraform/Terraform - Terraform Cloud.md",
-    "100 study-notes/113 Terraform/Terraform - Variables.md",
-    "100 study-notes/113 Terraform/Terraform - State.md",
+    "100 study-notes/116 CSS/116 CSS Index.md",
+    "100 study-notes/118 Prometheus",
+    "100 study-notes/117 Full Stack Development/117 Full Stack Index.md",
     "100 study-notes/113 Terraform/Terraform - Questions.md",
-    "100 study-notes/113 Terraform/Terraform - Remote State.md",
-    "100 study-notes/113 Terraform/Terraform - Import & Datasources.md",
-    "100 study-notes/113 Terraform/Terraform - Functions.md",
-    "100 study-notes/113 Terraform/Terraform - State Manipulation.md",
-    "100 study-notes/113 Terraform/Terraform - Managing Multiple Environments.md",
-    "100 study-notes/113 Terraform/Terraform - How Terraform works?.md",
-    "100 study-notes/113 Terraform/Terraform - Modules.md",
-    "100 study-notes/113 Terraform/Terraform - Providers.md",
+    "100 study-notes/113 Terraform/Terraform - Provisioner.md",
+    "100 study-notes/113 Terraform/Terraform - AWS.md",
+    "100 study-notes/113 Terraform/Terraform - Terraform Cloud.md",
     "100 study-notes/113 Terraform/Terraform - Miscellaneous.md",
     "100 study-notes/113 Terraform/Terraform - Expressions.md",
-    "100 study-notes/113 Terraform/Terraform - Count & for each.md",
-    "100 study-notes/113 Terraform/Terraform - Provisioner.md",
-    "100 study-notes/111 KodeCloud/111 KodeCloud Index.md",
-    "100 study-notes/113 Terraform/Terraform - Introduction.md",
-    "100 study-notes/113 Terraform/Terraform - Resource Attributes & Dependencies.md",
+    "100 study-notes/113 Terraform/Terraform - Functions.md",
+    "100 study-notes/113 Terraform/Terraform - Managing Multiple Environments.md",
+    "100 study-notes/113 Terraform/Terraform - Modules.md",
     "100 study-notes/113 Terraform/Terraform - Lifecycle Rules.md",
-    "100 study-notes/113 Terraform/attachments/Pasted image 20231204183836.png",
-    "100 study-notes/113 Terraform/Terraform - AWS.md",
-    "100 study-notes/113 Terraform/Terraform - Taints, Logging.md",
-    "100 study-notes/100 home.md",
-    "100 study-notes/104 Linux/attachments/Pasted image 20231201102054.png",
-    "100 study-notes/104 Linux/attachments/Pasted image 20231201095409.png"
+    "100 study-notes/113 Terraform/Terraform - Import & Datasources.md"
   ]
 }

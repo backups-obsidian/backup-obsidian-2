@@ -1,6 +1,6 @@
 ---
 created: 2023-12-03 14:50
-updated: 2023-12-17 19:29
+updated: 2023-12-19 21:32
 ---
 ---
 **Links**: [[113 Terraform Index]]
@@ -19,13 +19,12 @@ updated: 2023-12-17 19:29
 		- We initiate Terraform operations in *our Terminal*, and use *Terraform Cloud's ephemeral remote execution* environments for our operations*.
 	- The *UI/Version Control System(VCS)-driven workflow*, in which **changes pushed to version control repositories trigger runs in the associated workspace**.
 		- We must configure VCS access and create our workspace, then associate it with a repository containing our Terraform configuration. 
-		- We can then configure your workspace to *create speculative plans for any Pull Requests*, which allows our team to review how the changes would modify infrastructure. 
+		- We can then configure our workspace to *create speculative plans for any Pull Requests*, which allows our team to review how the changes would modify infrastructure. 
 		- Any *merges to our main branch then trigger Terraform runs to implement our changes*.
 		> [!note] When using the VCS-driven workflow for Terraform Cloud, we *DONOT need to define the `cloud` block in our configuration*.
 	- The API-driven workflow, which allows you to create tooling to interact with the Terraform Cloud API programmatically.
 - **Sentinel is a Policy as code framework** for HashiCorp Enterprise products.
 	- **We use sentinel to create and enforce policies**.
-- Terraform Cloud is the same thing as Terraform Enterprise.
 - *In Terraform cloud a workspace can be mapped to 1 VCS repo*.
 
 > [!note] Terraform Cloud workspaces are NOT the same as Terraform CLI Workspaces.

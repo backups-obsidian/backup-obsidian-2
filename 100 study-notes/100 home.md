@@ -1,6 +1,6 @@
 ---
 created: 2022-04-18 18:45
-updated: 2023-12-01 11:31
+updated: 2024-01-01 11:00
 ---
 ---
 **Links**: [[../000 home | 000 Home]]
@@ -25,3 +25,4 @@ updated: 2023-12-01 11:31
 [[115 React/115 React Index | React]]
 [[116 CSS/116 CSS Index | CSS]]
 [[117 Full Stack Development/117 Full Stack Index | Full Stack Development]]
+[[118 Prometheus/118 Prometheus Index | Prometheus]]

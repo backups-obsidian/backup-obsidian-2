@@ -1,6 +1,6 @@
 ---
 created: 2023-01-02 20:06
-updated: 2023-12-17 20:53
+updated: 2023-12-19 08:56
 ---
 ---
 **Links**: [[113 Terraform Index]]
@@ -25,7 +25,7 @@ updated: 2023-12-17 20:53
 			- For instance, an error in the EC2 instance's OS configuration could require that the instance be replaced. There is *no corresponding change to your Terraform configuration*, so you want to *instruct Terraform to re-provision the resource using the same configuration*.
 		- Replacing a resource is also useful in cases where a *user manually changes a setting on a resource* or when we need to update a provisioning script. 
 		- It allows us to rebuild specific resources and avoid a full `terraform destroy` operation on your configuration. The `-replace` flag allows us to target specific resources and avoid destroying all the resources in your workspace just to fix one of them.
-		- **In older versions of Terraform, you may have used the `terraform taint` command to achieve a similar outcome. That command has now been deprecated in favor of the `-replace` flag, which allows for a simpler, less error-prone workflow**.
+		- **In older versions of Terraform, we had to use `terraform taint` command to achieve a similar outcome. That command has now been deprecated in favour of the `-replace` flag, which allows for a simpler, less error-prone workflow**.
 	- `terraform apply -target resource_type.resource_name`: We can target individual resources.
 		- There might be a case where we may need to *partially apply configuration* while troubleshooting an error that prevents Terraform from applying our entire configuration at once.
 		- An example would be a case where we use random string to generate the tag of an EC2 instance. Now we want to change the length of the random string but we don't want to recreate the EC2 instance. We will only target random in this case.
@@ -39,7 +39,7 @@ updated: 2023-12-17 20:53
 	- `terraform fmt -recursive` will scan and format files in sub-directories.
 - `terraform state list`: List the state
 - `terraform destroy`: **Delete the infrastructure completely**.
-	- `terraform apply -destroy`
+	- The above command is an alias for `terraform apply -destroy`
 - `terraform show`: *to provide human-readable output from a **state or plan** file*.
 	- `terraform show <planfile>`: To see the contents of a plan file
 	- `terraform show -json`: To show the contents of the state file in json format.

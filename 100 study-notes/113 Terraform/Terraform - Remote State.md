@@ -1,6 +1,6 @@
 ---
 created: 2023-01-09 22:37
-updated: 2023-12-14 19:23
+updated: 2023-12-19 18:58
 ---
 ---
 **Links**: [[113 Terraform Index]]
@@ -14,14 +14,8 @@ updated: 2023-12-14 19:23
 ---
 ## Remote State
 - When we use `terraform apply` for the first time a file `terraform.tfstate` is created in the configuration directory.
-- Benefits of terraform state:
-	- Mapping terraform state to the real world.
-	- *Tracking metadata* such as dependencies which allows terraform to create and delete resources in the correct order.
-	- *Improving the performance of terraform operations while working with large configuration files*.
-	- It allows for *collaboration* between different members of the team.
-		- Local state files are not good for collaboration.
 
-> [!note]- It is also **NOT a good idea to store the state file in a version control system** since it contains sensitive information.
+> [!note]- It is **NOT a good idea to store the state file in a version control system** since it contains sensitive information.
 > Also if the state file is stored in a git repo and when we work as a team it is *essential that only one person runs the operation against the same configuration at any given time*.
 
 - In case of a single source of truth for the state file terraform locks the state file.
