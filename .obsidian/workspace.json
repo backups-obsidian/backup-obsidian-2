@@ -83,7 +83,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -196,26 +196,28 @@
       "random-note:Open random note": false,
       "audio-recorder:Start/stop recording": false,
       "oz-clear-unused-images:Clear Unused Images": false,
+      "omnisearch:Omnisearch": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
   "active": "a6c3ff0d0b7cc90a",
   "lastOpenFiles": [
-    "100 study-notes/118 Prometheus/118 Prometheus Index.md",
-    "100 study-notes/118 Prometheus/Prometheus - PromQL.md",
+    "100 study-notes/118 Prometheus/attachments/Pasted image 20240103085200.png",
+    "100 study-notes/118 Prometheus/attachments/Pasted image 20240103085059.png",
     "100 study-notes/118 Prometheus/Prometheus - Metrics & Labels.md",
+    "100 study-notes/118 Prometheus/Prometheus - PromQL.md",
+    "100 study-notes/118 Prometheus/attachments/Pasted image 20240103084248.png",
+    "100 study-notes/118 Prometheus/attachments/Pasted image 20240103084132.png",
+    "100 study-notes/118 Prometheus/attachments/Pasted image 20240103084014.png",
+    "100 study-notes/118 Prometheus/attachments/Pasted image 20240103083930.png",
+    "100 study-notes/118 Prometheus/attachments/Pasted image 20240102090139.png",
+    "100 study-notes/118 Prometheus/attachments/Pasted image 20240102085755.png",
+    "100 study-notes/118 Prometheus/attachments/Pasted image 20240102085728.png",
+    "100 study-notes/118 Prometheus/attachments/Pasted image 20240102085642.png",
+    "100 study-notes/118 Prometheus/attachments/Pasted image 20240102085020.png",
+    "100 study-notes/118 Prometheus/118 Prometheus Index.md",
     "100 study-notes/118 Prometheus/Prometheus - Miscellaneous.md",
-    "100 study-notes/118 Prometheus/attachments/Pasted image 20240101190037.png",
-    "100 study-notes/118 Prometheus/attachments/Pasted image 20240101184751.png",
-    "100 study-notes/118 Prometheus/attachments/Pasted image 20240101184635.png",
-    "100 study-notes/118 Prometheus/attachments/Pasted image 20240101184504.png",
-    "100 study-notes/118 Prometheus/attachments/Pasted image 20240101184337.png",
-    "100 study-notes/118 Prometheus/attachments/Pasted image 20240101183610.png",
-    "100 study-notes/118 Prometheus/attachments/Pasted image 20240101183332.png",
-    "100 study-notes/118 Prometheus/attachments/Pasted image 20240101182418.png",
-    "100 study-notes/118 Prometheus/attachments/Pasted image 20240101182055.png",
     "100 study-notes/118 Prometheus/Prometheus - Authentication & Encryption for Node Exporter.md",
-    "100 study-notes/118 Prometheus/attachments/Pasted image 20240101181431.png",
     "100 study-notes/118 Prometheus/Prometheus - Installation & Configuration.md",
     "100 study-notes/118 Prometheus/Prometheus - Architecture.md",
     "100 study-notes/118 Prometheus/Prometheus - Introduction.md",
@@ -237,7 +239,6 @@
     "100 study-notes/113 Terraform/Terraform - Functions.md",
     "100 study-notes/113 Terraform/Terraform - Managing Multiple Environments.md",
     "100 study-notes/113 Terraform/Terraform - Modules.md",
-    "100 study-notes/113 Terraform/Terraform - Lifecycle Rules.md",
-    "100 study-notes/113 Terraform/Terraform - Import & Datasources.md"
+    "100 study-notes/113 Terraform/Terraform - Lifecycle Rules.md"
   ]
 }

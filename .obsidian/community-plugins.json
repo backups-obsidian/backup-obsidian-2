@@ -3,10 +3,10 @@
   "oz-clear-unused-images",
   "cycle-through-panes",
   "obsidian-vimrc-support",
-  "recent-files-obsidian",
   "obsidian-another-quick-switcher",
   "table-editor-obsidian",
-  "find-unlinked-files",
-  "obsidian-tasks-plugin",
-  "codeblock-customizer"
+  "codeblock-customizer",
+  "omnisearch",
+  "settings-search",
+  "image-captions"
 ]
