@@ -1,6 +1,6 @@
 ---
 created: 2024-01-01 19:12
-updated: 2024-01-03 08:58
+updated: 2024-01-04 09:31
 ---
 ---
 **Links**: [[118 Prometheus Index]]
@@ -70,3 +70,68 @@ updated: 2024-01-03 08:58
 - The `offset` and `@` modifier also works with range vectors.
 	- Example query: `node_memory_Active_bytes{instance="node1"}[2m] @1663265188 offset 10m`
 		- ![[attachments/Pasted image 20240103085200.png]]
+
+## Operators
+### Arithmetic Operators
+- Example query: `node_memory_Active_bytes{instance="node1"} + 10`.
+- Example: 
+	- ![[attachments/Pasted image 20240103092538.png | Converting bytes to kilobytes]]
+
+> [!note] When using arithmetic operators the metric name is dropped
+
+### Comparison Operators
+- Example query to filter for values greater than 100: `node_network_flags › 100`.
+- We use the *`bool` operator to find if the condition is true or false*.
+	- **1 is true and 0 is false**.
+	- Example query to find filesystems which have less that 1000 bytes available: `node_filesystem_avail_bytes < bool 1000`
+		- ![[attachments/Pasted image 20240103092902.png]]
+- *`bool` operators are mostly used for generating alerts*.
+
+> [!important]- When an PromQL expression has multiple binary operators, they follow an order of precedence, from highest to lowest.
+> Operators on the same precedence level are *left-associative*.
+
+### Logical Operators
+- Example query to return all time series greater than 1000 and less than 3000: `node_filesystem_avail_bytes > 1000 and node_filesystem_avail_bytes < 3000`
+- `unless` operator *results in a vector consisting of elements on the left side* for which there are **NO elements on the right side**.
+	- Example query: `node_filesystem_avail_bytes > 1000 unless node_filesystem_avail_bytes > 30000`
+		- ![[attachments/Pasted image 20240104083930.png]]
+	- It it much more intuitive to just use `<`.
+
+## Vector Matching
+- In all the above examples we were performing an operation of a vector with a scalar.
+- In vector matching we use 2 vectors for an operation :
+	- Example query: `node_filesystem_avail_bytes/node_filesystem_size_bytes * 100`
+- In case of vector matching **samples with exactly the same labels get matched together**.
+	- ![[attachments/Pasted image 20240104084412.png]]
+
+> [!caution]- So for vector matching **all the labels must be the same** for vectors to match.
+> ![[attachments/Pasted image 20240104084537.png]]
+
+- There may be certain instances where an *operation needs to be performed on 2 vectors with differing labels*.
+	- `ignoring` keyword can be used to "ignore" on labels to ensure there is a match between 2 vectors.
+		- ![[attachments/Pasted image 20240104084832.png]]
+- `ignoring` keyword is used to *ignore a label when matching*, the *`on` keyword is to specify **exact list** of labels to match on*.
+	- ![[attachments/Pasted image 20240104084949.png]]
+- Example:
+	- ![[attachments/Pasted image 20240104085122.png]]
+- **One-To-One vector matching**: *Every element in the vector on the left of the operator tries to find a single matching element on the right*.
+	- ![[attachments/Pasted image 20240104085233.png]]
+- **Many-To-One vector matching**: Each vector elements on the one side can match with multiple elements on the many side.
+	- Example error:
+		- ![[attachments/Pasted image 20240104085436.png]]
+	- Example solution:
+		- ![[attachments/Pasted image 20240104085519.png]]
+		- ![[attachments/Pasted image 20240104085554.png]]
+
+## Aggregation Operators
+- Aggregation operators, allow you to *take an instant vector and aggregate its elements, resulting in a new instant vector, with fewer elements*.
+- Example:
+	- ![[attachments/Pasted image 20240104090221.png]]
+- **We can choose labels to aggregate on using the `by` label**.
+	- ![[attachments/Pasted image 20240104090313.png]]
+	- ![[attachments/Pasted image 20240104090344.png]]
+- We can *pass in more than 1 label to group things together*:
+	- ![[attachments/Pasted image 20240104093009.png]]
+- **The `without` keyword does the opposite of `by` and tells the query which labels not to include in the aggregation**.
+	- ![[attachments/Pasted image 20240104093116.png]]
+
