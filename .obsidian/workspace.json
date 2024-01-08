@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 study-notes/118 Prometheus/Prometheus - PromQL.md",
-                "mode": "source",
+                "file": "100 study-notes/118 Prometheus/Prometheus - Service Discovery.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
@@ -83,7 +83,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -104,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/118 Prometheus/Prometheus - PromQL.md",
+                "file": "100 study-notes/118 Prometheus/Prometheus - Service Discovery.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/118 Prometheus/Prometheus - PromQL.md"
+                "file": "100 study-notes/118 Prometheus/Prometheus - Service Discovery.md"
               }
             }
           },
@@ -131,7 +131,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/118 Prometheus/Prometheus - PromQL.md",
+                "file": "100 study-notes/118 Prometheus/Prometheus - Service Discovery.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -202,20 +202,21 @@
   },
   "active": "a6c3ff0d0b7cc90a",
   "lastOpenFiles": [
-    "100 study-notes/118 Prometheus/attachments/Pasted image 20240104093116.png",
-    "100 study-notes/118 Prometheus/attachments/Pasted image 20240104093009.png",
-    "100 study-notes/118 Prometheus/attachments/Pasted image 20240104090344.png",
-    "100 study-notes/118 Prometheus/attachments/Pasted image 20240104090313.png",
-    "100 study-notes/118 Prometheus/attachments/Pasted image 20240104090221.png",
-    "100 study-notes/118 Prometheus/attachments/Pasted image 20240104085554.png",
-    "100 study-notes/118 Prometheus/attachments/Pasted image 20240104085519.png",
-    "100 study-notes/118 Prometheus/attachments/Pasted image 20240104085436.png",
-    "100 study-notes/118 Prometheus/attachments/Pasted image 20240104085233.png",
-    "100 study-notes/118 Prometheus/attachments/Pasted image 20240104085122.png",
-    "100 study-notes/118 Prometheus/attachments/Pasted image 20240104084949.png",
-    "100 study-notes/118 Prometheus/Prometheus - Metrics & Labels.md",
-    "100 study-notes/118 Prometheus/Prometheus - PromQL.md",
+    "100 study-notes/118 Prometheus/Prometheus - Application Instrumentation.md",
     "100 study-notes/118 Prometheus/118 Prometheus Index.md",
+    "100 study-notes/118 Prometheus/Prometheus - Service Discovery.md",
+    "100 study-notes/118 Prometheus/Prometheus - PromQL.md",
+    "100 study-notes/118 Prometheus/attachments/Pasted image 20240105114905.png",
+    "100 study-notes/118 Prometheus/attachments/Pasted image 20240105114410.png",
+    "100 study-notes/118 Prometheus/attachments/Pasted image 20240105114102.png",
+    "100 study-notes/118 Prometheus/attachments/Pasted image 20240105113947.png",
+    "100 study-notes/118 Prometheus/attachments/Pasted image 20240105113725.png",
+    "100 study-notes/118 Prometheus/attachments/Pasted image 20240105095901.png",
+    "100 study-notes/118 Prometheus/attachments/Pasted image 20240105095743.png",
+    "100 study-notes/118 Prometheus/attachments/Pasted image 20240105093237.png",
+    "100 study-notes/118 Prometheus/attachments/Pasted image 20240105093210.png",
+    "100 study-notes/118 Prometheus/attachments/Pasted image 20240105091923.png",
+    "100 study-notes/118 Prometheus/Prometheus - Metrics & Labels.md",
     "100 study-notes/118 Prometheus/Prometheus - Miscellaneous.md",
     "100 study-notes/118 Prometheus/Prometheus - Authentication & Encryption for Node Exporter.md",
     "100 study-notes/118 Prometheus/Prometheus - Installation & Configuration.md",
@@ -238,7 +239,6 @@
     "100 study-notes/113 Terraform/Terraform - Expressions.md",
     "100 study-notes/113 Terraform/Terraform - Functions.md",
     "100 study-notes/113 Terraform/Terraform - Managing Multiple Environments.md",
-    "100 study-notes/113 Terraform/Terraform - Modules.md",
-    "100 study-notes/113 Terraform/Terraform - Lifecycle Rules.md"
+    "100 study-notes/113 Terraform/Terraform - Modules.md"
   ]
 }

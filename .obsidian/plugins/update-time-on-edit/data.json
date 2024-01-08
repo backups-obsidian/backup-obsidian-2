@@ -30,7 +30,7 @@
     "100 study-notes/113 Terraform/Terraform - Provisioner.md": "0638870876ac634fa79c0612973863c2d69f93b5bb3963927165e07fbd0960d1",
     "100 study-notes/113 Terraform/Terraform - Questions.md": "43eb0790694b6babc30cedbd134e14c3741eb4cddf4471778f8c26587c6eeb8e",
     "100 study-notes/100 home.md": "4318c57e6ea57f5bf35ea4b95a56898eff629f5927ad638aff15ce617c740039",
-    "100 study-notes/118 Prometheus/118 Prometheus Index.md": "39a09f2ae07f6410febee84d7dd1838ed0127c20f3160dd85607843c1475001b",
+    "100 study-notes/118 Prometheus/118 Prometheus Index.md": "c58f1e715bc9cab48a060e92b1a6970bccf5f44de2c76d978962330b73e3c7a4",
     "100 study-notes/118 Prometheus/Prometheus - Observability Basics.md": "8f52017257242493b178ab00bab4942b55001e433e3ac457c42146713c0cac77",
     "100 study-notes/118 Prometheus/Prometheus - Introduction.md": "507f675e772a0a1553bdc24e27252eb585f941a3c674ef1e35c5be9155abf7fe",
     "100 study-notes/118 Prometheus/Prometheus - Architecture.md": "1fe014303def173970d9428b7672611a0fc2d43f098fcf042b3c58cd455ce57d",
@@ -38,7 +38,9 @@
     "100 study-notes/118 Prometheus/Prometheus - Authentication & Encryption for Node Exporter.md": "439891ae82d52a49efae9315609588bc6ef4efdf561db2d615dd2d72c794f9b5",
     "100 study-notes/118 Prometheus/Prometheus - Metrics & Labels.md": "2dc45ad148f6b8d2f948f1712aac8c5702ce105341cbfbfdd4527c3c38e42ba6",
     "100 study-notes/118 Prometheus/Prometheus - Miscellaneous.md": "595e46d582af9fa21d00dfc256df9354368d5f168d2327c352f903054c40ad3f",
-    "100 study-notes/118 Prometheus/Prometheus - PromQL.md": "cbd8e31c645aa650c89a1af98f1cc2a7bc338426608f9a6095861cf6097aaef2"
+    "100 study-notes/118 Prometheus/Prometheus - PromQL.md": "a85135ba2261fdb250ace387a62b85fd878dbcf1d801ec45165d204094abc586",
+    "100 study-notes/118 Prometheus/Prometheus - Application Instrumentation.md": "f7499f5c1c9f6c2034e480cebc50fcb88e5b13e1d14fe2bfb1de463f42b819fc",
+    "100 study-notes/118 Prometheus/Prometheus - Service Discovery.md": "88f68c11282511b7939ebb787c0b95b4ac4bdc012e1733d75f0751b25ddc0ed0"
   },
   "readDateFormat": "yyyy-MM-dd'T'HH:mm:ssxxx",
   "useDifferentReadFormat": false

@@ -1,6 +1,6 @@
 ---
 created: 2024-01-01 19:12
-updated: 2024-01-04 09:31
+updated: 2024-01-08 08:41
 ---
 ---
 **Links**: [[118 Prometheus Index]]
@@ -8,7 +8,7 @@ updated: 2024-01-04 09:31
 | Previous: [[Prometheus - Metrics & Labels]] |
 |-|
 
-| Next: [[Prometheus - PromQL]] |
+| Next: [[Prometheus - Application Instrumentation]] |
 |-|
 
 ---
@@ -90,6 +90,8 @@ updated: 2024-01-04 09:31
 > [!important]- When an PromQL expression has multiple binary operators, they follow an order of precedence, from highest to lowest.
 > Operators on the same precedence level are *left-associative*.
 
+- *For comparison operators the metric name is NOT dropped*.
+
 ### Logical Operators
 - Example query to return all time series greater than 1000 and less than 3000: `node_filesystem_avail_bytes > 1000 and node_filesystem_avail_bytes < 3000`
 - `unless` operator *results in a vector consisting of elements on the left side* for which there are **NO elements on the right side**.
@@ -108,9 +110,9 @@ updated: 2024-01-04 09:31
 > ![[attachments/Pasted image 20240104084537.png]]
 
 - There may be certain instances where an *operation needs to be performed on 2 vectors with differing labels*.
-	- `ignoring` keyword can be used to "ignore" on labels to ensure there is a match between 2 vectors.
+	- `ignoring` keyword can be used to "ignore" on **labels** to ensure there is a match between 2 vectors.
 		- ![[attachments/Pasted image 20240104084832.png]]
-- `ignoring` keyword is used to *ignore a label when matching*, the *`on` keyword is to specify **exact list** of labels to match on*.
+- `ignoring` keyword is used to *ignore a **list** of labels when matching*, the *`on` keyword is to specify **exact list** of labels to match on*.
 	- ![[attachments/Pasted image 20240104084949.png]]
 - Example:
 	- ![[attachments/Pasted image 20240104085122.png]]
@@ -135,3 +137,79 @@ updated: 2024-01-04 09:31
 - **The `without` keyword does the opposite of `by` and tells the query which labels not to include in the aggregation**.
 	- ![[attachments/Pasted image 20240104093116.png]]
 
+## Functions
+- Math functions: `ceil`, `floor`, `abs`:
+	- ![[attachments/Pasted image 20240105090827.png]]
+- Using the *`vector` function we can convert a scalar to a vector*:
+	- Example: `vector(4)`
+- Given a single element input vector, *`scalar` function returns the sample value of the single element as a scalar*. 
+	- **If the input vector does not have exactly one element, it returns a NaN**.
+		- ![[attachments/Pasted image 20240105091046.png]]
+- We can sort the data using the `sort` function:
+	- ![[attachments/Pasted image 20240105091124.png]]
+- Metrics of `counter` type will just plot an increasing graph. *Instead we are more interested in the rate at which a `counter` metric increases*.
+	- The `rate()` and `irate()` function provides the per second average rate of change.
+- Understanding the `rate()` function:
+	- ![[attachments/Pasted image 20240105091637.png | The red line represents a grouping of 1 minute intervals since we have specified 1m inside rate. In each grouping we take the first and the last element and then take the difference and divide it by the time interval.]]
+- Understanding the `irate()` function:
+	- ![[attachments/Pasted image 20240105091923.png | The main difference between `rate` and `irate` is that instead of using the first and last data point we use the last 2 data points in `irate`.]]
+
+|                             rate                              |                             irate                              |
+|:-------------------------------------------------------------:|:--------------------------------------------------------------:|
+|    Looks at the first and last data points within a range     |       Looks at the last two data points within a ranged        |
+|         Effectively an *average rate over the range*          |                        **Instant rate**                        |
+| Best used for **slow moving counters** and **alerting rules** | Should be used for **graphing volatile, fast-moving counters** |
+
+- Tips for using `rate`/`irate`:
+	- Make sure there is **atleast 4 samples** within a given time range, ideally more.
+		- So for a *15s scrape interval 60s window gives 4 samples*.
+	- When combining rate with an aggregation operator, always take `rate()` first, then aggregate.
+		- This is so rate function can detect counter resets.
+		- Example query: `sum without(code, handler) (rate(http_requests_total[24h]))`
+
+### Subquery
+- Maximum value over a 10m of a gauge metric: `max_over_time(node_filesystem_avail_bytes[10m])`
+- We *CAN'T use this for `rate` since it returns an instant vector and not a range vector*.
+	- We have to use subquery for it.
+- Subquery format:
+	- ![[attachments/Pasted image 20240105093210.png]]
+	- ![[attachments/Pasted image 20240105093237.png]]
+
+> [!note] It is basically used with `rate` and `irate` functions.
+
+## Recording Rules
+- Recording Rules allow Prometheus to *periodically evaluate PromQL expression and store the resulting times series generated by them*.
+- Recording rules can be useful for:
+	- Speeding up your dashboards.
+	- Providing aggregated results for use elsewhere.
+- We specify the recording rules in `rules.yml` file.
+	- We specify the location of `rules.yml` in the `prometheus.yml` file.
+	- ![[attachments/Pasted image 20240105095743.png]]
+- Understanding the `rules.yml` file:
+	- ![[attachments/Pasted image 20240105095901.png]]
+
+> [!note] The *rules* inside the groups are run *sequentially* but the *groups* run in *parallel*.
+
+- Recording rule example:
+	- ![[attachments/Pasted image 20240105113725.png | Here `record` is the name of the rule and `example1` is the name of the group]]
+	- So now when we put `node_memory_memFree_precent` in the expression browser it will give us the value of the expression.
+		- ![[attachments/Pasted image 20240105113947.png]]
+- Since rules run sequentially within a group, *one rule can refer another rule*.
+	- ![[attachments/Pasted image 20240105114102.png]]
+- Record rule naming best practices:
+	- It should be of the format `level:metric_name:operations`.
+	- `level` - indicates the aggregation level of the metric by the labels it has. This will always include the "job" label + any other relevant target labels.
+	- `metric_name` - metric/time-series name.
+	- `operations` - list of functions & aggregators that have been applied to the metric(i.e. sum/max/avg).
+- Record rule naming example:
+	- ![[attachments/Pasted image 20240105114410.png]]
+- **It is a best practice to have all the rules for a specific job contained in a single group**.
+
+## HTTP API
+- Prometheus has an **HTTP API that can be used to execute queries** as well as gather information on alert, rules, and service-discovery related configs.
+- This is useful for situations where using the built-in web gui isn't an option for example:
+	- Building custom tools
+	- 3rd party integrations
+- We send a POST request to the API at `http://<prometheus-ip>/api/v1/query`.
+	- Example:
+		- ![[attachments/Pasted image 20240105114905.png]]
