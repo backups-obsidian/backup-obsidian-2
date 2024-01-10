@@ -1,6 +1,6 @@
 ---
 created: 2024-01-08 16:29
-updated: 2024-01-09 13:50
+updated: 2024-01-10 08:30
 ---
 ---
 **Links**: [[118 Prometheus Index]]
@@ -8,7 +8,7 @@ updated: 2024-01-09 13:50
 | Previous: [[Prometheus - Application Instrumentation]] |
 |-|
 
-| Next: [[Prometheus - Service Discovery]] |
+| Next: [[Prometheus - Push Gateway]] |
 |-|
 
 ---
@@ -72,13 +72,18 @@ scrape_configs:
 	- ![[attachments/Pasted image 20240109134351.png]]
 	- ![[attachments/Pasted image 20240109134422.png]]
 
+> [!caution]- The action `labeldrop` just drops the labels from the target labels whereas the action `drop` drops the target itself.
+> - *`labeldrop` also DOESN'T require `source_labels`*.
+> - For example if we do a `labeldrop` on regex `size` then there would be no labels of `size` in the target labels.
+> - Whereas if we do a `drop` on a source label size with some regex then it will drop all those targets which have size equal to the value specified in regex.
+
 #### `metric_relabel_configs`
 - *`metric_relabel_configs` occurs after the scrape and has access to scraped metrics*.
 - Configuration is identical to `relabel_configs`.
-- Example: drop metric `http_errors_total`:
+- **Example: drop metric** `http_errors_total`:
 	- ![[attachments/Pasted image 20240109134706.png]]
 	- We are using source label of `__name__` since `http_errors_total` is the name of the metric.
-- Example: rename a metric from `http_errors_total` to `http_failures_total`:
+- **Example: rename a metric** from `http_errors_total` to `http_failures_total`:
 	- ![[attachments/Pasted image 20240109134853.png]]
-- Example: dropping a label for a metric:
+- **Example: dropping a label for a metric**:
 	- ![[attachments/Pasted image 20240109134934.png]]

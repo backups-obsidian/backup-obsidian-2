@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 study-notes/118 Prometheus/Prometheus - Service Discovery.md",
-                "mode": "source",
+                "file": "100 study-notes/118 Prometheus/118 Prometheus Index.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
@@ -104,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/118 Prometheus/Prometheus - Service Discovery.md",
+                "file": "100 study-notes/118 Prometheus/118 Prometheus Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/118 Prometheus/Prometheus - Service Discovery.md"
+                "file": "100 study-notes/118 Prometheus/118 Prometheus Index.md"
               }
             }
           },
@@ -131,7 +131,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/118 Prometheus/Prometheus - Service Discovery.md",
+                "file": "100 study-notes/118 Prometheus/118 Prometheus Index.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -202,6 +202,12 @@
   },
   "active": "a6c3ff0d0b7cc90a",
   "lastOpenFiles": [
+    "100 study-notes/118 Prometheus/Prometheus - Introduction.md",
+    "100 study-notes/118 Prometheus/118 Prometheus Index.md",
+    "100 study-notes/118 Prometheus/Prometheus - Alerting.md",
+    "100 study-notes/118 Prometheus/Prometheus - Push Gateway.md",
+    "100 study-notes/118 Prometheus/Prometheus - Architecture.md",
+    "100 study-notes/118 Prometheus/Prometheus - Service Discovery.md",
     "100 study-notes/118 Prometheus/attachments/Pasted image 20240109134934.png",
     "100 study-notes/118 Prometheus/attachments/Pasted image 20240109134853.png",
     "100 study-notes/118 Prometheus/attachments/Pasted image 20240109134706.png",
@@ -212,11 +218,6 @@
     "100 study-notes/118 Prometheus/attachments/Pasted image 20240109085805.png",
     "100 study-notes/118 Prometheus/attachments/Pasted image 20240109085626.png",
     "100 study-notes/118 Prometheus/attachments/Pasted image 20240109085447.png",
-    "100 study-notes/118 Prometheus/attachments/Pasted image 20240109085321.png",
-    "100 study-notes/118 Prometheus/118 Prometheus Index.md",
-    "100 study-notes/118 Prometheus/Prometheus - Introduction.md",
-    "100 study-notes/118 Prometheus/Prometheus - Architecture.md",
-    "100 study-notes/118 Prometheus/Prometheus - Service Discovery.md",
     "100 study-notes/118 Prometheus/Prometheus - Application Instrumentation.md",
     "100 study-notes/118 Prometheus/Prometheus - PromQL.md",
     "100 study-notes/118 Prometheus/Prometheus - Metrics & Labels.md",
@@ -238,7 +239,6 @@
     "100 study-notes/113 Terraform/Terraform - Terraform Cloud.md",
     "100 study-notes/113 Terraform/Terraform - Miscellaneous.md",
     "100 study-notes/113 Terraform/Terraform - Expressions.md",
-    "100 study-notes/113 Terraform/Terraform - Functions.md",
-    "100 study-notes/113 Terraform/Terraform - Managing Multiple Environments.md"
+    "100 study-notes/113 Terraform/Terraform - Functions.md"
   ]
 }

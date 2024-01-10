@@ -30,7 +30,7 @@
     "100 study-notes/113 Terraform/Terraform - Provisioner.md": "0638870876ac634fa79c0612973863c2d69f93b5bb3963927165e07fbd0960d1",
     "100 study-notes/113 Terraform/Terraform - Questions.md": "43eb0790694b6babc30cedbd134e14c3741eb4cddf4471778f8c26587c6eeb8e",
     "100 study-notes/100 home.md": "4318c57e6ea57f5bf35ea4b95a56898eff629f5927ad638aff15ce617c740039",
-    "100 study-notes/118 Prometheus/118 Prometheus Index.md": "c58f1e715bc9cab48a060e92b1a6970bccf5f44de2c76d978962330b73e3c7a4",
+    "100 study-notes/118 Prometheus/118 Prometheus Index.md": "2dc2007a6cbf3d19efa0e43bb682aa97a04655b83d1f65963c558aa5920c7bf3",
     "100 study-notes/118 Prometheus/Prometheus - Observability Basics.md": "8f52017257242493b178ab00bab4942b55001e433e3ac457c42146713c0cac77",
     "100 study-notes/118 Prometheus/Prometheus - Introduction.md": "507f675e772a0a1553bdc24e27252eb585f941a3c674ef1e35c5be9155abf7fe",
     "100 study-notes/118 Prometheus/Prometheus - Architecture.md": "1fe014303def173970d9428b7672611a0fc2d43f098fcf042b3c58cd455ce57d",
@@ -40,7 +40,9 @@
     "100 study-notes/118 Prometheus/Prometheus - Miscellaneous.md": "595e46d582af9fa21d00dfc256df9354368d5f168d2327c352f903054c40ad3f",
     "100 study-notes/118 Prometheus/Prometheus - PromQL.md": "a85135ba2261fdb250ace387a62b85fd878dbcf1d801ec45165d204094abc586",
     "100 study-notes/118 Prometheus/Prometheus - Application Instrumentation.md": "f7499f5c1c9f6c2034e480cebc50fcb88e5b13e1d14fe2bfb1de463f42b819fc",
-    "100 study-notes/118 Prometheus/Prometheus - Service Discovery.md": "c1836bbf6d9d7396134548ef5d282ef95178efdecf9fa7dde8a777d94add92b6"
+    "100 study-notes/118 Prometheus/Prometheus - Service Discovery.md": "9831f59e106e7e527f5120aaa95472102222cef8d40b9dc73224d05154d18321",
+    "100 study-notes/118 Prometheus/Prometheus - Push Gateway.md": "f7b348b55057c2839d8eec0c78b1b1628954b3569718cdb46f9acaba6879a4a6",
+    "100 study-notes/118 Prometheus/Prometheus - Alerting.md": "0f471af6b8e8768ae1a517a434573347fea57b73247c1cd80e3fb44dcdb02cb9"
   },
   "readDateFormat": "yyyy-MM-dd'T'HH:mm:ssxxx",
   "useDifferentReadFormat": false
