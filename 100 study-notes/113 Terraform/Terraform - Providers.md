@@ -1,11 +1,11 @@
 ---
 created: 2023-12-06 19:11
-updated: 2023-12-19 08:45
+updated: 2024-01-14 19:24
 ---
 ---
 **Links**: [[113 Terraform Index]]
 
-| Previous: [[Terraform - How Terraform works?]] |
+| Previous: [[Terraform - How Terraform works]] |
 |-|
 
 | Next: [[Terraform - Commands]] |
@@ -24,7 +24,7 @@ updated: 2023-12-19 08:45
 	- Example: `registry.terraform.io/hashicorp/local`
 - We use the `required_providers` under `terraform` to specify a specific version of a provider.
 
-![[Terraform - How Terraform works?#^0b9580]]
+![[Terraform - How Terraform works#^0b9580]]
 
 - We use the **`provider` block to set provider specific configurations**.
 	- Like we setting region for the aws provider.

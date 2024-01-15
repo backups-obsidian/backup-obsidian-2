@@ -1,11 +1,11 @@
 ---
 created: 2023-01-02 19:46
-updated: 2023-12-10 12:03
+updated: 2024-01-14 19:24
 ---
 ---
 **Links**: [[113 Terraform Index]]
 
-| Next: [[Terraform - How Terraform works?]] |
+| Next: [[Terraform - How Terraform works]] |
 |-|
 
 ---
