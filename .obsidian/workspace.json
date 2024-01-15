@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "300 short-notes/300 home.md",
+                "file": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -87,7 +87,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 328.51009368896484
+    "width": 328.51009368896484,
+    "collapsed": true
   },
   "right": {
     "id": "dd0802fb96df6a1b",
@@ -103,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "300 short-notes/300 home.md",
+                "file": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "300 short-notes/300 home.md"
+                "file": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
               }
             }
           },
@@ -130,7 +131,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "300 short-notes/300 home.md",
+                "file": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -201,6 +202,13 @@
   },
   "active": "a6c3ff0d0b7cc90a",
   "lastOpenFiles": [
+    "100 study-notes/101 AWS SAA/Lambda.md",
+    "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
+    "100 study-notes/102 AWS DVA/SQS DVA.md",
+    "100 study-notes/102 AWS DVA/CLI.md",
+    "100 study-notes/102 AWS DVA/ElastiCache DVA.md",
+    "100 study-notes/101 AWS SAA/ElastiCache.md",
+    "300 short-notes/300 home.md",
     "100 study-notes/100 home.md",
     "100 study-notes/118 Prometheus/118 Prometheus Index.md",
     "000 home.md",
@@ -208,7 +216,6 @@
     "600 rough/Rough.md",
     "600 rough/rough - neovim vimrc config.md",
     "600 rough/unlinked_files_output.md",
-    "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
     "500 daily-notes/2022-04-13.md",
     "100 study-notes/101 AWS SAA/101 AWS SAA Index.md",
     "100 study-notes/101 AWS SAA/VPC Summary.md",
@@ -219,14 +226,8 @@
     "100 study-notes/101 AWS SAA/EventBridge.md",
     "100 study-notes/101 AWS SAA/CloudWatch.md",
     "100 study-notes/101 AWS SAA/API Gateway.md",
-    "100 study-notes/101 AWS SAA/Lambda.md",
     "100 study-notes/101 AWS SAA/ECR & EKS.md",
     "100 study-notes/101 AWS SAA/ECS.md",
-    "100 study-notes/101 AWS SAA/Event Processing.md",
-    "100 study-notes/101 AWS SAA/Kinesis.md",
-    "100 study-notes/101 AWS SAA/SNS.md",
-    "100 study-notes/101 AWS SAA/SQS.md",
-    "100 study-notes/101 AWS SAA/CloudFront Advanced.md",
     "100 study-notes/119 System Design/attachments/Pasted image 20240113165551.png",
     "100 study-notes/119 System Design/attachments",
     "100 study-notes/119 System Design",
