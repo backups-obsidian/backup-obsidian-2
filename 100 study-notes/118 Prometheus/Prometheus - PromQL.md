@@ -1,6 +1,6 @@
 ---
 created: 2024-01-01 19:12
-updated: 2024-01-08 08:41
+updated: 2024-01-12 09:18
 ---
 ---
 **Links**: [[118 Prometheus Index]]
@@ -10,6 +10,11 @@ updated: 2024-01-08 08:41
 
 | Next: [[Prometheus - Application Instrumentation]] |
 |-|
+
+**Useful Links:**:
+- [PromQL cheat sheet](https://promlabs.com/promql-cheat-sheet/)
+- [Running PromQL queries for understanding on web](https://demo.promlens.com/)
+- [Demo prometheus source](https://demo.promlens.com/)
 
 ---
 
@@ -154,11 +159,12 @@ updated: 2024-01-08 08:41
 - Understanding the `irate()` function:
 	- ![[attachments/Pasted image 20240105091923.png | The main difference between `rate` and `irate` is that instead of using the first and last data point we use the last 2 data points in `irate`.]]
 
-|                             rate                              |                             irate                              |
-|:-------------------------------------------------------------:|:--------------------------------------------------------------:|
-|    Looks at the first and last data points within a range     |       Looks at the last two data points within a ranged        |
-|         Effectively an *average rate over the range*          |                        **Instant rate**                        |
-| Best used for **slow moving counters** and **alerting rules** | Should be used for **graphing volatile, fast-moving counters** |
+|                             rate                              |                                                   irate                                                    |
+|:-------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------:|
+|    Looks at the first and last data points within a range     |                             Looks at the last two data points within a ranged                              |
+|         Effectively an *average rate over the range*          |                                              **Instant rate**                                              |
+| Best used for **slow moving counters** and **alerting rules** | Should be used for **graphing volatile, fast-moving counters**. We would never want to use irate in alerts |
+|                      Gives smooth graphs                      |                                             Gives spiky graphs                                             |
 
 - Tips for using `rate`/`irate`:
 	- Make sure there is **atleast 4 samples** within a given time range, ideally more.
@@ -166,6 +172,7 @@ updated: 2024-01-08 08:41
 	- When combining rate with an aggregation operator, always take `rate()` first, then aggregate.
 		- This is so rate function can detect counter resets.
 		- Example query: `sum without(code, handler) (rate(http_requests_total[24h]))`
+- *In general it is advisable to use `rate` over `irate` and `increase` for counters*.
 
 ### Subquery
 - Maximum value over a 10m of a gauge metric: `max_over_time(node_filesystem_avail_bytes[10m])`

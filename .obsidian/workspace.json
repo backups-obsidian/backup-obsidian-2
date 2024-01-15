@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 study-notes/118 Prometheus/118 Prometheus Index.md",
+                "file": "300 short-notes/300 home.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -87,8 +87,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 328.51009368896484,
-    "collapsed": true
+    "width": 328.51009368896484
   },
   "right": {
     "id": "dd0802fb96df6a1b",
@@ -104,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/118 Prometheus/118 Prometheus Index.md",
+                "file": "300 short-notes/300 home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +120,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/118 Prometheus/118 Prometheus Index.md"
+                "file": "300 short-notes/300 home.md"
               }
             }
           },
@@ -131,7 +130,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/118 Prometheus/118 Prometheus Index.md",
+                "file": "300 short-notes/300 home.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -202,12 +201,36 @@
   },
   "active": "a6c3ff0d0b7cc90a",
   "lastOpenFiles": [
-    "100 study-notes/118 Prometheus/Prometheus - Introduction.md",
+    "100 study-notes/100 home.md",
     "100 study-notes/118 Prometheus/118 Prometheus Index.md",
-    "100 study-notes/118 Prometheus/Prometheus - Alerting.md",
-    "100 study-notes/118 Prometheus/Prometheus - Push Gateway.md",
-    "100 study-notes/118 Prometheus/Prometheus - Architecture.md",
-    "100 study-notes/118 Prometheus/Prometheus - Service Discovery.md",
+    "000 home.md",
+    "TODO.md",
+    "600 rough/Rough.md",
+    "600 rough/rough - neovim vimrc config.md",
+    "600 rough/unlinked_files_output.md",
+    "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
+    "500 daily-notes/2022-04-13.md",
+    "100 study-notes/101 AWS SAA/101 AWS SAA Index.md",
+    "100 study-notes/101 AWS SAA/VPC Summary.md",
+    "100 study-notes/101 AWS SAA/NACLs.md",
+    "100 study-notes/101 AWS SAA/DNS in VPC.md",
+    "100 study-notes/101 AWS SAA/VPC Internet Access.md",
+    "100 study-notes/101 AWS SAA/VPC & Subnets.md",
+    "100 study-notes/101 AWS SAA/EventBridge.md",
+    "100 study-notes/101 AWS SAA/CloudWatch.md",
+    "100 study-notes/101 AWS SAA/API Gateway.md",
+    "100 study-notes/101 AWS SAA/Lambda.md",
+    "100 study-notes/101 AWS SAA/ECR & EKS.md",
+    "100 study-notes/101 AWS SAA/ECS.md",
+    "100 study-notes/101 AWS SAA/Event Processing.md",
+    "100 study-notes/101 AWS SAA/Kinesis.md",
+    "100 study-notes/101 AWS SAA/SNS.md",
+    "100 study-notes/101 AWS SAA/SQS.md",
+    "100 study-notes/101 AWS SAA/CloudFront Advanced.md",
+    "100 study-notes/119 System Design/attachments/Pasted image 20240113165551.png",
+    "100 study-notes/119 System Design/attachments",
+    "100 study-notes/119 System Design",
+    "Untitled",
     "100 study-notes/118 Prometheus/attachments/Pasted image 20240109134934.png",
     "100 study-notes/118 Prometheus/attachments/Pasted image 20240109134853.png",
     "100 study-notes/118 Prometheus/attachments/Pasted image 20240109134706.png",
@@ -217,28 +240,7 @@
     "100 study-notes/118 Prometheus/attachments/Pasted image 20240109133847.png",
     "100 study-notes/118 Prometheus/attachments/Pasted image 20240109085805.png",
     "100 study-notes/118 Prometheus/attachments/Pasted image 20240109085626.png",
-    "100 study-notes/118 Prometheus/attachments/Pasted image 20240109085447.png",
-    "100 study-notes/118 Prometheus/Prometheus - Application Instrumentation.md",
-    "100 study-notes/118 Prometheus/Prometheus - PromQL.md",
-    "100 study-notes/118 Prometheus/Prometheus - Metrics & Labels.md",
-    "100 study-notes/118 Prometheus/Prometheus - Miscellaneous.md",
-    "100 study-notes/118 Prometheus/Prometheus - Authentication & Encryption for Node Exporter.md",
-    "100 study-notes/118 Prometheus/Prometheus - Installation & Configuration.md",
-    "100 study-notes/113 Terraform/Terraform - Count & for each.md",
-    "100 study-notes/118 Prometheus/Prometheus - Observability Basics.md",
-    "100 study-notes/113 Terraform/Terraform - Commands.md",
     "100 study-notes/118 Prometheus/attachments",
-    "100 study-notes/100 home.md",
-    "100 study-notes/113 Terraform/113 Terraform Index.md",
-    "100 study-notes/116 CSS/116 CSS Index.md",
-    "100 study-notes/118 Prometheus",
-    "100 study-notes/117 Full Stack Development/117 Full Stack Index.md",
-    "100 study-notes/113 Terraform/Terraform - Questions.md",
-    "100 study-notes/113 Terraform/Terraform - Provisioner.md",
-    "100 study-notes/113 Terraform/Terraform - AWS.md",
-    "100 study-notes/113 Terraform/Terraform - Terraform Cloud.md",
-    "100 study-notes/113 Terraform/Terraform - Miscellaneous.md",
-    "100 study-notes/113 Terraform/Terraform - Expressions.md",
-    "100 study-notes/113 Terraform/Terraform - Functions.md"
+    "100 study-notes/118 Prometheus"
   ]
 }

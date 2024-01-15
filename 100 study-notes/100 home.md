@@ -1,10 +1,6 @@
 ---
 created: 2022-04-18 18:45
-updated: 2024-01-01 11:00
----
----
-**Links**: [[../000 home | 000 Home]]
-
+updated: 2024-01-14 19:12
 ---
 
 [[101 AWS SAA/101 AWS SAA Index | AWS SAA]]
@@ -26,3 +22,4 @@ updated: 2024-01-01 11:00
 [[116 CSS/116 CSS Index | CSS]]
 [[117 Full Stack Development/117 Full Stack Index | Full Stack Development]]
 [[118 Prometheus/118 Prometheus Index | Prometheus]]
+[[119 System Design/119 System Design Index|System Design Index]]

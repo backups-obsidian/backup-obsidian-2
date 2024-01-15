@@ -1,12 +1,11 @@
 ---
 created: 2024-01-01 10:59
-updated: 2024-01-10 08:45
+updated: 2024-01-13 16:46
 ---
 ---
 **Links**: [[../100 home|100 home]]
 
 ---
-## Basics
 [[Prometheus - Observability Basics]]
 [[Prometheus - Introduction]]
 [[Prometheus - Architecture]]
@@ -23,3 +22,4 @@ updated: 2024-01-10 08:45
 
 Doubts:
 - Histogram and summary
+- Relabelling
