@@ -19,8 +19,22 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "2a7424b427f96af1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100 study-notes/113 Terraform/Terraform - How Terraform works.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -104,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
+                "file": "100 study-notes/113 Terraform/Terraform - How Terraform works.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
+                "file": "100 study-notes/113 Terraform/Terraform - How Terraform works.md"
               }
             }
           },
@@ -131,7 +145,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
+                "file": "100 study-notes/113 Terraform/Terraform - How Terraform works.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -200,10 +214,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a6c3ff0d0b7cc90a",
+  "active": "2a7424b427f96af1",
   "lastOpenFiles": [
-    "100 study-notes/101 AWS SAA/Lambda.md",
+    "100 study-notes/113 Terraform/113 Terraform Index.md",
     "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
+    "100 study-notes/102 AWS DVA/Lambda Synchronous Invocation.md",
+    "100 study-notes/101 AWS SAA/Lambda.md",
     "100 study-notes/102 AWS DVA/SQS DVA.md",
     "100 study-notes/102 AWS DVA/CLI.md",
     "100 study-notes/102 AWS DVA/ElastiCache DVA.md",
@@ -226,8 +242,6 @@
     "100 study-notes/101 AWS SAA/EventBridge.md",
     "100 study-notes/101 AWS SAA/CloudWatch.md",
     "100 study-notes/101 AWS SAA/API Gateway.md",
-    "100 study-notes/101 AWS SAA/ECR & EKS.md",
-    "100 study-notes/101 AWS SAA/ECS.md",
     "100 study-notes/119 System Design/attachments/Pasted image 20240113165551.png",
     "100 study-notes/119 System Design/attachments",
     "100 study-notes/119 System Design",
