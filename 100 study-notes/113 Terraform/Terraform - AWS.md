@@ -1,6 +1,6 @@
 ---
 created: 2023-01-09 22:37
-updated: 2023-01-09 23:10
+updated: 2023-12-01 13:27
 ---
 ---
 **Links**: [[113 Terraform Index]]
@@ -25,5 +25,4 @@ updated: 2023-01-09 23:10
 	- ![[attachments/Pasted image 20230109224934.png]]
 - We can make use of *variable substitution in the heredoc syntax*
 	- ![[attachments/Pasted image 20230109230939.png]]
--
 

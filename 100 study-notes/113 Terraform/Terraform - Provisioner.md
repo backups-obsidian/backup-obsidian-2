@@ -1,6 +1,6 @@
 ---
 created: 2023-01-11 16:24
-updated: 2023-01-11 17:14
+updated: 2023-12-19 21:44
 ---
 ---
 **Links**: [[113 Terraform Index]]
@@ -9,11 +9,15 @@ updated: 2023-01-11 17:14
 ## Provisioners
 - Provisioners provide a way for us to *carry out tasks like running commands or scripts on remote resources or on the local machine*.
 - Provisioner block directly *goes inside the resource block*.
+- There are 3 different kinds of provisioner:
+	- `remote-exec`: works by using `winrm` (windows) and `ssh` (Linux)
+	- `local-exec`
+	- `file`
 
-> [!note]- For the provisioner script/commands to work there should be **network connectivity between the  local machine (running terraform) and the remote instance**.
-> ![[attachments/Pasted image 20230111162504.png]]
+> [!note] For the provisioner script/commands to work there should be **network connectivity between the  local machine (running terraform) and the remote instance**.
 
 - Example of *remote exec* provisioner:
+	- ***remote exec* provisioners require a connection block**.
 	- ![[attachments/Pasted image 20230111162837.png]]
 
 - *Local exec* provisioner is used to run *tasks in the local machine* where we are running terraform and *NOT on the resources that are created by terraform*.
@@ -21,14 +25,14 @@ updated: 2023-01-11 17:14
 	- For example storing the public IP address of an EC2 instance that was just provisioned.
 		- ![[attachments/Pasted image 20230111165224.png]]
 
-> [!note]- By default **provisioners are run after the resource is created**. This is also known as the *create time provisioner*.
+> [!note] By default **provisioners are run after the resource is created**. This is also known as the *create time provisioner*.
 
 - We can also run a provisioner before a resource is destroyed. This is known as *destroy time provisioner*.
 	- This is done using the `when` command
 	- ![[attachments/Pasted image 20230111165510.png]]
 - Another *default behaviour of provisioner is that if the command fails then terraform apply also errors out*.
 	- This is set using `on_failure = fail` (default, need not be specified) but we can make terraform continue execution by setting `on_failure = continue`
-	- When a `terraform apply` fails due to `on_failure = fail` terraform resource is marked as *tainted*.
+	- **When a `terraform apply` fails due to `on_failure = fail` terraform resource is marked as *tainted***.
 
 - As a **best practice terraform recommends using provisioners as the last resort**.
 	- For example for running scripts in EC2 instances use `user_data` instead of using terraform remote exec provisioner.

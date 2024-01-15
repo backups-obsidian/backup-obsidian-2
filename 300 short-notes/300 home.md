@@ -1,10 +1,6 @@
 ---
 created: 2022-04-16 16:39
-updated: 2023-04-11 17:37
----
----
-**Links**:  [[../000 home|000 Home]]
-
+updated: 2024-01-14 19:12
 ---
 
 [[gRPC]]
@@ -36,3 +32,4 @@ updated: 2023-04-11 17:37
 [[GitHub CLI]]
 [[Designing Idempotent APIs]]
 [[Referrer Policy Header in HTTP Requests]]
+[[Useful Github Related Links]]
