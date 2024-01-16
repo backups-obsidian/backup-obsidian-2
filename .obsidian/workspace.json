@@ -13,28 +13,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "2a7424b427f96af1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100 study-notes/113 Terraform/Terraform - How Terraform works.md",
-                "mode": "preview",
+                "file": "100 study-notes/118 Prometheus/Prometheus - Alerting.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/113 Terraform/Terraform - How Terraform works.md",
+                "file": "100 study-notes/118 Prometheus/Prometheus - Alerting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/113 Terraform/Terraform - How Terraform works.md"
+                "file": "100 study-notes/118 Prometheus/Prometheus - Alerting.md"
               }
             }
           },
@@ -145,7 +131,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/113 Terraform/Terraform - How Terraform works.md",
+                "file": "100 study-notes/118 Prometheus/Prometheus - Alerting.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -214,11 +200,35 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2a7424b427f96af1",
+  "active": "a6c3ff0d0b7cc90a",
   "lastOpenFiles": [
-    "100 study-notes/113 Terraform/113 Terraform Index.md",
+    "100 study-notes/118 Prometheus/attachments/Pasted image 20240116103833.png",
+    "100 study-notes/118 Prometheus/attachments/Pasted image 20240116103750.png",
+    "100 study-notes/118 Prometheus/attachments/Pasted image 20240116103707.png",
+    "100 study-notes/118 Prometheus/attachments/Pasted image 20240116103640.png",
+    "100 study-notes/118 Prometheus/attachments/Pasted image 20240116103251.png",
+    "100 study-notes/118 Prometheus/attachments/Pasted image 20240116103127.png",
+    "100 study-notes/118 Prometheus/attachments/Pasted image 20240116103001.png",
+    "100 study-notes/118 Prometheus/attachments/Pasted image 20240116102550.png",
+    "100 study-notes/118 Prometheus/attachments/Pasted image 20240116102328.png",
+    "100 study-notes/118 Prometheus/attachments/Pasted image 20240116101814.png",
+    "100 study-notes/118 Prometheus/attachments/Pasted image 20240116101505.png",
+    "100 study-notes/118 Prometheus/118 Prometheus Index.md",
+    "100 study-notes/118 Prometheus/Prometheus - Service Discovery & Relabelling.md",
+    "100 study-notes/118 Prometheus/Prometheus - PromQL.md",
+    "100 study-notes/118 Prometheus/Prometheus - Metrics & Labels.md",
+    "100 study-notes/118 Prometheus/Prometheus - Alerting.md",
     "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
+    "100 study-notes/102 AWS DVA/Lambda Miscellaneous.md",
+    "100 study-notes/102 AWS DVA/Lambda Advanced.md",
+    "100 study-notes/102 AWS DVA/Lambda Performance.md",
+    "100 study-notes/102 AWS DVA/Lambda Configuration & Deployments.md",
+    "100 study-notes/102 AWS DVA/Lambda Destinations.md",
+    "100 study-notes/102 AWS DVA/Lambda Event Source Mapping.md",
+    "100 study-notes/102 AWS DVA/Lambda Asynchronous Invocation.md",
     "100 study-notes/102 AWS DVA/Lambda Synchronous Invocation.md",
+    "100 study-notes/113 Terraform/Terraform - How Terraform works.md",
+    "100 study-notes/113 Terraform/113 Terraform Index.md",
     "100 study-notes/101 AWS SAA/Lambda.md",
     "100 study-notes/102 AWS DVA/SQS DVA.md",
     "100 study-notes/102 AWS DVA/CLI.md",
@@ -226,35 +236,11 @@
     "100 study-notes/101 AWS SAA/ElastiCache.md",
     "300 short-notes/300 home.md",
     "100 study-notes/100 home.md",
-    "100 study-notes/118 Prometheus/118 Prometheus Index.md",
     "000 home.md",
     "TODO.md",
-    "600 rough/Rough.md",
-    "600 rough/rough - neovim vimrc config.md",
-    "600 rough/unlinked_files_output.md",
-    "500 daily-notes/2022-04-13.md",
-    "100 study-notes/101 AWS SAA/101 AWS SAA Index.md",
-    "100 study-notes/101 AWS SAA/VPC Summary.md",
-    "100 study-notes/101 AWS SAA/NACLs.md",
-    "100 study-notes/101 AWS SAA/DNS in VPC.md",
-    "100 study-notes/101 AWS SAA/VPC Internet Access.md",
-    "100 study-notes/101 AWS SAA/VPC & Subnets.md",
-    "100 study-notes/101 AWS SAA/EventBridge.md",
-    "100 study-notes/101 AWS SAA/CloudWatch.md",
-    "100 study-notes/101 AWS SAA/API Gateway.md",
-    "100 study-notes/119 System Design/attachments/Pasted image 20240113165551.png",
     "100 study-notes/119 System Design/attachments",
     "100 study-notes/119 System Design",
     "Untitled",
-    "100 study-notes/118 Prometheus/attachments/Pasted image 20240109134934.png",
-    "100 study-notes/118 Prometheus/attachments/Pasted image 20240109134853.png",
-    "100 study-notes/118 Prometheus/attachments/Pasted image 20240109134706.png",
-    "100 study-notes/118 Prometheus/attachments/Pasted image 20240109134422.png",
-    "100 study-notes/118 Prometheus/attachments/Pasted image 20240109134351.png",
-    "100 study-notes/118 Prometheus/attachments/Pasted image 20240109133923.png",
-    "100 study-notes/118 Prometheus/attachments/Pasted image 20240109133847.png",
-    "100 study-notes/118 Prometheus/attachments/Pasted image 20240109085805.png",
-    "100 study-notes/118 Prometheus/attachments/Pasted image 20240109085626.png",
     "100 study-notes/118 Prometheus/attachments",
     "100 study-notes/118 Prometheus"
   ]

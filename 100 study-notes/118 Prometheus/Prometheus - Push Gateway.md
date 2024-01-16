@@ -1,11 +1,11 @@
 ---
 created: 2024-01-10 08:30
-updated: 2024-01-10 08:45
+updated: 2024-01-16 08:19
 ---
 ---
 **Links**: [[118 Prometheus Index]]
 
-| Previous: [[Prometheus - Service Discovery]] |
+| Previous: [[Prometheus - Service Discovery & Relabelling]] |
 |-|
 
 | Next: [[Prometheus - Alerting]] |

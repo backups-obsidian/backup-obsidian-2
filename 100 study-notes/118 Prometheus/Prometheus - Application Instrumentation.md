@@ -1,6 +1,6 @@
 ---
 created: 2024-01-08 08:41
-updated: 2024-01-08 16:29
+updated: 2024-01-16 08:19
 ---
 ---
 **Links**: [[118 Prometheus Index]]
@@ -8,7 +8,7 @@ updated: 2024-01-08 16:29
 | Previous: [[Prometheus - PromQL]] |
 |-|
 
-| Next: [[Prometheus - Service Discovery]] |
+| Next: [[Prometheus - Service Discovery & Relabelling]] |
 |-|
 
 ---

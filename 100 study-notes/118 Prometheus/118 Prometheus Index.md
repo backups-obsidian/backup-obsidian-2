@@ -1,6 +1,6 @@
 ---
 created: 2024-01-01 10:59
-updated: 2024-01-13 16:46
+updated: 2024-01-16 08:19
 ---
 ---
 **Links**: [[../100 home|100 home]]
@@ -14,7 +14,7 @@ updated: 2024-01-13 16:46
 [[Prometheus - Metrics & Labels]]
 [[Prometheus - PromQL]]
 [[Prometheus - Application Instrumentation]]
-[[Prometheus - Service Discovery]]
+[[Prometheus - Service Discovery & Relabelling]]
 [[Prometheus - Push Gateway]]
 [[Prometheus - Alerting]]
 
