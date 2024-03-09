@@ -1,6 +1,6 @@
 ---
 created: 2022-04-18 18:45
-updated: 2024-01-14 19:12
+updated: 2024-02-03 09:51
 ---
 
 [[101 AWS SAA/101 AWS SAA Index | AWS SAA]]
@@ -23,3 +23,4 @@ updated: 2024-01-14 19:12
 [[117 Full Stack Development/117 Full Stack Index | Full Stack Development]]
 [[118 Prometheus/118 Prometheus Index | Prometheus]]
 [[119 System Design/119 System Design Index|System Design Index]]
+[[120 Azure/120 Azure Index|Azure Index]]

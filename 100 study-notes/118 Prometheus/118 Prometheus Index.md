@@ -1,6 +1,6 @@
 ---
 created: 2024-01-01 10:59
-updated: 2024-01-16 08:19
+updated: 2024-01-21 09:59
 ---
 ---
 **Links**: [[../100 home|100 home]]
@@ -19,7 +19,7 @@ updated: 2024-01-16 08:19
 [[Prometheus - Alerting]]
 
 [[Prometheus - Miscellaneous]]
+[[Prometheus - Grafana]]
 
 Doubts:
 - Histogram and summary
-- Relabelling

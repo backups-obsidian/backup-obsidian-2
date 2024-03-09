@@ -1,6 +1,6 @@
 ---
 created: 2024-01-01 18:54
-updated: 2024-01-01 19:02
+updated: 2024-01-16 16:18
 ---
 ---
 **Links**: [[118 Prometheus Index]]
@@ -31,3 +31,18 @@ scrape_configs:
     static_configs:
     - targets: ["12.1.13.4:8080"]
 ```
+
+## Monitoring Kubernetes
+- For monitoring kubernetes we can use the `kube-prometheus-stack` helm chart.
+- We need to monitor the following for monitoring a kubernetes cluster:
+	- Control-Plane Components (api-server, coredns, kube-scheduler)
+	- Kubelet (cAdvisor) - exposing container metrics
+	- `Kube-state-metrics` - cluster level metrics(deployments, pod metrics)
+	- Node-exporter - Run on all nodes for host related metrics(cpu, mem, network)
+- **Lets suppose we have deployed an application that exports prometheus metrics. We would want prometheus to scrape it**. There are 2 different ways of doing it.
+	- Adding information in the `additionalScrapeConfigs` section in the `values.yaml`.
+	- *Updating the service monitor CRD*.
+- **Service monitors define a set of targets for prometheus to monitor and scrape**.
+	- They allow us to avoid touching prometheus configs directly and give us a declarative Kubernetes syntax to define targets.
+- Example:
+	- ![[attachments/Pasted image 20240116161852.png]]

@@ -8,19 +8,33 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a6c3ff0d0b7cc90a",
+            "id": "501b965ce073092f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 study-notes/118 Prometheus/Prometheus - Alerting.md",
-                "mode": "source",
+                "file": "100 study-notes/121 MySQL for Developers/121 MySQL for Developers Index.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "1e065f20aaf4ed6e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "100 study-notes/121 MySQL for Developers/121 MySQL for Developers Index.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -104,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/118 Prometheus/Prometheus - Alerting.md",
+                "file": "100 study-notes/121 MySQL for Developers/121 MySQL for Developers Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/118 Prometheus/Prometheus - Alerting.md"
+                "file": "100 study-notes/121 MySQL for Developers/121 MySQL for Developers Index.md"
               }
             }
           },
@@ -131,7 +145,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/118 Prometheus/Prometheus - Alerting.md",
+                "file": "100 study-notes/121 MySQL for Developers/121 MySQL for Developers Index.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -174,7 +188,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           }
@@ -183,7 +199,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 352.5
+    "width": 269.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -200,47 +216,51 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a6c3ff0d0b7cc90a",
+  "active": "1e065f20aaf4ed6e",
   "lastOpenFiles": [
-    "100 study-notes/118 Prometheus/attachments/Pasted image 20240116103833.png",
-    "100 study-notes/118 Prometheus/attachments/Pasted image 20240116103750.png",
-    "100 study-notes/118 Prometheus/attachments/Pasted image 20240116103707.png",
-    "100 study-notes/118 Prometheus/attachments/Pasted image 20240116103640.png",
-    "100 study-notes/118 Prometheus/attachments/Pasted image 20240116103251.png",
-    "100 study-notes/118 Prometheus/attachments/Pasted image 20240116103127.png",
-    "100 study-notes/118 Prometheus/attachments/Pasted image 20240116103001.png",
-    "100 study-notes/118 Prometheus/attachments/Pasted image 20240116102550.png",
-    "100 study-notes/118 Prometheus/attachments/Pasted image 20240116102328.png",
-    "100 study-notes/118 Prometheus/attachments/Pasted image 20240116101814.png",
-    "100 study-notes/118 Prometheus/attachments/Pasted image 20240116101505.png",
-    "100 study-notes/118 Prometheus/118 Prometheus Index.md",
-    "100 study-notes/118 Prometheus/Prometheus - Service Discovery & Relabelling.md",
-    "100 study-notes/118 Prometheus/Prometheus - PromQL.md",
-    "100 study-notes/118 Prometheus/Prometheus - Metrics & Labels.md",
-    "100 study-notes/118 Prometheus/Prometheus - Alerting.md",
-    "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
-    "100 study-notes/102 AWS DVA/Lambda Miscellaneous.md",
-    "100 study-notes/102 AWS DVA/Lambda Advanced.md",
-    "100 study-notes/102 AWS DVA/Lambda Performance.md",
-    "100 study-notes/102 AWS DVA/Lambda Configuration & Deployments.md",
-    "100 study-notes/102 AWS DVA/Lambda Destinations.md",
-    "100 study-notes/102 AWS DVA/Lambda Event Source Mapping.md",
-    "100 study-notes/102 AWS DVA/Lambda Asynchronous Invocation.md",
-    "100 study-notes/102 AWS DVA/Lambda Synchronous Invocation.md",
-    "100 study-notes/113 Terraform/Terraform - How Terraform works.md",
-    "100 study-notes/113 Terraform/113 Terraform Index.md",
-    "100 study-notes/101 AWS SAA/Lambda.md",
-    "100 study-notes/102 AWS DVA/SQS DVA.md",
-    "100 study-notes/102 AWS DVA/CLI.md",
-    "100 study-notes/102 AWS DVA/ElastiCache DVA.md",
-    "100 study-notes/101 AWS SAA/ElastiCache.md",
-    "300 short-notes/300 home.md",
+    "100 study-notes/121 MySQL for Developers/Migrations.md",
+    "100 study-notes/121 MySQL for Developers/121 MySQL for Developers Index.md",
+    "100 study-notes/121 MySQL for Developers/Schema.md",
+    "100 study-notes/121 MySQL for Developers/attachments/Pasted image 20240309130004.png",
+    "100 study-notes/121 MySQL for Developers/attachments/Pasted image 20240309122257.png",
+    "100 study-notes/121 MySQL for Developers/attachments/Pasted image 20240309111522.png",
+    "100 study-notes/121 MySQL for Developers/attachments",
     "100 study-notes/100 home.md",
-    "000 home.md",
-    "TODO.md",
+    "100 study-notes/121 MySQL for Developers",
+    "Untitled",
+    "100 study-notes/113 Terraform/113 Terraform Index.md",
+    "100 study-notes/113 Terraform/Terraform - How Terraform works.md",
+    "300 short-notes/How to use jq.md",
+    "100 study-notes/113 Terraform/Terraform - Commands.md",
+    "100 study-notes/113 Terraform/Terraform - Introduction.md",
+    "100 study-notes/119 System Design/119 System Design Index.md",
+    "100 study-notes/119 System Design/System Design - CAP Theorem.md",
+    "100 study-notes/119 System Design/System Design - Consistent Hashing.md",
+    "100 study-notes/108 Python/Python - How to setup python projects.md",
+    "100 study-notes/108 Python/108 Python Index.md",
+    "100 study-notes/108 Python/Python - Multiprocessing vs Multithreading.md",
+    "100 study-notes/108 Python/Python - Tips for writing better functions.md",
+    "100 study-notes/108 Python/Python - Must use packages.md",
+    "100 study-notes/119 System Design/attachments/Pasted image 20240221173113.png",
+    "100 study-notes/120 Azure/Azure - Fundamentals.md",
+    "100 study-notes/120 Azure/120 Azure Index.md",
+    "100 study-notes/120 Azure/attachments/Pasted image 20240204102836.png",
+    "100 study-notes/120 Azure/attachments/Pasted image 20240204102609.png",
+    "100 study-notes/120 Azure/attachments/Pasted image 20240203114207.png",
+    "100 study-notes/120 Azure/attachments/Pasted image 20240203101618.png",
+    "100 study-notes/120 Azure/attachments",
+    "100 study-notes/120 Azure",
+    "100 study-notes/118 Prometheus/118 Prometheus Index.md",
+    "100 study-notes/118 Prometheus/Prometheus - PromQL.md",
+    "100 study-notes/118 Prometheus/Prometheus - Service Discovery & Relabelling.md",
+    "100 study-notes/118 Prometheus/Prometheus - Grafana.md",
+    "100 study-notes/118 Prometheus/attachments/Pasted image 20240120102358.png",
+    "100 study-notes/118 Prometheus/Prometheus - Miscellaneous.md",
+    "100 study-notes/118 Prometheus/attachments/Pasted image 20240116161852.png",
+    "100 study-notes/118 Prometheus/Prometheus - Alerting.md",
+    "100 study-notes/118 Prometheus/Prometheus - Metrics & Labels.md",
     "100 study-notes/119 System Design/attachments",
     "100 study-notes/119 System Design",
-    "Untitled",
     "100 study-notes/118 Prometheus/attachments",
     "100 study-notes/118 Prometheus"
   ]

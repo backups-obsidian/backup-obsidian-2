@@ -1,14 +1,11 @@
 ---
 created: 2024-01-10 08:45
-updated: 2024-01-16 10:39
+updated: 2024-01-16 10:51
 ---
 ---
 **Links**: [[118 Prometheus Index]]
 
 | Previous: [[Prometheus - Push Gateway]] |
-|-|
-
-| Next: [[Prometheus - Push Gateway]] |
 |-|
 
 ---
@@ -44,9 +41,9 @@ updated: 2024-01-16 10:39
 	- ![[attachments/Pasted image 20240116084441.png | Yellow means pending, node has been down for less than 3 minutes]]
 
 ### Labels & Annotations
-- *Labels can be added to alerts* to provide a mechanism to **classify and match specific alerts in Alertmanager**.
+- *Labels can be added to alerts* to provide a mechanism to **classify and match (for grouping alerts) specific alerts in Alertmanager**.
 	- ![[attachments/Pasted image 20240116084619.png | Adding labels to alerts]]
-	- ![[attachments/Pasted image 20240116084651.png | Labels got added to alerts in prometheus]] 
+	- ![[attachments/Pasted image 20240116084651.png | Labels got added to alerts in prometheus]]
 - *Annotations can be used to provide additional information*, however **unlike labels they do no play a part in the alerts identity**. 
 	- So they cannot be use for routing in Alertmanager.
 - Annotations are *templated using Go templating language*.

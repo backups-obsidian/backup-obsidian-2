@@ -1,6 +1,6 @@
 ---
 created: 2024-01-08 16:29
-updated: 2024-01-16 08:24
+updated: 2024-01-21 09:53
 ---
 ---
 **Links**: [[118 Prometheus Index]]
@@ -101,3 +101,7 @@ scrape_configs:
 	- ![[attachments/Pasted image 20240109134853.png]]
 - **Example: dropping a label for a metric**:
 	- ![[attachments/Pasted image 20240109134934.png]]
+
+## Understanding the difference between `relabel_configs` and `metric_relabel_configs`
+- https://www.robustperception.io/life-of-a-label/
+- https://www.robustperception.io/relabel_configs-vs-metric_relabel_configs/
