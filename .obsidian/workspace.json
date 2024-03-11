@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 study-notes/121 MySQL for Developers/121 MySQL for Developers Index.md",
+                "file": "100 study-notes/107 Redis/107 Redis Index.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -21,13 +21,13 @@
             }
           },
           {
-            "id": "1e065f20aaf4ed6e",
+            "id": "943a8c80b3e6aa66",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 study-notes/121 MySQL for Developers/Indexes.md",
-                "mode": "source",
+                "file": "100 study-notes/121 MySQL for Developers/MySQL for Developers - Queries.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/121 MySQL for Developers/Indexes.md",
+                "file": "100 study-notes/121 MySQL for Developers/MySQL for Developers - Queries.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/121 MySQL for Developers/Indexes.md"
+                "file": "100 study-notes/121 MySQL for Developers/MySQL for Developers - Queries.md"
               }
             }
           },
@@ -145,7 +145,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/121 MySQL for Developers/Indexes.md",
+                "file": "100 study-notes/121 MySQL for Developers/MySQL for Developers - Queries.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -216,12 +216,20 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1e065f20aaf4ed6e",
+  "active": "943a8c80b3e6aa66",
   "lastOpenFiles": [
     "100 study-notes/121 MySQL for Developers/121 MySQL for Developers Index.md",
-    "100 study-notes/121 MySQL for Developers/Migrations.md",
-    "100 study-notes/121 MySQL for Developers/Schema.md",
-    "100 study-notes/121 MySQL for Developers/Indexes.md",
+    "100 study-notes/107 Redis/107 Redis Index.md",
+    "100 study-notes/107 Redis/attachments/Pasted image 20240311133212.png",
+    "100 study-notes/107 Redis/attachments",
+    "100 study-notes/117 Full Stack Development/Full Stack - Authentication.md",
+    "100 study-notes/107 Design Patterns/Design Patterns - Pillars of OOP.md",
+    "100 study-notes/117 Full Stack Development/Local Storage vs Session Storage vs Cookies.md",
+    "100 study-notes/107 Redis",
+    "100 study-notes/121 MySQL for Developers/MySQL for Developers - Queries.md",
+    "100 study-notes/121 MySQL for Developers/MySQL for Developers - Indexes.md",
+    "100 study-notes/121 MySQL for Developers/MySQL for Developers - Migrations.md",
+    "100 study-notes/121 MySQL for Developers/MySQL for Developers - Schema.md",
     "100 study-notes/121 MySQL for Developers/attachments/Pasted image 20240310150533.png",
     "100 study-notes/113 Terraform/Terraform - Expressions.md",
     "100 study-notes/121 MySQL for Developers/attachments/Pasted image 20240310131226.png",
@@ -247,20 +255,13 @@
     "100 study-notes/108 Python/Python - Must use packages.md",
     "100 study-notes/119 System Design/attachments/Pasted image 20240221173113.png",
     "100 study-notes/120 Azure/Azure - Fundamentals.md",
-    "100 study-notes/120 Azure/120 Azure Index.md",
     "100 study-notes/120 Azure/attachments/Pasted image 20240204102836.png",
     "100 study-notes/120 Azure/attachments/Pasted image 20240204102609.png",
     "100 study-notes/120 Azure/attachments/Pasted image 20240203114207.png",
-    "100 study-notes/120 Azure/attachments/Pasted image 20240203101618.png",
     "100 study-notes/120 Azure/attachments",
     "100 study-notes/120 Azure",
-    "100 study-notes/118 Prometheus/118 Prometheus Index.md",
-    "100 study-notes/118 Prometheus/Prometheus - PromQL.md",
-    "100 study-notes/118 Prometheus/Prometheus - Service Discovery & Relabelling.md",
-    "100 study-notes/118 Prometheus/Prometheus - Grafana.md",
     "100 study-notes/119 System Design/attachments",
     "100 study-notes/119 System Design",
-    "100 study-notes/118 Prometheus/attachments",
-    "100 study-notes/118 Prometheus"
+    "100 study-notes/118 Prometheus/attachments"
   ]
 }
