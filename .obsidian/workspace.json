@@ -26,8 +26,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 study-notes/121 MySQL for Developers/121 MySQL for Developers Index.md",
-                "mode": "preview",
+                "file": "100 study-notes/121 MySQL for Developers/Indexes.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/121 MySQL for Developers/121 MySQL for Developers Index.md",
+                "file": "100 study-notes/121 MySQL for Developers/Indexes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/121 MySQL for Developers/121 MySQL for Developers Index.md"
+                "file": "100 study-notes/121 MySQL for Developers/Indexes.md"
               }
             }
           },
@@ -145,7 +145,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/121 MySQL for Developers/121 MySQL for Developers Index.md",
+                "file": "100 study-notes/121 MySQL for Developers/Indexes.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -218,9 +218,13 @@
   },
   "active": "1e065f20aaf4ed6e",
   "lastOpenFiles": [
-    "100 study-notes/121 MySQL for Developers/Migrations.md",
     "100 study-notes/121 MySQL for Developers/121 MySQL for Developers Index.md",
+    "100 study-notes/121 MySQL for Developers/Migrations.md",
     "100 study-notes/121 MySQL for Developers/Schema.md",
+    "100 study-notes/121 MySQL for Developers/Indexes.md",
+    "100 study-notes/121 MySQL for Developers/attachments/Pasted image 20240310150533.png",
+    "100 study-notes/113 Terraform/Terraform - Expressions.md",
+    "100 study-notes/121 MySQL for Developers/attachments/Pasted image 20240310131226.png",
     "100 study-notes/121 MySQL for Developers/attachments/Pasted image 20240309130004.png",
     "100 study-notes/121 MySQL for Developers/attachments/Pasted image 20240309122257.png",
     "100 study-notes/121 MySQL for Developers/attachments/Pasted image 20240309111522.png",
@@ -254,11 +258,6 @@
     "100 study-notes/118 Prometheus/Prometheus - PromQL.md",
     "100 study-notes/118 Prometheus/Prometheus - Service Discovery & Relabelling.md",
     "100 study-notes/118 Prometheus/Prometheus - Grafana.md",
-    "100 study-notes/118 Prometheus/attachments/Pasted image 20240120102358.png",
-    "100 study-notes/118 Prometheus/Prometheus - Miscellaneous.md",
-    "100 study-notes/118 Prometheus/attachments/Pasted image 20240116161852.png",
-    "100 study-notes/118 Prometheus/Prometheus - Alerting.md",
-    "100 study-notes/118 Prometheus/Prometheus - Metrics & Labels.md",
     "100 study-notes/119 System Design/attachments",
     "100 study-notes/119 System Design",
     "100 study-notes/118 Prometheus/attachments",
