@@ -1,6 +1,6 @@
 ---
 created: 2024-03-11 12:00
-updated: 2024-03-12 12:25
+updated: 2024-03-12 16:19
 ---
 ---
 **Links**: [[121 MySQL for Developers Index]]
@@ -8,6 +8,12 @@ updated: 2024-03-12 12:25
 ---
 ## Queries
 - **The number one rule for writing good queries is using our indexes**.
+- When you run `SELECT *` statement on a database table. In that case, you’ll retrieve all the data in that table, including every row and column. Retrieving all this data can lead to significant performance issues, especially if you're dealing with large columns like `JSON` or `TEXT`.
+	- If you don't want to return certain columns while issuing a `SELECT *` query then you can make that particular column invisible and it won't be returned in the query.
+- When querying a table, we should *only request the rows that we need* instead of requesting all of the rows and then discarding most of them.
+	- If we want to count the number of rows in a table, we should not select all of the data and send it back to our application. Instead, we should push this down to the database and have the database do the counting.
+	- If we return 500,000 results but only show 10 to our users, we have wasted a lot of processing. Thus, it is important to limit (ex: `LIMIT 10 OFFSET 20`) the number of rows returned and only return as many rows as will be useful.
+- *Ordering results is an expensive operation*. Only do it if necessary.
 
 ### Using `EXPLAIN`
 - `EXPLAIN` is a *statement provided by MySQL that helps us analyze how queries are executed in a database*. 
@@ -60,3 +66,36 @@ SELECT * FROM film WHERE length / 60 < 2;
 SELECT * FROM film WHERE length < 2 * 60;
 ```
 
+### Joins
+- **By default the join is INNER join**.
+- An **inner join** takes the left table and the right table and matches them up together based on the criteria you specify. 
+	- *It only returns results that have a link in both tables*.
+
+```sql fold title:"Inner Join Query"
+SELECT * FROM store
+  INNER JOIN staff 
+  ON store.manager_staff_id = staff.id;
+```
+
+- A **left join** returns *all the records from the left table*, and any matching records from the right table.
+- A **right join** returns *all the records from the right table*, and any matching records from the left table.
+
+```sql fold title:"Left/Right Join Query"
+SELECT * FROM store
+  LEFT JOIN staff 
+  ON store.manager_staff_id = staff.id;
+
+-- right join
+SELECT * FROM store
+  RIGHT JOIN staff 
+  ON store.manager_staff_id = staff.id;
+```
+
+- If you're working with large tables, it's important to index your data properly to avoid long processing times when joining tables together.
+
+#### Indexing Joins
+- When MySQL joins tables together, it needs to figure out which rows from one table match which rows from the other table. 
+	- One way to do this is by doing a full table scan, which is slow and inefficient. 
+	- The better way is to *use an index on the related columns*.
+
+> [!caution]- Index the columns that is being used for joining otherwise the queries will become very slow.

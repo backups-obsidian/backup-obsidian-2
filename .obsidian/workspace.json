@@ -8,33 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "501b965ce073092f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "100 study-notes/107 Redis/107 Redis Index.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
             "id": "943a8c80b3e6aa66",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 study-notes/121 MySQL for Developers/MySQL for Developers - Queries.md",
-                "mode": "source",
+                "file": "100 study-notes/122 Kafka/Kafka - How it works.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/121 MySQL for Developers/MySQL for Developers - Queries.md",
+                "file": "100 study-notes/122 Kafka/Kafka - How it works.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/121 MySQL for Developers/MySQL for Developers - Queries.md"
+                "file": "100 study-notes/122 Kafka/Kafka - How it works.md"
               }
             }
           },
@@ -145,7 +131,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/121 MySQL for Developers/MySQL for Developers - Queries.md",
+                "file": "100 study-notes/122 Kafka/Kafka - How it works.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -218,7 +204,19 @@
   },
   "active": "943a8c80b3e6aa66",
   "lastOpenFiles": [
+    "100 study-notes/122 Kafka/122 Kafka Index.md",
+    "100 study-notes/122 Kafka/Kafka - How it works.md",
+    "100 study-notes/122 Kafka/Kafka - Introduction.md",
+    "100 study-notes/122 Kafka/attachments/Pasted image 20240313121603.png",
+    "100 study-notes/122 Kafka/attachments/Pasted image 20240313120626.png",
+    "100 study-notes/122 Kafka/attachments/Pasted image 20240313120133.png",
+    "100 study-notes/122 Kafka/attachments/Pasted image 20240313115951.png",
+    "100 study-notes/122 Kafka/attachments/Pasted image 20240313115319.png",
+    "100 study-notes/122 Kafka/attachments/Pasted image 20240313114252.png",
+    "100 study-notes/122 Kafka/attachments",
     "100 study-notes/121 MySQL for Developers/121 MySQL for Developers Index.md",
+    "100 study-notes/122 Kafka",
+    "100 study-notes/121 MySQL for Developers/MySQL for Developers - Queries.md",
     "100 study-notes/107 Redis/107 Redis Index.md",
     "100 study-notes/107 Redis/attachments/Pasted image 20240311133212.png",
     "100 study-notes/107 Redis/attachments",
@@ -226,7 +224,6 @@
     "100 study-notes/107 Design Patterns/Design Patterns - Pillars of OOP.md",
     "100 study-notes/117 Full Stack Development/Local Storage vs Session Storage vs Cookies.md",
     "100 study-notes/107 Redis",
-    "100 study-notes/121 MySQL for Developers/MySQL for Developers - Queries.md",
     "100 study-notes/121 MySQL for Developers/MySQL for Developers - Indexes.md",
     "100 study-notes/121 MySQL for Developers/MySQL for Developers - Migrations.md",
     "100 study-notes/121 MySQL for Developers/MySQL for Developers - Schema.md",
@@ -234,8 +231,6 @@
     "100 study-notes/113 Terraform/Terraform - Expressions.md",
     "100 study-notes/121 MySQL for Developers/attachments/Pasted image 20240310131226.png",
     "100 study-notes/121 MySQL for Developers/attachments/Pasted image 20240309130004.png",
-    "100 study-notes/121 MySQL for Developers/attachments/Pasted image 20240309122257.png",
-    "100 study-notes/121 MySQL for Developers/attachments/Pasted image 20240309111522.png",
     "100 study-notes/121 MySQL for Developers/attachments",
     "100 study-notes/100 home.md",
     "100 study-notes/121 MySQL for Developers",
@@ -252,16 +247,8 @@
     "100 study-notes/108 Python/108 Python Index.md",
     "100 study-notes/108 Python/Python - Multiprocessing vs Multithreading.md",
     "100 study-notes/108 Python/Python - Tips for writing better functions.md",
-    "100 study-notes/108 Python/Python - Must use packages.md",
-    "100 study-notes/119 System Design/attachments/Pasted image 20240221173113.png",
-    "100 study-notes/120 Azure/Azure - Fundamentals.md",
-    "100 study-notes/120 Azure/attachments/Pasted image 20240204102836.png",
-    "100 study-notes/120 Azure/attachments/Pasted image 20240204102609.png",
-    "100 study-notes/120 Azure/attachments/Pasted image 20240203114207.png",
     "100 study-notes/120 Azure/attachments",
     "100 study-notes/120 Azure",
-    "100 study-notes/119 System Design/attachments",
-    "100 study-notes/119 System Design",
-    "100 study-notes/118 Prometheus/attachments"
+    "100 study-notes/119 System Design/attachments"
   ]
 }
