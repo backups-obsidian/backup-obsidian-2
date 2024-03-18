@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 study-notes/122 Kafka/Kafka - How it works.md",
-                "mode": "preview",
+                "file": "100 study-notes/122 Kafka/Kafka - Introduction.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
@@ -104,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/122 Kafka/Kafka - How it works.md",
+                "file": "100 study-notes/122 Kafka/Kafka - Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/122 Kafka/Kafka - How it works.md"
+                "file": "100 study-notes/122 Kafka/Kafka - Introduction.md"
               }
             }
           },
@@ -131,7 +131,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/122 Kafka/Kafka - How it works.md",
+                "file": "100 study-notes/122 Kafka/Kafka - Introduction.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -205,20 +205,27 @@
   "active": "943a8c80b3e6aa66",
   "lastOpenFiles": [
     "100 study-notes/122 Kafka/122 Kafka Index.md",
-    "100 study-notes/122 Kafka/Kafka - How it works.md",
     "100 study-notes/122 Kafka/Kafka - Introduction.md",
+    "300 short-notes/Useful Links.md",
+    "100 study-notes/122 Kafka/Kafka - Topics & Partitions.md",
+    "100 study-notes/122 Kafka/Kafka - Zookeeper.md",
+    "100 study-notes/122 Kafka/attachments/Pasted image 20240318115109.png",
+    "100 study-notes/122 Kafka/Kafka - Producers & Consumers.md",
+    "100 study-notes/122 Kafka/attachments/Pasted image 20240318110742.png",
+    "100 study-notes/122 Kafka/attachments/Pasted image 20240318105810.png",
+    "100 study-notes/122 Kafka/Kafka - How it works.md",
+    "100 study-notes/122 Kafka/attachments/Pasted image 20240313142626.png",
+    "100 study-notes/122 Kafka/attachments/Pasted image 20240313142258.png",
+    "100 study-notes/122 Kafka/attachments/Pasted image 20240313141828.png",
+    "100 study-notes/122 Kafka/attachments/Pasted image 20240313140448.png",
+    "100 study-notes/122 Kafka/attachments/Pasted image 20240313140220.png",
+    "100 study-notes/122 Kafka/attachments/Pasted image 20240313135651.png",
     "100 study-notes/122 Kafka/attachments/Pasted image 20240313121603.png",
-    "100 study-notes/122 Kafka/attachments/Pasted image 20240313120626.png",
-    "100 study-notes/122 Kafka/attachments/Pasted image 20240313120133.png",
-    "100 study-notes/122 Kafka/attachments/Pasted image 20240313115951.png",
-    "100 study-notes/122 Kafka/attachments/Pasted image 20240313115319.png",
-    "100 study-notes/122 Kafka/attachments/Pasted image 20240313114252.png",
     "100 study-notes/122 Kafka/attachments",
     "100 study-notes/121 MySQL for Developers/121 MySQL for Developers Index.md",
     "100 study-notes/122 Kafka",
     "100 study-notes/121 MySQL for Developers/MySQL for Developers - Queries.md",
     "100 study-notes/107 Redis/107 Redis Index.md",
-    "100 study-notes/107 Redis/attachments/Pasted image 20240311133212.png",
     "100 study-notes/107 Redis/attachments",
     "100 study-notes/117 Full Stack Development/Full Stack - Authentication.md",
     "100 study-notes/107 Design Patterns/Design Patterns - Pillars of OOP.md",
@@ -227,10 +234,7 @@
     "100 study-notes/121 MySQL for Developers/MySQL for Developers - Indexes.md",
     "100 study-notes/121 MySQL for Developers/MySQL for Developers - Migrations.md",
     "100 study-notes/121 MySQL for Developers/MySQL for Developers - Schema.md",
-    "100 study-notes/121 MySQL for Developers/attachments/Pasted image 20240310150533.png",
     "100 study-notes/113 Terraform/Terraform - Expressions.md",
-    "100 study-notes/121 MySQL for Developers/attachments/Pasted image 20240310131226.png",
-    "100 study-notes/121 MySQL for Developers/attachments/Pasted image 20240309130004.png",
     "100 study-notes/121 MySQL for Developers/attachments",
     "100 study-notes/100 home.md",
     "100 study-notes/121 MySQL for Developers",
@@ -243,10 +247,6 @@
     "100 study-notes/119 System Design/119 System Design Index.md",
     "100 study-notes/119 System Design/System Design - CAP Theorem.md",
     "100 study-notes/119 System Design/System Design - Consistent Hashing.md",
-    "100 study-notes/108 Python/Python - How to setup python projects.md",
-    "100 study-notes/108 Python/108 Python Index.md",
-    "100 study-notes/108 Python/Python - Multiprocessing vs Multithreading.md",
-    "100 study-notes/108 Python/Python - Tips for writing better functions.md",
     "100 study-notes/120 Azure/attachments",
     "100 study-notes/120 Azure",
     "100 study-notes/119 System Design/attachments"

@@ -56,9 +56,12 @@
     "100 study-notes/121 MySQL for Developers/MySQL for Developers - Indexes.md": "8758f1120a50b71f7d1b62556b1499b44ec4653521d991108069b2179548ac84",
     "100 study-notes/121 MySQL for Developers/MySQL for Developers - Queries.md": "4448a8f19639ca4592a4f05d09cac8aaad2224c1a73a3dac47d1d3852a2696bf",
     "100 study-notes/107 Redis/107 Redis Index.md": "a551d8490fa8061b6bedbd05327fe3ac9735ea602900e2b6d0419c9d3312d392",
-    "100 study-notes/122 Kafka/122 Kafka Index.md": "c47027ee95989653ab157823f36cacf29daff589b9e8f6d57eeee4195cf8a4f5",
-    "100 study-notes/122 Kafka/Kafka - Introduction.md": "01a867e276ff42a8618b4e3eb94093270ac7f74d3b20097dd16dddcfaa0547ba",
-    "100 study-notes/122 Kafka/Kafka - How it works.md": "68df7a0497e653441a41b4bd01cdf86cafbf5d19fcd3179f3e55014d8b875210"
+    "100 study-notes/122 Kafka/122 Kafka Index.md": "6bb4b3fc4e9459e593ab0868e53053e5eccf26ac8ba0917aa29da9d220815162",
+    "100 study-notes/122 Kafka/Kafka - Introduction.md": "45e7eb0650d0ce6e46c74e6293ca5c39ce8e1154d4fd32db8faabc9ea60f0a9b",
+    "100 study-notes/122 Kafka/Kafka - Topics & Partitions.md": "794ad473f91d55a57afe6f9d207a2bd131eb347ccd92d74bc58d7a38a88657c8",
+    "100 study-notes/122 Kafka/Kafka - Producers & Consumers.md": "3a1b0bc0a5525eed7d5060a12cff224b888b2636e10c38f15f04945ec4275fb0",
+    "100 study-notes/122 Kafka/Kafka - Zookeeper.md": "f17eff28daa84be062f1cee01d8dc14789f911cc26a505743b89aa016519244b",
+    "300 short-notes/Useful Links.md": "e0515a2949ce18fe635dff6c41e3bc0d676cbe73ea7fe4a9b635bf4b66243c61"
   },
   "readDateFormat": "yyyy-MM-dd'T'HH:mm:ssxxx",
   "useDifferentReadFormat": false

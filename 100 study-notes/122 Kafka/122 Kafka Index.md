@@ -1,6 +1,6 @@
 ---
 created: 2024-03-13 11:27
-updated: 2024-03-13 12:16
+updated: 2024-03-18 11:44
 ---
 ---
 **Links**: [[122 Kafka Index]]
@@ -8,5 +8,7 @@ updated: 2024-03-13 12:16
 ---
 
 [[Kafka - Introduction]]
-[[Kafka - How it works]]
+[[Kafka - Topics & Partitions]]
+[[Kafka - Producers & Consumers]]
+[[Kafka - Zookeeper]]
 
